@@ -54,7 +54,7 @@ Provides methods for getting product information for an individual provider to i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWscProduct</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWscProduct</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWscProduct</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWscProduct</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWscProduct</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productname">ProductName</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productname">ProductName</a>
 </td>
 <td align="left" width="63%">
 Returns the current product information for the security product.
@@ -78,7 +78,7 @@ Returns the current product information for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstate">ProductState</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstate">ProductState</a>
 </td>
 <td align="left" width="63%">
 Returns the current state of the signature data for the security product.
@@ -87,7 +87,7 @@ Returns the current state of the signature data for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp">ProductStateTimeStamp</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp">ProductStateTimeStamp</a>
 </td>
 <td align="left" width="63%">
 Returns the current time  stamp for the security product.
@@ -96,7 +96,7 @@ Returns the current time  stamp for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_remediationpath">RemediationPath</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_remediationpath">RemediationPath</a>
 </td>
 <td align="left" width="63%">
 Returns the current remediation path for the security product.
@@ -105,7 +105,7 @@ Returns the current remediation path for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus">SignatureStatus</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus">SignatureStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the current status of the signature data for the security product.
@@ -113,4 +113,3 @@ Returns the current status of the signature data for the security product.
 </td>
 </tr>
 </table>
-

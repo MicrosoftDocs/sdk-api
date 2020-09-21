@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMFLOAT4X3</code> structure from twelve 
 	<code>float</code> values.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure from twelve
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> structure from twelve
 	scalar <code>float</code> values.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -174,9 +174,8 @@ Or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>

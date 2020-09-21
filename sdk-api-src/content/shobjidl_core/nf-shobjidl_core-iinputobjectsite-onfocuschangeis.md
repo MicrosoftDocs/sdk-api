@@ -56,9 +56,9 @@ Informs the browser that the focus has changed.
 
 ### -param punkObj
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object gaining or losing the focus.
+The address of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object gaining or losing the focus.
 
 ### -param fSetFocus
 
@@ -75,4 +75,3 @@ Returns S_OK if the method was successful, or a COM-defined error code otherwise
 ## -remarks
 
 The calling object should call this method whenever one of its windows gains or loses the input focus.
-

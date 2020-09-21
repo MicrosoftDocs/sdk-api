@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Compares two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures, based on default comparison units and settings.
+Compares two <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures, based on default comparison units and settings.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Compares two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the first <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to the first <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param propvar2 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the second <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to the second <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -78,7 +78,7 @@ Type: <b>INT</b>
 
 ## -remarks
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
+Calling <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> is equivalent to calling <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
 
 This function compares only selected types, not all types.
 
@@ -90,5 +90,4 @@ This is an inline function, with its source code provided in the header. It is n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a>

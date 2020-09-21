@@ -18,5 +18,4 @@ To develop Data Deduplication API, you need these headers:
  * [ddpbackup.h](../ddpbackup/index.md)
 
 For programming guidance for this technology, see:
-* [Data Deduplication API](https://docs.microsoft.com/previous-versions/windows/desktop/dedup)
-
+* [Data Deduplication API](/previous-versions/windows/desktop/dedup)

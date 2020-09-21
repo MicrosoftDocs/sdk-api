@@ -60,7 +60,7 @@ The data in the packet is not correlated with the previous packet's device posit
 
 ### -field AUDCLNT_BUFFERFLAGS_SILENT
 
-Treat all of the data in the packet as silence and ignore the actual data values. For more information about the use of this flag, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a> and <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
+Treat all of the data in the packet as silence and ignore the actual data values. For more information about the use of this flag, see <a href="/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a> and <a href="/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
 ### -field AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR
 
@@ -68,17 +68,16 @@ The time at which the device's stream position was recorded is uncertain. Thus, 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a> methods use the constants defined in the <b>_AUDCLNT_BUFFERFLAGS</b> enumeration.
+The <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> and <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a> methods use the constants defined in the <b>_AUDCLNT_BUFFERFLAGS</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>

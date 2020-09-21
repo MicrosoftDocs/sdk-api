@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setreadonly">EM_SETREADONLY</a> message explicitly.
+Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control.  You can use this macro or send the <a href="/windows/desktop/Controls/em-setreadonly">EM_SETREADONLY</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param fReadOnly
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to set the control to read-only; <b>FALSE</b> to remove the read-only style.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setreadonly">EM_SETREADONLY</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-setreadonly">EM_SETREADONLY</a>.

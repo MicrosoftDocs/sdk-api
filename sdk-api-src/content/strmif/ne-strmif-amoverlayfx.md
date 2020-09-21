@@ -68,13 +68,12 @@ Mirror the overlay across the horizontal axis.
 
 ### -field AMOVERFX_DEINTERLACE
 
-When used in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">IAMOverlayFX::QueryOverlayFXCaps</a>, this flag specifies whether the hardware can support the DirectDraw 7 DDOVERFX_DEINTERLACE hint. When used with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">IAMOverlayFX::GetOverlayFX</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">IAMOverlayFX::SetOverlayFX</a> methods, this flag indicates that the overlay should be deinterlaced if possible.
+When used in <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">IAMOverlayFX::QueryOverlayFXCaps</a>, this flag specifies whether the hardware can support the DirectDraw 7 DDOVERFX_DEINTERLACE hint. When used with the <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">IAMOverlayFX::GetOverlayFX</a> or <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">IAMOverlayFX::SetOverlayFX</a> methods, this flag indicates that the overlay should be deinterlaced if possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>

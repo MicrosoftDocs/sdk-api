@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DeviceIoControlAsync</b> method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function specified.
+The <b>DeviceIoControlAsync</b> method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function specified.
 
 ## -parameters
 
@@ -77,11 +77,11 @@ The size of output buffer, in bytes.
 
 ### -param requestCompletionCallback [in]
 
-The callback interface on which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion">RequestCompletion</a> method is called if the operation is submitted successfully.
+The callback interface on which the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion">RequestCompletion</a> method is called if the operation is submitted successfully.
 
 ### -param cancelContext [out]
 
-An optional pointer that receives a cancel context that can be passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation">CancelOperation</a>method to cancel an outstanding request.
+An optional pointer that receives a cancel context that can be passed to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation">CancelOperation</a>method to cancel an outstanding request.
 
 ## -returns
 
@@ -89,11 +89,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If the request is submitted successfully (that is, calling this function doesn't immediately return an error), the result of the operation is available in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion">RequestCompletion</a> callback of the supplied <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback">IDeviceRequestCompletionCallback</a> interface.
+If the request is submitted successfully (that is, calling this function doesn't immediately return an error), the result of the operation is available in the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion">RequestCompletion</a> callback of the supplied <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback">IDeviceRequestCompletionCallback</a> interface.
 
 An operation that the system (operating system or device driver) fails immediately doesn't result in a callback.This means that the caller  receives a callback only if this function returns <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
-
+<a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>

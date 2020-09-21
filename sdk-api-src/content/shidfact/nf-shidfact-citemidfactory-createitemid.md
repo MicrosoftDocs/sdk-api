@@ -60,11 +60,11 @@ A pointer to the client structure that should be copied.
 
 ### -param pps [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that will be seriallized into the ItemID.
+A pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that will be seriallized into the ItemID.
 
 ### -param ppidl [out]
 
-When this method returns, contains a pointer to the ItemID containing the client data and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> data.
+When this method returns, contains a pointer to the ItemID containing the client data and <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> data.
 
 ## -returns
 
@@ -72,17 +72,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistance and portability.
+The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistance and portability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>
-
+<a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>

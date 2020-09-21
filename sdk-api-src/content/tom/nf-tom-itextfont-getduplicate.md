@@ -56,7 +56,7 @@ Gets a duplicate of this text font object.
 
 ### -param ppFont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>**</b>
 
 The duplicate text font object.
 
@@ -64,7 +64,7 @@ The duplicate text font object.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,9 +108,9 @@ The font object is attached to a range that has been deleted.
 
 ## -remarks
 
-The duplicate property is the default property of an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
+The duplicate property is the default property of an <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
 
-For an example of how to use font duplicates, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>.
+For an example of how to use font duplicates, see <a href="/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>.
 
 ## -see-also
 
@@ -118,7 +118,7 @@ For an example of how to use font duplicates, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -126,13 +126,12 @@ For an example of how to use font duplicates, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setduplicate">SetDuplicate</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setduplicate">SetDuplicate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -72,5 +72,4 @@ In the case of a multi-format driver, the first GUID returned in the <i>targetTy
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
-
+<a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>

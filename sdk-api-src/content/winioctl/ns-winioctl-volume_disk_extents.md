@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Represents a physical location on a disk. It is the output buffer for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
     control code.
 
 ## -struct-fields
@@ -65,19 +65,18 @@ The number of disks in the volume (a volume can span multiple disks).
 
 An extent is a contiguous run of sectors on one disk. When the number of extents returned is greater than 
        one (1), the error code  <b>ERROR_MORE_DATA</b> is returned. You should call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> again, allocating enough buffer 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> again, allocating enough buffer 
        space based on the value of <b>NumberOfDiskExtents</b> after the first 
        <b>DeviceIoControl</b> call.
 
 ### -field Extents
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a> structures.
+An array of <a href="/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>

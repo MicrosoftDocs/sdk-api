@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains error information that is returned by a Windows Remote Management (WinRM) client. The <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-error">WSMAN_ERROR</a> structure is used by all callbacks to return error information and is valid only for the callback.
+Contains error information that is returned by a Windows Remote Management (WinRM) client. The <a href="/windows/desktop/WinRM/wsman-error">WSMAN_ERROR</a> structure is used by all callbacks to return error information and is valid only for the callback.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ Specifies the name of the computer. This field can be set to <b>NULL</b>.
 ### -field pluginName
 
 Specifies the name of the plug-in that generated the error. This field can be set to <b>NULL</b>.
-

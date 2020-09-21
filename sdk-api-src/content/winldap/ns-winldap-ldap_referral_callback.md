@@ -127,7 +127,7 @@ typedef ULONG (_cdecl DEREFERENCECONNECTION)
 
 
 To configure a session to use callbacks to obtain a cached connection, call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> (conn, LDAP_OPT_REFERRAL_CALLBACK, &amp;referralRoutines), where <i>referralRoutines</i> is the address of the <b>LDAP_REFERRAL_CALLBACK</b> structure that contains your routines. The addresses may be <b>NULL</b>, in which case the LDAP run time will not make the calls.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> (conn, LDAP_OPT_REFERRAL_CALLBACK, &amp;referralRoutines), where <i>referralRoutines</i> is the address of the <b>LDAP_REFERRAL_CALLBACK</b> structure that contains your routines. The addresses may be <b>NULL</b>, in which case the LDAP run time will not make the calls.
 
 The parameter descriptions for the preceding three functions are as follows:
 
@@ -135,7 +135,7 @@ The parameter descriptions for the preceding three functions are as follows:
 <li>
 <i>PrimaryConnection</i>
 
-The LDAP connection handle on which the operation was originally performed. For example, the handle passed in to a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add">ldap_add</a>, and so on.
+The LDAP connection handle on which the operation was originally performed. For example, the handle passed in to a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>, <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>, <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add">ldap_add</a>, and so on.
 
 </li>
 <li>
@@ -180,7 +180,7 @@ Used to announce the existence of the  new connection.
 <li>
 <i>ErrorCodeFromBind</i>
 
-Error code returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> when an attempt is made to  bind to the newly created connection (<i>NewConnection</i>).
+Error code returned from <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> when an attempt is made to  bind to the newly created connection (<i>NewConnection</i>).
 
 </li>
 <li>
@@ -193,9 +193,8 @@ The connection to be dereferenced.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>

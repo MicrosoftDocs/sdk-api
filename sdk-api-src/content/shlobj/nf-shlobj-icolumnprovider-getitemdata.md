@@ -58,13 +58,13 @@ Requests column data for a specified file.
 
 Type: <b>LPCSHCOLUMNID</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column.
+An <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure that identifies the column.
 
 ### -param pscd [in]
 
 Type: <b>LPCSHCOLUMNDATA</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumndata">SHCOLUMNDATA</a> structure that specifies the file.
+An <a href="/windows/desktop/api/shlobj/ns-shlobj-shcolumndata">SHCOLUMNDATA</a> structure that specifies the file.
 
 ### -param pvarData [out]
 
@@ -83,4 +83,3 @@ Returns S_OK if file data is returned, S_FALSE if the file is not supported by t
 This method is called to retrieve the data for a file to be displayed in the specified column. It should be thread-safe.
 
 This method is called for every file that Windows Explorer displays, even though many of them will not be supported by a particular column provider. To improve performance, first check the <b>pwszExt</b> member of the structure pointed to by <i>pscd</i> to see if it has a file name extension that is supported by the column provider. If not, avoid unnecessary processing by immediately returning S_FALSE.
-

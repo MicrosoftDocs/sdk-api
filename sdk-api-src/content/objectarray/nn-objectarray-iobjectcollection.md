@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> interface by providing methods that enable clients to add and remove objects that support <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in a collection.
+Extends the <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> interface by providing methods that enable clients to add and remove objects that support <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in a collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCollection</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCollection</b> interface inherits from <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IObjectCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addfromarray">AddFromArray</a>
+<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addfromarray">AddFromArray</a>
 </td>
 <td align="left" width="63%">
-Adds the objects contained in an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
+Adds the objects contained in an <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addobject">AddObject</a>
+<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addobject">AddObject</a>
 </td>
 <td align="left" width="63%">
 Adds a single object to the collection.
@@ -87,7 +87,7 @@ Adds a single object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-clear">Clear</a>
+<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -96,7 +96,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-removeobjectat">RemoveObjectAt</a>
+<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-removeobjectat">RemoveObjectAt</a>
 </td>
 <td align="left" width="63%">
 Removes a single, specified object from the collection.
@@ -109,4 +109,3 @@ Removes a single, specified object from the collection.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use this interface to interact with a collection of generic objects.
-

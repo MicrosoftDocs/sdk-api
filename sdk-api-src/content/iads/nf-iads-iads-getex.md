@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADs::GetEx</b> method retrieves, from the property cache, property values of a given attribute. The returned property values can be single-valued or multi-valued. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method, the property values are returned as a variant array of <b>VARIANT</b>, or a variant array of bytes for binary data. A single-valued property is then represented as an array of a single element.
+The <b>IADs::GetEx</b> method retrieves, from the property cache, property values of a given attribute. The returned property values can be single-valued or multi-valued. Unlike the <a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method, the property values are returned as a variant array of <b>VARIANT</b>, or a variant array of bytes for binary data. A single-valued property is then represented as an array of a single element.
 
 ## -parameters
 
@@ -67,11 +67,11 @@ Pointer to a <b>VARIANT</b> that receives the value, or values, of the property.
 This method supports the standard return values as well as the return values listed in the following list.
       
 
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> and <b>IADs::GetEx</b> methods return a different variant structure for a single-valued property value. If the property is a string, <b>IADs::Get</b> returns a variant of string (VT_BSTR), whereas <b>IADs::GetEx</b> returns a variant array of a <b>VARIANT</b> type string with a single element. Thus, if you are not sure that a multi-valued attribute will return a single value or multiple values, use <b>IADs::GetEx</b>. As it does not require you to validate the result's data structures, you may want to use <b>IADs::GetEx</b> to retrieve a property when you are not sure whether it has single or multiple values. The following list compares the two methods.
+The <a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> and <b>IADs::GetEx</b> methods return a different variant structure for a single-valued property value. If the property is a string, <b>IADs::Get</b> returns a variant of string (VT_BSTR), whereas <b>IADs::GetEx</b> returns a variant array of a <b>VARIANT</b> type string with a single element. Thus, if you are not sure that a multi-valued attribute will return a single value or multiple values, use <b>IADs::GetEx</b>. As it does not require you to validate the result's data structures, you may want to use <b>IADs::GetEx</b> to retrieve a property when you are not sure whether it has single or multiple values. The following list compares the two methods.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ Next
 </table>
  
 
-Like the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method, <b>IADs::GetEx</b> implicitly calls <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> against an uninitialized property cache. For more information about implicit and explicit calls to <b>IADs::GetInfo</b>, see   <b>IADs::GetInfo</b>.
+Like the  <a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method, <b>IADs::GetEx</b> implicitly calls <a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> against an uninitialized property cache. For more information about implicit and explicit calls to <b>IADs::GetInfo</b>, see   <b>IADs::GetInfo</b>.
 
 
 #### Examples
@@ -149,7 +149,7 @@ ErrTest:
 ```
 
 
-The following code example shows how to retrieve values of the optional properties of an object using the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method.
+The following code example shows how to retrieve values of the optional properties of an object using the <a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method.
 
 
 ```vb
@@ -227,25 +227,24 @@ if ( pADs )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property Cache Interfaces</a>
-
+<a href="/windows/desktop/ADSI/property-cache-interfaces">Property Cache Interfaces</a>

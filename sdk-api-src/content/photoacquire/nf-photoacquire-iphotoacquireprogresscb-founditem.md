@@ -57,7 +57,7 @@ The <code>FoundItem</code> method provides extended functionality each time an i
 
 ### -param pPhotoAcquireItem [in]
 
-Pointer to the found <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
+Pointer to the found <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
 
 ## -returns
 
@@ -98,5 +98,4 @@ Return S_FALSE to exclude the item from the results of the enumeration. This wou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

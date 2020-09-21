@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>waveOutUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function. This function must be called after the device driver is finished with a data block. You must call this function before freeing the buffer.
+The <b>waveOutUnprepareHeader</b> function cleans up the preparation performed by the <a href="/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function. This function must be called after the device driver is finished with a data block. You must call this function before freeing the buffer.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Handle to the waveform-audio output device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure identifying the data block to be cleaned up.
+Pointer to a <a href="/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure identifying the data block to be cleaned up.
 
 ### -param cbwh
 
@@ -131,9 +131,8 @@ Unpreparing a buffer that has not been prepared has no effect, and the function 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

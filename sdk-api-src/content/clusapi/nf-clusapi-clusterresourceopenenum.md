@@ -53,9 +53,9 @@ api_name:
 ## -description
 
 Opens an enumerator for iterating through a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource's</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>. The <b>PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource's</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a> and 
+    <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a>. The <b>PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -65,12 +65,12 @@ A handle to a resource.
 
 ### -param dwType [in]
 
-A bitmask that describes the type of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> 
+A bitmask that describes the type of <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> 
        to be enumerated.
 
 
 The following values of the 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_enum">CLUSTER_RESOURCE_ENUM</a> enumeration are valid.
+        <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_enum">CLUSTER_RESOURCE_ENUM</a> enumeration are valid.
 
 
 
@@ -98,7 +98,7 @@ The object is a node that can host the resource identified by <i>hResource</i>.
 If the operation succeeds, the function returns an enumeration handle.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       error, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -106,24 +106,23 @@ Do not call <b>ClusterResourceOpenEnum</b> from
      any resource DLL entry point function. 
      <b>ClusterResourceOpenEnum</b> can safely be called 
      from a worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Cluster Resource Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecloseenum">ClusterResourceCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecloseenum">ClusterResourceCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a>

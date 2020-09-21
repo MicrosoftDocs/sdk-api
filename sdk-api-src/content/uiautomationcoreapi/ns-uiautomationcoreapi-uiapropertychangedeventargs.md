@@ -56,35 +56,34 @@ api_name:
 
 ### -field Type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a> enumerated type indicating the type of event.
+A value from the <a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a> enumerated type indicating the type of event.
 
 ### -field EventId
 
 Type: <b>int</b>
 
-The identifier of the event. For a list of event identifiers, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
+The identifier of the event. For a list of event identifiers, see <a href="/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
 ### -field PropertyId
 
 Type: <b>PROPERTYID</b>
 
-The identifier of the property that has changed. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The identifier of the property that has changed. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -field OldValue
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> containing the old value of the property.
+A <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> containing the old value of the property.
 
 ### -field NewValue
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> containing the new value of the property.
+A <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> containing the new value of the property.
 
 ## -remarks
 
 The old value might not be set if the UI Automation provider cannot do so efficiently.
-

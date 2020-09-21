@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEAGENTINFO</b> structure contains information about an ACD agent. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentinfo">lineGetAgentInfo</a> function returns the 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentinfo">lineGetAgentInfo</a> function returns the 
 <b>LINEAGENTINFO</b> structure.
 
 ## -struct-fields
@@ -76,12 +76,12 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwAgentState
 
 Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>.
 
 ### -field dwNextAgentState
 
 Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ constants</a>.
 
 ### -field dwMeasurementPeriod
 
@@ -117,9 +117,8 @@ Number of seconds spent on ACD call wrap-up (after call work) by this agent acro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentinfo">lineGetAgentInfo</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentinfo">lineGetAgentInfo</a>

@@ -76,11 +76,11 @@ PHONEERR_INVALDEVICECLASS, PHONEERR_OPERATIONFAILED, PHONEERR_NOMEM, PHONEERR_OP
 ## -remarks
 
 <b>TSPI_phoneGetIcon</b> causes the provider to return a handle (in the <b>DWORD</b> pointed to by <i>lphIcon</i>) to an icon resource (obtained from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function) associated with the specified phone. The icon handle is for a resource associated with the provider.
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function) associated with the specified phone. The icon handle is for a resource associated with the provider.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>. For example, if the phone supports the Comm API, passing comm/datamodem as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. For more information about common device classes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tspi-device-classes">TSPI Device Classes</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>. For example, if the phone supports the Comm API, passing comm/datamodem as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. For more information about common device classes, see 
+<a href="/windows/desktop/Tapi/tspi-device-classes">TSPI Device Classes</a>.
 
 The parameters "tapi/phone", "", or <b>NULL</b> can be used to request the icon for the phone device. A provider can choose to support many icons (selected by <i>lpszDeviceClass</i> and/or phone number), a single icon (such as for the manufacturer, which would be returned for all <i>phoneGetIcon</i> requests regardless of the <i>lpszDeviceClass</i> selected), or no icons, in which case it sets the <b>DWORD</b> pointed to by <i>lphIcon</i> to <b>NULL</b>. TAPI examines the handle returned by the provider, and if the provider returns <b>NULL</b>, TAPI substitutes a generic  Telephony icon included as a resource in TAPI (the generic phone icon).
 
@@ -88,9 +88,8 @@ If the service provider supports no icons, it can leave this function unimplemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>

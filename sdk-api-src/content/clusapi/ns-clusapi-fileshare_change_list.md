@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Describes an event notification list for file shares managed by the File Server 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
 ## -struct-fields
 
@@ -66,13 +66,12 @@ The number of entries the event notification list contains.
 ### -field ChangeEntry
 
 An entry in the event notification list. The format of this member comes from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a> structure.
+       <a href="/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

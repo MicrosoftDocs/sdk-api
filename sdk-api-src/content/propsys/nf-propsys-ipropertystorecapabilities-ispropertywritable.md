@@ -58,7 +58,7 @@ Queries whether the property handler allows a specific property to be edited in 
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that represents the property being queried.
+A reference to <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that represents the property being queried.
 
 ## -returns
 
@@ -97,5 +97,4 @@ The property cannot be edited.
 
 ## -remarks
 
-The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
-
+The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.

@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>SetCreationClassName</b> method sets the <b>CreationClassName</b> string property, if any, of the given instance to the name of this provider.
@@ -72,4 +72,3 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if it was u
 ## -remarks
 
 The <b>SetCreationClassName</b> method sets the value of the <b>CreateClassName</b> property to the name of the current class. Not all classes have a <b>CreationClassName</b> property.
-

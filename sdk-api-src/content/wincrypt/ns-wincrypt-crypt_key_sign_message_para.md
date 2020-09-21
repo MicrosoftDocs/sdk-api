@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_KEY_SIGN_MESSAGE_PARA</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and algorithms used to sign a message.
+The <b>CRYPT_KEY_SIGN_MESSAGE_PARA</b> structure contains information about the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and algorithms used to sign a message.
 
 ## -struct-fields
 
@@ -78,7 +78,7 @@ Specifies the type of message and certificate encoding used. This can be a combi
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
+Specifies <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Specifies PKCS 7 message encoding.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-The handle of the CSP to use to sign the message. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function is called to obtain this handle.
+The handle of the CSP to use to sign the message. The <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function is called to obtain this handle.
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
@@ -106,7 +106,7 @@ The handle of the Cryptography API: Next Generation (CNG) CSP to use to sign the
 
 ### -field dwKeySpec
 
-Identifies the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to use to sign the message. This must be one of the following values. This member is ignored if a CNG key is passed in the <i>hNCryptKey</i> member.
+Identifies the type of <a href="/windows/desktop/SecGloss/p-gly">private key</a> to use to sign the message. This must be one of the following values. This member is ignored if a CNG key is passed in the <i>hNCryptKey</i> member.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ Use the digital signature key.
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to generate the hash of the message. This must be a hash algorithm.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to generate the hash of the message. This must be a hash algorithm.
 
 ### -field pvHashAuxInfo
 
@@ -145,5 +145,4 @@ This member is not used and must be set to <b>NULL</b>.
 
 ### -field PubKeyAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.
-
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.

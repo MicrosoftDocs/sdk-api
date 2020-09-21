@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>.
+Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Plug-ins should call this method after they complete their termination process o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>

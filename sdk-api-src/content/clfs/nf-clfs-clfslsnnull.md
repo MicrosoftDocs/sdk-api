@@ -56,7 +56,7 @@ Determines whether a specified LSN is equal to the smallest possible LSN, which 
 
 ### -param plsn [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be tested.
+A pointer to the <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be tested.
 
 ## -returns
 
@@ -64,13 +64,12 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsnequal">LsnEqual</a>
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsnequal">LsnEqual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsngreater">LsnGreater</a>
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsngreater">LsnGreater</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/nf-clfs-clfslsnless">LsnLess</a>
-
+<a href="/windows/desktop/api/clfs/nf-clfs-clfslsnless">LsnLess</a>

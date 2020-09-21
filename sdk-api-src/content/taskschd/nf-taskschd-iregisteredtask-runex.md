@@ -64,11 +64,11 @@ If you pass in values such as "0", "100", and "250" as an array of <b>BSTR</b> v
 
 A maximum of 32 <b>BSTR</b> values can be specified.
 
-For more information and a list of action properties that can use $(Arg0), $(Arg1), ..., $(Arg32) variables in their values, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
+For more information and a list of action properties that can use $(Arg0), $(Arg1), ..., $(Arg32) variables in their values, see <a href="/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
 
 ### -param flags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
+A <a href="/windows/desktop/api/taskschd/ne-taskschd-task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
 
 ### -param sessionID [in]
 
@@ -86,9 +86,9 @@ The user for which  the task runs.
 
 ### -param ppRunningTask [out, optional]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface that  defines the new instance of the task.
+An <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface that  defines the new instance of the task.
 
-Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 ## -returns
 
@@ -96,15 +96,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method will return without error, but the task will not run if the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart">AllowDemandStart</a> property of ITaskSettings is set to false for the task.
+This method will return without error, but the task will not run if the <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart">AllowDemandStart</a> property of ITaskSettings is set to false for the task.
 
 If <b>IRegisteredTask::RunEx</b> is invoked from a disabled task, it will return S_OK, but the task will not be run.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

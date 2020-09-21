@@ -178,7 +178,7 @@ If you set this flag, then after the join operation succeeds, the machine passwo
 Indicates that the service principal name (SPN) and the DnsHostName properties on the computer object should not be updated at this time. 
 
 Typically, these properties are updated during the join operation. Instead, these properties should be updated during a subsequent call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a> function. These properties are always updated during the rename operation. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a> function. These properties are always updated during the rename operation. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Allow the domain join if existing account is a domain controller.
 <td width="60%">
 Join the target machine specified in <i>lpServer</i> parameter with a new name queried from the registry on the machine specified in the <i>lpServer</i> parameter. 
 
-This option is used if <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> has been called prior to rebooting the machine. The new computer name will not take effect until a reboot. With this option, the caller instructs the <b>NetJoinDomain</b> function to use the new name during the domain join operation. A reboot is required after calling <b>NetJoinDomain</b> successfully at which time both the computer name change and domain membership change will have taken affect.  
+This option is used if <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> has been called prior to rebooting the machine. The new computer name will not take effect until a reboot. With this option, the caller instructs the <b>NetJoinDomain</b> function to use the new name during the domain join operation. A reboot is required after calling <b>NetJoinDomain</b> successfully at which time both the computer name change and domain membership change will have taken affect.  
 
 <div class="alert"><b>Note</b>  This flag is supported on Windows Vista and later.</div>
 <div> </div>
@@ -219,7 +219,7 @@ This option is used if <a href="https://docs.microsoft.com/windows/desktop/api/s
 <td width="60%">
 Join the target machine specified in <i>lpServer</i> parameter using a pre-created account without requiring a writable domain controller. 
 
-This option provides the ability to join a machine to domain if an account has already been provisioned and replicated to  a read-only domain controller. The target read-only domain controller is specified as part of the <i>lpDomain</i> parameter, after the domain name delimited by a ‘\’ character. This provisioning must include the machine secret. The machine account must be added via group membership into the allowed list for password replication policy, and the account password must be replicated to the read-only domain controller prior to the join operation. For more information, see the information on <a href="https://technet.microsoft.com/library/cc753470(WS.10).aspx">Password Replication Policy Administration</a>.
+This option provides the ability to join a machine to domain if an account has already been provisioned and replicated to  a read-only domain controller. The target read-only domain controller is specified as part of the <i>lpDomain</i> parameter, after the domain name delimited by a ‘\’ character. This provisioning must include the machine secret. The machine account must be added via group membership into the allowed list for password replication policy, and the account password must be replicated to the read-only domain controller prior to the join operation. For more information, see the information on <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753470(v=ws.10)">Password Replication Policy Administration</a>.
 
 Starting with Windows 7, an alternate mechanism is to use the offline domain join mechanism. For more information, see the <b>NetProvisionComputerAccount</b> and <b>NetRequestOfflineDomainJoin</b> functions.
 
@@ -326,7 +326,7 @@ If this bit is set, unrecognized flags
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -450,65 +450,64 @@ A system reboot is required after calling the <b>NetJoinDomain</b> function for 
 
 <b>Windows Server 2003 and Windows XP:  </b>When a call to the 
 <b>NetJoinDomain</b> function precedes a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a> function, you should defer the update of the SPN and DnsHostName properties on the computer object until the rename operation. This is because the join operation can fail in certain situations. An example of such a situation is when the SPN that is derived from the current computer name is not valid in the new domain that the computer is joining, but the SPN derived from the new name that the computer will have after the rename operation is valid in the new domain. In this situation, the call to 
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a> function, you should defer the update of the SPN and DnsHostName properties on the computer object until the rename operation. This is because the join operation can fail in certain situations. An example of such a situation is when the SPN that is derived from the current computer name is not valid in the new domain that the computer is joining, but the SPN derived from the new name that the computer will have after the rename operation is valid in the new domain. In this situation, the call to 
 <b>NetJoinDomain</b> fails unless you defer the update of the two properties until the rename operation by specifying the NETSETUP_DEFER_SPN_SET flag in the <i>fJoinOptions</i> parameter when you call 
 <b>NetJoinDomain</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
+<a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd392267(v=ws.10)">Offline Domain Join Step-by-Step Guide</a>
 
 
 
-<a href="https://technet.microsoft.com/library/cc753470(WS.10).aspx">Password Replication Policy Administration</a>
-
+<a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753470(v=ws.10)">Password Replication Policy Administration</a>

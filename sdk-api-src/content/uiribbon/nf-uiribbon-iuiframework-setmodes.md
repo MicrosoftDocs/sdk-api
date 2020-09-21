@@ -78,27 +78,26 @@ A mode indicates the functionality required and, therefore, which elements shoul
 Modes are specified for elements in the Ribbon markup and bound to individual controls at run time.
 			
 
-Modes can be applied to a Ribbon <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-group">Group</a>. 
+Modes can be applied to a Ribbon <a href="/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-group">Group</a>. 
 				
 
-<div class="alert"><b>Note</b>  Modes can be applied to <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-button">Button</a>, <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-splitbutton">SplitButton</a>, and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-dropdownbutton">DropDownButton</a> controls when hosted in the left 
+<div class="alert"><b>Note</b>  Modes can be applied to <a href="/windows/desktop/windowsribbon/windowsribbon-element-button">Button</a>, <a href="/windows/desktop/windowsribbon/windowsribbon-element-splitbutton">SplitButton</a>, and <a href="/windows/desktop/windowsribbon/windowsribbon-element-dropdownbutton">DropDownButton</a> controls when hosted in the left 
 				column of the Application Menu. 
 				</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-applicationmodes">Reconfiguring the Ribbon with Application Modes</a>
+<a href="/windows/desktop/windowsribbon/ribbon-applicationmodes">Reconfiguring the Ribbon with Application Modes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CryptCATCDFClose</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. <b>CryptCATCDFClose</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
+The [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. <b>CryptCATCDFClose</b> is called by <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 ## -parameters
 
 ### -param pCDF [in]
 
-A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
+A pointer to a [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 ## -returns
 
@@ -70,9 +70,8 @@ Before closing the catalog output file specified in  <i>pCDF</i>, the <b>CryptCA
 
 ## -see-also
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
+[CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
-
+<a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>

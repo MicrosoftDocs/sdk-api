@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The  <b>MsiEndTransaction</b> function can commit or roll back all the installations belonging to the transaction opened by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function. This function should be called by the current owner of the transaction. 
+The  <b>MsiEndTransaction</b> function can commit or roll back all the installations belonging to the transaction opened by the <a href="/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function. This function should be called by the current owner of the transaction. 
 
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ The value of this parameter determines whether the installer commits or rolls ba
 </dl>
 </td>
 <td width="60%">
-Performs a <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">Rollback Installation</a> to undo changes to the system belonging to the transaction opened by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function.
+Performs a <a href="/windows/desktop/Msi/rollback-installation">Rollback Installation</a> to undo changes to the system belonging to the transaction opened by the <a href="/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Performs a <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-inst
 </dl>
 </td>
 <td width="60%">
-Commits all changes to the system belonging to the transaction. Runs any <a href="https://docs.microsoft.com/windows/desktop/Msi/commit-custom-actions">Commit Custom Actions</a> and commits to the system any changes to Win32 or common language runtime assemblies. Deletes the rollback script, and after using this option, the transaction's changes can no longer be undone with a  <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">Rollback Installation</a>.  
+Commits all changes to the system belonging to the transaction. Runs any <a href="/windows/desktop/Msi/commit-custom-actions">Commit Custom Actions</a> and commits to the system any changes to Win32 or common language runtime assemblies. Deletes the rollback script, and after using this option, the transaction's changes can no longer be undone with a  <a href="/windows/desktop/Msi/rollback-installation">Rollback Installation</a>.  
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ An installation belonging to the transaction is still in progress.
 </dl>
 </td>
 <td width="60%">
-An installation belonging to the transaction did not complete. During the installation, the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablerollback-action">DisableRollback</a> action disabled <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">rollback installations</a> of the package. The installer rolls back the installation up to the point where rollback was disabled, and the function returns this error.
+An installation belonging to the transaction did not complete. During the installation, the <a href="/windows/desktop/Msi/disablerollback-action">DisableRollback</a> action disabled <a href="/windows/desktop/Msi/rollback-installation">rollback installations</a> of the package. The installer rolls back the installation up to the point where rollback was disabled, and the function returns this error.
 
 </td>
 </tr>
@@ -147,5 +147,4 @@ An installation belonging to the transaction did not complete. During the instal
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
 
 ## -struct-fields
 
@@ -95,19 +95,19 @@ This member can be one of the following values.
 </tr>
 <tr>
 <td>1</td>
-<td>The bitmap is monochrome, and the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains two entries. Each bit in the bitmap array represents a pixel. If the bit is clear, the pixel is displayed with the color of the first entry in the <b>bmiColors</b> color table. If the bit is set, the pixel has the color of the second entry in the table.</td>
+<td>The bitmap is monochrome, and the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains two entries. Each bit in the bitmap array represents a pixel. If the bit is clear, the pixel is displayed with the color of the first entry in the <b>bmiColors</b> color table. If the bit is set, the pixel has the color of the second entry in the table.</td>
 </tr>
 <tr>
 <td>4</td>
-<td>The bitmap has a maximum of 16 colors, and the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains up to 16 entries. Each pixel in the bitmap is represented by a 4-bit index into the color table. For example, if the first byte in the bitmap is 0x1F, the byte represents two pixels. The first pixel contains the color in the second table entry, and the second pixel contains the color in the sixteenth table entry.</td>
+<td>The bitmap has a maximum of 16 colors, and the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains up to 16 entries. Each pixel in the bitmap is represented by a 4-bit index into the color table. For example, if the first byte in the bitmap is 0x1F, the byte represents two pixels. The first pixel contains the color in the second table entry, and the second pixel contains the color in the sixteenth table entry.</td>
 </tr>
 <tr>
 <td>8</td>
-<td>The bitmap has a maximum of 256 colors, and the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains up to 256 entries. In this case, each byte in the array represents a single pixel.</td>
+<td>The bitmap has a maximum of 256 colors, and the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> contains up to 256 entries. In this case, each byte in the array represents a single pixel.</td>
 </tr>
 <tr>
 <td>16</td>
-<td>The bitmap has a maximum of 2^16 colors. If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> structure is BI_RGB, the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each <b>WORD</b> in the bitmap array represents a single pixel. The relative intensities of red, green, and blue are represented with five bits for each color component. The value for blue is in the least significant five bits, followed by five bits each for green and red. The most significant bit is not used. The <b>bmiColors</b> color table is used for optimizing colors used on palette-based devices, and must contain the number of entries specified by the <b>bV5ClrUsed</b> member of the <b>BITMAPV5HEADER</b>.If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> is BI_BITFIELDS, the <b>bmiColors</b> member contains three <b>DWORD</b> color masks that specify the red, green, and blue components, respectively, of each pixel. Each <b>WORD</b> in the bitmap array represents a single pixel.
+<td>The bitmap has a maximum of 2^16 colors. If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> structure is BI_RGB, the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each <b>WORD</b> in the bitmap array represents a single pixel. The relative intensities of red, green, and blue are represented with five bits for each color component. The value for blue is in the least significant five bits, followed by five bits each for green and red. The most significant bit is not used. The <b>bmiColors</b> color table is used for optimizing colors used on palette-based devices, and must contain the number of entries specified by the <b>bV5ClrUsed</b> member of the <b>BITMAPV5HEADER</b>.If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> is BI_BITFIELDS, the <b>bmiColors</b> member contains three <b>DWORD</b> color masks that specify the red, green, and blue components, respectively, of each pixel. Each <b>WORD</b> in the bitmap array represents a single pixel.
 
 When the <b>bV5Compression</b> member is BI_BITFIELDS, bits set in each <b>DWORD</b> mask must be contiguous and should not overlap the bits of another mask. All the bits in the pixel do not need to be used.
 
@@ -115,11 +115,11 @@ When the <b>bV5Compression</b> member is BI_BITFIELDS, bits set in each <b>DWORD
 </tr>
 <tr>
 <td>24</td>
-<td>The bitmap has a maximum of 2^24 colors, and the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each 3-byte triplet in the bitmap array represents the relative intensities of blue, green, and red, respectively, for a pixel. The <b>bmiColors</b> color table is used for optimizing colors used on palette-based devices, and must contain the number of entries specified by the <b>bV5ClrUsed</b> member of the <b>BITMAPV5HEADER</b> structure.</td>
+<td>The bitmap has a maximum of 2^24 colors, and the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each 3-byte triplet in the bitmap array represents the relative intensities of blue, green, and red, respectively, for a pixel. The <b>bmiColors</b> color table is used for optimizing colors used on palette-based devices, and must contain the number of entries specified by the <b>bV5ClrUsed</b> member of the <b>BITMAPV5HEADER</b> structure.</td>
 </tr>
 <tr>
 <td>32</td>
-<td>The bitmap has a maximum of 2^32 colors. If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> is BI_RGB, the <b>bmiColors</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each <b>DWORD</b> in the bitmap array represents the relative intensities of blue, green, and red for a pixel. The value for 
+<td>The bitmap has a maximum of 2^32 colors. If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> is BI_RGB, the <b>bmiColors</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> is <b>NULL</b>. Each <b>DWORD</b> in the bitmap array represents the relative intensities of blue, green, and red for a pixel. The value for 
     blue is in the least significant 8 bits, followed by 8 bits each for green
     and red.  The high byte in each <b>DWORD</b> is not used. The <b>bmiColors</b> color table is used for optimizing colors used on palette-based devices, and must contain the number of entries specified by the <b>bV5ClrUsed</b> member of the <b>BITMAPV5HEADER</b>.If the <b>bV5Compression</b> member of the <b>BITMAPV5HEADER</b> is BI_BITFIELDS, the <b>bmiColors</b> member contains three <b>DWORD</b> color masks that specify the red, green, and blue components of each pixel. Each <b>DWORD</b> in the bitmap array represents a single pixel.
 
@@ -142,11 +142,11 @@ Specifies that the bitmap is not compressed. The <b>bV5RedMask</b>, <b>bV5GreenM
 </tr>
 <tr>
 <td>BI_RLE8</td>
-<td>A run-length encoded (RLE) format for bitmaps with 8 bpp. The compression format is a two-byte format consisting of a count byte followed by a byte containing a color index. If <b>bV5Compression</b> is BI_RGB and the <b>bV5BitCount</b> member is 16, 24, or 32, the bitmap array specifies the actual intensities of blue, green, and red rather than using color table indexes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-compression">Bitmap Compression</a>.</td>
+<td>A run-length encoded (RLE) format for bitmaps with 8 bpp. The compression format is a two-byte format consisting of a count byte followed by a byte containing a color index. If <b>bV5Compression</b> is BI_RGB and the <b>bV5BitCount</b> member is 16, 24, or 32, the bitmap array specifies the actual intensities of blue, green, and red rather than using color table indexes. For more information, see <a href="/windows/desktop/gdi/bitmap-compression">Bitmap Compression</a>.</td>
 </tr>
 <tr>
 <td>BI_RLE4</td>
-<td>An RLE format for bitmaps with 4 bpp. The compression format is a two-byte format consisting of a count byte followed by two word-length color indexes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-compression">Bitmap Compression</a>.</td>
+<td>An RLE format for bitmaps with 4 bpp. The compression format is a two-byte format consisting of a count byte followed by two word-length color indexes. For more information, see <a href="/windows/desktop/gdi/bitmap-compression">Bitmap Compression</a>.</td>
 </tr>
 <tr>
 <td>BI_BITFIELDS</td>
@@ -236,7 +236,7 @@ The following table specifies the values for <b>bV5CSType</b>.
 </table>
  
 
-See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> structure for information that defines a logical color space.
+See the <a href="/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> structure for information that defines a logical color space.
 
 ### -field bV5Endpoints
 
@@ -307,7 +307,7 @@ This member has been reserved. Its value should be set to zero.
 
 If <b>bV5Height</b> is negative, indicating a top-down DIB, <b>bV5Compression</b> must be either BI_RGB or BI_BITFIELDS. Top-down DIBs cannot be compressed.
 
-The Independent Color Management interface (ICM) 2.0 allows International Color Consortium (ICC) color profiles to be linked or embedded in DIBs (DIBs). See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/using-structures-in-wcs-1-0">Using Structures</a> for more information.
+The Independent Color Management interface (ICM) 2.0 allows International Color Consortium (ICC) color profiles to be linked or embedded in DIBs (DIBs). See <a href="/previous-versions/windows/desktop/wcs/using-structures-in-wcs-1-0">Using Structures</a> for more information.
 
 When a DIB is loaded into memory, the profile data (if present) should follow the color table, and the <b>bV5ProfileData</b> should provide the offset of the profile data from the beginning of the <b>BITMAPV5HEADER</b> structure. The value stored in <b>bV5ProfileData</b> will be different from the value returned by the <b>sizeof</b> operator given the <b>BITMAPV5HEADER</b> argument, because <b>bV5ProfileData</b> is the offset in bytes from the beginning of the <b>BITMAPV5HEADER</b> structure to the start of the profile data. (Bitmap bits do not follow the color table in memory). Applications should modify the <b>bV5ProfileData</b> member after loading the DIB into memory.
 
@@ -315,27 +315,27 @@ For packed DIBs, the profile data should follow the bitmap bits similar to the f
 
 Applications should access the profile data only when <b>bV5Size</b> equals the size of the <b>BITMAPV5HEADER</b> and <b>bV5CSType</b> equals PROFILE_EMBEDDED or PROFILE_LINKED.
 
-If a profile is linked, the path of the profile can be any fully qualified name (including a network path) that can be opened using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+If a profile is linked, the path of the profile can be any fully qualified name (including a network path) that can be opened using the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
@@ -343,13 +343,12 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

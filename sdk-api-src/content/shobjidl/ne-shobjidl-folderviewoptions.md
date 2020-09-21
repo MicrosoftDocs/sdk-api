@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewoptions">IFolderViewOptions</a> interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
+Used by methods of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewoptions">IFolderViewOptions</a> interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
 
 ## -enum-fields
 
@@ -87,4 +87,3 @@ Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/s
 A scroll tip displays the names of files as they are scrolled past, as a visual clue to your location in the list. An example is shown here.
 
 <img alt="Screen shot of a Scroll tip displaying the name of the Shell32.dll file in the System32 folder." src="./images/scrolltip.jpg"/>
-

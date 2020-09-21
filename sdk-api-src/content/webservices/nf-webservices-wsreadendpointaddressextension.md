@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Reads an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
+Reads an extension of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ The type of extension to read.
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -81,13 +81,13 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a>.
                 </li>
 </ul>
 
@@ -100,12 +100,12 @@ The heap to use to store the value that is read.
 The address of a buffer to place the value read.
                 
 
-If using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> for the readOption
+If using <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> for the readOption
                     parameter, the buffer must be the size of the type of extension
-                    being read (which varies by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_endpoint_address_extension_type">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
+                    being read (which varies by <a href="/windows/desktop/api/webservices/ne-webservices-ws_endpoint_address_extension_type">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
                 
 
-If using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
+If using <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
                     the buffer should be the size of a pointer.
 
 ### -param valueSize [in]
@@ -186,4 +186,3 @@ The returned value is valid until the heap is freed or reset.
 
 If the requested extension type appears more than once in the
                 extensions buffer, then the first instance is returned.
-

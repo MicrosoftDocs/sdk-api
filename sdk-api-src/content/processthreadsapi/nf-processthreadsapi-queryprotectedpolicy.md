@@ -74,8 +74,7 @@ True if the function succeeds; otherwise, false.
 
 Protected policies are process-wide configuration settings that are stored in read-only memory. This is intended to help protect the policy from being corrupted or altered in an unintended way while an application is executing.
 
-To compile an application that calls this function, define _WIN32_WINNT as 0x0603 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers.</a>
+To compile an application that calls this function, define _WIN32_WINNT as 0x0603 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers.</a>
 
 
 This function became available in Windows 8.1 and  Windows Server 2012 R2 update 3 (the November 2014 update).
-

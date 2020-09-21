@@ -52,9 +52,9 @@ api_name:
 ## -description
 
 Constructs a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> and a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a>.
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
+    <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> and a 
+    <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a>.
 
 ## -parameters
 
@@ -87,7 +87,7 @@ If the function returns <b>ERROR_MORE_DATA</b>, <i>pcbRequired</i> points to the
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -141,7 +141,7 @@ The parameter block provides the property values.
 
 The following example defines three properties (Protocol, PortNumber, and ConnectionName). It uses the 
      <b>ResUtilPropertyListFromParameterBlock</b> function to create a property list. This 
-     example uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
+     example uses the <a href="/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 
@@ -272,5 +272,4 @@ The following example defines three properties (Protocol, PortNumber, and Connec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

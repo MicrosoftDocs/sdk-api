@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
+The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
 
 ## -parameters
 
@@ -65,7 +65,6 @@ Reserved for future use.
 
 ## -remarks
 
-Any additions or modifications to an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object are not persisted until the <b>Submit</b> method is called. The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-delete">Delete</a>  method automatically submits changes.
+Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object are not persisted until the <b>Submit</b> method is called. The <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-delete">Delete</a>  method automatically submits changes.
 
-The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
-
+The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.

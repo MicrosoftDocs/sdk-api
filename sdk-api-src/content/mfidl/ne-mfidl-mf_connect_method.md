@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies how the topology loader connects a topology node. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-connect-method-attribute">MF_TOPONODE_CONNECT_METHOD</a> attribute.
+Specifies how the topology loader connects a topology node. This enumeration is used with the <a href="/windows/desktop/medfound/mf-toponode-connect-method-attribute">MF_TOPONODE_CONNECT_METHOD</a> attribute.
 
 ## -enum-fields
 
@@ -71,7 +71,7 @@ Add a decoder transform upstream upstream from this node, if needed to complete 
 ### -field MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES
 
 Controls the order in which the topology loader attempts to  
-            use different output types from this node. Currently, this flag applies only to source nodes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-topology-enumerate-source-types">MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES</a>. 
+            use different output types from this node. Currently, this flag applies only to source nodes. For more information, see <a href="/windows/desktop/medfound/mf-topology-enumerate-source-types">MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES</a>. 
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -86,5 +86,4 @@ The entire topology branch starting at this node is optional. If the topology lo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

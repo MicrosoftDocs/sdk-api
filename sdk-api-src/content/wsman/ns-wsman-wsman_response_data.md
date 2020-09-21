@@ -52,17 +52,16 @@ api_name:
 
 ## -description
 
-Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman">WSMan</a> operation.
+Represents the output data received from a <a href="/windows/desktop/WinRM/wsman">WSMan</a> operation.
 
 ## -struct-fields
 
 ### -field receiveData
 
-Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
+Represents the output data received from a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
 
 ### -field connectData
 
-Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanconnectshell">WSManConnectShell</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> method.
+Represents the output data received from a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanconnectshell">WSManConnectShell</a> or <a href="/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> method.
 
 ### -field createData
-

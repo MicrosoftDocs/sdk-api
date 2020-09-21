@@ -131,17 +131,16 @@ This method is not yet implemented.
 ## -remarks
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pOriginator</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pOriginator</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The originator's name, along with the machine name set in 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/itsdp-put-machineaddress">put_MachineAddress</a>, are collectively the originator of the conference, and both are in the o= line of the SDP.
+<a href="/windows/desktop/Tapi/itsdp-put-machineaddress">put_MachineAddress</a>, are collectively the originator of the conference, and both are in the o= line of the SDP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_originator">ITDirectoryObjectConference::get_Originator</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_originator">ITDirectoryObjectConference::get_Originator</a>

@@ -74,9 +74,8 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>

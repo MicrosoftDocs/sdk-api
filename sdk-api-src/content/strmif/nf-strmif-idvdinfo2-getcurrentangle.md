@@ -57,7 +57,7 @@ The <code>GetCurrentAngle</code> method retrieves the number of available angles
 
 ### -param pulAnglesAvailable [out]
 
-Receives the number of available angles. There are up to nine angles in an angle block, numbered 1 through 9. If the value equals 1, then the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in an angle block.
+Receives the number of available angles. There are up to nine angles in an angle block, numbered 1 through 9. If the value equals 1, then the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in an angle block.
 
 ### -param pulCurrentAngle [out]
 
@@ -109,27 +109,26 @@ DVD Navigator is not initialized or not in a valid domain.
 
 ## -remarks
 
-Note that angle and menu button indexes are 1-based, while audio and subpicture stream indexes are 0-based. When the DVD Navigator is about to enter an angle block, it sends the application an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a> event notification with the <i>lParam</i> set to 1. Applications will typically call <code>GetCurrentAngle</code> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectangle">IDvdControl2::SelectAngle</a> within their event handler for EC_DVD_ANGLES_AVAILABLE.
+Note that angle and menu button indexes are 1-based, while audio and subpicture stream indexes are 0-based. When the DVD Navigator is about to enter an angle block, it sends the application an <a href="/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a> event notification with the <i>lParam</i> set to 1. Applications will typically call <code>GetCurrentAngle</code> and <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectangle">IDvdControl2::SelectAngle</a> within their event handler for EC_DVD_ANGLES_AVAILABLE.
 
 This method is demonstrated in the DVDSample application in <b>CAngleDlg::MakeAngleList</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a>
+<a href="/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angle-change">EC_DVD_ANGLE_CHANGE</a>
+<a href="/windows/desktop/DirectShow/ec-dvd-angle-change">EC_DVD_ANGLE_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

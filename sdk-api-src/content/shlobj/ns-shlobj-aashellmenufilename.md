@@ -84,5 +84,4 @@ When reading an <b>AASHELLMENUFILENAME</b> structure, first read a single SHORT 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-aashellmenuitem">AASHELLMENUITEM</a>
-
+<a href="/windows/desktop/api/shlobj/ns-shlobj-aashellmenuitem">AASHELLMENUITEM</a>

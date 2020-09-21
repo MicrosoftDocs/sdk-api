@@ -54,8 +54,8 @@ api_name:
 ## -description
 
 Opens the root of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> subtree for a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> subtree for a 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ## -parameters
 
@@ -67,28 +67,27 @@ Handle to a cluster.
 
 Access mask that describes the security access needed for the new key. For more information and possible 
       values, see 
-      <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+      <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ## -returns
 
 If the operation succeeds, the function returns a database key handle for the cluster.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the error, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>GetClusterKey</b> function returns a handle to a 
     cluster database key representing the cluster database subtree root for the cluster identified by 
     <i>hCluster</i>. Callers should call 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle 
+    <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a> to close the key handle 
     retrieved by <b>GetClusterKey</b> when they are done with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosekey">ClusterRegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Marshals data from the specified <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side.
+Marshals data from the specified <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side.
 
 ## -parameters
 
@@ -116,4 +116,3 @@ The array could not be locked.
 </td>
 </tr>
 </table>
-

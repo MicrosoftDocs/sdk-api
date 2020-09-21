@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>HTTP_COOKED_URL</b> structure contains a validated, canonical, UTF-16 Unicode-encoded URL request string together with pointers into it and element lengths. This is the string that the HTTP Server API matches against registered 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix strings</a> in order to route the request appropriately.
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix strings</a> in order to route the request appropriately.
 
 ## -struct-fields
 
@@ -98,9 +98,8 @@ For example, if <b>pFullUrl</b> is "http://www.fabrikam.com/path1/path2/file.ext
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>

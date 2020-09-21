@@ -66,19 +66,18 @@ Defines the reason for locking the System Monitor.
 
 ### -field SysmonBatchAddCounters
 
-Prevents the System Monitor from sampling the counter immediately when you use <a href="https://docs.microsoft.com/windows/desktop/SysMon/counters-add">ICounters.Add</a> to add a counter to the 
+Prevents the System Monitor from sampling the counter immediately when you use <a href="/windows/desktop/SysMon/counters-add">ICounters.Add</a> to add a counter to the 
 collection.
 
 ### -field SysmonBatchAddFiles
 
-Prevents the System Monitor from sampling the file immediately when you use <a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-logfiles-add">ILogFiles.Add</a> to add a log file to the 
+Prevents the System Monitor from sampling the file immediately when you use <a href="/windows/desktop/SysMon/systemmonitor-logfiles-add">ILogFiles.Add</a> to add a log file to the 
 collection.
 
 ### -field SysmonBatchNone
 
-Use to free all locks. Typically, you call <a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
+Use to free all locks. Typically, you call <a href="/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a>
-
+<a href="/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a>

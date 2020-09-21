@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capDlgVideoSource</b> macro displays a dialog box in which the user can control the video source. The Video Source dialog box might contain controls that select input sources; alter the hue, contrast, brightness of the image; and modify the video quality before digitizing the images into the frame buffer. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-dlg-videosource">WM_CAP_DLG_VIDEOSOURCE</a> message.
+The <b>capDlgVideoSource</b> macro displays a dialog box in which the user can control the video source. The Video Source dialog box might contain controls that select input sources; alter the hue, contrast, brightness of the image; and modify the video quality before digitizing the images into the frame buffer. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-dlg-videosource">WM_CAP_DLG_VIDEOSOURCE</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle to a capture window.
 
 ## -remarks
 
-The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a> structure.
+The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoSource</b> member of the <a href="/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

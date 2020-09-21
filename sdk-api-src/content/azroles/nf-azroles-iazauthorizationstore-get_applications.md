@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Applications</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplications">IAzApplications</a> object that is used to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects from the policy store.
+The <b>Applications</b> property retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplications">IAzApplications</a> object that is used to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects from the policy store.
 
 This property is read-only.
 
@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -remarks
 
-This property can be used only to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects that are direct child objects of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
-
+This property can be used only to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects that are direct child objects of the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.

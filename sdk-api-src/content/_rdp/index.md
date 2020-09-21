@@ -18,5 +18,4 @@ To develop Windows Desktop Sharing, you need these headers:
  * [rdpencomapi.h](../rdpencomapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Desktop Sharing](https://docs.microsoft.com/previous-versions/windows/desktop/rdp)
-
+* [Windows Desktop Sharing](/previous-versions/windows/desktop/rdp)

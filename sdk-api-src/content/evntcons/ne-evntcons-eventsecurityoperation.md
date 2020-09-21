@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Defines what component of the security descriptor that the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function modifies.
+Defines what component of the security descriptor that the <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function modifies.
 
 ## -enum-fields
 
 ### -field EventSecuritySetDACL
 
-Clears the current discretionary access control list (DACL) and adds an ACE to the DACL. The <i>Sid</i>, <i>Rights</i>, and <i>AllowOrDeny</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who has access to the provider or session and the type of access). To add a new ACE to the DACL without clearing the existing DACL, specify EventSecurityAddDACL.
+Clears the current discretionary access control list (DACL) and adds an ACE to the DACL. The <i>Sid</i>, <i>Rights</i>, and <i>AllowOrDeny</i> parameters of the <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who has access to the provider or session and the type of access). To add a new ACE to the DACL without clearing the existing DACL, specify EventSecurityAddDACL.
 
 ### -field EventSecuritySetSACL
 
-Clears the current system access control list (SACL) and adds an audit ACE to the SACL. The <i>Sid</i> and <i>Rights</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who generates an audit record when attempting the specified access). To add a new ACE to the SACL without clearing the existing SACL, specify EventSecurityAddSACL.
+Clears the current system access control list (SACL) and adds an audit ACE to the SACL. The <i>Sid</i> and <i>Rights</i> parameters of the <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who generates an audit record when attempting the specified access). To add a new ACE to the SACL without clearing the existing SACL, specify EventSecurityAddSACL.
 
 ### -field EventSecurityAddDACL
 
-Adds an ACE to the current DACL. The <i>Sid</i>, <i>Rights</i>, and <i>AllowOrDeny</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who has access to the provider or session and the type of access).
+Adds an ACE to the current DACL. The <i>Sid</i>, <i>Rights</i>, and <i>AllowOrDeny</i> parameters of the <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who has access to the provider or session and the type of access).
 
 ### -field EventSecurityAddSACL
 
-Adds an ACE to the current SACL. The <i>Sid</i> and <i>Rights</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who generates an audit record when attempting the specified access).
+Adds an ACE to the current SACL. The <i>Sid</i> and <i>Rights</i> parameters of the <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a> function determine the contents of the ACE (who generates an audit record when attempting the specified access).
 
 ### -field EventSecurityMax
 
@@ -76,9 +76,8 @@ Reserved.
 
 ## -remarks
 
-For information on DACLs and SACLs, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a>.
+For information on DACLs and SACLs, see <a href="/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
-
+<a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>

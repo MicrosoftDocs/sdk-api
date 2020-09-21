@@ -51,7 +51,7 @@ Describes a 3D vector of three floating-point components with 9 bit mantissas, e
 	the same 5-bit exponent.
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>.
+	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>.
 
 ## -struct-fields
 
@@ -129,10 +129,10 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used with
 As there are no sign bits in the format for storing the components in the <code>XMFLOAT3SE</code>structure, all component values are positive.
        
 
-<code>XMFLOAT3SE</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3se">XMLoadFloat3SE</a>.
+<code>XMFLOAT3SE</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3se">XMLoadFloat3SE</a>.
        
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3se">XMStoreFloat3SE</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3se">XMStoreFloat3SE</a>.
        
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -142,9 +142,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>

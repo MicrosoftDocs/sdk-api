@@ -139,5 +139,4 @@ Custom band class.
 
 ## -remarks
 
-These  values are used by the <b>gsmBandClass</b> and <b>cdmaBandClass</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.  The meanings are dependent upon which member is using them and are detailed in the structure documentation
-
+These  values are used by the <b>gsmBandClass</b> and <b>cdmaBandClass</b> members of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.  The meanings are dependent upon which member is using them and are detailed in the structure documentation

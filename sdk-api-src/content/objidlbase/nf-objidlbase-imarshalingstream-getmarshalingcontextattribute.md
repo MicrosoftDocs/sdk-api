@@ -92,13 +92,12 @@ This attribute is a boolean value, with 0 representing <b>TRUE</b> and nonzero r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes">CO_MARSHALING_CONTEXT_ATTRIBUTES</a>
+<a href="/windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes">CO_MARSHALING_CONTEXT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>

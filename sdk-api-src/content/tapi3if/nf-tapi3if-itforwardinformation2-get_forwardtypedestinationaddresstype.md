@@ -57,11 +57,11 @@ The
 
 ### -param ForwardType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Line forward type</a> to be retrieved.
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">Line forward type</a> to be retrieved.
 
 ### -param pDestAddressType [out]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of the destination.
+<a href="/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of the destination.
 
 ## -returns
 
@@ -120,13 +120,12 @@ The <i>pDestAddressType</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation2">ITForwardInformation2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation2">ITForwardInformation2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">ITForwardInformation::GetForwardType</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">ITForwardInformation::GetForwardType</a>

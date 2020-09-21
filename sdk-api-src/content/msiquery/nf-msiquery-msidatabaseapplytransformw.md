@@ -59,7 +59,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to the transform.
+Handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to the transform.
 
 ### -param szTransformFile [in]
 
@@ -150,7 +150,7 @@ Transform and database code pages do not match and neither has a neutral code pa
 </td>
 <td width="60%">
 Create the temporary 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/-transformview-table">_TransformView table</a>.
+<a href="/windows/desktop/Msi/-transformview-table">_TransformView table</a>.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Because the list delimiter for transforms, sources and patches is a semicolon, t
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -184,9 +184,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
-
+<a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>

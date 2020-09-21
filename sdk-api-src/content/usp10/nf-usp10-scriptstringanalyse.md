@@ -63,7 +63,7 @@ Handle to the device context. If <i>dwFlags</i> is set to SSA_GLYPHS, the device
 
 ### -param pString [in]
 
-Pointer to the string to analyze. The string must have at least one character. It can be a Unicode string or use the character set from a Windows ANSI <a href="https://docs.microsoft.com/windows/desktop/Intl/code-pages">code page</a>, as specified by the <i>iCharset</i> parameter.
+Pointer to the string to analyze. The string must have at least one character. It can be a Unicode string or use the character set from a Windows ANSI <a href="/windows/desktop/Intl/code-pages">code page</a>, as specified by the <i>iCharset</i> parameter.
 
 ### -param cString [in]
 
@@ -144,7 +144,7 @@ Justify the string to <i>iReqWidth</i>.
 </dl>
 </td>
 <td width="60%">
-Retrieve missing glyphs and <i>pwLogClust</i> with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> conventions.
+Retrieve missing glyphs and <i>pwLogClust</i> with <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> conventions.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Apply East Asian font linking and association to noncomplex text.
 </dl>
 </td>
 <td width="60%">
-Write items with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOutW</a> calls, not with glyphs.
+Write items with <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOutW</a> calls, not with glyphs.
 
 </td>
 </tr>
@@ -262,11 +262,11 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TA
 
 ### -param pbInClass [in]
 
-Pointer to a BYTE value that indicates <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> character classifications.
+Pointer to a BYTE value that indicates <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> character classifications.
 
 ### -param pssa [out]
 
-Pointer to a buffer in which this function retrieves a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure. This structure is dynamically allocated on successful return from the function.
+Pointer to a buffer in which this function retrieves a <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure. This structure is dynamically allocated on successful return from the function.
 
 ## -returns
 
@@ -283,9 +283,9 @@ The function can also return a system error converted to an HRESULT type. An exa
 
 ## -remarks
 
-Use of this function is the first step in handling plain text strings. Such a string has only one font, one style, one size, one color, and so forth. <b>ScriptStringAnalyse</b> allocates temporary buffers for item analyses, glyphs, advance widths, and the like. Then it automatically runs <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>. The results are available through all the other <b>ScriptString*</b> functions.
+Use of this function is the first step in handling plain text strings. Such a string has only one font, one style, one size, one color, and so forth. <b>ScriptStringAnalyse</b> allocates temporary buffers for item analyses, glyphs, advance widths, and the like. Then it automatically runs <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>. The results are available through all the other <b>ScriptString*</b> functions.
 
-On successful return from this function, <i>pssa</i> indicates a dynamically allocated structure that the application can pass successively to the other <b>ScriptString*</b> functions. The application must ultimately free the structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
+On successful return from this function, <i>pssa</i> indicates a dynamically allocated structure that the application can pass successively to the other <b>ScriptString*</b> functions. The application must ultimately free the structure by calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
 
 Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by direct calls to other functions, use of the function itself drastically reduces the amount of code required in the application for plain text handling.
 
@@ -302,7 +302,7 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
@@ -310,25 +310,24 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

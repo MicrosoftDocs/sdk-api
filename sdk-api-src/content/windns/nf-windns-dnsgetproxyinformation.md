@@ -61,11 +61,11 @@ A pointer to a string that represents the name of the DNS server whose proxy inf
 
 ### -param proxyInformation [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure that contains the proxy information for <i>hostName</i>.
+A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure that contains the proxy information for <i>hostName</i>.
 
 ### -param defaultProxyInformation [in, out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure that contains the default proxy information for <i>hostName</i>. This proxy information is for the wildcard DNS policy.
+A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure that contains the default proxy information for <i>hostName</i>. This proxy information is for the wildcard DNS policy.
 
 ### -param completionRoutine [in, optional]
 
@@ -82,5 +82,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-functions">DNS Functions</a>
-
+<a href="/windows/desktop/DNS/dns-functions">DNS Functions</a>

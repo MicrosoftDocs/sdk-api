@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if a COM+ server application is started, shut down, or forced to shut down.  The latter is initiated by the user calling a catalog method, such as <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events (LCE) system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a COM+ server application is started, shut down, or forced to shut down.  The latter is initiated by the user calling a catalog method, such as <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events (LCE) system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComAppEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComAppEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComAppEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComAppEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComAppEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappactivation">OnAppActivation</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappactivation">OnAppActivation</a>
 </td>
 <td align="left" width="63%">
 Generated when an application server starts.
@@ -78,7 +78,7 @@ Generated when an application server starts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappforceshutdown">OnAppForceShutdown</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappforceshutdown">OnAppForceShutdown</a>
 </td>
 <td align="left" width="63%">
 Generated when an application server is forced to shut down.
@@ -87,7 +87,7 @@ Generated when an application server is forced to shut down.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappshutdown">OnAppShutdown</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappshutdown">OnAppShutdown</a>
 </td>
 <td align="left" width="63%">
 Generated when an application server shuts down.
@@ -98,9 +98,8 @@ Generated when an application server shuts down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

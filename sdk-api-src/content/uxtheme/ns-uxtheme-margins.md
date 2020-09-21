@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Returned by the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
+Returned by the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a> function to define the margins of windows that have visual styles applied.
 
 ## -struct-fields
 
@@ -84,5 +84,4 @@ Height of the bottom border that retains its size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a>

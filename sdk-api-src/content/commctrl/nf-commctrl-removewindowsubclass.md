@@ -62,9 +62,9 @@ The handle of the window being subclassed.
 
 ### -param pfnSubclass [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
 
-A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a>.
+A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a>.
 
 ### -param uIdSubclass [in]
 
@@ -84,20 +84,19 @@ Subclass callbacks are identified by their combination of the callback address a
 
 The SUBCLASS module defines helper functions that are used to subclass windows. The code maintains a single property on the subclassed window and dispatches various subclass callbacks to its clients as required. The client is provided reference data and a default processing API.
 
-No reference counting is performed for the callback; it may repeatedly call <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> to alter the value of its reference data element.
+No reference counting is performed for the callback; it may repeatedly call <a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> to alter the value of its reference data element.
 
 <div class="alert"><b>Warning</b>  You cannot use the subclassing helper functions to subclass a window across threads.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass">GetWindowSubclass</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass">GetWindowSubclass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>

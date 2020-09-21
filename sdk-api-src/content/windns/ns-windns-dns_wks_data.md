@@ -59,7 +59,7 @@ The
 
 ### -field IpAddress
 
-An <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-data-types">IP4_ADDRESS</a> data type that contains the IPv4 address for this resource record (RR).
+An <a href="/windows/desktop/DNS/dns-data-types">IP4_ADDRESS</a> data type that contains the IPv4 address for this resource record (RR).
 
 ### -field chProtocol
 
@@ -86,4 +86,3 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

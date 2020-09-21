@@ -74,13 +74,12 @@ Currently, the only valid values for the <i>bstrValueName</i> parameter are "Rem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue">GetDwordValue</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue">GetDwordValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue">GetGuidValue</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue">GetGuidValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>

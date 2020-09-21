@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by property description helper functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a>, to indicate the format of a property string.
+Used by property description helper functions, such as <a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a>, to indicate the format of a property string.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ Use the format settings specified in the property's .propdesc file.
 
 ### -field PDFF_PREFIXNAME
 
-Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
+Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
 
 ### -field PDFF_FILENAME
 
@@ -68,7 +68,7 @@ Treat the string as a file name.
 
 ### -field PDFF_ALWAYSKB
 
-Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a> setting.
+Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a> setting.
 
 ### -field PDFF_RESERVED_RIGHTTOLEFT
 
@@ -119,4 +119,3 @@ Do not detect reading order automatically. Useful when converting to ANSI to omi
 These values are defined in propsys.h and propsys.idl.
 
 Typically use one, or a bitwise combination of these flags to specify format. Some flags are mutually exclusive, for example PDFF_SHORTTIME  | PDFF_LONGTIME | PDFF_HIDETIME, is not allowed.
-

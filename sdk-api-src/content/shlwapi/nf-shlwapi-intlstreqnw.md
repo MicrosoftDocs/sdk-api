@@ -76,7 +76,7 @@ The number of characters to be compared, starting from the beginning of the stri
 
 ## -remarks
 
-This function retrieves the thread locale and uses <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to do a case-sensitive comparison of the first <i>nChar</i> characters. It is equivalent to:
+This function retrieves the thread locale and uses <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to do a case-sensitive comparison of the first <i>nChar</i> characters. It is equivalent to:
 				
 
 <pre class="syntax" xml:space="preserve"><code>IntlStrEqWorker(TRUE, pszStr1, pszStr2, nChar)</code></pre>
@@ -89,5 +89,4 @@ This function retrieves the thread locale and uses <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-intlstreqworkera">IntlStrEqWorker</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-intlstreqworkera">IntlStrEqWorker</a>

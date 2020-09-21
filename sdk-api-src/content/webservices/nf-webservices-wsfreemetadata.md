@@ -56,11 +56,10 @@ Releases the memory resource associated with a metadata object.
 
 ### -param metadata [in]
 
-A pointer to the metadata object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object returned
-                    by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> and the referenced value may not be <b>NULL</b>.
+A pointer to the metadata object to release.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object returned
+                    by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> and the referenced value may not be <b>NULL</b>.
 
 ## -remarks
 
-Any <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> objects that
+Any <a href="/windows/desktop/wsw/ws-policy">WS_POLICY</a> objects that
                 were retrieved using the metadata object will also be freed.
-

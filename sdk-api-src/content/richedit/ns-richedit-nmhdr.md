@@ -58,19 +58,18 @@ Contains information about a notification message.
 
 ### -field hwndFrom
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A window handle to the control sending the message.
 
 ### -field idFrom
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An identifier of the control sending the message.
 
 ### -field code
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A notification code. This member can be one of the common notification codes (see Notifications under <a href="https://msdn.microsoft.com/c8e72ae9-7c71-465d-9a6b-07e7923d4a13">General Control Reference</a>), or it can be a control-specific notification code.
-

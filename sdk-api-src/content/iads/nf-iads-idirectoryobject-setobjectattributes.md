@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
+The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 ## -parameters
 
 ### -param pAttributeEntries [in]
 
-Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
+Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 ### -param dwNumAttributes [in]
 
@@ -70,7 +70,7 @@ Provides a pointer to a <b>DWORD</b> variable that contains the number of attrib
 
 This method returns the standard return values, including S_OK when the attributes are set successfully.
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -112,13 +112,12 @@ if ( SUCCEEDED(hr) )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

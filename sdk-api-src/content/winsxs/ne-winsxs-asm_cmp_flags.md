@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The values of the <b>ASM_CMP_FLAGS</b> enumeration are used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal">IsEqual</a> method to specify which portions of two assembly names to compare.
+The values of the <b>ASM_CMP_FLAGS</b> enumeration are used by the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal">IsEqual</a> method to specify which portions of two assembly names to compare.
 
 ## -enum-fields
 
@@ -97,4 +97,3 @@ ASM_CMPF_NAME | ASM_CMPF_MAJOR_VERSION | ASM_CMPF_MINOR_VERSION | ASM_CMPF_REVIS
 ### -field ASM_CMPF_DEFAULT
 
  Ignore the version number to compare assemblies with simple names.
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains the old and new path names for each file that was moved, copied, or renamed by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
+Contains the old and new path names for each file that was moved, copied, or renamed by the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
 ## -struct-fields
 
@@ -95,5 +95,4 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>
-
+<a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>

@@ -57,7 +57,7 @@ Modifies a value that indicates whether an object or control has interest in a s
 
 ### -param EventId [in]
 
-The event to be listened for. Possible values for <i>eventID</i> appear in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest</a> enumeration type.
+The event to be listened for. Possible values for <i>eventID</i> appear in the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest</a> enumeration type.
 
 ### -param Listen [in]
 
@@ -120,21 +120,21 @@ An exception occurred during processing.
 
 ## -remarks
 
-All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-stroke">Stroke</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursoroutofrange">CursorOutOfRange</a>.
+All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="/windows/desktop/tablet/inkpicture-stroke">Stroke</a>, <a href="/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange</a>, and <a href="/windows/desktop/tablet/inkpicture-cursoroutofrange">CursorOutOfRange</a>.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newinairpackets">NewInAirPackets</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
+Use the <a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, <a href="/windows/desktop/tablet/inkpicture-newinairpackets">NewInAirPackets</a> and <a href="/windows/desktop/tablet/inkpicture-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursordown">CursorDown Event</a>
+<a href="/windows/desktop/tablet/inkpicture-cursordown">CursorDown Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange Event</a>
+<a href="/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest">GetEventInterest Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest">GetEventInterest Method</a>
 
 
 
@@ -142,17 +142,16 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-ne
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newpackets">NewPackets Event</a>
+<a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-stroke">Stroke Event</a>
-
+<a href="/windows/desktop/tablet/inkpicture-stroke">Stroke Event</a>

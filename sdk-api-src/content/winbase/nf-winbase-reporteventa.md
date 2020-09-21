@@ -63,9 +63,9 @@ Writes an entry at the end of the specified event log.
 ### -param hEventLog [in]
 
 A handle to the event log. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle. 
+<a href="/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle. 
 
-As of Windows XP with SP2, this parameter cannot be a handle to the <b>Security</b> log. To write an event to the <b>Security</b> log, use the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzreportsecurityevent">AuthzReportSecurityEvent</a> function.
+As of Windows XP with SP2, this parameter cannot be a handle to the <b>Security</b> log. To write an event to the <b>Security</b> log, use the <a href="/windows/desktop/api/authz/nf-authz-authzreportsecurityevent">AuthzReportSecurityEvent</a> function.
 
 ### -param wType [in]
 
@@ -148,16 +148,16 @@ Warning event
  
 
 For more information about event types, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-types">Event Types</a>.
+<a href="/windows/desktop/EventLog/event-types">Event Types</a>.
 
 ### -param wCategory [in]
 
 The event category. This is source-specific information; the category can have any value. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-categories">Event Categories</a>.
+<a href="/windows/desktop/EventLog/event-categories">Event Categories</a>.
 
 ### -param dwEventID [in]
 
-The event identifier. The event identifier specifies the entry in the message file associated with the event source. For more information, see <a href="https://docs.microsoft.com/windows/desktop/EventLog/event-identifiers">Event Identifiers</a>.
+The event identifier. The event identifier specifies the entry in the message file associated with the event source. For more information, see <a href="/windows/desktop/EventLog/event-identifiers">Event Identifiers</a>.
 
 ### -param lpUserSid [in]
 
@@ -187,7 +187,7 @@ If the function succeeds, the return value is nonzero, indicating that the entry
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following extended error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following extended error codes.
 
 <table>
 <tr>
@@ -252,7 +252,7 @@ This error is returned on Windows XP if the  message data to be logged is too l
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ Use
 This function is used to log an event. The entry is written to the end of the configured log for the source identified by the <i>hEventLog</i> parameter. The 
 <b>ReportEvent</b> function adds the time, the entry's length, and the offsets before storing the entry in the log. To enable the function to add the user name, you must supply the user's SID in the <i>lpUserSid</i> parameter.
 
-There are different size limits on the size of the message data that can be logged depending on the version of Windows used by both the client where the application is run and the server where the message is logged. The server is determined by the <i>lpUNCServerName</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function. Different errors are returned when the size limit is exceeded that depend on the version of Windows.
+There are different size limits on the size of the message data that can be logged depending on the version of Windows used by both the client where the application is run and the server where the message is logged. The server is determined by the <i>lpUNCServerName</i> parameter passed to the <a href="/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function. Different errors are returned when the size limit is exceeded that depend on the version of Windows.
 
 If the string that you log contains %<i>n</i>, where <i>n</i> is an integer value (for example, %1), the event viewer treats it as an insertion string. Because an IPv6 address can contain this character sequence, you must provide a format specifier (<i>!S!</i>) to log an event message that contains an IPv6 address. This specifier tells the formatting code to use the string literally and not perform any further expansions (for example, "my IPv6 address is: %1!S!").
 
@@ -271,7 +271,7 @@ If the string that you log contains %<i>n</i>, where <i>n</i> is an integer valu
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/reporting-an-event">Reporting an Event</a>.
+<a href="/windows/desktop/EventLog/reporting-an-event">Reporting an Event</a>.
 
 <div class="code"></div>
 
@@ -283,29 +283,28 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-log-file-format">Event Log File Format</a>
+<a href="/windows/desktop/EventLog/event-log-file-format">Event Log File Format</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readeventloga">ReadEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readeventloga">ReadEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>

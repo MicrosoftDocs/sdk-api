@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
+Gets the <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
 
 ## -parameters
 
 ### -param appWindow [in]
 
-The window to get the <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for.
+The window to get the <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ The reference ID of the specified window.
 
 ### -param playToManager [out, retval]
 
-The <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
+The <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
 
 ## -returns
 
@@ -72,17 +72,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You can use the <b>GetForWindow</b> method to get the <a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> for the specified window. The <b>GetForWindow</b> method is equivalent to the <a href="https://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
+You can use the <b>GetForWindow</b> method to get the <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> for the specified window. The <b>GetForWindow</b> method is equivalent to the <a href="/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a> method, except that you supply a reference to a window from a multi-window Windows Store app.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a>
+<a href="/uwp/api/windows.graphics.printing.printmanager.getforcurrentview">GetForCurrentView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop">IPlayToManagerInterop</a>
+<a href="/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop">IPlayToManagerInterop</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>
-
+<a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>

@@ -52,11 +52,10 @@ api_name:
 
 ## -description
 
-The abstract base type for all URL schemes used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a> APIs.
+The abstract base type for all URL schemes used with <a href="/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a> APIs.
 
 ## -struct-fields
 
 ### -field scheme
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.
-
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.

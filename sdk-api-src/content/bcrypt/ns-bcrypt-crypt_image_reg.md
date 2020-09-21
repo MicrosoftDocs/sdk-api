@@ -68,9 +68,8 @@ Contains the number of elements in the <b>rgpInterfaces</b> array.
 
 ### -field rgpInterfaces
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_interface_reg">CRYPT_INTERFACE_REG</a> structure pointers that specify the types of cryptographic interfaces that are supported by the provider. For example, if the provider supports both a cipher interface (<b>BCRYPT_CIPHER_INTERFACE</b>) and a hash interface (<b>BCRYPT_HASH_INTERFACE</b>), this array would contain two <b>CRYPT_INTERFACE_REG</b> structure pointers, one for the cipher interface and one for the hash interface.
+A pointer to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_interface_reg">CRYPT_INTERFACE_REG</a> structure pointers that specify the types of cryptographic interfaces that are supported by the provider. For example, if the provider supports both a cipher interface (<b>BCRYPT_CIPHER_INTERFACE</b>) and a hash interface (<b>BCRYPT_HASH_INTERFACE</b>), this array would contain two <b>CRYPT_INTERFACE_REG</b> structure pointers, one for the cipher interface and one for the hash interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>

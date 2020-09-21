@@ -211,19 +211,18 @@ Reserved for future use.
 
 ### -field UiInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a> structure.
+A <a href="/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a> structure.
 
 ### -field rootCauseIndex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/copyrepairinfo">CopyRepairInfo</a>
+<a href="/windows/desktop/NDF/copyrepairinfo">CopyRepairInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/freerepairinfos">FreeRepairInfos</a>
+<a href="/windows/desktop/NDF/freerepairinfos">FreeRepairInfos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a>
-
+<a href="/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a>

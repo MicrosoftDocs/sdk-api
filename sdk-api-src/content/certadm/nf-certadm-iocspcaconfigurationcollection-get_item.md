@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Item</b> property gets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration identified by index  in the configuration set.
+The <b>Item</b> property gets a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration identified by index  in the configuration set.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

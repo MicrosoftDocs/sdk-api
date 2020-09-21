@@ -60,15 +60,15 @@ Defines a filter and its data.
 
 ### -field Id
 
-The filter identifier that identifies the filter in the manifest. This is the same value as the <b>value</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
+The filter identifier that identifies the filter in the manifest. This is the same value as the <b>value</b> attribute of the <a href="/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
 
 ### -field Version
 
-The version number that identifies the version of the filter definition in the manifest. This is the same value as the <b>version</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
+The version number that identifies the version of the filter definition in the manifest. This is the same value as the <b>version</b> attribute of the <a href="/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
 
 ### -field MessageOffset
 
-Offset from the beginning of this structure to the message string that describes the filter. This is the same value as the <b>message</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
+Offset from the beginning of this structure to the message string that describes the filter. This is the same value as the <b>message</b> attribute of the <a href="/windows/desktop/WES/eventmanifestschema-filtertype-complextype">FilterType</a> complex type.
 
 ### -field Reserved
 
@@ -80,9 +80,8 @@ The number of elements in the <i>EventPropertyInfoArray</i> array.
 
 ### -field EventPropertyInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structures that define the filter data.
+An array of <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structures that define the filter data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>

@@ -57,7 +57,7 @@ Gets a description of a full-screen swap chain.
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_fullscreen_desc">DXGI_SWAP_CHAIN_FULLSCREEN_DESC</a>  structure that describes the full-screen swap chain.
+A pointer to a <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_fullscreen_desc">DXGI_SWAP_CHAIN_FULLSCREEN_DESC</a>  structure that describes the full-screen swap chain.
 
 ## -returns
 
@@ -65,15 +65,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/n
         <ul>
 <li>S_OK if it successfully retrieved the description of the full-screen swap chain.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>  for non-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> swap chains or if <i>pDesc</i> is <b>NULL</b>.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic. </li>
+<a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>  for non-<a href="/windows/desktop/WinProg/windows-data-types">HWND</a> swap chains or if <i>pDesc</i> is <b>NULL</b>.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic. </li>
 </ul>
 
 ## -remarks
 
-The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">IDXGISwapchain::GetDesc</a> method for <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>-based swap chains.
+The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">IDXGISwapchain::GetDesc</a> method for <a href="/windows/desktop/WinProg/windows-data-types">HWND</a>-based swap chains.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>

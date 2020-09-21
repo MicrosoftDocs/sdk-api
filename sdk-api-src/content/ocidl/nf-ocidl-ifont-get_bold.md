@@ -94,9 +94,8 @@ The address in pBold is not valid. For example, it may be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">IFont::put_Bold</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">IFont::put_Bold</a>

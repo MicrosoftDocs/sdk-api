@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 HTTP header authentication security template information to be filled in by application.
-        Associated with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
+        Associated with <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Application provided additional security properties that cannot be represented i
 
 Application provided header authentication security binding information that cannot be represented
           in policy.
-

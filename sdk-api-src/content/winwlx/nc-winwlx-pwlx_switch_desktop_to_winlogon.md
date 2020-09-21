@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxSwitchDesktopToWinlogon function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Allows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL switch to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> desktop.This function is valid only for the currently operating thread.
+Allows the <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL switch to the <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> desktop.This function is valid only for the currently operating thread.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ Allows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">G
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ## -returns
 
@@ -68,5 +68,4 @@ The <b>WlxSwitchDesktopToWinlogon</b> function returns zero if the function call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

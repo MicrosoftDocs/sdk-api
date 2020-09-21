@@ -96,7 +96,7 @@ An error prevented the signal from being displayed.
 
 ## -remarks
 
-Set the notification behavior by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSOUNDSENTRY</b> value.
+Set the notification behavior by calling <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSOUNDSENTRY</b> value.
 
 ## -see-also
 
@@ -104,9 +104,8 @@ Set the notification behavior by calling <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)">SoundSentryProc</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)">SoundSentryProc</a>

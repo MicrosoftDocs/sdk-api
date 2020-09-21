@@ -55,7 +55,7 @@ merge process.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMsmConfigureModule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata">ProvideIntegerData</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata">ProvideIntegerData</a>
 </td>
 <td align="left" width="63%">
 Retrieves integer data from the client tool.
@@ -79,7 +79,7 @@ Retrieves integer data from the client tool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-providetextdata">ProvideTextData</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-providetextdata">ProvideTextData</a>
 </td>
 <td align="left" width="63%">
 Retrieves text data from the client tool.
@@ -90,9 +90,8 @@ Retrieves text data from the client tool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

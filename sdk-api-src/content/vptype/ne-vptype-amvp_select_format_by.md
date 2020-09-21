@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the criteria that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> should use to select the video format.
+Specifies the criteria that the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> should use to select the video format.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ Use the same input format as output format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

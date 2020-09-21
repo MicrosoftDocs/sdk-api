@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SslGetServerIdentity</b> function gets the identity of the server. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
+The <b>SslGetServerIdentity</b> function gets the identity of the server. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
 ## -parameters
 
@@ -117,4 +117,3 @@ The  <i>ServerIdentitySize</i> parameter is smaller than the <i>ClientHelloSize<
 </td>
 </tr>
 </table>
-

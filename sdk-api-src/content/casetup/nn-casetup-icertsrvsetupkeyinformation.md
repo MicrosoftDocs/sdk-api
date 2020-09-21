@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> properties that are used for setup of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) or Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
+The <b>ICertSrvSetupKeyInformation</b> interface defines a set of <a href="/windows/desktop/SecGloss/p-gly">private key</a> properties that are used for setup of <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) or Microsoft <a href="/windows/desktop/SecGloss/s-gly">Simple Certificate Enrollment Protocol</a> (SCEP) roles. The information describes either an existing private key or one that setup generates.
 
 Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformation</b> class.
 
 In C++, you create an instance of this interface by calling the <b>CoCreateInstance</b> function with the <b>CLSID_CCertSrvSetupKeyInformation</b> class identifier.
-

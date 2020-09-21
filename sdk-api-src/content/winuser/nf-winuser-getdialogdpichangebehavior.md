@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns the flags that might have been set on a given dialog by an earlier call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>.
+Returns the flags that might have been set on a given dialog by an earlier call to <a href="/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>.
 
  If that function was never called on the dialog, the return value will be zero.
 
@@ -62,17 +62,16 @@ The handle for the dialog to examine.
 
 ## -returns
 
-The flags set on the given dialog. If passed an invalid handle, this function will return zero, and set its <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">last error</a> to <b>ERROR_INVALID_HANDLE</b>.
+The flags set on the given dialog. If passed an invalid handle, this function will return zero, and set its <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">last error</a> to <b>ERROR_INVALID_HANDLE</b>.
 
 ## -remarks
 
-It can be difficult to distinguish between a return value of <b>DDC_DEFAULT</b> and the error case, which is zero. To determine between the two, it is recommended that you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError()</a> to check the error.
+It can be difficult to distinguish between a return value of <b>DDC_DEFAULT</b> and the error case, which is zero. To determine between the two, it is recommended that you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError()</a> to check the error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_dpi_change_behaviors">DIALOG_DPI_CHANGE_BEHAVIORS</a>
+<a href="/windows/desktop/api/winuser/ne-winuser-dialog_dpi_change_behaviors">DIALOG_DPI_CHANGE_BEHAVIORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>

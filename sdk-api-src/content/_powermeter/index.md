@@ -18,5 +18,4 @@ To develop Power Metering and Budgeting Reference, you need these headers:
  * [emi.h](../emi/index.md)
 
 For programming guidance for this technology, see:
-* [Power Metering and Budgeting Reference](https://docs.microsoft.com/windows-hardware/drivers/powermeter/)
-
+* [Power Metering and Budgeting Reference](/windows-hardware/drivers/powermeter/)

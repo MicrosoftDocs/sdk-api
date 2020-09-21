@@ -57,9 +57,9 @@ Get the exception-mode flags.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_raise_flag">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
+A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_raise_flag">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
 
 ## -remarks
 
@@ -67,5 +67,4 @@ An exception-mode flag is used to elevate an error condition to a non-continuabl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Specifies the format of the buffer. Used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+Specifies the format of the buffer. Used by <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a> and <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ## -enum-fields
 
 ### -field BPBF_COMPATIBLEBITMAP
 
-Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a>—typically, this is the display device.
+Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a> or <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a>—typically, this is the display device.
 
 ### -field BPBF_DIB
 
@@ -74,13 +74,12 @@ Top-down, monochrome, device-independent bitmap. Uses 1 bit per pixel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
+<a href="/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
 
 
 
 <b>Other Resources</b>
-

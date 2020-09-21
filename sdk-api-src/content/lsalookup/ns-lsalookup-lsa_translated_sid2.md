@@ -55,15 +55,15 @@ api_name:
 ## -description
 
 The <b>LSA_TRANSLATED_SID2</b> structure contains 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SIDs</a> that are retrieved based on account names. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> function.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SIDs</a> that are retrieved based on account names. This structure is used by the 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> function.
 
 ## -struct-fields
 
 ### -field Use
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
 
 ### -field Sid
 
@@ -72,9 +72,8 @@ The complete SID of the account.
 ### -field DomainIndex
 
 The index of an entry in a related 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> data structure which describes the domain that owns the account. If there is no corresponding reference domain for an entry, then <b>DomainIndex</b> will contain a negative value.
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> data structure which describes the domain that owns the account. If there is no corresponding reference domain for an entry, then <b>DomainIndex</b> will contain a negative value.
 
 ### -field Flags
 
 Not used.
-

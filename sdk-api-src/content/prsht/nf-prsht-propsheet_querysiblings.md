@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Causes a property sheet to send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-querysiblings">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
+Causes a property sheet to send the <a href="/windows/desktop/Controls/psm-querysiblings">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 ### -param wParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 First application-defined parameter.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Second application-defined parameter.
 
 ## -remarks
 
 If a page returns a nonzero value, the property sheet does not send the message to subsequent pages.
-

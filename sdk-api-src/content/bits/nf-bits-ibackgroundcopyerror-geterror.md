@@ -57,7 +57,7 @@ Retrieves the error code and identify the context in which the error occurred.
 ### -param pContext [out]
 
 Context in which the error occurred. For a list of context values, see the 
-[BG_ERROR_CONTEXT](/windows/win32/api/bits/ne-bits-bg_error_context) enumeration.
+[BG_ERROR_CONTEXT](./ne-bits-bg_error_context.md) enumeration.
 
 ### -param pCode [out]
 
@@ -69,13 +69,12 @@ This method returns <b>S_OK</b> on success or one of the standard COM HRESULT va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>

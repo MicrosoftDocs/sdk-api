@@ -56,7 +56,7 @@ Translates accelerator keystrokes intended for the container's frame while an ob
 
 ### -param lpmsg [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keystroke message.
+A pointer to the <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keystroke message.
 
 ### -param wID [in]
 
@@ -109,12 +109,12 @@ An unexpected error occurred.
 ## -remarks
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The <b>IOleInPlaceFrame::TranslateAccelerator</b> method is called indirectly by <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> when a keystroke accelerator intended for the container (frame) is received.
+The <b>IOleInPlaceFrame::TranslateAccelerator</b> method is called indirectly by <a href="/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> when a keystroke accelerator intended for the container (frame) is received.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The container application should perform its usual accelerator processing, or use <i>wID</i> directly, and then return, indicating whether the keystroke accelerator was processed. If the container is an MDI application and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function fails, the container can call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a> function, just as it does for its usual message processing.
+The container application should perform its usual accelerator processing, or use <i>wID</i> directly, and then return, indicating whether the keystroke accelerator was processed. If the container is an MDI application and the <a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function fails, the container can call the <a href="/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a> function, just as it does for its usual message processing.
 
-In-place objects should be given first chance at translating accelerator messages. However, because objects implemented by DLL object applications do not have their own message pump, they receive their messages from the container's message queue. To ensure that the object has first chance at translating messages, a container should always call <b>IOleInPlaceFrame::TranslateAccelerator</b> before doing its own accelerator translation. Conversely, an executable object application should call <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> after calling <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>, calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> only if both translation functions fail.
+In-place objects should be given first chance at translating accelerator messages. However, because objects implemented by DLL object applications do not have their own message pump, they receive their messages from the container's message queue. To ensure that the object has first chance at translating messages, a container should always call <b>IOleInPlaceFrame::TranslateAccelerator</b> before doing its own accelerator translation. Conversely, an executable object application should call <a href="/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> after calling <a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>, calling <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> and <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> only if both translation functions fail.
 
 You should define accelerator tables for containers so they will work properly with object applications that do their own accelerator keystroke translations. Tables should be defined as follows.
 
@@ -123,21 +123,20 @@ This is the most common way to describe keyboard accelerators. Failure to do so 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
+<a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a>

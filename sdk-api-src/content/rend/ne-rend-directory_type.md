@@ -68,17 +68,16 @@ Directory type is ILS. The ILS directory type is valid only for Windows 2000 and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">CreateDirectory</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">CreateDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directorytype">get_DirectoryType</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-get_directorytype">get_DirectoryType</a>

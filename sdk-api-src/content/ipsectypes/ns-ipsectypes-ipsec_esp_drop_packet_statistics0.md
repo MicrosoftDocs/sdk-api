@@ -78,9 +78,8 @@ Number of inbound drops for packets received on SAs that were not fully initiali
 
 ## -remarks
 
-<b>IPSEC_ESP_DROP_PACKET_STATISTICS0</b> is a specific implementation of IPSEC_ESP_DROP_PACKET_STATISTICS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_ESP_DROP_PACKET_STATISTICS0</b> is a specific implementation of IPSEC_ESP_DROP_PACKET_STATISTICS. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -52,17 +52,17 @@ The signature for this report.
 
 ### -field bucketId
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)**
 A hash of the signature. Can be used to cross reference with other crash reports with the same signature (currently not implemented).
 
 ### -field reportId
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)**
 A locally unique identifier for the report.
 
 ### -field creationTime
 
-Type: **[FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime)**
+Type: **[FILETIME](../minwinbase/ns-minwinbase-filetime.md)**
 A UTC time stamp of when the report was created.
 
 ### -field sizeInBytes
@@ -82,7 +82,7 @@ The detailed status of the report. Use the ReportStatus decoder to track this bi
 
 ### -field reportIntegratorId
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)**
 The integrator ID of the report.
 
 ### -field fileNames
@@ -136,4 +136,3 @@ For general questions about Windows Error Reporting, see the [**WER APIS**]("htt
 For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
 
 ## -see-also
-

@@ -58,7 +58,7 @@ api_name:
 
 ### -field Code
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a> enumeration value that identifies the packet type.
+An <a href="/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a> enumeration value that identifies the packet type.
 
 ### -field Id
 
@@ -78,5 +78,4 @@ The packet message data. This opaque data block continues after the first byte f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a>
-
+<a href="/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a>

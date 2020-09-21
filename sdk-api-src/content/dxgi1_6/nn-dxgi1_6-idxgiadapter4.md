@@ -54,7 +54,7 @@ This interface represents a display subsystem, and extends this family of interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>. <b>IDXGIAdapter4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>. <b>IDXGIAdapter4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDXGIAdapter4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">GetDesc3</a>
+<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">GetDesc3</a>
 </td>
 <td align="left" width="63%">
 Gets a DXGI 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
@@ -80,13 +80,12 @@ Gets a DXGI 1.6 description of an adapter or video card. This description includ
 
 ## -remarks
 
-For more details, refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/residency">Residency</a> section of the D3D12 documentation.
+For more details, refer to the <a href="/windows/desktop/direct3d12/residency">Residency</a> section of the D3D12 documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
-
+<a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>

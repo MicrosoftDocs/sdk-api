@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>AddInterface</b> function adds an interface to be managed by the routing protocol. The protocol should consider the interface to be in a disabled state. The router manager enables the interface by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pinterface_status">InterfaceStatus</a> with the RIS_INTERFACE_ENABLED flag.
+<a href="/windows/desktop/api/routprot/nc-routprot-pinterface_status">InterfaceStatus</a> with the RIS_INTERFACE_ENABLED flag.
 
-When a user calls <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportadd">MprAdminInterfaceTransportAdd</a>, the dynamic interface manager for the transport calls the router manager (for the transport) which calls this function for each of the routing protocols associated with that transport.
+When a user calls <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportadd">MprAdminInterfaceTransportAdd</a>, the dynamic interface manager for the transport calls the router manager (for the transport) which calls this function for each of the routing protocols associated with that transport.
 
 ## -parameters
 
@@ -188,13 +188,12 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, an interface with t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

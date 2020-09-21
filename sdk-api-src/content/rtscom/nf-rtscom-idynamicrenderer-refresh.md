@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Causes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object to redraw the ink data that is currently rendering.
+Causes the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object to redraw the ink data that is currently rendering.
 
 ## -parameters
 
@@ -60,19 +60,18 @@ This method can return one of these values.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_datacacheenabled">IDynamicRenderer::DataCacheEnabled Property</a> property is <b>true</b>, then the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object redraws all tablet stylus data not yet released from the cache. If the <b>IDynamicRenderer::DataCacheEnabled Property</b> property is <b>false</b>, then the <b>DynamicRenderer Class</b> object redraws only the current stroke.
+If the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_datacacheenabled">IDynamicRenderer::DataCacheEnabled Property</a> property is <b>true</b>, then the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object redraws all tablet stylus data not yet released from the cache. If the <b>IDynamicRenderer::DataCacheEnabled Property</b> property is <b>false</b>, then the <b>DynamicRenderer Class</b> object redraws only the current stroke.
 
-When calling the <b>IDynamicRenderer::Refresh Method</b> from within a Paint event handler, set the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_cliprectangle">IDynamicRenderer::ClipRectangle Property</a> to the Paint event's rectangle.
+When calling the <b>IDynamicRenderer::Refresh Method</b> from within a Paint event handler, set the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_cliprectangle">IDynamicRenderer::ClipRectangle Property</a> to the Paint event's rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-draw">Draw Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-draw">Draw Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_drawingattributes">IDynamicRenderer::DrawingAttributes Property</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_drawingattributes">IDynamicRenderer::DrawingAttributes Property</a>

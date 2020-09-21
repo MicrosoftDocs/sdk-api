@@ -174,11 +174,11 @@ Specifies whether the font is a fixed-pitch (monospace) font. If it is, this mem
 
 ### -field rclBkGround
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box for the string.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box for the string.
 
 ### -field pgp
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
 
 ### -field pwszOrg
 
@@ -186,13 +186,12 @@ Pointer to the original Unicode string or <b>cGlyphs</b> characters. Contrary to
 
 ## -remarks
 
-A driver can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a> to obtain identities and positions of glyphs in the string. If <i>pgp</i> is not <b>NULL</b>, it points to a GLYPHPOS array describing the whole string and only a single call to <b>STROBJ_bEnum</b> is required. If <i>pgp</i> is <b>NULL</b>, <b>STROBJ_bEnum</b> will have to be called repeatedly in a loop to obtain all the string's glyph positions.
+A driver can call <a href="/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a> and <a href="/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a> to obtain identities and positions of glyphs in the string. If <i>pgp</i> is not <b>NULL</b>, it points to a GLYPHPOS array describing the whole string and only a single call to <b>STROBJ_bEnum</b> is required. If <i>pgp</i> is <b>NULL</b>, <b>STROBJ_bEnum</b> will have to be called repeatedly in a loop to obtain all the string's glyph positions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>

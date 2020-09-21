@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> describing the content of multiplexed substreams.
+Creates an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> describing the content of multiplexed substreams.
 
 ## -parameters
 
 ### -param pAttributesToMux [in]
 
-The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for each multiplexed substream.
+The collection containing the  <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for each multiplexed substream.
 
 ### -param ppMuxAttribs [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> containing the attributes for the multiplexed substreams.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> containing the attributes for the multiplexed substreams.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The <i>pAttributesToMux</i> parameter in null.
 </td>
 </tr>
 </table>
-

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag.
+Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag.
 
 ## -parameters
 
 ### -param ppProfile [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface that implements the profile.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface that implements the profile.
           
-          The caller is responsible for releasing this interface. You can use this pointer to create a custom profile that you pass to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method.
+          The caller is responsible for releasing this interface. You can use this pointer to create a custom profile that you pass to the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method.
 
 ## -returns
 
@@ -106,17 +106,16 @@ Empty initial profiles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent </a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink2 Filter</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink2 Filter</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Sets the current position of the writer.  The position must have been obtained by a 
-        call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
+        call to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
 
 ## -parameters
 
@@ -102,11 +102,10 @@ The operation is not allowed due to the current state of the object.
 
 ## -remarks
 
-This can only be used on a writer that is set to an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
+This can only be used on a writer that is set to an <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
 When writing to a buffer, the position represents the xml node before which new data will be placed.
       
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
-
+See <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.

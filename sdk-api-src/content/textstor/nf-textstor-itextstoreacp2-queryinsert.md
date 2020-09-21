@@ -124,5 +124,4 @@ The values of <i>pacpResultStart</i> and <i>pacpResultEnd</i> depend upon how th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>

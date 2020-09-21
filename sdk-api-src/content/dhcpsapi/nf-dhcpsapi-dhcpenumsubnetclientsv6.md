@@ -60,7 +60,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param SubnetAddress [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> value containing the IP address of the subnet gateway.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> value containing the IP address of the subnet gateway.
 
 ### -param ResumeHandle [in, out]
 
@@ -84,7 +84,7 @@ Pointer to a DWORD value that specifies the total number of clients for the spec
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -136,4 +136,3 @@ More data is available to enumerate.
 </td>
 </tr>
 </table>
-

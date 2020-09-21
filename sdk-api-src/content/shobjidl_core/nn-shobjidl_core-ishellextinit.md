@@ -54,7 +54,7 @@ Exposes a method that initializes Shell extensions for property sheets, shortcut
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellExtInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellExtInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellExtInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellExtInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellExtInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">Initialize</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.
@@ -80,9 +80,8 @@ Initializes a property sheet extension, shortcut menu extension, or drag-and-dro
 
 ## -remarks
 
-Implement <b>IShellExtInit</b> when you are writing a handler based on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt</a> interface.
+Implement <b>IShellExtInit</b> when you are writing a handler based on the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt</a> interface.
 
 Note that Shell extensions based on other interfaces do not use this method of initialization.
 
 You do not use this interface directly. The Shell calls it to initialize the handler.
-

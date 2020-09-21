@@ -60,21 +60,20 @@ This property is read/write.
 
 ## -remarks
 
-To specify a server-based cover page file, you must set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a> property to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_coverpage_type_enum">fcptSERVER</a>.
+To specify a server-based cover page file, you must set the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a> property to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_coverpage_type_enum">fcptSERVER</a>.
 
                 
 
-To specify a local or personal cover page file, you must set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a> property to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_coverpage_type_enum">fcptLOCAL</a>.
+To specify a local or personal cover page file, you must set the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-coverpagetype-vb">IFaxDocument::get_CoverPageType</a> property to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_coverpage_type_enum">fcptLOCAL</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

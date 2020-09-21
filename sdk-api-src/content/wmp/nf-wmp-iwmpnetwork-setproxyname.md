@@ -56,7 +56,7 @@ The <b>setProxyName</b> method specifies the name of the proxy server to use.
 
 ### -param bstrProtocol [in]
 
-<b>BSTR</b> containing the protocol name. For a list of supported protocols, see <a href="https://docs.microsoft.com/windows/desktop/WMP/supported-protocols-and-file-types">Supported Protocols and File Types</a>.
+<b>BSTR</b> containing the protocol name. For a list of supported protocols, see <a href="/windows/desktop/WMP/supported-protocols-and-file-types">Supported Protocols and File Types</a>.
 
 ### -param bstrProxyName [in]
 
@@ -94,13 +94,12 @@ This method fails unless the calling application is running on the local compute
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyname">IWMPNetwork::getProxyName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyname">IWMPNetwork::getProxyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings">IWMPNetwork::getProxySettings</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings">IWMPNetwork::getProxySettings</a>

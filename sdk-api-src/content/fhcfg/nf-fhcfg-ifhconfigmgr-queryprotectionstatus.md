@@ -129,7 +129,7 @@ The current user does not have write permission for the currently assigned targe
 </dl>
 </td>
 <td width="60%">
-The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="https://technet.microsoft.com/library/cc730714.aspx">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
+The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc730714(v=ws.11)">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ File History backups are performed regularly, no error conditions are detected, 
 
 ### -param ProtectedUntilTime [out]
 
-Receives a pointer to a string allocated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
+Receives a pointer to a string allocated with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
 
 A file is considered protected until a certain point in time if one of the following conditions is true:<ul>
 <li>There is a version of that file that was captured at or after that point in time and was fully copied to the currently assigned backup target before now.</li>
@@ -238,7 +238,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on it.
+The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on it.
 
 The protection state indicates the File History operational state and the date and time until which all files within the protection scope are protected.
 
@@ -252,9 +252,8 @@ If the target is full or disconnected, the File History feature will provide a d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
-
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>

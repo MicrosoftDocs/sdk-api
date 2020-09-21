@@ -56,7 +56,7 @@ Enables a container to pass an object a pointer to the interface for its site.
 
 ### -param pUnkSite [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of the site managing this object. If <b>NULL</b>, the object should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on any existing site at which point the object no longer knows its site.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of the site managing this object. If <b>NULL</b>, the object should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on any existing site at which point the object no longer knows its site.
 
 ## -returns
 
@@ -64,11 +64,10 @@ This method returns S_OK on success.
 
 ## -remarks
 
-The object should hold onto this pointer, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> in doing so. If the object already has a site, it should call that existing site's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>, save the new site pointer, and call the new site's <b>IUnknown::AddRef</b>.
+The object should hold onto this pointer, calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> in doing so. If the object already has a site, it should call that existing site's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>, save the new site pointer, and call the new site's <b>IUnknown::AddRef</b>.
 
-E_NOTIMPL is not allowedâ€”without implementation of the <b>SetSite</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface is unnecessary.
+E_NOTIMPL is not allowedâ€”without implementation of the <b>SetSite</b> method, the <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface is unnecessary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>

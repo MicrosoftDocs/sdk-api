@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
+The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ The rate limit for a multicast interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>

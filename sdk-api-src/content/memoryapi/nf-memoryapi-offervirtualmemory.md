@@ -59,7 +59,7 @@ Indicates that the data contained in a range of memory pages is no longer needed
 
 The specified pages will be marked as inaccessible, removed from the process working set, and will not be written to the paging file.
 
-To later reclaim offered pages, call <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
+To later reclaim offered pages, call <a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ Size, in bytes, of the memory region to offer.  <i>Size</i> must be an integer m
 ### -param Priority [in]
 
 <i>Priority</i> indicates how important the offered memory is to the application.
-       A higher priority increases the probability that the offered memory can be reclaimed intact when calling <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
+       A higher priority increases the probability that the offered memory can be reclaimed intact when calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
        The system typically discards lower priority memory before discarding higher priority memory.
        <i>Priority</i> must be one of the following values.
 
@@ -131,11 +131,11 @@ The offered memory is of normal priority to the application, and should be the l
 
 ## -returns
 
-ERROR_SUCCESS if successful; a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
+ERROR_SUCCESS if successful; a <a href="/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
 
 ## -remarks
 
-To reclaim offered pages, call <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
+To reclaim offered pages, call <a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>.
       The data in reclaimed pages may have been discarded, in which case the contents of the memory region is undefined and must be rewritten by the application.
 
 Do not call <b>OfferVirtualMemory</b> to offer virtual memory that is locked.
@@ -146,33 +146,32 @@ Note that offering and reclaiming virtual memory is similar to using the MEM_RES
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-discardvirtualmemory">DiscardVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-discardvirtualmemory">DiscardVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>

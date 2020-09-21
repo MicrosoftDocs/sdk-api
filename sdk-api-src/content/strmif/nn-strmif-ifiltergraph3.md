@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IFilterGraph3</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2</a> interface, which contains methods for building filter graphs.
+The <code>IFilterGraph3</code> interface extends the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2</a> interface, which contains methods for building filter graphs.
 
 The Filter Graph Manager implements this interface. Applications can use it when building graphs, to take advantage of the additional methods it provides.
 
@@ -72,7 +72,7 @@ The <b>IFilterGraph3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph3-setsyncsourceex">SetSyncSourceEx</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph3-setsyncsourceex">SetSyncSourceEx</a>
 </td>
 <td align="left" width="63%">
 Sets a primary and secondary reference clock for the filter graph.
@@ -80,4 +80,3 @@ Sets a primary and secondary reference clock for the filter graph.
 </td>
 </tr>
 </table>
-

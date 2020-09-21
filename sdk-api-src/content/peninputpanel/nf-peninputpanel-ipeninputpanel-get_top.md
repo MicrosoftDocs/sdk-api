@@ -53,9 +53,9 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets the vertical, or y-axis, location of the top edge of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
+Gets the vertical, or y-axis, location of the top edge of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
 
 
 
@@ -65,9 +65,9 @@ This property is read-only.
 
 ## -remarks
 
-To explicitly override the automatic positioning behavior of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, use the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a> and <b>Top</b> properties of the object to determine the current position of the pen input panel. If the pen input panel is located on a section of the screen that should be visible, use the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a> method to relocate the pen input panel.
+To explicitly override the automatic positioning behavior of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, use the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a> and <b>Top</b> properties of the object to determine the current position of the pen input panel. If the pen input panel is located on a section of the screen that should be visible, use the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a> method to relocate the pen input panel.
 
-You can also override the automatic positioning behavior of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object by listening for the <i>Left</i> and <i>Top</i> parameters during a <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-panelmoving">PanelMoving</a> event. If the pen input panel is located on a section of the screen that should be visible, use the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a> method to relocate the pen input panel.
+You can also override the automatic positioning behavior of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object by listening for the <i>Left</i> and <i>Top</i> parameters during a <a href="/windows/desktop/tablet/peninputpanel-panelmoving">PanelMoving</a> event. If the pen input panel is located on a section of the screen that should be visible, use the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a> method to relocate the pen input panel.
 
 ## -see-also
 
@@ -75,9 +75,8 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left Property [PenInputPanel Class]</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left Property [PenInputPanel Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

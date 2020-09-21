@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>CertStrToName</b> function converts a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> string to an encoded certificate name.
+The <b>CertStrToName</b> function converts a null-terminated <a href="/windows/desktop/SecGloss/x-gly">X.500</a> string to an encoded certificate name.
 
 ## -parameters
 
 ### -param dwCertEncodingType [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a>   that was used to encode the string. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate encoding type</a>   that was used to encode the string. The <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -77,7 +77,7 @@ This parameter can be the following currently defined certificate encoding type.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
+Specifies <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -88,17 +88,17 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 A pointer to the null-terminated X.500 string to be converted. The format of this string is specified by the <i>dwStrType</i> parameter.
 
 This string is expected to be formatted the same as the output from 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> function.
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> function.
 
 ### -param dwStrType [in]
 
 This parameter specifies the type of the string. This parameter also specifies other options for the contents of the string. 
 
-If no flags are combined with the string type specifier, the string can contain a comma (,) or a semicolon (;) as separators in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) and a plus sign (+) as the separator in multiple RDN values.
+If no flags are combined with the string type specifier, the string can contain a comma (,) or a semicolon (;) as separators in the <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) and a plus sign (+) as the separator in multiple RDN values.
 
 Quotation marks ("") are supported. A quotation can be included in a quoted value by using two sets of quotation marks, for example, CN="User ""one""". 
 
-A value that starts with a number sign (#) is treated as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> hexadecimal and converted to a <b>CERT_RDN_OCTET_STRING</b>. Embedded white space is ignored. For example, 1.2.3 = # AB CD 01 is the same as 1.2.3=#ABCD01.
+A value that starts with a number sign (#) is treated as <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> hexadecimal and converted to a <b>CERT_RDN_OCTET_STRING</b>. Embedded white space is ignored. For example, 1.2.3 = # AB CD 01 is the same as 1.2.3=#ABCD01.
 
 White space that surrounds the keys, object identifiers, and values is ignored.
 
@@ -130,7 +130,7 @@ This string type is not supported.
 </dl>
 </td>
 <td width="60%">
- Validates that the string type is supported. The string can be either an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) or an X.500 name.
+ Validates that the string type is supported. The string can be either an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) or an X.500 name.
 							
 
 </td>
@@ -142,7 +142,7 @@ This string type is not supported.
 </dl>
 </td>
 <td width="60%">
-Identical to  CERT_OID_NAME_STR. Validates that the string type is supported. The string can be either an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) or an X.500 name.
+Identical to  CERT_OID_NAME_STR. Validates that the string type is supported. The string can be either an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) or an X.500 name.
 							
 
 </td>
@@ -277,7 +277,7 @@ Prevents forcing a printable Unicode (CERT_RDN_PRINTABLE_STRING) X.500 key to be
 </dl>
 </td>
 <td width="60%">
-If the string contains an email RDN value, and the email address  contains Unicode characters outside of the ASCII character set, the host name portion of the email address is encoded in Punycode. The resultant email address is then encoded as an <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string. The Punycode encoding of the host name is performed on a label-by-label basis.
+If the string contains an email RDN value, and the email address  contains Unicode characters outside of the ASCII character set, the host name portion of the email address is encoded in Punycode. The resultant email address is then encoded as an <a href="/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string. The Punycode encoding of the host name is performed on a label-by-label basis.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -297,7 +297,7 @@ A pointer to a buffer that receives the encoded structure.
 The size of this buffer is specified in the <i>pcbEncoded</i> parameter.
 
 This parameter can be <b>NULL</b> to obtain the required size of the buffer for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbEncoded [in, out]
 
@@ -316,7 +316,7 @@ If the <i>pszX500</i> string is not valid, <i>ppszError</i> is updated by this f
 If this information is not required, pass <b>NULL</b> for this parameter.
 
 
-This parameter is updated for the following error codes returned from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+This parameter is updated for the following error codes returned from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -350,7 +350,7 @@ Returns nonzero if successful or zero otherwise.
 						
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -649,7 +649,7 @@ The T61 types are UTF8 encoded.
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-converting-names-from-certificates-to-asn1-and-back">Example C Program: Converting Names from Certificates to ASN.1 and Back</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-converting-names-from-certificates-to-asn1-and-back">Example C Program: Converting Names from Certificates to ASN.1 and Back</a>.
 
 <div class="code"></div>
 
@@ -661,17 +661,16 @@ For an example that uses this function, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>

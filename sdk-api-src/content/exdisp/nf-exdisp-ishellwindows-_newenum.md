@@ -57,9 +57,9 @@ Retrieves an enumerator for the collection of Shell windows.
 
 ### -param ppunk [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-When this method returns, contains an interface pointer to an object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+When this method returns, contains an interface pointer to an object that implements the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
 
 ## -returns
 
@@ -69,13 +69,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
+<a href="/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-item">IShellWindows::Item</a>
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-item">IShellWindows::Item</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-get_count">IShellWindows::get_Count</a>
-
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-get_count">IShellWindows::get_Count</a>

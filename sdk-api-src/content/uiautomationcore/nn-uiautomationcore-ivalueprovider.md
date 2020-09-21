@@ -55,7 +55,7 @@ Provides access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValueProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValueProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IValueProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-setvalue">SetValue</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of control.
@@ -89,7 +89,7 @@ Sets the value of control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-get_isreadonly">IsReadOnly</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-get_isreadonly">IsReadOnly</a>
 
 
 </td>
@@ -105,7 +105,7 @@ Indicates whether the value of a control is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-get_value">Value</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-get_value">Value</a>
 
 
 </td>
@@ -125,9 +125,8 @@ The value of the control.
 The value of the control may or may not be editable depending on the control and its settings.
         
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingvalue">Value</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingvalue">Value</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

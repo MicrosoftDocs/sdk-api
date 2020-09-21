@@ -62,41 +62,40 @@ api_name:
 ### -field raContinue
 
 NPS continues to process the request. NPS also continues to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in other Extension DLLs.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in other Extension DLLs.
 
 ### -field raReject
 
 Return an Access-Reject packet. The Access-Request is declined. In this case, NPS does not call 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in any other Extension DLLs.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in any other Extension DLLs.
 
 ### -field raAccept
 
 NPS accepts the Access-Request. NPS does not continue to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in this case. However, it does continue to obtain authorizations for the user requesting access.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in this case. However, it does continue to obtain authorizations for the user requesting access.
 
 ## -remarks
 
 Use the values for this enumeration only as the actions for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> functions.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> and 
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a>
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>
-
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>

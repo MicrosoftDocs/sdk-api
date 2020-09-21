@@ -69,7 +69,7 @@ Flags that identify the owner and ACL information to maintain when transferring 
 </dl>
 </td>
 <td width="60%">
-If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a> method owns the file.
+If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a> method owns the file.
 
 You must have SeRestorePrivilege to set this flag. The administrators group contains the SeRestorePrivilege privilege.
 
@@ -150,7 +150,7 @@ Successfully set the flags.
 </dl>
 </td>
 <td width="60%">
-You must call this method before the job transitions to the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE_TRANSFERRED</a> state. 
+You must call this method before the job transitions to the <a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE_TRANSFERRED</a> state. 
 
 </td>
 </tr>
@@ -173,9 +173,9 @@ These flags apply to remote file names that specify the SMB protocol. BITS ignor
 
 BITS propagates the file time stamps and  attributes (not extended attributes) for SMB files. 
 
-BITS applies the owner and ACL information to the file at the time the file transfer is complete, not when it <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">creates</a> the temporary transfer file. BITS does not specify a security descriptor when it creates the temporary transfer file (the file inherits the ACL information from the destination directory). If the transferred data is sensitive, the application should specify an appropriate ACL on the destination directory to prevent unauthorized access.
+BITS applies the owner and ACL information to the file at the time the file transfer is complete, not when it <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">creates</a> the temporary transfer file. BITS does not specify a security descriptor when it creates the temporary transfer file (the file inherits the ACL information from the destination directory). If the transferred data is sensitive, the application should specify an appropriate ACL on the destination directory to prevent unauthorized access.
 
-To ensure the proper owner and ACL information is set on all files in the job, call this method after you create the job and before calling the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a> method. Otherwise, those files that transferred before the flags were set will not contain the appropriate owner and ACL information. 
+To ensure the proper owner and ACL information is set on all files in the job, call this method after you create the job and before calling the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a> method. Otherwise, those files that transferred before the flags were set will not contain the appropriate owner and ACL information. 
 
 This method is modeled after the XCopy DOS command.
 
@@ -186,7 +186,7 @@ If the user does not have privileges on the local and remote computers to copy t
 
 #### Examples
 
-The following example shows how to call the <b>SetFileACLFlags</b> method to specify what owner and ACL information to maintain with the files that BITS downloads. The example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, pJob, is valid, points to a new job, and is suspended.
+The following example shows how to call the <b>SetFileACLFlags</b> method to specify what owner and ACL information to maintain with the files that BITS downloads. The example assumes the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, pJob, is valid, points to a new job, and is suspended.
 
 
 ```cpp
@@ -222,9 +222,8 @@ The following example shows how to call the <b>SetFileACLFlags</b> method to spe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-getfileaclflags">IBackgroundCopyJob3::GetFileACLFlags</a>
-
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-getfileaclflags">IBackgroundCopyJob3::GetFileACLFlags</a>

@@ -57,7 +57,7 @@ Retrieves the type of mutual exclusion represented by the Advanced Systems Forma
 
 ### -param pguidType [out]
 
-A variable that receives the type identifier. For a list of predefined mutual exclusion type constants, see <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-mutual-exclusion-type-guids">ASF Mutual Exclusion Type GUIDs</a>.
+A variable that receives the type identifier. For a list of predefined mutual exclusion type constants, see <a href="/windows/desktop/medfound/asf-mutual-exclusion-type-guids">ASF Mutual Exclusion Type GUIDs</a>.
 
 ## -returns
 
@@ -83,17 +83,16 @@ The method succeeded.
 
 ## -remarks
 
-Sometimes, content must be made mutually exclusive in more than one way. For example, a video file might contain audio streams of several bit rates for each of several languages. To handle this type of complex mutual exclusion, you must configure more than one ASF mutual exclusion object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>.
+Sometimes, content must be made mutually exclusive in more than one way. For example, a video file might contain audio streams of several bit rates for each of several languages. To handle this type of complex mutual exclusion, you must configure more than one ASF mutual exclusion object. For more information, see <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-settype">IMFASFMutualExclusion::SetType</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-settype">IMFASFMutualExclusion::SetType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-
+<a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-This interface is implemented by a text service that has a candidate list UI and its UI can be controlled by the application. The application QI this interface from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> and controls the candidate list behavior.
+This interface is implemented by a text service that has a candidate list UI and its UI can be controlled by the application. The application QI this interface from <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> and controls the candidate list behavior.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElementBehavior</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElementBehavior</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElementBehavior</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElementBehavior</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCandidateListUIElementBehavior</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-abort">Abort</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Close the candidate list. There is no guarantee that the current selection will be finalized.
@@ -78,7 +78,7 @@ Close the candidate list. There is no guarantee that the current selection will 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-finalize">Finalize</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-finalize">Finalize</a>
 </td>
 <td align="left" width="63%">
 Finalize the current selection and close the candidate list.
@@ -87,7 +87,7 @@ Finalize the current selection and close the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-setselection">SetSelection</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielementbehavior-setselection">SetSelection</a>
 </td>
 <td align="left" width="63%">
 Set the selection of the candidate list.
@@ -95,4 +95,3 @@ Set the selection of the candidate list.
 </td>
 </tr>
 </table>
-

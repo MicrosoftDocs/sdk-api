@@ -59,7 +59,7 @@ The <b>timeEndPeriod</b> function clears a previously set minimum timer resoluti
 
 ### -param uPeriod
 
-Minimum timer resolution specified in the previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> function.
+Minimum timer resolution specified in the previous call to the <a href="/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> function.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Returns <b>TIMERR_NOERROR</b> if successful or <b>TIMERR_NOCANDO</b> if the reso
 
 Call this function immediately after you are finished using timer services.
 
-You must match each call to <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> with a call to <b>timeEndPeriod</b>, specifying the same minimum resolution in both calls. An application can make multiple <b>timeBeginPeriod</b> calls as long as each call is matched with a call to <b>timeEndPeriod</b>.
+You must match each call to <a href="/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> with a call to <b>timeEndPeriod</b>, specifying the same minimum resolution in both calls. An application can make multiple <b>timeBeginPeriod</b> calls as long as each call is matched with a call to <b>timeEndPeriod</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
+<a href="/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>

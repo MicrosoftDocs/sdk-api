@@ -54,7 +54,7 @@ Use this interface to enumerate the named streams associated with a file in a fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiNamedStreams</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsiNamedStreams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiNamedStreams</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsiNamedStreams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFsiNamedStreams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count">get_Count</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of the named streams associated with a file.
@@ -78,7 +78,7 @@ Returns the number of the named streams associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams">get_EnumNamedStreams</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams">get_EnumNamedStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IEnumFsiItems</b> list of named streams associated with a file.
@@ -87,7 +87,7 @@ Retrieves an <b>IEnumFsiItems</b> list of named streams associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item">get_Item</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named stream associated with a file.
@@ -96,7 +96,7 @@ Retrieves a named stream associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum">get_NewEnum</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum">get_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IEnumVARIANT</b> list of the named streams associated with a file.
@@ -107,7 +107,7 @@ Retrieves an <b>IEnumVARIANT</b> list of the named streams associated with a fil
 
 ## -remarks
 
-To access this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">IFsiFileItem2::get_FsiNamedStreams</a> method of a file item object representing a standard or 'Real-Time' file.
+To access this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">IFsiFileItem2::get_FsiNamedStreams</a> method of a file item object representing a standard or 'Real-Time' file.
 
 This interface is provided only for file item objects representing regular or 'Real-Time' files. Named streams cannot have other name streams associated with them.
 
@@ -121,9 +121,8 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>

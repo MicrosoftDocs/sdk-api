@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SpLsaModeInitialize</b> function is called once by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) for each registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> (SSP/AP) DLL it loads. This function provides the LSA with pointers to the functions implemented by each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> in the SSP/AP DLL.
+The <b>SpLsaModeInitialize</b> function is called once by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) for each registered <a href="/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="/windows/desktop/SecGloss/a-gly">authentication package</a> (SSP/AP) DLL it loads. This function provides the LSA with pointers to the functions implemented by each <a href="/windows/desktop/SecGloss/s-gly">security package</a> in the SSP/AP DLL.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Pointer to a <b>ULONG</b> that returns the SSP/AP DLL version number.
 ### -param *ppTables [out]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the functions implemented by a security package deployed in the SSP/AP DLL.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the functions implemented by a security package deployed in the SSP/AP DLL.
 
 ### -param pcTables [out]
 
@@ -82,9 +82,8 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 The <b>SpLsaModeInitialize</b> function must be implemented by SSP/AP DLLs.
 
 The <i>ppTables</i> parameter should contain one 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> for each security package deployed in the DLL.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> for each security package deployed in the DLL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>

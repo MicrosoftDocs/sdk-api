@@ -61,20 +61,20 @@ api_name:
 The <b>BackupRead</b> function can be used to back up 
     a file or directory, including the security information. The function reads data associated with a 
     specified file or directory into a buffer, which can then be written to the backup medium using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function.
 
 ## -parameters
 
 ### -param hFile [in]
 
-Handle to the file or directory to be backed up. To obtain the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The SACLs are not read unless the file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more information, see [File security and access rights](/windows/win32/fileio/file-security-and-access-rights).
+Handle to the file or directory to be backed up. To obtain the handle, call the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The SACLs are not read unless the file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more information, see [File security and access rights](/windows/win32/fileio/file-security-and-access-rights).
 
-The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 The <b>BackupRead</b> function may fail if 
       <b>CreateFile</b> was called with the flag 
       <b>FILE_FLAG_NO_BUFFERING</b>. In this case, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the value 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the value 
       <b>ERROR_INVALID_PARAMETER</b>.
 
 ### -param lpBuffer [out]
@@ -84,7 +84,7 @@ Pointer to a buffer that receives the data.
 ### -param nNumberOfBytesToRead [in]
 
 Length of the buffer, in bytes. The buffer size must be greater than the size of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a> structure.
+      <a href="/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a> structure.
 
 ### -param lpNumberOfBytesRead [out]
 
@@ -132,38 +132,37 @@ To release the memory used by the data structure, call
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero, indicating that an I/O error occurred. To get extended 
-       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This function is not intended for use in backing up files encrypted under the 
     Encrypted File System. Use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a> for that purpose.
+    <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a> for that purpose.
 
 If an error occurs while <b>BackupRead</b> is reading data, 
     the calling process can skip the bad data by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a> function.
 
 The file or directory should be restored using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Backup/creating-a-backup-application">Creating a Backup Application</a>
+<a href="/windows/desktop/Backup/creating-a-backup-application">Creating a Backup Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a>

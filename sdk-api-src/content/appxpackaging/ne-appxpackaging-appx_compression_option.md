@@ -76,9 +76,8 @@ Super-fast compression.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcompressionoption">IAppxFile::GetCompressionOption</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcompressionoption">IAppxFile::GetCompressionOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile">IAppxPackageWriter::AddPayloadFile</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile">IAppxPackageWriter::AddPayloadFile</a>

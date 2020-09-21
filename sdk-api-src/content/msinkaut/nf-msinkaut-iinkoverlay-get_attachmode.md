@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind or in front of the known window.
+Gets or sets the value that specifies whether the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind or in front of the known window.
 
 
 
@@ -65,14 +65,14 @@ This property is read/write.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  An error occurs if the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is not disabled before setting this property. To disable the <b>InkOverlay</b> object, set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property to <b>FALSE</b>. You can then set the <b>AttachMode</b> property and re-enable the object by setting the <b>Enabled</b> property to <b>TRUE</b>.</div>
+<div class="alert"><b>Note</b>  An error occurs if the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is not disabled before setting this property. To disable the <b>InkOverlay</b> object, set the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property to <b>FALSE</b>. You can then set the <b>AttachMode</b> property and re-enable the object by setting the <b>Enabled</b> property to <b>TRUE</b>.</div>
 <div> </div>
-<div class="alert"><b>Caution</b>  If <b>AttachMode</b> is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode">InFront</a> and then a control is added to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>'s attached control, then you will have to reset the <b>InkOverlay</b>'s <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd</a>. First set <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> to <b>FALSE</b>, then set the <b>hWnd</b> property, and then set <b>Enabled</b> to <b>TRUE</b>.</div>
+<div class="alert"><b>Caution</b>  If <b>AttachMode</b> is set to <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode">InFront</a> and then a control is added to the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>'s attached control, then you will have to reset the <b>InkOverlay</b>'s <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd</a>. First set <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> to <b>FALSE</b>, then set the <b>hWnd</b> property, and then set <b>Enabled</b> to <b>TRUE</b>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
 
 
@@ -80,9 +80,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode">InkOverlayAttachMode Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode">InkOverlayAttachMode Enumeration</a>

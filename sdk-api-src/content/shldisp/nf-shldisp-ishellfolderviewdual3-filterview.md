@@ -56,7 +56,7 @@ Sets the filter on the contents of the current view.
 
 ### -param bstrFilterText [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The BSTR that names the filter view for the current folder.
 
@@ -65,4 +65,3 @@ The BSTR that names the filter view for the current folder.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -79,7 +79,7 @@ It is impossible to disable two-finger panning and keep single finger panning.
 		
 
 An inertia vector is included in the GID_PAN message with the GF_END flag if inertia was disabled by a call to 
-		<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>.
+		<a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>.
 		
 
 When you pass this structure, the <i>dwID</i> member contains information 
@@ -195,9 +195,9 @@ The following flags are used when <i>dwID</i> is set to GID_PAN.
 </table>
  
 
-<div class="alert"><b>Note</b>  Setting the <b>GID_PAN</b> flags in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a> will affect the default gesture handler for panning.
+<div class="alert"><b>Note</b>  Setting the <b>GID_PAN</b> flags in <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a> will affect the default gesture handler for panning.
     You should not have both <b>dwWant</b> and <b>dwBlock</b> set for the same flags; this will result in unexpected behavior.  
-    See  <a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Windows Touch Gestures</a> for more information on panning 
+    See  <a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Windows Touch Gestures</a> for more information on panning 
     and legacy panning support; see <b>SetGestureConfig</b> for examples  of enabling and blocking gestures.</div>
 <div> </div>
 The following flags are used when <i>dwID</i> is set to GID_ROTATE.
@@ -269,13 +269,12 @@ The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
-
+<a href="/windows/desktop/wintouch/mtstructures">Structures</a>

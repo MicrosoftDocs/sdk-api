@@ -164,7 +164,7 @@ The specified volume or remote file share was not found or was not available.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -180,7 +180,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 For example, if the maximum number of shadow copies has been reached on a given volume (and therefore no more shadow copies can be created on that volume), the method will still indicate that the volume can be shadow copied.
 
-<div class="alert"><b>Note</b>  For more information about the maximum number of shadow copies that can be created on a volume, see the entry for <b>MaxShadowCopies</b> in <a href="https://docs.microsoft.com/windows/desktop/Backup/registry-keys-for-backup-and-restore">Registry Keys and Values for Backup and Restore</a>.</div>
+<div class="alert"><b>Note</b>  For more information about the maximum number of shadow copies that can be created on a volume, see the entry for <b>MaxShadowCopies</b> in <a href="/windows/desktop/Backup/registry-keys-for-backup-and-restore">Registry Keys and Values for Backup and Restore</a>.</div>
 <div> </div>
 This method cannot be called for a virtual hard disk (VHD) that is nested inside another VHD.
 
@@ -188,9 +188,8 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>

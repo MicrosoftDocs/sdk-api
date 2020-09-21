@@ -56,7 +56,7 @@ Retrieves the name of the current visual style, and optionally retrieves the col
 
 ### -param pszThemeFileName [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to a string that receives the theme path and file name.
 
@@ -68,7 +68,7 @@ Value of type <b>int</b> that contains the maximum number of characters allowed 
 
 ### -param pszColorBuff [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to a string that receives the color scheme name. This parameter may be set to <b>NULL</b>.
 
@@ -80,7 +80,7 @@ Value of type <b>int</b> that contains the maximum number of characters allowed 
 
 ### -param pszSizeBuff [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to a string that receives the size name. This parameter may be set to <b>NULL</b>.
 
@@ -92,7 +92,6 @@ Value of type <b>int</b> that contains the maximum number of characters allowed 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful, otherwise an error code.
-

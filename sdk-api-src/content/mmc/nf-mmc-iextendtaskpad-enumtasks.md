@@ -61,7 +61,7 @@ A pointer to the data object for the scope item that owns the taskpad.
 
 ### -param szTaskGroup [in]
 
-A pointer to a null-terminated string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (#) in the string passed in the ppViewType parameter when MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szTaskGroup is a <b>NULL</b> string.
+A pointer to a null-terminated string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (#) in the string passed in the ppViewType parameter when MMC calls <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szTaskGroup is a <b>NULL</b> string.
 
 ### -param ppEnumTASK [out]
 
@@ -79,9 +79,8 @@ IEnumTASK interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>

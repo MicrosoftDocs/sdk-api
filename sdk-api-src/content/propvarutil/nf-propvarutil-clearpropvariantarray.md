@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Frees the memory and references used by an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures stored in an array.
+Frees the memory and references used by an array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures stored in an array.
 
 ## -parameters
 
 ### -param rgPropVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to free.
+Array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to free.
 
 ### -param cVars [in]
 
@@ -74,12 +74,12 @@ No return value.
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
+This function performs the same action as <a href="/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>
 
 
 
@@ -92,5 +92,4 @@ ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-clearvariantarray">ClearVariantArray</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-clearvariantarray">ClearVariantArray</a>

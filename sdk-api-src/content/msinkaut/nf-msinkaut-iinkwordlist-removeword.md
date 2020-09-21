@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-Removes a single word from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
+Removes a single word from an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
 ## -parameters
 
 ### -param RemoveWord [in]
 
-The word to remove from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
+The word to remove from the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -134,7 +134,7 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
 
 
 
@@ -142,5 +142,4 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

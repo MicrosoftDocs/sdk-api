@@ -90,7 +90,7 @@ Tens of frames.
 
 ### -field FrameRateCode
 
-Frames per second dropped and not dropped as indicated by [DVD_FRAMERATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_framerate).
+Frames per second dropped and not dropped as indicated by [DVD_FRAMERATE](/windows/desktop/api/strmif/ne-strmif-dvd_framerate).
 
 ## -remarks
 
@@ -109,5 +109,4 @@ DVD timecode is binary coded decimal (BCD) encoded in the format 0xHhMmSsFf, whe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

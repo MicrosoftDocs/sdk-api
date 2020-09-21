@@ -56,7 +56,7 @@ Increments the lock count of an array, and retrieves a pointer to the array data
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param ppvData [out]
 
@@ -108,12 +108,12 @@ The array could not be locked.
 
 ## -remarks
 
-After calling <b>SafeArrayAccessData</b>, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunaccessdata">SafeArrayUnaccessData</a> function to unlock the array.
+After calling <b>SafeArrayAccessData</b>, you must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunaccessdata">SafeArrayUnaccessData</a> function to unlock the array.
 
 
 #### Examples
 
-The following example sorts a safe array of one dimension that contains BSTRs by accessing the array elements directly. This approach is faster than using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraygetelement">SafeArrayGetElement</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayputelement">SafeArrayPutElement</a>.
+The following example sorts a safe array of one dimension that contains BSTRs by accessing the array elements directly. This approach is faster than using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraygetelement">SafeArrayGetElement</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayputelement">SafeArrayPutElement</a>.
 
 
 ```cpp
@@ -146,4 +146,3 @@ for (i = 0; i < psa->rgsabound.cElements-1; i++)
 
 SafeArrayUnaccessData(psa);
 ```
-

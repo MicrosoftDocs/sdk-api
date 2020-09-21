@@ -56,7 +56,7 @@ Retrieves similarity data from the similarity traits table.
 
 ### -param similarityTableDumpState [out, optional]
 
-An optional pointer to a location that will receive the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a> interface pointer. The caller must release this interface when it is no longer needed.
+An optional pointer to a location that will receive the returned <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a> interface pointer. The caller must release this interface when it is no longer needed.
 
 ## -returns
 
@@ -68,5 +68,4 @@ The <b>BeginDump</b> method is used for debugging and garbage collection. It ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>

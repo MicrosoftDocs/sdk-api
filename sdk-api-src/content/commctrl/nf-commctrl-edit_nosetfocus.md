@@ -52,23 +52,22 @@ api_name:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a> message explicitly.
+Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
+The <a href="/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
 
 After this message is sent, the effect is permanent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a>
-
+<a href="/windows/desktop/Controls/em-nosetfocus">EM_NOSETFOCUS</a>

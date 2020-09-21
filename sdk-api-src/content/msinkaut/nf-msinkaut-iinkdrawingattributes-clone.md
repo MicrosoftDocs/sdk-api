@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Creates a duplicate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Creates a duplicate <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 ## -parameters
 
 ### -param DrawingAttributes [out, retval]
 
-When this method returns, contains a pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+When this method returns, contains a pointer to the newly created <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 ## -returns
 
@@ -130,7 +130,7 @@ An exception occurred inside the method.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object was not registered.
+The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object was not registered.
 
 </td>
 </tr>
@@ -149,16 +149,16 @@ Unexpected parameter or property type.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone">Clone</a> method is defined for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> objects. The <b>Clone</b> method returns an exact copy of the original object.
+The <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone">Clone</a> method is defined for the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a>, <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a>, and <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> objects. The <b>Clone</b> method returns an exact copy of the original object.
 
 In most scenarios, the duplicate object is an exact copy of the original object, but no relation between the two objects exists. See the remarks section of this topic for details on exceptions to this.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object: Typically, you clone a master copy of the drawing attributes, modify one or more of the attributes, and call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes</a> method to use the modified drawing attributes.
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object: Typically, you clone a master copy of the drawing attributes, modify one or more of the attributes, and call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes</a> method to use the modified drawing attributes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty">Dirty Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty">Dirty Property</a>
 
 
 
@@ -166,9 +166,8 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttribute Class</a>
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttribute Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>

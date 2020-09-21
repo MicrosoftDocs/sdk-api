@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Returns  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a> for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>. The <b>PRESUTIL_GET_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
+Returns  <a href="/previous-versions/windows/desktop/mscs/private-properties">private properties</a> for a  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>. The <b>PRESUTIL_GET_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hkeyClusterKey [in]
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key that identifies the location of the private properties to retrieve.
+Pointer to the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key that identifies the location of the private properties to retrieve.
 
 ### -param pOutPropertyList [out]
 
-Pointer to an output buffer in which a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> with the names and values of the private properties is returned.
+Pointer to an output buffer in which a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> with the names and values of the private properties is returned.
 
 ### -param cbOutPropertyListSize [in]
 
@@ -79,7 +79,7 @@ Pointer to the number of bytes that is required if <i>pOutPropertyList</i> is to
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -123,5 +123,4 @@ The size of the output buffer is too small to hold the resulting data. The <i>pc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetproperties">ResUtilGetProperties</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetproperties">ResUtilGetProperties</a>

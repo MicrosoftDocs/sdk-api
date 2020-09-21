@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential information used for the authentication.
-[IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2) is available. For Windows Vista, [IKEEXT_CREDENTIAL_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0) is available.</div><div> </div>
+[IKEEXT_CREDENTIAL_PAIR2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2) is available. For Windows Vista, [IKEEXT_CREDENTIAL_PAIR0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,19 +61,18 @@ The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential inform
 
 Local credentials used for authentication.
 
-See [IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) for more information.
+See [IKEEXT_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) for more information.
 
 ### -field peerCredentials
 
 Peer credentials used for authentication.
 
-See [IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) for more information.
+See [IKEEXT_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) for more information.
 
 ## -see-also
 
-[IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)
+[IKEEXT_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -64,21 +64,20 @@ A driver can use <b>EngLoadImage</b> to map an executable image into kernel-mode
 
 <b>EngLoadImage</b> requires that the image file to be loaded have a <i>.dll</i> suffix. The driver must include this suffix in the <i>pwszDriver</i> string.
 
-To execute a section of code within the loaded image, the driver should obtain the function address from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfindimageprocaddress">EngFindImageProcAddress</a>.
+To execute a section of code within the loaded image, the driver should obtain the function address from <a href="/windows/desktop/api/winddi/nf-winddi-engfindimageprocaddress">EngFindImageProcAddress</a>.
 
 The file identified by <i>pwszDriver</i> must be located in the <i>%SystemRoot%\System32</i> directory or within a directory found in the directory hierarchy under <i>%SystemRoot%\System32</i>.
 
-Drivers that need to load a module as data only should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a> instead of this function.
+Drivers that need to load a module as data only should call <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a> instead of this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunloadimage">EngUnloadImage</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunloadimage">EngUnloadImage</a>

@@ -54,7 +54,7 @@ Provides the extended settings applied to security credentials  for a principal.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrincipal2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPrincipal2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrincipal2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPrincipal2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IPrincipal2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-addrequiredprivilege">AddRequiredPrivilege</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-addrequiredprivilege">AddRequiredPrivilege</a>
 </td>
 <td align="left" width="63%">
 Adds a privilege to the to the task process token.
@@ -88,7 +88,7 @@ Adds a privilege to the to the task process token.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype">ProcessTokenSidType</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype">ProcessTokenSidType</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets or sets the process token security identifier (SID) type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege">RequiredPrivilege</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege">RequiredPrivilege</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets the required privilege by index.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilegecount">RequiredPrivilegeCount</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilegecount">RequiredPrivilegeCount</a>
 
 
 </td>
@@ -137,24 +137,23 @@ Gets the number of privileges in the required privileges array.
 
 ## -remarks
 
-When reading or writing XML for a task, the security credentials for a principal are specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-principal-principaltype-element">Principal</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the security credentials for a principal are specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-principal-principaltype-element">Principal</a> element of the Task Scheduler schema.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/time-trigger-example--c---">Time Trigger Example (C++)</a> or <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/registration-trigger-example--c---">Registration Trigger Example (C++)</a>.
+For more information and example code for this interface, see <a href="/windows/desktop/TaskSchd/time-trigger-example--c---">Time Trigger Example (C++)</a> or <a href="/windows/desktop/TaskSchd/registration-trigger-example--c---">Registration Trigger Example (C++)</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal">Principal Property of ITaskDefinition</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal">Principal Property of ITaskDefinition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

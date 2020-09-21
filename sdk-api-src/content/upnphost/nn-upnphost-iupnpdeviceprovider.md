@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPDeviceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">Start</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">Start</a>
 </td>
 <td align="left" width="63%">
 Method that is called by the device host when the device provider should start its processing.
@@ -79,7 +79,7 @@ Method that is called by the device host when the device provider should start i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">Stop</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Method that is called by the device host when the device provider should stops its processing.
@@ -87,4 +87,3 @@ Method that is called by the device host when the device provider should stops i
 </td>
 </tr>
 </table>
-

@@ -60,48 +60,47 @@ Retrieves information about the next thread of any process encountered in the sy
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 ### -param lpte [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure.
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure.
 
 ## -returns
 
 Returns <b>TRUE</b> if the next entry of the thread list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if no threads exist or the snapshot does not contain thread information.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if no threads exist or the snapshot does not contain thread information.
 
 ## -remarks
 
 To retrieve information about the first thread recorded in a snapshot, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-thread-list">Traversing the Thread List</a>.
+<a href="/windows/desktop/ToolHelp/traversing-the-thread-list">Traversing the Thread List</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a>
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/thread-walking">Thread Walking</a>
+<a href="/windows/desktop/ToolHelp/thread-walking">Thread Walking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

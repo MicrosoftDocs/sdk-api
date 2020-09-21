@@ -180,7 +180,6 @@ If a Windows Sockets 2 SPI client does not care what local address is assigned t
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a>
 
-<a href="https://docs.microsoft.com/en-us/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)?redirectedfrom=MSDN">WSPSetSockOpt</a>
+<a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a>
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-

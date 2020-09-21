@@ -56,9 +56,8 @@ Gets the platform version information.
 
 ### -param PlatformVersion [out]
 
-The platform version information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info">CF_PLATFORM_INFO</a> for more details.
+The platform version information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info">CF_PLATFORM_INFO</a> for more details.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

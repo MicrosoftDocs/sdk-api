@@ -54,8 +54,8 @@ api_name:
 
 The <b>ADS_OPTION_ENUM</b> enumeration type 
    contains values that indicate the options that can be retrieved or set with the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions.GetOption</a> and 
-   <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> 
+   <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions.GetOption</a> and 
+   <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> 
    methods.
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The <b>ADS_OPTION_ENUM</b> enumeration type
 
 Gets a <b>VT_BSTR</b> that contains the host name of the server for the current binding 
       to this object. This option is not supported by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
+      <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
 
 ### -field ADS_OPTION_REFERRALS
 
@@ -89,9 +89,9 @@ Gets a <b>VT_I4</b> value that determines if mutual authentication is performed 
       SSPI layer. If the returned option value contains the <b>ISC_RET_MUTUAL_AUTH</b> flag, 
       defined in Sspi.h, then mutual authentication has been performed. If the returned option value does not contain 
       the <b>ISC_RET_MUTUAL_AUTH</b> flag, then mutual authentication has not been performed. For 
-      more information about mutual authentication, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">SSPI</a>. This 
+      more information about mutual authentication, see <a href="/windows/desktop/SecAuthN/sspi">SSPI</a>. This 
       option is not supported by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
+      <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
 
 ### -field ADS_OPTION_QUOTA
 
@@ -99,7 +99,7 @@ Enables the effective quota and used quota of a security principal to be read. T
        <b>VT_BSTR</b> value that contains the security principal that the quotas can be read for. 
        If the security principal string is zero length or the  value is a <b>VT_EMPTY</b> value, 
        the security principal is the currently logged on user. This option is only supported by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
+       <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a> method.
 
 ### -field ADS_OPTION_PASSWORD_PORTNUMBER
 
@@ -121,7 +121,7 @@ Contains  a <b>VT_BOOL</b> value that specifies if attribute value change operat
          change operation is overwritten by the more recent operation. If this option is set to 
          <b>VARIANT_TRUE</b>, each attribute value change operation is accumulated in the cache. 
          When the attribute value updates are committed to the server with the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> method, each individual accumulated 
+         <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> method, each individual accumulated 
          operation is sent to the server.
 
 When this option has been set to <b>VARIANT_TRUE</b>, it cannot be reset to 
@@ -130,20 +130,20 @@ When this option has been set to <b>VARIANT_TRUE</b>, it cannot be reset to
          to again, this option will be set to <b>VARIANT_FALSE</b> by default.
 
 This option only affects attribute values modified with the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a> 
-         methods. This option is ignored by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs.Put</a> method.
+         <a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a> and 
+         <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a> 
+         methods. This option is ignored by the <a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs.Put</a> method.
 
 ### -field ADS_OPTION_SKIP_SID_LOOKUP
 
 If this option is set on the object, no lookups will be performed (either during the retrieval or during 
-       modification). This option affects the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a> interfaces. It is also applicable 
+       modification). This option affects the <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a> and 
+       <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a> interfaces. It is also applicable 
        when retrieving the effective quota usage of a particular user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
@@ -155,29 +155,28 @@ If this option is set on the object, no lookups will be performed (either during
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs.Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs.Put</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions.GetOption</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions.GetOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions.SetOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>

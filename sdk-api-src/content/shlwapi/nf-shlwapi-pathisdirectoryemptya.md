@@ -84,5 +84,4 @@ Returns <b>TRUE</b> if <i>pszPath</i> is an empty directory. Returns <b>FALSE</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectorya">PathIsDirectory</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectorya">PathIsDirectory</a>

@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbEventGroupDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbEventGroupDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbEventGroupDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbEventGroupDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbEventGroupDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
  Gets the number of event records in   an ISDB event group descriptor.
@@ -78,7 +78,7 @@ The <b>IIsdbEventGroupDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getcountofrefrecords">GetCountOfRefRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getcountofrefrecords">GetCountOfRefRecords</a>
 </td>
 <td align="left" width="63%">
  Gets the number of records for related events from an ISDB event group descriptor.
@@ -87,7 +87,7 @@ The <b>IIsdbEventGroupDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getgrouptype">GetGroupType</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getgrouptype">GetGroupType</a>
 </td>
 <td align="left" width="63%">
  Gets a code that describes the group type from an ISDB event group descriptor.
@@ -96,7 +96,7 @@ The <b>IIsdbEventGroupDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of  an ISDB event group descriptor.
@@ -105,7 +105,7 @@ Gets the body length of  an ISDB event group descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getrecordevent">GetRecordEvent</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getrecordevent">GetRecordEvent</a>
 </td>
 <td align="left" width="63%">
  Gets data from an event record in an ISDB event group descriptor.
@@ -114,7 +114,7 @@ Gets the body length of  an ISDB event group descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getrefrecordevent">GetRefRecordEvent</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-getrefrecordevent">GetRefRecordEvent</a>
 </td>
 <td align="left" width="63%">
  Gets data from a related event record in an ISDB event group descriptor.
@@ -123,7 +123,7 @@ Gets the body length of  an ISDB event group descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbeventgroupdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
  Gets the tag that identifies an ISDB event group descriptor.
@@ -131,4 +131,3 @@ Gets the body length of  an ISDB event group descriptor.
 </td>
 </tr>
 </table>
-

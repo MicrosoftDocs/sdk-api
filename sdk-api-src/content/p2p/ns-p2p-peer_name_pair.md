@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PEER_NAME_PAIR</b> structure contains the results of a call to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>.
+The <b>PEER_NAME_PAIR</b> structure contains the results of a call to  <a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>.
 
 ## -struct-fields
 
@@ -80,13 +80,12 @@ When enumerating peer groups,  each <b>PEER_NAME_PAIR</b>  structure contains th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>

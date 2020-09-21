@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-Contains information about the two rectangles of a split button. Sent with the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-getcustomsplitrect">NM_GETCUSTOMSPLITRECT</a> notification.
+Contains information about the two rectangles of a split button. Sent with the <a href="/windows/desktop/Controls/nm-getcustomsplitrect">NM_GETCUSTOMSPLITRECT</a> notification.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field rcClient
 
@@ -84,5 +84,4 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that d
 
 ## -remarks
 
-This information is used to draw the button. The button must be of style <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a>
-
+This information is used to draw the button. The button must be of style <a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> or <a href="/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a>

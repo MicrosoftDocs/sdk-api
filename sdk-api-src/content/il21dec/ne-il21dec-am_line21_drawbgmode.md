@@ -68,13 +68,12 @@ Transparent background.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">IAMLine21Decoder::GetDrawBackgroundMode</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">IAMLine21Decoder::GetDrawBackgroundMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">IAMLine21Decoder::SetDrawBackgroundMode</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">IAMLine21Decoder::SetDrawBackgroundMode</a>

@@ -57,14 +57,14 @@ Gets a description of the current HLSL class.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a> structure that describes the current HLSL class.
+A pointer to a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a> structure that describes the current HLSL class.
 
 ## -remarks
 
-For more information about using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a> interface, see
-          <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking">Dynamic Linking</a>.
+For more information about using the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a> interface, see
+          <a href="/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking">Dynamic Linking</a>.
         
 
 An instance is not restricted to being used for a single type in a single shader. An instance is flexible and can be used for any shader that used the same type name or instance name when the instance was generated.
@@ -86,5 +86,4 @@ An instance does not replace the importance of reflection for a particular shade
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>

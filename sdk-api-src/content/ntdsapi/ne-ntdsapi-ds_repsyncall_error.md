@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-The <b>DS_REPSYNCALL_ERROR</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure to indicate where in the replication process an error occurred.
+The <b>DS_REPSYNCALL_ERROR</b> enumeration is used with the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure to indicate where in the replication process an error occurred.
 
 ## -enum-fields
 
 ### -field DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER
 
-The server referred to by the <b>pszSvrId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
+The server referred to by the <b>pszSvrId</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
 
 ### -field DS_REPSYNCALL_WIN32_ERROR_REPLICATING
 
-An error occurred during replication of the server identified by the <b>pszSvrId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure.
+An error occurred during replication of the server identified by the <b>pszSvrId</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure.
 
 ### -field DS_REPSYNCALL_SERVER_UNREACHABLE
 
-The server identified by the <b>pszSvrId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
+The server identified by the <b>pszSvrId</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa">DS_REPSYNCALL_ERRINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a>

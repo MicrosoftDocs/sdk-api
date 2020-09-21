@@ -58,7 +58,7 @@ The <b>IPSEC_SA_CONTEXT_CHANGE0</b> structure contains information about an IPse
 
 ### -field changeType
 
-Type: [IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)</b>
+Type: [IPSEC_SA_CONTEXT_EVENT_TYPE0](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)</b>
 
 The type of IPsec SA context change event.
 
@@ -70,5 +70,4 @@ Identifier of the IPsec SA context that changed.
 
 ## -see-also
 
-[IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)
-
+[IPSEC_SA_CONTEXT_EVENT_TYPE0](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)

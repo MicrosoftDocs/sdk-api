@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structures.
+The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structures.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Pointer to the second VIDEOINFO structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
-
+<a href="/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>

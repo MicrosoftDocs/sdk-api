@@ -62,13 +62,12 @@ This property is read/write.
 
 If you specify a repetition duration for a task, you must also specify the repetition interval.
 
-When reading or writing XML for a task, the repetition interval is specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-interval-repetitiontype-element">Interval</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the repetition interval is specified in the  <a href="/windows/desktop/TaskSchd/taskschedulerschema-interval-repetitiontype-element">Interval</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern">IRepetitionPattern</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern">IRepetitionPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

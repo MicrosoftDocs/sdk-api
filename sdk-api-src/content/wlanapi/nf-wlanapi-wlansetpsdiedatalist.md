@@ -56,7 +56,7 @@ The <b>WlanSetPsdIeDataList</b> function sets the proximity service discovery (P
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param strFormat [in]
 
@@ -64,7 +64,7 @@ The format of a PSD IE in the PSD IE data list passed in the <i>pPsdIEDataList</
 
 ### -param pPsdIEDataList [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a> structure that contains the PSD IE data list to be set.
+A pointer to a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a> structure that contains the PSD IE data list to be set.
 
 ### -param pReserved
 
@@ -183,25 +183,24 @@ Note that there may be collisions in the truncated HMACs, which means that it ma
 
 At most, five PSD IEs can be passed in a list. Also, the total length, in bytes, of the PSD IE list may be restricted by hardware limitations on the length of a beacon.
 
-An application can call  <b>WlanSetPsdIeDataList</b> many times. When <b>WlanSetPsdIeDataList</b>  is called twice with the same <i>strFormat</i>, the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a> populated by the first function call are overwritten by the second call's <b>WLAN_RAW_DATA_LIST</b> payload. When <b>WlanSetPsdIeDataList</b>  is called with the <i>pPsdIEDataList</i> parameter set to <b>NULL</b>, the PSD IE list associated with <i>strFormat</i> is cleared. When <b>WlanSetPsdIeDataList</b>  is called with both the <i>pPsdIEDataList</i>  and <i>strFormat</i> parameters set to <b>NULL</b>, all PSD IE lists set by the application are cleared. 
+An application can call  <b>WlanSetPsdIeDataList</b> many times. When <b>WlanSetPsdIeDataList</b>  is called twice with the same <i>strFormat</i>, the contents of the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a> populated by the first function call are overwritten by the second call's <b>WLAN_RAW_DATA_LIST</b> payload. When <b>WlanSetPsdIeDataList</b>  is called with the <i>pPsdIEDataList</i> parameter set to <b>NULL</b>, the PSD IE list associated with <i>strFormat</i> is cleared. When <b>WlanSetPsdIeDataList</b>  is called with both the <i>pPsdIEDataList</i>  and <i>strFormat</i> parameters set to <b>NULL</b>, all PSD IE lists set by the application are cleared. 
 
 The wireless service processes PSD IE data lists set by different applications and generates  raw IE data blobs. When a machine creates or joins an ad-hoc network on any wireless adapter, it sends beacons that include a PSD IE data blob associated with the network to other machines. 
 
-Stations can call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a> function to get the PSD IE data list after receiving a beacon from a machine.
+Stations can call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a> function to get the PSD IE data list after receiving a beacon from a machine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>
+<a href="/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>

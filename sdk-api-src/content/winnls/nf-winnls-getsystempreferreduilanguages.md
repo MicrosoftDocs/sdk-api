@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Retrieves the system preferred UI languages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Retrieves the system preferred UI languages. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Flags identifying language format and filtering. The following flags specify the
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Retrieve the language strings in <a href="https://docs.microsoft.com/windows/des
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is se
 
 ## -returns
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.
 </li>
@@ -147,7 +147,7 @@ that do not include the leading 0x, and will be 4 characters in length. For exam
 
 as "0409" and en as "0009".
 
-The system preferred UI languages cannot include more than one Language Interface Pack (LIP) language that corresponds to a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>. If the list includes more than one of these languages, and if the application specifies MUI_LANGUAGE_ID in the call to the function, the language buffer contains "1400" for that language. This string corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
+The system preferred UI languages cannot include more than one Language Interface Pack (LIP) language that corresponds to a <a href="/windows/desktop/Intl/custom-locales">supplemental locale</a>. If the list includes more than one of these languages, and if the application specifies MUI_LANGUAGE_ID in the call to the function, the language buffer contains "1400" for that language. This string corresponds to the hexadecimal value of <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
 
 If the MUI_MACHINE_LANGUAGE_SETTINGS flag is set, this function checks each language in the list that represents a valid NLS locale. The retrieved list can contain the following items:
 
@@ -180,29 +180,28 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserpreferreduilanguages">GetUserPreferredUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserpreferreduilanguages">GetUserPreferredUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>INSTALLSPECTYPE</b> enumeration values define the ways  a group policy application can be specified to the  <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function. The values are used in the <b>Type</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>.
+The <b>INSTALLSPECTYPE</b> enumeration values define the ways  a group policy application can be specified to the  <a href="/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function. The values are used in the <b>Type</b> member of <a href="/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>.
 
 ## -enum-fields
 
@@ -70,21 +70,20 @@ The application is specified by its file name extension, for example, .jpg.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>
+<a href="/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>
+<a href="/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
-
+<a href="/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>

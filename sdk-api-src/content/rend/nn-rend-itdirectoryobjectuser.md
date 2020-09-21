@@ -55,11 +55,11 @@ provides similar functionality.]
 
 The 
 <b>ITDirectoryObjectUser</b> interface is the common interface supported by the User object. This interface is created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObjectUser</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObjectUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObjectUser</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectoryObjectUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ITDirectoryObjectUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-get_ipphoneprimary">get_IPPhonePrimary</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-get_ipphoneprimary">get_IPPhonePrimary</a>
 </td>
 <td align="left" width="63%">
 Gets user's primary IP phone.
@@ -83,7 +83,7 @@ Gets user's primary IP phone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">put_IPPhonePrimary</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">put_IPPhonePrimary</a>
 </td>
 <td align="left" width="63%">
 Sets user's primary IP phone.
@@ -91,4 +91,3 @@ Sets user's primary IP phone.
 </td>
 </tr>
 </table>
-

@@ -60,7 +60,7 @@ The number of elements in the <i>pbPidListBuffer</i> array.
 
 ### -param pbPidListBuffer [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mux-pidlistitem">BDA_MUX_PIDLISTITEM</a> structures.
+Pointer to an array of <a href="/previous-versions/windows/desktop/mstv/bda-mux-pidlistitem">BDA_MUX_PIDLISTITEM</a> structures.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_mux">IBDA_MUX</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_mux">IBDA_MUX</a>

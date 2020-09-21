@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>HandoffIndirect</b> method hands off the call to another application based on the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> of the call. If multiple applications have registered as able to handle the types involved, TAPI will hand off to the highest-priority application, which is usually the one that registered first.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> of the call. If multiple applications have registered as able to handle the types involved, TAPI will hand off to the highest-priority application, which is usually the one that registered first.
 
 This indicates that the application no longer requires ownership of the call.
 
@@ -60,7 +60,7 @@ This indicates that the application no longer requires ownership of the call.
 
 ### -param lMediaType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> to transfer to.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> to transfer to.
 
 ## -returns
 
@@ -109,31 +109,30 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
 
 If TAPI fails to hand off the call, TAPI will call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/handoffs-ovr">Handoffs overview</a>
+<a href="/windows/desktop/Tapi/handoffs-ovr">Handoffs overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">TAPIMEDIATYPE_ Constants</a>
+<a href="/windows/desktop/Tapi/tapimediatype--constants">TAPIMEDIATYPE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>

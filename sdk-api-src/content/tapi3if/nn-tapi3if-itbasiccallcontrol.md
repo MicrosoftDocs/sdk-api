@@ -52,22 +52,22 @@ api_name:
 
 The 
 <b>ITBasicCallControl</b> interface is used by the application to connect, answer, and perform basic telephony operations on a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">call object</a>.
+<a href="/windows/desktop/Tapi/call-object">call object</a>.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a> interface is an extension of the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a> interface is an extension of the 
 <b>ITBasicCallControl</b> interface. 
 <b>ITBasicCallControl2</b> supplies additional methods that allow an application to select a terminal onto a call. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a> method creates the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a> method creates the 
 <b>ITBasicCallControl</b> interface.
 
 Note to programmers familiar with TAPI 2.1: The general function of this interface is similar to the TAPI 2.1 line functions. For example, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">ITBasicCallControl::Answer</a> method provide similar functionality.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a> function and the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">ITBasicCallControl::Answer</a> method provide similar functionality.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITBasicCallControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITBasicCallControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>ITBasicCallControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">Answer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer">Answer</a>
 </td>
 <td align="left" width="63%">
 Answers an incoming call.
@@ -91,7 +91,7 @@ Answers an incoming call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-blindtransfer">BlindTransfer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-blindtransfer">BlindTransfer</a>
 </td>
 <td align="left" width="63%">
 Transfers the call to the indicated address.
@@ -100,7 +100,7 @@ Transfers the call to the indicated address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference">Conference</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference">Conference</a>
 </td>
 <td align="left" width="63%">
 Starts a conference, with the current call included.
@@ -109,7 +109,7 @@ Starts a conference, with the current call included.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Attempts to complete the connection of an outgoing call.
@@ -118,7 +118,7 @@ Attempts to complete the connection of an outgoing call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial">Dial</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial">Dial</a>
 </td>
 <td align="left" width="63%">
 Dials the given address.
@@ -127,7 +127,7 @@ Dials the given address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the call.
@@ -136,7 +136,7 @@ Disconnects the call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">Finish</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">Finish</a>
 </td>
 <td align="left" width="63%">
 Finishes the two-step process of transferring or adding the call to a conference.
@@ -145,7 +145,7 @@ Finishes the two-step process of transferring or adding the call to a conference
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffdirect">HandoffDirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffdirect">HandoffDirect</a>
 </td>
 <td align="left" width="63%">
 Hands off the call to a specific application.
@@ -154,17 +154,17 @@ Hands off the call to a specific application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect">HandoffIndirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect">HandoffIndirect</a>
 </td>
 <td align="left" width="63%">
 Hands off the call to another application, specifying only the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-hold">Hold</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-hold">Hold</a>
 </td>
 <td align="left" width="63%">
 Places or removes the call from the hold state.
@@ -173,7 +173,7 @@ Places or removes the call from the hold state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
 </td>
 <td align="left" width="63%">
 Parks the call at a specified address.
@@ -182,7 +182,7 @@ Parks the call at a specified address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
 </td>
 <td align="left" width="63%">
 Parks the call and returns the parked address.
@@ -191,7 +191,7 @@ Parks the call and returns the parked address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-pickup">Pickup</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-pickup">Pickup</a>
 </td>
 <td align="left" width="63%">
 Picks up a call alerting at the specified group identification.
@@ -200,7 +200,7 @@ Picks up a call alerting at the specified group identification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-removefromconference">RemoveFromConference</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-removefromconference">RemoveFromConference</a>
 </td>
 <td align="left" width="63%">
 Removes the call from a conference.
@@ -209,7 +209,7 @@ Removes the call from a conference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">SetQOS</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">SetQOS</a>
 </td>
 <td align="left" width="63%">
 Sets the QOS service level for the call.
@@ -218,7 +218,7 @@ Sets the QOS service level for the call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-swaphold">SwapHold</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-swaphold">SwapHold</a>
 </td>
 <td align="left" width="63%">
 Swaps the call (which is active) with the specified call on hold.
@@ -227,7 +227,7 @@ Swaps the call (which is active) with the specified call on hold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
 </td>
 <td align="left" width="63%">
 Transfers the current call to the destination address.
@@ -236,7 +236,7 @@ Transfers the current call to the destination address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark">Unpark</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark">Unpark</a>
 </td>
 <td align="left" width="63%">
 Gets the call parked at the specified address.
@@ -247,13 +247,12 @@ Gets the call parked at the specified address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a>

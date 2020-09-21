@@ -68,5 +68,4 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>

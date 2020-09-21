@@ -56,7 +56,7 @@ Gets the output buffer for each processing pass. The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputEndpointRT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputEndpointRT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputEndpointRT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputEndpointRT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAudioOutputEndpointRT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">GetOutputDataPointer</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">GetOutputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the output buffer in which data will be written by the audio engine.
@@ -80,7 +80,7 @@ Gets a pointer to the output buffer in which data will be written by the audio e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-pulseendpoint">PulseEndpoint</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-pulseendpoint">PulseEndpoint</a>
 </td>
 <td align="left" width="63%">
 This method is  reserved.
@@ -89,7 +89,7 @@ This method is  reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-releaseoutputdatapointer">ReleaseOutputDataPointer</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-releaseoutputdatapointer">ReleaseOutputDataPointer</a>
 </td>
 <td align="left" width="63%">
 Releases the pointer to the output buffer.
@@ -106,4 +106,3 @@ Releases the pointer to the output buffer.
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client 
     applications.
-

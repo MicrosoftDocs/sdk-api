@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>.
+Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>.
 
 ## -struct-fields
 
@@ -75,21 +75,21 @@ A handle to the thread that installed the debugging filter function.
 Type: <b>LPARAM</b>
 
 The value to be passed to the hook in the 
-					<i>lParam</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+					<i>lParam</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
 
 ### -field wParam
 
 Type: <b>WPARAM</b>
 
 The value to be passed to the hook in the 
-					<i>wParam</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+					<i>wParam</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
 
 ### -field code
 
 Type: <b>int</b>
 
 The value to be passed to the hook in the 
-					<i>nCode</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+					<i>nCode</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
 
 ## -see-also
 
@@ -97,11 +97,11 @@ The value to be passed to the hook in the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -109,5 +109,4 @@ The value to be passed to the hook in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

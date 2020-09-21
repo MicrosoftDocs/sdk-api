@@ -65,11 +65,11 @@ A reference to the identifier of the interface to be marshaled.
 
 ### -param pUnk [in]
 
-A pointer to the interface to be marshaled, which must be derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. This parameter can be <b>NULL</b>.
+A pointer to the interface to be marshaled, which must be derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. This parameter can be <b>NULL</b>.
 
 ### -param ppStm [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>* pointer variable that receives the interface pointer to the stream that contains the marshaled interface.
+The address of the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>* pointer variable that receives the interface pointer to the stream that contains the marshaled interface.
 
 ## -returns
 
@@ -77,7 +77,7 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
 ## -remarks
 
-The <b>CoMarshalInterThreadInterfaceInStream</b> function enables an object to easily and reliably marshal an interface pointer to another thread in the same process. The stream returned in the <i>ppStm</i> parameter is guaranteed to behave correctly when a client running in the receiving thread attempts to unmarshal the pointer. The client can then call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream">CoGetInterfaceAndReleaseStream</a> to unmarshal the interface pointer and release the stream object.
+The <b>CoMarshalInterThreadInterfaceInStream</b> function enables an object to easily and reliably marshal an interface pointer to another thread in the same process. The stream returned in the <i>ppStm</i> parameter is guaranteed to behave correctly when a client running in the receiving thread attempts to unmarshal the pointer. The client can then call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream">CoGetInterfaceAndReleaseStream</a> to unmarshal the interface pointer and release the stream object.
 
 The <b>CoMarshalInterThreadInterfaceInStream</b> function performs the following tasks:
 
@@ -87,16 +87,15 @@ Creates a stream object.
 
 </li>
 <li>
-Passes the stream object's IStream pointer to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>.
+Passes the stream object's IStream pointer to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>.
 
 </li>
 <li>
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the caller.
+Returns the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the caller.
 
 </li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream">CoGetInterfaceAndReleaseStream</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream">CoGetInterfaceAndReleaseStream</a>

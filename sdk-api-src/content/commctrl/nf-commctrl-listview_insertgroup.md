@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts a group into a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroup">LVM_INSERTGROUP</a> message explicitly.
+Inserts a group into a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-insertgroup">LVM_INSERTGROUP</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,12 +68,11 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>
 
 ## -remarks
 
-To turn on group mode, call <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-enablegroupview">LVM_ENABLEGROUPVIEW</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_enablegroupview">ListView_EnableGroupView</a>.
+To turn on group mode, call <a href="/windows/desktop/Controls/lvm-enablegroupview">LVM_ENABLEGROUPVIEW</a> or <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_enablegroupview">ListView_EnableGroupView</a>.
 
 
-To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_InsertGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a> method to specify the updated status for the item.
+Used in the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a> method to specify the updated status for the item.
 
 ## -enum-fields
 
@@ -98,5 +98,4 @@ The item has been deleted. This value has been deprecated for Windows Vista and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a>

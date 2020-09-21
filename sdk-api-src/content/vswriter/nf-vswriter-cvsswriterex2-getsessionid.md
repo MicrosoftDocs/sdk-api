@@ -69,14 +69,13 @@ The session identifier is an opaque value that uniquely identifies a backup or r
 
 As a best practice, writers and requesters should include the session ID in all diagnostics messages used for event logging and tracing.
 
-If a writer's event handler (such as <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
+If a writer's event handler (such as <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">IVssBackupComponentsEx3::GetSessionId</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">IVssBackupComponentsEx3::GetSessionId</a>

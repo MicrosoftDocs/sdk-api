@@ -51,134 +51,133 @@ api_name:
 
 ## -description
 
-Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
+Enumerates <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>
+<a href="/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
 
 ## -enum-fields
 
 ### -field CLUSCTL_NODE_UNKNOWN
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-unknown">CLUSCTL_NODE_UNKNOWN</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-unknown">CLUSCTL_NODE_UNKNOWN</a>.
 
 ### -field CLUSCTL_NODE_GET_CHARACTERISTICS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-characteristics">CLUSCTL_NODE_GET_CHARACTERISTICS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-characteristics">CLUSCTL_NODE_GET_CHARACTERISTICS</a>.
 
 ### -field CLUSCTL_NODE_GET_FLAGS
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-flags">CLUSCTL_NODE_GET_FLAGS</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-flags">CLUSCTL_NODE_GET_FLAGS</a>.
 
 ### -field CLUSCTL_NODE_GET_NAME
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-name">CLUSCTL_NODE_GET_NAME</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-name">CLUSCTL_NODE_GET_NAME</a>.
 
 ### -field CLUSCTL_NODE_GET_ID
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-id">CLUSCTL_NODE_GET_ID</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-id">CLUSCTL_NODE_GET_ID</a>.
 
 ### -field CLUSCTL_NODE_ENUM_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-enum-common-properties">CLUSCTL_NODE_ENUM_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-enum-common-properties">CLUSCTL_NODE_ENUM_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_GET_RO_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-ro-common-properties">CLUSCTL_NODE_GET_RO_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-ro-common-properties">CLUSCTL_NODE_GET_RO_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_GET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-common-properties">CLUSCTL_NODE_GET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-common-properties">CLUSCTL_NODE_GET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_SET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-set-common-properties">CLUSCTL_NODE_SET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-set-common-properties">CLUSCTL_NODE_SET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_VALIDATE_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-validate-common-properties">CLUSCTL_NODE_VALIDATE_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-validate-common-properties">CLUSCTL_NODE_VALIDATE_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_ENUM_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-enum-private-properties">CLUSCTL_NODE_ENUM_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-enum-private-properties">CLUSCTL_NODE_ENUM_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_GET_RO_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-ro-private-properties">CLUSCTL_NODE_GET_RO_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-ro-private-properties">CLUSCTL_NODE_GET_RO_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_GET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-private-properties">CLUSCTL_NODE_GET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-private-properties">CLUSCTL_NODE_GET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_SET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-set-private-properties">CLUSCTL_NODE_SET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-set-private-properties">CLUSCTL_NODE_SET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_VALIDATE_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-validate-private-properties">CLUSCTL_NODE_VALIDATE_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-validate-private-properties">CLUSCTL_NODE_VALIDATE_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_NODE_GET_COMMON_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-common-property-fmts">CLUSCTL_NODE_GET_COMMON_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-common-property-fmts">CLUSCTL_NODE_GET_COMMON_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_NODE_GET_PRIVATE_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-private-property-fmts">CLUSCTL_NODE_GET_PRIVATE_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-private-property-fmts">CLUSCTL_NODE_GET_PRIVATE_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_NODE_GET_CLUSTER_SERVICE_ACCOUNT_NAME
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-cluster-service-account-name">CLUSCTL_NODE_GET_CLUSTER_SERVICE_ACCOUNT_NAME</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-cluster-service-account-name">CLUSCTL_NODE_GET_CLUSTER_SERVICE_ACCOUNT_NAME</a>.
 
 ### -field CLUSCTL_NODE_GET_STUCK_NODES
 
 ### -field CLUSCTL_NODE_INJECT_GEM_FAULT
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-inject-gem-fault">CLUSCTL_NODE_INJECT_GEM_FAULT</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-inject-gem-fault">CLUSCTL_NODE_INJECT_GEM_FAULT</a>.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This control code is not supported before Windows Server 2012 R2.
 
 ### -field CLUSCTL_NODE_INTRODUCE_GEM_REPAIR_DELAY
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-introduce-gem-repair-delay">CLUSCTL_NODE_INTRODUCE_GEM_REPAIR_DELAY</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-introduce-gem-repair-delay">CLUSCTL_NODE_INTRODUCE_GEM_REPAIR_DELAY</a>.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This control code is not supported before Windows Server 2012 R2.
 
 ### -field CLUSCTL_NODE_SEND_DUMMY_GEM_MESSAGES
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-send-dummy-gem-messages">CLUSCTL_NODE_SEND_DUMMY_GEM_MESSAGES</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-send-dummy-gem-messages">CLUSCTL_NODE_SEND_DUMMY_GEM_MESSAGES</a>.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This control code is not supported before Windows Server 2012 R2.
 
 ### -field CLUSCTL_NODE_BLOCK_GEM_SEND_RECV
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-block-gem-send-recv">CLUSCTL_NODE_BLOCK_GEM_SEND_RECV</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-block-gem-send-recv">CLUSCTL_NODE_BLOCK_GEM_SEND_RECV</a>.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This control code is not supported before Windows Server 2012 R2.
 
 ### -field CLUSCTL_NODE_GET_GEMID_VECTOR
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-gemid-vector">CLUSCTL_NODE_GET_GEMID_VECTOR</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-gemid-vector">CLUSCTL_NODE_GET_GEMID_VECTOR</a>.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This control code is not supported before Windows Server 2012 R2.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-control-codes">Node Control Codes</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-control-codes">Node Control Codes</a>

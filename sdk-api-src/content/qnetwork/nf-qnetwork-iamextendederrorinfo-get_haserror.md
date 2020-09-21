@@ -85,5 +85,4 @@ If <i>pHasError</i> is true, you can call the <b>get_ErrorCode</b> and <b>get_Er
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendederrorinfo">IAMExtendedErrorInfo Interface</a>
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamextendederrorinfo">IAMExtendedErrorInfo Interface</a>

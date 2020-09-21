@@ -60,7 +60,7 @@ The <b>DRT_SECURITY_PROVIDER</b> structure defines the DRT interface that must b
 
 ### -field pvContext
 
-This member is specified by the application when passing the <b>DRT_SECURITY_PROVIDER</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> function.
+This member is specified by the application when passing the <b>DRT_SECURITY_PROVIDER</b> structure to the <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> function.
 
 The DRT treats it as an opaque pointer, and passes it as the first parameter to the functions referenced by this structure. An application will use this as a pointer to the security provider state or to the object that implements the security provider functionality.
 
@@ -98,13 +98,13 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 
 #### pRegistration
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a> structure created by an application and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
+Pointer to the <a href="/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a> structure created by an application and passed to the <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
 
 
 
 #### pvKeyContext
 
-Pointer to the context data created by an application and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
+Pointer to the context data created by an application and passed to the <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
 
 ### -field UnregisterKey
 
@@ -126,7 +126,7 @@ Pointer to the key to which the payload is registered.
 
 #### pvKeyContext
 
-Pointer to the context data created by the application and passed to <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>.
+Pointer to the context data created by the application and passed to <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>.
 
 ### -field ValidateAndUnpackPayload
 
@@ -228,7 +228,7 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 
 #### pvKeyContext
 
-Contains the context passed into <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the key was registered.
+Contains the context passed into <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the key was registered.
 
 
 
@@ -260,7 +260,7 @@ Pointer to the key to which this payload is registered.
 
 #### pPayload
 
-Pointer to the payload specified by the application when calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>.
+Pointer to the payload specified by the application when calling <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>.
 
 
 
@@ -316,7 +316,7 @@ Specifies what  data to free.
 
 ### -field EncryptData
 
-Called when the DRT sends a message containing data that must be encrypted. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
+Called when the DRT sends a message containing data that must be encrypted. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -356,7 +356,7 @@ Contains the encrypted session key that can be decrypted by the recipient of the
 
 ### -field DecryptData
 
-Called when the DRT receives a message containing encrypted data. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
+Called when the DRT receives a message containing encrypted data. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -374,7 +374,7 @@ Contains the encrypted session key that can be decrypted by the recipient of the
 
 #### pvKeyContext
 
-Contains the context passed into <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the key was registered.
+Contains the context passed into <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the key was registered.
 
 
 
@@ -390,7 +390,7 @@ Contains the decrypted data upon completion of the function.
 
 ### -field GetSerializedCredential
 
-Called when the DRT must provide a credential used to authorize the local node. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
+Called when the DRT must provide a credential used to authorize the local node. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -422,7 +422,7 @@ Contains the serialized credential provided by the peer node.
 
 ### -field SignData
 
-Called when the DRT must sign a data blob for inclusion in a DRT protocol message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
+Called when the DRT must sign a data blob for inclusion in a DRT protocol message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -456,7 +456,7 @@ Upon completion of this function, contains the signature data.
 
 ### -field VerifyData
 
-Called when the DRT must verify a signature calculated over a block of data included in a DRT message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
+Called when the DRT must verify a signature calculated over a block of data included in a DRT message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -496,13 +496,12 @@ Contains the signature to be verified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>
+<a href="/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>

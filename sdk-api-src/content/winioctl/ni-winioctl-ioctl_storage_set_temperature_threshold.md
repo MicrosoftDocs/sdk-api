@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
@@ -96,4 +96,3 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
 * [STORAGE_TEMPERATURE_INFO](ns-winioctl-storage_temperature_info.md)
 * [STORAGE_TEMPERATURE_THRESHOLD](ns-winioctl-storage_temperature_threshold.md)
-

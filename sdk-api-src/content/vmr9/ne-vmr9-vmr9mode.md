@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>VMR9Mode</b> enumeration type specifies the rendering mode of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer 9</a> (VMR-9) filter.
+The <b>VMR9Mode</b> enumeration type specifies the rendering mode of the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer 9</a> (VMR-9) filter.
 
 ## -enum-fields
 
@@ -74,17 +74,16 @@ Bitwise <b>OR</b> of all above flags; not used by applications.
 
 ## -remarks
 
-For a description of the various VMR-9 modes, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/vmr-modes-of-operation">VMR Modes of Operation</a>.
+For a description of the various VMR-9 modes, see <a href="/windows/desktop/DirectShow/vmr-modes-of-operation">VMR Modes of Operation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingmode">IVMRFilterConfig9::GetRenderingMode</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingmode">IVMRFilterConfig9::GetRenderingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">IVMRFilterConfig9::SetRenderingMode</a>
-
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">IVMRFilterConfig9::SetRenderingMode</a>

@@ -65,7 +65,7 @@ A one-based port number for the communication device to open.
 
 The requested access to the device.
 
-For more information about requested access, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
+For more information about requested access, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -95,7 +95,7 @@ The file or device is being opened or created for asynchronous I/O.
 
 ## -returns
 
-If the function succeeds, the function returns a valid <b>HANDLE</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to close that handle.
+If the function succeeds, the function returns a valid <b>HANDLE</b>. Use <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to close that handle.
 
 If an error occurs, the function returns <b>INVALID_HANDLE_VALUE</b>.
 
@@ -107,13 +107,12 @@ To support UWP, link against WindowsApp.lib.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>
-
+<a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>

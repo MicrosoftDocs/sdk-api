@@ -54,7 +54,7 @@ Exposes methods that provide an enumerator of sync handler IDs and instantiate t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandlerCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandlerCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandlerCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandlerCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrHandlerCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-bindtohandler">BindToHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-bindtohandler">BindToHandler</a>
 </td>
 <td align="left" width="63%">
 Instantiates a specified sync handler when called by Sync Center.
@@ -78,7 +78,7 @@ Instantiates a specified sync handler when called by Sync Center.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">GetHandlerEnumerator</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">GetHandlerEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.
@@ -127,4 +127,3 @@ STDMETHODIMP CMyHandlerCollection::BindToHandler(
 }
 
 ```
-

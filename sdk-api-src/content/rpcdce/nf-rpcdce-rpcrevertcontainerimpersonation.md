@@ -62,5 +62,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclientcontainer">RpcImpersonateClientContainer</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclientcontainer">RpcImpersonateClientContainer</a>

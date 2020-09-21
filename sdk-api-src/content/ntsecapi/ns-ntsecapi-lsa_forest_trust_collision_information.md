@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information about <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collisions.
+The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information about <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collisions.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Pointer to a pointer to an array of <a href="/windows/win32/api/ntsecapi/ns-ntse
 ### -field Entries.size_is
 
 ### -field Entries.size_is.RecordCount
-

@@ -58,7 +58,7 @@ Associates information with the specified product for both online and phone acti
 
 Type: <b>HSLC</b>
 
-Handle retrieved by previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
+Handle retrieved by previous call to the <a href="/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
 
 ### -param pApplicationId [in]
 
@@ -112,4 +112,3 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
-

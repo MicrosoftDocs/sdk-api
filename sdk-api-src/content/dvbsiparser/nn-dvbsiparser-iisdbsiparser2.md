@@ -69,7 +69,7 @@ The <b>IIsdbSiParser2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getbit">GetBIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getbit">GetBIT</a>
 </td>
 <td align="left" width="63%">
  Retrieves the broadcaster information table (BIT) from an ISDB transport stream.
@@ -78,7 +78,7 @@ The <b>IIsdbSiParser2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getcdt">GetCDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getcdt">GetCDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the common data table (CDT) from an ISDB transport stream.
@@ -87,7 +87,7 @@ Retrieves the common data table (CDT) from an ISDB transport stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getemm">GetEMM</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getemm">GetEMM</a>
 </td>
 <td align="left" width="63%">
 Retrieves the entitlement management message (EMM) table  from an ISDB transport stream.
@@ -96,7 +96,7 @@ Retrieves the entitlement management message (EMM) table  from an ISDB transport
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getldt">GetLDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getldt">GetLDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the linked description table (LDT)
@@ -106,7 +106,7 @@ Retrieves the linked description table (LDT)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getnbit">GetNBIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getnbit">GetNBIT</a>
 </td>
 <td align="left" width="63%">
  Retrieves the
@@ -116,7 +116,7 @@ Retrieves the linked description table (LDT)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getsdt">GetSDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getsdt">GetSDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the service description table (SDT) from an ISDB transport stream.
@@ -125,7 +125,7 @@ Retrieves the service description table (SDT) from an ISDB transport stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getsdtt">GetSDTT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparser2-getsdtt">GetSDTT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the  software download
@@ -135,4 +135,3 @@ Retrieves the  software download
 </td>
 </tr>
 </table>
-

@@ -57,7 +57,7 @@ Sets the font's Weight property.
 ### -param weight [in]
 
 The new Weight for the font. For a list of available font weights, see the description of the <b>lfWeight</b> member of 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
+    the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 ## -returns
 
@@ -102,9 +102,8 @@ This property may
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">IFont::get_Weight</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">IFont::get_Weight</a>

@@ -88,9 +88,8 @@ The <b>IWMPEvents::StatusChange</b> event is fired whenever this property change
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-statuschange">IWMPEvents::StatusChange</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-statuschange">IWMPEvents::StatusChange</a>

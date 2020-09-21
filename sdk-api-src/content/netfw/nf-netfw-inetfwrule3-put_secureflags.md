@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
 
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_authenticate_type">NET_FW_AUTHENTICATE_TYPE</a>
-

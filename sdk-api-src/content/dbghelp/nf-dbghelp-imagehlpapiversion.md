@@ -53,31 +53,30 @@ api_name:
 Retrieves the version information of the DbgHelp library installed on the system.
 
 To indicate the version of the library with which the application was built, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a> function.
 
 ## -parameters
 
 ## -returns
 
 The return value is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure.
 
 ## -remarks
 
 Use the information in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure to determine whether the version of the library installed on the system is compatible with the version of the library used by the application. Although the library functions are backward compatible, functions introduced in one version are obviously not available in earlier versions.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a> structure to determine whether the version of the library installed on the system is compatible with the version of the library used by the application. Although the library functions are backward compatible, functions introduced in one version are obviously not available in earlier versions.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-api_version">API_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>

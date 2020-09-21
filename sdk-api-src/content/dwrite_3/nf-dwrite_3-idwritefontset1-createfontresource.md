@@ -58,9 +58,9 @@ Zero-based index of the font item in the set.
 
 ### -param fontResource [out]
 
-Type: **[IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
+Type: **[IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md)\*\***
 
-The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object.
+The address of a pointer to an [IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md) interface. On successful completion, the function sets the pointer to a newly created font resource object.
 
 ## -returns
 
@@ -75,4 +75,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

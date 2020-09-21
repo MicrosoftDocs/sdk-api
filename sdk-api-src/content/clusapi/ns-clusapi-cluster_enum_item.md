@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Contains the properties of a cluster object. This structure is used to enumerate clusters in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeenumex">ClusterNodeEnumEx</a> functions.
+Contains the properties of a cluster object. This structure is used to enumerate clusters in the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a> and <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeenumex">ClusterNodeEnumEx</a> functions.
 
 ## -struct-fields
 
@@ -85,13 +85,12 @@ The name of the cluster.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeenumex">ClusterNodeEnumEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeenumex">ClusterNodeEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <code>XMUBYTEN2</code> from two <code>float</code> arguments.
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2 </a> from two <code>float</code> arguments.
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2 </a> from two <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -101,9 +101,8 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>

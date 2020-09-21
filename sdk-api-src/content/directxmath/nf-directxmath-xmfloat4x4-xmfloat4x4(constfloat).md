@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixte
 	<code>float</code> array.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a> structure from a
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a> structure from a
 	sixteen element <code>float</code> array.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -64,7 +64,7 @@ Initializes a new instance of the <a href="https://docs.microsoft.com/windows/de
 ### -param pArray
 
 Address of a 16 element <code>float</code> array, specifying the value of each member
-		of a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>.
+		of a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>.
 
 ## -remarks
 
@@ -129,9 +129,8 @@ Or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x4-ctor">XMFLOAT4X4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat4x4-ctor">XMFLOAT4X4 Constructors</a>

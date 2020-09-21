@@ -16,5 +16,4 @@ Overview of the Sensor device driver reference technology.
 The Sensor device driver reference technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Sensor device driver reference](https://docs.microsoft.com/windows-hardware/drivers/sensors/)
-
+* [Sensor device driver reference](/windows-hardware/drivers/sensors/)

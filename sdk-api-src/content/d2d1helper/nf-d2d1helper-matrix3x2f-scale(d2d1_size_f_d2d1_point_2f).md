@@ -56,26 +56,26 @@ Creates a scale transformation that has the specified scale factors and center p
 
 ### -param size
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The x-axis and y-axis scale factors of the scale transformation.
 
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the scale is performed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new scale transformation.
 
 ## -remarks
 
 This method creates a scale transformation for the specified <i>centerPoint</i> and scale factors. The scale factors are stored as an ordered pair in the 
-	 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure. If you prefer to list each scale factor as a parameter, call the other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(float_float_d2d1_point_2f)">Scale</a> method. 
+	 <a href="/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure. If you prefer to list each scale factor as a parameter, call the other <a href="/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(float_float_d2d1_point_2f)">Scale</a> method. 
 
 The following illustration shows the size of the square increased 
 	 to 130% in each dimension.
@@ -83,9 +83,8 @@ The following illustration shows the size of the square increased
 
 <img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="images/scale_ovw.png"/>
 
- For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
+ For an example, see <a href="/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

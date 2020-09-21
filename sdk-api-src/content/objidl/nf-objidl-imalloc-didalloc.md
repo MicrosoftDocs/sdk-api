@@ -104,5 +104,4 @@ This method cannot determine whether this allocator allocated the block of memor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

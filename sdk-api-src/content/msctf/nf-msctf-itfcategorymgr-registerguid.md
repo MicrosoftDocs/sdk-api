@@ -60,7 +60,7 @@ Contains the GUID to obtain the identifier for.
 
 ### -param pguidatom [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfguidatom">TfGuidAtom</a> value that receives the identifier of the GUID.
+Pointer to a <a href="/windows/desktop/TSF/tfguidatom">TfGuidAtom</a> value that receives the identifier of the GUID.
 
 ## -returns
 
@@ -114,5 +114,4 @@ A <b>TfGuidAtom</b> value is only valid within the process that <b>ITfCategoryMg
 
 ## -see-also
 
-[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::IsEqualTfGuidAtom](nf-msctf-itfcategorymgr-isequaltfguidatom.md), [TfGuidAtom](https://docs.microsoft.com/en-us/windows/win32/tsf/tfguidatom)
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::IsEqualTfGuidAtom](nf-msctf-itfcategorymgr-isequaltfguidatom.md), [TfGuidAtom](/windows/win32/tsf/tfguidatom)

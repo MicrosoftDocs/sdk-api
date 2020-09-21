@@ -125,20 +125,19 @@ The maximum ideal size may differ from the native video size, because the video 
 This method returns S_FALSE under various circumstances:
 
 <ul>
-<li>The filter is using an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
-<li>UseWhenFullScreen mode is on. (See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The filter is using an <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
+<li>UseWhenFullScreen mode is on. (See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getminidealimagesize">IVideoWindow::GetMinIdealImageSize</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-getminidealimagesize">IVideoWindow::GetMinIdealImageSize</a>

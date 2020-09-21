@@ -58,7 +58,7 @@ Changes the selection state of one or more items within the Shell view window.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+The address of the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param uFlags
 
@@ -79,5 +79,4 @@ This method is used to implement the Target command from the <b>File</b> menu of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>

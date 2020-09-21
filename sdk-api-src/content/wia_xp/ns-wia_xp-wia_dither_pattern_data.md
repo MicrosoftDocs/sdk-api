@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiaitempropscannerdevice">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
+The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="/windows/desktop/wia/-wia-wiaitempropscannerdevice">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
 
 ## -struct-fields
 
@@ -93,4 +93,3 @@ Specifies the total number of bytes in the array pointed to by the <b>pbPattern<
 Type: <b>BYTE*</b>
 
 Specifies a pointer to a buffer that contains the dither pattern.
-

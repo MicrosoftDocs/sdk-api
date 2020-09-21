@@ -133,7 +133,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-First, free any memory that is owned by pvargDest, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
+First, free any memory that is owned by pvargDest, such as <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
 
 If pvargSrc is a VT_BSTR, a copy of the string is made. If pvargSrcis a VT_ARRAY, the entire array is copied. If pvargSrc is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count.
 
@@ -144,5 +144,4 @@ If the variant to be copied is a COM object that is passed by reference, the vtf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>
-
+<a href="/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>

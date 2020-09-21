@@ -64,13 +64,13 @@ Retrieves information about the active window or a specified GUI thread.
 
 Type: <b>DWORD</b>
 
-The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread.
+The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread.
 
 ### -param pgui [in, out]
 
 Type: <b>LPGUITHREADINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function.
 
 ## -returns
 
@@ -78,7 +78,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -115,22 +115,22 @@ For an edit control, the returned <b>rcCaret</b> rectangle contains the caret pl
 
  To get the actual insertion point in the <b>rcCaret</b> rectangle, perform the following steps.
 				<ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout">GetKeyboardLayout</a> to retrieve the current input language. </li>
+<li>Call <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout">GetKeyboardLayout</a> to retrieve the current input language. </li>
 <li>Determine the character used for the cursor, based on the current input language.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a> using Sans Serif for the font, the height given by <b>rcCaret</b>, and a width of <code>zero</code>. For <i>fnWeight</i>, call <code>SystemParametersInfo(SPI_GETCARETWIDTH, 0, pvParam, 0)</code>. If <i>pvParam</i> is greater than 1, set <i>fnWeight</i> to 700, otherwise set <i>fnWeight</i> to 400.</li>
-<li>Select the font into a device context (DC) and use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> to get the <code>B</code> width of the appropriate cursor character.</li>
+<li>Call <a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a> using Sans Serif for the font, the height given by <b>rcCaret</b>, and a width of <code>zero</code>. For <i>fnWeight</i>, call <code>SystemParametersInfo(SPI_GETCARETWIDTH, 0, pvParam, 0)</code>. If <i>pvParam</i> is greater than 1, set <i>fnWeight</i> to 700, otherwise set <i>fnWeight</i> to 400.</li>
+<li>Select the font into a device context (DC) and use <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> to get the <code>B</code> width of the appropriate cursor character.</li>
 <li>Add the <code>B</code> width to <b>rcCaret</b>.<b>left</b> to obtain the actual insertion point.</li>
 </ol>
 
 
-The function may not return valid window handles in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
+The function may not return valid window handles in the <a href="/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
 
 
 
 
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
-The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
+The coordinates returned in the <b>rcCaret</b> rect of the <a href="/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
 
 ## -see-also
 
@@ -138,15 +138,15 @@ The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a>
 
 
 
@@ -154,5 +154,4 @@ The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

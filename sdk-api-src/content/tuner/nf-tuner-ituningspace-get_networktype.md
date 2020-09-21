@@ -54,7 +54,7 @@ The <b>get_NetworkType</b> method retrieves the network type of the tuning space
 
 
 
-This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get__networktype">ITuningSpace::get__NetworkType</a> method instead, which returns a GUID value
+This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get__networktype">ITuningSpace::get__NetworkType</a> method instead, which returns a GUID value
 
 ## -parameters
 
@@ -72,5 +72,4 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

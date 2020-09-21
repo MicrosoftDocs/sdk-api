@@ -56,7 +56,7 @@ The interface ID is IID_ITfMSAAControl.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMSAAControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMSAAControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMSAAControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMSAAControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfMSAAControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemdisablemsaa">SystemDisableMSAA</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemdisablemsaa">SystemDisableMSAA</a>
 </td>
 <td align="left" width="63%">
 Used by MSAA to halt TSF support of an MSAA client.
@@ -80,7 +80,7 @@ Used by MSAA to halt TSF support of an MSAA client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemenablemsaa">SystemEnableMSAA</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemenablemsaa">SystemEnableMSAA</a>
 </td>
 <td align="left" width="63%">
 Used by MSAA to request TSF support of an MSAA client.
@@ -91,9 +91,8 @@ Used by MSAA to request TSF support of an MSAA client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
-

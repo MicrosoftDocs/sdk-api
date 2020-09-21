@@ -56,7 +56,7 @@ Constructs one token binding that contains the exported public key and signature
 
 ### -param keyType [in]
 
-The negotiated key type to use. Use a value from the list of key types that you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesclient">TokenBindingGetKeyTypesClient</a> function.
+The negotiated key type to use. Use a value from the list of key types that you retrieved by calling the <a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesclient">TokenBindingGetKeyTypesClient</a> function.
 
 ### -param targetURL [in]
 
@@ -84,7 +84,7 @@ A pointer to a buffer that contains extension data. The value of the <i>extensio
 
 ### -param tokenBinding [out]
 
-A pointer that receives the address of the token binding buffer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free that memory.
+A pointer that receives the address of the token binding buffer. Use the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free that memory.
 
 ### -param tokenBindingSize [out]
 
@@ -92,7 +92,7 @@ Pointer to a variable that receives the size of the buffer allocated for the <i>
 
 ### -param resultData [out, optional]
 
-A pointer that receives the address of the buffer that contains result data that includes the token binding identifier of the token binding that  <b>TokenBindingGenerateBinding</b> generates. Use the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free that memory. Specify NULL is you do not need this information.
+A pointer that receives the address of the buffer that contains result data that includes the token binding identifier of the token binding that  <b>TokenBindingGenerateBinding</b> generates. Use the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free that memory. Specify NULL is you do not need this information.
 
 ## -returns
 
@@ -104,29 +104,28 @@ You can call <b>TokenBindingGenerateBinding</b> from user mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_extension_format">TOKENBINDING_EXTENSION_FORMAT</a>
+<a href="/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_extension_format">TOKENBINDING_EXTENSION_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>
+<a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_type">TOKENBINDING_TYPE</a>
+<a href="/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_type">TOKENBINDING_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingdeletebinding">TokenBindingDeleteBinding</a>
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingdeletebinding">TokenBindingDeleteBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesclient">TokenBindingGetKeyTypesClient</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesclient">TokenBindingGetKeyTypesClient</a>

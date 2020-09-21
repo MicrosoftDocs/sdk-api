@@ -56,7 +56,7 @@ The <b>CryptGetTimeValidObject</b> function retrieves a CRL, an OCSP response, o
 
 ### -param pszTimeValidOid [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that identifies the object being requested. If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that identifies the object being requested. If the <a href="/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 This parameter can be one of the following values. For information about how these values affect the pvPara parameter, see the heading "For the pvPara parameter" in the Meaning column.
@@ -77,7 +77,7 @@ This parameter can be one of the following values. For information about how the
 <td width="60%">
 Provides a certificate trust list (CTL) based on a URL obtained from the <b>NextUpdateLocation</b> property or extension of the current CTL context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">PCCTL_CONTEXT</a> that represents the current certificate trust list.
+For the pvPara parameter: A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">PCCTL_CONTEXT</a> that represents the current certificate trust list.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ This value is reserved for future use.
 <td width="60%">
 Provides a CRL based on information obtained from the CRL distribution points extension of the current certificate context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
+For the pvPara parameter: A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/win
 <td width="60%">
 Provides a delta CRL based on information obtained from the freshest CRL extension of the current certificate context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
+For the pvPara parameter: A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/win
 <td width="60%">
 Provides a delta CRL based on information obtained from the freshest CRL extension of the current CRL context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_crl_context_pair">PCCERT_CRL_CONTEXT_PAIR</a> that represents the subject certificate and its base CRL.
+For the pvPara parameter: A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_crl_context_pair">PCCERT_CRL_CONTEXT_PAIR</a> that represents the subject certificate and its base CRL.
 
 </td>
 </tr>
@@ -138,11 +138,11 @@ A structure determined by the value of <i>pszTimeValidOid</i>. For details, see 
 
 ### -param pIssuer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate.
 
 ### -param pftValidFor [in, optional]
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure version of the current system time or a freshness time from the current context.
+A pointer to an optional <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure version of the current system time or a freshness time from the current context.
 
 ### -param dwFlags [in]
 
@@ -231,7 +231,7 @@ This value is reserved for future use.
 </dl>
 </td>
 <td width="60%">
-Retrieves the time valid object from an OCSP responder service only based on Authority Information Access URLs in the current context. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a> function sets this flag when it is called with the <i>dwFlags</i> parameter set to CERT_VERIFY_REV_SERVER_OCSP_FLAG.
+Retrieves the time valid object from an OCSP responder service only based on Authority Information Access URLs in the current context. The <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a> function sets this flag when it is called with the <i>dwFlags</i> parameter set to CERT_VERIFY_REV_SERVER_OCSP_FLAG.
 
 </td>
 </tr>
@@ -254,11 +254,11 @@ A value, in milliseconds, that specifies when to terminate an URL retrieval atte
 
 ### -param ppvObject [out, optional]
 
-A pointer to an address for the returned object. The return type can be one of the supported types shown in the <i>pszObjectOid</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function.
+A pointer to an address for the returned object. The return type can be one of the supported types shown in the <i>pszObjectOid</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function.
 
 ### -param pCredentials [in, optional]
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_credentials">CRYPT_CREDENTIALS</a> structure used to access the URL. The only type of credentials currently supported are user name and password credentials.
+A pointer to an optional <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_credentials">CRYPT_CREDENTIALS</a> structure used to access the URL. The only type of credentials currently supported are user name and password credentials.
 
 ### -param pExtraInfo [in, out, optional]
 
@@ -269,7 +269,7 @@ A pointer to an optional <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
  Some possible error codes follow.
 
@@ -348,4 +348,3 @@ The Cryptnet dynamic link library implements a time valid object (TVO) cache tha
 <li>Offline URL Time Information</li>
 </ul>
 The TVO agent supports retrieval of TVO objects on-demand or by auto-update.
-

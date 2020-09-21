@@ -68,13 +68,12 @@ The fax will be sent with a high priority.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-priority-vb">IFaxDocument::get_Priority</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-priority-vb">IFaxDocument::get_Priority</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-priority-vb">IFaxOutgoingJob::get_Priority</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-priority-vb">IFaxOutgoingJob::get_Priority</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-priority-vb">IFaxOutgoingMessage::get_Priority</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-priority-vb">IFaxOutgoingMessage::get_Priority</a>

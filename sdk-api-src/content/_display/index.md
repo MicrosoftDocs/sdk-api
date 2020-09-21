@@ -25,5 +25,4 @@ To develop Display Devices Reference, you need these headers:
  * [dxmini.h](../dxmini/index.md)
 
 For programming guidance for this technology, see:
-* [Display Devices Reference](https://docs.microsoft.com/windows-hardware/drivers/display/)
-
+* [Display Devices Reference](/windows-hardware/drivers/display/)

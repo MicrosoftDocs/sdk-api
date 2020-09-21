@@ -56,15 +56,15 @@ Finds the association object that references the specified key instance.
 
 ### -param session [in]
 
-Session handle returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
+Session handle returned from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 ### -param flags
 
-Runtime type information (RTTI) <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
+Runtime type information (RTTI) <a href="/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
+Optional <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
 
 ### -param namespaceName
 
@@ -72,7 +72,7 @@ An optional, null-terminated string that represents the namespace name to carry 
 
 ### -param instanceKey [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the reference operation is to start.
+An <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the reference operation is to start.
 
 ### -param resultClass
 
@@ -88,39 +88,38 @@ Boolean value where <b>MI_TRUE</b> means to retrieve only the instance keys. Oth
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the operation asynchronously, the structure's <b>instanceResult</b> callback member must be specified. If that structure member is not specified, the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> function to retrieve the results.
+Optional <a href="/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the operation asynchronously, the structure's <b>instanceResult</b> callback member must be specified. If that structure member is not specified, the client must call the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> function to retrieve the results.
 
 ### -param operation [out]
 
-Returned operation handle that must be closed via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once complete.  Calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a> before it is complete will cause the operation to shutdown.  <b>MI_Operation_Close</b> and <b>MI_Operation_Cancel</b> can be called from any operation.
+Returned operation handle that must be closed via <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once complete.  Calling <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a> before it is complete will cause the operation to shutdown.  <b>MI_Operation_Close</b> and <b>MI_Operation_Cancel</b> can be called from any operation.
 
 ## -remarks
 
 An association is a relationship between two objects. It is represented with a third object containing two properties, each being a reference to one of those two related objects. The <i>role</i> parameter is the association object's reference property, pointing to the object being associated.
 
-The difference between this function and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_associatorinstances">MI_Session_AssociatorInstances</a> function is that this function looks for the association object itself, while the <b>MI_Session_AssociatorInstances</b> function looks for the instances associated with the key object.
+The difference between this function and the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_associatorinstances">MI_Session_AssociatorInstances</a> function is that this function looks for the association object itself, while the <b>MI_Session_AssociatorInstances</b> function looks for the instances associated with the key object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_associatorinstances">MI_Session_AssociatorInstances</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_associatorinstances">MI_Session_AssociatorInstances</a>

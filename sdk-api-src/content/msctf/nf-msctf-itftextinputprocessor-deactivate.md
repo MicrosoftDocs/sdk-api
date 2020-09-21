@@ -64,15 +64,14 @@ TSF calls this method immediately before releasing its final reference to a text
 
 This method usually unadvises sinks for events that involve the text service. It can also close any user interface elements of the text service.
 
-Before this method returns, it must release all references to the <i>ptim</i> parameter passed to the text service by the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
+Before this method returns, it must release all references to the <i>ptim</i> parameter passed to the text service by the <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextinputprocessor">ITfTextInputProcessor
+<a href="/windows/desktop/api/msctf/nn-msctf-itftextinputprocessor">ITfTextInputProcessor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
       </a>
-

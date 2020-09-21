@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Represents context parameters that are used as input for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-operation-context">CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT</a> control code.
+Represents context parameters that are used as input for the <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-operation-context">CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT</a> control code.
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ The version of this structure.
 
 ### -field Type
 
-A  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-resdll_context_operation_type">RESDLL_CONTEXT_OPERATION_TYPE</a> enumeration value that specifies the context operation type.
+A  <a href="/previous-versions/windows/desktop/api/resapi/ne-resapi-resdll_context_operation_type">RESDLL_CONTEXT_OPERATION_TYPE</a> enumeration value that specifies the context operation type.
 
 ### -field Priority
 
@@ -73,5 +73,4 @@ TBD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>

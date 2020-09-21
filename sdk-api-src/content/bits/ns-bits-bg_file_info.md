@@ -73,7 +73,7 @@ The user must have permission to write to the local directory for downloads and 
 
 ## -remarks
 
-BITS supports the HTTP, HTTPS, and SMB protocols for <b>RemoteName</b>. For HTTP requirements, see <a href="https://docs.microsoft.com/windows/desktop/Bits/http-requirements-for-bits-downloads">HTTP Requirements for BITS Downloads</a>.
+BITS supports the HTTP, HTTPS, and SMB protocols for <b>RemoteName</b>. For HTTP requirements, see <a href="/windows/desktop/Bits/http-requirements-for-bits-downloads">HTTP Requirements for BITS Downloads</a>.
 
 <b>BITS 1.5 and earlier:  </b>The SMB protocol for <b>RemoteName</b> is not supported.
 
@@ -84,12 +84,12 @@ The following identifies whether BITS propagates a file's time stamps:
 <li>For HTTP uploads, BITS does not propagate the file's time stamps.</li>
 <li>For SMB downloads and uploads, BITS propagates the file's time stamps.</li>
 </ul>
-BITS does not support SMB paths to named pipes or devices.  To maintain the owner and ACL information for files downloaded using SMB, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">IBackgroundCopyJob3::SetFileACLFlags</a> method.
+BITS does not support SMB paths to named pipes or devices.  To maintain the owner and ACL information for files downloaded using SMB, call the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">IBackgroundCopyJob3::SetFileACLFlags</a> method.
 
 If the path and file name portion of the URL for an HTTP upload and upload-reply job contains Unicode characters not in common to the code page on both the client and server, the URL translation will fail on the server and the BITS job will be placed in the error state.
-If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="https://msdn.microsoft.com/library/dd318142.aspx">Internationalized Domain Names</a> (IDN).
+If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="/windows/win32/intl/handling-internationalized-domain-names--idns">Internationalized Domain Names</a> (IDN).
 
-BITS does not limit the size of file you can download using HTTP. For upload limits, see the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSMaximumUploadSize</a> 
+BITS does not limit the size of file you can download using HTTP. For upload limits, see the <a href="/windows/desktop/Bits/bits-iis-extension-properties">BITSMaximumUploadSize</a> 
 IIS extension property. 
 
 <b>IIS 5.0:  </b>Downloads are limited to 4 GB.
@@ -98,21 +98,20 @@ IIS extension property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a>
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getremotename">IBackgroundCopyFile::GetRemoteName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getremotename">IBackgroundCopyFile::GetRemoteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>

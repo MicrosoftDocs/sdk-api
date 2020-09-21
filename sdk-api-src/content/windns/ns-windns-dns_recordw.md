@@ -70,7 +70,7 @@ A pointer to a string that represents the domain name of the record set. This mu
 
 ### -field wType
 
-A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the RR <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 ### -field wDataLength
 
@@ -101,7 +101,7 @@ The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is
 
 ### -field Flags.DW
 
- A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Flags</a>.
+ A value that contains a bitmap of <a href="/windows/desktop/DNS/dns-constants">DNS Record Flags</a>.
 
 ### -field Flags.S
 
@@ -166,43 +166,43 @@ The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_key_data">D
 
 #### SIG, Sig
 
-The RR data type is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
+The RR data type is <a href="/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
 
 
 
 #### ATMA, Atma
 
-The RR data type is [DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data). The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+The RR data type is [DNS_ATMA_DATA](./ns-windns-dns_atma_data.md). The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
 
 
 
 #### NXT, Nxt
 
-The RR data type is [DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
+The RR data type is [DNS_NXT_DATA](./ns-windns-dns_nxt_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 
 #### SRV, Srv
 
-The RR data type is [DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa). The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+The RR data type is [DNS_SRV_DATA](./ns-windns-dns_srv_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
 
 
 
 #### NAPTR, Naptr
 
-The RR data type is [DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+The RR data type is [DNS_NAPTR_DATA](./ns-windns-dns_naptr_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
 
 
 #### OPT, Opt
 
-Windows 7 or later: The RR data type is [DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data). The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+Windows 7 or later: The RR data type is [DNS_OPT_DATA](./ns-windns-dns_opt_data.md). The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
 
 
 
 #### DS, Ds
 
-Windows 7 or later: The RR data type is [DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data). The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+Windows 7 or later: The RR data type is [DNS_DS_DATA](./ns-windns-dns_ds_data.md). The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
 
 
@@ -214,25 +214,25 @@ Windows 7 or later: The RR data type is <a href="/windows/win32/api/windns/ns-w
 
 #### NSEC, Nsec
 
-Windows 7 or later: The RR data type is [DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+Windows 7 or later: The RR data type is [DNS_NSEC_DATA](./ns-windns-dns_nsec_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
 
 
 #### DNSKEY, Dnskey
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
+Windows 7 or later: The RR data type is <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
 
 
 
 #### TKEY, Tkey
 
-The RR data type is [DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa). The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
+The RR data type is [DNS_TKEY_DATA](./ns-windns-dns_tkey_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
 
 
 #### TSIG, Tsig
 
-The RR data type is [DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa). The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
+The RR data type is [DNS_TSIG_DATA](./ns-windns-dns_tsig_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
 
 
@@ -429,17 +429,17 @@ Windows 7 or later: The RR data type is <a href="/windows/win32/api/windns/ns-w
 
 ##### - Data.ATMA, Atma
 
-The RR data type is [DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data). The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+The RR data type is [DNS_ATMA_DATA](./ns-windns-dns_atma_data.md). The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
 
 
 ##### - Data.DNSKEY, Dnskey
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
+Windows 7 or later: The RR data type is <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
 
 
 ##### - Data.DS, Ds
 
-Windows 7 or later: The RR data type is [DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data). The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+Windows 7 or later: The RR data type is [DNS_DS_DATA](./ns-windns-dns_ds_data.md). The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
 
 ##### - Data.HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
@@ -464,22 +464,22 @@ The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_mx_dataa">D
 
 ##### - Data.NAPTR, Naptr
 
-The RR data type is [DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+The RR data type is [DNS_NAPTR_DATA](./ns-windns-dns_naptr_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
 
 ##### - Data.NSEC, Nsec
 
-Windows 7 or later: The RR data type is [DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+Windows 7 or later: The RR data type is [DNS_NSEC_DATA](./ns-windns-dns_nsec_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
 
 ##### - Data.NXT, Nxt
 
-The RR data type is [DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa). The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
+The RR data type is [DNS_NXT_DATA](./ns-windns-dns_nxt_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 ##### - Data.OPT, Opt
 
-Windows 7 or later: The RR data type is [DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data). The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+Windows 7 or later: The RR data type is [DNS_OPT_DATA](./ns-windns-dns_opt_data.md). The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
 
 
 ##### - Data.PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
@@ -494,7 +494,7 @@ Windows 7 or later: The RR data type is <a href="/windows/win32/api/windns/ns-w
 
 ##### - Data.SIG, Sig
 
-The RR data type is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
+The RR data type is <a href="/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
 
 
 ##### - Data.SOA, Soa
@@ -504,17 +504,17 @@ The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_soa_dataw">
 
 ##### - Data.SRV, Srv
 
-The RR data type is [DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa). The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+The RR data type is [DNS_SRV_DATA](./ns-windns-dns_srv_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
 
 
 ##### - Data.TKEY, Tkey
 
-The RR data type is [DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa). The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
+The RR data type is [DNS_TKEY_DATA](./ns-windns-dns_tkey_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
 
 ##### - Data.TSIG, Tsig
 
-The RR data type is [DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa). The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
+The RR data type is [DNS_TSIG_DATA](./ns-windns-dns_tsig_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
 
 ##### - Data.WINS, Wins
@@ -550,7 +550,7 @@ When building a
 
 
 
-[DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data)
+[DNS_ATMA_DATA](./ns-windns-dns_atma_data.md)
 
 
 
@@ -562,11 +562,11 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>
+<a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>
 
 
 
-[DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data)
+[DNS_DS_DATA](./ns-windns-dns_ds_data.md)
 
 
 
@@ -574,7 +574,7 @@ When building a
 
 
 
-[DNS_LOC_DATA](/windows/win32/api/windns/ns-windns-dns_loc_data)
+[DNS_LOC_DATA](./ns-windns-dns_loc_data.md)
 
 
 
@@ -586,11 +586,11 @@ When building a
 
 
 
-[DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa)
+[DNS_NAPTR_DATA](./ns-windns-dns_naptr_dataa.md)
 
 
 
-[DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa)
+[DNS_NSEC_DATA](./ns-windns-dns_nsec_dataa.md)
 
 
 
@@ -598,11 +598,11 @@ When building a
 
 
 
-[DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa)
+[DNS_NXT_DATA](./ns-windns-dns_nxt_dataa.md)
 
 
 
-[DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data)
+[DNS_OPT_DATA](./ns-windns-dns_opt_data.md)
 
 
 
@@ -614,7 +614,7 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>
+<a href="/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>
 
 
 
@@ -622,15 +622,15 @@ When building a
 
 
 
-[DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa)
+[DNS_SRV_DATA](./ns-windns-dns_srv_dataa.md)
 
 
 
-[DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa)
+[DNS_TKEY_DATA](./ns-windns-dns_tkey_dataa.md)
 
 
 
-[DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa)
+[DNS_TSIG_DATA](./ns-windns-dns_tsig_dataa.md)
 
 
 
@@ -650,33 +650,32 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsextractrecordsfrommessage_utf8">DnsExtractRecordsFromMessage</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsextractrecordsfrommessage_utf8">DnsExtractRecordsFromMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcopyex">DnsRecordCopyEx</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordcopyex">DnsRecordCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetdetach">DnsRecordSetDetach</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetdetach">DnsRecordSetDetach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>

@@ -60,7 +60,7 @@ Number of items to retrieve.
 
 ### -param rgelt [out]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interfaces. You must release each interface in rgelt when done.
+Array of <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interfaces. You must release each interface in rgelt when done.
 
 ### -param pceltFetched [out]
 
@@ -124,9 +124,8 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a>
-
+<a href="/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a>

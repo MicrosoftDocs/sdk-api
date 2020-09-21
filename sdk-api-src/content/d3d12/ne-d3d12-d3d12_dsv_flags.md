@@ -68,7 +68,7 @@ Indicates that stencil values are read only.
 
 ## -remarks
 
-Specify a combination of the values in this enumeration in the <b>Flags</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_view_desc">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure.
+Specify a combination of the values in this enumeration in the <b>Flags</b> member of a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_view_desc">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure.
           The values are combined by using a bitwise OR operation.
         
 
@@ -76,5 +76,4 @@ Limiting a depth-stencil buffer to read-only access allows more than one depth-s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

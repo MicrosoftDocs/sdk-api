@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
+Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
 
 ## -remarks
 
-If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesstart">OfflineFilesStart</a> function to start the Offline Files feature.
+If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesstart">OfflineFilesStart</a> function to start the Offline Files feature.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a>
-
+<a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatus">OfflineFilesQueryStatus</a>

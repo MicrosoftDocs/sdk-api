@@ -54,7 +54,7 @@ Contains the properties and methods that are available only from a Windows drive
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDriverUpdate2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>. <b>IWindowsDriverUpdate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDriverUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>. <b>IWindowsDriverUpdate2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWindowsDriverUpdate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-copytocache">CopyToCache</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-copytocache">CopyToCache</a>
 </td>
 <td align="left" width="63%">
 Copies the external update binaries to an update.
@@ -88,7 +88,7 @@ Copies the external update binaries to an update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_cveids">CveIDs</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_cveids">CveIDs</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets a collection of the Common Vulnerabilities and Exposures (CVE) identifiers 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_ispresent">IsPresent</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_ispresent">IsPresent</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets a Boolean value that indicates whether an update is installed on the comput
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_rebootrequired">RebootRequired</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwindowsdriverupdate2-get_rebootrequired">RebootRequired</a>
 
 
 </td>
@@ -137,9 +137,8 @@ Gets a Boolean value that indicates whether the computer must be restarted after
 
 ## -remarks
 
-This interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface only if the interface represents a Windows Driver update.
+This interface can be obtained by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface only if the interface represents a Windows Driver update.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>

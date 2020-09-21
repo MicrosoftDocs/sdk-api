@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> objects in the collection.
 
 This property is read-only.
 
 ## -parameters
-

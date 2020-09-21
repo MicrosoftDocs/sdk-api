@@ -60,11 +60,11 @@ The <b>RAS_PROJECTION_INFO</b> structure contains the  Point-to-Point (PPP) or I
 
 ### -field version
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408102(v=vs.85)">RASAPIVERSION</a> value that specifies the structure version.
+A <a href="/previous-versions/windows/desktop/legacy/dd408102(v=vs.85)">RASAPIVERSION</a> value that specifies the structure version.
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a> value that specifies the connection type in <b>union</b>.
+A <a href="/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a> value that specifies the connection type in <b>union</b>.
 
 ### -field ppp
 
@@ -81,23 +81,22 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojecti
 
 #### ppp
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure that contains the PPP projection information of a RAS connection.
+A <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure that contains the PPP projection information of a RAS connection.
 
 
 
 #### ikev2
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure that contains the IKEv2 projection information of a RAS connection.
+A <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure that contains the IKEv2 projection information of a RAS connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

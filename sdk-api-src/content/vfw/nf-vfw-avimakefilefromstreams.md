@@ -72,25 +72,24 @@ Returns zero if successful or an error otherwise.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> function to close the file.
+Use the <a href="/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> function to close the file.
 
-Other functions can use the AVIFile interface created by this function to copy and edit the streams associated with the interface. For example, you can retrieve a specific stream by using <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a> with the file interface pointer.
+Other functions can use the AVIFile interface created by this function to copy and edit the streams associated with the interface. For example, you can retrieve a specific stream by using <a href="/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a> with the file interface pointer.
 
-The argument <i>pfile</i> is the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>papStreams</i> is the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
+The argument <i>pfile</i> is the address of a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>papStreams</i> is the address of a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>

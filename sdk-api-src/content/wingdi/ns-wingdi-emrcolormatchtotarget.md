@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRCOLORMATCHTOTARGET</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a> enhanced metafile record.
+The <b>EMRCOLORMATCHTOTARGET</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -116,13 +116,12 @@ An array containing the target profile name and the raw target profile data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

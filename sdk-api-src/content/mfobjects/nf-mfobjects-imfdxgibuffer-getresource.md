@@ -108,9 +108,8 @@ Invalid request.
 
 ## -remarks
 
-You can use this method to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d">ID3D11Texture2D</a> interface of the surface. If the buffer is locked, the method returns <b>MF_E_INVALIDREQUEST</b>.
+You can use this method to get a pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d">ID3D11Texture2D</a> interface of the surface. If the buffer is locked, the method returns <b>MF_E_INVALIDREQUEST</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>

@@ -56,15 +56,14 @@ Retrieves the color palette of the rich edit control.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HPALETTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HPALETTE</a></b>
 
 Returns the color palette, or <b>NULL</b> if the control uses the system default color palette.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpalette">EM_SETPALETTE</a>
+<a href="/windows/desktop/Controls/em-setpalette">EM_SETPALETTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
-
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>

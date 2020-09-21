@@ -16,5 +16,4 @@ Overview of the Input Feedback Configuration technology.
 The Input Feedback Configuration technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Input Feedback Configuration](https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback)
-
+* [Input Feedback Configuration](/previous-versions/windows/desktop/input_feedback)

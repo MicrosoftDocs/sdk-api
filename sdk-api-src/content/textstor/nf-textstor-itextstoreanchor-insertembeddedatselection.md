@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
+The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href
 
 Specifies whether the <i>paStart</i> and <i>paEnd</i> parameters will contain the results of the object insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -169,33 +169,32 @@ The caller does not have a lock on the document.
 
 ## -remarks
 
-Clients must use this method to insert an object into a text stream, since a <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> constant cannot be passed into <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
+Clients must use this method to insert an object into a text stream, since a <a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> constant cannot be passed into <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
+<a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
       </a>
-

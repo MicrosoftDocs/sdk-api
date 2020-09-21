@@ -54,7 +54,7 @@ Exposes methods that make up the primary interface implemented by a sync handler
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">Activate</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">Activate</a>
 </td>
 <td align="left" width="63%">
 Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
@@ -78,16 +78,16 @@ Requests that the handler is activated or deactivated. An active handler can be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-enable">Enable</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-enable">Enable</a>
 </td>
 <td align="left" width="63%">
-Requests that an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
+Requests that an <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">GetCapabilities</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the handler's defined capabilities.
@@ -96,7 +96,7 @@ Gets a set of flags describing the handler's defined capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-gethandlerinfo">GetHandlerInfo</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-gethandlerinfo">GetHandlerInfo</a>
 </td>
 <td align="left" width="63%">
 Gets properties that describe the handler.
@@ -105,7 +105,7 @@ Gets properties that describe the handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getname">GetName</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the display name of the handler.
@@ -114,7 +114,7 @@ Gets the display name of the handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Creates a specific type of object related to the handler.
@@ -123,7 +123,7 @@ Creates a specific type of object related to the handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getpolicies">GetPolicies</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getpolicies">GetPolicies</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the policies set by the handler.
@@ -132,7 +132,7 @@ Gets a set of flags describing the policies set by the handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a>
 </td>
 <td align="left" width="63%">
 Initiates a synchronization of a selection of the handler's sync items.
@@ -143,5 +143,4 @@ Initiates a synchronization of a selection of the handler's sync items.
 
 ## -remarks
 
-<b>ISyncMgrHandler</b> replaces <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>. Some of the earlier functionality has been streamlined, while some has been moved to other interfaces. See the individual method pages for specific information.
-
+<b>ISyncMgrHandler</b> replaces <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>. Some of the earlier functionality has been streamlined, while some has been moved to other interfaces. See the individual method pages for specific information.

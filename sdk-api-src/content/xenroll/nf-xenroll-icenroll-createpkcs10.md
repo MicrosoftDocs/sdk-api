@@ -56,21 +56,21 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createPKCS10</b> method creates a base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>createPKCS10</b> method creates a base64-encoded PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
- This base64-encoded PKCS #10 certificate request (in <b>BSTR</b> form) can be submitted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> to request  that a certificate be issued to the person or entity whose information it contains.
+ This base64-encoded PKCS #10 certificate request (in <b>BSTR</b> form) can be submitted to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> to request  that a certificate be issued to the person or entity whose information it contains.
 
 ## -parameters
 
 ### -param DNName [in]
 
-The distinguished name (DN) of the entity for which the request is being made. In this parameter, the DN name must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">OID</a> may be provided instead.
+The distinguished name (DN) of the entity for which the request is being made. In this parameter, the DN name must follow the <a href="/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="/windows/desktop/SecGloss/o-gly">OID</a> may be provided instead.
 
 ### -param Usage [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that describes the purpose of the certificate being generated. For example, Individual or Commercial Authenticode certificate, or Client Authentication. You can also specify multiple OIDs separated by a comma.
+An <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that describes the purpose of the certificate being generated. For example, Individual or Commercial Authenticode certificate, or Client Authentication. You can also specify multiple OIDs separated by a comma.
 
-The  OID is passed through to the PKCS #10 request. For general extensibility and ease of understanding, the control does not attempt to understand specific-purpose OIDs. Therefore if you specify a Client Authentication OID, the generated key will still be a signature key, not an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a>.
+The  OID is passed through to the PKCS #10 request. For general extensibility and ease of understanding, the control does not attempt to understand specific-purpose OIDs. Therefore if you specify a Client Authentication OID, the generated key will still be a signature key, not an <a href="/windows/desktop/SecGloss/e-gly">exchange key</a>.
 
 ### -param pPKCS10 [in]
 
@@ -165,4 +165,3 @@ if ( pEnroll )
 CoUninitialize();
 
 ```
-

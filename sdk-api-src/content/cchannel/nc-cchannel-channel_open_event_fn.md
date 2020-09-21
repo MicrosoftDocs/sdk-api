@@ -62,7 +62,7 @@ The <b>PCHANNEL_OPEN_EVENT_FN</b> type defines a pointer to this callback functi
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> 
-      parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> 
+      parameter of the <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> 
       function.
 
 ### -param event [in]
@@ -82,7 +82,7 @@ The virtual channel received data from the server end. <i>pData</i> is a pointer
 #### CHANNEL_EVENT_WRITE_CANCELLED
 
 A write operation started by a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call has been 
+         <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call has been 
          canceled. <i>pData</i> is the value specified in the <i>pUserData</i> 
          parameter of <b>VirtualChannelWrite</b>.
 
@@ -94,7 +94,7 @@ A write operation is canceled when the client session is disconnected. This noti
 #### CHANNEL_EVENT_WRITE_COMPLETE
 
 A write operation started by a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call has 
+        <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call has 
         been completed. <i>pData</i> is the value specified in the 
         <i>pUserData</i> parameter of 
         <b>VirtualChannelWrite</b>.
@@ -173,13 +173,13 @@ This function has no return values.
 ## -remarks
 
 The client DLL uses the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function to 
+    <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function to 
     register a <b>VirtualChannelOpenEvent</b> 
     function for a specific virtual channel.
 
 You can use the same 
     <b>VirtualChannelOpenEvent</b> function for 
-    multiple calls to <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>.
+    multiple calls to <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>.
 
 This function can be called with a different event type while it is executing. For example, it might be called 
     with <b>CHANNEL_EVENT_WRITE_COMPLETE</b> or 
@@ -189,5 +189,4 @@ This function can be called with a different event type while it is executing. F
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>

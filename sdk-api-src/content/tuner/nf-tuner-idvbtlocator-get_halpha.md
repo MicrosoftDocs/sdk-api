@@ -56,7 +56,7 @@ The <b>get_HAlpha</b> method retrieves the hierarchy alpha.
 
 ### -param Alpha [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/hierarchyalpha">HierarchyAlpha</a> enumeration.
+Receives a member of the <a href="/previous-versions/windows/desktop/mstv/hierarchyalpha">HierarchyAlpha</a> enumeration.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>

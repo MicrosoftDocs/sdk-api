@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>NdrOleFree</b> function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The <b>NdrOleFree</b> function is a wrapper for the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -parameters
 
 ### -param NodeToFree [in]
 
 Pointer to the memory to be freed.
-

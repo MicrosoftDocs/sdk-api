@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Initializes a property page and provides the page with a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> interface through which the property page communicates with the property frame.
+Initializes a property page and provides the page with a pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> interface through which the property page communicates with the property frame.
 
 ## -parameters
 
 ### -param pPageSite [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> interface of the page site that manages and provides services to this property page within the entire property sheet.
+A pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> interface of the page site that manages and provides services to this property page within the entire property sheet.
 
 ## -returns
 
@@ -65,11 +65,10 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 ## -remarks
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the <i>pPageSite</i> parameter is <b>NULL</b>, this method must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on any <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> pointer passed during a previous call to this method. If non-<b>NULL</b>, this method must save the <b>IPropertyPageSite</b> pointer value and call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>. Two consecutive calls to this method with a non-<b>NULL</b> site pointer are not allowed and should cause the property page to return E_UNEXPECTED.
+If the <i>pPageSite</i> parameter is <b>NULL</b>, this method must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on any <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a> pointer passed during a previous call to this method. If non-<b>NULL</b>, this method must save the <b>IPropertyPageSite</b> pointer value and call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>. Two consecutive calls to this method with a non-<b>NULL</b> site pointer are not allowed and should cause the property page to return E_UNEXPECTED.
 
 E_NOTIMPL is not a valid return value. All property pages must implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides a set of flags for use with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info">CATEGORY_INFO</a> structure.
+Provides a set of flags for use with the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info">CATEGORY_INFO</a> structure.
 
 ## -enum-fields
 
@@ -89,4 +89,3 @@ Provides a set of flags for use with the <a href="https://docs.microsoft.com/win
 ### -field CATINFO_SEPARATE_IMAGES
 
 ### -field CATINFO_SHOWEMPTY
-

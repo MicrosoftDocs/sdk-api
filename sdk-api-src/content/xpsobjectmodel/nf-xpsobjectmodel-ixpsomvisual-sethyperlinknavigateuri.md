@@ -56,7 +56,7 @@ Sets the destination URI of the visual's hyperlink.
 
 ### -param hyperlinkUri [in]
 
-The <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface that contains the destination URI of the visual's hyperlink.
+The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a> interface that contains the destination URI of the visual's hyperlink.
 
 ## -returns
 
@@ -68,13 +68,12 @@ Setting an object's URI makes the object a hyperlink. When activated or clicked,
 
 ## -see-also
 
-<a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a>
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

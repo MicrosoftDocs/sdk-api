@@ -57,11 +57,11 @@ Adds a topology to the end of the queue.
 
 ### -param pTopology [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. This pointer cannot be <b>NULL</b>. If an application passes <b>NULL</b>, the call fails with an E_INVALIDARG error code.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. This pointer cannot be <b>NULL</b>. If an application passes <b>NULL</b>, the call fails with an E_INVALIDARG error code.
 
 ### -param dwFlags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
+A combination of flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
 
 ### -param pdwId [out]
 
@@ -99,19 +99,19 @@ The source topology node is missing one of the following attributes:
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-stream-descriptor-attribute">MF_TOPONODE_STREAM_DESCRIPTOR</a>
+<a href="/windows/desktop/medfound/mf-toponode-stream-descriptor-attribute">MF_TOPONODE_STREAM_DESCRIPTOR</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-presentation-descriptor-attribute">MF_TOPONODE_PRESENTATION_DESCRIPTOR</a>
+<a href="/windows/desktop/medfound/mf-toponode-presentation-descriptor-attribute">MF_TOPONODE_PRESENTATION_DESCRIPTOR</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-source-attribute">MF_TOPONODE_SOURCE</a>
+<a href="/windows/desktop/medfound/mf-toponode-source-attribute">MF_TOPONODE_SOURCE</a>
 
 
 </li>
@@ -128,13 +128,12 @@ The application must indicate to the sequencer when it has queued the last topol
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-the-sequencer-source">About the Sequencer Source</a>
+<a href="/windows/desktop/medfound/about-the-sequencer-source">About the Sequencer Source</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a>
-
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a>

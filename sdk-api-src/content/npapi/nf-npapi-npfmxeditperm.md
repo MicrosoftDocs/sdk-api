@@ -109,7 +109,7 @@ If the function succeeds, the function should return WN_SUCCESS.
 					
 
 If the function fails, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ If the function fails, it should call
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npfmxeditperm">NPFMXEditPerm</a> is not supported in the provider.
+<a href="/windows/desktop/api/npapi/nf-npapi-npfmxeditperm">NPFMXEditPerm</a> is not supported in the provider.
 
 </td>
 </tr>
@@ -162,4 +162,3 @@ Some other network error occurred.
 </td>
 </tr>
 </table>
-

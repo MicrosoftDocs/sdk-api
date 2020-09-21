@@ -60,7 +60,7 @@ The name of the remote computer. To connect to the local computer, use an empty 
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the root collection on the remote computer.
+The <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the root collection on the remote computer.
 
 ## -returns
 
@@ -70,11 +70,10 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 The <b>Connect</b> method also retrieves a root collection that is bound to the remote computer. A root collection serves as a starting point to locate top-level collections and does not contain any objects or properties.
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollection">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
+You can use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollection">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
 
-When you use the <b>Connect</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
+When you use the <b>Connect</b> method, the <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

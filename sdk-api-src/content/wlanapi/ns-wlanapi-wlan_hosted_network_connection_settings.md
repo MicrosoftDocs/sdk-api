@@ -72,9 +72,8 @@ The <b>WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</b> structure is an extension to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a>
+<a href="/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>

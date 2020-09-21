@@ -52,11 +52,10 @@ api_name:
 
 Defines a name/value pair.
 
-To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_item">IValueMap::Item</a> property. 
+To get this interface, call the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_item">IValueMap::Item</a> property. 
 
-To create this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-createvaluemapitem">IValueMap::CreateValueMapItem</a> method.
+To create this interface, call the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-createvaluemapitem">IValueMap::CreateValueMapItem</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>

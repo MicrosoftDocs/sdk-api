@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the <b>InputBuffer</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> when the IOCTL request is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_handle_videoparameters">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>. Depending on the <b>dwCommand</b> member of the VIDEOPARAMETERS structure, the miniport driver should get or set the television connector and copy protection capabilities of the device.
+The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the <b>InputBuffer</b> member of a <a href="/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> when the IOCTL request is <a href="/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_handle_videoparameters">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>. Depending on the <b>dwCommand</b> member of the VIDEOPARAMETERS structure, the miniport driver should get or set the television connector and copy protection capabilities of the device.
 
 ## -struct-fields
 
@@ -498,9 +498,8 @@ OEM-specific copy protection data. This member is valid for both the VP_COMMAND_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_handle_videoparameters">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_handle_videoparameters">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
-
+<a href="/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>

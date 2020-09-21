@@ -55,35 +55,34 @@ api_name:
 
 ## -description
 
-Indicates whether <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
+Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
 
 ## -parameters
 
 ## -returns
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set, the return value is nonzero.
+If <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set, the return value is nonzero.
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is not set, the return value is zero.
+If <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is not set, the return value is zero.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> can be called only once in the context of a process lifetime.  Prior to the first call, Windows Store apps run with mouse-in-pointer enabled, as do any desktop applications that consume mshtml.dll.  All other desktop applications run with mouse-in-pointer disabled.
+<a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> can be called only once in the context of a process lifetime.  Prior to the first call, Windows Store apps run with mouse-in-pointer enabled, as do any desktop applications that consume mshtml.dll.  All other desktop applications run with mouse-in-pointer disabled.
 
-On the first call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> in the process lifetime, the state is changed as specified and the call succeeds.
+On the first call to <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> in the process lifetime, the state is changed as specified and the call succeeds.
 
-On subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a>, the state will not change.  If the current state is not equal to the specified state, the call fails.
+On subsequent calls to <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a>, the state will not change.  If the current state is not equal to the specified state, the call fails.
 
 Call <b>IsMouseInPointerEnabled</b> to verify the mouse-in-pointer state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>

@@ -65,7 +65,7 @@ Retrieves a string that represents the name of a key.
 Type: <b>LONG</b>
 
 The second parameter of the keyboard message (such as 
-     <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>) to be processed. The function interprets the following bit positions in the <i>lParam</i>.
+     <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>) to be processed. The function interprets the following bit positions in the <i>lParam</i>.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ Type: <b>int</b>
 If the function succeeds, a null-terminated string is copied into the specified buffer, and the return value is the length of the string, in 
       characters, not counting the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -139,5 +139,4 @@ The format of the key-name string depends on the current keyboard layout. The ke
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

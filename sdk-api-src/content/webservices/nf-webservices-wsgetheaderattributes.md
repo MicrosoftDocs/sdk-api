@@ -57,12 +57,12 @@ This function populates a ULONG parameter with  the <a href="/windows/win32/api/
 
 ### -param message [in]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the message to query.  This envelope version of the message is used to determine which attributes match.
-                The message can be in any state except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
+A  pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the message to query.  This envelope version of the message is used to determine which attributes match.
+                The message can be in any state except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
 ### -param reader [in]
 
-A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>   and cannot be <b>NULL</b>.
+A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>   and cannot be <b>NULL</b>.
 
 ### -param headerAttributes [out]
 
@@ -70,7 +70,7 @@ On success the value referenced by this pointer is set to the header attributes.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -130,4 +130,3 @@ This function may return other errors not listed above.
 ## -remarks
 
 The reader is assumed to point to a header element.  Use the XML reader API's to position the reader appropriately.
-

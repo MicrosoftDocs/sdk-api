@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Name</b> property retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_objectid">CERTENROLL_OBJECTID</a> value that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
+The <b>Name</b> property retrieves a <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_objectid">CERTENROLL_OBJECTID</a> value that contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
 This property is read-only.
 
@@ -61,27 +61,26 @@ This property is read-only.
 
 You must call any of the following methods before you can retrieve this property value:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a>
 </li>
 </ul>
 
 
 You can also retrieve the following property values:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_friendlyname">FriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_friendlyname">FriendlyName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_value">Value</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_value">Value</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>

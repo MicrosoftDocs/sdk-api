@@ -65,17 +65,16 @@ Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b260
 
 ### -field cObjectCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of objects on the clipboard.
 
 ### -field cch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of characters on the clipboard.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/e8b95e80-6494-4153-8e78-ede9ed17c66f">EN_SAVECLIPBOARD</a>
-

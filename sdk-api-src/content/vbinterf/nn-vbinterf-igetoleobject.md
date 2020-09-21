@@ -54,7 +54,7 @@ Gets access to an OLE control on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetOleObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetOleObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetOleObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetOleObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IGetOleObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-igetoleobject-getoleobject">GetOleObject</a>
+<a href="/windows/desktop/api/vbinterf/nf-vbinterf-igetoleobject-getoleobject">GetOleObject</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a control.
@@ -77,4 +77,3 @@ Gets a pointer to a control.
 </td>
 </tr>
 </table>
-

@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Copies the text string of the specified menu item into the specified buffer. 
-<div class="alert"><b>Note</b>  The <b>GetMenuString</b> function has been superseded. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a> function to retrieve the menu item text.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetMenuString</b> function has been superseded. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a> function to retrieve the menu item text.</div><div> </div>
 
 ## -parameters
 
@@ -142,7 +142,7 @@ The <i>lpString</i> parameter is a <b>TCHAR</b> buffer, and <i>nMaxCount</i> is 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-keyboard-accelerators">Creating User Editable Accelerators</a>. 
+For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators">Creating User Editable Accelerators</a>. 
 
 <div class="code"></div>
 
@@ -158,13 +158,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

@@ -57,7 +57,7 @@ Delivers a sample to the stream. The media sink processes the sample.
 
 ### -param pSample [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a sample that contains valid data for the stream.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a sample that contains valid data for the stream.
 
 ## -returns
 
@@ -119,7 +119,7 @@ The media sink is paused or stopped and cannot process the sample.
 </dl>
 </td>
 <td width="60%">
-The presentation clock was not set. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">IMFMediaSink::SetPresentationClock</a>.
+The presentation clock was not set. Call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">IMFMediaSink::SetPresentationClock</a>.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ The stream sink has not been initialized.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ This stream was removed from the media sink and is no longer valid.
 
 ## -remarks
 
-Call this method when the stream sink sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> event.
+Call this method when the stream sink sends an <a href="/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> event.
 
 This method can return MF_E_INVALID_TIMESTAMP for various reasons, depending on the implementation of the media sink:
 
@@ -193,9 +193,8 @@ Not every media sink returns an error code in these situations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

@@ -54,14 +54,14 @@ api_name:
 ## -description
 
 Contains information that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a> control code needs to set the state of the device's insert/eject port, door, or keypad.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a> control code needs to set the state of the device's insert/eject port, door, or keypad.
 
 ## -struct-fields
 
 ### -field Element
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the changer element. The <b>ElementType</b> member can be one of the following values: ChangerDoor, ChangerIEPort, or ChangerKeypad.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the changer element. The <b>ElementType</b> member can be one of the following values: ChangerDoor, ChangerIEPort, or ChangerKeypad.
 
 ### -field Control
 
@@ -140,9 +140,8 @@ Requires that <b>Features0</b> is CHANGER_LOCK_UNLOCK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>

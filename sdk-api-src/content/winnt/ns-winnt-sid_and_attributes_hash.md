@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SID_AND_ATTRIBUTES_HASH</b> structure specifies a hash values for the specified array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
+The <b>SID_AND_ATTRIBUTES_HASH</b> structure specifies a hash values for the specified array of <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 ## -struct-fields
 
@@ -64,11 +64,11 @@ The number of SIDs pointed to by the <i>SidAttr</i> parameter.
 
 ### -field SidAttr
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
+A pointer to an array of <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
 
 ### -field Hash
 
-An array of pointers to hash values. These values correspond to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
+An array of pointers to hash values. These values correspond to the <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
 
 The <b>SID_HASH_ENTRY</b> data type is defined in Winnt.h as a <b>ULONG_PTR</b>.
 
@@ -76,9 +76,8 @@ The <b>SID_HASH_SIZE</b> array dimension is defined in Winnt.h as 32.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>

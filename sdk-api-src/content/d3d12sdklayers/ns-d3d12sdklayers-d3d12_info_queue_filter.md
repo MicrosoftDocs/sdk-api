@@ -56,7 +56,7 @@ Debug message filter; contains a lists of message types to allow or deny.
 
 ### -field AllowList
 
-Specifies types of messages that you want to allow. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter_desc">D3D12_INFO_QUEUE_FILTER_DESC</a>.
+Specifies types of messages that you want to allow. See <a href="/windows/desktop/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter_desc">D3D12_INFO_QUEUE_FILTER_DESC</a>.
 
 ### -field DenyList
 
@@ -64,9 +64,8 @@ Specifies types of messages that you want to deny.
 
 ## -remarks
 
-For use with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a> Interface.
+For use with an <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a> Interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-structures">Debug Layer Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-sdklayers-structures">Debug Layer Structures</a>

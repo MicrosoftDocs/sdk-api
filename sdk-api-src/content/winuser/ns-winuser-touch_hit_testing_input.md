@@ -60,7 +60,7 @@ Contains information about the touch contact area reported by the touch digitize
 
 ### -field pointerId
 
-The ID of the pointer. You cannot pass this value to the input message process and  retrieve additional pointer info through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>.
+The ID of the pointer. You cannot pass this value to the input message process and  retrieve additional pointer info through <a href="/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>.
 
 ### -field point
 
@@ -72,7 +72,7 @@ The bounding rectangle of the touch contact area. Valid touch targets are identi
 
 <div class="alert"><b>Note</b>  This bounding box may differ from the contact area that the digitizer reports when:
 <ul>
-<li>The digitizer reports a touch contact area that's outside the maximum or minimum size threshold that's recognized by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/touch-hit-testing-portal">Touch Hit Testing</a>.</li>
+<li>The digitizer reports a touch contact area that's outside the maximum or minimum size threshold that's recognized by  <a href="/previous-versions/windows/desktop/input_touchhittest/touch-hit-testing-portal">Touch Hit Testing</a>.</li>
 <li>A portion of the touch contact area is occluded by another object that's higher in the z-order.
 </li>
 </ul>
@@ -89,5 +89,4 @@ The orientation of the touch contact area.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/input_touchhittest/structures">Structures</a>

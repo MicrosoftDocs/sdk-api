@@ -60,7 +60,7 @@ Caller-supplied device instance handle that is bound to the local machine.
 
 ### -param ulProblem [in]
 
-Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-manager-error-messages">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device.
+Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="/windows-hardware/drivers/install/device-manager-error-messages">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device.
 
 ### -param ulFlags [in]
 
@@ -77,35 +77,34 @@ Use this function to set a problem code for a device that is installed in a loca
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex">CM_Set_DevNode_Problem_Ex</a> sets a problem code for a device installed in a local or a remote machine.
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex">CM_Set_DevNode_Problem_Ex</a> sets a problem code for a device installed in a local or a remote machine.
 
 </li>
 </ul>
-For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex">CM_Get_DevNode_Status_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex">CM_Get_DevNode_Status_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex">CM_Set_DevNode_Problem_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex">CM_Set_DevNode_Problem_Ex</a>

@@ -64,5 +64,4 @@ Use the "request" action defined in WS-SecureConversation.
 
 ### -field WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT
 
-Use the "renew" action defined in WS-SecureConversation. Requires <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN</a>.
-
+Use the "renew" action defined in WS-SecureConversation. Requires <a href="/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN</a>.

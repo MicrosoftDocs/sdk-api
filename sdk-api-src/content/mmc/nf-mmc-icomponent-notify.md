@@ -63,103 +63,103 @@ A pointer to the data object of the currently selected item.
 Identifies an action taken by a user. <b>IComponent::Notify</b> can receive the following notifications:
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-activate">MMCN_ACTIVATE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-activate">MMCN_ACTIVATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-add-images">MMCN_ADD_IMAGES</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-add-images">MMCN_ADD_IMAGES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-column-click">MMCN_COLUMN_CLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-column-click">MMCN_COLUMN_CLICK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-columns-changed">MMCN_COLUMNS_CHANGED</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-columns-changed">MMCN_COLUMNS_CHANGED</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-contexthelp">MMCN_CONTEXTHELP</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-contexthelp">MMCN_CONTEXTHELP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-dblclick">MMCN_DBLCLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-dblclick">MMCN_DBLCLICK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-deselect-all">MMCN_DESELECT_ALL</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-deselect-all">MMCN_DESELECT_ALL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filterbtn-click">MMCN_FILTERBTN_CLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filterbtn-click">MMCN_FILTERBTN_CLICK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-initocx">MMCN_INITOCX</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-initocx">MMCN_INITOCX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-listpad">MMCN_LISTPAD</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-listpad">MMCN_LISTPAD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-minimized">MMCN_MINIMIZED</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-minimized">MMCN_MINIMIZED</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-paste">MMCN_PASTE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-paste">MMCN_PASTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-query-paste">MMCN_QUERY_PASTE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-query-paste">MMCN_QUERY_PASTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-restore-view">MMCN_RESTORE_VIEW</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-restore-view">MMCN_RESTORE_VIEW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-select">MMCN_SELECT</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-select">MMCN_SELECT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-show">MMCN_SHOW</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-show">MMCN_SHOW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-snapinhelp">MMCN_SNAPINHELP</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-snapinhelp">MMCN_SNAPINHELP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-view-change">MMCN_VIEW_CHANGE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-view-change">MMCN_VIEW_CHANGE</a>
 
 ### -param arg
 
@@ -179,17 +179,16 @@ For more information, see the individual notifications. The snap-in should retur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>

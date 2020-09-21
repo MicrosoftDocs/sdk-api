@@ -88,7 +88,6 @@ Line or call device message.
 ## -remarks
 
 For more information about the parameters passed to this callback function, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-messages">TAPI Messages</a>.
+<a href="/windows/desktop/Tapi/tapi-messages">TAPI Messages</a>.
 
 All callbacks occur in the application's context. The callback function must reside in a dynamic-link library (DLL) or application module and be exported in the module-definition file.
-

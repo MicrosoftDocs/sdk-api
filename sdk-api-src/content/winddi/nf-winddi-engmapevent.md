@@ -56,7 +56,7 @@ The <b>EngMapEvent</b> function maps a user-mode event object to kernel mode.
 
 ### -param hDev [in]
 
-Handle to the physical device associated with the event. This is the GDI handle passed as the <i>hdev</i> parameter to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
+Handle to the physical device associated with the event. This is the GDI handle passed as the <i>hdev</i> parameter to the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
 
 ### -param hUserObject [in]
 
@@ -86,13 +86,12 @@ A mapped event provides a mechanism by which an application can wait for a kerne
 
 Display and miniport drivers cannot wait for mapped events, but can set or clear them.
 
-The driver can also perform its own cleanup by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a> on the event object returned by <b>EngMapEvent</b>.
+The driver can also perform its own cleanup by calling <a href="/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a> on the event object returned by <b>EngMapEvent</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>

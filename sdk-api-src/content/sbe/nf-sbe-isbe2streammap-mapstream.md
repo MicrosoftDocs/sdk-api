@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Maps a stream to an output pin for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
+Maps a stream to an output pin for a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
-By default, the stream mappings cannot be changed. Before calling this method, disable the default mapping mode by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a> method without the <b>DEF_MODE_STREAMS</b> flag.
+By default, the stream mappings cannot be changed. Before calling this method, disable the default mapping mode by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a> method without the <b>DEF_MODE_STREAMS</b> flag.
 
 ## -parameters
 
@@ -116,21 +116,20 @@ No stream exists with the specified stream identifier.
 
 ## -remarks
 
-If the new stream has different media type from the previously mapped stream, the output pin follows the dynamic format change procedure described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>, and flushes downstream pins as described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/flushing">Flushing</a>.
+If the new stream has different media type from the previously mapped stream, the output pin follows the dynamic format change procedure described in <a href="/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>, and flushes downstream pins as described in <a href="/windows/desktop/DirectShow/flushing">Flushing</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2streammap">ISBE2StreamMap</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2streammap">ISBE2StreamMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>

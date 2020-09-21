@@ -57,7 +57,7 @@ Copies the data from another topology node into this node.
 
 ### -param pNode [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to copy.
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to copy.
 
 ## -returns
 
@@ -96,19 +96,18 @@ The node types do not match.
 
 ## -remarks
 
-The two nodes must have the same node type. To get the node type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getnodetype">IMFTopologyNode::GetNodeType</a>.
+The two nodes must have the same node type. To get the node type, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getnodetype">IMFTopologyNode::GetNodeType</a>.
       
 
-This method copies the object pointer, preferred types, and attributes from <i>pNode</i> to this node. It also copies the <a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a> that uniquely identifies each node in a topology. It does not duplicate any of the connections from <i>pNode</i> to other nodes.
+This method copies the object pointer, preferred types, and attributes from <i>pNode</i> to this node. It also copies the <a href="/windows/desktop/medfound/topoid">TOPOID</a> that uniquely identifies each node in a topology. It does not duplicate any of the connections from <i>pNode</i> to other nodes.
       
 
 The purpose of this method is to copy nodes from one topology to another. Do not use duplicate nodes within the same topology.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

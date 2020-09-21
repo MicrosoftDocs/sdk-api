@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Creates a command list in the closed state. Also see [ID3D12Device::CreateCommandList](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandlist).
+Creates a command list in the closed state. Also see [ID3D12Device::CreateCommandList](./nf-d3d12-id3d12device-createcommandlist.md).
 
 ## -parameters
 
@@ -58,13 +58,13 @@ For single-GPU operation, set this to zero. If there are multiple GPU nodes, the
 
 ### -param type [in]
 
-Type: **[D3D12_COMMAND_LIST_TYPE](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type)**
+Type: **[D3D12_COMMAND_LIST_TYPE](./ne-d3d12-d3d12_command_list_type.md)**
 
 Specifies the type of command list to create.
 
 ### -param flags
 
-Type: **[D3D12_COMMAND_LIST_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_flags)**
+Type: **[D3D12_COMMAND_LIST_FLAGS](./ne-d3d12-d3d12_command_list_flags.md)**
 
 Specifies creation flags.
 
@@ -78,7 +78,7 @@ A reference to the globally unique identifier (**GUID**) of the command list int
 
 Type: **void\*\***
 
-A pointer to a memory block that receives a pointer to the [ID3D12CommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist) or [ID3D12GraphicsCommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) interface for the command list.
+A pointer to a memory block that receives a pointer to the [ID3D12CommandList](./nn-d3d12-id3d12commandlist.md) or [ID3D12GraphicsCommandList](./nn-d3d12-id3d12graphicscommandlist.md) interface for the command list.
 
 ## -returns
 
@@ -96,5 +96,4 @@ See [Direct3D 12 return codes](/windows/win32/direct3d12/d3d12-graphics-referenc
 
 ## -see-also
 
-[ID3D12Device::CreateCommandList](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandlist)
-
+[ID3D12Device::CreateCommandList](./nf-d3d12-id3d12device-createcommandlist.md)

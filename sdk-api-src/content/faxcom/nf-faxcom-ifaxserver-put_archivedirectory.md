@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxServer::get_ArchiveDirectory</b> method retrieves the <b>ArchiveDirectory</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
+The <b>IFaxServer::get_ArchiveDirectory</b> method retrieves the <b>ArchiveDirectory</b> property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
 
 This property is read/write.
 
@@ -62,32 +62,31 @@ This property is read/write.
 
 ## -remarks
 
-Set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archiveoutboundfaxes-vb">ArchiveOutboundFaxes</a> property to <b>TRUE</b> to archive faxes in the directory specified by the <b>ArchiveDirectory</b> property. The fax server must have access to the directory to successfully store outbound fax transmissions. 
+Set the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archiveoutboundfaxes-vb">ArchiveOutboundFaxes</a> property to <b>TRUE</b> to archive faxes in the directory specified by the <b>ArchiveDirectory</b> property. The fax server must have access to the directory to successfully store outbound fax transmissions. 
 		
 
-The <b>get_ArchiveDirectory</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
+The <b>get_ArchiveDirectory</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archiveoutboundfaxes-vb">IFaxServer::get_ArchiveOutboundFaxes</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archiveoutboundfaxes-vb">IFaxServer::get_ArchiveOutboundFaxes</a>

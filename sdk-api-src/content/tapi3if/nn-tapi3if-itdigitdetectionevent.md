@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>ITDigitDetectionEvent</b> interface contains methods that retrieve the description of DTMF digit events. When the application's implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_DIGITEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_DIGITEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
 <b>ITDigitDetectionEvent</b> interface. The methods of this interface can be used to detect DTMF digits during a call. This interface is implemented by the application and called by the TAPI 3 DLL.
 <div class="alert"><b>Note</b>  You must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_DIGITEVENT</b> event to enable reception of DTMF digit events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. You must also call <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-detectdigits">ITLegacyCallMediaControl::DetectDigits</a> to indicate which type of digit detection is needed. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_DIGITEVENT</b> event to enable reception of DTMF digit events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. You must also call <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-detectdigits">ITLegacyCallMediaControl::DetectDigits</a> to indicate which type of digit detection is needed. For more information, see the 
+<a href="/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitDetectionEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitDetectionEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitDetectionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitDetectionEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,17 +76,17 @@ The <b>ITDigitDetectionEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_call">get_Call</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_callbackinstance">get_CallbackInstance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_callbackinstance">get_CallbackInstance</a>
 </td>
 <td align="left" width="63%">
 Gets the callback instance associated with the event.
@@ -95,7 +95,7 @@ Gets the callback instance associated with the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_digit">get_Digit</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_digit">get_Digit</a>
 </td>
 <td align="left" width="63%">
 Gets a digit.
@@ -104,17 +104,17 @@ Gets a digit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_digitmode">get_DigitMode</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_digitmode">get_DigitMode</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">line digit mode</a>.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">line digit mode</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_tickcount">get_TickCount</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitdetectionevent-get_tickcount">get_TickCount</a>
 </td>
 <td align="left" width="63%">
 Gets the "tick count" (number of milliseconds since Windows started) at which the digit-gathering completed.
@@ -125,22 +125,21 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a>
+<a href="/windows/desktop/Tapi/events">Events</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code
+<a href="/windows/desktop/Tapi/register-events">Register Events code
 		  snippet</a>
-

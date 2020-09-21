@@ -60,5 +60,4 @@ Object handlers and link objects normally implement <b>IAdviseSink::OnSave</b> t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>

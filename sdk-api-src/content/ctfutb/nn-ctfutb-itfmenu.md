@@ -54,7 +54,7 @@ The <b>ITfMenu</b> interface is implemented by the language bar and used by a la
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMenu</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfMenu</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">AddMenuItem</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">AddMenuItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the menu that the language bar will display for the button.
@@ -80,20 +80,19 @@ Adds an item to the menu that the language bar will display for the button.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">ITfLangBarItemBitmapButton::InitMenu
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">ITfLangBarItemBitmapButton::InitMenu
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">ITfLangBarItemButton::InitMenu
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">ITfLangBarItemButton::InitMenu
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu">ITfSystemLangBarItemSink::InitMenu
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu">ITfSystemLangBarItemSink::InitMenu
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPService</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPService</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IUPnPService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-addcallback">AddCallback</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-addcallback">AddCallback</a>
 </td>
 <td align="left" width="63%">
 Registers a service callback.
@@ -80,7 +80,7 @@ Registers a service callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">InvokeAction</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">InvokeAction</a>
 </td>
 <td align="left" width="63%">
 Invokes the specified action.
@@ -89,7 +89,7 @@ Invokes the specified action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">QueryStateVariable</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">QueryStateVariable</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the specified state variable.
@@ -106,7 +106,7 @@ Returns the value of the specified state variable.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id">Id</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id">Id</a>
 
 
 </td>
@@ -118,7 +118,7 @@ Service ID for the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">LastTransportStatus</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">LastTransportStatus</a>
 
 
 </td>
@@ -130,7 +130,7 @@ HTTP status of the last request sent to the service on the device. The request i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier">ServiceTypeIdentifier</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier">ServiceTypeIdentifier</a>
 
 
 </td>
@@ -140,4 +140,3 @@ Service type identifier for the service.
 </td>
 </tr>
 </table>
-

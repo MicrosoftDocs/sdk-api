@@ -64,7 +64,7 @@ The floating point index value that represents where to split the stroke.
 
 ### -param NewStroke [out, retval]
 
-When this method returns, contains a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object that is created from the split operation.
+When this method returns, contains a pointer to the new <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object that is created from the split operation.
 
 ## -returns
 
@@ -147,9 +147,8 @@ An exception occurred inside the method.
 
 This method inserts the new stroke immediately after the original stroke in the stroke set and renumbers the remaining stroke indices.
 
-When an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> is split, the beginning portion of the stroke remains the ID of the original <b>IInkStrokeDisp</b>. The end portion of the <b>IInkStrokeDisp</b> becomes a new <b>IInkStrokeDisp</b> with an ID that is one greater than the highest <b>IInkStrokeDisp</b> ID. If the original <b>IInkStrokeDisp</b> was in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection (other than the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Ink.Strokes</a>), only the beginning portion remains in that collection.
+When an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> is split, the beginning portion of the stroke remains the ID of the original <b>IInkStrokeDisp</b>. The end portion of the <b>IInkStrokeDisp</b> becomes a new <b>IInkStrokeDisp</b> with an ID that is one greater than the highest <b>IInkStrokeDisp</b> ID. If the original <b>IInkStrokeDisp</b> was in an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection (other than the <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Ink.Strokes</a>), only the beginning portion remains in that collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>

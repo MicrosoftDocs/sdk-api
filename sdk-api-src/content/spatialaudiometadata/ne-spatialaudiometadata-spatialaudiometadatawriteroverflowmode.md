@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the desired behavior when an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a> attempts to write more items into the metadata buffer than was specified when the client was initialized.
+Specifies the desired behavior when an <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a> attempts to write more items into the metadata buffer than was specified when the client was initialized.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The write operation will succeed, the overflow item will be merged with previous
 ### -field SpatialAudioMetadataWriterOverflow_MergeWithLast
 
 The write operation will succeed, the overflow item will be merged with previous item and keep the existing frame offset.
-

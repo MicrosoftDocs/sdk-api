@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getunicodeformat">HDM_GETUNICODEFORMAT</a> message explicitly.
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getunicodeformat">HDM_GETUNICODEFORMAT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_setunicodeformat">Header_SetUnicodeFormat</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-header_setunicodeformat">Header_SetUnicodeFormat</a>

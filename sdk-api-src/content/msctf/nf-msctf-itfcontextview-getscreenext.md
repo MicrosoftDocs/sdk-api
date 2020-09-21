@@ -86,20 +86,19 @@ The <i>prc</i> parameter is cleared to {0,0,0,0} if the document is not currentl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getscreenext">ITfContextOwner::GetScreenExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getscreenext">ITfContextOwner::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

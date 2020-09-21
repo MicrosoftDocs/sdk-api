@@ -138,15 +138,15 @@ The window input rectangle overlaps with the window input rectangle of an enable
 
 ## -remarks
 
-The E_INK_OVERLAPPING_INPUT_RECT error is returned if the window input rectangle of an enabled ink collector (set with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property) overlaps the window input rectangle of another enabled ink collector.
+The E_INK_OVERLAPPING_INPUT_RECT error is returned if the window input rectangle of an enabled ink collector (set with the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property) overlaps the window input rectangle of another enabled ink collector.
 
 <div class="alert"><b>Note</b>  Overlap can occur without an error as long as only one of the input rectangles is enabled at any known time.</div>
 <div> </div>
 By default, the window input rectangle is set to {0,0,0,0}. This default rectangle maps to the size of the entire window.
 
-To reset the window input rectangle to its default behavior (an empty rectangle with coordinates {0,0,0,0}), pass {0,0,0,0} in the call to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle</a>, and not <b>NULL</b>.
+To reset the window input rectangle to its default behavior (an empty rectangle with coordinates {0,0,0,0}), pass {0,0,0,0} in the call to <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle</a>, and not <b>NULL</b>.
 
-You cannot pass in a rectangle where the value of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right</a> property is less than the value of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left</a> property; or where the value of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom</a> property is less than the value of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top</a> property. For example, a rectangle with parameters of {500, 500, 400, 400} is not valid.
+You cannot pass in a rectangle where the value of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right</a> property is less than the value of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left</a> property; or where the value of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom</a> property is less than the value of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top</a> property. For example, a rectangle with parameters of {500, 500, 400, 400} is not valid.
 
 <div class="alert"><b>Caution</b>  If you set the window input rectangle to overlap a splitter control or the borders of the window, unpredictable results may occur when the window is resized.</div>
 <div> </div>
@@ -155,11 +155,11 @@ You cannot pass in a rectangle where the value of the <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle">GetWindowInputRectangle Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle">GetWindowInputRectangle Method</a>
 
 
 
@@ -167,5 +167,4 @@ You cannot pass in a rectangle where the value of the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
-
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>

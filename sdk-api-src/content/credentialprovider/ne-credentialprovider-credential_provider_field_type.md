@@ -70,7 +70,7 @@ A stand-alone text label is drawn in the smaller of two font sizes.
 
 ### -field CPFT_COMMAND_LINK
 
-An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-commandlinkclicked">CommandLinkClicked</a> in your credential provider to respond to the click.
+An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-commandlinkclicked">CommandLinkClicked</a> in your credential provider to respond to the click.
 
 ### -field CPFT_EDIT_TEXT
 
@@ -99,4 +99,3 @@ This field appears as a button on the credential tile. Pressing the button lets 
 ## -remarks
 
 This type enables you to specify the different elements your credential provider will need to display to the user. Credential providers are not responsible for drawing their own UI, so they need to define the elements that are necessary. This type is one of the elements to support that mechanism.
-

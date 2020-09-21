@@ -134,9 +134,8 @@ The settings  for this context include the recognition guide, character Autocomp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-resetcontext">ResetContext Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-resetcontext">ResetContext Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>AVISaveOptionsFree</b> function frees the resources allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a> function.
+The <b>AVISaveOptionsFree</b> function frees the resources allocated by the <a href="/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a> function.
 
 ## -parameters
 
 ### -param nStreams
 
-Count of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structures referenced in <i>plpOptions</i>.
+Count of the <a href="/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structures referenced in <i>plpOptions</i>.
 
 ### -param plpOptions
 
-Pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The resources allocated by <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a> for each of these structures will be freed.
+Pointer to an array of pointers to <a href="/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The resources allocated by <a href="/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a> for each of these structures will be freed.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns AVIERR_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

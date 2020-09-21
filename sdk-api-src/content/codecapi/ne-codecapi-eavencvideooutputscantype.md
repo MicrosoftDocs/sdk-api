@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the encoder interlaces the output video. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputscantype-property">AVEncVideoOutputScanType</a> property.
+Specifies how the encoder interlaces the output video. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideooutputscantype-property">AVEncVideoOutputScanType</a> property.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Use the media type on the encoder's input pin to determine whether the frames ar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

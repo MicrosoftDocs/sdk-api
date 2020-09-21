@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections. This interface is an enhancement to the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a> interface.
+Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections. This interface is an enhancement to the <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a> interface.
 
 The methods in this interface are called by the RemoteApp and Desktop Connection Management service in Remote Desktop Web Access (RD Web Access) and Remote Desktop Connection Broker (RD Connection Broker).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin2</b> interface inherits from <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ItsPubPlugin2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-deletepersonaldesktopassignment">DeletePersonalDesktopAssignment</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-deletepersonaldesktopassignment">DeletePersonalDesktopAssignment</a>
 </td>
 <td align="left" width="63%">
 Called to delete a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
@@ -80,7 +80,7 @@ Called to delete a mapping between the specified user and a virtual machine in a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
 </td>
 <td align="left" width="63%">
 This method is reserved and should always return <b>E_NOTIMPL</b>.
@@ -89,7 +89,7 @@ This method is reserved and should always return <b>E_NOTIMPL</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of resources assigned to the specified user.
@@ -98,7 +98,7 @@ Retrieves a list of resources assigned to the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>
 </td>
 <td align="left" width="63%">
 Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
@@ -106,4 +106,3 @@ Called to resolve a mapping between the specified user and a virtual machine in 
 </td>
 </tr>
 </table>
-

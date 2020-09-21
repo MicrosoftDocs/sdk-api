@@ -50,35 +50,34 @@ api_name:
 
 ## -description
 
-Creates an animation control. <b>Animate_Create</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the animation control.
+Creates an animation control. <b>Animate_Create</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the animation control.
 
 ## -parameters
 
 ### -param hwndP
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the parent window.
 
 ### -param id
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The child window identifier of the animation control.
 
 ### -param dwStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The window styles. For a list of the animation control style values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/animation-control-styles">Animation Control Styles</a>.
+The window styles. For a list of the animation control style values, see <a href="/windows/desktop/Controls/animation-control-styles">Animation Control Styles</a>.
 
 ### -param hInstance
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 A handle to the instance of the module that is creating the animation control.
 
 ## -remarks
 
-The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="https://docs.microsoft.com/windows/desktop/Controls/animation-control-styles">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip.
-
+The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="/windows/desktop/Controls/animation-control-styles">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip.

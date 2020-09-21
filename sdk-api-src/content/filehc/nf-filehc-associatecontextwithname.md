@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Inserts a name into the name cache to find a specified <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
+Inserts a name into the name cache to find a specified <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ The length, in bytes, of arbitrary data to associate with the name.
 
 ### -param pGenericMapping [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure to associate with the name.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure to associate with the name.
 
 ### -param pSecurityDescriptor [in]
 
@@ -84,11 +84,11 @@ The self-relative security descriptor to be associated with the name. This descr
 
 ### -param pContext [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
+A pointer to an <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure.
 
 ### -param fKeepReference [in]
 
-Specifies whether the reference on the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
+Specifies whether the reference on the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure should be kept. If set to <b>TRUE</b>, the reference is kept.
 
 ## -returns
 
@@ -96,13 +96,12 @@ Returns <b>TRUE</b> if the function succeeds; otherwise, it returns <b>FALSE</b>
 
 ## -remarks
 
-If the name is already present in the cache, this call fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_DUP_NAME.
+If the name is already present in the cache, this call fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_DUP_NAME.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>

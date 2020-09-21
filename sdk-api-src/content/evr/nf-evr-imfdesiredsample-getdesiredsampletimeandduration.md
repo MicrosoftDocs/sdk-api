@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-No time stamp was set for this sample. See <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">IMFDesiredSample::Clear</a>.
+No time stamp was set for this sample. See <a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">IMFDesiredSample::Clear</a>.
 
 </td>
 </tr>
@@ -98,9 +98,8 @@ No time stamp was set for this sample. See <a href="https://docs.microsoft.com/w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
+<a href="/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
-
+<a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>

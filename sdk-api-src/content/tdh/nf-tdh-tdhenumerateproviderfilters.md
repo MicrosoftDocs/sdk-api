@@ -73,7 +73,7 @@ The number of filter structures that the <i>pBuffer</i> buffer contains. Is zero
 
 ### -param Buffer [out, optional]
 
-User-allocated buffer to receive the filter information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
+User-allocated buffer to receive the filter information. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 ### -param BufferSize [in, out]
 
@@ -137,4 +137,3 @@ The <b>resourceFileName</b> attribute in the manifest contains the location of t
 ## -remarks
 
 This function uses the XML manifest to retrieve the information.
-

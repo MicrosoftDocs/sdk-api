@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Handles the notification of a change in the progress of an asynchronous download that was initiated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
+Handles the notification of a change in the progress of an asynchronous download that was initiated by calling the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
 
 ## -parameters
 
 ### -param downloadJob [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a> interface that contains download information.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a> interface that contains download information.
 
 ### -param callbackArgs [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a> interface that contains download progress data.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a> interface that contains download progress data.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns <b>S_OK</b> if successful. Otherwise, returns   a COM or Windows error c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallback">IDownloadProgressChangedCallback</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallback">IDownloadProgressChangedCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">IUpdateDownloader::BeginDownload</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">IUpdateDownloader::BeginDownload</a>

@@ -59,5 +59,4 @@ A value that specifies if mapped client drives should be reconnected when a Remo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

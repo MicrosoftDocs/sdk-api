@@ -60,7 +60,7 @@ Configuration information for this instance of the content provider.
 
 ### -param phInstance [out]
 
-Receives a pointer to a handle that identifies this instance.  When the instance is no longer needed, the handle should be closed with the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercloseinstance">WdsTransportProviderCloseInstance</a> callback.
+Receives a pointer to a handle that identifies this instance.  When the instance is no longer needed, the handle should be closed with the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercloseinstance">WdsTransportProviderCloseInstance</a> callback.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If the function succeeds, the return is <b>S_OK</b>.
 ## -remarks
 
 This callback is required.
-

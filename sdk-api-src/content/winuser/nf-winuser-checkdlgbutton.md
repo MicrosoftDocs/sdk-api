@@ -59,7 +59,7 @@ Changes the check state of a button control.
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the button.
 
@@ -71,7 +71,7 @@ The identifier of the button to modify.
 
 ### -param uCheck [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The check state of the button. This parameter can be one of the following values. 
 
@@ -96,7 +96,7 @@ Sets the button state to checked.
 </dl>
 </td>
 <td width="60%">
-Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style.
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style.
 
 </td>
 </tr>
@@ -114,33 +114,32 @@ Sets the button state to cleared
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>CheckDlgButton</b> function sends a 
-				<a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
+				<a href="/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message to the specified button control in the specified dialog box.
 
 
 #### Examples
 
-For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Using Dialog Boxes</a>. 
+For an example, see <b>Creating a Modeless Dialog Box</b> in <a href="/windows/desktop/dlgbox/using-dialog-boxes">Using Dialog Boxes</a>. 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkradiobutton">CheckRadioButton</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-checkradiobutton">CheckRadioButton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdlgbuttonchecked">IsDlgButtonChecked</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isdlgbuttonchecked">IsDlgButtonChecked</a>
 
 
 
 <b>Reference</b>
-

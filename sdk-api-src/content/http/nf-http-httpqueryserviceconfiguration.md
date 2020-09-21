@@ -62,7 +62,7 @@ Reserved. Must be zero.
 ### -param ConfigId [in]
 
 The configuration record query type. This  parameter is one of the following values from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
+<a href="/windows/desktop/api/http/ne-http-http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ Queries  the SSL Server Name Indication (SNI) store for a specific certificate r
 </dl>
 </td>
 <td width="60%">
-Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) record on the port. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure that you  pass to the <i>pInputConfigInfo</i> parameter.
+Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) record on the port. The port is specified by the <b>KeyDesc</b> member of the <a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure that you  pass to the <i>pInputConfigInfo</i> parameter.
 
 <b>Windows 8 and later:  </b>This enumeration value is supported.
 
@@ -166,7 +166,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structure.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structure.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> structure.
+<a href="/windows/desktop/api/http/ne-http-http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> structure.
 
 
 <b>Windows Vista and later:  </b>This structure is supported.
@@ -204,7 +204,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -220,7 +220,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -254,7 +254,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ip_listen_query">HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ip_listen_query">HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY</a> structure.
 
 </td>
 </tr>
@@ -265,7 +265,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 </td>
 </tr>
@@ -287,7 +287,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-data-types">HTTP_SERVICE_CONFIG_TIMEOUT_PARAM</a> data type.
+<a href="/windows/desktop/Http/http-server-api-version-2-0-data-types">HTTP_SERVICE_CONFIG_TIMEOUT_PARAM</a> data type.
 
 
 <b>Windows Vista and later:  </b>This structure is supported.
@@ -303,7 +303,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -319,7 +319,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -404,7 +404,7 @@ There are no more items to return that meet the specified criteria.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -412,17 +412,16 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
+<a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>

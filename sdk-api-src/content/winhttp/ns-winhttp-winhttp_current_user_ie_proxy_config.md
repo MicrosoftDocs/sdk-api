@@ -69,6 +69,5 @@ Pointer to a null-terminated Unicode string that contains the optional proxy by-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
-

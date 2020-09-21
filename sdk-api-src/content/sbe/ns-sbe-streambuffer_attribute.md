@@ -63,7 +63,7 @@ Pointer to a null-terminated wide-character string that contains the name of the
 
 ### -field StreamBufferAttributeType
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ne-sbe-streambuffer_attr_datatype">STREAMBUFFER_ATTR_DATATYPE</a> enumeration. The value indicates the data type that you should use to interpret the attribute data, which is contained in the <b>pbAttribute</b> member.
+Member of the <a href="/previous-versions/windows/desktop/api/sbe/ne-sbe-streambuffer_attr_datatype">STREAMBUFFER_ATTR_DATATYPE</a> enumeration. The value indicates the data type that you should use to interpret the attribute data, which is contained in the <b>pbAttribute</b> member.
 
 ### -field pbAttribute
 
@@ -75,9 +75,8 @@ The size of the buffer given in <b>pbAttribute</b>, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-next">IEnumStreamBufferRecordingAttrib::Next</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-next">IEnumStreamBufferRecordingAttrib::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-structures">Stream Buffer Engine Structures</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-structures">Stream Buffer Engine Structures</a>

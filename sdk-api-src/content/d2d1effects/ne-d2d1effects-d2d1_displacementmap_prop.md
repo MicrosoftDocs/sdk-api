@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/displacement-map">Displacement map effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/displacement-map">Displacement map effect</a>.
 
 ## -enum-fields
 
@@ -68,7 +68,7 @@ The default value is 0.0f.
 The effect extracts the intensity from this color channel and uses it to spatially displace the image in the X direction.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
 
 The default value is D2D1_CHANNEL_SELECTOR_A
 
@@ -77,9 +77,8 @@ The default value is D2D1_CHANNEL_SELECTOR_A
 The effect extracts the intensity from this color channel and uses it to spatially displace the image in the Y direction.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
 
 The default value is D2D1_CHANNEL_SELECTOR_A
 
 ### -field D2D1_DISPLACEMENTMAP_PROP_FORCE_DWORD
-

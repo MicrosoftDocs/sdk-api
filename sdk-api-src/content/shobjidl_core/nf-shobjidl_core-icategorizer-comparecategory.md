@@ -56,9 +56,9 @@ Determines the relative order of two items in their item identifier lists, and h
 
 ### -param csfFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a></b>
 
-A flag that specifies how the comparison should be performed. The parameter should be one of the values in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a>.
+A flag that specifies how the comparison should be performed. The parameter should be one of the values in <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a>.
 
 ### -param dwCategoryId1
 
@@ -99,4 +99,3 @@ The following table shows the values returned in the CODE field of the HRESULT.
 <td>The two items are the same (<i>dwCategoryId1</i> = <i>dwCategoryId2</i>).</td>
 </tr>
 </table>
-

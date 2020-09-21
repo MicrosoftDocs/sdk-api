@@ -57,15 +57,15 @@ initialization.
 
 ### -field APOInit
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a> structure.
+An <a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a> structure.
 
 ### -field pAPOEndpointProperties
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
+A pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 ### -field pAPOSystemEffectsProperties
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
+A pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 ### -field pReserved
 
@@ -73,7 +73,7 @@ Reserved for future use.
 
 ### -field pDeviceCollection
 
-A pointer to an IMMDeviceCollection object. The last item in the *pDeviceCollection* is always the [IMMDevice](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-immdevice) representing the audio endpoint.
+A pointer to an IMMDeviceCollection object. The last item in the *pDeviceCollection* is always the [IMMDevice](../mmdeviceapi/nn-mmdeviceapi-immdevice.md) representing the audio endpoint.
 
 ### -field nSoftwareIoDeviceInCollection
 
@@ -93,5 +93,4 @@ Indicates whether the audio system is initializing the APO for effects discovery
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>

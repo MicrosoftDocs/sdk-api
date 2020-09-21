@@ -60,7 +60,7 @@ The <b>PEER_ENDPOINT</b> structure contains the address and friendly name of a p
 
 ### -field address
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the IPv6 network address of the endpoint.
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the IPv6 network address of the endpoint.
 
 ### -field pwzEndpointName
 
@@ -74,9 +74,8 @@ A peer watching a contact can query any of the endpoints associated with that co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>

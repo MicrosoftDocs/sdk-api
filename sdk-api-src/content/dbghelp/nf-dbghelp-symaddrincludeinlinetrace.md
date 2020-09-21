@@ -57,7 +57,7 @@ Indicates whether the specified address is within an inline frame.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Address [in]
 
@@ -66,4 +66,3 @@ The address.
 ## -returns
 
 Returns zero if the address is not within an inline frame.
-

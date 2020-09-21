@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines values that indicate the current state of the write operation when using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface.
+Defines values that indicate the current state of the write operation when using the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ Synchronizing the drive's cache with the end of the data written to disc.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a>

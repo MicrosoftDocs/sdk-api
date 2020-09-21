@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extension for the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory">IMFMediaEngineClassFactory</a> interface.
+Extension for the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory">IMFMediaEngineClassFactory</a> interface.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineClassFactoryEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediakeys">CreateMediaKeys</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediakeys">CreateMediaKeys</a>
 </td>
 <td align="left" width="63%">
 Creates a media keys object based on the specified key system.
@@ -78,16 +78,16 @@ Creates a media keys object based on the specified key system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediasourceextension">CreateMediaSourceExtension</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactoryex-createmediasourceextension">CreateMediaSourceExtension</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
+Creates an instance of <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediaengineclassfactoryex-istypesupported">IsTypeSupported</a>
+<a href="/windows/desktop/medfound/imfmediaengineclassfactoryex-istypesupported">IsTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the specified key system supports the specified media type.
@@ -102,5 +102,4 @@ This class is implemented by the Media Engine (CLSID_MFMediaEngineClassFactory).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -64,7 +64,7 @@ The scenario the credential provider has been created in. This is the usage scen
 
 Type: <b>DWORD</b>
 
-A value that affects the behavior of the credential provider. This value can be a bitwise-OR combination of one or more of the following values defined in Wincred.h. See <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> for more information.
+A value that affects the behavior of the credential provider. This value can be a bitwise-OR combination of one or more of the following values defined in Wincred.h. See <a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> for more information.
 
 
 
@@ -88,7 +88,7 @@ A value that affects the behavior of the credential provider. This value can be 
 
 #### CREDUIWIN_IN_CRED_ONLY (0x00000020)
 
-0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
+0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
 to determine how many credential tiles to enumerate. This value cannot be combined with <b>CREDUIWIN_AUTHPACKAGE_ONLY</b>.
 
 
@@ -126,4 +126,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method is required and enables the credential provider to indicate how it will be used.
 
 This method should return <b>E_NOTIMPL</b> if the call completes but the requested usage scenario is not supported. This method should return <b>S_OK</b> if the method is successful and the usage scenario is supported.
-

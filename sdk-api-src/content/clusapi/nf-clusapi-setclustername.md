@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Sets the name for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
+Sets the name for a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -70,15 +70,14 @@ Pointer to a null-terminated Unicode string containing the new cluster name.
 If the operation succeeds, the function returns <b>ERROR_RESOURCE_PROPERTIES_STORED</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The cluster name is stored in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-names-name">Name</a> private property of the core  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource (that is, the Network Name resource of the cluster). Because of possible dependencies on this resource, the change is not effective until the Network Name resource is brought back online.
+The cluster name is stored in the  <a href="/previous-versions/windows/desktop/mscs/network-names-name">Name</a> private property of the core  <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource (that is, the Network Name resource of the cluster). Because of possible dependencies on this resource, the change is not effective until the Network Name resource is brought back online.
 
-Do not call  <b>SetClusterName</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>SetClusterName</b> from a resource DLL. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-names-name">Name</a>
-
+<a href="/previous-versions/windows/desktop/mscs/network-names-name">Name</a>

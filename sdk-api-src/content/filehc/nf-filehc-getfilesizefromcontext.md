@@ -56,7 +56,7 @@ Reports the file size cached with the handle.
 
 ### -param pContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the file.
+A pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that is associated with the file.
 
 ### -param pcbFileSizeHigh [out]
 
@@ -68,5 +68,4 @@ Returns the size of the file in bytes.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

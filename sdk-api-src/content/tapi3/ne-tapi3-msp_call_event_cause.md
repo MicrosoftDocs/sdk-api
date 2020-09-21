@@ -54,7 +54,7 @@ api_name:
 
 The <b>MSP_CALL_EVENT_CAUSE</b> constant is returned within the 
 <a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> struct by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
 <a href="/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a> is ME_CALL_EVENT.
 
 ## -enum-fields
@@ -91,7 +91,7 @@ The media that carries the stream is back to normal from a temporary denial of s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
@@ -103,5 +103,4 @@ The media that carries the stream is back to normal from a temporary denial of s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

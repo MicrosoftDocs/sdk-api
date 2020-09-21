@@ -54,26 +54,26 @@ api_name:
 
 ## -description
 
-Contains information used in handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-childsize">RBN_CHILDSIZE</a> notification code.
+Contains information used in handling the <a href="/windows/desktop/Controls/rbn-childsize">RBN_CHILDSIZE</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field uBand
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Zero-based index of the band affected by the notification. This will be -1 if no band is affected.
 
 ### -field wID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Application-defined identifier of the band.
 
@@ -90,4 +90,3 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the new size of the band.
-

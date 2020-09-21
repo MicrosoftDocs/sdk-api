@@ -109,25 +109,24 @@ The buffer cannot be locked at this time.
 
 ## -remarks
 
-If <i>p</i> is a pointer to the first byte in a row of pixels, <i>p</i> + (*<i>plPitch</i>) points to the first byte in the next row of pixels. A buffer might contain padding after each row of pixels, so the stride might be wider than the width of the image in bytes. Do not access the memory that is reserved for padding bytes, because it might not be read-accessible or write-accessible. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/image-stride">Image Stride</a>.
+If <i>p</i> is a pointer to the first byte in a row of pixels, <i>p</i> + (*<i>plPitch</i>) points to the first byte in the next row of pixels. A buffer might contain padding after each row of pixels, so the stride might be wider than the width of the image in bytes. Do not access the memory that is reserved for padding bytes, because it might not be read-accessible or write-accessible. For more information, see <a href="/windows/desktop/medfound/image-stride">Image Stride</a>.
 
-The pointer returned in <i>pbScanline0</i> remains valid as long as the caller holds the lock. When you are done accessing the memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-unlock2d">IMF2DBuffer::Unlock2D</a> to unlock the buffer. You must call <b>Unlock2D</b> once for each call to <b>Lock2D</b>. After you unlock the buffer, the pointer returned in <i>pbScanline0</i> is no longer valid and should not be used. Generally, it is best to call <b>Lock2D</b> only when you need to access the buffer memory, and not earlier.
+The pointer returned in <i>pbScanline0</i> remains valid as long as the caller holds the lock. When you are done accessing the memory, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-unlock2d">IMF2DBuffer::Unlock2D</a> to unlock the buffer. You must call <b>Unlock2D</b> once for each call to <b>Lock2D</b>. After you unlock the buffer, the pointer returned in <i>pbScanline0</i> is no longer valid and should not be used. Generally, it is best to call <b>Lock2D</b> only when you need to access the buffer memory, and not earlier.
 
-The values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">IMFMediaBuffer::GetMaxLength</a> methods do not apply to the buffer that is returned by the <b>Lock2D</b> method. For the same reason, you do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a> after manipulating the data in the buffer returned by the <b>Lock2D</b> method.
+The values returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a> and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">IMFMediaBuffer::GetMaxLength</a> methods do not apply to the buffer that is returned by the <b>Lock2D</b> method. For the same reason, you do not need to call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a> after manipulating the data in the buffer returned by the <b>Lock2D</b> method.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> method fails while the <b>Lock2D</b> lock is held, and vice-versa. Applications should use only one of these methods at a time.
+The <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> method fails while the <b>Lock2D</b> lock is held, and vice-versa. Applications should use only one of these methods at a time.
 
 When the underlying buffer is a Direct3D surface, the method fails if the surface is not lockable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
-
+<a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>

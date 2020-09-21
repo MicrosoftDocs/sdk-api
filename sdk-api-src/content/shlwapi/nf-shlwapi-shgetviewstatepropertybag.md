@@ -125,7 +125,7 @@ The following flags are optional.
 
 #### SHGVSPB_ROAM
 
-Allows the property bag to roam. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>. This flag cannot be combined with SHGVSPB_ALLFOLDERS.
+Allows the property bag to roam. See <a href="/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>. This flag cannot be combined with SHGVSPB_ALLFOLDERS.
 
 
 
@@ -186,5 +186,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Critical information should not be stored in the view state property bag because the system keeps only a limited number of view states. If a folder is not visited for a long time, its view state is eventually deleted.
 
-We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
-
+We recommend that you use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.

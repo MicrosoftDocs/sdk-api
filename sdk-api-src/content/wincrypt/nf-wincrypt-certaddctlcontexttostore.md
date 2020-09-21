@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertAddCTLContextToStore</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+The <b>CertAddCTLContextToStore</b> function adds a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context to a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Handle of a certificate store.
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be added to the store.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be added to the store.
 
 ### -param dwAddDisposition [in]
 
@@ -89,7 +89,7 @@ Makes no check for an existing matching CTL or link to a matching CTL. A new CTL
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the operation fails. 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ If a matching CTL or a link to a matching CTL exists, the operation fails.
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the <b>ThisUpdate</b> times on the CTLs are compared. If the existing CTL has a <b>ThisUpdate</b> time less than the <b>ThisUpdate</b> time on the new CTL, the old CTL or link is replaced just as with CERT_STORE_ADD_REPLACE_EXISTING. If the existing CTL has a <b>ThisUpdate</b> time greater than or equal to the <b>ThisUpdate</b> time on the CTL to be added, the function fails with 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code.
 
 If a matching CTL or a link to a matching CTL is not found in the store, a new CTL is added to the store.
 
@@ -152,19 +152,19 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 
 ### -param ppStoreContext [out, optional]
 
-Pointer to a pointer to the decoded CTL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. This optional parameter can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, that context must be freed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
+Pointer to a pointer to the decoded CTL <a href="/windows/desktop/SecGloss/c-gly">context</a>. This optional parameter can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, that context must be freed using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore">CertAddEncodedCRLToStore</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty">CertSetCRLContextProperty</a> can be propagated to this function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore">CertAddEncodedCRLToStore</a> and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty">CertSetCRLContextProperty</a> can be propagated to this function.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -198,19 +198,18 @@ An add disposition that is not valid was specified by the <i>dwAddDisposition</i
 ## -remarks
 
 The CTL context is not duplicated using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>. Instead, a new copy is created and added to the store. In addition to the encoded CTL, the context's properties are copied.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>. Instead, a new copy is created and added to the store. In addition to the encoded CTL, the context's properties are copied.
 
-To remove the CTL context from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> function.
+To remove the CTL context from the certificate store, use the  <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore">CertAddEncodedCTLToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore">CertAddEncodedCTLToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

@@ -101,22 +101,21 @@ Cannot cancel a job whose state is BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOW
 ## -remarks
 
 You can 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/completing-and-canceling-a-job">cancel a job</a> at any time; however, the job cannot be recovered after it is canceled.
+<a href="/windows/desktop/Bits/completing-and-canceling-a-job">cancel a job</a> at any time; however, the job cannot be recovered after it is canceled.
 
-For upload jobs, if the server is unavailable, there may be a delay before BITS deletes the job from the queue. BITS periodically sends a cancel request to the BITS server for up to 24 hours. If the server does not respond within the 24-hour period, BITS removes the job from the queue. If the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">no-progress time-out period</a> is less than 24 hours, BITS uses the no-progress time-out period to limit the retries.
+For upload jobs, if the server is unavailable, there may be a delay before BITS deletes the job from the queue. BITS periodically sends a cancel request to the BITS server for up to 24 hours. If the server does not respond within the 24-hour period, BITS removes the job from the queue. If the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">no-progress time-out period</a> is less than 24 hours, BITS uses the no-progress time-out period to limit the retries.
 
 The 
 <b>Cancel</b> method cancels an upload if the upload is not complete. If the upload is complete and the job is of type BG_JOB_TYPE_UPLOAD_REPLY, the method cancels the reply.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>

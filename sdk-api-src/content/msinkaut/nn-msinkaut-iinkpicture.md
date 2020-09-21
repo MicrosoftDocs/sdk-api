@@ -54,7 +54,7 @@ Represents an object that provides the ability to place an image in an applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkPicture</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkPicture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkPicture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkPicture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Events</a></li>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
@@ -71,35 +71,35 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkPicture</b> interface has
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-click">Click</a>
+<a href="/windows/desktop/tablet/inkpicture-click">Click</a>
 </td>
 <td align="left" width="63%">
-Occurs when a user clicks the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Occurs when a user clicks the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorbuttondown">CursorButtonDown</a>
+<a href="/windows/desktop/tablet/inkpicture-cursorbuttondown">CursorButtonDown</a>
 </td>
 <td align="left" width="63%">
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a> detects a cursor button that is down.
+Occurs when the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a> detects a cursor button that is down.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorbuttonup">CursorButtonUp</a>
+<a href="/windows/desktop/tablet/inkpicture-cursorbuttonup">CursorButtonUp</a>
 </td>
 <td align="left" width="63%">
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> detects a cursor button that is up.
+Occurs when the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> detects a cursor button that is up.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursordown">CursorDown</a>
+<a href="/windows/desktop/tablet/inkpicture-cursordown">CursorDown</a>
 </td>
 <td align="left" width="63%">
 Occurs when the cursor tip contacts the digitizing tablet surface.
@@ -108,7 +108,7 @@ Occurs when the cursor tip contacts the digitizing tablet surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange</a>
+<a href="/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange</a>
 </td>
 <td align="left" width="63%">
 Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
@@ -117,7 +117,7 @@ Occurs when a cursor enters the physical detection range (proximity) of the tabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursoroutofrange">CursorOutOfRange</a>
+<a href="/windows/desktop/tablet/inkpicture-cursoroutofrange">CursorOutOfRange</a>
 </td>
 <td align="left" width="63%">
 Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
@@ -126,16 +126,16 @@ Occurs when the cursor leaves the physical detection range (proximity) of the ta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-dblclick">DblClick</a>
+<a href="/windows/desktop/tablet/inkpicture-dblclick">DblClick</a>
 </td>
 <td align="left" width="63%">
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is double-clicked.
+Occurs when the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is double-clicked.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-gesture">Gesture</a>
+<a href="/windows/desktop/tablet/inkpicture-gesture">Gesture</a>
 </td>
 <td align="left" width="63%">
 Occurs when an application-specific <i>gesture</i> is recognized.
@@ -144,97 +144,97 @@ Occurs when an application-specific <i>gesture</i> is recognized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-keydown">KeyDown</a>
+<a href="/windows/desktop/tablet/inkpicture-keydown">KeyDown</a>
 </td>
 <td align="left" width="63%">
-Occurs when a key is pressed and in the down position while the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
+Occurs when a key is pressed and in the down position while the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-keypress">KeyPress</a>
+<a href="/windows/desktop/tablet/inkpicture-keypress">KeyPress</a>
 </td>
 <td align="left" width="63%">
-Occurs when a key is pressed while the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
+Occurs when a key is pressed while the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-keyup">KeyUp</a>
+<a href="/windows/desktop/tablet/inkpicture-keyup">KeyUp</a>
 </td>
 <td align="left" width="63%">
-Occurs when a key is released while the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
+Occurs when a key is released while the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousedown">MouseDown</a>
+<a href="/windows/desktop/tablet/inkpicture-mousedown">MouseDown</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer is over the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control and a mouse button is pressed.
+Occurs when the mouse pointer is over the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control and a mouse button is pressed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mouseenter">MouseEnter</a>
+<a href="/windows/desktop/tablet/inkpicture-mouseenter">MouseEnter</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer enters the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Occurs when the mouse pointer enters the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousehover">MouseHover</a>
+<a href="/windows/desktop/tablet/inkpicture-mousehover">MouseHover</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer hovers over the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Occurs when the mouse pointer hovers over the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mouseleave">MouseLeave</a>
+<a href="/windows/desktop/tablet/inkpicture-mouseleave">MouseLeave</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer leaves the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Occurs when the mouse pointer leaves the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousemove">MouseMove</a>
+<a href="/windows/desktop/tablet/inkpicture-mousemove">MouseMove</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer is moved over the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Occurs when the mouse pointer is moved over the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mouseup">MouseUp</a>
+<a href="/windows/desktop/tablet/inkpicture-mouseup">MouseUp</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse pointer is moved over the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control and a mouse button is released.
+Occurs when the mouse pointer is moved over the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control and a mouse button is released.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel</a>
+<a href="/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel</a>
 </td>
 <td align="left" width="63%">
-Occurs when the mouse wheel moves while the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
+Occurs when the mouse wheel moves while the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has focus.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newinairpackets">NewInAirPackets</a>
+<a href="/windows/desktop/tablet/inkpicture-newinairpackets">NewInAirPackets</a>
 </td>
 <td align="left" width="63%">
 Occurs when an in-air packet is seen.
@@ -243,7 +243,7 @@ Occurs when an in-air packet is seen.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>
+<a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>
 </td>
 <td align="left" width="63%">
 Occurs when the ink collector receives a packet.
@@ -252,108 +252,108 @@ Occurs when the ink collector receives a packet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-painted">Painted</a>
+<a href="/windows/desktop/tablet/inkpicture-painted">Painted</a>
 </td>
 <td align="left" width="63%">
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has completed redrawing itself.
+Occurs when the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has completed redrawing itself.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-painting">Painting</a>
+<a href="/windows/desktop/tablet/inkpicture-painting">Painting</a>
 </td>
 <td align="left" width="63%">
-Occurs before the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control redraws itself.
+Occurs before the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control redraws itself.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-resize">Resize</a>
+<a href="/windows/desktop/tablet/inkpicture-resize">Resize</a>
 </td>
 <td align="left" width="63%">
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is resized (when the Width and/or Height property values change).
+Occurs when the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is resized (when the Width and/or Height property values change).
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionchanged">SelectionChanged</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionchanged">SelectionChanged</a>
 </td>
 <td align="left" width="63%">
-Occurs when the selection of ink within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the selection of ink within the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionchanging">SelectionChanging</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionchanging">SelectionChanging</a>
 </td>
 <td align="left" width="63%">
-Occurs when the selection of ink within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the selection of ink within the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved</a>
 </td>
 <td align="left" width="63%">
-Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoving">SelectionMoving</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionmoving">SelectionMoving</a>
 </td>
 <td align="left" width="63%">
-Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized</a>
 </td>
 <td align="left" width="63%">
-Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresizing">SelectionResizing</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionresizing">SelectionResizing</a>
 </td>
 <td align="left" width="63%">
-Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
+Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-sizechanged">SizeChanged</a>
+<a href="/windows/desktop/tablet/inkpicture-sizechanged">SizeChanged</a>
 </td>
 <td align="left" width="63%">
-Occurs after the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has been resized, specifically, after the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height</a> property value changes.
+Occurs after the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has been resized, specifically, after the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a> or <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height</a> property value changes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-sizemodechanged">SizeModeChanged</a>
+<a href="/windows/desktop/tablet/inkpicture-sizemodechanged">SizeModeChanged</a>
 </td>
 <td align="left" width="63%">
-Occurs after the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a> property of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has been changed.
+Occurs after the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a> property of the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has been changed.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-stroke">Stroke</a>
+<a href="/windows/desktop/tablet/inkpicture-stroke">Stroke</a>
 </td>
 <td align="left" width="63%">
 Occurs when the user draws a new stroke on any tablet.
@@ -362,34 +362,34 @@ Occurs when the user draws a new stroke on any tablet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-strokesadded">StrokesAdded</a>
+<a href="/windows/desktop/tablet/inkpicture-strokesadded">StrokesAdded</a>
 </td>
 <td align="left" width="63%">
-Occurs when one or more <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects are added to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+Occurs when one or more <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects are added to the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-strokesdeleted">StrokesDeleted</a>
+<a href="/windows/desktop/tablet/inkpicture-strokesdeleted">StrokesDeleted</a>
 </td>
 <td align="left" width="63%">
-Occurs after <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects have been deleted from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a> property.
+Occurs after <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects have been deleted from the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-strokesdeleting">StrokesDeleting</a>
+<a href="/windows/desktop/tablet/inkpicture-strokesdeleting">StrokesDeleting</a>
 </td>
 <td align="left" width="63%">
-Occurs before <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects are deleted from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a> property.
+Occurs before <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects are deleted from the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-systemcolorschanged">SystemColorsChanged</a>
+<a href="/windows/desktop/tablet/inkpicture-systemcolorschanged">SystemColorsChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs after the system colors change.
@@ -398,7 +398,7 @@ Occurs after the system colors change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-systemgesture">SystemGesture</a>
+<a href="/windows/desktop/tablet/inkpicture-systemgesture">SystemGesture</a>
 </td>
 <td align="left" width="63%">
 Occurs when a system gesture  is recognized.
@@ -407,19 +407,19 @@ Occurs when a system gesture  is recognized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-tabletadded">TabletAdded</a>
+<a href="/windows/desktop/tablet/inkpicture-tabletadded">TabletAdded</a>
 </td>
 <td align="left" width="63%">
-Occurs when a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> is added to the system.
+Occurs when a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> is added to the system.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-tabletremoved">TabletRemoved</a>
+<a href="/windows/desktop/tablet/inkpicture-tabletremoved">TabletRemoved</a>
 </td>
 <td align="left" width="63%">
-Occurs when a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> is removed from the system.
+Occurs when a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> is removed from the system.
 
 </td>
 </tr>
@@ -432,25 +432,25 @@ Occurs when a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest">GetEventInterest</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest">GetEventInterest</a>
 </td>
 <td align="left" width="63%">
-Retrieves the interest an object has in a particular event for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> class, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> class, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> class.
+Retrieves the interest an object has in a particular event for the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> class, <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> class, or <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> class.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus">GetGestureStatus</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus">GetGestureStatus</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has interest in a particular application gesture.
+Retrieves a value that indicates whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control has interest in a particular application gesture.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getwindowinputrectangle">GetWindowInputRectangle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getwindowinputrectangle">GetWindowInputRectangle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window rectangle, in pixels, within which ink is drawn.
@@ -459,25 +459,25 @@ Retrieves the window rectangle, in pixels, within which ink is drawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-hittestselection">HitTestSelection</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-hittestselection">HitTestSelection</a>
 </td>
 <td align="left" width="63%">
-Retrieves a member of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration, which specifies which part of a selection, if any, was hit during a hit test.
+Retrieves a member of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration, which specifies which part of a selection, if any, was hit during a hit test.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode">SetAllTabletsMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode">SetAllTabletsMode</a>
 </td>
 <td align="left" width="63%">
-Allows an ink collector  (<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>) to collect ink from any tablet attached to the Tablet PC.
+Allows an ink collector  (<a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>) to collect ink from any tablet attached to the Tablet PC.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest">SetEventInterest</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest">SetEventInterest</a>
 </td>
 <td align="left" width="63%">
 Modifies a value that indicates whether an object or control has interest in a specified event.
@@ -486,7 +486,7 @@ Modifies a value that indicates whether an object or control has interest in a s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus</a>
 </td>
 <td align="left" width="63%">
 Modifies the interest of the object or control in a known gesture.
@@ -495,16 +495,16 @@ Modifies the interest of the object or control in a known gesture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode">SetSingleTabletIntegratedMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode">SetSingleTabletIntegratedMode</a>
 </td>
 <td align="left" width="63%">
-Allows the ink collector (<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
+Allows the ink collector (<a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle</a>
 </td>
 <td align="left" width="63%">
 Modifies the window rectangle, in pixels, within which ink is drawn.
@@ -522,7 +522,7 @@ Modifies the window rectangle, in pixels, within which ink is drawn.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw">AutoRedraw</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw">AutoRedraw</a>
 
 
 </td>
@@ -538,7 +538,7 @@ Gets or sets a value that specifies whether an ink collectcor  repaints the ink 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor">BackColor</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor">BackColor</a>
 
 
 </td>
@@ -547,14 +547,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the background color for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the background color for the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk</a>
 
 
 </td>
@@ -563,14 +563,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a value that specifies whether ink is currently being drawn on an ink collector (<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>).
+Gets a value that specifies whether ink is currently being drawn on an ink collector (<a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode">CollectionMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode">CollectionMode</a>
 
 
 </td>
@@ -586,7 +586,7 @@ Gets or sets the collection mode that determines whether ink, gestures, or both 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors">Cursors</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors">Cursors</a>
 
 
 </td>
@@ -602,7 +602,7 @@ Gets the collection of cursors that are available for use in the inking region. 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)">CustomStrokes</a>
+<a href="/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)">CustomStrokes</a>
 
 
 </td>
@@ -611,14 +611,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection to be persisted with the ink.
+Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection to be persisted with the ink.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes">DefaultDrawingAttributes</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes">DefaultDrawingAttributes</a>
 
 
 </td>
@@ -634,7 +634,7 @@ Gets or sets the default drawing attributes to use when drawing and displaying i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription">DesiredPacketDescription</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription">DesiredPacketDescription</a>
 
 
 </td>
@@ -643,14 +643,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the desired packet description of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>.
+Gets or sets the desired packet description of the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering">DynamicRendering</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering">DynamicRendering</a>
 
 
 </td>
@@ -666,7 +666,7 @@ Gets or sets the value that specifies whether ink is rendered as it is drawn.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a>
 
 
 </td>
@@ -675,14 +675,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.
+Gets or sets a value that specifies whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled">Enabled</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled">Enabled</a>
 
 
 </td>
@@ -691,14 +691,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that determines whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control can respond to user-generated events.
+Gets or sets a value that determines whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control can respond to user-generated events.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode</a>
 
 
 </td>
@@ -714,7 +714,7 @@ Gets or sets a value that specifies whether ink is erased by stroke or by point.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth</a>
 
 
 </td>
@@ -730,7 +730,7 @@ Gets or sets a value that specifies the width of the eraser pen tip.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd">hWnd</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd">hWnd</a>
 
 
 </td>
@@ -746,7 +746,7 @@ Gets or sets the handle value of the window on which ink is drawn.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink">Ink</a>
 
 
 </td>
@@ -755,14 +755,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that is associated with the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that is associated with the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled</a>
 
 
 </td>
@@ -771,14 +771,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control collects pen input (in-air packets, cursor in range events, and so on).
+Gets or sets a value that specifies whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control collects pen input (in-air packets, cursor in range events, and so on).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx">MarginX</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx">MarginX</a>
 
 
 </td>
@@ -796,7 +796,7 @@ This margin provides a buffer around the edge of the ink window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy">MarginY</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy">MarginY</a>
 
 
 </td>
@@ -814,7 +814,7 @@ This margin provides a buffer around the edge of the ink window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon">MouseIcon</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon">MouseIcon</a>
 
 
 </td>
@@ -830,7 +830,7 @@ Gets or sets the custom mouse icon.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer</a>
 
 
 </td>
@@ -846,7 +846,7 @@ Gets or sets a value that indicates the type of mouse pointer that appears.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture">Picture</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture">Picture</a>
 
 
 </td>
@@ -855,7 +855,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets the graphics file to appear on the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets the graphics file to appear on the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 </td>
@@ -863,7 +863,7 @@ Gets the graphics file to appear on the <a href="https://docs.microsoft.com/wind
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer">Renderer</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer">Renderer</a>
 
 
 </td>
@@ -872,14 +872,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object that is used to draw ink.
+Gets or sets the <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object that is used to draw ink.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection">Selection</a>
 
 
 </td>
@@ -888,14 +888,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a>
 
 
 </td>
@@ -904,7 +904,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets how the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control handles image placement and sizing.
+Gets or sets how the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control handles image placement and sizing.
 
 
 </td>
@@ -912,7 +912,7 @@ Gets or sets how the <a href="https://docs.microsoft.com/windows/desktop/tablet/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink">SupportHighContrastInk</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink">SupportHighContrastInk</a>
 
 
 </td>
@@ -928,7 +928,7 @@ Gets or sets a value that specifies whether ink is rendered as just one color wh
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui">SupportHighContrastSelectionUI</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui">SupportHighContrastSelectionUI</a>
 
 
 </td>
@@ -944,7 +944,7 @@ Gets or sets a value that specifies whether all selection user interface (select
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet">Tablet</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet">Tablet</a>
 
 
 </td>
@@ -953,7 +953,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object to which a cursor belongs or the <b>IInkTablet</b> object that an object or control is currently using to collect input.
+Gets either the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object to which a cursor belongs or the <b>IInkTablet</b> object that an object or control is currently using to collect input.
 
 </td>
 </tr>
@@ -962,4 +962,3 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 ## -see-also
 
 [InkPicture Control](/windows/win32/tablet/inkpicture-control-reference)
-

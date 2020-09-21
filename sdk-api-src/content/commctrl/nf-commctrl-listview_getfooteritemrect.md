@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooteritemrect">LVM_GETFOOTERITEMRECT</a> message explicitly.
+Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getfooteritemrect">LVM_GETFOOTERITEMRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param iItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the item in the list-view control.
 
@@ -71,4 +71,3 @@ The index of the item in the list-view control.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to receive the coordinates. The calling application is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
-

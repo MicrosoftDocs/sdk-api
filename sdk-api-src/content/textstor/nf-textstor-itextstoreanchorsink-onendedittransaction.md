@@ -89,23 +89,22 @@ The reference count of the edit transaction is incorrect.
 
 ## -remarks
 
-This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
+This method causes the <a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
 
-An edit transaction is a group of text changes that should be processed at one time. Calling <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">ITextStoreAnchorSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes.
+An edit transaction is a group of text changes that should be processed at one time. Calling <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">ITextStoreAnchorSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes.
 
 Use of edit transactions is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">ITextStoreAnchorSink::OnStartEditTransaction
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">ITextStoreAnchorSink::OnStartEditTransaction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
+<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
       </a>
-

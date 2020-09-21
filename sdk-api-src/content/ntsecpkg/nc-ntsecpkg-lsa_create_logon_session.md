@@ -53,22 +53,22 @@ api_name:
 Creates logon sessions.
 
 The logon session is identified by a unique logon ID (
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) assigned to the logon session.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) assigned to the logon session.
 
 ## -parameters
 
 ### -param LogonId [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure to be assigned to the new logon session. An authentication package calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid">AllocateLocallyUniqueId</a> in order to generate this ID.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure to be assigned to the new logon session. An authentication package calls 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid">AllocateLocallyUniqueId</a> in order to generate this ID.
 
 ## -returns
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -90,24 +90,23 @@ The specified logon ID is already in use by another logon session.
  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
 ## -remarks
 
 If an authentication package creates extraneous logon sessions while determining whether to authenticate the user, it should delete them by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session">DeleteLogonSession</a>. If the authentication fails, the authentication package should delete all related logon sessions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session">DeleteLogonSession</a>. If the authentication fails, the authentication package should delete all related logon sessions.
 
 Because logon sessions use memory in the kernel, it is important to delete any unused or discarded logon sessions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session">DeleteLogonSession</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session">DeleteLogonSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>

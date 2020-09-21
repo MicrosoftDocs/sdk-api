@@ -62,7 +62,7 @@ The <b>SECURITY_LOGON_TYPE</b> enumeration indicates the type of logon requested
 
 ### -field Interactive
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> is logging on interactively.
+The <a href="/windows/desktop/SecGloss/s-gly">security principal</a> is logging on interactively.
 
 ### -field Network
 
@@ -107,4 +107,3 @@ Same as <b>RemoteInteractive</b>, except used internally for auditing purposes.
 ### -field CachedUnlock
 
 The logon is an attempt to unlock a workstation.
-

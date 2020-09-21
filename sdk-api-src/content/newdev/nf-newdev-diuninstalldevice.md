@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DiUninstallDevice</b> function uninstalls a device and removes its device node (<a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>) from the system. This differs from using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> with the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code because it attempts to uninstall the device node in addition to child devnodes that are present at the time of the call.
+The <b>DiUninstallDevice</b> function uninstalls a device and removes its device node (<a href="/windows-hardware/drivers/">devnode</a>) from the system. This differs from using <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> with the <a href="/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code because it attempts to uninstall the device node in addition to child devnodes that are present at the time of the call.
 
 Prior to Windows 8 any child devices that are not present at the time of the call will not be uninstalled.  However, beginning with Windows 8, any child devices that are not present at the time of the call will be uninstalled.
 
@@ -64,11 +64,11 @@ A handle to the top-level window that is used to display any user interface comp
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element. This element represents the device to be uninstalled through this call.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element. This element represents the device to be uninstalled through this call.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set for which the uninstallation request is performed.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set for which the uninstallation request is performed.
 
 ### -param Flags [in]
 
@@ -86,7 +86,7 @@ For more information about this parameter, see the <b>Remarks</b> section.
 
 ## -returns
 
-<b>DiUninstallDevice</b> returns <b>TRUE</b> if the function successfully uninstalled the top-level device node that represents the device.  Otherwise, <b>DiUninstallDevice</b> returns <b>FALSE</b>, and the logged error can be retrieved by making a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list shows some of the more common error values that <b>GetLastError</b> might return for this API:
+<b>DiUninstallDevice</b> returns <b>TRUE</b> if the function successfully uninstalled the top-level device node that represents the device.  Otherwise, <b>DiUninstallDevice</b> returns <b>FALSE</b>, and the logged error can be retrieved by making a call to <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list shows some of the more common error values that <b>GetLastError</b> might return for this API:
 
 <table>
 <tr>
@@ -118,26 +118,26 @@ The value that is specified for the <i>Flags</i> parameter is not equal to zero.
 </table>
  
 
-<div class="alert"><b>Note</b>  The return value does not indicate that the removal of all child devnodes has succeeded or failed. Starting with Windows Vista, information about the status of the removal of child devnodes  is available in the <i>Setupapi.dev.log</i> file. For more information about this file, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI Text Logs</a>.</div>
+<div class="alert"><b>Note</b>  The return value does not indicate that the removal of all child devnodes has succeeded or failed. Starting with Windows Vista, information about the status of the removal of child devnodes  is available in the <i>Setupapi.dev.log</i> file. For more information about this file, see <a href="/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI Text Logs</a>.</div>
 <div> </div>
 
 ## -remarks
 
-<b>DiUninstallDevice</b> performs the same function as <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> when used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code. The key difference is that child devnodes for the top-level device are also deleted. <b>DiUninstallDevice</b> only returns failure if the top-level device node failed to be uninstalled, which is consistent with the behavior of <b>SetupDiCallClassInstaller</b> when used with the <b>DIF_REMOVE</b> code. Detailed information about whether child devnode uninstallation succeeded is available in the Setupapi.dev.log file.
+<b>DiUninstallDevice</b> performs the same function as <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> when used with the <a href="/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code. The key difference is that child devnodes for the top-level device are also deleted. <b>DiUninstallDevice</b> only returns failure if the top-level device node failed to be uninstalled, which is consistent with the behavior of <b>SetupDiCallClassInstaller</b> when used with the <b>DIF_REMOVE</b> code. Detailed information about whether child devnode uninstallation succeeded is available in the Setupapi.dev.log file.
 
-The device to be uninstalled is specified by providing a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that includes the referenced device, and a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
+The device to be uninstalled is specified by providing a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that includes the referenced device, and a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
 
-To create a device information set that contains the specified device and to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device, complete one of the following tasks:
+To create a device information set that contains the specified device and to obtain an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device, complete one of the following tasks:
 
 <ul>
 <li>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. 
+Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. 
 
-To obtain specific information about the enumerated device, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a> and supply the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>.
+To obtain specific information about the enumerated device, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a> and supply the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that is returned by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>.
 
 </li>
 <li>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a> to add a device with a known device instance ID to the device information set. <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a> returns an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device in the device information set. 
+Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a> to add a device with a known device instance ID to the device information set. <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a> returns an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device in the device information set. 
 
 </li>
 </ul>
@@ -157,40 +157,39 @@ The application requires some other operations to occur before the system can be
 
 </li>
 <li>
-The application is a class installer. In this case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for a device. 
+The application is a class installer. In this case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for a device. 
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a>
+<a href="/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">Device information set</a>
+<a href="/windows-hardware/drivers/install/device-information-sets">Device information set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a>

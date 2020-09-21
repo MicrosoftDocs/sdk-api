@@ -63,7 +63,7 @@ The name of the device. For example, COM1 through COM9 are serial ports and LPT1
 ### -param lpCC [out]
 
 A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a> structure.
+<a href="/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a> structure.
 
 ### -param lpdwSize [in, out]
 
@@ -74,26 +74,25 @@ A pointer to a variable that specifies the size of the buffer pointed to by <i>l
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdefaultcommconfiga">SetDefaultCommConfig</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setdefaultcommconfiga">SetDefaultCommConfig</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winbase.h header defines GetDefaultCommConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -56,15 +56,15 @@ api_name:
 
 ## -description
 
-The <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> function converts a string-format <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> into a valid, functional security descriptor. This function retrieves a security descriptor that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> function converted to string format.
+The <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> function converts a string-format <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> into a valid, functional security descriptor. This function retrieves a security descriptor that the 
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> function converted to string format.
 
 ## -parameters
 
 ### -param StringSecurityDescriptor [in]
 
 A pointer to a null-terminated string containing the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">string-format security descriptor</a> to convert.
+<a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">string-format security descriptor</a> to convert.
 
 ### -param StringSDRevision [in]
 
@@ -72,9 +72,9 @@ Specifies the revision level of the <i>StringSecurityDescriptor</i> string. Curr
 
 ### -param SecurityDescriptor [out]
 
-A pointer to a variable that receives a pointer to the converted security descriptor. The returned security descriptor is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a>. To free the returned buffer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. To convert the security descriptor to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">absolute security descriptor</a>, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a> function.
+A pointer to a variable that receives a pointer to the converted security descriptor. The returned security descriptor is <a href="/windows/desktop/SecGloss/s-gly">self-relative</a>. To free the returned buffer, call the 
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. To convert the security descriptor to an <a href="/windows/desktop/SecGloss/a-gly">absolute security descriptor</a>, use the 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a> function.
 
 ### -param SecurityDescriptorSize [out]
 
@@ -85,7 +85,7 @@ A pointer to a variable that receives the size, in bytes, of the converted secur
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The SDDL revision level is not valid.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in the input security descriptor string could not be found in an account lookup operation.
+A <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in the input security descriptor string could not be found in an account lookup operation.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security i
 ## -remarks
 
 If <b>ace_type</b> is ACCESS_ALLOWED_OBJECT_ACE_TYPE
-and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> specified, then <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> converts <b>ace_type</b> to ACCESS_ALLOWED_ACE_TYPE. For information about the  <b>ace_type</b>,  <b>object_guid</b>, and <b>inherit_object_guid</b> fields, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-strings">Ace Strings</a>.
+and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> specified, then <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> converts <b>ace_type</b> to ACCESS_ALLOWED_ACE_TYPE. For information about the  <b>ace_type</b>,  <b>object_guid</b>, and <b>inherit_object_guid</b> fields, see <a href="/windows/desktop/SecAuthZ/ace-strings">Ace Strings</a>.
 
 
 
@@ -141,29 +141,28 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>

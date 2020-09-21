@@ -58,14 +58,14 @@ The <b>RenameElement</b> method renames the specified substorage or stream in th
 
 Pointer to a wide character null-terminated Unicode string that contains the name of the substorage or stream to be changed.
 
-<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
+<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
 <div> </div>
 
 ### -param pwcsNewName [in]
 
 Pointer to a wide character null-terminated unicode string that contains the new name for the specified substorage or stream.
 
-<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
+<div class="alert"><b>Note</b>  The <i>pwcsName</i>, created in <a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">CreateStorage</a> or <a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstream">CreateStream</a> must not exceed 31 characters in length, not including the string terminator.</div>
 <div> </div>
 
 ## -returns
@@ -80,5 +80,4 @@ The <b>IStorage::RenameElement</b> method is not guaranteed to work in low memor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
-
+<a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>

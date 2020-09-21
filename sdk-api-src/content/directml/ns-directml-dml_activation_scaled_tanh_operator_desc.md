@@ -70,17 +70,16 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field Alpha
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of alpha.
 
 ### -field Beta
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of alpha.
 
 ## -see-also
 
 [DML_ACTIVATION_TANH_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_activation_tanh_operator_desc)
-

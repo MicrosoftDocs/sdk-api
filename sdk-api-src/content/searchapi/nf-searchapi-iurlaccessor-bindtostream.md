@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Binds the item being processed to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+Binds the item being processed to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Binds the item being processed to an <a href="https://docs.microsoft.com/windows
 
 Type: <b>IStream**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that contains the item represented by the URL.
+Receives the address of a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that contains the item represented by the URL.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
- Using the information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a>, <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
-
+ Using the information returned by the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object is created and passed to this stream by the IPersistStream interface.

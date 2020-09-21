@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">resource common property</a> to specify the action 
-    to be taken by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">cluster service</a> if the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-failure">resource fails</a>.
+Used by the <a href="/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a> <a href="/previous-versions/windows/desktop/mscs/resource-common-properties">resource common property</a> to specify the action 
+    to be taken by the <a href="/previous-versions/windows/desktop/mscs/cluster-service">cluster service</a> if the 
+    <a href="/previous-versions/windows/desktop/mscs/resource-failure">resource fails</a>.
 
 ## -enum-fields
 
@@ -64,10 +64,10 @@ Do not restart the resource after a failure.
 ### -field ClusterResourceRestartNoNotify
 
 Restart the resource after a failure. If the resource exceeds its restart threshold within its restart 
-       period, do not attempt to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">failover</a> the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> to another 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+       period, do not attempt to <a href="/previous-versions/windows/desktop/mscs/failover">failover</a> the 
+       <a href="/previous-versions/windows/desktop/mscs/groups">group</a> to another 
+       <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> in the 
+       <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -field ClusterResourceRestartNotify
 
@@ -77,18 +77,17 @@ Restart the resource after a failure. If the resource exceeds its restart thresh
 ### -field ClusterResourceRestartActionCount
 
 Defines the maximum value of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_restart_action">CLUSTER_RESOURCE_RESTART_ACTION</a> enumeration.  It is not a valid value for the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a> property.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_restart_action">CLUSTER_RESOURCE_RESTART_ACTION</a> enumeration.  It is not a valid value for the 
+       <a href="/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a>
+<a href="/previous-versions/windows/desktop/mscs/resources-restartaction">RestartAction</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">resource common property</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-common-properties">resource common property</a>

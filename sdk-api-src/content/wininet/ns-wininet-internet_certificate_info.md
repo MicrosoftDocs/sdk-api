@@ -53,37 +53,37 @@ api_name:
 ## -description
 
 Contains certificate information returned from the server. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> function.
 
 ## -struct-fields
 
 ### -field ftExpiry
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate expires.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate expires.
 
 ### -field ftStart
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate becomes valid.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate becomes valid.
 
 ### -field lpszSubjectInfo
 
-Pointer to a buffer that contains the name of the organization, site, and server for which the certificate was issued. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
+Pointer to a buffer that contains the name of the organization, site, and server for which the certificate was issued. The application must call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
 
 ### -field lpszIssuerInfo
 
-Pointer to a buffer that contains the name of the organization, site, and server that issued the certificate. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
+Pointer to a buffer that contains the name of the organization, site, and server that issued the certificate. The application must call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
 
 ### -field lpszProtocolName
 
-Pointer to a buffer that contains the name of the protocol used to provide the secure connection. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
+Pointer to a buffer that contains the name of the protocol used to provide the secure connection. The application must call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
 
 ### -field lpszSignatureAlgName
 
-Pointer to a buffer that contains the name of the algorithm used for signing the certificate. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
+Pointer to a buffer that contains the name of the algorithm used for signing the certificate. The application must call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
 
 ### -field lpszEncryptionAlgName
 
-Pointer to a buffer that contains the name of the algorithm used for doing encryption over the secure channel (SSL/PCT) connection. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
+Pointer to a buffer that contains the name of the algorithm used for doing encryption over the secure channel (SSL/PCT) connection. The application must call <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the resources allocated for this parameter.
 
 ### -field dwKeySize
 
@@ -95,10 +95,9 @@ Despite what the header indicates, the implementation of <b>INTERNET_CERTIFICATE
 
 Applications requesting this information must free pointers that are allocated and placed in the returned structure.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>

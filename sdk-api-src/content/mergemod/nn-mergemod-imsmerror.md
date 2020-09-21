@@ -61,7 +61,7 @@ The <b>IMsmError</b> interface retrieves details about a single merge error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMsmError</b> interface has these methods.
 <td align="left" width="37%"><b>get_DatabaseKeys</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasekeys">DatabaseKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. 
+<a href="/windows/desktop/Msi/error-databasekeys">DatabaseKeys</a> property of the <a href="/windows/desktop/Msi/error-object">Error</a> object. 
 
 </td>
 </tr>
@@ -86,8 +86,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_DatabaseTable</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -95,8 +95,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Language</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Retrieves the
 <td align="left" width="37%"><b>get_ModuleKeys</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-modulekeys">ModuleKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/error-modulekeys">ModuleKeys</a> property of the <a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -112,8 +112,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_ModuleTable</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -121,8 +121,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Path</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-path">Path</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/error-path">Path</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -130,8 +130,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Type</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-type">Type</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
+<a href="/windows/desktop/Msi/error-type">Type</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -139,9 +139,8 @@ Retrieves the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
+The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Return a nonzero value (<b>TRUE</b>) if this function processes the message. Ret
 
 ## -remarks
 
-For information about hooks, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>.
+For information about hooks, see <a href="/windows/desktop/winmsg/hooks">Hooks</a>.
 
 ## -see-also
 
@@ -84,5 +84,4 @@ For information about hooks, see <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
-
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>

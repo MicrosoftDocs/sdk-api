@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
+     <a href="/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
      name prefix "MI_Serializer_" to manipulate these structures.
 
 ## -struct-fields
@@ -65,17 +65,16 @@ TBD
 ### -field Close
 
 Closes a serializer object and frees any internal memory associated with it. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_close">MI_Serializer_Close</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_close">MI_Serializer_Close</a>.
 
 ### -field SerializeClass
 
-Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format 
+Serializes an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format 
        specified when it was created. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 ### -field SerializeInstance
 
-Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
+Serializes an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
        format specified when the serializer was created. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
-
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.

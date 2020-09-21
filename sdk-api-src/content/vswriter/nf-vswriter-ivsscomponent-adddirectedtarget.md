@@ -57,7 +57,7 @@ The
 This method can be called by a writer only during a restore operation.
 
 This method cannot be called while handling a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or <a href="/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
 
 ## -parameters
 
@@ -144,7 +144,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-This method was not called by a writer or, if called by a writer, it either was not called during a restore operation or was called while handling a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupComplete</a> or <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event.
+This method was not called by a writer or, if called by a writer, it either was not called during a restore operation or was called while handling a <a href="/windows/desktop/VSS/vssgloss-b">BackupComplete</a> or <a href="/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event.
 
 </td>
 </tr>
@@ -169,20 +169,19 @@ The number of entries and their sizes must match in the source and destination r
 <b>AddDirectedTarget</b> can use as its source file any file already managed by the component or one of its subcomponents if the component defines a component set.
 
 Partial files may be added as directed targets, if the partial file ranges to be backed up match the directed target source ranges (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>). This will allow you to remap partial files at restore time.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>). This will allow you to remap partial files at restore time.
 
 In this case, the requester retrieves the directed target information by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a> method and uses that to implement the remapping of the backed-up data during restore.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a> method and uses that to implement the remapping of the backed-up data during restore.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>

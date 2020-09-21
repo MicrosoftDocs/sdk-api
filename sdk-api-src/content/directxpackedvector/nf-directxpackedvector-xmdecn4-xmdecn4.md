@@ -53,7 +53,7 @@ api_name:
 Default constructor for <code>XMDECN4</code>.
     
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4
+Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4
 	</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -71,9 +71,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdecn4-ctor">XMDECN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmdecn4-ctor">XMDECN4 Constructors</a>

@@ -69,8 +69,8 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 <pre class="syntax" xml:space="preserve"><code>// always written
 &lt;element&gt;123&lt;/element&gt;</code></pre>
 This option is not supported for pointer types
-                    (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
-                    The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
+                    (<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
+                    The <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
 
 ### -field WS_WRITE_REQUIRED_POINTER
 
@@ -88,7 +88,7 @@ Api(..., &amp;valuePointer, sizeof(valuePointer), ...);</code></pre>
 &lt;element&gt;123&lt;/element&gt;</code></pre>
 If the pointer to the value specified in the storage is <b>NULL</b>, 
                     <b>E_INVALIDARG</b> is returned.
-                (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+                (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ### -field WS_WRITE_NILLABLE_VALUE
 
@@ -113,13 +113,13 @@ This option is only supported for the following types, listed below,
                     for each type for information on how nil is represented.
                     <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BYTES_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BYTES_TYPE</a>
 </li>
 </ul>
 
@@ -142,4 +142,3 @@ Api(..., &amp;valuePointer, sizeof(valuePointer), ...);
 
 // if value is NULL
 &lt;element xsi:nil='true'/&gt;</code></pre>
-

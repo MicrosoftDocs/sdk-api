@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates which values in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure should be set during calls to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a>.
+Indicates which values in the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure should be set during calls to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a>.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ The <b>wszName</b> member is specified.
 ### -field CM_MASK_STATE
 
 The <b>dwState</b> member is specified.
-

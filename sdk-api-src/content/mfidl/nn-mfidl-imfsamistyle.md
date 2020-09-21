@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>.
+Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSAMIStyle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSAMIStyle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSAMIStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getselectedstyle">GetSelectedStyle</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getselectedstyle">GetSelectedStyle</a>
 </td>
 <td align="left" width="63%">
 Gets the current style from the SAMI media source.
@@ -80,7 +80,7 @@ Gets the current style from the SAMI media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstylecount">GetStyleCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstylecount">GetStyleCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of styles defined in the SAMI file.
@@ -90,7 +90,7 @@ Gets the number of styles defined in the SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">GetStyles</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">GetStyles</a>
 </td>
 <td align="left" width="63%">
 Gets a list of the style names defined in the SAMI file.
@@ -99,7 +99,7 @@ Gets a list of the style names defined in the SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-setselectedstyle">SetSelectedStyle</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-setselectedstyle">SetSelectedStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the current style on the SAMI media source.
@@ -111,13 +111,12 @@ Sets the current style on the SAMI media source.
 
 ## -remarks
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is <b>MF_SAMI_SERVICE</b>. Call <b>GetService</b> either directly on the SAMI media source, or on the Media Session (if you are using the SAMI source with the Media Session).
+To get a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is <b>MF_SAMI_SERVICE</b>. Call <b>GetService</b> either directly on the SAMI media source, or on the Media Session (if you are using the SAMI source with the Media Session).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>
-
+<a href="/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>

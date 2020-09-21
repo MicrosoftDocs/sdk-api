@@ -84,13 +84,12 @@ If either an overflow occurred or <i>nDenominator</i> was 0, the return value is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int32x32to64">Int32x32To64</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-int32x32to64">Int32x32To64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
+<a href="/windows/desktop/WinProg/large-integers">Large Integers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-uint32x32to64">UInt32x32To64</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-uint32x32to64">UInt32x32To64</a>

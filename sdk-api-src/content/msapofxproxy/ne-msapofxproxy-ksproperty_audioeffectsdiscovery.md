@@ -56,13 +56,12 @@ The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used
 
 ### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
 
-Specifies the ID of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
+Specifies the ID of the <a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
+<a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-audioeffectsdiscovery">KSPROPSETID_AudioEffectsDiscovery</a>
-
+<a href="/windows-hardware/drivers/audio/kspropsetid-audioeffectsdiscovery">KSPROPSETID_AudioEffectsDiscovery</a>

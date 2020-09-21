@@ -52,11 +52,11 @@ api_name:
 
 The <b>IOleDocumentView</b> interface enables a container to communicate with each view supported by a document object.
 
-A document object that supports multiple views of its data represents each view as a separate object. Each document view object implements <b>IOleDocumentView</b>, along with <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>, and optional interfaces such as <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>. A document object that supports only a single view does not require that view to be implemented as a separate object. Instead, both document and view can be implemented as a single class.
+A document object that supports multiple views of its data represents each view as a separate object. Each document view object implements <b>IOleDocumentView</b>, along with <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>, <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>, and optional interfaces such as <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a> and <a href="/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>. A document object that supports only a single view does not require that view to be implemented as a separate object. Instead, both document and view can be implemented as a single class.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocumentView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocumentView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IOleDocumentView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">ApplyViewState</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">ApplyViewState</a>
 </td>
 <td align="left" width="63%">
-Initializes a view with view state previously saved in call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
+Initializes a view with view state previously saved in call to <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-clone">Clone</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate view object.
@@ -89,25 +89,25 @@ Creates a duplicate view object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-closeview">CloseView</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-closeview">CloseView</a>
 </td>
 <td align="left" width="63%">
-Instructs a view to close itself and releases its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
+Instructs a view to close itself and releases its <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getdocument">GetDocument</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getdocument">GetDocument</a>
 </td>
 <td align="left" width="63%">
-Obtains the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of the document object that owns this view.
+Obtains the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of the document object that owns this view.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getinplacesite">GetInPlaceSite</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getinplacesite">GetInPlaceSite</a>
 </td>
 <td align="left" width="63%">
 Retrieves the view site associated with this view object.
@@ -116,7 +116,7 @@ Retrieves the view site associated with this view object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getrect">GetRect</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-getrect">GetRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
@@ -125,7 +125,7 @@ Retrieves the rectangular coordinates of the viewport in which the view is or wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">Open</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">Open</a>
 </td>
 <td align="left" width="63%">
 Displays a document view in a separate pop-up window.
@@ -134,7 +134,7 @@ Displays a document view in a separate pop-up window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">SaveViewState</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">SaveViewState</a>
 </td>
 <td align="left" width="63%">
 Saves the view state into the specified stream.
@@ -143,7 +143,7 @@ Saves the view state into the specified stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a>
 </td>
 <td align="left" width="63%">
 Associates a container's document view site with a document's  view object.
@@ -152,7 +152,7 @@ Associates a container's document view site with a document's  view object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrect">SetRect</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrect">SetRect</a>
 </td>
 <td align="left" width="63%">
 Sets the rectangular coordinates of the viewport in which the view is to be activated.
@@ -161,7 +161,7 @@ Sets the rectangular coordinates of the viewport in which the view is to be acti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">SetRectComplex</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">SetRectComplex</a>
 </td>
 <td align="left" width="63%">
 Sets the rectangular coordinates of the viewport, scroll bars, and size box.
@@ -170,7 +170,7 @@ Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">Show</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">Show</a>
 </td>
 <td align="left" width="63%">
 Activates or deactivates a view.
@@ -179,7 +179,7 @@ Activates or deactivates a view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">UIActivate</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">UIActivate</a>
 </td>
 <td align="left" width="63%">
 Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.
@@ -187,4 +187,3 @@ Activates or deactivates a document view's user interface elements, such as menu
 </td>
 </tr>
 </table>
-

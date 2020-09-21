@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Creates a trigger for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Creates a trigger for the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A pointer to the returned trigger index value of the new trigger. The trigger in
 ### -param ppTrigger [out]
 
 A pointer to a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a> interface. Currently, the only supported work items are <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">tasks</a>.
+<a href="/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a> interface. Currently, the only supported work items are <a href="/windows/desktop/TaskSchd/t">tasks</a>.
 
 ## -returns
 
@@ -115,43 +115,42 @@ Not enough memory is available.
 You use the trigger index returned by <i>piNewTrigger</i> when you are either retrieving or  deleting triggers. However, the trigger index is not an identifier. It indicates only the new trigger's position relative to the other current triggers associated with the work item.
 
 To set the criteria for the new trigger, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>.
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>.
 
 After creating a new trigger for a work item, applications must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method to save the new trigger to disk.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method to save the new trigger to disk.
 
 
 #### Examples
 
-For an example of how to set the trigger criteria when creating a new trigger, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
+For an example of how to set the trigger criteria when creating a new trigger, see <a href="/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-deletetrigger">IScheduledWorkItem::DeleteTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-deletetrigger">IScheduledWorkItem::DeleteTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">IScheduledWorkItem::GetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">IScheduledWorkItem::GetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettriggerstring">IScheduledWorkItem::GetTriggerString</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettriggerstring">IScheduledWorkItem::GetTriggerString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>

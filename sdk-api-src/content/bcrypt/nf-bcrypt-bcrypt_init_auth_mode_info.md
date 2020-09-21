@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a> functions.
+The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a> and <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a> functions.
 
 ## -parameters
 
 ### -param _AUTH_INFO_STRUCT_
 
 The BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure to initialize.
-

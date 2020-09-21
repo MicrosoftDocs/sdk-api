@@ -58,13 +58,13 @@ The
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>. Store the name of the object in a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> in this <b>VARIANT</b>.
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>. Store the name of the object in a 
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> in this <b>VARIANT</b>.
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the object.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the object.
 
 ## -returns
 
@@ -80,21 +80,20 @@ Neither of the parameters can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection">Retrieving an Object from a Collection</a>
+<a href="/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection">Retrieving an Object from a Collection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Converts an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with <b>int32_t</b> components to an
+Converts an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with <b>int32_t</b> components to an
   <b>XMVECTOR</b> with <b>float</b> components and applies a uniform bias.
 
 ## -parameters
@@ -75,13 +75,12 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorfloattoint">XMConvertVectorFloatToInt</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectorfloattoint">XMConvertVectorFloatToInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a>

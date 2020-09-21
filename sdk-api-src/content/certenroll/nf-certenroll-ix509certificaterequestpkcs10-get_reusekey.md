@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-If you initialized the request object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a> method, you specified a value for the <i>InheritOptions</i> parameter that indicated whether the private key used to sign the request was inherited from the certificate. If you specified <b>InheritPrivateKey</b> for this parameter, the <b>ReuseKey</b> property returns a value of Boolean true.
+If you initialized the request object by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a> method, you specified a value for the <i>InheritOptions</i> parameter that indicated whether the private key used to sign the request was inherited from the certificate. If you specified <b>InheritPrivateKey</b> for this parameter, the <b>ReuseKey</b> property returns a value of Boolean true.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

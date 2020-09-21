@@ -68,13 +68,12 @@ Specifies enumeration flags. See the <a href="/windows/win32/api/shobjidl_core/n
 
 ### -param ppEnumIDList [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>**</b>
 
-When this method returns, contains an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> interface pointer.
+When this method returns, contains an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a> interface pointer.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

@@ -65,7 +65,7 @@ This method can return one of these values.
 ## -remarks
 
 <b>IStream::SetSize</b> changes the size of the stream object. Call this method to preallocate space for the stream. If the <i>libNewSize</i> parameter is larger than the current stream size, the stream is extended to the indicated size by filling the intervening space with bytes of undefined value. This operation is similar to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method if the seek pointer is past the current end of the stream.
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method if the seek pointer is past the current end of the stream.
 
 If the <i>libNewSize</i> parameter is smaller than the current stream, the stream is truncated to the indicated size.
 
@@ -75,13 +75,12 @@ Calling <b>IStream::SetSize</b> can be an effective way to obtain a large chunk 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
-
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>

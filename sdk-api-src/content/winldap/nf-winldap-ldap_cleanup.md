@@ -72,11 +72,10 @@ This parameter is ignored.
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+       <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
 <div class="alert"><b>Warning</b>  The <b>ldap_cleanup</b> function may cause 
     unpredictable behavior at the DLL unload time.  Use is not recommended and is at your own risk.</div>
 <div> </div>
-

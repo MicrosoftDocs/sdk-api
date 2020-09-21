@@ -64,7 +64,7 @@ The decode height of the bitstream to be decoded.
 
 ### -field Format
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the bitstream to be decoded.
+A [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the bitstream to be decoded.
 
 ### -field FrameRate
 
@@ -86,4 +86,3 @@ The *BitRate* and *FrameRate* parameters may be used by drivers to inform heuris
 The *BitRate* and *FrameRate* parameters may also be set to zero.  Drivers make worst-case assumptions when these values are used which may result in higher memory consumption with some adapters.
 
 ## -see-also
-

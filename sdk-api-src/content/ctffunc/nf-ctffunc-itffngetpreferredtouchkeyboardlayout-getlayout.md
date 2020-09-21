@@ -150,5 +150,4 @@ There is no way to request support for other layouts, or to add new touch optimi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout">ITfFnGetPreferredTouchKeyboardLayout</a>
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout">ITfFnGetPreferredTouchKeyboardLayout</a>

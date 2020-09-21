@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a selected index in a string collection.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a selected index in a string collection.
 
 ## -parameters
 
@@ -62,21 +62,20 @@ The index of the string to retrieve. The default value is 1.
 
 ### -param ppRange [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
 
 The object to receive the range.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The first string corresponds to Index = 1 and the last to Count which is given by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstrings-getcount">ITextStrings_GetCount</a>.
+The first string corresponds to Index = 1 and the last to Count which is given by <a href="/windows/desktop/api/tom/nf-tom-itextstrings-getcount">ITextStrings_GetCount</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>

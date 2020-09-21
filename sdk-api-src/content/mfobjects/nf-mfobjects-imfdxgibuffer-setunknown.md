@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Stores an arbitrary <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer in the media buffer object.
+Stores an arbitrary <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer in the media buffer object.
 
 ## -parameters
 
 ### -param guid [in]
 
-The identifier for the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer. This identifier is used as a key to retrieve the value. It can be any <b>GUID</b> value.
+The identifier for the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer. This identifier is used as a key to retrieve the value. It can be any <b>GUID</b> value.
 
 ### -param pUnkData [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. Set this parameter to <b>NULL</b> to clear a pointer that was previously set.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. Set this parameter to <b>NULL</b> to clear a pointer that was previously set.
 
 ## -returns
 
@@ -97,13 +97,12 @@ An item already exists with this key.
 
 ## -remarks
 
-To retrieve the pointer from the object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>.
+To retrieve the pointer from the object, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>
-
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>

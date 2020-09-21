@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains process mitigation policy settings for data execution prevention (DEP). The <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
+Contains process mitigation policy settings for data execution prevention (DEP). The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
 
 ## -struct-fields
 
@@ -90,4 +90,3 @@ DEP is enabled for the process if this flag is set.
 #### - ReservedFlags : 30
 
 This member is reserved for system use.
-

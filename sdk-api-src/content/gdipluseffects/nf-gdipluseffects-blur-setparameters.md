@@ -51,35 +51,34 @@ api_name:
 
 ## -description
 
-The <b>Blur::SetParameters</b> method sets the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.
+The <b>Blur::SetParameters</b> method sets the parameters of this <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.
 
 ## -parameters
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a> structure that specifies the parameters.
+Pointer to a <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a> structure that specifies the parameters.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-getparameters">Blur::GetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-getparameters">Blur::GetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>

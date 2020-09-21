@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 Determines if a value is the default value. This callback is used  before a value that is handled
-                by a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
+                by a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
-                when <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                when <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
 ## -parameters
 
 ### -param *descriptionData [in]
 
-This is the value of the descriptionData field from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
+This is the value of the descriptionData field from <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
                     The callback can use this to access any additional information about the type.
 
 ### -param *value
@@ -96,4 +96,3 @@ Specifies where additional error information should be stored if the function fa
 ## -returns
 
 This callback function does not return a value.
-

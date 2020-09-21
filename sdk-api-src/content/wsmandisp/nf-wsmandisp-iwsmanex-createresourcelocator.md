@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> object that can be used instead of a resource URI in <a href="https://docs.microsoft.com/windows/desktop/WinRM/session">Session</a> object operations such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">IWSManSession.Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">IWSManSession.Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Session.Enumerate</a>.
+Creates a <a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> object that can be used instead of a resource URI in <a href="/windows/desktop/WinRM/session">Session</a> object operations such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">IWSManSession.Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">IWSManSession.Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Session.Enumerate</a>.
 
 ## -parameters
 
 ### -param strResourceLocator [in]
 
-The resource URI for the resource. For more information about URI strings, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/resource-uris">Resource URIs</a>.
+The resource URI for the resource. For more information about URI strings, see <a href="/windows/desktop/WinRM/resource-uris">Resource URIs</a>.
 
 ### -param newResourceLocator [out]
 
-A pointer to a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>.
+A pointer to a new instance of <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>.
 
 ## -returns
 
@@ -68,17 +68,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If the <b>FragmentDialect</b> property is not specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object, the default is the XPath 1.0 specification. For more information, see <a href="https://www.w3.org/TR/xpath">http://www.w3.org/TR/xpath</a>.
+If the <b>FragmentDialect</b> property is not specified in the <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object, the default is the XPath 1.0 specification. For more information, see <a href="https://www.w3.org/TR/xpath">http://www.w3.org/TR/xpath</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman">WSMan</a>
+<a href="/windows/desktop/WinRM/wsman">WSMan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-
+<a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>

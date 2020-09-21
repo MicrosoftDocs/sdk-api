@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows for the parallel computation of multiple hash operations. This multi-hash state is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a> function. The multi-hash state can be thought of as an array of hash objects, each of which is equivalent to one created by <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>.
+The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows for the parallel computation of multiple hash operations. This multi-hash state is used by the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a> function. The multi-hash state can be thought of as an array of hash objects, each of which is equivalent to one created by <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>.
 
  Parallel computations can greatly increase overall throughput, at the expense of increased latency for individual computations.
 
@@ -61,11 +61,11 @@ The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows
 
 ### -param hAlgorithm [in, out]
 
-The algorithm handle used for all of the hash states in the multi-hash array. The algorithm handle must have been opened with the <b>BCYRPT_MULTI_FLAG</b> passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function. Alternatively, the caller can use the pseudo-handles.
+The algorithm handle used for all of the hash states in the multi-hash array. The algorithm handle must have been opened with the <b>BCYRPT_MULTI_FLAG</b> passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function. Alternatively, the caller can use the pseudo-handles.
 
 ### -param phHash [out]
 
-A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a> function.
+A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a> function.
 
 ### -param nHashes [in]
 
@@ -75,7 +75,7 @@ The number of elements in the array. The multi-hash state that this function cre
 
 A pointer to a buffer that receives the multi-hash state. 
 
-The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
+The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
 
 If <i>pbHashObject</i> is <b>NULL</b> and <i>cbHashObject</i> has a value of zero (0), the object buffer is automatically allocated.
 
@@ -85,7 +85,7 @@ The size of the <i>pbHashObject</i> buffer, or zero if <i>pbHashObject</i> is <b
 
 ### -param pbSecret [in]
 
-A pointer to a buffer that contains the key to use for the hash or MAC. The <i>cbSecret</i> parameter contains the size of this buffer. This key only applies to hash algorithms opened by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function by using the <b>BCRYPT_ALG_HANDLE_HMAC</b> flag.  Otherwise, set this parameter to <b>NULL</b>. 
+A pointer to a buffer that contains the key to use for the hash or MAC. The <i>cbSecret</i> parameter contains the size of this buffer. This key only applies to hash algorithms opened by the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function by using the <b>BCRYPT_ALG_HANDLE_HMAC</b> flag.  Otherwise, set this parameter to <b>NULL</b>. 
 
 The same key is used for all elements of the array.
 
@@ -108,7 +108,7 @@ Flags that modify the behavior of the function. This can be zero or the values b
 </dl>
 </td>
 <td width="60%">
-Creates a reusable hashing object. The object can be used for a new hashing operation immediately after calling <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>.
+Creates a reusable hashing object. The object can be used for a new hashing operation immediately after calling <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>. For more information, see <a href="/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>.
 
 </td>
 </tr>
@@ -124,33 +124,32 @@ Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>
-
+<a href="/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets an <b>InstanceHandle</b> representation of an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
+Gets an <b>InstanceHandle</b> representation of an <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
 
 ## -parameters
 
 ### -param pInstance [in]
 
-An instance of the object as an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
+An instance of the object as an <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
 
 ### -param pHandle [out, retval]
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>

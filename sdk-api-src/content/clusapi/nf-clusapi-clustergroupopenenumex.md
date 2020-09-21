@@ -89,5 +89,4 @@ If the operation fails, the function returns <b>NULL</b>.
 
 ## -remarks
 
-The <b>ClusterGroupOpenEnumEx</b> function connects to the cluster service via remote procedure call (RPC) and gathers all of the data to handle the entire enumeration.  After the RPC call completes, the data is maintained locally.  The <b>HGROUPENUMEX</b> handle contains all of the data required to satisfy the enumeration.  Additional calls to <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a>   or <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupgetenumcountex">ClusterGroupGetEnumCountEx</a> do not connect to the cluster.
-
+The <b>ClusterGroupOpenEnumEx</b> function connects to the cluster service via remote procedure call (RPC) and gathers all of the data to handle the entire enumeration.  After the RPC call completes, the data is maintained locally.  The <b>HGROUPENUMEX</b> handle contains all of the data required to satisfy the enumeration.  Additional calls to <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a>   or <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupgetenumcountex">ClusterGroupGetEnumCountEx</a> do not connect to the cluster.

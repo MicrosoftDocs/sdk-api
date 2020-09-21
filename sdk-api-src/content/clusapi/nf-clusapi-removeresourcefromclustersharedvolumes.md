@@ -66,9 +66,8 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <b>RemoveResourceFromClusterSharedVolumes</b> 
-       returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       returns one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addresourcetoclustersharedvolumes">AddResourceToClusterSharedVolumes</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-addresourcetoclustersharedvolumes">AddResourceToClusterSharedVolumes</a>

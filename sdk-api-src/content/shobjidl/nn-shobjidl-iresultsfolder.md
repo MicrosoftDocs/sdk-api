@@ -56,7 +56,7 @@ An <b>IResultsFolder</b> is a folder that can hold items from all over the names
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultsFolder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultsFolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultsFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultsFolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IResultsFolder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-addidlist">AddIDList</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-addidlist">AddIDList</a>
 </td>
 <td align="left" width="63%">
 Inserts a PIDL into a results folder.
@@ -80,7 +80,7 @@ Inserts a PIDL into a results folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-additem">AddItem</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-additem">AddItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to a results folder.
@@ -89,7 +89,7 @@ Adds an item to a results folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeall">RemoveAll</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all items from a results folder.
@@ -98,7 +98,7 @@ Removes all items from a results folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeidlist">RemoveIDList</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeidlist">RemoveIDList</a>
 </td>
 <td align="left" width="63%">
 Removes a PIDL from a results folder.
@@ -107,7 +107,7 @@ Removes a PIDL from a results folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeitem">RemoveItem</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iresultsfolder-removeitem">RemoveItem</a>
 </td>
 <td align="left" width="63%">
 Removes an item from a results folder.
@@ -115,4 +115,3 @@ Removes an item from a results folder.
 </td>
 </tr>
 </table>
-

@@ -69,7 +69,7 @@ The identifier of the interface to retrieve. Specify one of the following values
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
+Retrieve an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-un
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a> pointer.
+Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a> pointer.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfi
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex">IMFVideoSampleAllocatorEx</a> pointer.
+Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex">IMFVideoSampleAllocatorEx</a> pointer.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfi
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a> pointer.
+Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a> pointer.
 
 </td>
 </tr>
@@ -115,9 +115,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function creates an allocator for DXGI video surfaces. The buffers created by this allocator expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a> interface. To create an allocator for Microsoft Direct3D 9 video surfaces, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nc-evr-mfcreatevideosampleallocator">MFCreateVideoSampleAllocator</a>.
+This function creates an allocator for DXGI video surfaces. The buffers created by this allocator expose the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a> interface. To create an allocator for Microsoft Direct3D 9 video surfaces, call <a href="/windows/desktop/api/evr/nc-evr-mfcreatevideosampleallocator">MFCreateVideoSampleAllocator</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

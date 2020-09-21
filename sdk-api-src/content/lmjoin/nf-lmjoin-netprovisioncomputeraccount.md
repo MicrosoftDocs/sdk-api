@@ -119,7 +119,7 @@ This option requires sufficient credentials for this operation (Domain Administr
 <td width="60%">
 Use the default machine account password which is the machine name in lowercase. This is largely to support the older unsecure join model where the pre-created account typically used this default password. 
 
-<div class="alert"><b>Note</b>  Applications should avoid using this option if possible. This option as well as <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> function with dwOptions set to NETSETUP_JOIN_UNSECURE for unsecure join should only be used on earlier versions of Windows. </div>
+<div class="alert"><b>Note</b>  Applications should avoid using this option if possible. This option as well as <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> function with dwOptions set to NETSETUP_JOIN_UNSECURE for unsecure join should only be used on earlier versions of Windows. </div>
 <div> </div>
 </td>
 </tr>
@@ -143,9 +143,9 @@ This option is only valid when the <i>lpDcName</i> parameter is specified. When 
 </dl>
 </td>
 <td width="60%">
-This option retrieves all of the root Certificate Authority certificates on the local machine and adds them to the provisioning package when no certificate template names are provided as part of the provisioning package (the <b>aCertTemplateNames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-netsetup_provisioning_params">NETSETUP_PROVISIONING_PARAMS</a> struct passed in the  <i>pProvisioningParams</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function is NULL).
+This option retrieves all of the root Certificate Authority certificates on the local machine and adds them to the provisioning package when no certificate template names are provided as part of the provisioning package (the <b>aCertTemplateNames</b> member of the <a href="/windows/desktop/api/lmjoin/ns-lmjoin-netsetup_provisioning_params">NETSETUP_PROVISIONING_PARAMS</a> struct passed in the  <i>pProvisioningParams</i> parameter to the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function is NULL).
 
-<div class="alert"><b>Note</b>  This flag is only supported by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function on Windows 8, Windows Server 2012, and later.</div>
+<div class="alert"><b>Note</b>  This flag is only supported by the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function on Windows 8, Windows Server 2012, and later.</div>
 <div> </div>
 </td>
 </tr>
@@ -153,7 +153,7 @@ This option retrieves all of the root Certificate Authority certificates on the 
 
 ### -param pProvisionBinData [out, optional]
 
-An optional pointer that will receive the opaque binary blob of serialized metadata required by <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <b>NetProvisionComputerAccount</b> function completes successfully.  The data is returned as an opaque binary buffer which may be passed to <b>NetRequestOfflineDomainJoin</b> function.  
+An optional pointer that will receive the opaque binary blob of serialized metadata required by <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <b>NetProvisionComputerAccount</b> function completes successfully.  The data is returned as an opaque binary buffer which may be passed to <b>NetRequestOfflineDomainJoin</b> function.  
 
 If this parameter is <b>NULL</b>, then <i>pProvisionTextData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  <i>pProvisionTextData</i> parameter must be <b>NULL</b>.
 
@@ -165,7 +165,7 @@ This parameter must not be <b>NULL</b> if the <i>pProvisionBinData</i> parameter
 
 ### -param pProvisionTextData [out, optional]
 
-An optional pointer that will receive the opaque binary blob of serialized metadata required by <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <b>NetProvisionComputerAccount</b> function completes successfully.  The data is returned in string form for embedding in an unattended setup answer file.  
+An optional pointer that will receive the opaque binary blob of serialized metadata required by <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <b>NetProvisionComputerAccount</b> function completes successfully.  The data is returned in string form for embedding in an unattended setup answer file.  
 
 If this parameter is <b>NULL</b>, then the <i>pProvisionBinData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  the <i>pProvisionBinData</i> parameter must be <b>NULL</b>.
 
@@ -174,7 +174,7 @@ If this parameter is <b>NULL</b>, then the <i>pProvisionBinData</i> parameter mu
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -306,12 +306,12 @@ The remote procedure call protocol sequence is not supported.
 
 ## -remarks
 
-The <b>NetProvisionComputerAccount</b> function is supported on Windows 7 and Windows Server 2008 R2 for offline join operations.  On Windows 8 or Windows Server 2008 R2, it is recommended that the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function be used instead of the <b>NetProvisionComputerAccount</b> function.
+The <b>NetProvisionComputerAccount</b> function is supported on Windows 7 and Windows Server 2008 R2 for offline join operations.  On Windows 8 or Windows Server 2008 R2, it is recommended that the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function be used instead of the <b>NetProvisionComputerAccount</b> function.
 
-The <b>NetProvisionComputerAccount</b> function is used to provision a computer account for later use in an offline domain join operation using the  <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function. The offline domain join scenario uses these functions as follows: <ul>
+The <b>NetProvisionComputerAccount</b> function is used to provision a computer account for later use in an offline domain join operation using the  <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function. The offline domain join scenario uses these functions as follows: <ul>
 <li><b>NetProvisionComputerAccount</b>  is a provisioning function that is first called to perform the network operations necessary to create and configure the computer object in Active Directory. The output from the <b>NetProvisionComputerAccount</b> is an opaque binary blob of serialized metadata used for the next step. </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>, an image initialization function,   is then called to inject the output from the <b>NetProvisionComputerAccount</b> provisioning function into a Windows operating system image to be used during installation.  </li>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>, an image initialization function,   is then called to inject the output from the <b>NetProvisionComputerAccount</b> provisioning function into a Windows operating system image to be used during installation.  </li>
 </ul>Changes to Windows initialization code will detect this saved state and affect the local only portion of domain join. 
 
 The <b>NetProvisionComputerAccount</b> function will create or reuse the machine account in the domain, collect all necessary metadata and return it in an opaque versioned binary blob or as text for embedding in an unattended setup answer file. The opaque binary blob can be consumed by the offline domain join request operation supplying all the necessary input to complete the domain join during first boot without any network operations (local state updates only). 
@@ -324,7 +324,7 @@ The opaque blob returned in the  <i>pProvisionBinData</i> parameter by the <b>Ne
 For offline domain joins, the access check performed depends on the configuration of the domain. Computer account creation is enabled using three methods:<ul>
 <li>Domain administrators have rights to create computer accounts.</li>
 <li>The SD on a container can delegate the rights to create computer accounts.</li>
-<li>By default, authenticated users may create computer accounts by privilege. Authenticated users are limited to creating  a limited number of accounts that is specified as a quota on the domain (the default value is 10). For more information, see the <a href="https://msdn.microsoft.com/library/cc220640.aspx">ms-DS-MachineAccountQuota</a> attribute in the Active Directory schema.</li>
+<li>By default, authenticated users may create computer accounts by privilege. Authenticated users are limited to creating  a limited number of accounts that is specified as a quota on the domain (the default value is 10). For more information, see the <a href="/openspecs/windows_protocols/ms-ada2/6ba13b0c-1620-478c-b2ae-eca041f2e1c4">ms-DS-MachineAccountQuota</a> attribute in the Active Directory schema.</li>
 </ul>
 
 
@@ -332,45 +332,44 @@ The <b>NetProvisionComputerAccount</b> function works only with a writable domai
 
 If the <b>NetProvisionComputerAccount</b> function is successful, the pointer in the <i>pProvisionBinData</i> or <i>pProvisionTextData</i> parameter (depending on which was parameter was not <b>NULL</b>) is returned with the serialized data for use in an offline join operation or as text in an unattended setup file.  
 
-For more information on offline domain join operations, see the <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>.
+For more information on offline domain join operations, see the <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd392267(v=ws.10)">Offline Domain Join Step-by-Step Guide</a>.
 
-Joining (and unjoining) a computer to a domain using <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a> can be performed only by a member of the Administrators local group on the target computer. Note that the domain administrator can set additional requirements for joining the domain using delegation and assignment of privileges.
+Joining (and unjoining) a computer to a domain using <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> and <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a> can be performed only by a member of the Administrators local group on the target computer. Note that the domain administrator can set additional requirements for joining the domain using delegation and assignment of privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetCreateProvisioningPackage</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetCreateProvisioningPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
+<a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd392267(v=ws.10)">Offline Domain Join Step-by-Step Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/cc220640.aspx">ms-DS-MachineAccountQuota</a>
-
+<a href="/openspecs/windows_protocols/ms-ada2/6ba13b0c-1620-478c-b2ae-eca041f2e1c4">ms-DS-MachineAccountQuota</a>

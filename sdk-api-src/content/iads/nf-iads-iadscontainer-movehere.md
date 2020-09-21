@@ -67,14 +67,14 @@ The null-terminated Unicode string that specifies the relative name of the new o
 ### -param ppObject [out]
 
 Pointer to a pointer to the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
+     <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
     object.
 
 ## -returns
 
 This method supports standard return values, including
     <b>S_OK</b>, for a successful operation. For more information about error codes, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+     <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -103,19 +103,19 @@ In Active Directory, you can move an object within the same domain
     error message results.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  When using the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
+     <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
      <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
+     <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
     <b>ADS_USE_DELEGATION</b> flag of the
     <b>ADS_AUTHENTICATION_ENUM</b> in order to make cross-domain moves with
     <b>IADsContainer::MoveHere</b>.</div>
 <div> </div>
 The following code example moves the user, "jeffsmith" from the
     "South.Fabrikam.Com" domain to the "North.Fabrikam.Com" domain. First, it gets
-    an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> pointer to the destination
+    an <a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> pointer to the destination
     container, then the <b>MoveHere</b> call specifies
     the path of the object to move.
 
@@ -245,7 +245,7 @@ Cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
@@ -254,21 +254,20 @@ Cleanup:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">IADsContainer::CopyHere</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">IADsContainer::CopyHere</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

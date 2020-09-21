@@ -91,9 +91,8 @@ The resources indicated by the resource IDs contained in the <b>m_dwIcon</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
+<a href="/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
 
 
 
 <a href="/windows/win32/api/wsbonline/ns-wsbonline-wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
-

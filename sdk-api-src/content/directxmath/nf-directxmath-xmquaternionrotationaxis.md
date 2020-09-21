@@ -72,7 +72,7 @@ The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quate
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
 If <i>Axis</i> is a normalized vector, it is faster to use
-   <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionrotationnormal">XMQuaternionRotationNormal</a>
+   <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionrotationnormal">XMQuaternionRotationNormal</a>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -80,5 +80,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>

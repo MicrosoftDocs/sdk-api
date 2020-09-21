@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the prototype for the compare function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_sort">DSA_Sort</a> when the items being compared are constant objects.
+Defines the prototype for the compare function used by <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_sort">DSA_Sort</a> when the items being compared are constant objects.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ A pointer to the second item in the comparison.
 
 ### -param lParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional data passed to <i>pfnCmp</i>.
 
@@ -76,7 +76,7 @@ Additional data passed to <i>pfnCmp</i>.
 
 Type: <b>int</b>
 
-The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_sort">DSA_Sort</a> are as follows:                
+The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_sort">DSA_Sort</a> are as follows:                
                     
 
 
@@ -98,4 +98,3 @@ The meaning of the return values depends on the function that uses this callback
 ## -remarks
 
 Alternate names for this callback are <b>PFNDPACOMPARECONST</b> and <b>PFNDSACOMPARECONST</b>.
-

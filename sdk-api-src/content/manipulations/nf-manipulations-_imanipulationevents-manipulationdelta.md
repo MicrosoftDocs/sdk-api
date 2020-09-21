@@ -108,11 +108,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 ## -remarks
 
-Manipulation events are generated for both the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interfaces.
-    If you are using the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure in calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove">ProcessMove</a>, the coordinates will be in 
+Manipulation events are generated for both the <a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> and <a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interfaces.
+    If you are using the values from the <a href="/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure in calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove">ProcessMove</a>, the coordinates will be in 
     hundredths of a pixel.
 
-<div class="alert"><b>Note</b>  When using inertia, calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">IInertiaProcessor::Complete</a>can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
+<div class="alert"><b>Note</b>  When using inertia, calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">IInertiaProcessor::Complete</a>can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
 	 To address this issue, perform updates on the completed event in addition to the delta event.
 	 </div>
 <div> </div>
@@ -148,17 +148,16 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/adding-manipulation-support-in-unmanaged-code">Adding Manipulation Support to Unmanaged Code</a>
+<a href="/windows/desktop/wintouch/adding-manipulation-support-in-unmanaged-code">Adding Manipulation Support to Unmanaged Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
+<a href="/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/-imanipulationevents-methods">Methods</a>
+<a href="/windows/desktop/wintouch/-imanipulationevents-methods">Methods</a>
 
 
 
 <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
-

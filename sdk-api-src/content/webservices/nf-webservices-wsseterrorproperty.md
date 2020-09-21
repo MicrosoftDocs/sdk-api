@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object property.
+Sets an <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object property.
 
 ## -parameters
 
 ### -param error [in]
 
-A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
+A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
 
 ### -param id [in]
 
@@ -117,4 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

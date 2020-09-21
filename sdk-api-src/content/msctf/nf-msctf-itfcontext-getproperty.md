@@ -56,11 +56,11 @@ Obtains a text property.
 
 ### -param guidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
 
 ### -param ppProp [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> interface pointer that receives the property object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> interface pointer that receives the property object.
 
 ## -returns
 
@@ -135,4 +135,3 @@ An application or text service can define unique properties identified by a GUID
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfProperty interface](nn-msctf-itfproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)
-

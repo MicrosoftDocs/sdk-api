@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>WBEMTimeSpan</b> class subtract operator (–) subtracts a time span from the object on which the method is executed.  The result is  a new time span that contains the difference in time.
@@ -63,12 +63,11 @@ The <b>WBEMTimeSpan</b> class subtract operator (–) subtracts a time span from
 
 ### -param uSub [ref]
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object, whose time span is subtracted from this time span, producing a new time span.
+Reference to the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object, whose time span is subtracted from this time span, producing a new time span.
 
 ## -returns
 
-This method returns a new <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object with a value equal to the difference in time.
+This method returns a new <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object with a value equal to the difference in time.
 
 <div class="alert"><b>Note</b>  The new time span is set to INVALID_TIME if a negative time span results. Subtracting a time span from an object that contains INVALID_TIME produces a new time span object set to INVALID_TIME.</div>
 <div> </div>
-

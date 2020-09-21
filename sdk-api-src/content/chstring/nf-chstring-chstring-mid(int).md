@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
+The <a href="/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
 <b>CHString</b> string, starting at position <i>nFirst</i> (zero-based). The method returns a copy of the extracted substring.
 
 ## -parameters
@@ -68,11 +68,11 @@ The zero-based index of the first character in this <b>CHString</b> string that 
 
 ## -returns
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object that contains a copy of the specified range of characters. The returned <b>CHString</b> object may be empty.
+Returns a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object that contains a copy of the specified range of characters. The returned <b>CHString</b> object may be empty.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
+The <a href="/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
 
 
 #### Examples
@@ -87,13 +87,12 @@ assert( s.Mid( 2, 3 ) == L"cde" );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
-
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>

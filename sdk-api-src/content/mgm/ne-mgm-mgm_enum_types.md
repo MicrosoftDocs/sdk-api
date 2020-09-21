@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MGM_ENUM_TYPES</b> enumeration lists the types of group enumerations that the multicast group manager uses. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a> function.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a> function.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ Enumerate all source entries for a group.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>

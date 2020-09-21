@@ -58,17 +58,16 @@ The <b>IKE_AUTHENTICATION_INFORMATION</b> structure contains Internet Key Exchan
 
 ### -field AuthMethod
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-ike_authentication_method">IKE_AUTHENTICATION_METHOD</a> structure that indicates the authentication method.
+A <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-ike_authentication_method">IKE_AUTHENTICATION_METHOD</a> structure that indicates the authentication method.
 
 ### -field PsKey
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_preshared_key">IKE_AUTHENTICATION_PRESHARED_KEY</a> structure that contains the preshared key that establishes a secure channel between two key management daemons.
+A <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_preshared_key">IKE_AUTHENTICATION_PRESHARED_KEY</a> structure that contains the preshared key that establishes a secure channel between two key management daemons.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-ike_authentication_method">IKE_AUTHENTICATION_METHOD</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-ike_authentication_method">IKE_AUTHENTICATION_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_preshared_key">IKE_AUTHENTICATION_PRESHARED_KEY</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_preshared_key">IKE_AUTHENTICATION_PRESHARED_KEY</a>

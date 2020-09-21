@@ -79,7 +79,7 @@ This method reads at most <i>cb</i> bytes from the current position in the strea
 This method is synchronous. It blocks until the read operation completes.
       
 
-<b> Implementation notes:</b>This method should update the current position in the stream by adding the number of bytes that were read, which is specified by the value returned in the <i>pcbRead</i> parameter,  to the current position. Other methods that can update the current position are <b>Read</b>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-write">Write</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>. 
+<b> Implementation notes:</b>This method should update the current position in the stream by adding the number of bytes that were read, which is specified by the value returned in the <i>pcbRead</i> parameter,  to the current position. Other methods that can update the current position are <b>Read</b>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-write">Write</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>. 
 
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -91,7 +91,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 #### Examples
 
-The following example reads data from a byte stream into a caller-allocated media buffer. For more information about media buffers, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>. 
+The following example reads data from a byte stream into a caller-allocated media buffer. For more information about media buffers, see <a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>. 
 
 
 ```cpp
@@ -145,7 +145,7 @@ HRESULT ReadFromByteStream(
 The next example is similar, but allocates a new media buffer to hold the data. 
 
 
-<div class="alert"><b>Note</b>  This example uses the <a href="https://docs.microsoft.com/windows/desktop/medfound/saferelease">SafeRelease</a> function to release interface pointers.</div>
+<div class="alert"><b>Note</b>  This example uses the <a href="/windows/desktop/medfound/saferelease">SafeRelease</a> function to release interface pointers.</div>
 <div> </div>
 
 
@@ -211,5 +211,4 @@ HRESULT AllocReadFromByteStream(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>

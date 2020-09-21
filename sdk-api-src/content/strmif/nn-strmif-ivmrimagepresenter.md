@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IVMRImagePresenter</code> interface is implemented by the default Allocator-Presenter for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in Allocator-Presenter that an application provides for the VMR-7. The VMR-7 uses the methods on this interface to inform the Allocator-Presenter that it should present the video frame contained in the supplied Direct Draw surface. Applications do not use this interface.
+The <code>IVMRImagePresenter</code> interface is implemented by the default Allocator-Presenter for the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in Allocator-Presenter that an application provides for the VMR-7. The VMR-7 uses the methods on this interface to inform the Allocator-Presenter that it should present the video frame contained in the supplied Direct Draw surface. Applications do not use this interface.
 
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9</a> interface.
+For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVMRImagePresenter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">PresentImage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">PresentImage</a>
 </td>
 <td align="left" width="63%">
 Called at precisely the moment this video frame should be presented.
@@ -81,7 +81,7 @@ Called at precisely the moment this video frame should be presented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-startpresenting">StartPresenting</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-startpresenting">StartPresenting</a>
 </td>
 <td align="left" width="63%">
 Called just before the video starts playing.
@@ -90,7 +90,7 @@ Called just before the video starts playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-stoppresenting">StopPresenting</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-stoppresenting">StopPresenting</a>
 </td>
 <td align="left" width="63%">
 Called just after the video stops playing.
@@ -101,5 +101,4 @@ Called just after the video stops playing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

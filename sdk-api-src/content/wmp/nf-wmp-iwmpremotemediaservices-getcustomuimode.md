@@ -87,13 +87,12 @@ The embedded Windows Media Player control does not have to be remoted to use thi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices">IWMPRemoteMediaServices Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getscriptableobject">IWMPRemoteMediaServices::GetScriptableObject</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getscriptableobject">IWMPRemoteMediaServices::GetScriptableObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/using-skins-with-the-windows-media-player-control">Using Skins with the Windows Media Player Control</a>
-
+<a href="/windows/desktop/WMP/using-skins-with-the-windows-media-player-control">Using Skins with the Windows Media Player Control</a>

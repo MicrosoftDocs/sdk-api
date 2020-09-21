@@ -64,5 +64,4 @@ If this flag is set, the server will fail any IO operation that violates the fil
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">IFsrmFileScreenBase::FileScreenFlags</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">IFsrmFileScreenBase::FileScreenFlags</a>

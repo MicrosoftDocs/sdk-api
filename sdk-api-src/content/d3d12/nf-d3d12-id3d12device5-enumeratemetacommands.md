@@ -59,9 +59,9 @@ A pointer to a <a href="/windows/desktop/WinProg/windows-data-types">UINT</a> co
 
 ### -param pDescs
 
-Type: [out, optional] **[D3D12_META_COMMAND_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_desc)\***
+Type: [out, optional] **[D3D12_META_COMMAND_DESC](./ns-d3d12-d3d12_meta_command_desc.md)\***
 
-An optional pointer to an array of [D3D12_META_COMMAND_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_meta_command_desc) containing the descriptions of the available meta commands. Pass `nullptr` to have the number of available meta commands returned in <i>pNumMetaCommands</i>.
+An optional pointer to an array of [D3D12_META_COMMAND_DESC](./ns-d3d12-d3d12_meta_command_desc.md) containing the descriptions of the available meta commands. Pass `nullptr` to have the number of available meta commands returned in <i>pNumMetaCommands</i>.
 
 ## -returns
 
@@ -72,4 +72,3 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRESU
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
-

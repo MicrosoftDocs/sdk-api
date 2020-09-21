@@ -124,5 +124,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-registry-layout">Windows 2000 Registry Layout</a>
-
+<a href="/windows/desktop/RRAS/routing-and-remote-access-registry-layout">Windows 2000 Registry Layout</a>

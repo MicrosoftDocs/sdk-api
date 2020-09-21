@@ -61,7 +61,7 @@ Flashes the specified window. It does not change the active state of the window.
 ### -param pfwi [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-flashwinfo">FLASHWINFO</a> structure.
+<a href="/windows/desktop/api/winuser/ns-winuser-flashwinfo">FLASHWINFO</a> structure.
 
 ## -returns
 
@@ -74,13 +74,12 @@ Typically, you flash a window to inform the user that the window requires attent
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-flashwinfo">FLASHWINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-flashwinfo">FLASHWINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
-
+<a href="/windows/desktop/Debug/notifying-the-user">Notifying the User</a>

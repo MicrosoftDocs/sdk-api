@@ -57,29 +57,28 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the system locale.
+Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the system locale.
 
 ## -parameters
 
 ## -returns
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the system locale. This is  the language used when displaying text in programs that do not support Unicode. It is set by the Administrator under <b>Control Panel</b> &gt; <b>Clock, Language, and Region</b> &gt; <b>Change date, time, or number formats</b> &gt; <b>Administrative</b> tab.
+Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the system locale. This is  the language used when displaying text in programs that do not support Unicode. It is set by the Administrator under <b>Control Panel</b> &gt; <b>Clock, Language, and Region</b> &gt; <b>Change date, time, or number formats</b> &gt; <b>Administrative</b> tab.
 
-For more information on language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
+For more information on language identifiers, see <a href="/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlangid">GetUserDefaultLangID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlangid">GetUserDefaultLangID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

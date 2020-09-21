@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization Manager.  For information about Authorization Manager, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/role-based-access-control">Role-based Access Control</a>.
+The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization Manager.  For information about Authorization Manager, see <a href="/windows/desktop/SecAuthZ/role-based-access-control">Role-based Access Control</a>.
 
 ## -enum-fields
 
@@ -251,4 +251,3 @@ The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization
 ### -field AZ_CLIENT_CONTEXT_GET_GROUP_RECURSIVE
 
 ### -field AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY
-

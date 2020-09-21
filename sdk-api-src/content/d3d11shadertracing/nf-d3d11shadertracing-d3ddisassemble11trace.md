@@ -151,5 +151,4 @@ D3DDisassemble11Trace walks the steps of a shader trace and outputs appropriate 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-functions">Shader Functions</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-functions">Shader Functions</a>

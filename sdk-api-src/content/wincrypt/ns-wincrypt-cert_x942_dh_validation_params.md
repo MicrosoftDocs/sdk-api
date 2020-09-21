@@ -54,15 +54,14 @@ api_name:
 
 ## -description
 
-The <b>CERT_X942_DH_VALIDATION_PARAMS</b> structure is optionally pointed to by a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_x942_dh_parameters">CERT_X942_DH_PARAMETERS</a> structure and contains additional seed information.
+The <b>CERT_X942_DH_VALIDATION_PARAMS</b> structure is optionally pointed to by a member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_x942_dh_parameters">CERT_X942_DH_PARAMETERS</a> structure and contains additional seed information.
 
 ## -struct-fields
 
 ### -field seed
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_UINT_BLOB</a> that contains an unsigned seed value.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_UINT_BLOB</a> that contains an unsigned seed value.
 
 ### -field pgenCounter
 
 A <b>DWORD</b> counter.
-

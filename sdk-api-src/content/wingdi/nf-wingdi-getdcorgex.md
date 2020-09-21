@@ -64,7 +64,7 @@ A handle to the DC whose final translation origin is to be retrieved.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the final translation origin, in device coordinates.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the final translation origin, in device coordinates.
 
 ## -returns
 
@@ -78,17 +78,16 @@ The final translation origin is relative to the physical origin of the screen.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
-
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>

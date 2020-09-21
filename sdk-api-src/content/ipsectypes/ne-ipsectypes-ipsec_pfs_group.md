@@ -107,5 +107,4 @@ Maximum value for testing only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>
-
+<a href="/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>

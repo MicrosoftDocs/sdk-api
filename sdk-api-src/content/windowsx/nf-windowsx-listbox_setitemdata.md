@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> message explicitly.
+Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,11 +68,10 @@ The zero-based index of the item.
 
 ### -param data
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The item data to set.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a>.

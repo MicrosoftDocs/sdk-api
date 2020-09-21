@@ -54,8 +54,8 @@ api_name:
 
 Retrieves the value of the 
 <b>SecurityFlags</b> property, which represents the portion of the security descriptor to retrieve or set for a GPO. You can pass the returned value in the <i>ulFlags</i> parameter to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">IGPMGPO::GetSecurityDescriptor</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">IGPMGPO::SetSecurityDescriptor</a> methods.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">IGPMGPO::GetSecurityDescriptor</a> and 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">IGPMGPO::SetSecurityDescriptor</a> methods.
 
 This property is read-only.
 
@@ -63,9 +63,8 @@ This property is read-only.
 
 ## -remarks
 
-For more information about access control lists (ACLs) and the security model for controlling access to objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
+For more information about access control lists (ACLs) and the security model for controlling access to objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptSIPRemoveProvider</b> function removes registry details of a Subject Interface Package (SIP) DLL file  added by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
+The <b>CryptSIPRemoveProvider</b> function removes registry details of a Subject Interface Package (SIP) DLL file  added by a previous call to the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A pointer to the GUID that identifies the SIP DLL  to remove.
 
 ## -returns
 
-The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
+The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If the function fails, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to determine the reason for failure.
 
 ## -remarks
 
@@ -68,5 +68,4 @@ Typically you call this function to unregister an in-process COM server. The <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a>
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a>

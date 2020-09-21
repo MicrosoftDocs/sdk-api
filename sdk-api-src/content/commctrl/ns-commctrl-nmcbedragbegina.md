@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-dragbegin">CBEN_DRAGBEGIN</a> notification code.
+Contains information used with the <a href="/windows/desktop/Controls/cben-dragbegin">CBEN_DRAGBEGIN</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
 
 ### -field iItemid
 
@@ -72,7 +72,7 @@ The zero-based index of the item being dragged. This value will always be -1, in
 
 ### -field szText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
 The character buffer that contains the text of the item being dragged.
 
@@ -80,4 +80,3 @@ The character buffer that contains the text of the item being dragged.
 
 > [!NOTE]
 > The commctrl.h header defines NMCBEDRAGBEGIN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

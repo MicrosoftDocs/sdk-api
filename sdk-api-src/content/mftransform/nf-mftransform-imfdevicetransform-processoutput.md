@@ -64,7 +64,7 @@ Number of elements in the <i>pOutputSamples</i> array. The value must be at leas
 
 ### -param pOutputSample [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
+Pointer to an array of <a href="/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
 
 ### -param pdwStatus [in]
 
@@ -149,15 +149,14 @@ Input media type has not been set.
 
 ## -remarks
 
-In most cases, if the method succeeds, the Media Foundation transform (MFT) stores the sample and holds a reference count on the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> pointer. When the MFT is done using the sample, it must release it to avoid memory leaks.
+In most cases, if the method succeeds, the Media Foundation transform (MFT) stores the sample and holds a reference count on the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> pointer. When the MFT is done using the sample, it must release it to avoid memory leaks.
 
 
 After the device transform manager (DTM) has set valid media types on all of the streams, the MFT should always be able to accept more input and be able to produce more output. 
 
 
-If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. If the MFT drops any data, it should set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-discontinuity-attribute">MFSampleExtension_Discontinuity</a> attribute on the next output sample, to notify the caller that there is a gap in the data stream.
+If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. If the MFT drops any data, it should set the <a href="/windows/desktop/medfound/mfsampleextension-discontinuity-attribute">MFSampleExtension_Discontinuity</a> attribute on the next output sample, to notify the caller that there is a gap in the data stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>

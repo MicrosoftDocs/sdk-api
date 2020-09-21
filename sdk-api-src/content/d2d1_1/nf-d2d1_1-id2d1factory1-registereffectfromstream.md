@@ -68,7 +68,7 @@ A list of the effect properties, types, and metadata.
 
 ### -param bindings [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_property_binding">D2D1_PROPERTY_BINDING</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_property_binding">D2D1_PROPERTY_BINDING</a>*</b>
 
 An array of properties and methods.
 
@@ -77,13 +77,13 @@ This binds a property by name to a particular method implemented by the effect a
 
 ### -param bindingsCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
+Type: <b><a href="/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
 
 The number of bindings in the binding array.
 
 ### -param effectFactory
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nc-d2d1_1-pd2d1_effect_factory">PD2D1_EFFECT_FACTORY</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nc-d2d1_1-pd2d1_effect_factory">PD2D1_EFFECT_FACTORY</a></b>
 
 The static factory that is used to create the corresponding effect.
 
@@ -117,27 +117,26 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -remarks
 
 Direct2D effects must define their properties at registration time via registration XML. An effect declares several required system properties, 
-        and can also declare custom properties. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/custom-effects">Custom effects</a> 
+        and can also declare custom properties. See <a href="/windows/desktop/Direct2D/custom-effects">Custom effects</a> 
         for more information about formatting the <i>propertyXml</i> parameter.
       
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffect</a> is both atomic and reference counted. To unregister an effect, 
-        call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">UnregisterEffect</a> with the  <i>classId</i> of the effect.
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffect</a> is both atomic and reference counted. To unregister an effect, 
+        call <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">UnregisterEffect</a> with the  <i>classId</i> of the effect.
       
 
-<div class="alert"><b>Important</b>  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffect</a> does not hold a reference to the DLL or executable file in which 
+<div class="alert"><b>Important</b>  <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">RegisterEffect</a> does not hold a reference to the DLL or executable file in which 
           the effect is contained. The application must independently  make sure that the lifetime of the DLL or executable file completely contains all instances of each registered and created effect.
         </div>
 <div> </div>
-Aside from the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">built-in effects</a> that are globally registered, this API registers effects only for this factory, derived device, 
+Aside from the <a href="/windows/desktop/Direct2D/built-in-effects">built-in effects</a> that are globally registered, this API registers effects only for this factory, derived device, 
       and device context interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">ID2D1Factory1::UnregisterEffect</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">ID2D1Factory1::UnregisterEffect</a>

@@ -59,9 +59,9 @@ The <b>TransferObjectData</b> method is called to allow the application to trans
 
 Pointer to a buffer containing the data. This buffer is always allocated and freed by Windows Media Device Manager. Your application should never allocate or free this buffer.
 
-<b>BeginRead</b>[in] During a read from device, incoming data that must be decrypted using the <a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a> method. The application does not need to deallocate the buffer.
+<b>BeginRead</b>[in] During a read from device, incoming data that must be decrypted using the <a href="/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a> method. The application does not need to deallocate the buffer.
 
-<b>BeginWrite</b>[in, out] During a write to device, on input is a memory buffer <i>pdwSize</i> bytes long, allocated by Windows Media Device Manager. The application should fill this buffer with data that has been encrypted using the <a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a> method.
+<b>BeginWrite</b>[in, out] During a write to device, on input is a memory buffer <i>pdwSize</i> bytes long, allocated by Windows Media Device Manager. The application should fill this buffer with data that has been encrypted using the <a href="/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a> method.
 
 ### -param pdwSize
 
@@ -125,7 +125,7 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 ## -remarks
 
-The application can determine whether data is being read from or written to the device by monitoring whether <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a> was called just before this method was called.
+The application can determine whether data is being read from or written to the device by monitoring whether <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a> or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a> was called just before this method was called.
 
 
 #### Examples
@@ -245,17 +245,16 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
+<a href="/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

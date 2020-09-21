@@ -70,7 +70,7 @@ The height, in 0.1-millimeter units, of the bitmap.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
 
 ## -returns
 
@@ -80,27 +80,26 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application can retrieve the dimensions assigned to a bitmap with the <b>SetBitmapDimensionEx</b> function by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbitmapdimensionex">GetBitmapDimensionEx</a> function.
+An application can retrieve the dimensions assigned to a bitmap with the <b>SetBitmapDimensionEx</b> function by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getbitmapdimensionex">GetBitmapDimensionEx</a> function.
 
-The bitmap identified by <i>hBitmap</i> cannot be a DIB section, which is a bitmap created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function. If the bitmap is a DIB section, the <b>SetBitmapDimensionEx</b> function fails.
+The bitmap identified by <i>hBitmap</i> cannot be a DIB section, which is a bitmap created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function. If the bitmap is a DIB section, the <b>SetBitmapDimensionEx</b> function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbitmapdimensionex">GetBitmapDimensionEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbitmapdimensionex">GetBitmapDimensionEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
-
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>

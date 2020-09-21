@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Set the width by which a list box can be scrolled horizontally (the scrollable width). If the width of the list box is smaller than this value, the horizontal scroll bar horizontally scrolls items in the list box. If the width of the list box is equal to or greater than this value, the horizontal scroll bar is hidden. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-sethorizontalextent">LB_SETHORIZONTALEXTENT</a> message explicitly.
+Set the width by which a list box can be scrolled horizontally (the scrollable width). If the width of the list box is smaller than this value, the horizontal scroll bar horizontally scrolls items in the list box. If the width of the list box is equal to or greater than this value, the horizontal scroll bar is hidden. You can use this macro or send the <a href="/windows/desktop/Controls/lb-sethorizontalextent">LB_SETHORIZONTALEXTENT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The number of pixels by which the list box can be scrolled.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-sethorizontalextent">LB_SETHORIZONTALEXTENT</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-sethorizontalextent">LB_SETHORIZONTALEXTENT</a>.

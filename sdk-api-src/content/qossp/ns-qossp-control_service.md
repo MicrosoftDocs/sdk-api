@@ -175,7 +175,7 @@ Qualitative service.
 
 ### -field Overrides
 
-Specifies overrides to service specifications, expressed in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure.
+Specifies overrides to service specifications, expressed in the form of an <a href="/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure.
 
 ### -field Guaranteed
 
@@ -183,17 +183,16 @@ Specifies guaranteed service, and provides service parameters in the form of an 
 
 ### -field ParamBuffer
 
-Describes the buffer used, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a> structure.
+Describes the buffer used, in the form of a <a href="/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a> structure.
 
 ## -remarks
 
-The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
+The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a>
+<a href="/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>

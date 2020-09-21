@@ -88,5 +88,4 @@ This macro can be used to refresh an image or a portion of an image displayed by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-macros">DrawDib Macros</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-macros">DrawDib Macros</a>

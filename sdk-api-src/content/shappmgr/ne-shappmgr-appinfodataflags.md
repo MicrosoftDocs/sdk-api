@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies application information to return from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">dwMask</a> member of the <b>APPINFODATA</b> structure.
+Specifies application information to return from <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">dwMask</a> member of the <b>APPINFODATA</b> structure.
 
 ## -enum-fields
 
@@ -136,4 +136,3 @@ Obsolete.
 ## -remarks
 
 Add/Remove Programs in Control Panel uses only <b>AIM_DISPLAYNAME</b> and <b>AIM_SUPPORTURL.</b>
-

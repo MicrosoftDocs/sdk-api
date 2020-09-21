@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IEnumTuneRequests</b> interface provides access to a collection of tune requests returned from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getservices">IGuideData::GetServices</a>. This collection of tune requests represents all the services available in the tuning space.
+The <b>IEnumTuneRequests</b> interface provides access to a collection of tune requests returned from a call to <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getservices">IGuideData::GetServices</a>. This collection of tune requests represents all the services available in the tuning space.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTuneRequests</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTuneRequests</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTuneRequests</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTuneRequests</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumTuneRequests</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection.
@@ -78,7 +78,7 @@ Creates a copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item or items in the collection.
@@ -87,7 +87,7 @@ Retrieves the next item or items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumerator to the first item in the collection.
@@ -96,7 +96,7 @@ Sets the enumerator to the first item in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumtunerequests-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of items.
@@ -111,5 +111,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

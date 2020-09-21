@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SCHANNEL_ALG</b> structure contains algorithm and key size information. It is used as the structure passed as <i>pbData</i> in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> when <i>dwParam</i> is set to KP_SCHANNEL_ALG.
+The <b>SCHANNEL_ALG</b> structure contains algorithm and key size information. It is used as the structure passed as <i>pbData</i> in <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> when <i>dwParam</i> is set to KP_SCHANNEL_ALG.
 
 ## -struct-fields
 
@@ -116,4 +116,3 @@ This flag can be set to INTERNATIONAL_USAGE (0x00000001), indicating that derive
 ### -field dwReserved
 
 Reserved for future use. Should be set to zero.
-

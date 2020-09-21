@@ -68,7 +68,7 @@ The
 #### - lpAutoDialParams [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376719(v=vs.85)">RASADPARAMS</a> structure that indicates how to position the window of the AutoDial user interface. The structure can also specify a parent window for the AutoDial window.
+<a href="/previous-versions/windows/desktop/legacy/aa376719(v=vs.85)">RASADPARAMS</a> structure that indicates how to position the window of the AutoDial user interface. The structure can also specify a parent window for the AutoDial window.
 
 
 #### - lpdwRetCode [out]
@@ -105,14 +105,14 @@ When the system starts an AutoDial operation for a phone-book entry with a custo
 
 If the 
 <b>RASADFunc</b> function performs the dialing operation, it presents its own user interface for dialing and calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function to do the actual dialing. The 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function to do the actual dialing. The 
 <b>RASADFunc</b> then returns <b>TRUE</b> to indicate that it took over the dialing. When the dialing operation has been completed, set the variable pointed to by the <i>lpdwRetCode</i> parameter to indicate success or failure.
 
 The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNCW</b> (Unicode) version of the 
 <b>RASADFunc</b> handler. To enable a 
 <b>RASADFunc</b> AutoDial handler for a phone-book entry, use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> function. The <b>szAutodialDll</b> member specifies the name of the DLL that contains the handler, and the <b>szAutodialFunc</b> member specifies the exported name of the handler. The <b>szAutodialFunc</b> member should not include the "A" or "W" suffix.
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure in a call to the 
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> function. The <b>szAutodialDll</b> member specifies the name of the DLL that contains the handler, and the <b>szAutodialFunc</b> member specifies the exported name of the handler. The <b>szAutodialFunc</b> member should not include the "A" or "W" suffix.
 
 <b>RASADFunc</b> is a placeholder for the library-defined function name. The <b>RASADFUNC</b> type is a pointer to a 
 <b>RASADFunc</b> function.
@@ -126,21 +126,20 @@ The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNC
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

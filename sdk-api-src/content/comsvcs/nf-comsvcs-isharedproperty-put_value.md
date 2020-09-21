@@ -104,9 +104,8 @@ The argument passed in the parameter is not a valid Variant type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
-
+<a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a>

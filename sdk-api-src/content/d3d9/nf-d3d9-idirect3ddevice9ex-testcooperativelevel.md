@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>TestCooperativeLevel</b> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>.]
+<p class="CCE_Message">[<b>TestCooperativeLevel</b> is no longer available for use. Instead, use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>.]
 
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
@@ -65,5 +65,4 @@ Always returns D3D_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>

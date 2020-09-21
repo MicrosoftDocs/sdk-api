@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Deletes the item at the specified location in a list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-deletestring">LB_DELETESTRING</a> message explicitly.
+Deletes the item at the specified location in a list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-deletestring">LB_DELETESTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The zero-based index of the item to delete.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-deletestring">LB_DELETESTRING</a>
-
+For more information, see <a href="/windows/desktop/Controls/lb-deletestring">LB_DELETESTRING</a>

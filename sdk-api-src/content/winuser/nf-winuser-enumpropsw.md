@@ -57,7 +57,7 @@ api_name:
 
 Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. <b>EnumProps</b> continues until the last entry is enumerated or the callback function returns <b>FALSE</b>.
 
-To pass application-defined data to the callback function, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsexa">EnumPropsEx</a> function.
+To pass application-defined data to the callback function, use <a href="/windows/desktop/api/winuser/nf-winuser-enumpropsexa">EnumPropsEx</a> function.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ A handle to the window whose property list is to be enumerated.
 
 Type: <b>PROPENUMPROC</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumproca">PropEnumProc</a> function.
+A pointer to the callback function. For more information about the callback function, see the <a href="/windows/desktop/api/winuser/nc-winuser-propenumproca">PropEnumProc</a> function.
 
 ## -returns
 
@@ -96,11 +96,11 @@ An application can remove only those properties it has added. It must not remove
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsexa">EnumPropsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumpropsexa">EnumPropsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumproca">PropEnumProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-propenumproca">PropEnumProc</a>
 
 
 
@@ -108,5 +108,4 @@ An application can remove only those properties it has added. It must not remove
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
-
+<a href="/windows/desktop/winmsg/window-properties">Window Properties</a>

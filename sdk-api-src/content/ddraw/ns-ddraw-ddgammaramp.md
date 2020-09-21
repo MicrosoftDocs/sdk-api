@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DDGAMMARAMP</b> structure contains red, green, and blue ramp data for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">IDirectDrawGammaControl::GetGammaRamp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> methods.
+The <b>DDGAMMARAMP</b> structure contains red, green, and blue ramp data for the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">IDirectDrawGammaControl::GetGammaRamp</a> and <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> methods.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ Array of 256 WORD elements that describe the green gamma ramp.
 ### -field blue
 
 Array of 256 WORD elements that describe the blue gamma ramp.
-

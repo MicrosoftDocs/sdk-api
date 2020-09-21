@@ -56,7 +56,7 @@ Provides access to one of the specialized callback functions for enumeration of 
 
 ### -param ResourceDescription
 
-A pointer to either an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure or an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
+A pointer to either an <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure or an <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
 
 ### -param EnumerationContext
 
@@ -64,7 +64,7 @@ A pointer to be passed to the resource-specific callback function.
 
 ### -param EnumerationLevel
 
-Specifies whether the enumeration operation should continue. This must be one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
+Specifies whether the enumeration operation should continue. This must be one of the values in the <a href="/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
 
 ## -returns
 
@@ -72,9 +72,8 @@ This function returns error codes or other values defined by the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

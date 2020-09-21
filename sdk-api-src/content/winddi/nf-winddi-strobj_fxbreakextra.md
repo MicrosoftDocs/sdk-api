@@ -56,7 +56,7 @@ The <b>STROBJ_fxBreakExtra</b> function retrieves the amount of extra space to b
 
 ### -param pstro
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure of the string to be displayed.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure of the string to be displayed.
 
 ## -returns
 
@@ -68,9 +68,8 @@ The extra space value is specified in pixel coordinates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_fxcharacterextra">STROBJ_fxCharacterExtra</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_fxcharacterextra">STROBJ_fxCharacterExtra</a>

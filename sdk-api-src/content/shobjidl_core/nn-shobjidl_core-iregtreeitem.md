@@ -52,11 +52,11 @@ api_name:
 
 <p class="CCE_Message">[This interface is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.]
 
-Exposes methods that retrieve and set the state of items in a tree-view control that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">Tree-View Control Window Styles</a> flag set.
+Exposes methods that retrieve and set the state of items in a tree-view control that have the <a href="/windows/desktop/Controls/tree-view-control-window-styles">Tree-View Control Window Styles</a> flag set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegTreeItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegTreeItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegTreeItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegTreeItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRegTreeItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iregtreeitem-getcheckstate">GetCheckState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iregtreeitem-getcheckstate">GetCheckState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of a check box item in a tree-view control.
@@ -80,7 +80,7 @@ Gets the state of a check box item in a tree-view control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iregtreeitem-setcheckstate">SetCheckState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iregtreeitem-setcheckstate">SetCheckState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of a check box item in a tree-view control.
@@ -91,5 +91,4 @@ Sets the state of a check box item in a tree-view control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-controls">Tree-View Controls</a>
-
+<a href="/windows/desktop/Controls/tree-view-controls">Tree-View Controls</a>

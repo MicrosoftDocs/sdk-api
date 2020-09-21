@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-Used by a fax client application to retrieve information about a sent fax message in the archive of outbound faxes. The archive contains faxes sent successfully by the fax service. The interface inherits all the functionality of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a> interface. It adds to that information such as whether the fax has a cover page, whether it has been read and what kind of receipt was sent.
+Used by a fax client application to retrieve information about a sent fax message in the archive of outbound faxes. The archive contains faxes sent successfully by the fax service. The interface inherits all the functionality of the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a> interface. It adds to that information such as whether the fax has a cover page, whether it has been read and what kind of receipt was sent.
 
-The <b>IFaxOutgoingMessage2</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a> interface or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a> interface.
+The <b>IFaxOutgoingMessage2</b> interface is accessed through the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a> interface or <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a> interface.
 
 
 <div class="alert"><b>Note</b>  This interface is supported only on Windows Vista or later.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>. <b>IFaxOutgoingMessage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>. <b>IFaxOutgoingMessage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,10 +75,10 @@ The <b>IFaxOutgoingMessage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-refresh-vb">Refresh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object information from the fax server. When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-refresh-vb">Refresh</a> method is called, any configuration changes made after the last <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-save-vb">Save</a> method call are lost.
+Refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object information from the fax server. When the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-refresh-vb">Refresh</a> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-save-vb">Save</a> method call are lost.
 
 
 
@@ -88,10 +88,10 @@ Refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-save-vb">Save</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object's data.
+Saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object's data.
 
 
 
@@ -110,7 +110,7 @@ Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-hascoverpage-vb">HasCoverPage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-hascoverpage-vb">HasCoverPage</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Indicates if the fax has a cover page.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-read-vb">Read</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-read-vb">Read</a>
 
 
 </td>
@@ -150,7 +150,7 @@ Indicates if the fax has been read.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receiptaddress-vb">ReceiptAddress</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receiptaddress-vb">ReceiptAddress</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Specifies the address to which the delivery report is sent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">ReceiptType</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">ReceiptType</a>
 
 
 </td>
@@ -191,23 +191,22 @@ Specifies the type of delivery report that is sent following an attempted transm
 
 ## -remarks
 
-To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessage-vb">IFaxAccountOutgoingArchive::GetMessage</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessageiterator-message">Message</a> method.
+To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessage-vb">IFaxAccountOutgoingArchive::GetMessage</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessageiterator-message">Message</a> method.
 
-A default implementation of this interface is provided by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object in Windows Vista or later. The <b>FaxOutgoingMessage</b> object implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a> interface on Windows XP or earlier.
+A default implementation of this interface is provided by the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object in Windows Vista or later. The <b>FaxOutgoingMessage</b> object implements the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a> interface on Windows XP or earlier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a>

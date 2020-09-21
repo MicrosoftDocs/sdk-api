@@ -65,9 +65,8 @@ Collections are 1-based. That is, the index for the first item in the collection
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>

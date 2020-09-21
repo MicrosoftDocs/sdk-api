@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>HMAC_INFO</b> structure specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm and the inner and outer strings that are to be used to calculate the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">HMAC</a> hash.
+The <b>HMAC_INFO</b> structure specifies the <a href="/windows/desktop/SecGloss/h-gly">hash</a> algorithm and the inner and outer strings that are to be used to calculate the <a href="/windows/desktop/SecGloss/h-gly">HMAC</a> hash.
 
 ## -struct-fields
 
@@ -80,13 +80,12 @@ The count of bytes in <b>pbOuterString</b>. The CSP uses the default outer strin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>

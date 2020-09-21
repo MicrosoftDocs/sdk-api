@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the content protection capabilities of a display driver. To get the capabilities, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>.
+Describes the content protection capabilities of a display driver. To get the capabilities, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>.
 
 ## -struct-fields
 
@@ -116,7 +116,7 @@ The driver can use partially encrypted buffers. If this capability is not presen
 </dl>
 </td>
 <td width="60%">
-The driver can encrypt data using a separate content key that is encrypted using the session key. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">IDirect3DCryptoSession9::DecryptionBlt</a>.
+The driver can encrypt data using a separate content key that is encrypted using the session key. For more information, see <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">IDirect3DCryptoSession9::DecryptionBlt</a>.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The driver can encrypt data using a separate content key that is encrypted using
 </dl>
 </td>
 <td width="60%">
-The driver can refresh the session key without renegotiating the key. To refresh the session key, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">IDirect3DCryptoSession9::StartSessionKeyRefresh</a>.
+The driver can refresh the session key without renegotiating the key. To refresh the session key, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">IDirect3DCryptoSession9::StartSessionKeyRefresh</a>.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The driver can refresh the session key without renegotiating the key. To refresh
 </dl>
 </td>
 <td width="60%">
-The driver can read back encrypted data from a protected surface, using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
+The driver can read back encrypted data from a protected surface, using the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The driver can read back encrypted data from a protected surface, using the <a h
 </dl>
 </td>
 <td width="60%">
-The driver requires a separate key to read encrypted data from a protected surface. To get this second key, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">IDirect3DCryptoSession9::GetEncryptionBltKey</a>. 
+The driver requires a separate key to read encrypted data from a protected surface. To get this second key, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">IDirect3DCryptoSession9::GetEncryptionBltKey</a>. 
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ The driver requires a separate key to read encrypted data from a protected surfa
 </dl>
 </td>
 <td width="60%">
-If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
 
 </td>
 </tr>
@@ -211,9 +211,8 @@ The total amount of memory that can be used to hold protected surfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>

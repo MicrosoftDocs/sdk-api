@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CertDuplicateStore</b> function duplicates a store handle by incrementing the store's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CertDuplicateStore</b> function duplicates a store handle by incrementing the store's <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param hCertStore [in]
 
-A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
+A handle of the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> for which the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>

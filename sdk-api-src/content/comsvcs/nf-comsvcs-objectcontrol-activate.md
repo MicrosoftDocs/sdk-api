@@ -62,17 +62,16 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-Whenever a client calls a COM+ object that isn't already active, the COM+ run-time environment automatically activates the object. This is called <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a>. For components that support <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> as an interface, COM+ invokes the object's <b>Activate</b> method before passing the client's method call on to the object.
+Whenever a client calls a COM+ object that isn't already active, the COM+ run-time environment automatically activates the object. This is called <a href="/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a>. For components that support <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> as an interface, COM+ invokes the object's <b>Activate</b> method before passing the client's method call on to the object.
 
-Any context-specific initialization procedures should be implemented in the <b>Activate</b> method for objects that expose <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>.
+Any context-specific initialization procedures should be implemented in the <b>Activate</b> method for objects that expose <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>.
 
-For example, you can use the <b>Activate</b> method to obtain a reference to an object's context and store it in a member variable. Then the object context is available to any method that requires it, and you do not have to acquire a new one every time you want to use it. After you have a reference to the object's context, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a> methods to check whether security is enabled, whether the object is executing in a transaction, or whether the caller is in a particular role.
+For example, you can use the <b>Activate</b> method to obtain a reference to an object's context and store it in a member variable. Then the object context is available to any method that requires it, and you do not have to acquire a new one every time you want to use it. After you have a reference to the object's context, you can use the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a> methods to check whether security is enabled, whether the object is executing in a transaction, or whether the caller is in a particular role.
 
-If you are enabling object recycling (by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-canbepooled">CanBePooled</a> method to query the object), the <b>Activate</b> method must be able to handle newly created objects as well as recycled objects. When the <b>Activate</b> method returns, there should be no distinguishable difference between a new object and a recycled one.
+If you are enabling object recycling (by implementing the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-canbepooled">CanBePooled</a> method to query the object), the <b>Activate</b> method must be able to handle newly created objects as well as recycled objects. When the <b>Activate</b> method returns, there should be no distinguishable difference between a new object and a recycled one.
 
-COM+ expressly forbids calling into an object that exposes <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> before calling the <b>Activate</b> method (when it is in its constructor). Such a call would result in an RPC_E_DISCONNECTED error. For example, if an object passes out a reference to itself while in its constructor and then the reference calls back into that object prior to the call to <b>Activate</b>, the disconnected error is returned.
+COM+ expressly forbids calling into an object that exposes <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> before calling the <b>Activate</b> method (when it is in its constructor). Such a call would result in an RPC_E_DISCONNECTED error. For example, if an object passes out a reference to itself while in its constructor and then the reference calls back into that object prior to the call to <b>Activate</b>, the disconnected error is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>

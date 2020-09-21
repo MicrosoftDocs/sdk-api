@@ -74,7 +74,7 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field SpatialScale
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Multiplicative spatial scale factor, used to translate the ROI coordinates from their input scale to the scale used when pooling. You can use a default value of 1.0.
 
@@ -83,4 +83,3 @@ Multiplicative spatial scale factor, used to translate the ROI coordinates from 
 Type: [**DML_SIZE_2D**](/windows/desktop/api/directml/ns-directml-dml_size_2d)
 
 The ROI pool output size (height, width).
-

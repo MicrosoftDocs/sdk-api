@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>DSOP_SCOPE_INIT_INFO</b> structure describes one or more scope types that have the same attributes. A scope type is a type of location, for example a domain, computer, or Global Catalog, from which the user can select objects.
-   This structure is used with  <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
+   This structure is used with  <a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> when calling <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
 
 ## -struct-fields
 
@@ -72,9 +72,9 @@ Flags that indicate the scope types described by this structure. You can combine
 #### DSOP_SCOPE_TYPE_TARGET_COMPUTER (0x00000001)
 
 Computer specified by the <b>pwzTargetComputer</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure.
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure.
 
-If the target computer is an up-level or down-level domain controller, this flag is ignored unless the <b>DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK</b>  flag is set in the <b>flOptions</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure.
+If the target computer is an up-level or down-level domain controller, this flag is ignored unless the <b>DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK</b>  flag is set in the <b>flOptions</b> member of the <a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure.
 
 
 
@@ -144,19 +144,19 @@ LDAP and Global Catalog (GC) paths can be converted to the WinNT ADsPath Syntax.
 #### DSOP_SCOPE_FLAG_STARTING_SCOPE (0x00000001)
 
 The scope described by this structure is initially selected in the <b>Look in</b> drop-down list. Only one scope can specify this flag. If no scope specifies this flag, the initial scope is the first successfully created scope in the array of scopes passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method.
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method.
 
 
 
 #### DSOP_SCOPE_FLAG_WANT_PROVIDER_WINNT (0x00000002)
 
-The ADsPaths are converted to use the WinNT provider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
+The ADsPaths are converted to use the WinNT provider. For more information, see <a href="/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
 
 
 
 #### DSOP_SCOPE_FLAG_WANT_PROVIDER_LDAP (0x00000004)
 
-The ADsPaths are converted to use the LDAP provider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>.
+The ADsPaths are converted to use the LDAP provider. For more information, see <a href="/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>.
 
 
 
@@ -217,7 +217,7 @@ If the scope filter contains password setting objects, select the <b>Password Se
 
 ### -field FilterFlags
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a> structure that indicates the types of objects presented to the user for this scope or scopes.
+Contains a <a href="/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a> structure that indicates the types of objects presented to the user for this scope or scopes.
 
 ### -field pwzDcName
 
@@ -232,23 +232,22 @@ Reserved; must be <b>NULL</b>.
 ### -field hr
 
 Contains an <b>HRESULT</b> value that indicates the status of the specific scope. If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method successfully creates the scope, or scopes, specified by this structure, <b>hr</b> contains <b>S_OK</b>. Otherwise, <b>hr</b> contains an error code.
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method successfully creates the scope, or scopes, specified by this structure, <b>hr</b> contains <b>S_OK</b>. Otherwise, <b>hr</b> contains an error code.
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> returns <b>S_OK</b>, the <b>hr</b> members of all the specified <b>DSOP_SCOPE_INIT_INFO</b> structures also contain <b>S_OK</b>.
+If <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> returns <b>S_OK</b>, the <b>hr</b> members of all the specified <b>DSOP_SCOPE_INIT_INFO</b> structures also contain <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a>
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
+<a href="/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
-
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>

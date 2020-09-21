@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_COMMON_STATISTICS1</b> structure contains various statistics common to IKE, Authip, and IKEv2.
-[IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0) is available.</div><div> </div>
+[IKEEXT_COMMON_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -83,5 +83,4 @@ Current number of work items that are queued and waiting to be processed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

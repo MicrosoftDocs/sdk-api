@@ -59,12 +59,11 @@ The <b>SCardAccessStartedEvent</b> function returns an event handle when an even
 
 The function returns an event HANDLE if it succeeds or <b>NULL</b> if it fails.
 
- If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function provides information on the cause of the failure.
+ If the function fails, the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function provides information on the cause of the failure.
 
 ## -remarks
 
 The event-object handle returned can be specified in a call to one of the wait functions.
 
 Do not close the handle returned by this function.
-When you have finished using the handle, decrement the reference count by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasestartedevent">SCardReleaseStartedEvent</a> function.
-
+When you have finished using the handle, decrement the reference count by calling the <a href="/windows/desktop/api/winscard/nf-winscard-scardreleasestartedevent">SCardReleaseStartedEvent</a> function.

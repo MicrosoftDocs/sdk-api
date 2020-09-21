@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>  property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the   <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a> property
+Also accessed through the   <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a> property
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Also accessed through the   <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property
+Also accessed through the  <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a> property
+Also accessed through the  <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -132,9 +132,8 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property.
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property.
 
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

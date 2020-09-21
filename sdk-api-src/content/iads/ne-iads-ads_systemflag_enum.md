@@ -105,7 +105,7 @@ For <b>classSchema</b> and <b>attributeSchema</b> objects, the 0x10 bit of the <
 
 #### Examples
 
-The following code example shows how elements of the <b>ADS_SYSTEMFLAG_ENUM</b> enumeration, together with the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a> interface, are used to search non-replicated properties.
+The following code example shows how elements of the <b>ADS_SYSTEMFLAG_ENUM</b> enumeration, together with the  <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a> interface, are used to search non-replicated properties.
 
 
 ```cpp
@@ -245,10 +245,9 @@ CoUninitialize();    // uninitialize COM.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>

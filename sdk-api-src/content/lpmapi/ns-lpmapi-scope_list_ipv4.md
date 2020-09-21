@@ -57,9 +57,8 @@ The
 
 ### -field scopl_ipaddr
 
-Variable-length list of IP sender addresses, expressed as an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structures.
+Variable-length list of IP sender addresses, expressed as an array of <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>

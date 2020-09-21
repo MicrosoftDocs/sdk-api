@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the source of the default association for a file name extension. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
+Specifies the source of the default association for a file name extension. Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The per-user default application association. If this value is used and no per-u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
-
+<a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>

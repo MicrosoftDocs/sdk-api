@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 <b>~CVssWriter</b> is the destructor of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class object.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class object.
 
 This destructor is virtual and may be overridden by derived objects.
 
@@ -60,5 +60,4 @@ This destructor is virtual and may be overridden by derived objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>

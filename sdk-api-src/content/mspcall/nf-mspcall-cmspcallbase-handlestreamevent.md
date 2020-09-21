@@ -58,10 +58,9 @@ The
 ### -param EventItem
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a>, a struct containing a linked list of 
+<a href="/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a>, a struct containing a linked list of 
 <a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>

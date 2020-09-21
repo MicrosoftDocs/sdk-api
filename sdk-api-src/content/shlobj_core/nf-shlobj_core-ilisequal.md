@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures are equal in a binary comparison.
+Tests whether two <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures are equal in a binary comparison.
 
 ## -parameters
 
@@ -62,13 +62,13 @@ Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtype
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+The first <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param pidl2 [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The second <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+The second <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -returns
 
@@ -78,5 +78,4 @@ Returns <b>TRUE</b> if the two structures are equal, <b>FALSE</b> otherwise.
 
 ## -remarks
 
-<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.
-
+<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.

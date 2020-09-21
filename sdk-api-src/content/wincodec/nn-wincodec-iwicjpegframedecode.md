@@ -54,7 +54,7 @@ Exposes methods for decoding JPEG images. Provides access to the Start Of Frame 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameDecode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameDecode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameDecode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameDecode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICJpegFrameDecode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-clearindexing">ClearIndexing</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-clearindexing">ClearIndexing</a>
 </td>
 <td align="left" width="63%">
-Removes the indexing from a JPEG that has been indexed using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
+Removes the indexing from a JPEG that has been indexed using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-copyscan">CopyScan</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-copyscan">CopyScan</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the compressed JPEG scan directly from the WIC decoder frame's output stream.
@@ -87,7 +87,7 @@ Retrieves a copy of the compressed JPEG scan directly from the WIC decoder frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">DoesSupportIndexing</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">DoesSupportIndexing</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether this decoder supports indexing for efficient random access.
@@ -96,7 +96,7 @@ Retrieves a value indicating whether this decoder supports indexing for efficien
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getachuffmantable">GetAcHuffmanTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getachuffmantable">GetAcHuffmanTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the AC Huffman table for the specified scan and table.
@@ -105,7 +105,7 @@ Retrieves a copy of the AC Huffman table for the specified scan and table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getdchuffmantable">GetDcHuffmanTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getdchuffmantable">GetDcHuffmanTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the DC Huffman table for the specified scan and table.
@@ -114,7 +114,7 @@ Retrieves a copy of the DC Huffman table for the specified scan and table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">GetFrameHeader</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">GetFrameHeader</a>
 </td>
 <td align="left" width="63%">
 Retrieves  header data from the entire frame. 
@@ -123,7 +123,7 @@ Retrieves  header data from the entire frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getquantizationtable">GetQuantizationTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getquantizationtable">GetQuantizationTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the quantization table.
@@ -132,7 +132,7 @@ Retrieves a copy of the quantization table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">GetScanHeader</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">GetScanHeader</a>
 </td>
 <td align="left" width="63%">
 Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
@@ -141,7 +141,7 @@ Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">SetIndexing</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">SetIndexing</a>
 </td>
 <td align="left" width="63%">
 Enables indexing of the JPEG for efficient random access.
@@ -152,5 +152,4 @@ Enables indexing of the JPEG for efficient random access.
 
 ## -remarks
 
-Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecoder</a> interface for the JPEG decoder.
-
+Obtain this interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecoder</a> interface for the JPEG decoder.

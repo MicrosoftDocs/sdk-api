@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Takes a variable-length argument list and returns the values of the arguments as a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/printf">printf</a>-style formatted string.
+Takes a variable-length argument list and returns the values of the arguments as a <a href="/windows/desktop/direct3dhlsl/printf">printf</a>-style formatted string.
             
             
 <div class="alert"><b>Note</b>  Do not use this function. See Remarks for alternative functions.</div><div> </div>
@@ -75,7 +75,7 @@ The maximum number of characters allowed in <i>pszDest</i>.
 
 Type: <b>PCTSTR</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/printf">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
+A <a href="/windows/desktop/direct3dhlsl/printf">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
 
 ### -param arg4 [in]
 
@@ -89,13 +89,12 @@ Returns the number of characters written to the buffer, excluding any terminatin
 
 ## -remarks
 
-<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The copied string is not guaranteed to be null-terminated. Consider using one of the following alternatives. <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>. You should review <a href="https://docs.microsoft.com/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The copied string is not guaranteed to be null-terminated. Consider using one of the following alternatives. <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>, or <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>. You should review <a href="/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
 
-This is a Windows version of <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ybk95axf(v=vs.100)">sprintf</a>. It does not support floating-point or pointer types. It supports only the left alignment flag.
+This is a Windows version of <a href="/previous-versions/visualstudio/visual-studio-2010/ybk95axf(v=vs.100)">sprintf</a>. It does not support floating-point or pointer types. It supports only the left alignment flag.
 
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines wnsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

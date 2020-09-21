@@ -68,15 +68,15 @@ Specifies the number of attributes listed in <i>pDhcpAttribArr</i>.
 
 ### -param pDhcpAttribs [in]
 
-Specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> values (of length <i>dwAttribCount</i>) to retrieve the corresponding attribute information from.
+Specifies an array of <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> values (of length <i>dwAttribCount</i>) to retrieve the corresponding attribute information from.
 
 ### -param pDhcpAttribArr [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_attrib_array">DHCP_ATTRIB_ARRAY</a> structure that contains the attributes directly corresponding to the attribute ID values specified in <i>pDhcpAttribs[]</i>.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_attrib_array">DHCP_ATTRIB_ARRAY</a> structure that contains the attributes directly corresponding to the attribute ID values specified in <i>pDhcpAttribs[]</i>.
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -remarks
 
@@ -86,9 +86,8 @@ Callers of this function should free the memory pointed to by <i>pDhcpAttribs</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_attrib_array">DHCP_ATTRIB_ARRAY</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_attrib_array">DHCP_ATTRIB_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverqueryattribute">DhcpServerQueryAttribute</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverqueryattribute">DhcpServerQueryAttribute</a>

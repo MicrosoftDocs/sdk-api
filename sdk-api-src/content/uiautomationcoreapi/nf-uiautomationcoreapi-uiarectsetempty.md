@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Sets the elements of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure to 0.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Sets the elements of a <a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure to 0.
 
 ## -parameters
 
 ### -param rc [in, ref]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure.
-
+A reference to a <a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure.

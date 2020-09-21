@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -97,12 +97,12 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-Certain parameters, listed in the tables under <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
+Certain parameters, listed in the tables under <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
 
 
 #### Examples
 
-The following code demonstrates a service provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+The following code demonstrates a service provider's implementation of <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
 
 ```cpp
@@ -185,9 +185,8 @@ Error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>
-
+<a href="/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>

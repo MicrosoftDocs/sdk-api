@@ -58,7 +58,7 @@ Sets the native media type for a stream on the media source.
 
 ### -param pMediaType [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
 
 ### -param pdwStreamFlags [out]
 
@@ -137,15 +137,14 @@ The <i>dwStreamIndex</i> parameter is invalid.
 
 ## -remarks
 
-This method sets the output type that is produced by the media source. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> method, this method does not insert any decoders, video processors, or other transforms. The media source must support the specified media type natively. To get a list of supported types from the media source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype">IMFSourceReader::GetNativeMediaType</a>.
+This method sets the output type that is produced by the media source. Unlike the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> method, this method does not insert any decoders, video processors, or other transforms. The media source must support the specified media type natively. To get a list of supported types from the media source, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype">IMFSourceReader::GetNativeMediaType</a>.
 
-In asynchronous mode, this method fails if a sample request is pending. In that case, wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
+In asynchronous mode, this method fails if a sample request is pending. In that case, wait for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
 
-This method can trigger a change in the output format for the stream. If so, the <b>MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED</b> flag is returned in the  <i>pdwStreamFlags</i> parameter. The method might also cause the Source Reader to remove any effects that were added by the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-addtransformforstream">IMFSourceReaderEx::AddTransformForStream</a> method. If this occurs, the  <b>MF_SOURCE_READERF_ALLEFFECTSREMOVED</b> flag is returned in <i>pdwStreamFlags</i>. 
+This method can trigger a change in the output format for the stream. If so, the <b>MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED</b> flag is returned in the  <i>pdwStreamFlags</i> parameter. The method might also cause the Source Reader to remove any effects that were added by the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-addtransformforstream">IMFSourceReaderEx::AddTransformForStream</a> method. If this occurs, the  <b>MF_SOURCE_READERF_ALLEFFECTSREMOVED</b> flag is returned in <i>pdwStreamFlags</i>. 
 
 This method is useful with audio and video capture devices, because a device might support several output formats. This method enables the application to choose the device format before decoders and other transforms are added.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>

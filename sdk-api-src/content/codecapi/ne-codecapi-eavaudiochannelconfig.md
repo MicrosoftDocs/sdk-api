@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
+Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
 
 ## -enum-fields
 
@@ -128,13 +128,12 @@ Top, back right
 
 ## -remarks
 
-These values correspond to the flags used for the <b>dwChannelMask</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> structure.
+These values correspond to the flags used for the <b>dwChannelMask</b> member of the <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

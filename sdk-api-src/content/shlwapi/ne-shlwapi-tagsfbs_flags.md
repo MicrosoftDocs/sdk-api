@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a> function should handle rounding of undisplayed digits.
+Specifies how the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a> function should handle rounding of undisplayed digits.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Round to the nearest displayed digit.
 ### -field SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS
 
 Discard undisplayed digits.
-

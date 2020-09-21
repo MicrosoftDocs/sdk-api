@@ -108,5 +108,4 @@ The content is unprotected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

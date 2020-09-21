@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DSDISPLAYSPECOPTIONS</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a> clipboard format and is used to supply data to a context menu or property page extension about the display specifiers used. It is important to specify the credentials required by the extension, to access data in the Active Directory server.
+The <b>DSDISPLAYSPECOPTIONS</b> structure is returned by the <a href="/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a> clipboard format and is used to supply data to a context menu or property page extension about the display specifiers used. It is important to specify the credentials required by the extension, to access data in the Active Directory server.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ The <b>offsetUserName</b>, <b>offsetPassword</b>, <b>offsetServer</b> and <b>off
 
 #### DSDSOF_SIMPLEAUTHENTICATE (0x00000002)
 
-Do not specify <b>ADS_SECURE_AUTHENTICATION</b> flag when calling <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
+Do not specify <b>ADS_SECURE_AUTHENTICATION</b> flag when calling <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
 
 
 
@@ -98,13 +98,13 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 #### "admin"
 
-The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages">adminPropertyPages</a> attribute.
+The extension was obtained from the <a href="/windows/desktop/ADSchema/a-adminpropertypages">adminPropertyPages</a> attribute.
 
 
 
 #### "shell"
 
-The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages">shellPropertyPages</a> attribute.
+The extension was obtained from the <a href="/windows/desktop/ADSchema/a-shellpropertypages">shellPropertyPages</a> attribute.
 
 The following example shows how to use this member.
 
@@ -169,13 +169,12 @@ pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso +
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a>
+<a href="/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>

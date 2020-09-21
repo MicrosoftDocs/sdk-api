@@ -59,15 +59,14 @@ This property is read-only.
 
 ## -remarks
 
-A control must cycle through its <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState</a> in this order:  
+A control must cycle through its <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState</a> in this order:  
 <b>ToggleState_On</b>, <b>ToggleState_Off</b> 
 and, if supported, <b>ToggleState_Indeterminate</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itoggleprovider">IToggleProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itoggleprovider">IToggleProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

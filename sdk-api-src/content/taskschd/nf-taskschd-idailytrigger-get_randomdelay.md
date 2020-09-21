@@ -64,5 +64,4 @@ The specified random delay time is the upper bound for the random interval. The 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-idailytrigger">IDailyTrigger</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-idailytrigger">IDailyTrigger</a>

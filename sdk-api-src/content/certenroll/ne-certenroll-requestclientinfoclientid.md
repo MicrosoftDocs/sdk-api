@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>RequestClientInfoClientId</b> enumeration  specifies the type of application that created a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.  This can be used to initialize a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a> object that contains information about the client. It is also used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
+The <b>RequestClientInfoClientId</b> enumeration  specifies the type of application that created a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.  This can be used to initialize a <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a> object that contains information about the client. It is also used by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
 
 ## -enum-fields
 
@@ -76,7 +76,7 @@ Specifies the Certreq.exe command-line tool that is available on Windows Server�
 
 ### -field ClientIdDefaultRequest
 
-Specifies the default certificate request object that is available starting with Windows Vista. This is represented by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface and is the default value if the client ID is not set by the caller.
+Specifies the default certificate request object that is available starting with Windows Vista. This is represented by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface and is the default value if the client ID is not set by the caller.
 
 ### -field ClientIdAutoEnroll
 
@@ -106,17 +106,16 @@ This is the base value for custom applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CreateAssemblyCache</b> function obtains an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> interface.
+The <b>CreateAssemblyCache</b> function obtains an instance of the <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> interface.
 
 ## -parameters
 
 ### -param ppAsmCache
 
-Pointer the location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> pointer.
+Pointer the location that receives the <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> pointer.
 
 ### -param dwReserved
 
@@ -65,4 +65,3 @@ Reserved.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

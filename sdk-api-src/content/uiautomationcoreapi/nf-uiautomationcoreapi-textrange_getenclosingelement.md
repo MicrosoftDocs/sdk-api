@@ -70,7 +70,7 @@ When this function returns, contains
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -79,4 +79,3 @@ Returns S_OK if successful or an error value otherwise.
 The enclosing element is typically the text provider that supplies the text range. However,
 		if the text provider supports child elements such as tables or hyperlinks, 
 		the enclosing element could be a descendant of the text provider.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies which ICC rendering intent the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-management">Color management effect</a> should use.
+Specifies which ICC rendering intent the <a href="/windows/desktop/Direct2D/color-management">Color management effect</a> should use.
 
 ## -enum-fields
 
@@ -72,4 +72,3 @@ The effect adjusts colors that fall outside the range of colors the output devic
 The effect adjusts any colors that fall outside the range that the output device can render to the closest color that can be rendered. The effect does not change the other colors and preserves the white point.
 
 ### -field D2D1_COLORMANAGEMENT_RENDERING_INTENT_FORCE_DWORD
-

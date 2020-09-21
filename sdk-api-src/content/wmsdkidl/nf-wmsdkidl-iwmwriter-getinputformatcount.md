@@ -104,13 +104,12 @@ OR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat">IWMWriter::GetInputFormat</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat">IWMWriter::GetInputFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>
-
+<a href="/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>

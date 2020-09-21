@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Write the fault detail stored in a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
+Write the fault detail stored in a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A pointer to a description of the fault detail.
                 
 
 If the action field of the fault detail description is non-<b>NULL</b>,
-                    then it is set as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a>of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a>.
+                    then it is set as the <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a>of the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a>.
                 
 
 The element description of the fault detail description 
@@ -73,7 +73,7 @@ The element description of the fault detail description
 ### -param writeOption [in]
 
 Information about how the value is allocated.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
 
 ### -param value
 
@@ -133,24 +133,23 @@ Ran out of memory.
 ## -remarks
 
 This API will serialize the value of the detail field of
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> stored in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
+                the <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> stored in the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
             
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
+                of the <a href="/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
             
 
 <ul>
 <li>Writing a single element.  In this case, the elementLocalName and elementNs
-                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to the local name
+                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to the local name
                 and namespace of the element to write, and the type and type description represents
                 the type of the value being serialized.  
                 </li>
 <li>Writing multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being serialized should correspond to element(s) to write within the fault detail.
-                The writeOption parameter must be either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_VALUE</a> or 
+                The writeOption parameter must be either <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_VALUE</a> or 
                 <b>WS_WRITE_REQUIRED_POINTER</b>.                
                 </li>
 </ul>
-

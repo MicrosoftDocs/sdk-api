@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> 
+Creates a new <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> 
     object.
 
 ## -parameters
@@ -58,7 +58,7 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-
 ### -param ppContext [out]
 
 Pointer to a newly allocated 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object. If the function fails, 
+      <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object. If the function fails, 
       this parameter can be <b>NULL</b>.
 
 ## -returns
@@ -104,4 +104,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
-

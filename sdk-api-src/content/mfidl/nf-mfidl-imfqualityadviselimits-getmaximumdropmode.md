@@ -56,7 +56,7 @@ Gets the maximum <i>drop mode</i>. A higher drop mode means that the object will
 
 ### -param peDropMode [out]
 
-Receives the maximum drop mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_quality_drop_mode">MF_QUALITY_DROP_MODE</a> enumeration.
+Receives the maximum drop mode, specified as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_quality_drop_mode">MF_QUALITY_DROP_MODE</a> enumeration.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To get the current drop mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getdropmode">IMFQualityAdvise::GetDropMode</a> method. To set the drop mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setdropmode">IMFQualityAdvise::SetDropMode</a> method.
+To get the current drop mode, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getdropmode">IMFQualityAdvise::GetDropMode</a> method. To set the drop mode, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setdropmode">IMFQualityAdvise::SetDropMode</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>

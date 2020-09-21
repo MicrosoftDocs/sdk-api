@@ -54,7 +54,7 @@ api_name:
 Used by the 
     <a href="/windows/win32/api/clusapi/ns-clusapi-clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> 
     and  
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
+    <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
     control codes to describe the reason for a resource state change.
 
 ## -enum-fields
@@ -62,41 +62,40 @@ Used by the
 ### -field eResourceStateChangeReasonUnknown
 
 This reason code is never sent by the cluster. 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> should use this value to initialize a local 
+       <a href="/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> should use this value to initialize a local 
        <a href="/windows/win32/api/clusapi/ns-clusapi-clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> structure and to reset the 
        <b>eReason</b> member of the 
        <b>CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</b> 
-       structure before returning from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> and 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> entry point functions. For more information, 
+       structure before returning from the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> and 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> entry point functions. For more information, 
        see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a>.
 
 ### -field eResourceStateChangeReasonMove
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> is about to be called because the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource's</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> is being moved.
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> is about to be called because the 
+       <a href="/previous-versions/windows/desktop/mscs/resources">resource's</a> <a href="/previous-versions/windows/desktop/mscs/groups">group</a> is being moved.
 
 ### -field eResourceStateChangeReasonFailover
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> is about to be called because the resource's 
-       group is being <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">failed over</a>.
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> is about to be called because the resource's 
+       group is being <a href="/previous-versions/windows/desktop/mscs/failover">failed over</a>.
 
 ### -field eResourceStateChangeReasonFailedMove
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Online</a> is about to be called because the resource's 
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Online</a> is about to be called because the resource's 
        group did not successfully complete a move operation.
 
 ### -field eResourceStateChangeReasonShutdown
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> is about to be called because the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> is being shut down.
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> is about to be called because the 
+       <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> is being shut down.
 
 ### -field eResourceStateChangeReasonRundown
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> is about to be called because the Cluster 
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> is about to be called because the Cluster 
        service has stopped unexpectedly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

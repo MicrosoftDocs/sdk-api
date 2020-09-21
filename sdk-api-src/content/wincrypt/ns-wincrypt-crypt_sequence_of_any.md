@@ -65,5 +65,4 @@ Number of elements in the <b>rgValue</b> array.
 ### -field rgValue
 
 An array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures.

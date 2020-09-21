@@ -86,9 +86,8 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpplaystate">WMPPlayState</a>
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmpplaystate">WMPPlayState</a>

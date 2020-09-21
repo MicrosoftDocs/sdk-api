@@ -81,17 +81,16 @@ The protocol type is multicast.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype">IMFNetSchemeHandlerConfig::GetSupportedProtocolType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype">IMFNetSchemeHandlerConfig::GetSupportedProtocolType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids">MFNETSOURCE_STATISTICS_IDS</a>
+<a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids">MFNETSOURCE_STATISTICS_IDS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/supported-protocols">Supported Protocols</a>
-
+<a href="/windows/desktop/medfound/supported-protocols">Supported Protocols</a>

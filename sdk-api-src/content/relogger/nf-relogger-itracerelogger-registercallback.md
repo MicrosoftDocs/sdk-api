@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>RegisterCallback</b> method registers an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> with the relogger in order to signal trace activity (starting, stopping, and logging new events).
+The <b>RegisterCallback</b> method registers an implementation of <a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 
 ## -parameters
 
 ### -param Callback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a>*</b>
+Type: <b><a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a>*</b>
 
 The trace activity information.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>

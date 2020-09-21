@@ -80,23 +80,22 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper
   Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start
   Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-ipreleaseaddress">IpReleaseAddress</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-ipreleaseaddress">IpReleaseAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-iprenewaddress">IpRenewAddress</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-iprenewaddress">IpRenewAddress</a>

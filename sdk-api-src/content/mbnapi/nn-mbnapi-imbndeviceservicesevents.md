@@ -57,7 +57,7 @@ Signals an application about notification events related to Mobile Broadband dev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceServicesEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnDeviceServicesEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceServicesEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnDeviceServicesEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMbnDeviceServicesEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosecommandsessioncomplete">OnCloseCommandSessionComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosecommandsessioncomplete">OnCloseCommandSessionComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service <b>CloseCommandSession</b> request has completed.
@@ -81,7 +81,7 @@ Notification method indicating that a device service <b>CloseCommandSession</b> 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete">OnCloseDataSessionComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete">OnCloseDataSessionComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service session <b>CloseDataSession</b> request has completed.
@@ -90,7 +90,7 @@ Notification method indicating that a device service session <b>CloseDataSession
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oneventnotification">OnEventNotification</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oneventnotification">OnEventNotification</a>
 </td>
 <td align="left" width="63%">
 Notification method signaling a device service state change event from the Mobile Broadband device.
@@ -99,7 +99,7 @@ Notification method signaling a device service state change event from the Mobil
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange">OnInterfaceStateChange</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange">OnInterfaceStateChange</a>
 </td>
 <td align="left" width="63%">
 Notification method that signals a change in the state of device services on the system.
@@ -108,7 +108,7 @@ Notification method that signals a change in the state of device services on the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete">OnOpenCommandSessionComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete">OnOpenCommandSessionComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service <b>CommandSessionOpen</b> request has completed.
@@ -117,7 +117,7 @@ Notification method indicating that a device service <b>CommandSessionOpen</b> r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopendatasessioncomplete">OnOpenDataSessionComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopendatasessioncomplete">OnOpenDataSessionComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service <b>OpenDataSession</b> request has completed.
@@ -126,7 +126,7 @@ Notification method indicating that a device service <b>OpenDataSession</b> requ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerycommandcomplete">OnQueryCommandComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerycommandcomplete">OnQueryCommandComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service <b>QUERY</b> request has completed.
@@ -135,7 +135,7 @@ Notification method indicating that a device service <b>QUERY</b> request has co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerysupportedcommandscomplete">OnQuerySupportedCommandsComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerysupportedcommandscomplete">OnQuerySupportedCommandsComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a query for the messages supported on a device service has completed.
@@ -144,7 +144,7 @@ Notification method indicating that a query for the messages supported on a devi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onreaddata">OnReadData</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onreaddata">OnReadData</a>
 </td>
 <td align="left" width="63%">
 Notification for data being read from a device service data session.
@@ -153,7 +153,7 @@ Notification for data being read from a device service data session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete">OnSetCommandComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete">OnSetCommandComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service <b>SET</b> request has completed.
@@ -162,7 +162,7 @@ Notification method indicating that a device service <b>SET</b> request has comp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete">OnWriteDataComplete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete">OnWriteDataComplete</a>
 </td>
 <td align="left" width="63%">
 Notification method indicating that a device service session <b>Write</b> request has completed.
@@ -174,14 +174,13 @@ Notification method indicating that a device service session <b>Write</b> reques
 ## -remarks
 
 The following procedure describes how to register for notifications.<ol>
-<li>Get an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager">IMbnDeviceServicesManager</a> object.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">FindConnectionPoint</a> on the returned interface and pass IID_IMbnDeviceServicesEvents to RIID.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a> on the returned connection point and pass a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on an object that implements <b>IMbnDeviceServicesEvents</b> to PUNK.</li>
+<li>Get an <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager">IMbnDeviceServicesManager</a> object.</li>
+<li>Call <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">FindConnectionPoint</a> on the returned interface and pass IID_IMbnDeviceServicesEvents to RIID.</li>
+<li>Call <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a> on the returned connection point and pass a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on an object that implements <b>IMbnDeviceServicesEvents</b> to PUNK.</li>
 </ol>
 
 
-Notifications can be terminated by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> on the connection point returned in step 2.
+Notifications can be terminated by calling <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> on the connection point returned in step 2.
 
 
-To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.
-
+To view some code that registers for COM notifications, see the Client section of the <a href="/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.

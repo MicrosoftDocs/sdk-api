@@ -119,7 +119,7 @@ Type: <b>WORD</b>
 
 If the function succeeds, the return value is the number of windows arranged.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -127,7 +127,7 @@ Calling <b>TileWindows</b> causes all maximized windows to be restored to their 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-cascadewindows">CascadeWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-cascadewindows">CascadeWindows</a>
 
 
 
@@ -147,5 +147,4 @@ Calling <b>TileWindows</b> causes all maximized windows to be restored to their 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

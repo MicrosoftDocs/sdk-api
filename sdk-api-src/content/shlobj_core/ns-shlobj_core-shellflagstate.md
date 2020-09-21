@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains a set of flags that indicate the current Shell settings. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings">SHGetSettings</a> function.
+Contains a set of flags that indicate the current Shell settings. This structure is used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings">SHGetSettings</a> function.
 
 ## -struct-fields
 
@@ -154,4 +154,3 @@ Type: <b>BOOL</b>
 Type: <b>UINT</b>
 
 For Windows Vista this bitfield is 1, otherwise member this is not used.
-

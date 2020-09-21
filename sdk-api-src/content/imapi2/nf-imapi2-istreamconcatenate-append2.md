@@ -88,15 +88,14 @@ Value: 0x80004001
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a> method prior to calling this method.
+You must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a> or <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a> method prior to calling this method.
 
-To append a single stream to this stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">IStreamConcatenate::Append</a> method.
+To append a single stream to this stream, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">IStreamConcatenate::Append</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">IStreamConcatenate::Append</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">IStreamConcatenate::Append</a>

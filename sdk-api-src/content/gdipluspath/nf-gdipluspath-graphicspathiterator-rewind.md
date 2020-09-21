@@ -58,14 +58,14 @@ The <b>GraphicsPathIterator::Rewind</b> method rewinds this iterator to the begi
 ## -remarks
 
 The first time you call the 
-				<b>NextSubpath</b> method of an iterator, it gets the first figure (subpath) of that iterator's associated path. The second time, it gets the second figure, and so on. When you call <b>GraphicsPathIterator::Rewind</b>, the sequence starts over; that is, after you call <b>GraphicsPathIterator::Rewind</b>, the next call to <a href="https://docs.microsoft.com/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> gets the first figure in the path. The <a href="https://docs.microsoft.com/previous-versions/ms535464(v=vs.85)">GraphicsPathIterator::NextMarker</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype">GraphicsPathIterator::NextPathType</a> methods behave similarly.
+				<b>NextSubpath</b> method of an iterator, it gets the first figure (subpath) of that iterator's associated path. The second time, it gets the second figure, and so on. When you call <b>GraphicsPathIterator::Rewind</b>, the sequence starts over; that is, after you call <b>GraphicsPathIterator::Rewind</b>, the next call to <a href="/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> gets the first figure in the path. The <a href="/previous-versions/ms535464(v=vs.85)">GraphicsPathIterator::NextMarker</a> and <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype">GraphicsPathIterator::NextPathType</a> methods behave similarly.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <a href="https://docs.microsoft.com/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> method twice to retrieve the second figure in the path. The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath">DrawPath</a> method draws that path in blue. Next, the code calls the <b>GraphicsPathIterator::Rewind</b> method and then calls <b>GraphicsPathIterator::NextSubpath</b> once to obtain the first figure in the path. The <b>DrawPath</b> method draws that figure in red.
+The following example creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <a href="/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> method twice to retrieve the second figure in the path. The <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath">DrawPath</a> method draws that path in blue. Next, the code calls the <b>GraphicsPathIterator::Rewind</b> method and then calls <b>GraphicsPathIterator::NextSubpath</b> once to obtain the first figure in the path. The <b>DrawPath</b> method draws that figure in red.
 
 
 ```cpp
@@ -117,29 +117,28 @@ VOID RewindExample(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)">GraphicsPathIterator::NextMarker Methods</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)">GraphicsPathIterator::NextMarker Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype">GraphicsPathIterator::NextPathType</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype">GraphicsPathIterator::NextPathType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>

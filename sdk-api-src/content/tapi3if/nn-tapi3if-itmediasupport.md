@@ -52,12 +52,12 @@ api_name:
 
 The 
 <b>ITMediaSupport</b> interface provides methods that allow an application to discover the media support capabilities for an 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a> that exposes this interface. A pointer to this interface can be obtained by calling <b>QueryInterface</b> using any address interface pointer, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
+<a href="/windows/desktop/Tapi/address-object">Address Object</a> that exposes this interface. A pointer to this interface can be obtained by calling <b>QueryInterface</b> using any address interface pointer, such as 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaSupport</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaSupport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,17 +72,17 @@ The <b>ITMediaSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-get_mediatypes">get_MediaTypes</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-get_mediatypes">get_MediaTypes</a>
 </td>
 <td align="left" width="63%">
 Gets 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a> supported.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media types</a> supported.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-querymediatype">QueryMediaType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-querymediatype">QueryMediaType</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a given media type is supported.
@@ -93,21 +93,20 @@ Indicates whether a given media type is supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>

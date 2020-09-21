@@ -56,7 +56,7 @@ The <b>Add</b> method adds a new persistent tuning space to the system.
 
 ### -param TuningSpace [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the new tuning space
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the new tuning space
 
 ### -param NewIndex [out]
 
@@ -70,9 +70,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 This method adds a new tuning space to the collection. The collection object automatically persists the tuning space information.
 
-The tuning space must have a unique name that does not clash with any of the tuning spaces already in the collection. To overwrite an existing tuning space, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_item">ITuningSpaceContainer::put_Item</a> method.
+The tuning space must have a unique name that does not clash with any of the tuning spaces already in the collection. To overwrite an existing tuning space, use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_item">ITuningSpaceContainer::put_Item</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

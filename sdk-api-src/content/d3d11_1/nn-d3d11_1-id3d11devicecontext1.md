@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext1</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>.
+The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext1</b> adds new methods to those in <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>. <b>ID3D11DeviceContext1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>. <b>ID3D11DeviceContext1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D11DeviceContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-clearview">ClearView</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-clearview">ClearView</a>
 </td>
 <td align="left" width="63%">
 Sets all the elements in a resource view to one value.
@@ -79,7 +79,7 @@ Sets all the elements in a resource view to one value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-copysubresourceregion1">CopySubresourceRegion1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-copysubresourceregion1">CopySubresourceRegion1</a>
 </td>
 <td align="left" width="63%">
 Copies a region from a source resource to a destination resource.
@@ -88,7 +88,7 @@ Copies a region from a source resource to a destination resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-csgetconstantbuffers1">CSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-csgetconstantbuffers1">CSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the compute-shader stage uses.
@@ -97,7 +97,7 @@ Gets the constant buffers that the compute-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-cssetconstantbuffers1">CSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-cssetconstantbuffers1">CSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the compute-shader stage uses.
@@ -106,7 +106,7 @@ Sets the constant buffers that the compute-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardresource">DiscardResource</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardresource">DiscardResource</a>
 </td>
 <td align="left" width="63%">
 Discards a resource from the device context.
@@ -115,7 +115,7 @@ Discards a resource from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardview">DiscardView</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardview">DiscardView</a>
 </td>
 <td align="left" width="63%">
 Discards a resource view from the device context.
@@ -124,7 +124,7 @@ Discards a resource view from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardview1">DiscardView1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-discardview1">DiscardView1</a>
 </td>
 <td align="left" width="63%">
 Discards the specified elements in a resource view from the device context.
@@ -133,7 +133,7 @@ Discards the specified elements in a resource view from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-dsgetconstantbuffers1">DSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-dsgetconstantbuffers1">DSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the domain-shader stage uses.
@@ -142,7 +142,7 @@ Gets the constant buffers that the domain-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-dssetconstantbuffers1">DSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-dssetconstantbuffers1">DSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the domain-shader stage uses.
@@ -151,7 +151,7 @@ Sets the constant buffers that the domain-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-gsgetconstantbuffers1">GSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-gsgetconstantbuffers1">GSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the geometry shader pipeline stage uses.
@@ -160,7 +160,7 @@ Gets the constant buffers that the geometry shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-gssetconstantbuffers1">GSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-gssetconstantbuffers1">GSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the geometry shader pipeline stage uses.
@@ -169,25 +169,25 @@ Sets the constant buffers that the geometry shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-hsgetconstantbuffers1">HSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-hsgetconstantbuffers1">HSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
-Gets the constant buffers that the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> uses.
+Gets the constant buffers that the <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> uses.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-hssetconstantbuffers1">HSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-hssetconstantbuffers1">HSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
-Sets the constant buffers that the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> of the pipeline uses.
+Sets the constant buffers that the <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> of the pipeline uses.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-psgetconstantbuffers1">PSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-psgetconstantbuffers1">PSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the pixel shader pipeline stage uses.
@@ -196,7 +196,7 @@ Gets the constant buffers that the pixel shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-pssetconstantbuffers1">PSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-pssetconstantbuffers1">PSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
@@ -206,7 +206,7 @@ Sets the constant buffers that the pixel shader pipeline stage uses, and enables
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate">SwapDeviceContextState</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate">SwapDeviceContextState</a>
 </td>
 <td align="left" width="63%">
 Activates the given context state object and changes the current device behavior to Direct3D 11, Direct3D 10.1, or Direct3D 10.
@@ -215,7 +215,7 @@ Activates the given context state object and changes the current device behavior
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-updatesubresource1">UpdateSubresource1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-updatesubresource1">UpdateSubresource1</a>
 </td>
 <td align="left" width="63%">
 The CPU copies data from memory to a subresource created in non-mappable memory.
@@ -224,7 +224,7 @@ The CPU copies data from memory to a subresource created in non-mappable memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-vsgetconstantbuffers1">VSGetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-vsgetconstantbuffers1">VSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the vertex shader pipeline stage uses.
@@ -233,7 +233,7 @@ Gets the constant buffers that the vertex shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-vssetconstantbuffers1">VSSetConstantBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-vssetconstantbuffers1">VSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the vertex shader pipeline stage uses.
@@ -244,9 +244,8 @@ Sets the constant buffers that the vertex shader pipeline stage uses.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>

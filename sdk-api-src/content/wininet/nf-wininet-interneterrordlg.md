@@ -63,7 +63,7 @@ Handle to the parent window for any needed dialog box. If no dialog box is neede
 ### -param hRequest [in, out]
 
 Handle to the Internet connection used in the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
 
 ### -param dwError [in]
 
@@ -282,8 +282,8 @@ Actions. This parameter can be one or more of the following values.
 </td>
 <td width="60%">
 Scans the returned headers for errors. Call <b>InternetErrorDlg</b> with this flag set following a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> so as to detect hidden errors. Authentication errors, for example, are normally hidden because the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> completes successfully, but by scanning the status codes,  <b>InternetErrorDlg</b> can determine that the proxy or server requires authentication.
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> so as to detect hidden errors. Authentication errors, for example, are normally hidden because the call to 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> completes successfully, but by scanning the status codes,  <b>InternetErrorDlg</b> can determine that the proxy or server requires authentication.
 
 </td>
 </tr>
@@ -408,14 +408,13 @@ Always inform the user  when any of the following events occur:<ul>
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>

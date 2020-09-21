@@ -94,13 +94,12 @@ No default handling for this event.
 
 ## -remarks
 
-To restore the default handling for an event, call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-restoredefaulthandling">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
+To restore the default handling for an event, call the <a href="/windows/desktop/api/control/nf-control-imediaevent-restoredefaulthandling">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>

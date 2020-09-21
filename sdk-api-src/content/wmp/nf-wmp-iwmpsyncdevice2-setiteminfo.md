@@ -200,5 +200,4 @@ Requires Windows Media Player 12.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>

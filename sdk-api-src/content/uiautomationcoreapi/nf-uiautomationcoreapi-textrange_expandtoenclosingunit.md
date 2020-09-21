@@ -62,13 +62,13 @@ A text range object.
 
 ### -param unit [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 
 The unit that the provider must expand the text range to.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -76,7 +76,7 @@ Returns S_OK if successful or an error value otherwise.
 
 If the range is already an integral number of the specified units, it remains unchanged.
 
-If the starting endpoint is not at a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a> boundary, it is moved backward until it is at a boundary. 
+If the starting endpoint is not at a <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a> boundary, it is moved backward until it is at a boundary. 
 			Subsequently, if the ending endpoint is not at a boundary, or if it is at the same boundary as the starting endpoint, 
 			the ending endpoint is moved forward until it is at a boundary.
 
@@ -86,5 +86,4 @@ If the starting endpoint is not at a <a href="https://docs.microsoft.com/windows
 <div> </div>
 <b>TextRange_ExpandToEnclosingUnit</b> respects both hidden and visible text. The UI Automationclient can check the is-hidden attribute (Text_IsHidden_Attribute_GUID) for text visibility.
 
-<b>TextRange_ExpandToEnclosingUnit</b> defaults up to the next supported <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a> if the given <b>TextUnit</b> is not supported by the control.
-
+<b>TextRange_ExpandToEnclosingUnit</b> defaults up to the next supported <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a> if the given <b>TextUnit</b> is not supported by the control.

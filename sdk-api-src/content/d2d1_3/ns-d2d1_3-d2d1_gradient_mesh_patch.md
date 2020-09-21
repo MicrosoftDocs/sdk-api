@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Represents a tensor patch with 16 control points, 4 corner colors, and boundary flags. An ID2D1GradientMesh is made up of 1 or more gradient mesh patches.
-          Use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatch">GradientMeshPatch function</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatchfromcoonspatch">GradientMeshPatchFromCoonsPatch function</a> to create one.
+          Use the <a href="/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatch">GradientMeshPatch function</a> or the <a href="/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatchfromcoonspatch">GradientMeshPatchFromCoonsPatch function</a> to create one.
 
 ## -struct-fields
 
@@ -156,4 +156,3 @@ Specifies how to render the right edge of the mesh.
 The following image shows the numbering of control points on a tensor grid.
 
 <img alt="Number of control points on a tensor grid" src="./images/tensorpatch.png"/>
-

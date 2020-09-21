@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_4">RAS_CONNECTION_4</a> structure as a placeholder for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structures.
+Used in the <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_4">RAS_CONNECTION_4</a> structure as a placeholder for the <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> and <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structures.
 
 ## -struct-fields
 
@@ -73,7 +73,7 @@ A value that specifies if the projection is for a Point-to-Point (PPP) or an Int
 </dl>
 </td>
 <td width="60%">
-The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure.
+The data is a <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-
 </dl>
 </td>
 <td width="60%">
-The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
+The data is a <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
 
 </td>
 </tr>
@@ -91,9 +91,8 @@ The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-
 
 ### -field PppProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure that is used for a PPP based tunnel.
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure that is used for a PPP based tunnel.
 
 ### -field Ikev2ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure that is used for an IKEv2 based tunnel.
-
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure that is used for an IKEv2 based tunnel.

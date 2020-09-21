@@ -62,13 +62,13 @@ A <b>NULL</b> pointer produces undefined results.
 
 ## -returns
 
-Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">ID3DUserDefinedAnnotation::EndEvent</a> method.
+Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">ID3DUserDefinedAnnotation::EndEvent</a> method.
 
 The return value is –1 if the calling application is not running under a Direct3D profiling tool.
 
 ## -remarks
 
-You call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> method to mark the end of the section of event code.
+You call the <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> method to mark the end of the section of event code.
 
 A user can visualize the event when the calling application is running under an enabled Direct3D profiling tool such as Microsoft Visual Studio Ultimate 2012.
 
@@ -77,8 +77,8 @@ A user can visualize the event when the calling application is running under an 
 
 #### Examples
 
-The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> methods.
-          It also uses the <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
+The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> methods.
+          It also uses the <a href="/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
 
 
 ```cpp
@@ -112,5 +112,4 @@ pPerf->EndEvent( );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>

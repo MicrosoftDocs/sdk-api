@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHGetMalloc</b> is available through Windows Vista and Windows Server 2003, but may be altered or unavailable in subsequent versions of the operating system or product. See the Remarks section for alternate recommendations.]
 
-Retrieves a pointer to the Shell's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
+Retrieves a pointer to the Shell's <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Retrieves a pointer to the Shell's <a href="https://docs.microsoft.com/windows/d
 
 Type: <b>LPMALLOC*</b>
 
-The address of a pointer that receives the Shell's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface pointer.
+The address of a pointer that receives the Shell's <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface pointer.
 
 ## -returns
 
@@ -70,5 +70,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-<b>SHGetMalloc</b> was introduced in Windows 95 and Microsoft Windows NT 4.0, but as of Windows 2000 it is no longer necessary. In its place, programs can call the equivalent (and easier to use) <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. If you find an older reference document that suggests or even requires the use of <b>SHGetMalloc</b>, it is acceptable and encouraged to use <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b> instead.
-
+<b>SHGetMalloc</b> was introduced in Windows 95 and Microsoft Windows NT 4.0, but as of Windows 2000 it is no longer necessary. In its place, programs can call the equivalent (and easier to use) <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. If you find an older reference document that suggests or even requires the use of <b>SHGetMalloc</b>, it is acceptable and encouraged to use <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b> instead.

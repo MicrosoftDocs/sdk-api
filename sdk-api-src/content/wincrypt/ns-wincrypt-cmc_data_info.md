@@ -65,7 +65,7 @@ Count of the number of elements in the <b>rgTaggedAttribute</b> member array.
 ### -field rgTaggedAttribute
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_attribute">CMC_TAGGED_ATTRIBUTE</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_attribute">CMC_TAGGED_ATTRIBUTE</a> structures.
 
 ### -field cTaggedRequest
 
@@ -74,7 +74,7 @@ Count of the number of elements in the <b>rgTaggedRequest</b> member array.
 ### -field rgTaggedRequest
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_request">CMC_TAGGED_REQUEST</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_request">CMC_TAGGED_REQUEST</a> structures.
 
 ### -field cTaggedContentInfo
 
@@ -83,7 +83,7 @@ Count of the number of elements in the <b>rgTaggedContentInfo</b> member array.
 ### -field rgTaggedContentInfo
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_content_info">CMC_TAGGED_CONTENT_INFO</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_content_info">CMC_TAGGED_CONTENT_INFO</a> structures.
 
 ### -field cTaggedOtherMsg
 
@@ -92,9 +92,8 @@ Count of the number of elements in the <b>rgTaggedOtherMsg</b> member array.
 ### -field rgTaggedOtherMsg
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_other_msg">CMC_TAGGED_OTHER_MSG</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_other_msg">CMC_TAGGED_OTHER_MSG</a> structures.
 
 ## -remarks
 
 All tagged arrays are optional.
-

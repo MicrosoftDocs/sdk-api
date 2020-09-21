@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enables clients to subscribe to type change notifications on objects that implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a> interfaces. When ITypeChangeEvents is implemented on an object, it acts as an incoming interface that enables the object to receive calls from external clients and engage in bidirectional communication with those clients. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/events-in-com-and-connectable-objects">Events in COM and Connectable Objects</a>.
+Enables clients to subscribe to type change notifications on objects that implement the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>, and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a> interfaces. When ITypeChangeEvents is implemented on an object, it acts as an incoming interface that enables the object to receive calls from external clients and engage in bidirectional communication with those clients. For more information, see <a href="/windows/desktop/com/events-in-com-and-connectable-objects">Events in COM and Connectable Objects</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeChangeEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeChangeEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeChangeEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeChangeEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITypeChangeEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypechangeevents-aftertypechange">AfterTypeChange</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypechangeevents-aftertypechange">AfterTypeChange</a>
 </td>
 <td align="left" width="63%">
 Raised after a type has been changed.
@@ -78,7 +78,7 @@ Raised after a type has been changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypechangeevents-requesttypechange">RequestTypeChange</a>
+<a href="/windows/desktop/api/oaidl/nf-oaidl-itypechangeevents-requesttypechange">RequestTypeChange</a>
 </td>
 <td align="left" width="63%">
 Raised when a request has been made to change a type. The change can be disallowed.
@@ -89,5 +89,4 @@ Raised when a request has been made to change a type. The change can be disallow
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>
-
+<a href="/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>

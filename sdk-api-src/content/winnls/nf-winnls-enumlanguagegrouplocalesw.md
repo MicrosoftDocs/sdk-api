@@ -60,14 +60,14 @@ api_name:
 
 ## -description
 
-Enumerates the locales in a specified language group. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> in preference to <b>EnumLanguageGroupLocales</b>.</div>
+Enumerates the locales in a specified language group. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> in preference to <b>EnumLanguageGroupLocales</b>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param lpLangGroupLocaleEnumProc [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>.
+Pointer to an application-defined callback function. For more information, see <a href="/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>.
 
 ### -param LanguageGroup [in]
 
@@ -119,7 +119,7 @@ An application-defined value to pass to the callback function. This value can be
 
 ## -returns
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -140,25 +140,24 @@ This function enumerates locales in the specified language group by passing loca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>
+<a href="/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlanguagegroup">IsValidLanguageGroup</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-isvalidlanguagegroup">IsValidLanguageGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

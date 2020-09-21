@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-The <code>GetICreateDevEnum</code> method returns a pointer to the <b>ICreateDevEnum</b> interface. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
+The <code>GetICreateDevEnum</code> method returns a pointer to the <b>ICreateDevEnum</b> interface. You can use the <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 
 
-<div class="alert"><b>Note</b>  This method is deprecated. Instead, applications should call <b>CoCreateInstance</b> with CLSID_SystemDeviceEnum to create the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-device-enumerator">System Device Enumerator</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This method is deprecated. Instead, applications should call <b>CoCreateInstance</b> with CLSID_SystemDeviceEnum to create the <a href="/windows/desktop/DirectShow/system-device-enumerator">System Device Enumerator</a>.</div><div> </div>
 
 ## -parameters
 
@@ -68,9 +68,8 @@ Returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper3">IFilterMapper3 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper3">IFilterMapper3 Interface</a>

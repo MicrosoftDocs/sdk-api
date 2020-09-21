@@ -59,7 +59,7 @@ Adds a dump of the specified type to the specified report.
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param hProcess [in]
 
@@ -71,7 +71,7 @@ A handle to the thread of <i>hProcess</i> for which the report is being generate
 
 ### -param dumpType [in]
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/Debug/minidump-files">minidump</a>. This parameter can be one of the following values from the <b>WER_DUMP_TYPE</b> enumeration type.
+The type of <a href="/windows/desktop/Debug/minidump-files">minidump</a>. This parameter can be one of the following values from the <b>WER_DUMP_TYPE</b> enumeration type.
 
 <table>
 <tr>
@@ -141,11 +141,11 @@ This type is equivalent to creating a minidump with the following options: <ul>
 
 ### -param pExceptionParam [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a> structure that specifies exception information.
+A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a> structure that specifies exception information.
 
 ### -param pDumpCustomOptions [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a> structure that specifies custom minidump options. If this parameter is <b>NULL</b>, the standard minidump information is collected.
+A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a> structure that specifies custom minidump options. If this parameter is <b>NULL</b>, the standard minidump information is collected.
 
 ### -param dwFlags [in]
 
@@ -180,25 +180,24 @@ If the server asks for a mini dump and you specify <b>WerDumpTypeHeapDump</b> fo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/minidump-files">Minidump Files</a>
+<a href="/windows/desktop/Debug/minidump-files">Minidump Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a>
+<a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a>
+<a href="/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

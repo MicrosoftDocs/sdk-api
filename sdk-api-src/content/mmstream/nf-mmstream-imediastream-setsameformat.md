@@ -70,5 +70,4 @@ Returns S_OK if successful or E_POINTER if one of the parameters is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>

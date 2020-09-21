@@ -55,12 +55,12 @@ The
 
 The 
 <b>IResultDataCompare</b> interface differs from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface. 
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface. 
 <b>IResultDataCompareEx</b> allows primary snap-ins to compare both scope and result items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultDataCompare</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultDataCompare</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultDataCompare</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultDataCompare</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IResultDataCompare</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">Compare</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two cookies.
@@ -83,4 +83,3 @@ Compares two cookies.
 </td>
 </tr>
 </table>
-

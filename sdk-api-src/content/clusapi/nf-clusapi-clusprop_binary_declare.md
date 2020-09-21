@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
+Creates a  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
 
 ## -parameters
 
 ### -param name
 
-Name of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure to be created.
+Name of the  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure to be created.
 
 ### -param cb
 
@@ -89,5 +89,4 @@ memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a>

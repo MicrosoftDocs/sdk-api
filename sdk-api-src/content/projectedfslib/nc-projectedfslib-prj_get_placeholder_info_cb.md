@@ -59,7 +59,7 @@ Requests information for a file or directory from the provider.
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
 <dd><b>FilePathName</b>Identifies the path to the file or directory in the provider's store for which ProjFS is requesting information.
 
-The provider uses this to determine whether the name exists in its backing store.  It should use the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamematch">PrjFileNameMatch</a> function to compare this name to the names in its store.  If it finds a matching name, it uses that name as the <i>destinationFileName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo">PrjWritePlaceholderInfo</a> function.
+The provider uses this to determine whether the name exists in its backing store.  It should use the <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamematch">PrjFileNameMatch</a> function to compare this name to the names in its store.  If it finds a matching name, it uses that name as the <i>destinationFileName</i> parameter of the <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo">PrjWritePlaceholderInfo</a> function.
 
 </dd>
 <dd><b>VersionInfo</b>Provides version information for the parent directory of the requested item.
@@ -121,5 +121,4 @@ Another appropriate HRESULT error code if the provider fails the operation.
 ProjFS will use the information provided in this callback to create a placeholder for the requested item. 
 
 
-To handle this callback, the provider calls <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo">PrjWritePlaceholderInfo</a> to give ProjFS the information for the requested file name. Then the provider completes the callback.
-
+To handle this callback, the provider calls <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo">PrjWritePlaceholderInfo</a> to give ProjFS the information for the requested file name. Then the provider completes the callback.

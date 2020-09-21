@@ -54,7 +54,7 @@ Exposes methods and properties for a UI Automation element, which represents a U
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-buildupdatedcache">BuildUpdatedCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-buildupdatedcache">BuildUpdatedCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new UI Automation element with an updated cache.
@@ -79,7 +79,7 @@ Retrieves a new UI Automation element with an updated cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findall">FindAll</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findall">FindAll</a>
 </td>
 <td align="left" width="63%">
 Returns all UI Automation elements that satisfy the specified condition. 
@@ -88,7 +88,7 @@ Returns all UI Automation elements that satisfy the specified condition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findallbuildcache">FindAllBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findallbuildcache">FindAllBuildCache</a>
 </td>
 <td align="left" width="63%">
 Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -97,7 +97,7 @@ Returns all UI Automation elements that satisfy the specified condition, prefetc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirst">FindFirst</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirst">FindFirst</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first child or descendant element that matches the specified condition. 
@@ -106,7 +106,7 @@ Retrieves the first child or descendant element that matches the specified condi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirstbuildcache">FindFirstBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirstbuildcache">FindFirstBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first child or descendant element that matches the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -115,7 +115,7 @@ Retrieves the first child or descendant element that matches the specified condi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedchildren">GetCachedChildren</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedchildren">GetCachedChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached child elements of this UI Automation element. 
@@ -124,7 +124,7 @@ Retrieves the cached child elements of this UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedparent">GetCachedParent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedparent">GetCachedParent</a>
 </td>
 <td align="left" width="63%">
 Retrieves from the cache the parent of this UI Automation element. 
@@ -133,16 +133,16 @@ Retrieves from the cache the parent of this UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpattern">GetCachedPattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpattern">GetCachedPattern</a>
 </td>
 <td align="left" width="63%">
-Retrieves from the cache the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern of this UI Automation element. 
+Retrieves from the cache the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern of this UI Automation element. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpatternas">GetCachedPatternAs</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpatternas">GetCachedPatternAs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control pattern interface of the specified pattern from the cache of this UI Automation element.
@@ -151,7 +151,7 @@ Retrieves the control pattern interface of the specified pattern from the cache 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue">GetCachedPropertyValue</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue">GetCachedPropertyValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value from the cache for this UI Automation element.
@@ -160,7 +160,7 @@ Retrieves a property value from the cache for this UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalueex">GetCachedPropertyValueEx</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalueex">GetCachedPropertyValueEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value from the cache for this UI Automation element, optionally ignoring any default value.
@@ -169,7 +169,7 @@ Retrieves a property value from the cache for this UI Automation element, option
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getclickablepoint">GetClickablePoint</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getclickablepoint">GetClickablePoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves a point on the element that can be clicked. 
@@ -178,16 +178,16 @@ Retrieves a point on the element that can be clicked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpattern">GetCurrentPattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpattern">GetCurrentPattern</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern on this UI Automation element. 
+Retrieves the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern on this UI Automation element. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpatternas">GetCurrentPatternAs</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpatternas">GetCurrentPatternAs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control pattern interface of the specified pattern on this UI Automation element.
@@ -196,7 +196,7 @@ Retrieves the control pattern interface of the specified pattern on this UI Auto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">GetCurrentPropertyValue</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">GetCurrentPropertyValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of a property for this UI Automation element.
@@ -205,7 +205,7 @@ Retrieves the current value of a property for this UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex">GetCurrentPropertyValueEx</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex">GetCurrentPropertyValueEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value for this UI Automation element, optionally ignoring any default value.
@@ -214,7 +214,7 @@ Retrieves a property value for this UI Automation element, optionally ignoring a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getruntimeid">GetRuntimeId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getruntimeid">GetRuntimeId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identifier assigned to the UI element. 
@@ -223,7 +223,7 @@ Retrieves the unique identifier assigned to the UI element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-setfocus">SetFocus</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the keyboard focus to this UI Automation element.
@@ -241,7 +241,7 @@ Sets the keyboard focus to this UI Automation element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedacceleratorkey">CachedAcceleratorKey</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedacceleratorkey">CachedAcceleratorKey</a>
 
 
 </td>
@@ -257,7 +257,7 @@ Retrieves the cached accelerator key for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedaccesskey">CachedAccessKey</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedaccesskey">CachedAccessKey</a>
 
 
 </td>
@@ -273,7 +273,7 @@ Retrieves the cached access key character for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariaproperties">CachedAriaProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariaproperties">CachedAriaProperties</a>
 
 
 </td>
@@ -289,7 +289,7 @@ Retrieves the cached ARIA properties of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariarole">CachedAriaRole</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariarole">CachedAriaRole</a>
 
 
 </td>
@@ -305,7 +305,7 @@ Retrieves the cached ARIA role of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedautomationid">CachedAutomationId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedautomationid">CachedAutomationId</a>
 
 
 </td>
@@ -321,7 +321,7 @@ Retrieves the cached UI Automation identifier of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedboundingrectangle">CachedBoundingRectangle</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedboundingrectangle">CachedBoundingRectangle</a>
 
 
 </td>
@@ -337,7 +337,7 @@ Retrieves the cached coordinates of the rectangle that completely encloses the e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedclassname">CachedClassName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedclassname">CachedClassName</a>
 
 
 </td>
@@ -353,7 +353,7 @@ Retrieves the cached class name of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontrollerfor">CachedControllerFor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontrollerfor">CachedControllerFor</a>
 
 
 </td>
@@ -369,7 +369,7 @@ Retrieves a cached array of UI Automation elements for which this element serves
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype">CachedControlType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype">CachedControlType</a>
 
 
 </td>
@@ -385,7 +385,7 @@ Retrieves a cached value that indicates the control type of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedculture">CachedCulture</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedculture">CachedCulture</a>
 
 
 </td>
@@ -401,7 +401,7 @@ Retrieves a cached value that indicates the culture associated with the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheddescribedby">CachedDescribedBy</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheddescribedby">CachedDescribedBy</a>
 
 
 </td>
@@ -417,7 +417,7 @@ Retrieves a cached array of elements  that describe this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedflowsto">CachedFlowsTo</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedflowsto">CachedFlowsTo</a>
 
 
 </td>
@@ -433,7 +433,7 @@ Retrieves a cached array of elements that indicate the reading order after the c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedframeworkid">CachedFrameworkId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedframeworkid">CachedFrameworkId</a>
 
 
 </td>
@@ -449,7 +449,7 @@ Retrieves the cached name of the underlying UI framework associated with the ele
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhaskeyboardfocus">CachedHasKeyboardFocus</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhaskeyboardfocus">CachedHasKeyboardFocus</a>
 
 
 </td>
@@ -465,7 +465,7 @@ A cached value that indicates whether the element has keyboard focus.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext">CachedHelpText</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext">CachedHelpText</a>
 
 
 </td>
@@ -481,7 +481,7 @@ Retrieves the cached help text for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontentelement">CachedIsContentElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontentelement">CachedIsContentElement</a>
 
 
 </td>
@@ -497,7 +497,7 @@ A cached value that indicates whether the element is a content element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontrolelement">CachedIsControlElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontrolelement">CachedIsControlElement</a>
 
 
 </td>
@@ -513,7 +513,7 @@ Retrieves a cached value that indicates whether the element is a control element
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisdatavalidforform">CachedIsDataValidForForm</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisdatavalidforform">CachedIsDataValidForForm</a>
 
 
 </td>
@@ -529,7 +529,7 @@ Retrieves a cached value that indicates whether the element contains valid data 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisenabled">CachedIsEnabled</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisenabled">CachedIsEnabled</a>
 
 
 </td>
@@ -545,7 +545,7 @@ Retrieves a cached value that indicates whether the element is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediskeyboardfocusable">CachedIsKeyboardFocusable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediskeyboardfocusable">CachedIsKeyboardFocusable</a>
 
 
 </td>
@@ -561,7 +561,7 @@ Retrieves a cached value that indicates whether the element can accept keyboard 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisoffscreen">CachedIsOffscreen</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisoffscreen">CachedIsOffscreen</a>
 
 
 </td>
@@ -577,7 +577,7 @@ Retrieves a cached value that indicates whether the element is off-screen.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedispassword">CachedIsPassword</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedispassword">CachedIsPassword</a>
 
 
 </td>
@@ -593,7 +593,7 @@ Retrieves a cached value that indicates whether the element contains a disguised
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisrequiredforform">CachedIsRequiredForForm</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisrequiredforform">CachedIsRequiredForForm</a>
 
 
 </td>
@@ -609,7 +609,7 @@ Retrieves a cached value that indicates whether the element is required to be fi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemstatus">CachedItemStatus</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemstatus">CachedItemStatus</a>
 
 
 </td>
@@ -625,7 +625,7 @@ Retrieves a cached description of the status of an item within an element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemtype">CachedItemType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemtype">CachedItemType</a>
 
 
 </td>
@@ -641,7 +641,7 @@ Retrieves a cached string that describes the type of item represented by the ele
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlabeledby">CachedLabeledBy</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlabeledby">CachedLabeledBy</a>
 
 
 </td>
@@ -657,7 +657,7 @@ Retrieves the cached element that contains the text label for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype">CachedLocalizedControlType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype">CachedLocalizedControlType</a>
 
 
 </td>
@@ -673,7 +673,7 @@ Retrieves the cached localized description of the control type of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedname">CachedName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedname">CachedName</a>
 
 
 </td>
@@ -689,7 +689,7 @@ Retrieves the cached name of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachednativewindowhandle">CachedNativeWindowHandle</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachednativewindowhandle">CachedNativeWindowHandle</a>
 
 
 </td>
@@ -705,7 +705,7 @@ Retrieves the cached window handle of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedorientation">CachedOrientation</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedorientation">CachedOrientation</a>
 
 
 </td>
@@ -721,7 +721,7 @@ Retrieves a cached value that indicates the orientation of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedprocessid">CachedProcessId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedprocessid">CachedProcessId</a>
 
 
 </td>
@@ -737,7 +737,7 @@ Retrieves the cached ID of the process that hosts the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedproviderdescription">CachedProviderDescription</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedproviderdescription">CachedProviderDescription</a>
 
 
 </td>
@@ -753,7 +753,7 @@ Retrieves a cached description of the provider for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentacceleratorkey">CurrentAcceleratorKey</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentacceleratorkey">CurrentAcceleratorKey</a>
 
 
 </td>
@@ -769,7 +769,7 @@ Retrieves the accelerator key for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentaccesskey">CurrentAccessKey</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentaccesskey">CurrentAccessKey</a>
 
 
 </td>
@@ -785,7 +785,7 @@ Retrieves the access key character for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
 
 
 </td>
@@ -801,7 +801,7 @@ Retrieves the ARIA properties of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariarole">CurrentAriaRole</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariarole">CurrentAriaRole</a>
 
 
 </td>
@@ -817,7 +817,7 @@ Retrieves the ARIA role of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentautomationid">CurrentAutomationId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentautomationid">CurrentAutomationId</a>
 
 
 </td>
@@ -833,7 +833,7 @@ Retrieves the UI Automation identifier of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentboundingrectangle">CurrentBoundingRectangle</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentboundingrectangle">CurrentBoundingRectangle</a>
 
 
 </td>
@@ -849,7 +849,7 @@ Retrieves the coordinates of the rectangle that completely encloses the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentclassname">CurrentClassName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentclassname">CurrentClassName</a>
 
 
 </td>
@@ -865,7 +865,7 @@ Retrieves the class name of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontrollerfor">CurrentControllerFor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontrollerfor">CurrentControllerFor</a>
 
 
 </td>
@@ -881,7 +881,7 @@ Retrieves an array of elements for which this element serves as the controller.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontroltype">CurrentControlType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontroltype">CurrentControlType</a>
 
 
 </td>
@@ -897,7 +897,7 @@ Retrieves the control type of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentculture">CurrentCulture</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentculture">CurrentCulture</a>
 
 
 </td>
@@ -913,7 +913,7 @@ Retrieves the culture identifier for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentdescribedby">CurrentDescribedBy</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentdescribedby">CurrentDescribedBy</a>
 
 
 </td>
@@ -929,7 +929,7 @@ Retrieves an array of elements that describe this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentflowsto">CurrentFlowsTo</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentflowsto">CurrentFlowsTo</a>
 
 
 </td>
@@ -945,7 +945,7 @@ Retrieves an array of elements that indicates the reading order after the curren
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentframeworkid">CurrentFrameworkId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentframeworkid">CurrentFrameworkId</a>
 
 
 </td>
@@ -961,7 +961,7 @@ Retrieves the name of the underlying UI framework.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthaskeyboardfocus">CurrentHasKeyboardFocus</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthaskeyboardfocus">CurrentHasKeyboardFocus</a>
 
 
 </td>
@@ -977,7 +977,7 @@ Indicates whether the element has keyboard focus.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext">CurrentHelpText</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext">CurrentHelpText</a>
 
 
 </td>
@@ -993,7 +993,7 @@ Retrieves the help text for the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement">CurrentIsContentElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement">CurrentIsContentElement</a>
 
 
 </td>
@@ -1009,7 +1009,7 @@ Indicates whether the element is a content element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement">CurrentIsControlElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement">CurrentIsControlElement</a>
 
 
 </td>
@@ -1025,7 +1025,7 @@ Indicates whether the element is a control element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisdatavalidforform">CurrentIsDataValidForForm</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisdatavalidforform">CurrentIsDataValidForForm</a>
 
 
 </td>
@@ -1041,7 +1041,7 @@ Indicates whether the element contains valid data for a form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisenabled">CurrentIsEnabled</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisenabled">CurrentIsEnabled</a>
 
 
 </td>
@@ -1057,7 +1057,7 @@ Indicates whether the element is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiskeyboardfocusable">CurrentIsKeyboardFocusable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiskeyboardfocusable">CurrentIsKeyboardFocusable</a>
 
 
 </td>
@@ -1073,7 +1073,7 @@ Indicates whether the element can accept keyboard focus.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisoffscreen">CurrentIsOffscreen</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisoffscreen">CurrentIsOffscreen</a>
 
 
 </td>
@@ -1089,7 +1089,7 @@ Indicates whether the element is off-screen.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentispassword">CurrentIsPassword</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentispassword">CurrentIsPassword</a>
 
 
 </td>
@@ -1105,7 +1105,7 @@ Indicates whether the element contains a disguised password.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisrequiredforform">CurrentIsRequiredForForm</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisrequiredforform">CurrentIsRequiredForForm</a>
 
 
 </td>
@@ -1121,7 +1121,7 @@ Indicates whether the element is required to be filled out on a form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemstatus">CurrentItemStatus</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemstatus">CurrentItemStatus</a>
 
 
 </td>
@@ -1137,7 +1137,7 @@ Retrieves the description of the status of an item in an element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemtype">CurrentItemType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemtype">CurrentItemType</a>
 
 
 </td>
@@ -1153,7 +1153,7 @@ Retrieves a description of the type of UI item represented by the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlabeledby">CurrentLabeledBy</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlabeledby">CurrentLabeledBy</a>
 
 
 </td>
@@ -1169,7 +1169,7 @@ Retrieves the element that contains the text label for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlocalizedcontroltype">CurrentLocalizedControlType</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlocalizedcontroltype">CurrentLocalizedControlType</a>
 
 
 </td>
@@ -1185,7 +1185,7 @@ Retrieves a localized description of the control type of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentname">CurrentName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentname">CurrentName</a>
 
 
 </td>
@@ -1201,7 +1201,7 @@ Retrieves the name of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentnativewindowhandle">CurrentNativeWindowHandle</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentnativewindowhandle">CurrentNativeWindowHandle</a>
 
 
 </td>
@@ -1217,7 +1217,7 @@ Retrieves the window handle of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentorientation">CurrentOrientation</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentorientation">CurrentOrientation</a>
 
 
 </td>
@@ -1233,7 +1233,7 @@ Retrieves a value that indicates the orientation of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentprocessid">CurrentProcessId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentprocessid">CurrentProcessId</a>
 
 
 </td>
@@ -1249,7 +1249,7 @@ Retrieves the identifier of the process that hosts the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentproviderdescription">CurrentProviderDescription</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentproviderdescription">CurrentProviderDescription</a>
 
 
 </td>
@@ -1266,5 +1266,4 @@ Retrieves a description of the provider for this element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

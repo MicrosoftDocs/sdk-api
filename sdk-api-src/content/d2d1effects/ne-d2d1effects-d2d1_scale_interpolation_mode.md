@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/high-quality-scale">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed.
+The interpolation mode the <a href="/windows/desktop/Direct2D/high-quality-scale">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed.
 
 ## -enum-fields
 
@@ -79,4 +79,3 @@ Uses anisotropic filtering to sample a pattern according to the transformed shap
 Uses a variable size high quality cubic kernel to perform a pre-downscale the image if downscaling is involved in the transform matrix. Then uses the cubic interpolation mode for the final output.
 
 ### -field D2D1_SCALE_INTERPOLATION_MODE_FORCE_DWORD
-

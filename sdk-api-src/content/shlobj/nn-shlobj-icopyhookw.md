@@ -45,11 +45,11 @@ Exposes a method that creates a *copy hook handler*. A copy hook handler is a Sh
 
 ## -remarks
 
-The copy hook handler, which is an OLE in-process server (a dll), does not perform the task itself, but it does approve or disapprove the action. If the Shell receives approval from the copy hook handler, it performs the file system operation. Copy hook handlers are not informed about the success of an operation, so they cannot monitor actions taken on folder objects unless [FindFirstChangeNotification](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa) is used.
+The copy hook handler, which is an OLE in-process server (a dll), does not perform the task itself, but it does approve or disapprove the action. If the Shell receives approval from the copy hook handler, it performs the file system operation. Copy hook handlers are not informed about the success of an operation, so they cannot monitor actions taken on folder objects unless [FindFirstChangeNotification](/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa) is used.
 
 A folder object can have multiple copy hook handlers. For example, even if the Shell already has a copy hook handler registered for a particular folder object, you can still register one of your own. If two or more copy hook handlers are registered for an object, the Shell simply calls each of them before performing one of the specified file system operations.
 
-The Shell initializes **ICopyHookA** directly, without using the [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.
+The Shell initializes **ICopyHookA** directly, without using the [IShellExtInit](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.
 
 [CopyCallback](nf-shlobj-icopyhookw-copycallback.md) returns an int value that indicates whether the Shell should perform the operation. The Shell will call each copy hook handler registered for a folder object until all the handlers have been called or until one of them has returned a value other than IDYES. The handler returns IDYES to specify that the operation should be performed, or IDNO or IDCANCEL to specify that the operation should be discontinued.
 
@@ -63,4 +63,3 @@ You do not call this Shell extension directly. [CopyCallback](nf-shlobj-icopyhoo
 > The shlobj.h header defines ICopyHook as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-

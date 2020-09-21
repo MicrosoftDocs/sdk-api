@@ -56,15 +56,15 @@ The <b>SetupDiAskForOEMDisk</b> function displays a dialog that asks the user fo
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed.
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed.
 
 ### -param DeviceInfoData [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiAskForOEMDisk</b> associates the driver with the device that is being installed. If this parameter is <b>NULL</b>, <b>SetupDiAskForOEMDisk</b> associates the driver with the global class driver list for <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiAskForOEMDisk</b> associates the driver with the device that is being installed. If this parameter is <b>NULL</b>, <b>SetupDiAskForOEMDisk</b> associates the driver with the global class driver list for <i>DeviceInfoSet</i>.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful and the <b>DriverPath</b> field of the SP_DEVINSTALLPARAMS structure is updated to reflect the new path. If the user cancels the dialog, the function returns <b>FALSE</b> and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_CANCELLED.
+The function returns <b>TRUE</b> if it is successful and the <b>DriverPath</b> field of the SP_DEVINSTALLPARAMS structure is updated to reflect the new path. If the user cancels the dialog, the function returns <b>FALSE</b> and a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_CANCELLED.
 
 ## -remarks
 
@@ -76,5 +76,4 @@ In particular, the device information set cannot be used as input with a DIF_SEL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiselectoemdrv">SetupDiSelectOEMDrv</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiselectoemdrv">SetupDiSelectOEMDrv</a>

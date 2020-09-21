@@ -60,7 +60,7 @@ While this API is being called and the runtime has determined that the cancellat
             
 
 The caller should therefore assume that the runtime may call on the callback 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_operation_cancel_callback">WS_OPERATION_CANCEL_CALLBACK</a> as soon as the WsRegisterOperationForCancel is called.
+                <a href="/windows/desktop/api/webservices/nc-webservices-ws_operation_cancel_callback">WS_OPERATION_CANCEL_CALLBACK</a> as soon as the WsRegisterOperationForCancel is called.
 
 ## -parameters
 
@@ -87,4 +87,3 @@ Specifies where additional error information should be stored if the function fa
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

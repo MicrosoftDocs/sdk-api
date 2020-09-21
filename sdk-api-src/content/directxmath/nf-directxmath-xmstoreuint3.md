@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Stores unsigned integer data from an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <b>XMUINT3</b> structure.
+Stores unsigned integer data from an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <b>XMUINT3</b> structure.
 
 ## -parameters
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> structure in which to store the data.
+Address of an  <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> structure in which to store the data.
 
 ### -param V
 
@@ -68,7 +68,7 @@ None.
 
 ## -remarks
 
-For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoreint3a">XMStoreInt3A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmstoreint3a">XMStoreInt3A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.
@@ -96,5 +96,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>

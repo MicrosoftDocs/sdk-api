@@ -81,7 +81,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
        or <b>FALSE</b>. If <b>TRUE</b>, the Unicode string pointed to by the 
        <i>pszUPN</i> parameter contains the UPN of the registered user. If the function fails, the 
        returned value describes the error. Possible values include those listed at 
-       <a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
+       <a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
 
 If the buffer size indicated by the <i>cchUPN</i> parameter is too small then the call will fail with 
        <b>STRSAFE_E_INSUFFICIENT_BUFFER</b> but the <b>BOOL</b> pointed to by 
@@ -90,9 +90,8 @@ If the buffer size indicated by the <i>cchUPN</i> parameter is too small then th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
+<a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>
-
+<a href="/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>

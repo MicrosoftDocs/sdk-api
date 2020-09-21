@@ -102,5 +102,4 @@ If pbstr is NULL, there will be an access violation and the program will crash. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>
-
+<a href="/previous-versions/windows/desktop/automat/string-manipulation-functions">String Manipulation Functions</a>

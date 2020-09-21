@@ -56,15 +56,15 @@ Retrieves a property handler for a Shell item.
 
 ### -param punkItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a Shell item that supports <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a Shell item that supports <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
                     
 
-<b>Windows XP:</b> Use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellitem">SHCreateShellItem</a> to create the Shell item.
+<b>Windows XP:</b> Use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellitem">SHCreateShellItem</a> to create the Shell item.
 
-<b>Windows Vista:</b> Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname">SHCreateItemFromParsingName</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromrelativename">SHCreateItemFromRelativeName</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemwithparent">SHCreateItemWithParent</a> to create the Shell item.
+<b>Windows Vista:</b> Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname">SHCreateItemFromParsingName</a>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromrelativename">SHCreateItemFromRelativeName</a>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>, or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemwithparent">SHCreateItemWithParent</a> to create the Shell item.
 
 ### -param fReadWrite [in]
 
@@ -76,7 +76,7 @@ Type: <b>BOOL</b>
 
 Type: <b>REFIID</b>
 
-Reference to the IID of the interface the handler object should return. This should be <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
+Reference to the IID of the interface the handler object should return. This should be <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
 
 ### -param ppv [out]
 
@@ -92,16 +92,16 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
+This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> instead of <a href="/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
 
-This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>.
+This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
+You must initialize Component Object Model (COM) with <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>. COM must remain initialized for the lifetime of this object.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a> to obtain a property handler for an item.
 
 
 ```cpp
@@ -119,4 +119,3 @@ if (SUCCEEDED(hr))
     pStore->Release();
 }
 ```
-

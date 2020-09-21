@@ -66,9 +66,8 @@ Returns <b>TRUE</b> if the user is a member of the Administrator's group; otherw
 
 ## -remarks
 
-This function is a wrapper for <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a>. It is recommended to call that function directly to determine Administrator group status rather than calling  <b>IsUserAnAdmin</b>.
+This function is a wrapper for <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a>. It is recommended to call that function directly to determine Administrator group status rather than calling  <b>IsUserAnAdmin</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a>

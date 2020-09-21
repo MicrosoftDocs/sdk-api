@@ -59,9 +59,9 @@ This function is designed for internal use by Microsoft Active Accessibility and
 
 ### -param lResult [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LRESULT</a></b>
 
-A 32-bit value returned by a previous successful call to the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-lresultfromobject">LresultFromObject</a> function.
+A 32-bit value returned by a previous successful call to the <a href="/windows/desktop/api/oleacc/nf-oleacc-lresultfromobject">LresultFromObject</a> function.
 
 ### -param riid [in]
 
@@ -71,15 +71,15 @@ Reference identifier of the interface to be retrieved. This is IID_IAccessible.
 
 ### -param wParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
-Value sent by the associated <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
+Value sent by the associated <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
 
 ### -param ppvObject [out]
 
 Type: <b>void**</b>
 
-Receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface on the object that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
+Receives the address of the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface on the object that corresponds to the <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
 
 ## -returns
 
@@ -87,7 +87,7 @@ Type: <b>STDAPI</b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the following standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error codes</a>.
+If not successful, returns one of the following standard <a href="/windows/desktop/WinAuto/return-values">COM error codes</a>.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ If not successful, returns one of the following standard <a href="https://docs.m
 </dl>
 </td>
 <td width="60%">
-One or more arguments are not valid. This occurs when the <i>lResult</i> parameter specified is not a value obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-lresultfromobject">LresultFromObject</a>, or when <i>lResult</i> is a value used on a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-objectfromlresult">ObjectFromLresult</a>.
+One or more arguments are not valid. This occurs when the <i>lResult</i> parameter specified is not a value obtained by a call to <a href="/windows/desktop/api/oleacc/nf-oleacc-lresultfromobject">LresultFromObject</a>, or when <i>lResult</i> is a value used on a previous call to <a href="/windows/desktop/api/oleacc/nf-oleacc-objectfromlresult">ObjectFromLresult</a>.
 
 </td>
 </tr>
@@ -142,5 +142,4 @@ An unexpected error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject-window-message">WM_GETOBJECT Window Message</a>
-
+<a href="/windows/desktop/WinAuto/wm-getobject-window-message">WM_GETOBJECT Window Message</a>

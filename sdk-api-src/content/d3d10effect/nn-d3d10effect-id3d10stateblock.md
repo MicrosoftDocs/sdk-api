@@ -55,7 +55,7 @@ A state-block interface encapsulates render states.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10StateBlock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10StateBlock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10StateBlock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10StateBlock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10StateBlock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-apply">Apply</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-apply">Apply</a>
 </td>
 <td align="left" width="63%">
 Apply the state block to the current device state.
@@ -79,7 +79,7 @@ Apply the state block to the current device state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-capture">Capture</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-capture">Capture</a>
 </td>
 <td align="left" width="63%">
 Capture the current value of states that are included in a stateblock.
@@ -88,7 +88,7 @@ Capture the current value of states that are included in a stateblock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get the device.
@@ -97,7 +97,7 @@ Get the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-releasealldeviceobjects">ReleaseAllDeviceObjects</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-releasealldeviceobjects">ReleaseAllDeviceObjects</a>
 </td>
 <td align="left" width="63%">
 Release all references to device objects.
@@ -108,11 +108,10 @@ Release all references to device objects.
 
 ## -remarks
 
-To create a state-block interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10createstateblock">D3D10CreateStateBlock</a>.
+To create a state-block interface, call <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10createstateblock">D3D10CreateStateBlock</a>.
 
 This interface can be used to save and restore pipeline state. It can also be used to capture the current state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>

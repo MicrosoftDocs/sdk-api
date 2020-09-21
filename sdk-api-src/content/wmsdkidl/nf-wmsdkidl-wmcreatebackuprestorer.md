@@ -56,11 +56,11 @@ The <b>WMCreateBackupRestorer</b> function creates a backup restorer object.
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface containing the <b>OnStatus</b> callback method to be used by the new backup restorer object.
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface containing the <b>OnStatus</b> callback method to be used by the new backup restorer object.
 
 ### -param ppBackup [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup</a> interface of the newly created backup restorer object.
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup</a> interface of the newly created backup restorer object.
 
 ## -returns
 
@@ -97,13 +97,12 @@ The function is unable to allocate memory for the new object.
 
 ## -remarks
 
-Use <b>IWMLicenseBackup::QueryInterface</b> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a> interface.
+Use <b>IWMLicenseBackup::QueryInterface</b> to obtain a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
+<a href="/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

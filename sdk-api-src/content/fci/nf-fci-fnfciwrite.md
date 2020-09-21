@@ -45,9 +45,6 @@ api_name:
  - FNFCIWRITE
 ---
 
-# FNFCIWRITE macro
-
-
 ## -description
 
 The <b>FNFCIWRITE</b> macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
@@ -58,33 +55,11 @@ The <b>FNFCIWRITE</b> macro provides the declaration for the application-defined
 
 An application-defined value used to identify the open file.
 
-
-#### - cb
-
-The maximum number of bytes to be written.
-
-
-#### - err
-
-Pointer to the error code value. This value is used when providing extended error information in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
-
-
-#### - memory
-
-Pointer to the buffer containing the data to be written.
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/1570wh78(VS.80).aspx">_write</a>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNFCIWRITE(fnFileWrite)
@@ -101,10 +76,8 @@ FNFCIWRITE(fnFileWrite)
 
     return dwBytesWritten;
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

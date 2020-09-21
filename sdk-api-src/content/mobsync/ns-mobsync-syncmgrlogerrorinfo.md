@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Provides error information for use in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a> method.
+Provides error information for use in the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a> method.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The size of the structure.
 
 Type: <b>DWORD</b>
 
-The mask value. The synchronization manager handler implemented by your application can set any combination of the following bits to indicate which fields of <b>SYNCMGRLOGERRORINFO</b> it has filled in when calling <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>.
+The mask value. The synchronization manager handler implemented by your application can set any combination of the following bits to indicate which fields of <b>SYNCMGRLOGERRORINFO</b> it has filled in when calling <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>.
 
 
 
@@ -98,7 +98,7 @@ Error flags. At this time only the following value is recognized.
 
 #### SYNCMGRERRORFLAG_ENABLEJUMPTEXT
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ISyncMgrSynchronize::ShowError</a> method should be called on this item.
+The <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ISyncMgrSynchronize::ShowError</a> method should be called on this item.
 
 ### -field ErrorID
 
@@ -114,5 +114,4 @@ The item where the error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>

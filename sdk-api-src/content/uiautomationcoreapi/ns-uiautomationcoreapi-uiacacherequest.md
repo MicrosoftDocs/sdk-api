@@ -58,19 +58,19 @@ api_name:
 
 Type: <b>UiaCondition *</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a> structure that specifies the condition that cached elements must match.
+The address of a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a> structure that specifies the condition that cached elements must match.
 
 ### -field Scope
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> enumerated type indicating the scope of the cache request; for example, whether it includes children of the root element.
+A value from the <a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> enumerated type indicating the scope of the cache request; for example, whether it includes children of the root element.
 
 ### -field pProperties
 
 Type: <b>PROPERTYID*</b>
 
-The address of an array of identifiers for properties to cache. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The address of an array of identifiers for properties to cache. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -field cProperties
 
@@ -82,7 +82,7 @@ The count of elements in the <b>pProperties</b> array.
 
 Type: <b>PATTERNID*</b>
 
-The address of an array of identifiers for control patterns to cache. For a list of control pattern IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-controlpattern-ids">Control Pattern Identifiers</a>.
+The address of an array of identifiers for control patterns to cache. For a list of control pattern IDs, see <a href="/windows/desktop/WinAuto/uiauto-controlpattern-ids">Control Pattern Identifiers</a>.
 
 ### -field cPatterns
 
@@ -92,7 +92,6 @@ The count of elements in the <b>pPatterns</b> array.
 
 ### -field automationElementMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-automationelementmode">AutomationElementMode</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-automationelementmode">AutomationElementMode</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-automationelementmode">AutomationElementMode</a> enumerated type indicating the type of reference to cached UI Automation elements that is to be returned.
-
+A value from the <a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-automationelementmode">AutomationElementMode</a> enumerated type indicating the type of reference to cached UI Automation elements that is to be returned.

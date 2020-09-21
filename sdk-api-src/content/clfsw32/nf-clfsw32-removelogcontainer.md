@@ -52,17 +52,17 @@ api_name:
 
 Removes  one  container from a log that is associated with a dedicated or multiplexed log handle.
 
-A client must have  administrative privileges on the log handle to  remove   a  container.   To remove multiple containers,  use the   <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>  function.
+A client must have  administrative privileges on the log handle to  remove   a  container.   To remove multiple containers,  use the   <a href="/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>  function.
 
 ## -parameters
 
 ### -param hLog [in]
 
-A handle to the log that is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.
+A handle to the log that is obtained from <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.
 
 ### -param pwszContainerPath [in]
 
-A pointer to a wide character string that contains a  path for a  log container that is created by either  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>.
+A pointer to a wide character string that contains a  path for a  log container that is created by either  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a> or <a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>.
 
 ### -param fForce [in]
 
@@ -82,7 +82,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
  The following list identifies the possible error codes:
 
@@ -94,21 +94,20 @@ A log client can request a forced deletion on a container by setting the deletio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>

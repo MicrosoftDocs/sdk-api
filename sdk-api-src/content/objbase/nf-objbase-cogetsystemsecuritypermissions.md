@@ -58,11 +58,11 @@ Returns the default values of the Security Descriptors of the machine-wide launc
 
 ### -param comSDType [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a> enumeration. Specifies the type of the requested system security permissions, such as launch permissions, access permissions, launch restrictions, and access restrictions.
+A value from the <a href="/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a> enumeration. Specifies the type of the requested system security permissions, such as launch permissions, access permissions, launch restrictions, and access restrictions.
 
 ### -param ppSD [out]
 
-Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> for the system security permissions. Memory will be allocated by <b>CoGetSystemSecurityPermissions</b> and should be freed by caller with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> for the system security permissions. Memory will be allocated by <b>CoGetSystemSecurityPermissions</b> and should be freed by caller with <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 ## -returns
 
@@ -121,9 +121,8 @@ Not enough memory for the security descriptor's allocation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a>
+<a href="/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>

@@ -112,12 +112,11 @@ If the function succeeds, the return value is S_OK. Otherwise, the return value 
 ## -remarks
 
 This function provides the time provider with a simplified interface for event logging. Time providers that require more extensive event logging can perform their own event logging. For more information on event logging, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging">Event Logging</a>.
+<a href="/windows/desktop/EventLog/event-logging">Event Logging</a>.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
-
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>

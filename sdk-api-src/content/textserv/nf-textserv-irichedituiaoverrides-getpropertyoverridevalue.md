@@ -68,11 +68,10 @@ The host container's override value for the <i>propertyId</i> property.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRicheditUiaOverrides</a>
-
+<a href="/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRicheditUiaOverrides</a>

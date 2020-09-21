@@ -56,7 +56,7 @@ Receives a notification when the layout of a context view changes.
 
 ### -param pic [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface for the context that changed.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface for the context that changed.
 
 ### -param lcode [in]
 
@@ -64,7 +64,7 @@ Specifies the <a href="/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutC
 
 ### -param pView [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface for the context view in that the layout change occurred.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface for the context view in that the layout change occurred.
 
 ## -returns
 
@@ -72,30 +72,29 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Each context has a default view for which a reference can be obtained using the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView</a> method. The method returns only the value TF_LC_CHANGE for the <i>lcode</i> parameter for this view, because the values are possible only for multiple views. Because TSF does not support multiple views, this method never receives other values of the <b>TfLayoutCode</b> enumeration.
+Each context has a default view for which a reference can be obtained using the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView</a> method. The method returns only the value TF_LC_CHANGE for the <i>lcode</i> parameter for this view, because the values are possible only for multiple views. Because TSF does not support multiple views, this method never receives other values of the <b>TfLayoutCode</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
       </a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutCode
       </a>
-

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioRead</b> function reads a specified number of bytes from a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioRead</b> function reads a specified number of bytes from a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ## -parameters
 
@@ -72,4 +72,3 @@ Number of bytes to read from the file.
 ## -returns
 
 Returns the number of bytes actually read. If the end of the file has been reached and no more bytes can be read, the return value is 0. If there is an error reading from the file, the return value is –1.
-

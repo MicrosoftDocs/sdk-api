@@ -76,7 +76,7 @@ The return value identifies the most recently active pop-up window. The return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-anypopup">AnyPopup</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-anypopup">AnyPopup</a>
 
 
 
@@ -88,9 +88,8 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

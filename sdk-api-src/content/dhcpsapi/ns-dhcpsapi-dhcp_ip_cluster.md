@@ -60,9 +60,8 @@ The <b>DHCP_IP_CLUSTER</b> structure defines the address and mast for a network 
 
 ### -field ClusterAddress
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the cluster.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the cluster.
 
 ### -field ClusterMask
 
 Specifies the mask value for a cluster. This value should be set to  0xFFFFFFFF if the cluster is full.
-

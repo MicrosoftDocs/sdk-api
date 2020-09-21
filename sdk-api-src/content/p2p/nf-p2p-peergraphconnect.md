@@ -64,7 +64,7 @@ The unique ID of a peer to connect to at  <i>pAddress</i>. Specify <b>NULL</b> t
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that identifies a node to connect to.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that identifies a node to connect to.
 
 ### -param pullConnectionId [out]
 
@@ -130,7 +130,7 @@ The handle to a peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-A graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+A graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -138,21 +138,20 @@ A graph must be  initialized with a call to <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopendirectconnection">PeerGraphOpenDirectConnection</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphopendirectconnection">PeerGraphOpenDirectConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsenddata">PeerGraphSendData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphsenddata">PeerGraphSendData</a>

@@ -87,5 +87,4 @@ You cannot set <b>FsrmRuleFlags_Invalid</b>; this flag is used by FSRM.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmrule-get_ruleflags">IFsrmRule.RuleFlags</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmrule-get_ruleflags">IFsrmRule.RuleFlags</a>

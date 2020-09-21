@@ -56,11 +56,11 @@ Obtains access to the document text and properties.
 
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client to establish the edit session with.
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client to establish the edit session with.
 
 ### -param pes [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession</a> interface called to perform the edit session.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession</a> interface called to perform the edit session.
 
 ### -param dwFlags [in]
 
@@ -131,7 +131,7 @@ Address of an <b>HRESULT</b> value that receives the result of the edit session 
 <li>If an asynchronous edit session is requested and can be established, receives TF_S_ASYNC.</li>
 <li>If a synchronous edit session is requested and cannot be established, receives TF_E_SYNCHRONOUS.</li>
 <li>If the TF_ES_READWRITE flag is specified and the document is read-only, receives TS_E_READONLY.</li>
-<li>If a synchronous edit session is established, receives the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.</li>
+<li>If a synchronous edit session is established, receives the return value of the <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.</li>
 </ul>
 
 ## -returns
@@ -210,15 +210,15 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
+<a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
+<a href="/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
             </a>
 </li>
 </ul>
@@ -226,4 +226,3 @@ A synchronous read/write request will fail if made when processing one of the fo
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)
-

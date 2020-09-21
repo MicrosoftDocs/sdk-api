@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setshield">BCM_SETSHIELD</a> message explicitly.
+Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="/windows/desktop/Controls/bcm-setshield">BCM_SETSHIELD</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param fRequired [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to draw an elevated icon, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
 An application must use comctl32.dll version 6 to gain this functionality.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative">IAudioFrameNative</a> from the provided <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>.
+Creates an <a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative">IAudioFrameNative</a> from the provided <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ A value indicating whether the created software audio frame is read-only.
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative">IAudioFrameNative</a> interface.
+The IID of the <a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative">IAudioFrameNative</a> interface.
 
 ### -param ppv [out]
 
@@ -86,5 +86,4 @@ Returns S_OK on successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory">IAudioFrameNativeFactory</a>
-
+<a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory">IAudioFrameNativeFactory</a>

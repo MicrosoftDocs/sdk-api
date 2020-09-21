@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure.
+Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets the data time-out value, in seconds, for data transactions between the inde
 
 Type: <b>DWORD*</b>
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> value for data transactions (the amount of time to wait for a data transaction).
+Receives a pointer to the <a href="/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> value for data transactions (the amount of time to wait for a data transaction).
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The indexer expects the first chunk of a document to be received within the connection time-out interval and any subsequent chunks to be received within the data time-out interval. These time-out values help prevent filters and protocol handlers from  failing or causing performance issues.
-

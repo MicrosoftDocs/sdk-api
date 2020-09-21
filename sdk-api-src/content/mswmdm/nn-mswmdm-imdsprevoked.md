@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMDSPRevoked</b> interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+The <b>IMDSPRevoked</b> interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPRevoked</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPRevoked</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPRevoked</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPRevoked</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDSPRevoked</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdsprevoked-getrevocationurl">GetRevocationURL</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdsprevoked-getrevocationurl">GetRevocationURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which updated components can be downloaded.
@@ -80,5 +80,4 @@ Retrieves the URL from which updated components can be downloaded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

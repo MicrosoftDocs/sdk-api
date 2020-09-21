@@ -68,9 +68,8 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-gettracedataproviders">ITraceDataProviderCollection::GetTraceDataProviders</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-gettracedataproviders">ITraceDataProviderCollection::GetTraceDataProviders</a>

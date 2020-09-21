@@ -83,7 +83,7 @@ This function should return WN_SUCCESS if it is successful. Otherwise, it should
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetdirectorytype">NPGetDirectoryType</a> is not supported.
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetdirectorytype">NPGetDirectoryType</a> is not supported.
 
 </td>
 </tr>
@@ -94,4 +94,3 @@ This function should return WN_SUCCESS if it is successful. Otherwise, it should
 File Manager will supply its own icon for all special network directories; that is, when <i>lpType</i> is set to a nonzero value, File Manager will display a special folder icon.
 
 The implementation of this function should be high-performance, or fast, since the call occurs while File Manager is painting the directory tree.
-

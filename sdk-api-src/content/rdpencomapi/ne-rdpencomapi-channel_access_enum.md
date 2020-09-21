@@ -66,5 +66,4 @@ The attendee can send or receive data on the channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannel-setaccess">IRDPSRAPIVirtualChannel::SetAccess</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannel-setaccess">IRDPSRAPIVirtualChannel::SetAccess</a>

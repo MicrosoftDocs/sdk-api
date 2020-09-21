@@ -146,13 +146,12 @@ Insufficient memory.
 
 The caller must free the string returned in <i>szName</i>, by calling the <b>SysFreeString</b> function.
 
-To get the number of statistics, call [IAMStats::GetIndex](https://docs.microsoft.com/windows/desktop/api/control/nf-control-iamstats-getindex).
+To get the number of statistics, call [IAMStats::GetIndex](/windows/desktop/api/control/nf-control-iamstats-getindex).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>

@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</b> structure contains information about the <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> used by the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ A pointer to a <b>GUID</b> that contains the GUID that identifies the Session In
 
 ### -field cbBlob
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> pointed to by the <b>pbBlob</b> member.
+The size, in bytes, of the <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> pointed to by the <b>pbBlob</b> member.
 
 ### -field pbBlob
 
@@ -82,5 +82,4 @@ A pointer to a null-terminated Unicode string that contains the display name of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>

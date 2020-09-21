@@ -60,7 +60,6 @@ The device context is created with default options.
 
 ### -field D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS
 
-Distribute rendering work across multiple threads. Refer to <a href="https://docs.microsoft.com/windows/desktop/Direct2D/improving-direct2d-performance">Improving the performance of Direct2D apps</a> for additional notes on the use of this flag.
+Distribute rendering work across multiple threads. Refer to <a href="/windows/desktop/Direct2D/improving-direct2d-performance">Improving the performance of Direct2D apps</a> for additional notes on the use of this flag.
 
 ### -field D2D1_DEVICE_CONTEXT_OPTIONS_FORCE_DWORD
-

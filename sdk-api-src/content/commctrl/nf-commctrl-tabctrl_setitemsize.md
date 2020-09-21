@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitemsize">TCM_SETITEMSIZE</a> message explicitly.
+Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setitemsize">TCM_SETITEMSIZE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -71,4 +71,3 @@ New width, in pixels.
 Type: <b>int</b>
 
 New height, in pixels.
-

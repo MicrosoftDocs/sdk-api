@@ -54,7 +54,7 @@ api_name:
 
 Gets and sets the preferred locale for which update information is retrieved.. 
 
-If you do not specify the locale, the default is the user locale that   <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a> returns. If the information is not available in a specified locale or in the user locale, Windows Update Agent (WUA) tries to retrieve the information from the default update locale.
+If you do not specify the locale, the default is the user locale that   <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage">GetUserDefaultUILanguage</a> returns. If the information is not available in a specified locale or in the user locale, Windows Update Agent (WUA) tries to retrieve the information from the default update locale.
 
 This property is read/write.
 
@@ -65,11 +65,10 @@ This property is read/write.
 A search from an <b>UpdateSearch</b> object that was created from the <b>UpdateSession</b> object fails if the following conditions are true:
 
 <ul>
-<li>A user or a power user set the <b>UserLocale</b> property for the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a> interface to a locale.</li>
+<li>A user or a power user set the <b>UserLocale</b> property for the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a> interface to a locale.</li>
 <li>The locale corresponds to a language that is not installed on the computer.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method to optimize rendering of an inactive object by making more efficient use of the GDI.
+Contains information that is used by the <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method to optimize rendering of an inactive object by making more efficient use of the GDI.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ A value taken from the <a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfofl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>

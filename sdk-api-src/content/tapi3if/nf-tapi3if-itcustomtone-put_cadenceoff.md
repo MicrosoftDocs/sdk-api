@@ -83,9 +83,8 @@ Method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceoff">get_CadenceOff</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceoff">get_CadenceOff</a>

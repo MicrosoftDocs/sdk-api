@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> and returns a handle to it.
+Opens a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> and returns a handle to it.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> returned from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a> functions.
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> returned from the 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a> functions.
 
 ### -param lpszNodeName [in, optional]
 
 Pointer to the NetBIOS name of an existing node. If the DNS name of the node is used, the 
       <b>OpenClusterNodeEx</b> function will fail and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
       <b>ERROR_CLUSTER_NODE_NOT_FOUND</b>.
 
 ### -param dwDesiredAccess [in]
@@ -73,7 +73,7 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> 
       (0x02000000). If this value is zero (0) and undefined error may be returned. Using 
       <b>GENERIC_ALL</b> is the same as calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>.
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>.
 
 ### -param lpdwGrantedAccess [out, optional]
 
@@ -100,8 +100,8 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
-        support the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternodeex">OpenClusterNodeEx</a> function (for 
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
+        support the <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternodeex">OpenClusterNodeEx</a> function (for 
         example if the target server is running Windows Server 2008 or earlier) then the 
         <b>GetLastError</b> function will return 
         <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
@@ -112,21 +112,20 @@ The operation was not successful. For more information about the error, call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternode">CloseClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusternode">CloseClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>

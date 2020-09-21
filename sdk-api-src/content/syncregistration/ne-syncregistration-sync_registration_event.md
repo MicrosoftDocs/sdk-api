@@ -86,5 +86,4 @@ A synchronization provider configuration UI has been updated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-enumerations">Windows Sync Registration Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-enumerations">Windows Sync Registration Enumerations</a>

@@ -54,7 +54,7 @@ The <b>ITfInputProcessorProfiles</b> interface is implemented by the TSF manager
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfiles</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfiles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfiles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfInputProcessorProfiles</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-activatelanguageprofile">ActivateLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-activatelanguageprofile">ActivateLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Sets the active text service for a specific language.
@@ -78,7 +78,7 @@ Sets the active text service for a specific language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">AddLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">AddLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Creates a language profile that consists of a specific text service and a specific language identifier.
@@ -87,7 +87,7 @@ Creates a language profile that consists of a specific text service and a specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-changecurrentlanguage">ChangeCurrentLanguage</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-changecurrentlanguage">ChangeCurrentLanguage</a>
 </td>
 <td align="left" width="63%">
 Sets the currently active language.
@@ -96,7 +96,7 @@ Sets the currently active language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofile">EnableLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofile">EnableLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a language profile for the current user.
@@ -105,7 +105,7 @@ Enables or disables a language profile for the current user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofilebydefault">EnableLanguageProfileByDefault</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofilebydefault">EnableLanguageProfileByDefault</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a language profile by default for all users.
@@ -114,7 +114,7 @@ Enables or disables a language profile by default for all users.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enuminputprocessorinfo">EnumInputProcessorInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enuminputprocessorinfo">EnumInputProcessorInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains the class identifiers of all registered text services.
@@ -123,7 +123,7 @@ Obtains an enumerator that contains the class identifiers of all registered text
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enumlanguageprofiles">EnumLanguageProfiles</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enumlanguageprofiles">EnumLanguageProfiles</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains all of the profiles for a specific langauage.
@@ -132,7 +132,7 @@ Obtains an enumerator that contains all of the profiles for a specific langauage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">GetActiveLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">GetActiveLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Obtains the identifier of the currently active language profile for a specific text service.
@@ -141,7 +141,7 @@ Obtains the identifier of the currently active language profile for a specific t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getcurrentlanguage">GetCurrentLanguage</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getcurrentlanguage">GetCurrentLanguage</a>
 </td>
 <td align="left" width="63%">
 Obtains the identifier of the currently active language.
@@ -150,7 +150,7 @@ Obtains the identifier of the currently active language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile">GetDefaultLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile">GetDefaultLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Obtains the default profile for a specific language.
@@ -159,7 +159,7 @@ Obtains the default profile for a specific language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getlanguagelist">GetLanguageList</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getlanguagelist">GetLanguageList</a>
 </td>
 <td align="left" width="63%">
 Obtains a list of the installed languages.
@@ -168,7 +168,7 @@ Obtains a list of the installed languages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getlanguageprofiledescription">GetLanguageProfileDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getlanguageprofiledescription">GetLanguageProfileDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description string for a language profile.
@@ -177,7 +177,7 @@ Obtains the description string for a language profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-isenabledlanguageprofile">IsEnabledLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-isenabledlanguageprofile">IsEnabledLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Determines if a specific language profile is enabled or disabled.
@@ -186,7 +186,7 @@ Determines if a specific language profile is enabled or disabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">Register</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">Register</a>
 </td>
 <td align="left" width="63%">
 Adds a text service to Text Services Foundation (TSF).
@@ -195,7 +195,7 @@ Adds a text service to Text Services Foundation (TSF).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile">RemoveLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile">RemoveLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Removes a language profile.
@@ -204,7 +204,7 @@ Removes a language profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-setdefaultlanguageprofile">SetDefaultLanguageProfile</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-setdefaultlanguageprofile">SetDefaultLanguageProfile</a>
 </td>
 <td align="left" width="63%">
 Sets the default profile for a specific language.
@@ -213,7 +213,7 @@ Sets the default profile for a specific language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-substitutekeyboardlayout">SubstituteKeyboardLayout</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-substitutekeyboardlayout">SubstituteKeyboardLayout</a>
 </td>
 <td align="left" width="63%">
 Sets a substitute keyboard layout for the specified language profile.
@@ -222,7 +222,7 @@ Sets a substitute keyboard layout for the specified language profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-unregister">Unregister</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-unregister">Unregister</a>
 </td>
 <td align="left" width="63%">
 Removes a text service from TSF.
@@ -233,7 +233,7 @@ Removes a text service from TSF.
 
 ## -remarks
 
-To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
+To obtain a pointer to this interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
 
 
 #### Examples
@@ -263,4 +263,3 @@ if(SUCCEEDED(hr))
 }
 
 ```
-

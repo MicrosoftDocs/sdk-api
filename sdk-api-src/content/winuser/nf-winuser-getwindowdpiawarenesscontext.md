@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> associated with a window.
+Returns the <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> associated with a window.
 
 ## -parameters
 
@@ -65,20 +65,19 @@ The window to query.
 
 ## -returns
 
-The <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the provided window. If the window is not valid, the return value is <b>NULL</b>.
+The <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the provided window. If the window is not valid, the return value is <b>NULL</b>.
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  <p class="note">The return value of <b>GetWindowDpiAwarenessContext</b> is not affected by the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the current thread. It only indicates the context of the window specified by the <i>hwnd</i> input parameter.
+<div class="alert"><b>Important</b>  <p class="note">The return value of <b>GetWindowDpiAwarenessContext</b> is not affected by the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the current thread. It only indicates the context of the window specified by the <i>hwnd</i> input parameter.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
+<a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>

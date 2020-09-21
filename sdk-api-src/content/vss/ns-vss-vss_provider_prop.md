@@ -69,7 +69,7 @@ Null-terminated wide character string containing the provider name.
 
 ### -field m_eProviderType
 
-Provider type. See <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> for more 
+Provider type. See <a href="/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> for more 
       information.
 
 ### -field m_pwszProviderVersion
@@ -78,7 +78,7 @@ Null-terminated wide character string containing the provider version in readabl
 
 ### -field m_ProviderVersionId
 
-A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) uniquely 
+A <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) uniquely 
       identifying the version of a provider.
 
 ### -field m_ClassId
@@ -87,9 +87,8 @@ Class identifier of the component registered in the local machine's COM catalog.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a>

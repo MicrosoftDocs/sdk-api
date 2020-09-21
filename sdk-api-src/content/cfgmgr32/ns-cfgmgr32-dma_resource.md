@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
 ### -field DMA_Header
 
-A [DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
+A [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
 
 ### -field DMA_Data
 
@@ -72,13 +72,12 @@ Zero.
 
 #### For a resource requirements list:
 
-A [DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range) array.
+A [DMA_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range) array.
 
 ## -see-also
 
-[DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)
+[DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)
 
 
 
-[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
-
+[DMA_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)

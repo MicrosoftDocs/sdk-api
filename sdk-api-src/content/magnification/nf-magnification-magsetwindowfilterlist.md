@@ -57,13 +57,13 @@ Sets the list of windows to be magnified or the
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the magnification window.
 
 ### -param dwFilterMode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The magnification filter mode. It can be one of the following values:
 
@@ -95,13 +95,13 @@ The number of window handles in the list.
 
 ### -param pHWND [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
 
 The list of window handles.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -116,5 +116,4 @@ The magnification window itself is automatically excluded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowfilterlist">MagGetWindowFilterList</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowfilterlist">MagGetWindowFilterList</a>

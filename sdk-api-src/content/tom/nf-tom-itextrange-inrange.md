@@ -56,7 +56,7 @@ Determines whether this range is within or at the same text as a specified range
 
 ### -param pRange
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
 
 Text that is compared to the current range.
 
@@ -94,11 +94,11 @@ The following example shows how to walk one range with another.
 ```
 
 
-When the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtext">ITextRange::FindText</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">ITextRange::MoveWhile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">ITextRange::MoveUntil</a> method families are used, you can use one range to walk another by specifying the appropriate limit count of characters (for an example, see the Remarks in 
+When the <a href="/windows/desktop/api/tom/nf-tom-itextrange-findtext">ITextRange::FindText</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">ITextRange::MoveWhile</a>, and <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">ITextRange::MoveUntil</a> method families are used, you can use one range to walk another by specifying the appropriate limit count of characters (for an example, see the Remarks in 
 				<b>ITextRange::Find</b>).
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-isequal">ITextRange::IsEqual</a> is a special case of <b>ITextRange::InRange</b> that returns <i>pB</i> <b>tomTrue</b> if the <i>pRange</i> has the same start and end character positions and belongs to the same story.
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-isequal">ITextRange::IsEqual</a> is a special case of <b>ITextRange::InRange</b> that returns <i>pB</i> <b>tomTrue</b> if the <i>pRange</i> has the same start and end character positions and belongs to the same story.
 
 ## -see-also
 
@@ -106,19 +106,19 @@ When the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtext">FindText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtext">FindText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
 
 
 
@@ -126,5 +126,4 @@ When the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

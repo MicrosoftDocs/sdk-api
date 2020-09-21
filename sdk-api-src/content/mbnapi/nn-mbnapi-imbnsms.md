@@ -57,7 +57,7 @@ SMS interface for sending and receiving messages as well as controlling the mess
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnSms</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnSms</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnSms</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnSms</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMbnSms</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration">GetSmsConfiguration</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration">GetSmsConfiguration</a>
 </td>
 <td align="left" width="63%">
 Gets the SMS configuration.
@@ -81,7 +81,7 @@ Gets the SMS configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus">GetSmsStatus</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus">GetSmsStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the SMS status.
@@ -90,7 +90,7 @@ Gets the SMS status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration">SetSmsConfiguration</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration">SetSmsConfiguration</a>
 </td>
 <td align="left" width="63%">
 Updates the SMS configuration.
@@ -99,7 +99,7 @@ Updates the SMS configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete">SmsDelete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete">SmsDelete</a>
 </td>
 <td align="left" width="63%">
 Deletes a set of SMS messages.
@@ -108,7 +108,7 @@ Deletes a set of SMS messages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread">SmsRead</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread">SmsRead</a>
 </td>
 <td align="left" width="63%">
 Reads a set of SMS messages.
@@ -117,7 +117,7 @@ Reads a set of SMS messages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma">SmsSendCdma</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma">SmsSendCdma</a>
 </td>
 <td align="left" width="63%">
 Sends a message in CDMA format.
@@ -126,7 +126,7 @@ Sends a message in CDMA format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu">SmsSendCdmaPdu</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu">SmsSendCdmaPdu</a>
 </td>
 <td align="left" width="63%">
 Sends a message in CDMA binary format.
@@ -135,7 +135,7 @@ Sends a message in CDMA binary format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu">SmsSendPdu</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu">SmsSendPdu</a>
 </td>
 <td align="left" width="63%">
 Sends a message in PDU format.
@@ -146,5 +146,4 @@ Sends a message in PDU format.
 
 ## -remarks
 
-The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-
+The calling application can acquire this interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

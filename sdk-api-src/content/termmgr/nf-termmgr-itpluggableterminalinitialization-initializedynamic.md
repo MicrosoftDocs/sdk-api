@@ -66,7 +66,7 @@ ORed list of the media types supported by the terminal.
 ### -param Direction [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor for the terminal.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor for the terminal.
 
 ### -param htAddress [in]
 
@@ -78,5 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalinitialization">ITPluggableTerminalInitialization</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalinitialization">ITPluggableTerminalInitialization</a>

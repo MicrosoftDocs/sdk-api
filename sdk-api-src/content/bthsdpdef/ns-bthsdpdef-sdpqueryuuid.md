@@ -77,5 +77,4 @@ Type of UUID being searched. Must be one of the three valid values from the SDP_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
-
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>

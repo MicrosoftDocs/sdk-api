@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the caching mode used in methods such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>.
+Describes the caching mode used in methods such as <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a> and <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>.
 
 ## -enum-fields
 
@@ -78,17 +78,16 @@ The share or shared folder is configured to allow automatic caching of programs 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
-
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>

@@ -64,7 +64,7 @@ This command causes the driver to insert Wide Screen Signalling (WSS) codes or o
 
 ### -field ActiveTVProtectionStandard
 
-Specifies the protection standard and format that is current active. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration.
+Specifies the protection standard and format that is current active. The value is a member of the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration.
 
 ### -field AspectRatioChangeMask1
 
@@ -72,7 +72,7 @@ Bit mask indicating which bits from <b>AspectRatioData1</b> to set in the signal
 
 ### -field AspectRatioData1
 
-Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
+Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
 
 ### -field AspectRatioChangeMask2
 
@@ -105,9 +105,8 @@ Reserved. Set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

@@ -54,32 +54,31 @@ api_name:
 
 ## -description
 
-The <b>CERT_AUTHORITY_KEY_ID_INFO</b> structure identifies the key used to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL). This structure differentiates among distinct keys used by the same <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> as, for example, keys changed when an update occurs.
+The <b>CERT_AUTHORITY_KEY_ID_INFO</b> structure identifies the key used to sign a <a href="/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL). This structure differentiates among distinct keys used by the same <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> as, for example, keys changed when an update occurs.
 
 The key can be identified by an explicit key identifier, by giving a certificate's issuer and serial number, or by both. If both are used, the certificate issuer must ensure that the explicit key identifier, the certificate issuer and the serial number are consistent.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_AUTHORITY_KEY_IDENTIFIER.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_AUTHORITY_KEY_IDENTIFIER.
 
-An instance of this structure can be used as input to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
+An instance of this structure can be used as input to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
 
 ## -struct-fields
 
 ### -field KeyId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a unique identifier of a public key.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a unique identifier of a public key.
 
 ### -field CertIssuer
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure that contains the encoded distinguished name of the certification authority that issued the certificate.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure that contains the encoded distinguished name of the certification authority that issued the certificate.
 
 ### -field CertSerialNumber
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> used to sign this certificate. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate associated with the <a href="/windows/desktop/SecGloss/p-gly">private key</a> used to sign this certificate. For more information, see 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>

@@ -57,8 +57,8 @@ NCRYPT_KEY_HANDLE.
             
 
 When this structure is used in an API (such as with
- <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">XML token creation</a>) and subsequent
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">use of that XML
+ <a href="/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">XML token creation</a>) and subsequent
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">use of that XML
 token</a> for a channel), the application is responsible for making
 sure that the NCRYPT_KEY_HANDLE remains valid as long as the key is in
 use.  The application is also responsible for freeing the handle when
@@ -76,4 +76,3 @@ The base type from which this type and all other key handle types derive.
 ### -field asymmetricKey
 
 The CryptoNG asymmetric cryptographic key.
-

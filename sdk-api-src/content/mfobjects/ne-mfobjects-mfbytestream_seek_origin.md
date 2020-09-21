@@ -66,9 +66,8 @@ The seek position is specified relative to the current read/write position in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">IMFByteStream::Seek</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">IMFByteStream::Seek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

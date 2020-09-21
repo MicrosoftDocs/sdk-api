@@ -51,11 +51,10 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/737B47A3-E609-48E4-A0B6-017206E500B1">CD3D11_RECT</a> structure.
+Instantiates a new instance of an uninitialized <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a> structure.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/737B47A3-E609-48E4-A0B6-017206E500B1">CD3D11_RECT</a>
-
+<a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a>

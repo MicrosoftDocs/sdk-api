@@ -101,5 +101,4 @@ All of the items that the WSC monitors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>
-
+<a href="/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> IID list.
+Specifies an <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> IID list.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The number of the IID's implemented in this applet.
 
 ### -field pIIDList
 
-The IID list. This must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
-
+The IID list. This must be allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.

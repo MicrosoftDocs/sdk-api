@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates and deletes partitions, and modifies partition attributes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAdvancedDisk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdvancedDisk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAdvancedDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdvancedDisk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsAdvancedDisk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-assigndriveletter">AssignDriveLetter</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-assigndriveletter">AssignDriveLetter</a>
 </td>
 <td align="left" width="63%">
 Assigns a drive letter to an OEM, ESP, or unknown partition.
@@ -81,7 +81,7 @@ Assigns a drive letter to an OEM, ESP, or unknown partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">ChangeAttributes</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">ChangeAttributes</a>
 </td>
 <td align="left" width="63%">
 Modifies partition attributes. For GPT disks, it applies to partition GPT attributes. For MBR disks, it applies to the boot indicator bit (active or not).
@@ -90,7 +90,7 @@ Modifies partition attributes. For GPT disks, it applies to partition GPT attrib
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a>
 </td>
 <td align="left" width="63%">
 Removes MBR or GPT information and uninitializes a basic or dynamic disk.
@@ -99,7 +99,7 @@ Removes MBR or GPT information and uninitializes a basic or dynamic disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">CreatePartition</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">CreatePartition</a>
 </td>
 <td align="left" width="63%">
 Creates a partition.
@@ -108,7 +108,7 @@ Creates a partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletedriveletter">DeleteDriveLetter</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletedriveletter">DeleteDriveLetter</a>
 </td>
 <td align="left" width="63%">
 Deletes a drive letter from an OEM, ESP, or unknown partition.
@@ -117,7 +117,7 @@ Deletes a drive letter from an OEM, ESP, or unknown partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletepartition">DeletePartition</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletepartition">DeletePartition</a>
 </td>
 <td align="left" width="63%">
 Deletes an existing partition.
@@ -126,7 +126,7 @@ Deletes an existing partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">FormatPartition</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">FormatPartition</a>
 </td>
 <td align="left" width="63%">
 Formats an existing OEM, ESP or unknown partition.
@@ -135,7 +135,7 @@ Formats an existing OEM, ESP or unknown partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getdriveletter">GetDriveLetter</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getdriveletter">GetDriveLetter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the drive letter assigned to a OEM, ESP or unknown partition.
@@ -144,7 +144,7 @@ Retrieves the drive letter assigned to a OEM, ESP or unknown partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves property information for a partition.
@@ -153,7 +153,7 @@ Retrieves property information for a partition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about all partitions on the current disk.
@@ -168,27 +168,26 @@ The relationship between partitions and volumes is complex, and is best describe
 
 <ul>
 <li>Partitions that are not volumes, because you can neither format them nor assign a drive letter to them. These partitions are MSR partitions, LDM Metadata partitions, and extended partitions. </li>
-<li>Partitions associated with hidden volumes, which you can format and assign a drive letter to, but which host no user data. Instead, the system uses these partitions for booting, recovery, and so on. The partitions include OEM partitions, ESP partitions on GPT disks, and Unknown partitions. You cannot use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a> interfaces to format these partitions. Instead, use the <b>IVdsAdvancedDisk</b> interface, which exposes the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-assigndriveletter">AssignDriveLetter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletedriveletter">DeleteDriveLetter</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">FormatPartition</a> methods.
+<li>Partitions associated with hidden volumes, which you can format and assign a drive letter to, but which host no user data. Instead, the system uses these partitions for booting, recovery, and so on. The partitions include OEM partitions, ESP partitions on GPT disks, and Unknown partitions. You cannot use the <a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a> or <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a> interfaces to format these partitions. Instead, use the <b>IVdsAdvancedDisk</b> interface, which exposes the <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-assigndriveletter">AssignDriveLetter</a>, <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletedriveletter">DeleteDriveLetter</a>, and <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">FormatPartition</a> methods.
 
 </li>
-<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a> functions.</li>
+<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a> functions.</li>
 </ul>
 In general, dynamic providers  do not map volumes to partitions. The exceptions are system volumes, boot volumes, and volumes for which the caller explicitly requests this mapping. 
-Only the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a> methods are valid operations to be performed on dynamic disks. All other methods fail. Except for the <b>Clean</b> method, configuration-type operations are not valid on dynamic disks.
+Only the <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>, <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>, and <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a> methods are valid operations to be performed on dynamic disks. All other methods fail. Except for the <b>Clean</b> method, configuration-type operations are not valid on dynamic disks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
+<a href="/windows/desktop/VDS/disk-object">Disk Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

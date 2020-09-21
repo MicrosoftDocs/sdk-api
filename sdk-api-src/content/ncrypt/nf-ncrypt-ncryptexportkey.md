@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NCryptExportKey</b> function exports a CNG key to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The <b>NCryptExportKey</b> function exports a CNG key to a memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 ## -parameters
 
@@ -70,79 +70,79 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 
 #### BCRYPT_DH_PRIVATE_BLOB
 
-Export a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+Export a Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_DH_PUBLIC_BLOB
 
-Export a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+Export a Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public key</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_DSA_PRIVATE_BLOB
 
-Export a DSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
+Export a DSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_DSA_PUBLIC_BLOB
 
-Export a DSA public key. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
+Export a DSA public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_ECCPRIVATE_BLOB
 
-Export an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an <a href="/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_ECCPUBLIC_BLOB
 
-Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_PUBLIC_KEY_BLOB
 
-Export a generic public key of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
+Export a generic public key of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 
 
 #### BCRYPT_PRIVATE_KEY_BLOB
 
-Export a generic private key of any type.  The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
+Export a generic private key of any type.  The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 
 
 #### BCRYPT_RSAFULLPRIVATE_BLOB
 
-Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data. This BLOB will include additional key material compared to the <b>BCRYPT_RSAPRIVATE_BLOB</b> type.
+Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data. This BLOB will include additional key material compared to the <b>BCRYPT_RSAPRIVATE_BLOB</b> type.
 
 
 
 #### BCRYPT_RSAPRIVATE_BLOB
 
-Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_RSAPUBLIC_BLOB
 
-Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### LEGACY_DH_PRIVATE_BLOB
 
-Export a legacy <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that can be imported by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a>.
+Export a legacy <a href="/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that can be imported by using <a href="/windows/desktop/SecGloss/c-gly">CryptoAPI</a>.
 
 
 
 #### LEGACY_DH_PUBLIC_BLOB
 
-Export a legacy <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
+Export a legacy <a href="/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
 
 
 
@@ -172,7 +172,7 @@ Export an RSA public key in a form that can be imported by using CryptoAPI.
 
 #### NCRYPT_CIPHER_KEY_BLOB
 
-Export a cipher key in a <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
+Export a cipher key in a <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this value begins.
 
@@ -286,13 +286,13 @@ Optional
 
 #### NCRYPT_PROTECTED_KEY_BLOB
 
-Export a protected key in a <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
+Export a protected key in a <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this value begins.
 
 ### -param pParameterList [in, optional]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that receives parameter information for the key. This parameter can be <b>NULL</b> if this information is not needed.
+The address of an <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that receives parameter information for the key. This parameter can be <b>NULL</b> if this information is not needed.
 
 ### -param pbOutput [out, optional]
 
@@ -370,7 +370,7 @@ The <i>dwFlags</i> parameter contains a value that is not valid.
 </dl>
 </td>
 <td width="60%">
-The key specified by the <i>hKey</i> parameter is not valid. The most common cause of this error is that the key was not completed by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function.
+The key specified by the <i>hKey</i> parameter is not valid. The most common cause of this error is that the key was not completed by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function.
 
 </td>
 </tr>
@@ -411,9 +411,8 @@ One or more parameters are not valid.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>

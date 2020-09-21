@@ -66,13 +66,12 @@ The version to check. Set this parameter   to <b>AZ_AZSTORE_NT6_FUNCTION_LEVEL</
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a>
+<a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore3-upgradestoresfunctionallevel">UpgradeStoresFunctionalLevel</a>
-
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore3-upgradestoresfunctionallevel">UpgradeStoresFunctionalLevel</a>

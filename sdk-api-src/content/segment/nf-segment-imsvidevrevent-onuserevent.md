@@ -72,7 +72,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 The purpose of this method is to forward custom events from an EVR presenter to the application through the Video Control.
 
 <ol>
-<li>The presenter calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaeventsink-notify">IMediaEventSink::Notify</a> on the EVR with an event code of EC_USER or higher. (This range of values is reserved for custom graph events.)</li>
+<li>The presenter calls <a href="/windows/desktop/api/strmif/nf-strmif-imediaeventsink-notify">IMediaEventSink::Notify</a> on the EVR with an event code of EC_USER or higher. (This range of values is reserved for custom graph events.)</li>
 <li>The EVR forwards the event to the Filter Graph Manager.</li>
 <li>The Filter Graph Manager forwards the event to the Video Control.</li>
 <li>The Video Control forwards the event to the application by calling <b>OnUserEvent</b>.</li>
@@ -81,5 +81,4 @@ The dispatch identifier (dispid) of this method is <b>dispidUserEvent</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidevrevent">IMSVidEVREvent</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidevrevent">IMSVidEVREvent</a>

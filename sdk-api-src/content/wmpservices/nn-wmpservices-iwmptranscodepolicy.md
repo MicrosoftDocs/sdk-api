@@ -54,7 +54,7 @@ The <b>IWMPTranscodePolicy</b> interface provides a method implemented by Direct
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPTranscodePolicy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPTranscodePolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPTranscodePolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPTranscodePolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPTranscodePolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmptranscodepolicy-allowtranscode">allowTranscode</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmptranscodepolicy-allowtranscode">allowTranscode</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to Windows Media Format.
@@ -82,5 +82,4 @@ To retrieve a pointer to the <b>IWMPTranscodePolicy</b> interface, Windows Media
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

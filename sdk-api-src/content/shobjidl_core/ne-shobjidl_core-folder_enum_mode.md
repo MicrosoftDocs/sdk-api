@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-getmode">IObjectWithFolderEnumMode::GetMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-setmode">IObjectWithFolderEnumMode::SetMode</a> methods to get and set the display modes for the folders.
+Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-getmode">IObjectWithFolderEnumMode::GetMode</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-setmode">IObjectWithFolderEnumMode::SetMode</a> methods to get and set the display modes for the folders.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf
 ## -remarks
 
 If an item does not support the enumeration mode value (because it is not a folder or it does not provide the enumeration mode) then it is created in the default enumeration mode.
-

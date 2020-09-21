@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Assigns an image list to a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setimagelist">TCM_SETIMAGELIST</a> message explicitly.
+Assigns an image list to a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setimagelist">TCM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -65,4 +65,3 @@ Handle to the tab control.
 Type: <b>HIMAGELIST</b>
 
 Handle to the image list to assign to the tab control.
-

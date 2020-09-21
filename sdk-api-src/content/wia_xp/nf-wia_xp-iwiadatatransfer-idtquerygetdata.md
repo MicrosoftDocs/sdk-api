@@ -56,17 +56,16 @@ The <b>IWiaDataTransfer::idtQueryGetData</b> method is used by applications to q
 
 ### -param pfe [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
+Pointer to a <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error.
+If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error.
 
 ## -remarks
 
-This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.
-
+This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.

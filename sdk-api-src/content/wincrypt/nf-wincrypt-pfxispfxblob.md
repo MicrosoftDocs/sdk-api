@@ -56,7 +56,7 @@ The <b>PFXIsPFXBlob</b> function attempts to decode the outer layer of a BLOB as
 
 ### -param pPFX [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that the function will attempt to decode as a PFX packet.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that the function will attempt to decode as a PFX packet.
 
 ## -returns
 
@@ -64,5 +64,4 @@ The function returns <b>TRUE</b> if the BLOB can be decoded as a PFX packet. If 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxverifypassword">PFXVerifyPassword</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfxverifypassword">PFXVerifyPassword</a>

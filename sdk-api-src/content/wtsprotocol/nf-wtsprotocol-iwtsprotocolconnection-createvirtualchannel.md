@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::CreateVirtualChannel</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-createvirtualchannel">IWRdsProtocolConnection::CreateVirtualChannel</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::CreateVirtualChannel</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-createvirtualchannel">IWRdsProtocolConnection::CreateVirtualChannel</a>.]
 
 Creates a static or dynamic virtual channel.
 
@@ -74,10 +74,9 @@ A pointer to the channel handle.
 
 ## -remarks
 
-Virtual channels are software extensions that can be created to enhance a Remote Desktop Services application. Examples include support for additional hardware or additions to the functionality provided by a given protocol. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtual-channels">Remote Desktop Services Virtual 
+Virtual channels are software extensions that can be created to enhance a Remote Desktop Services application. Examples include support for additional hardware or additions to the functionality provided by a given protocol. For more information, see <a href="/windows/desktop/TermServ/terminal-services-virtual-channels">Remote Desktop Services Virtual 
       Channels</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

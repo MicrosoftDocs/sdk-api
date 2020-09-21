@@ -54,7 +54,7 @@ Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_FDC</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addpid">AddPid</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addpid">AddPid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more packet identifiers (PIDs) to the MPEG flow.
@@ -78,7 +78,7 @@ Adds one or more packet identifiers (PIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addtid">AddTid</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addtid">AddTid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more table identifiers (TIDs) to the MPEG flow.
@@ -87,7 +87,7 @@ Adds one or more table identifiers (TIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the tuning status of the FDC stream.
@@ -96,7 +96,7 @@ Gets the tuning status of the FDC stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-gettablesection">GetTableSection</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-gettablesection">GetTableSection</a>
 </td>
 <td align="left" width="63%">
 Gets the latest table section.
@@ -105,7 +105,7 @@ Gets the latest table section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removepid">RemovePid</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removepid">RemovePid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more PIDs from the MPEG flow.
@@ -114,7 +114,7 @@ Removes one or more PIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removetid">RemoveTid</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removetid">RemoveTid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more TIDs from the MPEG flow.
@@ -123,7 +123,7 @@ Removes one or more TIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-requesttables">RequestTables</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-requesttables">RequestTables</a>
 </td>
 <td align="left" width="63%">
 Requests MPEG-2 table sections, filtered by TID.
@@ -135,4 +135,3 @@ Requests MPEG-2 table sections, filtered by TID.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_FDC)</code>.
-

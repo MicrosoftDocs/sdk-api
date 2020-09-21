@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumnwidth">LVM_SETCOLUMNWIDTH</a> message explicitly.
+Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setcolumnwidth">LVM_SETCOLUMNWIDTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -109,4 +109,3 @@ The second (and last) column will be 300 pixels wide.
 
 Note that <b>ListView_SetColumnWidth</b> converts the 
 				<i>cx</i> parameter to a 16-bit value.
-

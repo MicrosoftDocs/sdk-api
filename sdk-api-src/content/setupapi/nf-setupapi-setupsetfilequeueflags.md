@@ -89,7 +89,7 @@ Mask for use with SPQ_FLAG_BACKUP_AWARE.
 
 Flags for use with 
 <b>SetupSetFileQueueFlags</b> and returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetfilequeueflags">SetupGetFileQueueFlags</a>. 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetfilequeueflags">SetupGetFileQueueFlags</a>. 
 
 
 
@@ -106,7 +106,7 @@ Flags for use with
 </td>
 <td width="60%">
 If this flag is set, 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> issues backup notifications.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> issues backup notifications.
 
 </td>
 </tr>
@@ -128,13 +128,12 @@ For internal use only.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is (0) zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
-
+<a href="/windows/desktop/SetupApi/overview">Overview</a>

@@ -71,7 +71,7 @@ If the function succeeds, it returns <b>TRUE</b> and sets the
                    <i>TotalMemoryInKilobytes</i> parameter to a nonzero value.
 
 If the function fails, it returns <b>FALSE</b> and does not modify the 
-                   <i>TotalMemoryInKilobytes</i> parameter. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. Common errors are listed in the following table.
+                   <i>TotalMemoryInKilobytes</i> parameter. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. Common errors are listed in the following table.
 
 <table>
 <tr>
@@ -104,19 +104,18 @@ The System Management BIOS (SMBIOS) data is malformed.
 
 ## -remarks
 
-The <b>GetPhysicallyInstalledSystemMemory</b> function retrieves the amount of physically installed RAM from the computer's SMBIOS  firmware tables. This can differ from the amount reported by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function, which sets the <b>ullTotalPhys</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure to the amount of physical memory that is available for the operating system to use. The amount of memory available to the operating system can be less than the amount of memory physically installed in the computer because the BIOS and some drivers may reserve memory as I/O regions for memory-mapped devices, making the memory unavailable to the operating system and applications. 
+The <b>GetPhysicallyInstalledSystemMemory</b> function retrieves the amount of physically installed RAM from the computer's SMBIOS  firmware tables. This can differ from the amount reported by the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function, which sets the <b>ullTotalPhys</b> member of the <a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure to the amount of physical memory that is available for the operating system to use. The amount of memory available to the operating system can be less than the amount of memory physically installed in the computer because the BIOS and some drivers may reserve memory as I/O regions for memory-mapped devices, making the memory unavailable to the operating system and applications. 
 
-The amount of physical memory retrieved by the <b>GetPhysicallyInstalledSystemMemory</b> function must be equal to or greater than the amount reported by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function; if it is less, the SMBIOS data is malformed and the function fails with <b>ERROR_INVALID_DATA</b>. Malformed SMBIOS data may indicate a problem with the user's computer.
+The amount of physical memory retrieved by the <b>GetPhysicallyInstalledSystemMemory</b> function must be equal to or greater than the amount reported by the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function; if it is less, the SMBIOS data is malformed and the function fails with <b>ERROR_INVALID_DATA</b>. Malformed SMBIOS data may indicate a problem with the user's computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>

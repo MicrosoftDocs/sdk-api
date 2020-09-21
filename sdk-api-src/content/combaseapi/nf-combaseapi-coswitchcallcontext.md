@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Switches the call context object used by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>.
+Switches the call context object used by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>.
 
 ## -parameters
 
@@ -101,21 +101,20 @@ Out of memory.
 
 ## -remarks
 
-Custom marshallers call <b>CoSwitchCallContext</b> to change the call context object used by the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> function. Before dispatching an arriving call, custom marshallers call <b>CoSwitchCallContext</b>, specifying the new context object. After sending a reply, they must restore the original call context by calling <b>CoSwitchCallContext</b> again, this time passing a pointer to the original context object.
+Custom marshallers call <b>CoSwitchCallContext</b> to change the call context object used by the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> function. Before dispatching an arriving call, custom marshallers call <b>CoSwitchCallContext</b>, specifying the new context object. After sending a reply, they must restore the original call context by calling <b>CoSwitchCallContext</b> again, this time passing a pointer to the original context object.
 
 <b>CoSwitchCallContext</b> does not add a reference to the new context object. Custom marshallers must ensure that the lifetime of their context object continues throughout their call and until the call to restore the original context.  Custom marshallers should not release the value that they placed into the <i>ppOldObject</i> parameter when they set their context.
 
-Call context objects provided by custom marshallers should support the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> interface.
+Call context objects provided by custom marshallers should support the <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

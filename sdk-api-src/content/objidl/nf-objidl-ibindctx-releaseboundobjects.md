@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases all pointers to all objects that were previously registered by calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
+Releases all pointers to all objects that were previously registered by calls to <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
 
 ## -parameters
 
@@ -60,11 +60,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You rarely call this method directly. The system's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> implementation calls this method when the pointer to the <b>IBindCtx</b> interface on the bind context is released (the bind context is released). If a bind context is not released, all of the registered objects remain active.
+You rarely call this method directly. The system's <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> implementation calls this method when the pointer to the <b>IBindCtx</b> interface on the bind context is released (the bind context is released). If a bind context is not released, all of the registered objects remain active.
 
-If the same object has been registered more than once, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method on the object the number of times it was registered.
+If the same object has been registered more than once, this method calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method on the object the number of times it was registered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>

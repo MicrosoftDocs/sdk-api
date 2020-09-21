@@ -64,7 +64,7 @@ Gets the path for the specified package.
 
 ### -param packageId [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a>*</b>
 
 The package identifier.
 
@@ -112,5 +112,4 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>

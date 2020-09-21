@@ -64,5 +64,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>UnrealizeObject</b> function resets the origin of a brush or resets a logical palette. If the <i>hgdiobj</i> parameter is a handle to a brush, <b>UnrealizeObject</b> directs the system to reset the origin of the brush the next time it is selected. If the <i>hgdiobj</i> parameter is a handle to a logical palette, <b>UnrealizeObject</b> directs the system to realize the palette as though it had not previously been realized. The next time the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function for the specified palette, the system completely remaps the logical palette to the system palette.
+The <b>UnrealizeObject</b> function resets the origin of a brush or resets a logical palette. If the <i>hgdiobj</i> parameter is a handle to a brush, <b>UnrealizeObject</b> directs the system to reset the origin of the brush the next time it is selected. If the <i>hgdiobj</i> parameter is a handle to a logical palette, <b>UnrealizeObject</b> directs the system to realize the palette as though it had not previously been realized. The next time the application calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function for the specified palette, the system completely remaps the logical palette to the system palette.
 
 ## -parameters
 
@@ -68,29 +68,28 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <b>UnrealizeObject</b> function should not be used with stock objects. For example, the default palette, obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> (DEFAULT_PALETTE), is a stock object.
+The <b>UnrealizeObject</b> function should not be used with stock objects. For example, the default palette, obtained by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> (DEFAULT_PALETTE), is a stock object.
 
 A palette identified by <i>hgdiobj</i> can be the currently selected palette of a device context.
 
-If <i>hgdiobj</i> is a brush, <b>UnrealizeObject</b> does nothing, and the function returns <b>TRUE</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> to set the origin of a brush.
+If <i>hgdiobj</i> is a brush, <b>UnrealizeObject</b> does nothing, and the function returns <b>TRUE</b>. Use <a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> to set the origin of a brush.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>

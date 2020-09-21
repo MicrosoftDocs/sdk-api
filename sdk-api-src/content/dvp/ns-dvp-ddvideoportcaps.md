@@ -157,7 +157,7 @@ Specifies the maximum field width in pixels supported by the hardware video port
 
 ### -field dwMaxVBIWidth
 
-Specifies the maximum width, in number of samples, in a line of <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data supported by the hardware video port. This value can be larger than the normal field width if the hardware video port supports oversampled VBI data.
+Specifies the maximum width, in number of samples, in a line of <a href="/windows-hardware/drivers/">VBI</a> data supported by the hardware video port. This value can be larger than the normal field width if the hardware video port supports oversampled VBI data.
 
 ### -field dwMaxHeight
 
@@ -165,7 +165,7 @@ Specifies the maximum field height in pixels supported by the hardware video por
 
 ### -field dwVideoPortID
 
-Specifies the hardware video port ID for this entry. This member should be the index number of this DDVIDEOPORTCAPS structure within the array to which the <b>lpDDVideoPortCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure points. This value ranges from 0 to (<b>dwMaxVideoPorts</b> - 1). (<b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.) If the device supports only one hardware video port, this member should be zero.
+Specifies the hardware video port ID for this entry. This member should be the index number of this DDVIDEOPORTCAPS structure within the array to which the <b>lpDDVideoPortCaps</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure points. This value ranges from 0 to (<b>dwMaxVideoPorts</b> - 1). (<b>dwMaxVideoPorts</b> is a member of the <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.) If the device supports only one hardware video port, this member should be zero.
 
 ### -field dwCaps
 
@@ -555,17 +555,16 @@ Indicates the number of taps the prescaler uses in the y direction. A value of 0
 
 ## -remarks
 
-The driver reports the capabilities described by the DDVIDEOPORTCAPS structure when its <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function is called with the GUID_VideoPortCaps GUID.
+The driver reports the capabilities described by the DDVIDEOPORTCAPS structure when its <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function is called with the GUID_VideoPortCaps GUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
+<a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>

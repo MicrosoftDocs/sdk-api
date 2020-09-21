@@ -60,7 +60,7 @@ Represents a changer element.
 ### -field ElementType
 
 The element type. This parameter can be one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a> enumeration type.
+<a href="/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a> enumeration type.
 
 ### -field ElementAddress
 
@@ -68,13 +68,12 @@ The zero-based address of the element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_list">CHANGER_ELEMENT_LIST</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element_list">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a>
+<a href="/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_reinitialize_transport">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_reinitialize_transport">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>

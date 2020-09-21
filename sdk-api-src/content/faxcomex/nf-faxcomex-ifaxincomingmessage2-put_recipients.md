@@ -63,15 +63,14 @@ Contains the recipients associated with the inbound fax message. This property i
 
 ## -remarks
 
-A received message starts with a null value for the recipients when it arrives. A list of recipients can be specified by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> when it is reassigned.
+A received message starts with a null value for the recipients when it arrives. A list of recipients can be specified by a <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> when it is reassigned.
 
 Each recipient is identified on the pattern of &lt;DomainName&gt;\&lt;UserName&gt;. A colon ":" separates each recipient. For local users, &lt;DomainName&gt; is the local computer name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>

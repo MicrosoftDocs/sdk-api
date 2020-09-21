@@ -231,10 +231,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
+<a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
-

@@ -88,7 +88,7 @@ A pointer to a <b>DWORD</b> value that controls the behavior of the view when in
 
 #### CDB2GVF_NOINCLUDEITEM (0x00000010)
 
-0x00000010. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a> should not be called.
+0x00000010. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a> should not be called.
 
 
 
@@ -110,5 +110,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>

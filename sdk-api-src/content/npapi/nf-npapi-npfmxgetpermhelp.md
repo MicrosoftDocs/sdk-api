@@ -125,7 +125,7 @@ Pointer to a <b>DWORD</b> that will receive the help context for the given <i>nT
 If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
 					
 
 <table>
@@ -140,7 +140,7 @@ If the function fails, it should call
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npfmxgetpermhelp">NPFMXGetPermHelp</a> function is not supported in the provider.
+The <a href="/windows/desktop/api/npapi/nf-npapi-npfmxgetpermhelp">NPFMXGetPermHelp</a> function is not supported in the provider.
 
 </td>
 </tr>
@@ -167,4 +167,3 @@ The input buffer is too small.
 </td>
 </tr>
 </table>
-

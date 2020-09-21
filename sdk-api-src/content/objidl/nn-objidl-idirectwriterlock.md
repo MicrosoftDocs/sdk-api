@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectWriterLock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectWriterLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectWriterLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectWriterLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirectWriterLock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">HaveWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">HaveWriteAccess</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the write lock has been taken.
@@ -79,7 +79,7 @@ Indicates whether the write lock has been taken.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">ReleaseWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">ReleaseWriteAccess</a>
 </td>
 <td align="left" width="63%">
 Releases the write lock previously obtained.
@@ -88,7 +88,7 @@ Releases the write lock previously obtained.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">WaitForWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">WaitForWriteAccess</a>
 </td>
 <td align="left" width="63%">
 Obtains exclusive write access to a storage.
@@ -99,9 +99,8 @@ Obtains exclusive write access to a storage.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>

@@ -58,33 +58,32 @@ The <b>FWPM_FIELD0</b> structure specifies schema information for a field.
 
 ### -field fieldKey
 
-Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-identifiers-">Filtering Condition Identifiers</a>.
+Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="/windows/desktop/FWP/filtering-condition-identifiers-">Filtering Condition Identifiers</a>.
 
 ### -field type
 
 Determines how <b>dataType</b> is interpreted.
 
-See [FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type) for more information.
+See [FWPM_FIELD_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type) for more information.
 
 ### -field dataType
 
 Data type passed to classify.
 
-See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
+See [FWP_DATA_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
 
 ## -remarks
 
-<b>FWPM_FIELD0</b> is a specific implementation of FWPM_FIELD. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FIELD0</b> is a specific implementation of FWPM_FIELD. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)
+[FWPM_FIELD_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)
 
 
 
-[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
+[FWP_DATA_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

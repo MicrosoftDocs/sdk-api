@@ -53,14 +53,14 @@ api_name:
 ## -description
 
 Fills a specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure with values specified in a device-control string. The device-control string uses the syntax of the <b>mode</b> command.
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure with values specified in a device-control string. The device-control string uses the syntax of the <b>mode</b> command.
 
 ## -parameters
 
 ### -param lpDef [in]
 
 The device-control information. The function takes this string, parses it, and then sets appropriate values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure pointed to by <i>lpDCB</i>. 
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure pointed to by <i>lpDCB</i>. 
 
 
 
@@ -78,37 +78,37 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 ### -param lpDCB [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives the information.
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives the information.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>BuildCommDCB</b> function adjusts only those members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that are specifically affected by the <i>lpDef</i> parameter, with the following exceptions:
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that are specifically affected by the <i>lpDef</i> parameter, with the following exceptions:
 
 <ul>
 <li>If the specified baud rate is 110, the function sets the stop bits to 2 to remain compatible with the system's <b>mode</b> command.</li>
 <li>By default, 
 <b>BuildCommDCB</b> disables XON/XOFF and hardware flow control. To enable flow control, you must explicitly set the appropriate members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure.</li>
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure.</li>
 </ul>
 The 
 <b>BuildCommDCB</b> function only fills in the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure. To apply these settings to a serial port, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a> function.
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure. To apply these settings to a serial port, use the 
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a> function.
 
 There are older and newer forms of the <b>mode</b> syntax. The 
 <b>BuildCommDCB</b> function supports both forms. However, you cannot mix the two forms together.
 
 The newer form of the <b>mode</b> syntax lets you explicitly set the values of the flow control members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure. If you use an older form of the <b>mode</b> syntax, the 
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure. If you use an older form of the <b>mode</b> syntax, the 
 <b>BuildCommDCB</b> function sets the flow control members of the 
 <b>DCB</b> structure, as follows:
 
@@ -152,17 +152,16 @@ The newer form of the <b>mode</b> syntax lets you explicitly set the values of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>

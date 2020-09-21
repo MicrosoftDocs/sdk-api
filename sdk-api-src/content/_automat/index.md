@@ -22,7 +22,4 @@ To develop Automation, you need these headers:
  * [wtypes.h](../wtypes/index.md)
 
 
-This documentation is related to OLE Automation. For information on UI Automation, see [Windows Automation API overview](https://docs.microsoft.com/windows/win32/winauto/windows-automation-api-portal).
-
-
-
+This documentation is related to OLE Automation. For information on UI Automation, see [Windows Automation API overview](/windows/win32/winauto/windows-automation-api-portal).

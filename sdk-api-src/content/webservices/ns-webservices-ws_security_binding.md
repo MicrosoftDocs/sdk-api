@@ -54,7 +54,7 @@ api_name:
 
 The abstract base type for all security bindings.  One or more
 concrete subtypes of this are specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> that is
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> that is
 supplied during channel and listener creation.  Each concrete subtype
 of this corresponds to a security protocol and a way of using it to
 provide authentication and/or protection to a channel.
@@ -70,19 +70,18 @@ using the optional settings.
 
 ### -field bindingType
 
-The<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type"> WS_SECURITY_BINDING_TYPE</a> of the security binding being described.  The type value
+The<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type"> WS_SECURITY_BINDING_TYPE</a> of the security binding being described.  The type value
 indicates how to obtain the security token corresponding to this
 security binding.
 
 ### -field properties
 
 The array of properties specifying the optional security binding
-settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
-pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
+settings.  Each <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
+pair and must use a key defined in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
 it is <b>NULL</b>, the default value will be used for each security token
 setting.
 
 ### -field propertyCount
 
 The count of elements in the properties array.
-

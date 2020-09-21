@@ -72,7 +72,7 @@ Specifies the code point of the last character in the group of consecutive chara
 
 ### -param lpABC [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a> structures that receives the character widths, in logical units.
+Pointer to an array of <a href="/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a> structures that receives the character widths, in logical units.
 
 ## -returns
 
@@ -82,7 +82,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> function that returns widths only for TrueType fonts, the <b>GetCharABCWidthsFloat</b> function retrieves widths for any font. The widths returned by this function are in the IEEE floating-point format.
+Unlike the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> function that returns widths only for TrueType fonts, the <b>GetCharABCWidthsFloat</b> function retrieves widths for any font. The widths returned by this function are in the IEEE floating-point format.
 
 If the current world-to-device transformation is not identified, the returned widths may be noninteger values, even if the corresponding values in the device space are integers.
 
@@ -101,25 +101,24 @@ The ABC widths of the default character are used for characters outside the rang
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharwidtha">GetCharWidth</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidtha">GetCharWidth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>

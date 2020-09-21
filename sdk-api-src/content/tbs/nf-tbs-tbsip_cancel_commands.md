@@ -56,7 +56,7 @@ Cancels all outstanding commands for the specified context.
 
 ### -param hContext [in]
 
-A TBS handle to the context whose commands are to be canceled and that was obtained from previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
+A TBS handle to the context whose commands are to be canceled and that was obtained from previous call to the <a href="/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
 
 ## -returns
 
@@ -122,4 +122,3 @@ An error occurred while communicating with the TPM.
 ## -remarks
 
 When a command is canceled, TBS sends a message to the command that indicates that the command was canceled.
-

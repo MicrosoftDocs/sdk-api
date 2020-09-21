@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-autoselectionmode">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-autoselectionmode">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
 
 This property is read-only.
 
@@ -63,5 +63,4 @@ The AutoSelection property indicates whether the update will be automatically se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsUpdateDriver5</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsUpdateDriver5</a>

@@ -68,5 +68,4 @@ The certificate adheres to the X.509 standard.
 
 ## -remarks
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_license_capabilities">WTS_LICENSE_CAPABILITIES</a> structure.
-
+This enumeration is used by the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_license_capabilities">WTS_LICENSE_CAPABILITIES</a> structure.

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, because the reader might have been redirected.
+The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, because the reader might have been redirected.
 
 ## -parameters
 
@@ -104,5 +104,4 @@ Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pws
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>

@@ -99,17 +99,16 @@ Indicates that the sink is active.
 
 The <i>pDirectSound</i> parameter points to an <b>IDirectSound</b> instance that is received from <code>IDirectMusicPort::SetDirectSound</code> and is non-<b>NULL</b>.
 
-If <i>pDirectSoundBuffer</i> is <b>NULL</b>, the primary buffer for <b>IDirectSound</b> will be upgraded, if necessary, to support the sample rate and channel information for the sink (obtained from <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getformat">IDirectMusicSynth::GetFormat</a>).
+If <i>pDirectSoundBuffer</i> is <b>NULL</b>, the primary buffer for <b>IDirectSound</b> will be upgraded, if necessary, to support the sample rate and channel information for the sink (obtained from <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getformat">IDirectMusicSynth::GetFormat</a>).
 
 The <b>IDirectSoundBuffer</b> should be a secondary streaming buffer with a format that matches the format obtained from the synthesizer. If <i>pDirectSoundBuffer</i> is <b>NULL</b>, then an appropriate <b>IDirectSoundBuffer</b> instance will be created internally.
 
 Neither the <b>IDirectSound</b> nor the <b>IDirectSoundBuffer</b> instance can be changed once the sink has been activated.
 
-The <i>pDirectSound</i> and <i>pDirectSoundBuffer</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
+The <i>pDirectSound</i> and <i>pDirectSoundBuffer</i> parameters follow the <a href="/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 For more information, see the description of the <b>IDirectSound</b>, <b>IDirectSoundBuffer</b>, and <b>IDirectMusicPort</b> interfaces in the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getformat">IDirectMusicSynth::GetFormat</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getformat">IDirectMusicSynth::GetFormat</a>

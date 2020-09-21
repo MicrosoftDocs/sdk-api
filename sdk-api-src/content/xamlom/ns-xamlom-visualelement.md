@@ -68,9 +68,8 @@ The type of the object.
 
 ### -field Name
 
-The name of the XAML element, if it has an <a href="https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute">x:Name</a> defined in markup.
+The name of the XAML element, if it has an <a href="/windows/uwp/xaml-platform/x-name-attribute">x:Name</a> defined in markup.
 
 ### -field NumChildren
 
 The number of children the XAML element has.
-

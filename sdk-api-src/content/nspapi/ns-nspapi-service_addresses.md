@@ -56,14 +56,14 @@ api_name:
 
 The 
 <b>SERVICE_ADDRESSES</b> structure contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures.
 
 ## -struct-fields
 
 ### -field dwAddressCount
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures in the <b>Addresses</b> array.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures in the <b>Addresses</b> array.
 
 ### -field Addressses
 
@@ -74,14 +74,13 @@ Number of
 ### -field Addresses
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures. Each 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures. Each 
 <b>SERVICE_ADDRESS</b> structure contains information about a network service address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
-
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>

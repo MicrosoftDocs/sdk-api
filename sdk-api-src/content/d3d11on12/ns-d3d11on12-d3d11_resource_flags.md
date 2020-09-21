@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">ID3D11On12Device::CreateWrappedResource</a>to override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
+Used with <a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">ID3D11On12Device::CreateWrappedResource</a>to override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Bind flags must be either completely inferred, or completely specified, to allow
 If a bind flag is specified which is not supported by the provided resource, an error will be returned.
             
 
-The following bind flags (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a> enumeration constants) will not be assumed, and must be specified in order for a resource to be used in such a fashion:
+The following bind flags (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a> enumeration constants) will not be assumed, and must be specified in order for a resource to be used in such a fashion:
             
 
 <ul>
@@ -99,7 +99,7 @@ If misc flags are nonzero, then any specified flags will be OR’d into the fina
               Misc flags can be partially specified in order to add functionality, but misc flags which are implied cannot be masked out.
             
 
-The following misc flags (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a> enumeration constants) will not be assumed:
+The following misc flags (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a> enumeration constants) will not be assumed:
             
 
 <ul>
@@ -127,7 +127,7 @@ The following misc flags will be assumed, and cannot be removed from the produce
               </li>
 <li>D3D11_RESOURCE_MISC_GDI_COMPATIBLE, if D3D12 resource is GDI-compatible.
               </li>
-<li>D3D11_RESOURCE_MISC_TILED, if D3D12 resource was created via <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>.
+<li>D3D11_RESOURCE_MISC_TILED, if D3D12 resource was created via <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>.
               </li>
 <li>D3D11_RESOURCE_MISC_TILE_POOL, if a D3D12 heap was passed in.
               </li>
@@ -147,7 +147,7 @@ The following misc flags are invalid to specify for this API:
 ### -field CPUAccessFlags
 
 The <b>CPUAccessFlags</b> are not inferred from the D3D12 resource.
-              This is because all resources are treated as D3D11_USAGE_DEFAULT, so <b>CPUAccessFlags</b> force validation which assumes <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> of default buffers or textures.
+              This is because all resources are treated as D3D11_USAGE_DEFAULT, so <b>CPUAccessFlags</b> force validation which assumes <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> of default buffers or textures.
               Wrapped resources do not support <b>Map(DISCARD)</b>.
               Wrapped resources do not support <b>Map(NO_OVERWRITE)</b>, but that can be implemented by mapping the underlying D3D12 resource instead.
               Issuing a <b>Map</b> call on a wrapped resource will synchronize with all D3D11 work submitted against that resource, unless the DO_NOT_WAIT flag was used.
@@ -158,9 +158,8 @@ The size of each element in the buffer structure (in bytes) when the buffer repr
 
 ## -remarks
 
-Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">CreateWrappedResource</a>.
+Use this structure with <a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">CreateWrappedResource</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-11on12-structures">11on12 Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-11on12-structures">11on12 Structures</a>

@@ -68,5 +68,4 @@ This method allows the application to show the user a title when the visualizati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>

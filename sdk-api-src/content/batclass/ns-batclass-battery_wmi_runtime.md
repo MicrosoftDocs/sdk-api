@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines information about the estimated runtime of a battery for use with the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
+Defines information about the estimated runtime of a battery for use with the <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ This calculation may be based on the present rate of drain and not be very accur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>

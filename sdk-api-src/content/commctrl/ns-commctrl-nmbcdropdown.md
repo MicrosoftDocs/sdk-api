@@ -54,19 +54,18 @@ api_name:
 
 ## -description
 
-Contains information about a <a href="https://docs.microsoft.com/windows/desktop/Controls/bcn-dropdown">BCN_DROPDOWN</a> notification.
+Contains information about a <a href="/windows/desktop/Controls/bcn-dropdown">BCN_DROPDOWN</a> notification.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about the notification.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about the notification.
 
 ### -field rcButton
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the client area of the button.
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Defines methods that handle the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> events.
+Defines methods that handle the <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextInputPanelEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextInputPanelEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextInputPanelEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextInputPanelEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextInputPanelEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanged">CorrectionModeChanged</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanged">CorrectionModeChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
@@ -78,7 +78,7 @@ Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging">CorrectionModeChanging</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging">CorrectionModeChanging</a>
 </td>
 <td align="left" width="63%">
 Occurs when the correction comb on the Tablet PC Input Panel is about to change modes.
@@ -87,7 +87,7 @@ Occurs when the correction comb on the Tablet PC Input Panel is about to change 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged">InPlaceSizeChanged</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged">InPlaceSizeChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs when the In-Place Input Panel size has changed due to a user resize, auto growth, or an input area change.
@@ -96,7 +96,7 @@ Occurs when the In-Place Input Panel size has changed due to a user resize, auto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging">InPlaceSizeChanging</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging">InPlaceSizeChanging</a>
 </td>
 <td align="left" width="63%">
 Occurs when the In-Place Input Panel size is about to change due to a user resize, auto growth, or an input area change.
@@ -105,7 +105,7 @@ Occurs when the In-Place Input Panel size is about to change due to a user resiz
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged">InPlaceStateChanged</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged">InPlaceStateChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs when the In-Place state has changed.
@@ -114,7 +114,7 @@ Occurs when the In-Place state has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging">InPlaceStateChanging</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging">InPlaceStateChanging</a>
 </td>
 <td align="left" width="63%">
 Occurs when the In-Place state is about to change.
@@ -123,7 +123,7 @@ Occurs when the In-Place state is about to change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">InPlaceVisibilityChanged</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">InPlaceVisibilityChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs when the Tablet PC Input Panel has switched between visible and invisible.
@@ -132,7 +132,7 @@ Occurs when the Tablet PC Input Panel has switched between visible and invisible
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanging">InPlaceVisibilityChanging</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanging">InPlaceVisibilityChanging</a>
 </td>
 <td align="left" width="63%">
 Occurs when the Tablet PC Input Panel is about to switch between visible and invisible.
@@ -141,7 +141,7 @@ Occurs when the Tablet PC Input Panel is about to switch between visible and inv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged">InputAreaChanged</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged">InputAreaChanged</a>
 </td>
 <td align="left" width="63%">
 Occurs when the input area has changed on the Tablet PC Input Panel.
@@ -150,7 +150,7 @@ Occurs when the input area has changed on the Tablet PC Input Panel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanging">InputAreaChanging</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanging">InputAreaChanging</a>
 </td>
 <td align="left" width="63%">
 Occurs when the input area is about to change on the Tablet PC Input Panel.
@@ -159,7 +159,7 @@ Occurs when the input area is about to change on the Tablet PC Input Panel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted">TextInserted</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted">TextInserted</a>
 </td>
 <td align="left" width="63%">
 Occurs when the Tablet PC Input Panel has inserted text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
@@ -168,7 +168,7 @@ Occurs when the Tablet PC Input Panel has inserted text into the control with in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting">TextInserting</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting">TextInserting</a>
 </td>
 <td align="left" width="63%">
 Occurs when the Tablet PC Input Panel is about to insert text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
@@ -183,5 +183,4 @@ This element is declared in Peninputpanel.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies a client of [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.
+Notifies a client of [ShellExecuteEx](../shellapi/nf-shellapi-shellexecuteexw.md) that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The full command line that will be passed to **CreateProcess** including the arg
 
 ### -param handlerInfo [in]
 
-Provides access to information about the handler that will be invoked. This object also supports **IHandlerInfo2** on versions of windows that support that interface. This object also implements [IObjectWithSelection](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection). This can be used to get the Shell item, or items in some cases, that are being launched.
+Provides access to information about the handler that will be invoked. This object also supports **IHandlerInfo2** on versions of windows that support that interface. This object also implements [IObjectWithSelection](./nn-shobjidl_core-iobjectwithselection.md). This can be used to get the Shell item, or items in some cases, that are being launched.
 
 ## -returns
 
@@ -73,5 +73,4 @@ Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>

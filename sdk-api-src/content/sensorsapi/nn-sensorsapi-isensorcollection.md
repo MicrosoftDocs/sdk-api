@@ -52,10 +52,9 @@ api_name:
 
 Represents a collection of sensors, such as all the sensors connected to a computer.
 
-Retrieve a pointer to <b>ISensorCollection</b> by calling methods of the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a> interface.
+Retrieve a pointer to <b>ISensorCollection</b> by calling methods of the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a> interface.
 In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensorCollection</b> interface exposes the following methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
-
+<a href="/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>

@@ -64,7 +64,7 @@ On input, the number of GUIDs the <i>pPropertyGuid</i> buffer can hold. On outpu
 
 ### -param pPropertyGuid
 
-Array of properties the recognizer can return. The order of the array is arbitrary. For a list of predefined properties, see the recognition <a href="https://docs.microsoft.com/windows/desktop/tablet/property-guids">Property GUIDs</a>. To determine the required size of the buffer, set <i>pPropertyGuid</i> to <b>NULL</b>; use the number of GUIDs to allocate the buffer.
+Array of properties the recognizer can return. The order of the array is arbitrary. For a list of predefined properties, see the recognition <a href="/windows/desktop/tablet/property-guids">Property GUIDs</a>. To determine the required size of the buffer, set <i>pPropertyGuid</i> to <b>NULL</b>; use the number of GUIDs to allocate the buffer.
 
 ## -returns
 
@@ -131,4 +131,3 @@ An invalid argument was received.
 </td>
 </tr>
 </table>
-

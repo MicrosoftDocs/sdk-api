@@ -125,11 +125,10 @@ The requested stream transition is not possible.
 
 This interface function helps to query the Device MFT input stream’s preferred state and mediatype to which it needs to be transitioned.
 
-When a change in the output stream’s media type needs corresponding change in the input, then Device MFT would post <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/metransforminputstreamstatechanged">METransformInputStreamStateChanged</a> to DTM to change the relevant input stream. DTM would call <b>GetInputStreamPreferredState</b> to retrieve Device MFT input stream’s preferred mediatype and state.
+When a change in the output stream’s media type needs corresponding change in the input, then Device MFT would post <a href="/windows-hardware/drivers/stream/metransforminputstreamstatechanged">METransformInputStreamStateChanged</a> to DTM to change the relevant input stream. DTM would call <b>GetInputStreamPreferredState</b> to retrieve Device MFT input stream’s preferred mediatype and state.
 
-As an  example, consider a Device MFT that has two input streams and three output streams. Let  Output 1 and Output 2 source from Input 1 and  stream at 720p. Now, let us say Output 2’s media type changes to 1080p. To satisfy this request, Device MFT must  change the Input 1 media type to 1080p, by posting <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/metransforminputstreamstatechanged">METransformInputStreamStateChanged</a> event to the DTM. DTM would call <b>GetInputStreamPreferredState</b> and retrieve the preferred state and mediatype. DTM would call  <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setinputstreamstate">SetInputStreamState</a> to change the input stream’ mediatype and state.
+As an  example, consider a Device MFT that has two input streams and three output streams. Let  Output 1 and Output 2 source from Input 1 and  stream at 720p. Now, let us say Output 2’s media type changes to 1080p. To satisfy this request, Device MFT must  change the Input 1 media type to 1080p, by posting <a href="/windows-hardware/drivers/stream/metransforminputstreamstatechanged">METransformInputStreamStateChanged</a> event to the DTM. DTM would call <b>GetInputStreamPreferredState</b> and retrieve the preferred state and mediatype. DTM would call  <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-setinputstreamstate">SetInputStreamState</a> to change the input stream’ mediatype and state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>

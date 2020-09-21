@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-The <b>KERB_CERTIFICATE_LOGON</b> structure contains information about a smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>KERB_CERTIFICATE_LOGON</b> structure contains information about a smart card <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 It is passed as the <i>AuthenticationInformation</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function when the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerberos-ssp-ap">Kerberos</a> security package performs an interactive smart card logon.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function when the <a href="/windows/desktop/SecAuthN/kerberos-ssp-ap">Kerberos</a> security package performs an interactive smart card logon.
 
 ## -struct-fields
 
 ### -field MessageType
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that indicates how this structure is used. The member must be one of the following values.
+A member of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that indicates how this structure is used. The member must be one of the following values.
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi
 </td>
 <td width="60%">
 This structure is passed as the <i>AuthenticationInformation</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function to perform an interactive smart card logon.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function to perform an interactive smart card logon.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ This structure is passed as the <i>AuthenticationInformation</i> parameter to th
 </dl>
 </td>
 <td width="60%">
-This structure is used as the <b>Logon</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a> structure.
+This structure is used as the <b>Logon</b> member of a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a> structure.
 
 </td>
 </tr>
@@ -97,17 +97,17 @@ This structure is used as the <b>Logon</b> member of a <a href="https://docs.mic
 
 ### -field DomainName
 
-The domain name of the user to authenticate. The value of this member can be empty. If the value is not empty, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> uses the value to locate the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC). If the value is empty, <b>LsaLogonUser</b> attempts to authenticate against the domain to which the computer is joined.  The pointer is relative to the beginning of the structure and is not an absolute memory pointer.
+The domain name of the user to authenticate. The value of this member can be empty. If the value is not empty, <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> uses the value to locate the <a href="/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC). If the value is empty, <b>LsaLogonUser</b> attempts to authenticate against the domain to which the computer is joined.  The pointer is relative to the beginning of the structure and is not an absolute memory pointer.
 
 ### -field UserName
 
-The user name of the user to authenticate. The value of this member can be empty. If the value is not empty, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> uses the value to locate the user account to authenticate.  The pointer is relative to the beginning of the structure and is not an absolute memory pointer.
+The user name of the user to authenticate. The value of this member can be empty. If the value is not empty, <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> uses the value to locate the user account to authenticate.  The pointer is relative to the beginning of the structure and is not an absolute memory pointer.
 
 ### -field Pin
 
 The PIN to use to authenticate the user. The <b>Length</b> member of this structure does not include the terminating null character of the PIN. The pointer is relative to the beginning of the structure and is not an absolute memory pointer.
 
-The PIN can be protected by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
+The PIN can be protected by using the <a href="/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
 
 ### -field Flags
 
@@ -150,7 +150,7 @@ The length, in characters, of the <b>CspData</b> member.
 
 ### -field CspData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a> structure that contains information about the smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) ) or a pointer to a marshaled <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_info">KERB_CERTIFICATE_INFO</a> structure when updating certificate credentials.
+A pointer to a <a href="/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a> structure that contains information about the smart card <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) ) or a pointer to a marshaled <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_info">KERB_CERTIFICATE_INFO</a> structure when updating certificate credentials.
 
 ## -remarks
 
@@ -160,13 +160,12 @@ The pointers stored in the members of <b>UNICODE_STRING</b> type are relative to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a>
+<a href="/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>

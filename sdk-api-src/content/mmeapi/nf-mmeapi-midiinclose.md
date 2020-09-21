@@ -106,9 +106,8 @@ The system is unable to allocate or lock memory.
 
 ## -remarks
 
-If there are input buffers that have been sent by using the <a href="https://docs.microsoft.com/previous-versions/dd798450(v=vs.85)">midiInAddBuffer</a> function and have not been returned to the application, the close operation will fail. To return all pending buffers through the callback function, use the <a href="https://docs.microsoft.com/previous-versions/dd798461(v=vs.85)">midiInReset</a> function.
+If there are input buffers that have been sent by using the <a href="/previous-versions/dd798450(v=vs.85)">midiInAddBuffer</a> function and have not been returned to the application, the close operation will fail. To return all pending buffers through the callback function, use the <a href="/previous-versions/dd798461(v=vs.85)">midiInReset</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

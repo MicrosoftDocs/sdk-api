@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object that represents the configuration needed to carry out subscribe operations over certain protocols.
+Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object that represents the configuration needed to carry out subscribe operations over certain protocols.
 
 ## -parameters
 
 ### -param application [in]
 
-A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
+A pointer to a handle returned from the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param deliveryType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_subscriptiondeliverytype">MI_SubscriptionDeliveryType</a> enumeration that specifies how the indications are delivered.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_subscriptiondeliverytype">MI_SubscriptionDeliveryType</a> enumeration that specifies how the indications are delivered.
 
 ### -param deliveryOptions [out]
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object.
+The returned <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function returns MI_INLINE MI_Result.
 
 ## -remarks
 
-When you have finished using the returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object, close it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a> function.
-
+When you have finished using the returned <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> object, close it by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a> function.

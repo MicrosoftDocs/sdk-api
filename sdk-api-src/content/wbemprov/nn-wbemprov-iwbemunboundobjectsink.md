@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemUnboundObjectSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemUnboundObjectSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemUnboundObjectSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemUnboundObjectSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemUnboundObjectSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer">IndicateToConsumer</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer">IndicateToConsumer</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Management to actually deliver events to a consumer.
@@ -78,4 +78,3 @@ Called by Windows Management to actually deliver events to a consumer.
 </td>
 </tr>
 </table>
-

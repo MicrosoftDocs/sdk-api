@@ -70,17 +70,16 @@ Returns <b>TRUE</b> if the file type is considered dangerous; otherwise, <b>FALS
 
 ## -remarks
 
-Files that are determined to be potentially dangerous, such as .exe files, should be handled with more care than other files. For example, Windows Internet Explorer version 6.01 or later uses <b>AssocIsDangerous</b> to determine whether it should issue stronger warning language in its download dialog box. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> uses <b>AssocIsDangerous</b> to trigger zone checking using the methods of the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537130(v=vs.85)">IInternetSecurityManager</a> interface in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)">URLACTION_SHELL_SHELLEXECUTE</a> flag.
+Files that are determined to be potentially dangerous, such as .exe files, should be handled with more care than other files. For example, Windows Internet Explorer version 6.01 or later uses <b>AssocIsDangerous</b> to determine whether it should issue stronger warning language in its download dialog box. <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> uses <b>AssocIsDangerous</b> to trigger zone checking using the methods of the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537130(v=vs.85)">IInternetSecurityManager</a> interface in conjunction with the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)">URLACTION_SHELL_SHELLEXECUTE</a> flag.
 
-The determination of a file's potential risk is made by checking its type against several sources, including a list of known dangerous types and the presence of the FTA_AlwaysUnsafe flag in the registry. On systems running Windows XPService Pack 1 (SP1) or later or Windows Server 2003, it also uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferiisexecutablefiletype">SaferiIsExecutableFileType</a> function to determine whether a file type is executable.
+The determination of a file's potential risk is made by checking its type against several sources, including a list of known dangerous types and the presence of the FTA_AlwaysUnsafe flag in the registry. On systems running Windows XPService Pack 1 (SP1) or later or Windows Server 2003, it also uses the <a href="/windows/desktop/api/winsafer/nf-winsafer-saferiisexecutablefiletype">SaferiIsExecutableFileType</a> function to determine whether a file type is executable.
 
 Applications that can take advantage of <b>AssocIsDangerous</b> include email programs, browsers, chat clients capable of downloading files, and any application that moves files or data from one zone of trust to another.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/fa-file-types">File Types</a>
+<a href="/windows/desktop/shell/fa-file-types">File Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferiisexecutablefiletype">SaferiIsExecutableFileType</a>
-
+<a href="/windows/desktop/api/winsafer/nf-winsafer-saferiisexecutablefiletype">SaferiIsExecutableFileType</a>

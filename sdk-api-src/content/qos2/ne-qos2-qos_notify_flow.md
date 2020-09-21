@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>QOS_NOTIFY_FLOW</b> enumeration specifies the circumstances that must be present for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> function to send a notification.
+The <b>QOS_NOTIFY_FLOW</b> enumeration specifies the circumstances that must be present for the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> function to send a notification.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Notifications will be sent when the flow's available capacity is sufficient  to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a>
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

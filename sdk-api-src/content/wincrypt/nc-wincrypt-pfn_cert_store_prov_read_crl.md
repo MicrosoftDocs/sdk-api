@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-An application-defined callback function that reads the provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a> context. If one exists, a new CRL context is created.
+An application-defined callback function that reads the provider's copy of the <a href="/windows/desktop/SecGloss/c-gly">CRL</a> context. If one exists, a new CRL context is created.
 
-Currently not called directly by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> functions. However, might be exported to support other providers.
+Currently not called directly by the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> functions. However, might be exported to support other providers.
 
 ## -parameters
 
 ### -param hStoreProv [in]
 
 Provider-specific value returned in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
 
 ### -param pStoreCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> of the CRL to be read.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> of the CRL to be read.
 
 ### -param dwFlags [in]
 
@@ -74,7 +74,7 @@ Reserved for future use and is set to zero.
 ### -param *ppProvCrlContext [out]
 
 A pointer to a pointer to provider's copy of the CRL context. The context will be freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
 ## -returns
 
@@ -82,21 +82,20 @@ Returns TRUE if the CRL was successfully read.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Callback Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Callback Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>

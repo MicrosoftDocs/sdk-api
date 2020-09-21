@@ -67,7 +67,7 @@ Specifies that BITS is transferring data for the job.
 
 ### -field BG_JOB_STATE_SUSPENDED
 
-Specifies that the job is suspended (paused). To suspend a job, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend method</a>. BITS automatically suspends a job when it is created. The job remains suspended until you call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume method</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete method</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">IBackgroundCopyJob::Cancel method</a>.
+Specifies that the job is suspended (paused). To suspend a job, call the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend method</a>. BITS automatically suspends a job when it is created. The job remains suspended until you call the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume method</a>, <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete method</a>, or <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">IBackgroundCopyJob::Cancel method</a>.
 
 ### -field BG_JOB_STATE_ERROR
 
@@ -99,4 +99,3 @@ Specifies that you called the
 ## -see-also
 
 * [IBackgroundCopyJob::GetState method](/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate)
-

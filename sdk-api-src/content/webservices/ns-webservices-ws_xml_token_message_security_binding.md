@@ -57,14 +57,14 @@ token that is already available to the application in XML form.  The
 security token that is supplied by the application in this binding is
 presented to a service in a WS-Security header according to the
 bindingUsage specified.  This security binding may be included in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> only on the
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> only on the
 client side.
             
 
-This security binding is not supported with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
+This security binding is not supported with the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
 
 Although this binding can be used with any token available in XML
-form, this is commonly used in <a href="https://docs.microsoft.com/windows/desktop/wsw/federation">federation
+form, this is commonly used in <a href="/windows/desktop/wsw/federation">federation
 scenarios</a>.  For example, a client side token provider such as
 CardSpace may be used to get a token from a security token service,
 and that token may then be presented to a Web Service using this
@@ -74,9 +74,9 @@ security binding.
 Security note: As with other security tokens and credentials, the
 application is in charge of the risk assessment decision to disclose a
 given XML token (supplied by the application in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>) to a given
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>) to a given
 server (supplied by the application when 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opening the channel</a>).  In particular, the
+<a href="/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opening the channel</a>).  In particular, the
 application should consider the threat that the server might use the
 XML token it receives from the client, in turn, to pretend to be the
 client to a 3rd party.  For this threat, the following mitigations
@@ -106,19 +106,18 @@ The base type from which this security binding subtype and all other security bi
 How the security token corresponding to this security binding should be bound to a message.
                 
 
-Only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
+Only <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
 supported.  With this usage, this security binding provides client
 authentication, but not message protection (such as signing,
 encryption, replay detection).  Thus, this binding must be used
-together with another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
+together with another security binding such as the <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
 channel.
 
 ### -field xmlToken
 
-The XML security token to be used.  This token may be created using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a> or obtained from a security token
-service using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a>.  When this binding is
+The XML security token to be used.  This token may be created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a> or obtained from a security token
+service using <a href="/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a>.  When this binding is
 used for creating a channel, a copy of the supplied token is made and
 kept for internal use -- the application continues to own the supplied
-token and is responsible for deleting it with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a> any time after the channel creation call
+token and is responsible for deleting it with <a href="/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a> any time after the channel creation call
 returns.
-

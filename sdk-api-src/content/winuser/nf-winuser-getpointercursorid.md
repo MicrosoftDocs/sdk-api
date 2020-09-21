@@ -73,7 +73,7 @@ An address of a <b>UINT32</b> to receive the tablet cursor identifier, if any, a
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -83,5 +83,4 @@ For pointer types that derive from these cursor objects, an application can use 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>

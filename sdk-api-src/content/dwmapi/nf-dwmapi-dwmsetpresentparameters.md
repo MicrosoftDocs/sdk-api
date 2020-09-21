@@ -64,9 +64,8 @@ The handle to the window where the present parameters are applied.
 
 ### -param pPresentParams [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_present_parameters">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
+A pointer to a <a href="/windows/desktop/api/dwmapi/ns-dwmapi-dwm_present_parameters">DWM_PRESENT_PARAMETERS</a> structure that contains DWM video frame parameters for frame composition.
 
 ## -returns
 
 This function always returns S_OK.
-

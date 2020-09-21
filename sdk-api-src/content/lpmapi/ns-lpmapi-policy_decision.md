@@ -71,5 +71,4 @@ RSVP-defined error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
-
+<a href="/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>

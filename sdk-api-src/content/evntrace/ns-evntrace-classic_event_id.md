@@ -72,9 +72,8 @@ Reserved.
 
 ## -remarks
 
-To enable the <a href="https://docs.microsoft.com/windows/desktop/ETW/diskio-typegroup1">read</a> event type for <a href="https://docs.microsoft.com/windows/desktop/ETW/diskio">disk IO </a>events, set <b>GUID</b> to 3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c and <b>Type</b> to 10.
+To enable the <a href="/windows/desktop/ETW/diskio-typegroup1">read</a> event type for <a href="/windows/desktop/ETW/diskio">disk IO </a>events, set <b>GUID</b> to 3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c and <b>Type</b> to 10.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
-
+<a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>

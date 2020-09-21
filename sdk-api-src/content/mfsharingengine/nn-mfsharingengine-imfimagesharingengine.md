@@ -54,7 +54,7 @@ Enables image sharing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFImageSharingEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFImageSharingEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFImageSharingEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets information about the image sharing device.
@@ -78,7 +78,7 @@ Gets information about the image sharing device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-setsource">SetSource</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-setsource">SetSource</a>
 </td>
 <td align="left" width="63%">
 Sets the source stream.
@@ -87,7 +87,7 @@ Sets the source stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the image sharing engine.
@@ -98,5 +98,4 @@ Shuts down the image sharing engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -102,13 +102,12 @@ For those versions of Windows that do not include <b>StrCmpNIC</b> in Shlwapi.h,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpica">StrCmpIC</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpica">StrCmpIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpnia">StrCmpNI</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpnia">StrCmpNI</a>

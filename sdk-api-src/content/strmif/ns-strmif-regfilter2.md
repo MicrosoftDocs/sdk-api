@@ -60,7 +60,7 @@ Filter registration format. If the value is 1, the union contains the first unna
 
 ### -field dwMerit
 
-Filter merit. Filters with higher merit are enumerated first. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/merit">Merit</a>.
+Filter merit. Filters with higher merit are enumerated first. See <a href="/windows/desktop/DirectShow/merit">Merit</a>.
 
 ### -field cPins
 
@@ -68,7 +68,7 @@ Number of pins. (Defined only if <b>dwVersion</b> is 1.)
 
 ### -field rgPins
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins">REGFILTERPINS</a> structures, of size <b>cPins</b>. (Defined only if <b>dwVersion</b> is 1.)
+Pointer to an array of <a href="/windows/desktop/api/strmif/ns-strmif-regfilterpins">REGFILTERPINS</a> structures, of size <b>cPins</b>. (Defined only if <b>dwVersion</b> is 1.)
 
 ### -field cPins2
 
@@ -76,15 +76,14 @@ Number of pins. (Defined only if <b>dwVersion</b> is 2.)
 
 ### -field rgPins2
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structures, of size <b>cPins2</b>. (Defined only if <b>dwVersion</b> is 2.)
+Pointer to an array of <a href="/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structures, of size <b>cPins2</b>. (Defined only if <b>dwVersion</b> is 2.)
 
 ## -remarks
 
-This structure is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">IFilterMapper2::RegisterFilter</a> method.
+This structure is passed to the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">IFilterMapper2::RegisterFilter</a> method.
 
-If you need to register pin mediums or pin categories, set <b>dwVersion</b> to 2 and use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structure.
+If you need to register pin mediums or pin categories, set <b>dwVersion</b> to 2 and use the <a href="/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

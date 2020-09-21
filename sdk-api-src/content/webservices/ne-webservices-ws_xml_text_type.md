@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> structure.
+The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> structure.
 
 ## -enum-fields
 
@@ -117,4 +117,3 @@ A qualified name.
 ### -field WS_XML_TEXT_TYPE_LIST
 
 A list of values that represent their text forms separated by a single whitespace character.
-

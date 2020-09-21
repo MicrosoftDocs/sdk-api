@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_DN_WITH_BINARY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains binary data.
+The <b>ADS_DN_WITH_BINARY</b> structure is used with the <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains binary data.
 
 ## -struct-fields
 
@@ -76,13 +76,12 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
+<a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSchema/s-object-dn-binary">Object(DN-Binary)</a>
-
+<a href="/windows/desktop/ADSchema/s-object-dn-binary">Object(DN-Binary)</a>

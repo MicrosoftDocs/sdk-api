@@ -58,13 +58,13 @@ api_name:
 ## -description
 
 Removes a directory that was added to the process DLL search path by using 
-     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>.
+     <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>.
 
 ## -parameters
 
 ### -param Cookie [in]
 
-The cookie returned by <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> when the 
+The cookie returned by <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a> when the 
       directory was added to the search path.
 
 ## -returns
@@ -73,7 +73,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value 
       is zero. To get extended error information, call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,8 +81,7 @@ After <b>RemoveDllDirectory</b> returns, the cookie is
     no longer valid and should not be used.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>To call this function in an application, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
+      <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to retrieve its address from 
       Kernel32.dll. 
       <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> must be 
       installed on the target platform.
-

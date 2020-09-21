@@ -63,9 +63,8 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-lockrect">IDirect3DSurface9::LockRect</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-lockrect">IDirect3DSurface9::LockRect</a>

@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
@@ -82,13 +82,12 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 ## -remarks
 
-The provider framework currently returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> value rather than a <b>WBEMINT64</b> value.
+The provider framework currently returns a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> value rather than a <b>WBEMINT64</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>
+<a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/cinstance-getwbemint64">CInstance::GetWBEMINT64</a>
-
+<a href="/windows/desktop/WmiSdk/cinstance-getwbemint64">CInstance::GetWBEMINT64</a>

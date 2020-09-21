@@ -66,7 +66,7 @@ Pointer to the context.
 
 #### - pIDevice [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> object.
+Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> object.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If the method succeeds, it returns S_OK. If the method fails, it returns an <b>H
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>

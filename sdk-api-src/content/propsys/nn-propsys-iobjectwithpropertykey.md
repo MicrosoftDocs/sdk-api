@@ -54,7 +54,7 @@ Exposes methods for getting and setting the property key.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithPropertyKey</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithPropertyKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithPropertyKey</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithPropertyKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectWithPropertyKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iobjectwithpropertykey-getpropertykey">GetPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-iobjectwithpropertykey-getpropertykey">GetPropertyKey</a>
 </td>
 <td align="left" width="63%">
 Gets the property key.
@@ -78,7 +78,7 @@ Gets the property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iobjectwithpropertykey-setpropertykey">SetPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-iobjectwithpropertykey-setpropertykey">SetPropertyKey</a>
 </td>
 <td align="left" width="63%">
 Sets the property key.
@@ -86,4 +86,3 @@ Sets the property key.
 </td>
 </tr>
 </table>
-

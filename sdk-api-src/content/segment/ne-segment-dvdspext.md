@@ -100,13 +100,12 @@ Director's comments for children.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd695197(v=vs.85)">DefaultSubpictureLanguageExt</a>
+<a href="/previous-versions/dd695197(v=vs.85)">DefaultSubpictureLanguageExt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultsubpicturelanguage">SelectDefaultSubpictureLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultsubpicturelanguage">SelectDefaultSubpictureLanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>

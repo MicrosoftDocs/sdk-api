@@ -72,5 +72,4 @@ The <b>PrincipalPoint</b> field is expressed in pixels, not in normalized coordi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

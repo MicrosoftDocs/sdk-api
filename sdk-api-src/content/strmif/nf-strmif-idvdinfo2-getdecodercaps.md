@@ -57,7 +57,7 @@ The <code>GetDecoderCaps</code> method retrieves the DVD decoder's maximum data 
 
 ### -param pCaps [out]
 
-Pointer to a variable of type [DVD_DECODER_CAPS](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_decoder_caps) that receives the information about the decoder.
+Pointer to a variable of type [DVD_DECODER_CAPS](/windows/desktop/api/strmif/ns-strmif-dvd_decoder_caps) that receives the information about the decoder.
 
 ## -returns
 
@@ -94,13 +94,12 @@ The filter graph has not been initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

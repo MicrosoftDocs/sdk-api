@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Copies the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> .
+Copies the decoder's <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> .
 
 ## -parameters
 
 ### -param pIPalette [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
 
-An<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to which the decoder's global palette is to be copied. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createpalette">CreatePalette</a> to create the destination palette before calling <b>CopyPalette</b>.
+An<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to which the decoder's global palette is to be copied. Use <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createpalette">CreatePalette</a> to create the destination palette before calling <b>CopyPalette</b>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>CopyPalette</b> returns a global palette (a palette that applies to all the frames in the image) if there is one; otherwise, it returns WINCODEC_ERR_PALETTEUNAVAILABLE. If an image doesn't have a global palette, it may still have a frame-level palette, which can be retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypalette">IWICBitmapFrameDecode::CopyPalette</a>.
-
+<b>CopyPalette</b> returns a global palette (a palette that applies to all the frames in the image) if there is one; otherwise, it returns WINCODEC_ERR_PALETTEUNAVAILABLE. If an image doesn't have a global palette, it may still have a frame-level palette, which can be retrieved using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypalette">IWICBitmapFrameDecode::CopyPalette</a>.

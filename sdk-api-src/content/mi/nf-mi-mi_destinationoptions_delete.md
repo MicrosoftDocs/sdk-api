@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Deletes the destination options structure created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_clone">MI_DestinationOptions_Clone</a> function.
+Deletes the destination options structure created by using the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> or <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_clone">MI_DestinationOptions_Clone</a> function.
 
 ## -parameters
 
 ### -param options [in, out]
 
 A pointer to the destination options structure to delete.
-

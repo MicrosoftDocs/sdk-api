@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session. Remote Desktop Connection Broker (RD Connection Broker) uses this enumeration type in the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_machinechangenotification">WTSSBX_MachineChangeNotification</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_sessionchangenotification">WTSSBX_SessionChangeNotification</a> methods to notify the plug-in about changes that have occurred.
+Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session. Remote Desktop Connection Broker (RD Connection Broker) uses this enumeration type in the <a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_machinechangenotification">WTSSBX_MachineChangeNotification</a> and <a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_sessionchangenotification">WTSSBX_SessionChangeNotification</a> methods to notify the plug-in about changes that have occurred.
 
 ## -enum-fields
 
@@ -74,5 +74,4 @@ RD Connection Broker received a Resync notification. This indicates that an RD�
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-
+<a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>

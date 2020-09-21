@@ -74,7 +74,7 @@ Identifies the property that contains the size of the file, in bytes. The varian
 
 ### -field EvtLogAttributes
 
-Identifies the property that contains the file attributes (for details on the file attributes, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> function). The variant type for this property is <b>EvtVarTypeUInt32</b>.
+Identifies the property that contains the file attributes (for details on the file attributes, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> function). The variant type for this property is <b>EvtVarTypeUInt32</b>.
 
 ### -field EvtLogNumberOfLogRecords
 
@@ -90,5 +90,4 @@ Identifies the property that you use to determine whether the channel or log fil
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>

@@ -60,7 +60,7 @@ Specifies the external joystick number being addressed.
 
 ### -param arg2
 
-Specifies the <b>dwEffectId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dieffectattributes">DIEFFECTATTRIBUTES</a> structure associated with the effect the application is attempting to create. The DIEFFECTATTRIBUTES structure is stored in the registry under the corresponding effect registry key and can be any 32-bit value. DirectInput passes the 32-bit value to the driver with no interpretation.
+Specifies the <b>dwEffectId</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dieffectattributes">DIEFFECTATTRIBUTES</a> structure associated with the effect the application is attempting to create. The DIEFFECTATTRIBUTES structure is stored in the registry under the corresponding effect registry key and can be any 32-bit value. DirectInput passes the 32-bit value to the driver with no interpretation.
 
 ### -param arg3
 
@@ -193,4 +193,3 @@ Suppresses the automatic download that is normally performed after the parameter
 ## -returns
 
 Returns S_OK if successful, or an error value otherwise.
-

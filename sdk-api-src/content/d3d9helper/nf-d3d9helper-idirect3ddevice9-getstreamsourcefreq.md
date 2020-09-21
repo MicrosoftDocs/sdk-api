@@ -54,13 +54,13 @@ Gets the stream source frequency divider value.
 
 ### -param StreamNumber
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: [in] <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Stream source number.
 
 ### -param Divider
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: [out] <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Returns the frequency divider value.
 
@@ -72,11 +72,10 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-Vertex shaders can now be invoked more than once per vertex. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/efficiently-drawing-multiple-instances-of-geometry">Drawing Non-Indexed Geometry</a>.
+Vertex shaders can now be invoked more than once per vertex. See <a href="/windows/desktop/direct3d9/efficiently-drawing-multiple-instances-of-geometry">Drawing Non-Indexed Geometry</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">IDirect3DDevice9::SetStreamSourceFreq</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">IDirect3DDevice9::SetStreamSourceFreq</a>

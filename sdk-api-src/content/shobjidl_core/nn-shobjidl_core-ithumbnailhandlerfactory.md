@@ -54,7 +54,7 @@ Exposes a method for retrieving the thumbnail handler of an item. Implement this
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailHandlerFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailHandlerFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailHandlerFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailHandlerFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IThumbnailHandlerFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ithumbnailhandlerfactory-getthumbnailhandler">GetThumbnailHandler</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ithumbnailhandlerfactory-getthumbnailhandler">GetThumbnailHandler</a>
 </td>
 <td align="left" width="63%">
 Gets the requested thumbnail handler for the thumbnail of a given item.
@@ -77,4 +77,3 @@ Gets the requested thumbnail handler for the thumbnail of a given item.
 </td>
 </tr>
 </table>
-

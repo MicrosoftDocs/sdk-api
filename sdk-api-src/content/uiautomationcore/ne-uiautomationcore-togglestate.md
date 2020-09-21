@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Contains values that specify the toggle state of a Microsoft UI Automation element that implements the 
-		<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> <i>control pattern</i>.
+		<a href="/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> <i>control pattern</i>.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ Creating an indeterminate state is different from disabling the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-toggle">Toggle</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-toggle">Toggle</a>

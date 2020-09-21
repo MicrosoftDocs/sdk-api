@@ -98,9 +98,8 @@ Memory allocations failed.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
+Call <a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>

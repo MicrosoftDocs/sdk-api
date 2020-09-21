@@ -45,9 +45,6 @@ api_name:
  - DxSkipNextField
 ---
 
-# PDX_SKIPNEXTFIELD callback function
-
-
 ## -description
 
 The<i> DxSkipNextField</i> callback function is called when the next field needs to be skipped or reenabled.
@@ -55,23 +52,12 @@ The<i> DxSkipNextField</i> callback function is called when the next field needs
 ## -parameters
 
 ### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
+### -param Arg2
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a> structure that contains the skip information for the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
-#### - SkipNextFieldInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a> structure that contains the skip information for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
-
-
-#### - lpOutput
-
+### -param Arg3
 Reserved for system use.
 
 ## -returns
@@ -84,5 +70,4 @@ If the <b>dwSkipFlags</b> member of the DDSKIPNEXTFIELDINFO structure at <i>Skip
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a>

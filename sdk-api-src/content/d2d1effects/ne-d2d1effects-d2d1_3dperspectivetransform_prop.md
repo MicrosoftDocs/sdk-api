@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a>.
+Identifiers for the properties of the <a href="/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a>.
 
 ## -enum-fields
 
@@ -128,4 +128,3 @@ Type is D2D1_VECTOR_3F.
 Default value is {0.0f, 0.0f, 0.0f}.
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_FORCE_DWORD
-

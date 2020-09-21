@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the output data received from a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
+Represents the output data received from a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> method.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Represents the <b>streamId</b> for which <b>streamData</b> is defined.
 
 ### -field streamData
 
-Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a>.
+Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a>.
 
 ### -field commandState
 
@@ -71,4 +71,3 @@ Specifies the status of the command. If this member is set to <b>WSMAN_COMMAND_S
 ### -field exitCode
 
 Defines the exit code of the command. This value is relevant only if the <b>commandState</b> member is set to <b>WSMAN_COMMAND_STATE_DONE</b>.
-

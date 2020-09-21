@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
+Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ No dynamic range control or dialogue normalization (dialnorm). This mode should 
 
 ### -field eAVDecDDOperationalMode_LINE
 
-Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecdddynamicrangescalehigh-property">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecdddynamicrangescalelow-property">AVDecDDDynamicRangeScaleLow</a> property.
+Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalehigh-property">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalelow-property">AVDecDDDynamicRangeScaleLow</a> property.
 
 ### -field eAVDecDDOperationalMode_RF
 
@@ -88,9 +88,8 @@ Dialnorm enabled, dialogue at -14dBFS. Dynamic range and compression used. High-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

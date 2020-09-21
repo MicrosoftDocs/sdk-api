@@ -52,10 +52,10 @@ api_name:
 
 The 
     <b>RSoPSetPolicySettingStatus</b> function creates an instance of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> and an instance of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettinglink">RSOP_PolicySettingLink</a>. The function links (associates) 
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> and an instance of 
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysettinglink">RSOP_PolicySettingLink</a>. The function links (associates) 
 <b>RSOP_PolicySettingStatus</b> to its 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance.
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Specifies a WMI services pointer to the RSoP namespace to which the policy data 
 ### -param pSettingInstance [in]
 
 Pointer to an instance of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> containing the policy setting. This parameter is required and can point to the instance's children.
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> containing the policy setting. This parameter is required and can point to the instance's children.
 
 ### -param nInfo [in]
 
@@ -79,7 +79,7 @@ Specifies the number of elements in the <i>pStatus</i> array.
 ### -param pStatus [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-policysettingstatusinfo">POLICYSETTINGSTATUSINFO</a> structures.
+<a href="/windows/desktop/api/userenv/ns-userenv-policysettingstatusinfo">POLICYSETTINGSTATUSINFO</a> structures.
 
 ## -returns
 
@@ -88,29 +88,28 @@ If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the functi
 ## -remarks
 
 To unlink an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> instance from its 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance, you can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a> function.
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> instance from its 
+<a href="/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance, you can call the 
+<a href="/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a>

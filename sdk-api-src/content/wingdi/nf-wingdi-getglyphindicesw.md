@@ -71,7 +71,7 @@ A pointer to the string to be converted.
 
 ### -param c [in]
 
-The length of both the <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpstr</i> and the size (in WORDs) of the buffer pointed to by <i>pgi</i>.
+The length of both the <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpstr</i> and the size (in WORDs) of the buffer pointed to by <i>pgi</i>.
 
 ### -param pgi [out]
 
@@ -106,7 +106,7 @@ If the function fails, the return value is GDI_ERROR.
 
 ## -remarks
 
-This function attempts to identify a single-glyph representation for each character in the string pointed to by <i>lpstr</i>. While this is useful for certain low-level purposes (such as manipulating font files), higher-level applications that wish to map a string to glyphs will typically wish to use the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a> functions.
+This function attempts to identify a single-glyph representation for each character in the string pointed to by <i>lpstr</i>. While this is useful for certain low-level purposes (such as manipulating font files), higher-level applications that wish to map a string to glyphs will typically wish to use the <a href="/windows/desktop/Intl/uniscribe">Uniscribe</a> functions.
 
 
 
@@ -117,13 +117,12 @@ This function attempts to identify a single-glyph representation for each charac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>

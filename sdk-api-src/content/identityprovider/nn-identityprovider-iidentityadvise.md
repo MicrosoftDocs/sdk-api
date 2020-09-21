@@ -55,7 +55,7 @@ The <b>IIdentityAdvise</b> interface allows an identity provider to notify a cal
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityAdvise</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityAdvise</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityAdvise</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityAdvise</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IIdentityAdvise</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IdentityUpdated</a>
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IdentityUpdated</a>
 </td>
 <td align="left" width="63%">
 Is called by an identity provider to notify a calling application that an identity event occurred.
@@ -81,9 +81,8 @@ Is called by an identity provider to notify a calling application that an identi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a>
-
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a>

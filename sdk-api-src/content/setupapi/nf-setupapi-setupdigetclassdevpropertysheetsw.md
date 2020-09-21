@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device information set.
+The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device information set.
 
 ## -parameters
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class.
 
 ### -param DeviceInfoData [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in DeviceInfoSet. 
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in DeviceInfoSet. 
 
 This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiGetClassDevPropertySheets</b> retrieves the property sheets handles that are associated with the specified device. If this parameter is <b>NULL</b>, <b>SetupDiGetClassDevPropertySheets</b> retrieves the property sheets handles that are associated with the device setup class specified in <i>DeviceInfoSet</i>.
 
@@ -122,7 +122,7 @@ Advanced property sheets on a remote computer.
 
 ## -returns
 
-The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to obtain the error code.
+The function returns <b>TRUE</b> if successful. Otherwise, the function returns <b>FALSE</b>. Call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain the error code.
 
 ## -remarks
 
@@ -181,5 +181,4 @@ Returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
-
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>

@@ -59,7 +59,7 @@ Retrieve the package path in the mutable folder if the application is declared a
 
 ## -remarks
 
-An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
 
 ## -see-also
 
@@ -76,4 +76,3 @@ An application has a mutable install folder if it uses the [windows.mutablePacka
 
 
 [GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)
-

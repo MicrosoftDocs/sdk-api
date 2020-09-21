@@ -54,7 +54,7 @@ An optional interface that allows an XAPO to use effect-specific parameters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXAPOParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">GetParameters</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the current values for any effect-specific parameters.
@@ -78,7 +78,7 @@ Gets the current values for any effect-specific parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">SetParameters</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets effect-specific parameters.
@@ -94,5 +94,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/xaudio2/interfaces">Interfaces</a>

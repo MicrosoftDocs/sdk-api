@@ -54,7 +54,7 @@ This interface allows for the creation of <b>alljoyn_busattachment</b> without t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> interface has these
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop-createfromwin32handle">CreateFromWin32Handle</a>
+<a href="/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop-createfromwin32handle">CreateFromWin32Handle</a>
 </td>
 <td align="left" width="63%">
 Constructs an <b>AllJoynBusAttachment</b> over an existing <b>alljoyn_busattachment</b> instance without taking ownership.
@@ -80,5 +80,4 @@ Constructs an <b>AllJoynBusAttachment</b> over an existing <b>alljoyn_busattachm
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>

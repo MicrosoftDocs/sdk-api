@@ -57,19 +57,19 @@ Clears the depth-stencil resource.
 
 ### -param pDepthStencilView [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilview">ID3D10DepthStencilView</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilview">ID3D10DepthStencilView</a>*</b>
 
 Pointer to the depth stencil to be cleared.
 
 ### -param ClearFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Which parts of the buffer to clear. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_clear_flag">D3D10_CLEAR_FLAG</a>.
+Which parts of the buffer to clear. See <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_clear_flag">D3D10_CLEAR_FLAG</a>.
 
 ### -param Depth [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Clear the depth buffer with this value. This value will be clamped between 0 and 1.
 
@@ -94,5 +94,4 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

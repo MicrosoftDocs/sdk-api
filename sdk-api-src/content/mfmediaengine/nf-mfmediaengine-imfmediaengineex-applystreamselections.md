@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Applies the stream selections from previous calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
+Applies the stream selections from previous calls to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

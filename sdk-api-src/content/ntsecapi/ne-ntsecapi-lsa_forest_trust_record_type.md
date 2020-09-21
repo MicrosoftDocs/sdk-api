@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_RECORD_TYPE</b> enumeration defines the type of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust record.
+The <b>LSA_FOREST_TRUST_RECORD_TYPE</b> enumeration defines the type of a <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust record.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ Record contains an excluded top-level name.
 
 ### -field ForestTrustDomainInfo
 
-Record contains an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
+Record contains an <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
 
 ### -field ForestTrustRecordTypeLast
 
@@ -72,5 +72,4 @@ Marks the end of an enumeration.
 
 ## -remarks
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structure.
-
+This enumeration is used by the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structure.

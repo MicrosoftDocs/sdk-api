@@ -112,7 +112,7 @@ Automatic Updates is paused.
 You cannot search for updates if the following conditions are true:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
+<li>The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
 <li>The managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.</li>
 </ul>
 </td>
@@ -122,7 +122,7 @@ You cannot search for updates if the following conditions are true:
 ## -remarks
 
 A call to <b>ShowSettingsDialog</b>  fails if the calling user is not logged on or does not have a desktop.
-A caller can also programmatically modify Automatic Updates settings by using the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">Settings</a> property.
+A caller can also programmatically modify Automatic Updates settings by using the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">Settings</a> property.
 
 The settings in the dialog box are read-only if the caller has insufficient security permissions or if the settings are enforced by a domain administrator who is using Group Policy settings.
 
@@ -130,9 +130,8 @@ The settings in the dialog box are read-only if the caller has insufficient secu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">IAutomaticUpdates.Settings</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">IAutomaticUpdates.Settings</a>

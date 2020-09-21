@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies values used by <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">IAutoComplete2::GetOptions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">IAutoComplete2::SetOptions</a> for options surrounding autocomplete.
+Specifies values used by <a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">IAutoComplete2::GetOptions</a> and <a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-setoptions">IAutoComplete2::SetOptions</a> for options surrounding autocomplete.
 
 ## -enum-fields
 
@@ -86,7 +86,7 @@ Specifies values used by <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -field ACO_RTLREADING
 
-0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
+0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
 
 ### -field ACO_WORD_FILTER
 
@@ -95,4 +95,3 @@ Specifies values used by <a href="https://docs.microsoft.com/windows/desktop/api
 ### -field ACO_NOPREFIXFILTERING
 
 0x0100. <b>Windows Vista and later</b>. Disable prefix filtering when displaying the autosuggest dropdown. Always display all suggestions.
-

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>BluetoothSelectDevicesFree</b> function frees resources associated with a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>.
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Returns <b>TRUE</b> upon success. Returns <b>FALSE</b> if there are no resources
 
 ## -remarks
 
-Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
+Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a>

@@ -57,19 +57,19 @@ Locks a box on a volume resource.
 
 ### -param pLockedVolume [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-box">D3DLOCKED_BOX</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dlocked-box">D3DLOCKED_BOX</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-box">D3DLOCKED_BOX</a> structure, describing the locked region.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dlocked-box">D3DLOCKED_BOX</a> structure, describing the locked region.
 
 ### -param pBox [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dbox">D3DBOX</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3dbox">D3DBOX</a>*</b>
 
-Pointer to a box to lock. Specified by a pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dbox">D3DBOX</a> structure. Specifying <b>NULL</b> for this parameter locks the entire volume.
+Pointer to a box to lock. Specified by a pointer to a <a href="/windows/desktop/direct3d9/d3dbox">D3DBOX</a> structure. Specifying <b>NULL</b> for this parameter locks the entire volume.
 
 ### -param Flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are: 
     
@@ -81,7 +81,7 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_NOSYSLOCK</li>
 <li>D3DLOCK_READONLY</li>
 </ul>
-For a description of the flags, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
+For a description of the flags, see <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK</a>.
 
 ## -returns
 
@@ -91,13 +91,12 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DVolume9::LockBox</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">IDirect3DDevice9::UpdateTexture</a> for more information.
+For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DVolume9::LockBox</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. See <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">IDirect3DDevice9::UpdateTexture</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-unlockbox">IDirect3DVolume9::UnlockBox</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-unlockbox">IDirect3DVolume9::UnlockBox</a>

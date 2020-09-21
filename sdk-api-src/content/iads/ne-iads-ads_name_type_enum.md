@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_NAME_TYPE_ENUM</b> enumeration specifies the formats used for representing distinguished names. It is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface to convert the format of a distinguished name.
+The <b>ADS_NAME_TYPE_ENUM</b> enumeration specifies the formats used for representing distinguished names. It is used by the  <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface to convert the format of a distinguished name.
 
 ## -enum-fields
 
@@ -86,7 +86,7 @@ Global Unique Identifier format. For example, "{95ee9fff-3436-11d1-b2b0-d15ae3ac
 
 ### -field ADS_NAME_TYPE_UNKNOWN
 
-Unknown name type. The system will estimate the format. This element is a meaningful option only with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate.Set</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate.SetEx</a> method, but not with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate.Get</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate.GetEx</a> method.
+Unknown name type. The system will estimate the format. This element is a meaningful option only with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate.Set</a> or the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate.SetEx</a> method, but not with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate.Get</a> or <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate.GetEx</a> method.
 
 ### -field ADS_NAME_TYPE_USER_PRINCIPAL_NAME
 
@@ -102,40 +102,39 @@ Service principal name format. For example, "www/www.fabrikam.com@fabrikam.com".
 
 ### -field ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME
 
-A SID string, as defined in the Security Descriptor Definition Language (SDDL), for either the SID of the current object or one from the object SID history. For example, "O:AOG:DAD:(A;;RPWPCCDCLCSWRCWDWOGA;;;S-1-0-0)" For more information, see  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
+A SID string, as defined in the Security Descriptor Definition Language (SDDL), for either the SID of the current object or one from the object SID history. For example, "O:AOG:DAD:(A;;RPWPCCDCLCSWRCWDWOGA;;;S-1-0-0)" For more information, see  <a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
 
 ## -remarks
 
-Code examples written in C++, Visual Basic, and VBS/ASP can be found in the discussions of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface.
+Code examples written in C++, Visual Basic, and VBS/ASP can be found in the discussions of the <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface.
 
 Because VBScript cannot read data from a type library, an application must use the appropriate numeric constants, instead of the symbolic constants, to set the appropriate flags. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here, in  VBScript applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
     Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate.Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate.Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate.GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate.GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate.Set</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate.Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate.SetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate.SetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>
-
+<a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>

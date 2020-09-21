@@ -56,7 +56,7 @@ The <b>GetPosition</b> method gets the current device position.
 
 ### -param pu64Position [out]
 
-Pointer to a <b>UINT64</b> variable into which the method writes the device position. The device position is the offset from the start of the stream to the current position in the stream. However, the units in which this offset is expressed are undefined—the device position value has meaning only in relation to the frequency reported by the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a> method. For more information, see Remarks.
+Pointer to a <b>UINT64</b> variable into which the method writes the device position. The device position is the offset from the start of the stream to the current position in the stream. However, the units in which this offset is expressed are undefined—the device position value has meaning only in relation to the frequency reported by the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a> method. For more information, see Remarks.
 
 ### -param pu64QPCPosition [out]
 
@@ -128,7 +128,7 @@ Given the device position and the performance counter at the time of the <b>GetP
 </ol>
 For more information about <b>QueryPerformanceCounter</b> and <b>QueryPerformanceFrequency</b>, see the Windows SDK documentation.
 
-Immediately following creation of a new stream, the device position is 0. Following a call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a> method, the device position increments at a uniform rate. The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a> method freezes the device position, and a subsequent <b>Start</b> call causes the device position to resume incrementing from its value at the time of the <b>Stop</b> call. A call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>, which should only occur while the stream is stopped, resets the device position to 0.
+Immediately following creation of a new stream, the device position is 0. Following a call to the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a> method, the device position increments at a uniform rate. The <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a> method freezes the device position, and a subsequent <b>Start</b> call causes the device position to resume incrementing from its value at the time of the <b>Stop</b> call. A call to <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>, which should only occur while the stream is stopped, resets the device position to 0.
 
 When a new or reset rendering stream initially begins running, its device position might remain 0 for a few milliseconds until the audio data has had time to propagate from the endpoint buffer to the rendering endpoint device. The device position changes from 0 to a nonzero value when the data begins playing through the device.
 
@@ -140,21 +140,20 @@ Position measurements might occasionally be delayed by intermittent, high-priori
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a>

@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Unregisters for the scale change event registered through <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>. This function replaces <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>.
+Unregisters for the scale change event registered through <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>. This function replaces <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>.
 
 ## -parameters
 
 ### -param dwCookie [in]
 
-A pointer to the cookie retrieved in the call to <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>.
+A pointer to the cookie retrieved in the call to <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>.
 
 ## -returns
 
@@ -67,9 +67,8 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>
-
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>

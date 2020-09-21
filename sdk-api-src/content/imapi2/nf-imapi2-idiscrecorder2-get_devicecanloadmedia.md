@@ -100,9 +100,8 @@ Value: 0x80004005
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>

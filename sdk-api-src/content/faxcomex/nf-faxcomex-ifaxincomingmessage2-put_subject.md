@@ -63,13 +63,12 @@ The <b>Subject</b> property contains the subject associated with the inbound fax
 
 ## -remarks
 
-A received message starts with a null value for the subject when it arrives. It can be given a subject by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> when it is reassigned.
+A received message starts with a null value for the subject when it arrives. It can be given a subject by a <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> when it is reassigned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>

@@ -78,13 +78,12 @@ A compiler can generate optimal code for a right logical shift operation when th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shllmod32">Int64ShllMod32</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-int64shllmod32">Int64ShllMod32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shramod32">Int64ShraMod32</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-int64shramod32">Int64ShraMod32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
-
+<a href="/windows/desktop/WinProg/large-integers">Large Integers</a>

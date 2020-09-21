@@ -56,7 +56,7 @@ Gets a locally unique identifier for the current device (adapter).
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LUID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LUID</a></b>
 
 The locally unique identifier for the adapter.
 
@@ -71,5 +71,4 @@ A locally unique identifier (LUID) is a 64-bit value that is guaranteed to be un
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

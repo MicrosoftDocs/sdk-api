@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> when the IMEPad instance exits.
+Called from <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> when the IMEPad instance exits.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-im
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
-
+<a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>

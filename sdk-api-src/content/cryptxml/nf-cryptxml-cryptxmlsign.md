@@ -56,11 +56,11 @@ The <b>CryptXmlSign</b> function creates a cryptographic signature of  a <b>Sign
 
 ### -param hSignature [in]
 
-The handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure.
+The handle to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure.
 
 ### -param hKey [in, optional]
 
-The handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> used to sign the <b>SignedInfo</b> element.
+The handle of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> used to sign the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
 
 ### -param dwKeySpec
@@ -79,7 +79,7 @@ A <b>DWORD</b> value that specifies the key type. This parameter can be one of t
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a> is a key exchange pair.
+The <a href="/windows/desktop/SecGloss/k-gly">key pair</a> is a key exchange pair.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Is set to  <b>NULL</b>
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure
+Points to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
+Points to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
 
 </td>
 </tr>
@@ -193,15 +193,14 @@ A pointer to a structure, the type of which is determined by the value of the <i
 
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
 
 ### -param pCanonicalization [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

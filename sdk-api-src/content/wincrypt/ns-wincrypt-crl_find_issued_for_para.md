@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CRL_FIND_ISSUED_FOR_PARA</b> structure contains the certificate contexts of both a subject and a certificate issuer. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcrlinstore">CertFindCRLInStore</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcrlinstore">CertFindCRLInStore</a>.
 
 ## -struct-fields
 
@@ -66,4 +66,3 @@ A pointer to a subject's certificate context.
 ### -field pIssuerCert
 
 A pointer to a certificate issuer's certificate context.
-

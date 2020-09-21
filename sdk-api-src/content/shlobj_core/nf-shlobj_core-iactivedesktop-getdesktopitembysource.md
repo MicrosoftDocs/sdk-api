@@ -64,7 +64,7 @@ A pointer to a string that contains the source URL of the desktop item.
 
 Type: <b>LPCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that, when this method returns successfully, receives the details about the desktop item. On entry, the size of the structure must be set.
+A pointer to the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that, when this method returns successfully, receives the details about the desktop item. On entry, the size of the structure must be set.
 
 ### -param dwReserved
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>

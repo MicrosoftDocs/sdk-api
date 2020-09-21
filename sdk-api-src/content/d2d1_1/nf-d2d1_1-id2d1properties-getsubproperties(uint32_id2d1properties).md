@@ -62,7 +62,7 @@ The index of the  sub-properties to be retrieved.
 
 ### -param subProperties [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
 
 When this method returns, contains the address of a pointer to the sub-properties.
 
@@ -94,5 +94,4 @@ If there are no sub-properties, <i>subProperties</i> will be <b>NULL</b>, and <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>

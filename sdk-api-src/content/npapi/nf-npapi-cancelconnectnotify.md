@@ -50,34 +50,33 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) calls <b>CancelConnectNotify</b> before and after each cancel connection operation (<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>).
+The <a href="/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) calls <b>CancelConnectNotify</b> before and after each cancel connection operation (<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a> and 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>).
 
 ## -parameters
 
 ### -param lpNotifyInfo [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/npapi/ns-npapi-notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
 
 ### -param lpCancelInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifycancel">NOTIFYCANCEL</a> structure that contains the cancel connection specific information.
+<a href="/windows/desktop/api/npapi/ns-npapi-notifycancel">NOTIFYCANCEL</a> structure that contains the cancel connection specific information.
 
 ## -returns
 
 If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should return an error code. This can be any of the error codes specified in 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/network-security-return-values">Network Security Return Values</a>.
+<a href="/windows/desktop/SecAuthN/network-security-return-values">Network Security Return Values</a>.
 
 ## -remarks
 
 The <b>CancelConnectNotify</b> function is implemented by applications that need to receive notification from the MPR when a network resource is connected or disconnected. For more information about how to write an application that receives such notifications, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/receiving-connection-notifications">Receiving Connection Notifications</a>.
+<a href="/windows/desktop/SecAuthN/receiving-connection-notifications">Receiving Connection Notifications</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a>
-
+<a href="/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a>

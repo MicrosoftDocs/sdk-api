@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Handles a Microsoft UI Automation active text position change event.<div class="alert"><b>Note</b>  This method is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.</div>
+Handles a Microsoft UI Automation active text position change event.<div class="alert"><b>Note</b>  This method is implemented by the application to handle events that it has subscribed to by calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.</div>
 <div> </div>
 
 ## -parameters
@@ -61,7 +61,7 @@ A pointer to the UI Automation element that raised the event.
 
 ### -param range
 
-A span of continuous text in a container that supports the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> interface.
+A span of continuous text in a container that supports the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> interface.
 
 ## -returns
 
@@ -69,9 +69,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
+Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt830314(v=VS.85).aspx">IUIAutomationActiveTextPositionChangedEventHandler</a>
-

@@ -54,7 +54,7 @@ Adds GPU-Based Validation and Dependent Command Queue Synchronization to the deb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug1</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Debug1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Debug1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Debug1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-enabledebuglayer">EnableDebugLayer</a>
+<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-enabledebuglayer">EnableDebugLayer</a>
 </td>
 <td align="left" width="63%">
 Enables the debug layer.
@@ -78,7 +78,7 @@ Enables the debug layer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation">SetEnableGPUBasedValidation</a>
+<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation">SetEnableGPUBasedValidation</a>
 </td>
 <td align="left" width="63%">
 This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.  
@@ -87,7 +87,7 @@ This method enables or disables GPU-Based Validation (GBV) before creating a dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablesynchronizedcommandqueuevalidation">SetEnableSynchronizedCommandQueueValidation</a>
+<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablesynchronizedcommandqueuevalidation">SetEnableSynchronizedCommandQueueValidation</a>
 </td>
 <td align="left" width="63%">
 Enables or disables dependent command queue synchronization when using a D3D12 device with the debug layer enabled.
@@ -102,13 +102,12 @@ This interface is currently in Preview mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-d3d12-debug-layer-gpu-based-validation">Using D3D12 Debug Layer GPU-Based Validation</a>
-
+<a href="/windows/desktop/direct3d12/using-d3d12-debug-layer-gpu-based-validation">Using D3D12 Debug Layer GPU-Based Validation</a>

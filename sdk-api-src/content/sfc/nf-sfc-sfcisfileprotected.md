@@ -72,5 +72,4 @@ If the file is not protected, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfciskeyprotected">SfcIsKeyProtected</a>
-
+<a href="/windows/desktop/api/sfc/nf-sfc-sfciskeyprotected">SfcIsKeyProtected</a>

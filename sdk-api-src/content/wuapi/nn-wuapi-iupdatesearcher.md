@@ -54,7 +54,7 @@ Searches for updates on a server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSearcher</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSearcher</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSearcher</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSearcher</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUpdateSearcher</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a>
 </td>
 <td align="left" width="63%">
 Begins execution of an asynchronous search for updates. The search uses the search options that are currently configured.
@@ -79,7 +79,7 @@ Begins execution of an asynchronous search for updates. The search uses the sear
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous search for updates.
@@ -88,7 +88,7 @@ Completes an asynchronous search for updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-escapestring">EscapeString</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-escapestring">EscapeString</a>
 </td>
 <td align="left" width="63%">
 Converts a string into a string that can be used as a literal value in a search criteria string.
@@ -97,7 +97,7 @@ Converts a string into a string that can be used as a literal value in a search 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-gettotalhistorycount">GetTotalHistoryCount</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-gettotalhistorycount">GetTotalHistoryCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of update events on the computer.
@@ -106,7 +106,7 @@ Returns the number of update events on the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-queryhistory">QueryHistory</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-queryhistory">QueryHistory</a>
 </td>
 <td align="left" width="63%">
 Synchronously queries the computer for the history of update events.
@@ -115,7 +115,7 @@ Synchronously queries the computer for the history of update events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronous search for updates. The search uses the search options that are currently configured.
@@ -133,7 +133,7 @@ Performs a synchronous search for updates. The search uses the search options th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice">CanAutomaticallyUpgradeService</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice">CanAutomaticallyUpgradeService</a>
 
 
 </td>
@@ -142,14 +142,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets and sets a Boolean value that indicates whether future calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA).
+Gets and sets a Boolean value that indicates whether future calls to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_clientapplicationid">ClientApplicationID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_clientapplicationid">ClientApplicationID</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Identifies the current client application.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">IncludePotentiallySupersededUpdates</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">IncludePotentiallySupersededUpdates</a>
 
 
 </td>
@@ -181,7 +181,7 @@ Gets and sets a Boolean value that indicates whether the search results  include
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_online">Online</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_online">Online</a>
 
 
 </td>
@@ -197,7 +197,7 @@ Gets and sets a Boolean value that indicates  whether the <b>UpdateSearcher</b> 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a>
 
 
 </td>
@@ -206,14 +206,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a>
 
 
 </td>
@@ -231,4 +231,3 @@ Gets and sets a site to search when the site to search is not a Windows Update s
 ## -remarks
 
 You can create an instance of this interface by using the UpdateSearcher coclass. Use the Microsoft.Update.Searcher program identifier to create the object.
-

@@ -56,7 +56,7 @@ Creates a folder action object.
 
 ### -param FolderAction [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface that you use to describe the action to be taken by the data manager.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface that you use to describe the action to be taken by the data manager.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>

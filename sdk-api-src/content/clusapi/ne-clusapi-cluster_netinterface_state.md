@@ -52,14 +52,14 @@ api_name:
 ## -description
 
 Enumerates the possible values of the state of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
+    <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 ## -enum-fields
 
 ### -field ClusterNetInterfaceStateUnknown
 
 The operation was not successful. For more information about the error, call the function 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ### -field ClusterNetInterfaceUnavailable
 
@@ -83,13 +83,12 @@ The network interface can communicate with all other network interfaces whose st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetinterfacestate">GetClusterNetInterfaceState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternetinterfacestate">GetClusterNetInterfaceState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnetinterface-state">State Property of the ClusNetInterface Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusnetinterface-state">State Property of the ClusNetInterface Object</a>

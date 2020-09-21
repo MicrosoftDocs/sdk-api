@@ -49,7 +49,7 @@ api_name:
 
 Multiplies one instance of **XMVECTOR** by a second instance, returning the result in a third instance.
 
-The `operator *` multiplies each component of an instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a second instance of **XMVECTOR**, returning a new **XMVECTOR** instance containing the result.
+The `operator *` multiplies each component of an instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a second instance of **XMVECTOR**, returning a new **XMVECTOR** instance containing the result.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -83,5 +83,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
-
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

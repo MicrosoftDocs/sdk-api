@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the category of settings being stored in a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure.
+Specifies the category of settings being stored in a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ The settings apply to group policy for the user.
 ### -field WRDS_SETTING_TYPE_SAM
 
 The settings apply to the user security accounts manager (SAM).
-

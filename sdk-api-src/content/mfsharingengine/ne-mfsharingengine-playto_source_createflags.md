@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytosourceclassfactory-createinstance">IPlayToSourceClassFactory::CreateInstance</a> method.
+Contains flags for the <a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytosourceclassfactory-createinstance">IPlayToSourceClassFactory::CreateInstance</a> method.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ Supported in Windows 8.1 and later.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

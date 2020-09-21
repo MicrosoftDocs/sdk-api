@@ -53,7 +53,7 @@ api_name:
 The router manager calls the 
 <b>ConnectClient</b> function when a client connects to an interface on which the routing protocol is running.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PCONNECT_CLIENT</a> type defines a pointer to this callback function. <i>ConnectClient</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PCONNECT_CLIENT</a> type defines a pointer to this callback function. <i>ConnectClient</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -100,5 +100,4 @@ The <i>InterfaceIndex</i> parameter is invalid, for example, no interface exists
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdisconnect_client">DisconnectClient</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pdisconnect_client">DisconnectClient</a>

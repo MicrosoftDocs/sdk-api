@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the prototype for the callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>.
+Defines the prototype for the callback function used by <a href="/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a> and <a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>.
 
 ## -parameters
 
@@ -88,11 +88,10 @@ The subclass ID.
 
 Type: <b>DWORD_PTR</b>
 
-The reference data provided to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> function. This can be used to associate the subclass instance with a "this" pointer.
+The reference data provided to the <a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> function. This can be used to associate the subclass instance with a "this" pointer.
 
 ## -returns
 
 Type: <b>LRESULT</b>
 
 The return value is the result of the message processing and depends on the message sent.
-

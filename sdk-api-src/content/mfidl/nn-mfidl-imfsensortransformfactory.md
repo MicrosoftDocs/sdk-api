@@ -57,7 +57,7 @@ The interface implemented by sensor transforms to allow  the media pipeline to q
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorTransformFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorTransformFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorTransformFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorTransformFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSensorTransformFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-createtransform">CreateTransform</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-createtransform">CreateTransform</a>
 </td>
 <td align="left" width="63%">
 Called by the media pipeline to create the transform.
@@ -81,7 +81,7 @@ Called by the media pipeline to create the transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-gettransformcount">GetTransformCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-gettransformcount">GetTransformCount</a>
 </td>
 <td align="left" width="63%">
 Called by the media pipeline to get the number of transforms provided by the sensor transform.
@@ -90,7 +90,7 @@ Called by the media pipeline to get the number of transforms provided by the sen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-gettransforminformation">GetTransformInformation</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-gettransforminformation">GetTransformInformation</a>
 </td>
 <td align="left" width="63%">
 Called by the media pipeline to get information about a transform provided by the  sensor transform.
@@ -99,7 +99,7 @@ Called by the media pipeline to get information about a transform provided by th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-initializefactory">InitializeFactory</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensortransformfactory-initializefactory">InitializeFactory</a>
 </td>
 <td align="left" width="63%">
 Called by the media pipeline to initialize the sensor transform.
@@ -107,4 +107,3 @@ Called by the media pipeline to initialize the sensor transform.
 </td>
 </tr>
 </table>
-

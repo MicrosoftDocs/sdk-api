@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The purpose of the <b>ITextStoryRanges</b> interface is to enumerate the stories in an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>.
+The purpose of the <b>ITextStoryRanges</b> interface is to enumerate the stories in an <a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextStoryRanges</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextStoryRanges</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ Retrieves an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">GetCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of stories in the specified stories collection.
@@ -88,10 +88,10 @@ Retrieves the number of stories in the specified stories collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges-item">Item</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-item">Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object for the 
+Retrieves an <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object for the 
 			<i>Index</i>th story in this story collection. 
 
 </td>
@@ -101,7 +101,7 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-
 ## -remarks
 
  
-You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object that covers the whole story. Text Object Model (TOM) engines that only have a single story do not need to implement an <b>ITextStoryRanges</b> interface. Your code should only get a stories collection if <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">GetStoryCount</a> returns a story count greater than one.
+You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object that covers the whole story. Text Object Model (TOM) engines that only have a single story do not need to implement an <b>ITextStoryRanges</b> interface. Your code should only get a stories collection if <a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">GetStoryCount</a> returns a story count greater than one.
 
 ## -see-also
 
@@ -109,13 +109,12 @@ You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a hre
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
-
+<a href="/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>

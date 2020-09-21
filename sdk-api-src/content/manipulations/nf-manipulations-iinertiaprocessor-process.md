@@ -64,13 +64,12 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
+<a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime">ProcessTime</a>
-
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime">ProcessTime</a>

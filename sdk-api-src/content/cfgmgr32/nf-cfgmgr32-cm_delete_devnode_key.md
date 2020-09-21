@@ -100,9 +100,8 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_devnode_key">CM_Open_DevNode_Key</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_devnode_key">CM_Open_DevNode_Key</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedevregkey">SetupDiDeleteDevRegKey</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdideletedevregkey">SetupDiDeleteDevRegKey</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a document view object in the caller's process and obtains a pointer to that object's <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> interface.
+Creates a document view object in the caller's process and obtains a pointer to that object's <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> interface.
 
 ## -parameters
 
 ### -param pIPSite [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> interface that represents the view site object to be associated with the new document view object. This parameter can be <b>NULL</b>, for example, when the view is contained in a new, uninitialized document object, in which case the caller must initialize the view with a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>.
+A pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> interface that represents the view site object to be associated with the new document view object. This parameter can be <b>NULL</b>, for example, when the view is contained in a new, uninitialized document object, in which case the caller must initialize the view with a subsequent call to <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>.
 
 ### -param pstm [in]
 
@@ -68,7 +68,7 @@ This parameter is reserved and must be zero.
 
 ### -param ppView [out]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer variable that receives the interface pointer to the new document view object. When successful, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <i>ppview</i> pointer when the view object is no longer needed.
+ A pointer to an <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer variable that receives the interface pointer to the new document view object. When successful, the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <i>ppview</i> pointer when the view object is no longer needed.
 
 ## -returns
 
@@ -130,29 +130,28 @@ The address in <i>ppView</i> is <b>NULL</b>.
 
 A document object container's document site calls <b>CreateView</b> to instruct a document object to create a new view of itself in the container's process, either from default data or using the contents of an existing stream.
 
-Calling <b>CreateView</b> does not cause the new view to display itself. To do so requires a call to either <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a> or <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>.
+Calling <b>CreateView</b> does not cause the new view to display itself. To do so requires a call to either <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a> or <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentsite-activateme">IOleDocumentSite::ActivateMe</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentsite-activateme">IOleDocumentSite::ActivateMe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">IOleDocumentView::ApplyViewState</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">IOleDocumentView::ApplyViewState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>
-
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>

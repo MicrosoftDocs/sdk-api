@@ -55,12 +55,12 @@ The
 
 The 
 <b>ITBasicAudioTerminal</b> interface can be obtained through <b>QueryInterface</b> from terminal objects that support this interface. For example, if the computer running Windows 2000 has a sound card, the addresses exposed by the H323 and IPCONF providers will enumerate, in their 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a> interface, two static terminals that support the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a> interface, two static terminals that support the 
 <b>ITBasicAudioTerminal</b> interface: one for "audio record" and one for "audio playback."
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicAudioTerminal</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITBasicAudioTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicAudioTerminal</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITBasicAudioTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITBasicAudioTerminal</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_balance">get_Balance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_balance">get_Balance</a>
 </td>
 <td align="left" width="63%">
 Gets the balance.
@@ -84,7 +84,7 @@ Gets the balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_volume">get_Volume</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_volume">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Gets the volume.
@@ -93,7 +93,7 @@ Gets the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_balance">put_Balance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_balance">put_Balance</a>
 </td>
 <td align="left" width="63%">
 Sets the balance.
@@ -102,7 +102,7 @@ Sets the balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_volume">put_Volume</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_volume">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume.
@@ -113,9 +113,8 @@ Sets the volume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

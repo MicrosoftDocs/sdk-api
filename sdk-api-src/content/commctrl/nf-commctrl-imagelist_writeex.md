@@ -62,7 +62,7 @@ A handle to the image list.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A flag that specifies how the stream is written.
 
@@ -79,7 +79,7 @@ A flag that specifies how the stream is written.
 </dl>
 </td>
 <td width="60%">
-Writes to the stream using the file format for <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
+Writes to the stream using the file format for <a href="/windows/desktop/Controls/common-control-versions">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
 			
 
 </td>
@@ -105,30 +105,29 @@ The address of the stream.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_create">ILC_COLOR32</a>.  
+You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_create">ILC_COLOR32</a>.  
 	
 
-To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_readex">ImageList_ReadEx</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_readex">ImageList_ReadEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_write">ImageList_Write</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_write">ImageList_Write</a>
 
 
 
 <b>Reference</b>
-

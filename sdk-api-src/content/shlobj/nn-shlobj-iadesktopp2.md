@@ -54,7 +54,7 @@ Provides methods to manage the Windows Desktop.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADesktopP2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IADesktopP2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADesktopP2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IADesktopP2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IADesktopP2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a>
 </td>
 <td align="left" width="63%">
-Calls the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
+Calls the <a href="/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
 </td>
 </tr>
@@ -80,9 +80,8 @@ Calls the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlo
 
 ## -remarks
 
-Despite its name, this interface does not inherit from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>.
+Despite its name, this interface does not inherit from <a href="/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
-
+<a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>

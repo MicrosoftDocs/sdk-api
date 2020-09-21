@@ -57,7 +57,7 @@ Sets one or more policy objects on the output trust authority (OTA).
 
 ### -param ppPolicy [in]
 
-The address of  an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> pointers.
+The address of  an array of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> pointers.
 
 ### -param nPolicy [in]
 
@@ -65,7 +65,7 @@ The number of elements in the <i>ppPolicy</i> array.
 
 ### -param ppbTicket [out]
 
-Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
+Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
 
 <div class="alert"><b>Note</b>  Currently this parameter is reserved. An OTA should set the pointer to <b>NULL</b>.</div>
 <div> </div>
@@ -123,9 +123,8 @@ The OTA does not support the requirements of this policy.
 
 ## -remarks
 
-If the method returns <b>MF_S_WAIT_FOR_POLICY_SET</b>, the OTA sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mepolicyset">MEPolicySet</a> event when it enforces the policy.
+If the method returns <b>MF_S_WAIT_FOR_POLICY_SET</b>, the OTA sends an <a href="/windows/desktop/medfound/mepolicyset">MEPolicySet</a> event when it enforces the policy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>

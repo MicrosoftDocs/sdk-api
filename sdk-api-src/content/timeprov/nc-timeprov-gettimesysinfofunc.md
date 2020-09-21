@@ -228,12 +228,11 @@ To ensure accuracy, the time provider should retrieve all time-related informati
 <b>GetTimeSysInfoFunc</b>. Note that the time values should not be used directly in an NTP packet. They are expressed relative to 12:00 A.M. January 1, 1601, whereas NTP specifies that time values be expressed relative to 12:00 A.M. January 1, 1900.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
+For an example, see <a href="/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
-

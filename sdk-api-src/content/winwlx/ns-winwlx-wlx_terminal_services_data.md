@@ -56,10 +56,10 @@ api_name:
 
 <p class="CCE_Message">[The WLX_TERMINAL_SERVICES_DATA structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WLX_TERMINAL_SERVICES_DATA</b> structure is used to provide <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> with Terminal Services user configuration information.
+The <b>WLX_TERMINAL_SERVICES_DATA</b> structure is used to provide <a href="/windows/desktop/SecGloss/g-gly">GINA</a> with Terminal Services user configuration information.
 
 The structure is populated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a> function.
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a> function.
 
 ## -struct-fields
 
@@ -81,5 +81,4 @@ The Terminal Services user configuration information is received from the Domain
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a>
-
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a>

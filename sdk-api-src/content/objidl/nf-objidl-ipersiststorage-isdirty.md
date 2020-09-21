@@ -60,9 +60,9 @@ This method returns S_OK to indicate that the object has changed. Otherwise, it 
 
 ## -remarks
 
-Use this method to determine whether an object should be saved before closing it. The dirty flag for an object is conditionally cleared in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method.
+Use this method to determine whether an object should be saved before closing it. The dirty flag for an object is conditionally cleared in the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method.
 
-For example, you could optimize a <b>File Save</b> operation by calling the <b>IPersistStorage::IsDirty</b> method for each object and then calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method only for those objects that are dirty.
+For example, you could optimize a <b>File Save</b> operation by calling the <b>IPersistStorage::IsDirty</b> method for each object and then calling the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method only for those objects that are dirty.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 You should treat any error return codes as an indication that the object has changed. Unless this method explicitly returns S_FALSE, assume that the object must be saved.
@@ -74,5 +74,4 @@ A container with one or more contained objects must maintain an internal dirty f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>

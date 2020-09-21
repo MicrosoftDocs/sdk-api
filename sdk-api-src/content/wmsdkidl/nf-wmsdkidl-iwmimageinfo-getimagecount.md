@@ -107,9 +107,8 @@ One of the ID3 frames that should be in the file cannot be accessed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimage">IWMImageInfo::GetImage</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimage">IWMImageInfo::GetImage</a>

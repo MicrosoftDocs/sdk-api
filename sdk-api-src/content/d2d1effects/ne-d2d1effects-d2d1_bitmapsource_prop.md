@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
 
 ## -enum-fields
 
@@ -79,7 +79,7 @@ The interpolation mode used to scale the image.
           If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_INTERPOLATION_MODE_LINEAR.
 
@@ -98,7 +98,7 @@ The default value is FALSE.
 The alpha mode of the output. This can be either premultiplied or straight.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED.
 
@@ -107,9 +107,8 @@ The default value is D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED.
 A flip and/or rotation operation to be performed on the image.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation">D2D1_BITMAPSOURCE_ORIENTATION</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation">D2D1_BITMAPSOURCE_ORIENTATION</a>.
 
 The default value is D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT.
 
 ### -field D2D1_BITMAPSOURCE_PROP_FORCE_DWORD
-

@@ -65,5 +65,4 @@ Slack term, in  seconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a>

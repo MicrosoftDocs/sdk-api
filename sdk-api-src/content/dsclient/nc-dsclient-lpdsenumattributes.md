@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>DSEnumAttributesCallback</b> function is an application-defined callback function that is called once for each attribute enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method. A pointer to this function is supplied as the <i>pcbEnum</i> parameter in <b>IDsDisplaySpecifier::EnumClassAttributes</b>. <b>DSEnumAttributesCallback</b> is a placeholder for the application-defined function name.
+The <b>DSEnumAttributesCallback</b> function is an application-defined callback function that is called once for each attribute enumerated by the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method. A pointer to this function is supplied as the <i>pcbEnum</i> parameter in <b>IDsDisplaySpecifier::EnumClassAttributes</b>. <b>DSEnumAttributesCallback</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
 ### -param lParam
 
-Contains an application-defined  parameter  passed as the <i>lParam</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method.
+Contains an application-defined  parameter  passed as the <i>lParam</i> parameter to the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method.
 
 ### -param pszAttributeName
 
@@ -82,5 +82,4 @@ Returns <b>S_OK</b> to continue the enumeration or any failure code, such as <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a>

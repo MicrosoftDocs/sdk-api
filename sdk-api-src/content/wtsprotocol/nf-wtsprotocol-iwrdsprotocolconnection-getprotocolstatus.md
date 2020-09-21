@@ -56,7 +56,7 @@ Retrieves information about the protocol status.
 
 ### -param pProtocolStatus [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_status">WRDS_PROTOCOL_STATUS</a> structure that receives counter, signal, and cache information for the protocol.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_status">WRDS_PROTOCOL_STATUS</a> structure that receives counter, signal, and cache information for the protocol.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>QOS_FLOWRATE_OUTGOING</b> structure is used to set flow rate information in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> function.
+The <b>QOS_FLOWRATE_OUTGOING</b> structure is used to set flow rate information in the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> function.
 
 ## -struct-fields
 
@@ -67,17 +67,16 @@ The rate at which data should be sent, in units of bits per second.
 
 ### -field ShapingBehavior
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> constant that defines the shaping behavior of the flow.
+A <a href="/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> constant that defines the shaping behavior of the flow.
 
 ### -field Reason
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_flowrate_reason">QOS_FLOWRATE_REASON</a> constant that indicates the reason for a flow rate change.
+A <a href="/windows/desktop/api/qos2/ne-qos2-qos_flowrate_reason">QOS_FLOWRATE_REASON</a> constant that indicates the reason for a flow rate change.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

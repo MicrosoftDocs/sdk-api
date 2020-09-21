@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmcfont">DTM_SETMCFONT</a> message.
+Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="/windows/desktop/Controls/dtm-setmcfont">DTM_SETMCFONT</a> message.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
 ### -param hfont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HFONT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HFONT</a></b>
 
 A handle to the font that will be set.
 
@@ -71,4 +71,3 @@ A handle to the font that will be set.
 Type: <b>long</b>
 
 Specifies whether the control should be redrawn immediately upon setting the font. Setting this parameter to <b>TRUE</b> causes the control to redraw itself.
-

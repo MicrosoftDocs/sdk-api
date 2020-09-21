@@ -64,12 +64,11 @@ A pointer to a <b>VARIANT_BOOL</b> variable to receive the refresh indicator.
 <h3>C++</h3>
  If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>BOOL</b> that indicates whether the client's policy service is out of date.
 
 ## -remarks
 
-The <b>GetRefreshPolicy</b> method returns <b>TRUE</b> only when the enrollment server returns a fault. Before calling the <b>GetRefreshPolicy</b> method you must contact the enrollment server. If a fault is returned, then call  the <b>GetRefreshPolicy</b> method from same instance of <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a> to determine whether  the cached policy is out of date and needs to be refreshed.
-
+The <b>GetRefreshPolicy</b> method returns <b>TRUE</b> only when the enrollment server returns a fault. Before calling the <b>GetRefreshPolicy</b> method you must contact the enrollment server. If a fault is returned, then call  the <b>GetRefreshPolicy</b> method from same instance of <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a> to determine whether  the cached policy is out of date and needs to be refreshed.

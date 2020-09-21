@@ -56,16 +56,16 @@ api_name:
 
 The 
 <b>PROPVARIANT</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
 
-The <b>PROPVARIANT</b> structure is also used by the <a href="https://msdn2.microsoft.com/library/ms633761.aspx">GetValue</a> and <a href="https://msdn2.microsoft.com/library/ms633763.aspx">SetValue</a> methods of <a href="https://msdn2.microsoft.com/library/ms633762.aspx">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="https://msdn2.microsoft.com/library/aa969363.aspx">Property Handlers</a>.
+The <b>PROPVARIANT</b> structure is also used by the <a href="/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)">GetValue</a> and <a href="/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">SetValue</a> methods of <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, which replaces <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="/previous-versions//bb776861(v=vs.85)">Property Handlers</a>.
 
 There are five members. The first member, the value-type tag, and the last member, the value of the property, are significant. The middle three members are reserved for future use.
 <div class="alert"><b>Note</b>  The <b>bool</b> member in previous definitions of this structure has been renamed to <b>boolVal</b>, because some compilers now recognize <b>bool</b> as a keyword.</div><div> </div><div class="alert"><b>Note</b>  The 
 <b>PROPVARIANT</b> structure, defined below, includes types that can be serialized in the version 1 property set serialization format. The version 1 format supports all types allowed in the version 0 format plus some additional types. The added types include "Version 1" in the comment field below. Use these types only if a version 1 property set is intended. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
+<a href="/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
 <b>PROPVARIANT</b> structure is defined as follows:
 
 ## -struct-fields
@@ -625,7 +625,7 @@ However, the value of the <b>DECIMAL</b> structure requires special handling. Th
 <b>PROPVARIANT</b> structure, the value must be loaded into the <b>decVal</b> member and the <b>vt</b> member is set to <b>VT_DECIMAL</b>, just as for any other value.
 
 <b>PROPVARIANT</b> is the fundamental data type by which property values are read and written through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
 
 The data type 
 <b>PROPVARIANT</b> is related to the data type <b>VARIANT</b>, defined as part of Automation in OLE2. Several definitions are reused from Automation, as follows:
@@ -872,7 +872,7 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>66</td>
 <td><b>pStream</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STREAMED_OBJECT</b></td>
@@ -885,14 +885,14 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>67</td>
 <td><b>pStorage</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STORED_OBJECT</b></td>
 <td>69</td>
 <td><b>pStorage</b></td>
 <td>As in <b>VT_STORAGE</b>, but indicates that the designated 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
 </tr>
 <tr>
 <td><b>VT_VERSIONED_STREAM</b></td>
@@ -993,4 +993,3 @@ If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a 
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.
-

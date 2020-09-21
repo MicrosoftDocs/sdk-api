@@ -60,13 +60,13 @@ The <b>FWP_RANGE0</b> structure specifies a range of values.
 
 Low value of the range.
 
-See [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) for more information.
+See [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) for more information.
 
 ### -field valueHigh
 
 High value of the range.
 
-See [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) for more information.
+See [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) for more information.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ The elements <b>valueLow</b> and <b>valueHigh</b> must be the same data type and
 Ranges are always inclusive. Thus, if a value equals
 <b>valueLow</b> or <b>valueHigh</b>, it is contained in the range.
 
-<b>FWP_RANGE0</b> is a specific implementation of FWP_RANGE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWP_RANGE0</b> is a specific implementation of FWP_RANGE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
+[FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

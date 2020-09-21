@@ -52,7 +52,7 @@ api_name:
 
 Associates an event method with a collection of subscription objects.
 
-This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
+This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The name of the event method associated with the publisher filter.
 
 ### -param dispUserDefined [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a> interface on an event system object or to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface on an event class object.
+A pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a> interface on an event system object or to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface on an event class object.
 
 ## -returns
 
@@ -231,13 +231,12 @@ COM+ is required for this operation, but it is not installed.
 
 ## -remarks
 
-The publisher filter uses the pointer passed in dispUserDefined to obtain a list of subscribers, either by calling <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> or <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-getsubscriptions">IEventControl::GetSubscriptions</a>.
+The publisher filter uses the pointer passed in dispUserDefined to obtain a list of subscribers, either by calling <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> or <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-getsubscriptions">IEventControl::GetSubscriptions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>

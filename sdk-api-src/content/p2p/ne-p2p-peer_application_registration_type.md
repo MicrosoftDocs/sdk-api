@@ -72,5 +72,4 @@ Applications with the same GUID and registered for the <b>current user</b>  take
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>

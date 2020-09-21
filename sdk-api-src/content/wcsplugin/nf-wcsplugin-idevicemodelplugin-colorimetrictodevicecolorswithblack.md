@@ -68,7 +68,7 @@ A pointer to the array of outgoing <a href="/windows/win32/api/wcsplugin/ns-wcsp
 
 ### -param pBlackInformation [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-blackinformation">BlackInformation</a>.
+A pointer to the <a href="/windows/desktop/api/wcsplugin/ns-wcsplugin-blackinformation">BlackInformation</a>.
 
 ### -param pDeviceValues [in]
 
@@ -86,13 +86,12 @@ If <i>cColors</i> or <i>cChannels</i> is zero, the return value is E_FAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
-
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>

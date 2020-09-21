@@ -102,5 +102,4 @@ The <b>LDR_DATA_TABLE_ENTRY</b> structure is defined as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
-
+<a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>

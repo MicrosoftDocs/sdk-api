@@ -92,13 +92,12 @@ Extension WebSocket frame headers (allowing reserved bits to be set by extension
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
-
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>

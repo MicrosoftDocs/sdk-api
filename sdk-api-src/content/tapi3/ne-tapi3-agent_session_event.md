@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>AGENT_SESSION_EVENT</b> enum describes agent session events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a> method returns a member of this enum to indicate the type of agent session event that occurred.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a> method returns a member of this enum to indicate the type of agent session event that occurred.
 
 ## -enum-fields
 
@@ -82,9 +82,8 @@ The session has completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">ITAgentSessionEvent::get_Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>

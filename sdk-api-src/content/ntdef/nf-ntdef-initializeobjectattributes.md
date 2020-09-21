@@ -54,7 +54,7 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="/win
 
 ### -param p
 
-A pointer to the [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure to initialize.
+A pointer to the [OBJECT_ATTRIBUTES](./ns-ntdef-_object_attributes.md) structure to initialize.
 
 ### -param n
 
@@ -114,7 +114,7 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 <a href="/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
-[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+[UNICODE_STRING](./ns-ntdef-_unicode_string.md)
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>
 
@@ -131,4 +131,3 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensection">ZwOpenSection</a>
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>
-

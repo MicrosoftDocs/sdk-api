@@ -133,5 +133,4 @@ The application calling this function must run with administrator permissions on
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdstatus">WDStatus</a>
-
+<a href="/windows/desktop/api/windowsdefender/nf-windowsdefender-wdstatus">WDStatus</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Shuts down the platform. Call this function once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a>. Do not call this function from work queue threads.
+Shuts down the platform. Call this function once for every call to <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a>. Do not call this function from work queue threads.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 In general, apps should not have pending work after they call this function.
-

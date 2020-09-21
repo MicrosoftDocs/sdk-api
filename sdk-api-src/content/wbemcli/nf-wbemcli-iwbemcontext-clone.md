@@ -59,7 +59,7 @@ api_name:
 
 The 
 <b>IWbemContext::Clone</b> method makes a logical copy of the current 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object. This method can be useful when many calls must be made which have largely identical 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object. This method can be useful when many calls must be made which have largely identical 
 <b>IWbemContext</b> objects.
 
 ## -parameters
@@ -71,4 +71,3 @@ Must point to <b>NULL</b> on entry. It receives a pointer to the new object cont
 ## -returns
 
 This method returns an <b>HRESULT</b>HRESULT indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>HRESULT.
-

@@ -53,19 +53,18 @@ api_name:
 
 ## -description
 
-Represents information about the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">Failover</a> attempts for a group failure.
+Represents information about the <a href="/previous-versions/windows/desktop/mscs/failover">Failover</a> attempts for a group failure.
 
 ## -struct-fields
 
 ### -field dwFailoverAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the group during the current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>  time interval.
+The number of remaining failover attempts that can be made on the group during the current <a href="/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>  time interval.
 
 ### -field dwFailoverPeriodRemaining
 
-The amount of time remaining for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>, in hours.
+The amount of time remaining for the <a href="/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>, in hours.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

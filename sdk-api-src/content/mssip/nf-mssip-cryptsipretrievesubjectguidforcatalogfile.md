@@ -71,7 +71,7 @@ A globally unique ID that identifies the subject.
 The return value is <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 
-If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -95,5 +95,4 @@ One or more of the parameters are not valid.
 
 ## -remarks
 
-This function only supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface packages</a> (SIPs) that are used for portable executable images (.exe), cabinet (.cab) images, and flat files.
-
+This function only supports <a href="/windows/desktop/SecGloss/s-gly">subject interface packages</a> (SIPs) that are used for portable executable images (.exe), cabinet (.cab) images, and flat files.

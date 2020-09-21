@@ -70,9 +70,8 @@ The maximum value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_ulargeint_data">RESUTIL_ULARGEINT_DATA</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_ulargeint_data">RESUTIL_ULARGEINT_DATA</a>

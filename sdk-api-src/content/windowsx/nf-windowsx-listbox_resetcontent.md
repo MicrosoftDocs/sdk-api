@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Removes all items from a list box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-resetcontent">LB_RESETCONTENT</a> message explicitly.
+Removes all items from a list box.  You can use this macro or send the <a href="/windows/desktop/Controls/lb-resetcontent">LB_RESETCONTENT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-

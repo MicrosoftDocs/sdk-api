@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA). PBDA devices pass <b>IESEvent</b> objects in calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
+Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA). PBDA devices pass <b>IESEvent</b> objects in calls to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
       Any devices that have registered to receive an event can call <b>IESEvent</b> methods to get data from the event.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IESEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getdata">GetData</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns a byte array that contains the event data.
@@ -81,7 +81,7 @@ Returns a byte array that contains the event data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventid">GetEventId</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventid">GetEventId</a>
 </td>
 <td align="left" width="63%">
 Gets the unique identifier for the event.
@@ -91,7 +91,7 @@ Gets the unique identifier for the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventtype">GetEventType</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventtype">GetEventType</a>
 </td>
 <td align="left" width="63%">
 Gets the GUID that identifies the event type.
@@ -101,7 +101,7 @@ Gets the GUID that identifies the event type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getstringdata">GetStringData</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getstringdata">GetStringData</a>
 </td>
 <td align="left" width="63%">
 Gets the event data in Unicode string format.
@@ -111,7 +111,7 @@ Gets the event data in Unicode string format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-setcompletionstatus">SetCompletionStatus</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-setcompletionstatus">SetCompletionStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the event completion status for clients that  process the event.
@@ -136,12 +136,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">FireESEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">FireESEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEvents</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEvents</a>
  
 
  
-

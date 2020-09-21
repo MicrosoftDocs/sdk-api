@@ -65,7 +65,7 @@ The <b>IWbemClassObject</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemClassObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemClassObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemClassObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemClassObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IWbemClassObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>
 </td>
 <td align="left" width="63%">
 Begins an enumeration of the properties.
@@ -89,7 +89,7 @@ Begins an enumeration of the properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginmethodenumeration">BeginMethodEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginmethodenumeration">BeginMethodEnumeration</a>
 </td>
 <td align="left" width="63%">
 Begins an enumeration of methods for the object.
@@ -98,7 +98,7 @@ Begins an enumeration of methods for the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-clone">Clone</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the current object.
@@ -107,7 +107,7 @@ Makes a copy of the current object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-compareto">CompareTo</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-compareto">CompareTo</a>
 </td>
 <td align="left" width="63%">
 Tests two objects for equality.
@@ -116,7 +116,7 @@ Tests two objects for equality.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-delete">Delete</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes the specified property from the object.
@@ -125,7 +125,7 @@ Removes the specified property from the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-deletemethod">DeleteMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-deletemethod">DeleteMethod</a>
 </td>
 <td align="left" width="63%">
 Removes a method.
@@ -134,17 +134,17 @@ Removes a method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">EndEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">EndEnumeration</a>
 </td>
 <td align="left" width="63%">
 Ends an enumeration begun with 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>.
+     <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endmethodenumeration">EndMethodEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endmethodenumeration">EndMethodEnumeration</a>
 </td>
 <td align="left" width="63%">
 Ends the enumeration of methods for an object.
@@ -153,7 +153,7 @@ Ends the enumeration of methods for an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">Get</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets a particular property value.
@@ -162,7 +162,7 @@ Gets a particular property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethod">GetMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethod">GetMethod</a>
 </td>
 <td align="left" width="63%">
 Gets the in- and out-parameter definitions for a specific method.
@@ -171,7 +171,7 @@ Gets the in- and out-parameter definitions for a specific method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethodorigin">GetMethodOrigin</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethodorigin">GetMethodOrigin</a>
 </td>
 <td align="left" width="63%">
 Reports the class in which a method is defined.
@@ -180,7 +180,7 @@ Reports the class in which a method is defined.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethodqualifierset">GetMethodQualifierSet</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethodqualifierset">GetMethodQualifierSet</a>
 </td>
 <td align="left" width="63%">
 Returns the qualifier set object for a specific method.
@@ -189,7 +189,7 @@ Returns the qualifier set object for a specific method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getnames">GetNames</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getnames">GetNames</a>
 </td>
 <td align="left" width="63%">
 Obtains a list of the names of the properties in the object.
@@ -198,7 +198,7 @@ Obtains a list of the names of the properties in the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">GetObjectText</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">GetObjectText</a>
 </td>
 <td align="left" width="63%">
 Obtains the textual rendition of the object in Managed Object Format (MOF) syntax.
@@ -207,7 +207,7 @@ Obtains the textual rendition of the object in Managed Object Format (MOF) synta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyorigin">GetPropertyOrigin</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyorigin">GetPropertyOrigin</a>
 </td>
 <td align="left" width="63%">
 Reports the class in which a particular property was introduced.
@@ -216,7 +216,7 @@ Reports the class in which a particular property was introduced.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset">GetPropertyQualifierSet</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset">GetPropertyQualifierSet</a>
 </td>
 <td align="left" width="63%">
 Allows access to the qualifiers of a particular property.
@@ -225,7 +225,7 @@ Allows access to the qualifiers of a particular property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getqualifierset">GetQualifierSet</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getqualifierset">GetQualifierSet</a>
 </td>
 <td align="left" width="63%">
 Allows access to the qualifier set of the entire object.
@@ -234,7 +234,7 @@ Allows access to the qualifier set of the entire object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-inheritsfrom">InheritsFrom</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-inheritsfrom">InheritsFrom</a>
 </td>
 <td align="left" width="63%">
 Reports whether the current object inherits from a particular class.
@@ -243,17 +243,17 @@ Reports whether the current object inherits from a particular class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">Next</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the next property in an enumeration after an initial call to 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>.
+     <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">BeginEnumeration</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">NextMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">NextMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next method definition in an enumeration of methods.
@@ -262,7 +262,7 @@ Retrieves the next method definition in an enumeration of methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-put">Put</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-put">Put</a>
 </td>
 <td align="left" width="63%">
 Updates or creates a particular property value.
@@ -271,7 +271,7 @@ Updates or creates a particular property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-putmethod">PutMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-putmethod">PutMethod</a>
 </td>
 <td align="left" width="63%">
 Creates a method.
@@ -280,7 +280,7 @@ Creates a method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-spawnderivedclass">SpawnDerivedClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-spawnderivedclass">SpawnDerivedClass</a>
 </td>
 <td align="left" width="63%">
 Creates a new derived class from the current class.
@@ -289,7 +289,7 @@ Creates a new derived class from the current class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-spawninstance">SpawnInstance</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-spawninstance">SpawnInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance from the current class.
@@ -304,30 +304,29 @@ Users and providers should never implement this interface. The implementation pr
      that is supported.
 
 From the WMI client perspective, this interface is always in-process. Write 
-     (<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-put">Put</a>) operations only affect the local copy of the 
-     object, and read (<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">Get</a>) operations always retrieve 
+     (<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-put">Put</a>) operations only affect the local copy of the 
+     object, and read (<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">Get</a>) operations always retrieve 
      values from the local copy. You can perform updates to WMI only when entire objects are read or written using 
-     methods on the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface. Examples of such 
-     updates are: <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> or 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a>.
+     methods on the <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface. Examples of such 
+     updates are: <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> or 
+     <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-and-declaring-an-instance-using-c-">Creating and Declaring an Instance Using C++</a>
+<a href="/windows/desktop/WmiSdk/creating-and-declaring-an-instance-using-c-">Creating and Declaring an Instance Using C++</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-a-class-object-path">Describing a Class Object Path</a>
+<a href="/windows/desktop/WmiSdk/describing-a-class-object-path">Describing a Class Object Path</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-an-instance-object-path">Describing an Instance Object Path</a>
+<a href="/windows/desktop/WmiSdk/describing-an-instance-object-path">Describing an Instance Object Path</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>
-
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>

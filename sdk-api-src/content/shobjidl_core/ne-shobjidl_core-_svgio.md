@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-items">IFolderView::Items</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-itemcount">IFolderView::ItemCount</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getitemobject">IShellView::GetItemObject</a> methods to restrict or control the items in their collections.
+Used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-items">IFolderView::Items</a>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-itemcount">IFolderView::ItemCount</a>, and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getitemobject">IShellView::GetItemObject</a> methods to restrict or control the items in their collections.
 
 ## -enum-fields
 
 ### -field SVGIO_BACKGROUND
 
-0x00000000. Refers to the background of the view. It is used with IID_IContextMenu to get a shortcut menu for the view background and with IID_IDispatch to get a dispatch interface that represents the <a href="https://docs.microsoft.com/windows/desktop/shell/shellfolderview">ShellFolderView</a> object for the view.
+0x00000000. Refers to the background of the view. It is used with IID_IContextMenu to get a shortcut menu for the view background and with IID_IDispatch to get a dispatch interface that represents the <a href="/windows/desktop/shell/shellfolderview">ShellFolderView</a> object for the view.
 
 ### -field SVGIO_SELECTION
 
@@ -68,7 +68,7 @@ Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 ### -field SVGIO_CHECKED
 
-0x00000003. Used in the same way as <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
+0x00000003. Used in the same way as <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 ### -field SVGIO_TYPE_MASK
 
@@ -86,4 +86,3 @@ The <b>SVGIO</b> type used to refer to members of the <b>_SVGIO</b> enumeration 
 ```
 typedef int SVGIO;
 ```
-

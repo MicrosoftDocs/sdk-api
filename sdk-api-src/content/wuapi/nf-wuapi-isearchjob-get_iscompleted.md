@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets a Boolean value that indicates whether the call to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method is completely processed.
+Gets a Boolean value that indicates whether the call to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method is completely processed.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>

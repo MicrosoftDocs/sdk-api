@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Calculates the wire size of the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object, and gets its handle and data.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The data used by RPC.
 
 ### -param arg2 [in]
 
-Sets the buffer offset so that the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
+Sets the buffer offset so that the <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
 
 ### -param arg3 [in]
 
@@ -69,4 +69,3 @@ The safe array that contains the data to marshal.
 ## -returns
 
 The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
-

@@ -48,7 +48,7 @@ Gets a reference to an array of structures that represent the key IDs known to t
 
 ### -param keyStatuses
 
-Receives a pointer to an array of [MFMediaKeyStatus](/windows/win32/api/mfidl/ns-mfidl-mfmediakeystatus) structures containing the IDs and statuses of the keys known to the CDM session.
+Receives a pointer to an array of [MFMediaKeyStatus](../mfidl/ns-mfidl-mfmediakeystatus.md) structures containing the IDs and statuses of the keys known to the CDM session.
 
 ### -param numKeyStatuses
 
@@ -63,4 +63,3 @@ Returns S_OK. If an error occurs, the returned mey status list is empty.
 **GetKeyStatuses** is based on the Encrypted Media Extension specification's [MediaKeySession.keyStatuses](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysession-keystatuses).
 
 ## -see-also
-

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the similarity data that was generated for a file by the signature generator.
 
-This method cannot be called until signature generation is completed. For more information, see the <i>endOfOutput</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method.
+This method cannot be called until signature generation is completed. For more information, see the <i>endOfOutput</i> parameter of the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method.
 
 ## -parameters
 
@@ -66,5 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>

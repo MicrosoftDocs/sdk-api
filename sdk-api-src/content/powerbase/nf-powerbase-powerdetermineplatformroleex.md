@@ -57,7 +57,7 @@ Determines the computer role for the specified platform.
 
 ### -param Version [in]
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the platform. This parameter can be one of the following values.
+The version of the <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the platform. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the current build target.
+The version of the <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the current build target.
 
 </td>
 </tr>
@@ -80,9 +80,9 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
+The version of the <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
 
-Calling <b>PowerDeterminePlatformRoleEx</b> with this value returns the same result as calling <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> on Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. 
+Calling <b>PowerDeterminePlatformRoleEx</b> with this value returns the same result as calling <a href="/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> on Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. 
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Calling <b>PowerDeterminePlatformRoleEx</b> with this value returns the same res
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 8 and Windows Server 2012.
+The version of the <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 8 and Windows Server 2012.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 ## -returns
 
 The return value is one of the values from the 
-      specified version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
+      specified version of the <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
 
 ## -remarks
 
@@ -113,13 +113,12 @@ If the OEM preferred computer role is not supported on the platform specified by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>

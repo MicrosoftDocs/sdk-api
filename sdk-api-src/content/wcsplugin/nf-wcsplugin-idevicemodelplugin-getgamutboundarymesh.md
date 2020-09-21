@@ -82,17 +82,16 @@ If this function fails, the return value is E_FAIL.
 
 ## -remarks
 
-This function is called by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/createmultiprofiletransform">CreateMultiProfileTransform</a> function.
+This function is called by the <a href="/previous-versions/windows/desktop/wcs/createmultiprofiletransform">CreateMultiProfileTransform</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
-
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>

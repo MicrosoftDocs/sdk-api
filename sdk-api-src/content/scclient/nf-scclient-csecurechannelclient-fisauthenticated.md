@@ -64,19 +64,18 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 This method is used to ensure that a secure authentication channel has been established between components before allowing other operations. This includes calls by devices and storages prior to accessing and transferring data streams.
 
-Applications do not need to call this method, but service providers call the corresponding <a href="https://docs.microsoft.com/previous-versions/bb231600(v=vs.85)">CSecureChannelServer::fIsAuthenticated</a> method and return WMDM_E_NOTCERTIFIED if it returns <b>FALSE</b>.
+Applications do not need to call this method, but service providers call the corresponding <a href="/previous-versions/bb231600(v=vs.85)">CSecureChannelServer::fIsAuthenticated</a> method and return WMDM_E_NOTCERTIFIED if it returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
-
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>

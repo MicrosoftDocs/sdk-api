@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the DirectX swap chain for <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
+Sets the DirectX swap chain for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ SetSwapChain(HANDLE swapChainHandle) allows a swap chain to be rendered by refer
      This enables scenarios where a swap chain is created in one process and needs to be passed to another process.
 
 XAML supports setting a DXGI swap chain as the content of a SwapChainPanel element.  Apps accomplish this by querying for 
-     the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a> interface from a SwapChainPanel instance and calling <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain">SetSwapChain(IDXGISwapChain *swapChain)</a>.  
+     the <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a> interface from a SwapChainPanel instance and calling <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain">SetSwapChain(IDXGISwapChain *swapChain)</a>.  
      
 
 This process works for pointers to in process swap chains.  However, this doesn’t work for VoIP apps, which use a two-process model to enable continuing calls on a background process 
@@ -120,5 +120,4 @@ panelNative->SetSwapChainHandle(m_swapChainHandle);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2">ISwapChainPanelNative2</a>
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2">ISwapChainPanelNative2</a>

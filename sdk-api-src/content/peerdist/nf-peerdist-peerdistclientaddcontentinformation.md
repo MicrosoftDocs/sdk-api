@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerDistClientAddContentInformation</b> function adds the content information associated with a content handle opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
+The <b>PeerDistClientAddContentInformation</b> function adds the content information associated with a content handle opened by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hContentHandle [in]
 
-A <b>PEERDIST_CONTENT_HANDLE</b> opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
+A <b>PEERDIST_CONTENT_HANDLE</b> opened by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 ### -param cbNumberOfBytes
 
@@ -72,7 +72,7 @@ Pointer to the buffer that contains the content information. This buffer must re
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The Internal member of <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The Internal member of <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure contains the completion status of the asynchronous operation. The Offset and OffsetHigh are reserved and must be 0.
 
 ## -returns
 
@@ -131,21 +131,20 @@ The service is unavailable.
 
 ## -remarks
 
-In order to retrieve content data from Peer Distribution service the client must add content information that it received from the content server by calling the <b>PeerDistClientAddContentInformation</b> function. When all content information data has been added, the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a> function must be called. Once <b>PeerDistClientCompleteContentInformation</b> is complete, the client can call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientstreamread">PeerDistClientStreamRead</a> or <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientblockread">PeerDistClientBlockRead</a> to retrieve the data from the Peer Distribution system.
+In order to retrieve content data from Peer Distribution service the client must add content information that it received from the content server by calling the <b>PeerDistClientAddContentInformation</b> function. When all content information data has been added, the <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a> function must be called. Once <b>PeerDistClientCompleteContentInformation</b> is complete, the client can call <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientstreamread">PeerDistClientStreamRead</a> or <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientblockread">PeerDistClientBlockRead</a> to retrieve the data from the Peer Distribution system.
 
 When calling this function multiple times on a single content handle, the caller must wait for each operation to complete before the next call is made.
 
-An application is  not limited  to adding  content information with a single <b>PeerDistClientAddContentInformation</b> API call, as it is possible to add portions of that content information as it is made available. When more content information is available, the application can again call <b>PeerDistClientAddContentInformation</b>. When the application is done adding the entire content information, it must then call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>.
+An application is  not limited  to adding  content information with a single <b>PeerDistClientAddContentInformation</b> API call, as it is possible to add portions of that content information as it is made available. When more content information is available, the application can again call <b>PeerDistClientAddContentInformation</b>. When the application is done adding the entire content information, it must then call <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

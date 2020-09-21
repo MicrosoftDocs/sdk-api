@@ -57,17 +57,17 @@ The <b>GetIssuedCertificate2</b> method retrieves a certificate's disposition by
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
 ### -param strRequestId [in]
 
-A <b>BSTR</b> value that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database. Set this parameter to <b>NULL</b> if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
+A <b>BSTR</b> value that represents the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database. Set this parameter to <b>NULL</b> if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
 
-Use the  <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest3-getrequestidstring">ICertRequest3::GetRequestIdString</a> method to obtain the request ID string.
+Use the  <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest3-getrequestidstring">ICertRequest3::GetRequestIdString</a> method to obtain the request ID string.
 
 ### -param strSerialNumber [in]
 
@@ -156,16 +156,15 @@ Request taken under submission.
 <h3>C++</h3>
  If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Long</b> that represents the certificate's disposition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>

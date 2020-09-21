@@ -56,7 +56,7 @@ Enables or disables one or both scroll bar arrows in the text host window.
 
 ### -param fuSBFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Specifies which scroll bar is affected. This parameter can be one of the following values.
 
@@ -99,7 +99,7 @@ Affects the vertical scroll bar.
 
 ### -param fuArrowflags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Specifies which scroll bar arrows are enabled or disabled. This parameter can be one of the following values.
 
@@ -192,7 +192,7 @@ Enables both arrows on a scroll bar.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return nonzero if the arrows are enabled or disabled as specified. 
 
@@ -204,9 +204,8 @@ This method is only valid when the control is in-place active; calls while the c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

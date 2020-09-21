@@ -69,7 +69,7 @@ The <b>IOleInPlaceActiveObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a>
 </td>
 <td align="left" width="63%">
 Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
@@ -78,7 +78,7 @@ Enables or disables modeless dialog boxes when the container creates or destroys
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">OnDocWindowActivate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">OnDocWindowActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the active in-place object when the container's document window is activated or deactivated.
@@ -89,7 +89,7 @@ Notifies the active in-place object when the container's document window is acti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">OnFrameWindowActivate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">OnFrameWindowActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the object when the container's top-level frame window is activated or deactivated.
@@ -98,7 +98,7 @@ Notifies the object when the container's top-level frame window is activated or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">ResizeBorder</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">ResizeBorder</a>
 </td>
 <td align="left" width="63%">
 Alerts the object that it needs to resize its border space.
@@ -107,7 +107,7 @@ Alerts the object that it needs to resize its border space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator">TranslateAccelerator</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Processes menu accelerator-key messages from the container's message queue.
@@ -118,5 +118,4 @@ Processes menu accelerator-key messages from the container's message queue.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>

@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>ImageType</b> enumeration indicates whether an image is a bitmap or a metafile. The 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a> method returns an element of this enumeration.
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a> method returns an element of this enumeration.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ Indicates a metafile image.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>AddWorkItem</b> method adds a task to the schedule of tasks.
@@ -124,24 +124,23 @@ Not enough memory is available to complete the operation.
 ## -remarks
 
 Task scheduler provides two methods for adding work items: 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a> and 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a> and 
 <b>AddWorkItem</b>. Of these methods, each has its specific advantage. 
 <b>AddWorkItem</b> prevents naming collisions, but it also requires two disk write operations per call. One write operation is performed when the call to 
 <b>AddWorkItem</b> creates an empty work item object on the disk, followed by another write operation when <b>IPersistFile::Save</b> is called.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a> does not prevent naming collisions, but it requires only one disk write operation when <b>IPersistFile::Save</b> is called. Although 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a> does not prevent naming collisions, but it requires only one disk write operation when <b>IPersistFile::Save</b> is called. Although 
 <b>NewWorkItem</b> is more efficient with disk write operations, the application runs the risk of having another application create a work item with the same name before the call to <b>IPersistFile::Save</b> is made.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a>

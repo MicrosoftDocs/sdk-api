@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>SESSION_HEADER</b> structure contains information about a network session. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. <b>SESSION_HEADER</b> is followed by as many <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a> structures as are required to describe the current network sessions.
+The <b>SESSION_HEADER</b> structure contains information about a network session. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. <b>SESSION_HEADER</b> is followed by as many <a href="/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a> structures as are required to describe the current network sessions.
 
 ## -struct-fields
 
 ### -field sess_name
 
-Specifies the name number of the session. This value corresponds to the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
+Specifies the name number of the session. This value corresponds to the <b>ncb_num</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ### -field num_sess
 
@@ -82,17 +82,16 @@ Specifies the number of outstanding <b>NCBRECVANY</b> commands.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

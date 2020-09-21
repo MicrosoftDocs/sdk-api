@@ -60,7 +60,7 @@ The word or phrase to get suggestions for.
 
 ### -param value [out, retval]
 
-The list of suggestions, returned as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object.
+The list of suggestions, returned as an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object.
 
 ## -returns
 
@@ -119,9 +119,8 @@ Successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

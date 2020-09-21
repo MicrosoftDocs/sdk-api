@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SI_INHERIT_TYPE</b> structure contains information about how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) can be inherited by child objects. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> method uses this structure to specify display strings that the access control editor uses to initialize its property pages.
+The <b>SI_INHERIT_TYPE</b> structure contains information about how <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) can be inherited by child objects. The 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> method uses this structure to specify display strings that the access control editor uses to initialize its property pages.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ A pointer to a
 ### -field dwFlags
 
 A set of inheritance flags that indicate the types of ACEs that can be inherited by the <b>pguid</b> object type. These flags correspond to the <b>AceFlags</b> member of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure. This member can be a combination of the following values. 
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure. This member can be a combination of the following values. 
 
 
 
@@ -113,18 +113,18 @@ The specified object type can inherit ACEs that have the OBJECT_INHERIT_ACE flag
 
 ### -field pszName
 
-A pointer to a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string containing a display string that describes the child object. 
+A pointer to a null-terminated <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string containing a display string that describes the child object. 
 
 
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Use the 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
@@ -132,9 +132,8 @@ Alternatively, <b>pszName</b> can be a string resource identifier returned by th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
-
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>

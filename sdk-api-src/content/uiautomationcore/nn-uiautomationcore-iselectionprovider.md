@@ -52,11 +52,11 @@ api_name:
 
 Provides access 
         to controls that act as containers for a collection of individual, selectable child items. 
-        The children of this control must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>.
+        The children of this control must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectionProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelectionProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectionProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelectionProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ISelectionProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-getselection">GetSelection</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation provider for each child element that is selected.
@@ -91,7 +91,7 @@ Retrieves a UI Automation provider for each child element that is selected.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple">CanSelectMultiple</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple">CanSelectMultiple</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Indicates whether the UI Automation provider
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired">IsSelectionRequired</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired">IsSelectionRequired</a>
 
 
 </td>
@@ -128,9 +128,8 @@ Indicates whether the UI Automation provider requires at least one child element
 
 This interface is implemented by a UI Automation provider.
 
-Providers should raise an event of type <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

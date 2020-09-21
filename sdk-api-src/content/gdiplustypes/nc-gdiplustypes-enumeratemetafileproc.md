@@ -4,7 +4,7 @@ title: EnumerateMetafileProc
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)) method (and overloads).
+description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes).md) method (and overloads).
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,15 @@ dev_langs:
 
 ## -description
 
-**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)) method (and overloads).
+**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes).md) method (and overloads).
 
-In turn, your implementation can call [**Metafile::PlayRecord**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord) to play the record that was just enumerated.
+In turn, your implementation can call [**Metafile::PlayRecord**](../gdiplusheaders/nf-gdiplusheaders-metafile-playrecord.md) to play the record that was just enumerated.
 
 ## -parameters
 
 ### -param Arg1
 
-Type: **[EmfPlusRecordType](/windows/win32/api/gdiplusenums/ne-gdiplusenums-emfplusrecordtype)**
+Type: **[EmfPlusRecordType](../gdiplusenums/ne-gdiplusenums-emfplusrecordtype.md)**
 
 The WMF, EMF, or EMF+ record type.
 
@@ -85,4 +85,3 @@ Return **FALSE** to abort the enumeration process; return **TRUE** to continue i
 ## -remarks
 
 ## -see-also
-

@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a> class.
+Creates a new instance of the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a> class.
 
 ## -parameters
 
 ### -param ppIWICStream [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>.
+A pointer that receives a pointer to a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

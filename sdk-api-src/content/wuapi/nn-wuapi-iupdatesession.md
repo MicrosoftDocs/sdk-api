@@ -54,7 +54,7 @@ Represents a session in which the caller can perform operations that involve upd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,28 +70,28 @@ The <b>IUpdateSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatedownloader">CreateUpdateDownloader</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatedownloader">CreateUpdateDownloader</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdateinstaller">CreateUpdateInstaller</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdateinstaller">CreateUpdateInstaller</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatesearcher">CreateUpdateSearcher</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatesearcher">CreateUpdateSearcher</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuap
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_clientapplicationid">ClientApplicationID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_clientapplicationid">ClientApplicationID</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Identifies the current client application.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_readonly">ReadOnly</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets a Boolean value that indicates whether the session object is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_webproxy">WebProxy</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_webproxy">WebProxy</a>
 
 
 </td>
@@ -156,4 +156,3 @@ Gets and sets the proxy settings that are used to access the server.
 ## -remarks
 
 You can create an instance of this interface by using the UpdateSession coclass. Use the Microsoft.Update.Session program identifier to create the object.
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function.
+Used with the <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ The address of the buffer.
 
 ## -remarks
 
-The data type used in the <b>DestinationString</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
+The data type used in the <b>DestinationString</b> parameter of the <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
 		
                 
 
 <code>typedef PSTRING POEM_STRING;</code>
-

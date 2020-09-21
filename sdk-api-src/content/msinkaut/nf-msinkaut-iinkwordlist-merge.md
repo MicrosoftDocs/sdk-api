@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Merges the specified <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
+Merges the specified <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
 
 ## -parameters
 
@@ -132,5 +132,4 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

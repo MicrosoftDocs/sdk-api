@@ -56,11 +56,11 @@ The <b>PeerDistClientGetInformationByHandle</b> function retrieves additional in
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a> function.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by the <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a> function.
 
 ### -param hContentHandle [in]
 
-A <b>PEERDIST_CONTENT_HANDLE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function.
+A <b>PEERDIST_CONTENT_HANDLE</b> returned by the <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function.
 
 ### -param PeerDistClientInfoClass [in]
 
@@ -84,9 +84,8 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

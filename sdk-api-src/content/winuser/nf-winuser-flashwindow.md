@@ -53,7 +53,7 @@ api_name:
 Flashes the specified window one time. It does not change the active state of the window.
 
 To flash the window a specified number of times, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a> function.
 
 ## -parameters
 
@@ -86,9 +86,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
-
+<a href="/windows/desktop/Debug/notifying-the-user">Notifying the User</a>

@@ -87,9 +87,8 @@ The port is initializing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-enumerations">RAS Administration Enumerated Types</a>
+<a href="/windows/desktop/RRAS/ras-administration-enumerations">RAS Administration Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

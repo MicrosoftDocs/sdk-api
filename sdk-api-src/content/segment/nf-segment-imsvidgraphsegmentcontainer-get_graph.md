@@ -56,7 +56,7 @@ The <b>get_Graph</b> method returns a pointer to the Filter Graph Manager.
 
 ### -param ppGraph [in]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface pointer.
 
 ## -returns
 
@@ -66,7 +66,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 Objects can use this method to find a specific DirectShow filter in the filter graph. It is not recommended that applications use this method. Applications should always control the filter graph using the Video Control.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 #### Examples
@@ -89,5 +89,4 @@ if (pSeg)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidgraphsegmentcontainer">IMSVidGraphSegmentContainer Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidgraphsegmentcontainer">IMSVidGraphSegmentContainer Interface</a>

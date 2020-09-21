@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EnumObjectsProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function. It is used to process the object data. The <b>GOBJENUMPROC</b> type defines a pointer to this callback function. <b>EnumObjectsProc</b> is a placeholder for the application-defined function name.
+The <b>EnumObjectsProc</b> function is an application-defined callback function used with the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function. It is used to process the object data. The <b>GOBJENUMPROC</b> type defines a pointer to this callback function. <b>EnumObjectsProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -60,12 +60,12 @@ The <b>EnumObjectsProc</b> function is an application-defined callback function 
 
 #### - lpData [in]
 
-A pointer to the application-defined data passed by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function.
+A pointer to the application-defined data passed by the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function.
 
 
 #### - lpLogObject [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure describing the attributes of the object.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> or <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure describing the attributes of the object.
 
 ## -returns
 
@@ -75,33 +75,32 @@ To stop enumeration, the callback function must return zero.
 
 ## -remarks
 
-An application must register this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function.
+An application must register this function by passing its address to the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>

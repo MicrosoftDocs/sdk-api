@@ -89,7 +89,7 @@ Flags specifying additional information about the chunk. It can be zero or the f
 </dl>
 </td>
 <td width="60%">
-The length of the chunk might have changed and should be updated by the <a href="https://docs.microsoft.com/previous-versions/dd757315(v=vs.85)">mmioAscend</a> function. This flag is set when a chunk is created by using the <a href="https://docs.microsoft.com/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
+The length of the chunk might have changed and should be updated by the <a href="/previous-versions/dd757315(v=vs.85)">mmioAscend</a> function. This flag is set when a chunk is created by using the <a href="/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a> function.
 
 </td>
 </tr>
@@ -97,9 +97,8 @@ The length of the chunk might have changed and should be updated by the <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd757315(v=vs.85)">mmioAscend</a>
+<a href="/previous-versions/dd757315(v=vs.85)">mmioAscend</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a>
-
+<a href="/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a>

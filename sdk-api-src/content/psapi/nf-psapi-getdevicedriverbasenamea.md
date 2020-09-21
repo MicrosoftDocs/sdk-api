@@ -67,7 +67,7 @@ Retrieves the base name of the specified device driver.
 ### -param ImageBase [in]
 
 The load address of the device driver. This value can be retrieved using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a> 
+      <a href="/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a> 
       function.
 
 ### -param lpFilename
@@ -88,7 +88,7 @@ A pointer to the buffer that receives the base name of the device driver.
 If the function succeeds, the return value specifies the length of the string copied to the buffer, not including any terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -102,7 +102,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-device-drivers-in-the-system">Enumerating all Device Drivers in the System</a>.
+     <a href="/windows/desktop/psapi/enumerating-all-device-drivers-in-the-system">Enumerating all Device Drivers in the System</a>.
 
 <div class="code"></div>
 
@@ -114,13 +114,12 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
+<a href="/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

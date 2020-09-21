@@ -109,13 +109,12 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_caption">IVideoWindow::put_Caption</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_caption">IVideoWindow::put_Caption</a>

@@ -107,9 +107,8 @@ CDFS (ISO 9660) uses the date/time of recording as the <i>CreationTime</i> and <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastmodifiedtime">IFsiItem::get_LastModifiedTime</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastmodifiedtime">IFsiItem::get_LastModifiedTime</a>

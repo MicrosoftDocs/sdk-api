@@ -69,7 +69,7 @@ The administrative status of the interface, that is, whether the interface is ad
 
 ### -field dwOperationalStatus
 
-The operational status of the interface. This member can be one of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a> enumeration defined in the <i>Mprapip.h</i> header file. See 
+The operational status of the interface. This member can be one of the values defined in the <a href="/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a> enumeration defined in the <i>Mprapip.h</i> header file. See 
 the <b>ROUTER_CONNECTION_STATE</b> enumeration for a list amd description of the possible operational states.
 
 ### -field bMHbeatActive
@@ -86,13 +86,12 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
-
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>

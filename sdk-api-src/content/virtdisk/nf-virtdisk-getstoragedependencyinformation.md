@@ -59,7 +59,7 @@ Returns the relationships between virtual hard disks (VHDs) or CD or DVD image f
 
 A handle to a volume or root directory if  the <i>Flags</i> parameter does not specify 
       the <b>GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE</b> flag. For information on how to open a 
-      volume or root directory, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+      volume or root directory, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 If the <i>Flags</i> parameter specifies the 
       <b>GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE</b> flag, this handle should be a handle to a 
@@ -78,7 +78,7 @@ Size, in bytes, of the buffer that the <i>StorageDependencyInfo</i> parameter re
 ### -param StorageDependencyInfo [in, out]
 
 A pointer to a buffer to receive the populated 
-     [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info) structure, which is a 
+     [STORAGE_DEPENDENCY_INFO](./ns-virtdisk-storage_dependency_info.md) structure, which is a 
      variable-length structure.
 
 ### -param SizeUsed [in, out, optional]
@@ -94,7 +94,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the 
       <i>StorageDependencyInfo</i> parameter is undefined. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -103,9 +103,8 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

@@ -54,12 +54,12 @@ Handle to the Diagnostic Data Query session.
 
 ### -param providerGroup
 
-Type: **[GUID\*](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID\*](../guiddef/ns-guiddef-guid.md)**
 Pointer to the provider group GUID.
 
 ### -param providerId
 
-Type: **[GUID\*](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID\*](../guiddef/ns-guiddef-guid.md)**
 Pointer to the provider GUID.
 
 ### -param providerName
@@ -102,4 +102,3 @@ Returns S_OK on successful completion.
 For more information about events and providers, see [**Event Tracing**](/windows/win32/etw/event-tracing-portal).
 
 ## -see-also
-

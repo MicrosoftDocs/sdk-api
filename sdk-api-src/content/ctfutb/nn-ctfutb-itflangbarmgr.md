@@ -54,7 +54,7 @@ The <b>ITfLangBarMgr</b> interface is implemented by the TSF manager and used by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfLangBarMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">AdviseEventSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">AdviseEventSink</a>
 </td>
 <td align="left" width="63%">
 Advises a sink about a language bar event.
@@ -78,7 +78,7 @@ Advises a sink about a language bar event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getinputprocessorprofiles">GetInputProcessorProfiles</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getinputprocessorprofiles">GetInputProcessorProfiles</a>
 </td>
 <td align="left" width="63%">
 Should not be used.
@@ -87,7 +87,7 @@ Should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getshowfloatingstatus">GetShowFloatingStatus</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getshowfloatingstatus">GetShowFloatingStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains current language bar display settings.
@@ -96,7 +96,7 @@ Obtains current language bar display settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getthreadlangbaritemmgr">GetThreadLangBarItemMgr</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getthreadlangbaritemmgr">GetThreadLangBarItemMgr</a>
 </td>
 <td align="left" width="63%">
 Should not be used.
@@ -105,7 +105,7 @@ Should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getthreadmarshalinterface">GetThreadMarshalInterface</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-getthreadmarshalinterface">GetThreadMarshalInterface</a>
 </td>
 <td align="left" width="63%">
 Should not be used.
@@ -114,7 +114,7 @@ Should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-restorelastfocus">RestoreLastFocus</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-restorelastfocus">RestoreLastFocus</a>
 </td>
 <td align="left" width="63%">
 Should not be used.
@@ -123,7 +123,7 @@ Should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-setmodalinput">SetModalInput</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-setmodalinput">SetModalInput</a>
 </td>
 <td align="left" width="63%">
 Should not be used.
@@ -132,7 +132,7 @@ Should not be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ShowFloating</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ShowFloating</a>
 </td>
 <td align="left" width="63%">
 Configures display settings for the floating language bar.
@@ -141,7 +141,7 @@ Configures display settings for the floating language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-unadviseeventsink">UnadviseEventSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-unadviseeventsink">UnadviseEventSink</a>
 </td>
 <td align="left" width="63%">
 Uninstalls an advise event sink.
@@ -152,9 +152,8 @@ Uninstalls an advise event sink.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

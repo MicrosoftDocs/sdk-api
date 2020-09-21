@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDsAdminCreateObj</b> interface is implemented by the system and used by an application or component to programmatically start a creation wizard for a specified object class.
 
-To obtain an instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsAdminCreateObj</b> class identifier as shown below.
+To obtain an instance of this interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsAdminCreateObj</b> class identifier as shown below.
 
 ```cpp
 #include <initguid.h>
@@ -68,7 +68,7 @@ hr = ::CoCreateInstance(CLSID_DsAdminCreateObj,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminCreateObj</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminCreateObj</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminCreateObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminCreateObj</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +83,7 @@ The <b>IDsAdminCreateObj</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">CreateModal</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">CreateModal</a>
 </td>
 <td align="left" width="63%">
 Displays the creation wizard and returns the newly created object.
@@ -92,7 +92,7 @@ Displays the creation wizard and returns the newly created object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">Initialize</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the 
@@ -104,13 +104,12 @@ Initializes the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/invoking-creation-wizards-from-your-application">Invoking Creation Wizards from Your Application</a>
-
+<a href="/windows/desktop/AD/invoking-creation-wizards-from-your-application">Invoking Creation Wizards from Your Application</a>

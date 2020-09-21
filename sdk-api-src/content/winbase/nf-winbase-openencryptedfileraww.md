@@ -125,37 +125,37 @@ Overwrite a hidden file on import.
 
 The address of a  context
          block that must be presented in subsequent calls to 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>, or 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.  Do not modify it.
+         <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>, or 
+         <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.  Do not modify it.
 
 ## -returns
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns a nonzero error code defined in
-      WinError.h. You can use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the
+      WinError.h. You can use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the
       <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a generic text description of
       the error.
 
 ## -remarks
 
-The caller must either have read or write access to the file, or it must have backup privilege <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> on the machine on which the files reside in order for the call to succeed.
+The caller must either have read or write access to the file, or it must have backup privilege <a href="/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> on the machine on which the files reside in order for the call to succeed.
 
 To back up an encrypted file, call <b>OpenEncryptedFileRaw</b> to open the
-      file and then call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. When the backup is
-      complete, call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
+      file and then call <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. When the backup is
+      complete, call <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
 
 To restore an encrypted file, call <b>OpenEncryptedFileRaw</b>, specifying
       <b>CREATE_FOR_IMPORT</b> in the <i>ulFlags</i> parameter, and then call
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a> once. When the operation is completed, call
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
+      <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a> once. When the operation is completed, call
+      <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
 
 <b>OpenEncryptedFileRaw</b> fails if <i>lpFileName</i> exceeds <b>MAX_PATH</b> characters when opening an encrypted file on a remote machine.
 
- If the caller does not have access to the key for the file, the caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> to export encrypted files or SeRestorePrivilege to import encrypted files.
+ If the caller does not have access to the key for the file, the caller needs <a href="/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> to export encrypted files or SeRestorePrivilege to import encrypted files.
 
 
-The  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
+The  <a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
 
 In Windows 8, Windows Server 2012, and later, this function is supported by the following technologies.
 
@@ -228,29 +228,28 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>

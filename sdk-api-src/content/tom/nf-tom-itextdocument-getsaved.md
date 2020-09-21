@@ -64,7 +64,7 @@ The value <b>tomTrue</b> if no changes have been made since the file was last sa
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Invalid argument.
 
 ## -remarks
 
-To set the saved property, call the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-setsaved">ITextDocument::SetSaved</a> method.
+To set the saved property, call the <a href="/windows/desktop/api/tom/nf-tom-itextdocument-setsaved">ITextDocument::SetSaved</a> method.
 
 ## -see-also
 
@@ -94,7 +94,7 @@ To set the saved property, call the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -102,9 +102,8 @@ To set the saved property, call the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-setsaved">SetSaved</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-setsaved">SetSaved</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

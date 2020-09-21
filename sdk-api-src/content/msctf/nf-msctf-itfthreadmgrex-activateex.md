@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITfThreadMgrEx::ActivateEx</b> method is used by an application to initialize and activate TSF for the calling thread. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a>, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
+The <b>ITfThreadMgrEx::ActivateEx</b> method is used by an application to initialize and activate TSF for the calling thread. Unlike <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a>, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
 
 ## -parameters
 
 ### -param ptid [out]
 
-[out] Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
+[out] Pointer to a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 ### -param dwFlags [in]
 
@@ -163,10 +163,9 @@ One or more parameters are invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgrex">ITfThreadMgrEx</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgrex">ITfThreadMgrEx</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Contains flags that indicate the status of the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
+Contains flags that indicate the status of the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
 
 ## -enum-fields
 
 ### -field MF_SOURCE_READERF_ERROR
 
-An error occurred. If you receive this flag, do not make any further calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> methods.
+An error occurred. If you receive this flag, do not make any further calls to <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> methods.
 
 ### -field MF_SOURCE_READERF_ENDOFSTREAM
 
@@ -77,11 +77,11 @@ The <i>native format</i> has changed for one or more streams. The native format 
 
 ### -field MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
 
-The current media has type changed for one or more streams. To get the current media type, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> method.
+The current media has type changed for one or more streams. To get the current media type, call the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> method.
 
 ### -field MF_SOURCE_READERF_STREAMTICK
 
-There is a gap in the stream. This flag corresponds to an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the media source.
+There is a gap in the stream. This flag corresponds to an <a href="/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the media source.
 
 ### -field MF_SOURCE_READERF_ALLEFFECTSREMOVED
 
@@ -89,9 +89,8 @@ All transforms inserted by the application have been removed for a particular st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

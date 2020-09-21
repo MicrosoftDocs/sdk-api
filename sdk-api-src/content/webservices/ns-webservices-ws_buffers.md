@@ -52,11 +52,10 @@ api_name:
 
 ## -description
 
-A structure used to represent a discontiguous array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a>.
+A structure used to represent a discontiguous array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a>.
 
 ## -struct-fields
 
 ### -field bufferCount
 
 ### -field buffers
-

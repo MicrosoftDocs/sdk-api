@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getmodify">EM_GETMODIFY</a> message explicitly.
+Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the <a href="/windows/desktop/Controls/em-getmodify">EM_GETMODIFY</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getmodify">EM_GETMODIFY</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-getmodify">EM_GETMODIFY</a>.

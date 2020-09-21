@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Packs two byte-values into a single LPARAM suitable for use with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipm-setrange">IPM_SETRANGE</a> message.
+Packs two byte-values into a single LPARAM suitable for use with the <a href="/windows/desktop/Controls/ipm-setrange">IPM_SETRANGE</a> message.
 
 ## -parameters
 
 ### -param low
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The lower limit of the range.
 
 ### -param high
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The upper limit of the range.
-

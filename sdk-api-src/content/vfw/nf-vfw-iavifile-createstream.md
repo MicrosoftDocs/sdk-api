@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CreateStream</b> method creates a stream for writing. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilecreatestream">AVIFileCreateStream</a> function.
+The <b>CreateStream</b> method creates a stream for writing. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avifilecreatestream">AVIFileCreateStream</a> function.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Pointer to a buffer that receives a pointer to the interface to the new stream.
 
 ### -param psi
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure defining the stream to create.
+Pointer to an <a href="/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure defining the stream to create.
 
 ## -returns
 
@@ -82,9 +82,8 @@ HRESULT CreateStream(PAVISTREAM *ppstream,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>RpcNetworkIsProtseqValid</b> function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
 
 ## -parameters
 
@@ -112,7 +112,7 @@ Invalid protocol sequence.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -121,8 +121,8 @@ An application calls the
 <b>RpcNetworkIsProtseqValid</b> function to determine whether an individual protocol sequence is available for making remote procedure calls.
 
 A protocol sequence is valid if both the RPC run-time library and the operating system support the specified protocols. For a list of Microsoft RPC's supported protocol sequences, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>. An application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a> to see all of the supported protocol sequences.
+<a href="/windows/desktop/Rpc/string-binding">String Binding</a>. An application calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a> to see all of the supported protocol sequences.
 
 
 
@@ -133,5 +133,4 @@ A protocol sequence is valid if both the RPC run-time library and the operating 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>

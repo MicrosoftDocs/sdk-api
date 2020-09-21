@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>STGC</b> enumeration constants specify the conditions for performing the commit operation in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> methods.
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> and 
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> methods.
 
 ## -enum-fields
 
@@ -82,7 +82,7 @@ Be aware that the commit operation verifies that adequate space exists before an
 
 ### -field STGC_ONLYIFCURRENT
 
-Prevents multiple users of a storage object from overwriting each other's changes. The commit operation occurs only if there have been no changes to the saved storage object because the user most recently opened it. Thus, the saved version of the storage object is the same version that the user has been editing. If other users have changed the storage object, the commit operation fails and returns the STG_E_NOTCURRENT value. To override this behavior, call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> method again using the <b>STGC_DEFAULT</b> value.
+Prevents multiple users of a storage object from overwriting each other's changes. The commit operation occurs only if there have been no changes to the saved storage object because the user most recently opened it. Thus, the saved version of the storage object is the same version that the user has been editing. If other users have changed the storage object, the commit operation fails and returns the STG_E_NOTCURRENT value. To override this behavior, call the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> or <a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> method again using the <b>STGC_DEFAULT</b> value.
 
 ### -field STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE
 
@@ -105,13 +105,12 @@ Typically, use <b>STGC_ONLYIFCURRENT</b> to protect the storage object in cases 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

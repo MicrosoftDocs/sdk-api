@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ContainerName</b> property gets or sets the name used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to generate, store, or access the key.
+The <b>ContainerName</b> property gets or sets the name used by the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to generate, store, or access the key.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> already exists, this name must match the name used by the CSP to access the key.
+If the <a href="/windows/desktop/SecGloss/p-gly">private key</a> already exists, this name must match the name used by the CSP to access the key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>

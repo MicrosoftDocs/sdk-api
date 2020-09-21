@@ -68,19 +68,19 @@ The CLSID of the component.
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary).
+A combination of flags from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary).
 
 ### -param Summary [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structure with summary information for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structure with summary information for the component. This parameter can be <b>NULL</b>.
 
 ### -param Statistics [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentstatistics">ComponentStatistics</a> structure with statistics for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componentstatistics">ComponentStatistics</a> structure with statistics for the component. This parameter can be <b>NULL</b>.
 
 ### -param HangMonitorInfo [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componenthangmonitorinfo">ComponentHangMonitorInfo</a> structure with hang monitoring configuration for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componenthangmonitorinfo">ComponentHangMonitorInfo</a> structure with hang monitoring configuration for the component. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -136,5 +136,4 @@ You may request any or all of the information available for the component by pas
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

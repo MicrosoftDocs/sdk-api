@@ -60,7 +60,7 @@ The <b>ITfInputProcessorProfileMgr::EnumProfiles</b> method returns profiles to 
 
 ### -param ppEnum [out]
 
-[out] The pointer to receive a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
+[out] The pointer to receive a pointer of <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
 
 ## -returns
 
@@ -105,4 +105,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>Disconnect</b> method disconnects the call. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> will transition to CS_DISCONNECTED after the method completes successfully.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> will transition to CS_DISCONNECTED after the method completes successfully.
 
 ## -parameters
 
 ### -param code [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a> indicating reason for call disconnection.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a> indicating reason for call disconnection.
 
 ## -returns
 
@@ -117,25 +117,24 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/drop-ovr">Drop overview</a>
+<a href="/windows/desktop/Tapi/drop-ovr">Drop overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session Overview</a>
+<a href="/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>

@@ -58,7 +58,7 @@ Minimize the amount of memory required for an effect.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -remarks
 
@@ -71,31 +71,31 @@ The following methods will fail after Optimize has been called on an effect.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getconstantbufferbyindex">ID3D10Effect::GetConstantBufferByIndex</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getconstantbufferbyindex">ID3D10Effect::GetConstantBufferByIndex</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getconstantbufferbyname">ID3D10Effect::GetConstantBufferByName</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getconstantbufferbyname">ID3D10Effect::GetConstantBufferByName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getdesc">ID3D10Effect::GetDesc</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getdesc">ID3D10Effect::GetDesc</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getdevice">ID3D10Effect::GetDevice</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getdevice">ID3D10Effect::GetDevice</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-gettechniquebyindex">ID3D10Effect::GetTechniqueByIndex</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-gettechniquebyindex">ID3D10Effect::GetTechniqueByIndex</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-gettechniquebyname">ID3D10Effect::GetTechniqueByName</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-gettechniquebyname">ID3D10Effect::GetTechniqueByName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebyindex">ID3D10Effect::GetVariableByIndex</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebyindex">ID3D10Effect::GetVariableByIndex</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebyname">ID3D10Effect::GetVariableByName</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebyname">ID3D10Effect::GetVariableByName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebysemantic">ID3D10Effect::GetVariableBySemantic</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effect-getvariablebysemantic">ID3D10Effect::GetVariableBySemantic</a>
 </li>
 </ul>
 Note that references retrieved with these methods before calling <b>ID3D10Effect::Optimize</b> are still valid 
@@ -104,5 +104,4 @@ Note that references retrieved with these methods before calling <b>ID3D10Effect
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>
-
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>

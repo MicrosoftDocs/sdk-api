@@ -54,7 +54,7 @@ Controls the preview sink. The preview sink enables the application to preview a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCapturePreviewSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCapturePreviewSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCapturePreviewSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCapturePreviewSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCapturePreviewSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-getmirrorstate">GetMirrorState</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-getmirrorstate">GetMirrorState</a>
 </td>
 <td align="left" width="63%">
 Gets the current mirroring state of the video preview stream.
@@ -78,7 +78,7 @@ Gets the current mirroring state of the video preview stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-getrotation">GetRotation</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-getrotation">GetRotation</a>
 </td>
 <td align="left" width="63%">
 Gets the rotation of the video preview stream.
@@ -87,7 +87,7 @@ Gets the rotation of the video preview stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setcustomsink">SetCustomSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setcustomsink">SetCustomSink</a>
 </td>
 <td align="left" width="63%">
 Sets a custom media sink for preview.
@@ -96,7 +96,7 @@ Sets a custom media sink for preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setmirrorstate">SetMirrorState</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setmirrorstate">SetMirrorState</a>
 </td>
 <td align="left" width="63%">
 Enables or disables mirroring of the video preview stream.
@@ -105,7 +105,7 @@ Enables or disables mirroring of the video preview stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrenderhandle">SetRenderHandle</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrenderhandle">SetRenderHandle</a>
 </td>
 <td align="left" width="63%">
 Specifies a window for preview.
@@ -114,7 +114,7 @@ Specifies a window for preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrendersurface">SetRenderSurface</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrendersurface">SetRenderSurface</a>
 </td>
 <td align="left" width="63%">
 Specifies a DirectComposition visual for preview.
@@ -123,7 +123,7 @@ Specifies a DirectComposition visual for preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrotation">SetRotation</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Rotates the video preview stream.
@@ -132,7 +132,7 @@ Rotates the video preview stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setsamplecallback">SetSampleCallback</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-setsamplecallback">SetSampleCallback</a>
 </td>
 <td align="left" width="63%">
 Sets a callback to receive the preview data for one stream.
@@ -141,7 +141,7 @@ Sets a callback to receive the preview data for one stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-updatevideo">UpdateVideo</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturepreviewsink-updatevideo">UpdateVideo</a>
 </td>
 <td align="left" width="63%">
 Updates the video frame.
@@ -152,13 +152,12 @@ Updates the video frame.
 
 ## -remarks
 
-To start preview, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">IMFCaptureEngine::StartPreview</a>.
+To start preview, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">IMFCaptureEngine::StartPreview</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

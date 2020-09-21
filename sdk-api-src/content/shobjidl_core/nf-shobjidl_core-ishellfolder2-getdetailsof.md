@@ -58,7 +58,7 @@ Gets detailed information, identified by a column index, on an item in a Shell f
 
 Type: <b>PCUITEMID_CHILD</b>
 
-PIDL of the item for which you are requesting information. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> is returned.
+PIDL of the item for which you are requesting information. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> is returned.
 
 ### -param iColumn [in]
 
@@ -68,9 +68,9 @@ The zero-based index of the desired information field. It is identical to the co
 
 ### -param psd [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a> structure that contains the information.
+A pointer to a <a href="/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a> structure that contains the information.
 
 ## -returns
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The <b>IShellFolder2::GetDetailsOf</b> method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">GetDetailsOf</a>. For a more robust way to retrieve item information that does not require you to know the column index, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>.
+The <b>IShellFolder2::GetDetailsOf</b> method is identical to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">GetDetailsOf</a>. For a more robust way to retrieve item information that does not require you to know the column index, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>.
 
 The <b>IShellFolder2::GetDetailsOf</b> method provides access to the information that is displayed in the Windows Explorer Details view of a Shell folder. The column numbers, headings, and information that you see in the Details view are identical to those of <b>IShellFolder2::GetDetailsOf</b>. Note that the available information fields and their column numbers vary depending on the particular folder. You can enumerate the available fields by calling this method with <i>pidl</i> set to <b>NULL</b>, and examining the title associated with each column index. Bear in mind that these titles can be localized and might not be the same for all locales.
 
@@ -113,4 +113,3 @@ File system folders have a large, standard set of information fields. The first 
 File system folders can support a number of additional fields. However, they are not required to do so, and the column indexes assigned to these fields might vary.
 
 Each virtual folder has its own unique set of information fields. Normally, the item's display name is in column zero, but the order and content of the remaining fields depend on the implementation of the particular folder object.
-

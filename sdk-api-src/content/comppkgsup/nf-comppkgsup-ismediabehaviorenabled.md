@@ -64,5 +64,4 @@ True if the specified media behavior is enabled; otherwise, false.
 
 ## -remarks
 
-Currently, the only value supported for this function is  <b>MEDIA_BEHAVIOR_MEDIAPLAYBACKLIST_AUTOPLAYBACKITEMRESET</b> which causes media items in a <a href="https://docs.microsoft.com/uwp/api/Windows.Media.Playback.MediaPlaybackList">MediaPlaybackList</a> to be automatically reset after being played.
-
+Currently, the only value supported for this function is  <b>MEDIA_BEHAVIOR_MEDIAPLAYBACKLIST_AUTOPLAYBACKITEMRESET</b> which causes media items in a <a href="/uwp/api/Windows.Media.Playback.MediaPlaybackList">MediaPlaybackList</a> to be automatically reset after being played.

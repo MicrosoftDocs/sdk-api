@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CloseCUB</b> method closes an open <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a> method.
+The <b>CloseCUB</b> method closes an open <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a> method.
 
 ## -parameters
 
@@ -89,17 +89,16 @@ The method failed.
 
 ## -remarks
 
-The method returns S_FALSE if no .cub file has been opened using the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a> method.
+The method returns S_FALSE if no .cub file has been opened using the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

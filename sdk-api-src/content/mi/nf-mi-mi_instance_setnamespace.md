@@ -64,7 +64,7 @@ A null-terminated string that represents the new namespace name.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
@@ -75,4 +75,3 @@ Namespace names must conform to the following examples:
 <li>root/cimv2</li>
 <li>aaa/bbb/ccc</li>
 </ul>
-

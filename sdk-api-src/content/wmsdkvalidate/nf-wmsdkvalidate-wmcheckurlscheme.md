@@ -97,5 +97,4 @@ This function cannot report with absolute certainty whether a particular URL can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

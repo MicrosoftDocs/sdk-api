@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
- The <b>CREDSSP_CRED</b> structure specifies authentication data for both Schannel and Negotiate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a>.
+ The <b>CREDSSP_CRED</b> structure specifies authentication data for both Schannel and Negotiate <a href="/windows/desktop/SecGloss/s-gly">security packages</a>.
 
 ## -struct-fields
 
@@ -72,9 +72,8 @@ A pointer to a set of Negotiate credentials.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (CredSSP)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (CredSSP)</a>
 
 
 
 <a href="/windows/win32/api/credssp/ne-credssp-credspp_submit_type">CREDSPP_SUBMIT_TYPE</a>
-

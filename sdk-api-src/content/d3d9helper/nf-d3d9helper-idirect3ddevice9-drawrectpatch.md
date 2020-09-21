@@ -57,7 +57,7 @@ Draws a rectangular patch using the currently set streams.
 
 ### -param Handle [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Handle to the rectangular patch to draw.
 
@@ -65,13 +65,13 @@ Handle to the rectangular patch to draw.
 
 Type: <b>const float*</b>
 
-Pointer to an array of four floating-point values that identify the number of segments each edge of the rectangle patch should be divided into when tessellated. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a>.
+Pointer to an array of four floating-point values that identify the number of segments each edge of the rectangle patch should be divided into when tessellated. See <a href="/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a>.
 
 ### -param pRectPatchInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a> structure, describing the rectangular patch to draw.
+Pointer to a <a href="/windows/desktop/direct3d9/d3drectpatch-info">D3DRECTPATCH_INFO</a> structure, describing the rectangular patch to draw.
 
 ## -returns
 
@@ -84,19 +84,18 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 For static patches: Set the vertex shader, set the appropriate streams, supply patch information in the pRectPatchInfo parameter, and specify a handle so that Direct3D can capture and cache information. Call <b>IDirect3DDevice9::DrawRectPatch</b> subsequently with pRectPatchInfo set to <b>NULL</b> to efficiently draw the patch. When drawing a cached patch, the currently set streams are ignored. Override the cached pNumSegs by specifying a new value for pNumSegs. When rendering a cached patch, you must set the same vertex shader that was set when it was captured.
 
-Calling <b>IDirect3DDevice9::DrawRectPatch</b> with a handle invalidates the same handle cached by a previous <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawtripatch">IDirect3DDevice9::DrawTriPatch</a> call.
+Calling <b>IDirect3DDevice9::DrawRectPatch</b> with a handle invalidates the same handle cached by a previous <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawtripatch">IDirect3DDevice9::DrawTriPatch</a> call.
 
 For dynamic patches, the patch data changes for every rendering of the patch, so it is not efficient to cache information. The application can convey this to Direct3D by setting Handle to 0. In this case, Direct3D draws the patch using the currently set streams and the pNumSegs values, and does not cache any information. It is not valid to simultaneously set Handle to 0 and pRectPatchInfo to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-deletepatch">IDirect3DDevice9::DeletePatch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-deletepatch">IDirect3DDevice9::DeletePatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/using-higher-order-primitives">Using Higher-Order Primitives (Direct3D 9)</a>
-
+<a href="/windows/desktop/direct3d9/using-higher-order-primitives">Using Higher-Order Primitives (Direct3D 9)</a>

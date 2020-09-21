@@ -56,7 +56,7 @@ Sets the consistent flag.
 
 ### -param txVote [in]
 
-The consistent flag. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. Set this parameter to TxCommit if the consistent flag is true;set it to TxAbort if the consistent flag is false.
+The consistent flag. For a list of values, see the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. Set this parameter to TxCommit if the consistent flag is true;set it to TxAbort if the consistent flag is false.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
+<a href="/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
 
 </td>
 </tr>
@@ -100,9 +100,8 @@ The default value of the consistent flag is true.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
+<a href="/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>

@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-getnextitemindex">LVM_GETNEXTITEMINDEX</a> message explicitly.
+Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="/windows/desktop/controls/lvm-getnextitemindex">LVM_GETNEXTITEMINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param plvii [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
+A pointer to the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The relationship to the item specified in parameter 
 					<i>plvii</i>. This can be one or a combination of the following values: 
@@ -192,7 +192,7 @@ Searches for an item to the right of the specified item.
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_CUT</a> state flag set.
+The item has the <a href="/windows/desktop/Controls/list-view-item-states">LVIS_CUT</a> state flag set.
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_DROPHILITED</a> state flag set
+The item has the <a href="/windows/desktop/Controls/list-view-item-states">LVIS_DROPHILITED</a> state flag set
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_FOCUSED</a> state flag set.
+The item has the <a href="/windows/desktop/Controls/list-view-item-states">LVIS_FOCUSED</a> state flag set.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/li
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_SELECTED</a> state flag set.
+The item has the <a href="/windows/desktop/Controls/list-view-item-states">LVIS_SELECTED</a> state flag set.
 
 </td>
 </tr>
@@ -301,5 +301,4 @@ Note that the following flags, for use only with Windows Vista, are mutually ex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a>
-
+<a href="/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a>

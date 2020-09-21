@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted">SHRestricted</a> function. <b>SHRestricted</b> is used to determine whether a specified administrator policy is in effect.  In many cases, applications need to modify certain behaviors in order to comply with the policies enacted by system administrators.
+These flags are used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted">SHRestricted</a> function. <b>SHRestricted</b> is used to determine whether a specified administrator policy is in effect.  In many cases, applications need to modify certain behaviors in order to comply with the policies enacted by system administrators.
 
 ## -enum-fields
 
@@ -100,7 +100,7 @@ A 32-bit value that specifies the drives for which AutoRun should be disabled.  
 
 ### -field REST_NODRIVETYPEAUTORUN
 
-A 32-bit value that specifies the drive types for which AutoRun should be disabled.  The bits are numbered according to the return value of <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>.  For example, bit <b>DRIVE_CDROM</b> disables AutoRun on CD-ROM drives. Applications should not offer to AutoRun any drive whose type has its corresponding bit set.
+A 32-bit value that specifies the drive types for which AutoRun should be disabled.  The bits are numbered according to the return value of <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>.  For example, bit <b>DRIVE_CDROM</b> disables AutoRun on CD-ROM drives. Applications should not offer to AutoRun any drive whose type has its corresponding bit set.
 
 ### -field REST_NONETHOOD
 
@@ -112,7 +112,7 @@ Not used.
 
 ### -field REST_RESTRICTRUN
 
-If nonzero, the system administrator has restricted the programs the user can run.  Only programs listed under the registry key <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</b> can be run either from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu. Applications should prevent users from running programs not listed under that key. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> functions to run programs do not need to take any special action because those functions check the policy.
+If nonzero, the system administrator has restricted the programs the user can run.  Only programs listed under the registry key <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</b> can be run either from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu. Applications should prevent users from running programs not listed under that key. Applications that use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> functions to run programs do not need to take any special action because those functions check the policy.
 
 ### -field REST_NOPRINTERTABS
 
@@ -140,7 +140,7 @@ Not used.
 
 ### -field REST_ENFORCESHELLEXTSECURITY
 
-If nonzero, the system administrator has forbidden the use of unapproved Shell extensions. Applications should not instantiate Shell extensions unless they are marked as approved by the system administrator.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/handlers">Creating Shell Extension Handlers</a>.
+If nonzero, the system administrator has forbidden the use of unapproved Shell extensions. Applications should not instantiate Shell extensions unless they are marked as approved by the system administrator.  For more information, see <a href="/windows/desktop/shell/handlers">Creating Shell Extension Handlers</a>.
 
 ### -field REST_LINKRESOLVEIGNORELINKINFO
 
@@ -260,7 +260,7 @@ If nonzero, the system administrator has disabled the use of the link tracking s
 
 ### -field REST_FORCECOPYACLWITHFILE
 
-If nonzero, the system administrator has forced Shell file copy operations to copy the ACL with the file rather than inheriting the ACL from the target folder. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function do not need to perform any special actions. Applications that copy files manually should ensure that the source ACL is copied.
+If nonzero, the system administrator has forced Shell file copy operations to copy the ACL with the file rather than inheriting the ACL from the target folder. Applications that use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function do not need to perform any special actions. Applications that copy files manually should ensure that the source ACL is copied.
 
 ### -field REST_NOLOGO3CHANNELNOTIFY
 
@@ -268,7 +268,7 @@ If nonzero, the system administrator has disabled channel updates when resolving
 
 ### -field REST_NOFORGETSOFTWAREUPDATE
 
-If nonzero, the system administrator has disabled the ability to uncheck the <b>Remind me until I update the current version</b> checkbox in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-softwareupdatemessagebox">SoftwareUpdateMessageBox</a> function. Applications do not need to perform any special actions.
+If nonzero, the system administrator has disabled the ability to uncheck the <b>Remind me until I update the current version</b> checkbox in the <a href="/windows/desktop/api/shlobj/nf-shlobj-softwareupdatemessagebox">SoftwareUpdateMessageBox</a> function. Applications do not need to perform any special actions.
 
 ### -field REST_NOSETACTIVEDESKTOP
 
@@ -364,11 +364,11 @@ If nonzero, the system administrator has disabled the ability to customize the a
 
 ### -field REST_NOENCRYPTION
 
-If nonzero, the system administrator has disabled the ability to encrypt and decrypt files and folders. Applications should not call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>.
+If nonzero, the system administrator has disabled the ability to encrypt and decrypt files and folders. Applications should not call <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> or <a href="/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>.
 
 ### -field REST_DONTSHOWSUPERHIDDEN
 
-If nonzero, the system administrator has disabled the ability to view files marked System and Hidden ("super-hidden files"), overriding the <b>fShowSuperHidden</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea">SHELLSTATE</a> structure. Applications should not show files that have both the FILE_ATTRIBUTE_SYSTEM and FILE_ATTRIBUTE_HIDDEN attributes to the user.
+If nonzero, the system administrator has disabled the ability to view files marked System and Hidden ("super-hidden files"), overriding the <b>fShowSuperHidden</b> member of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea">SHELLSTATE</a> structure. Applications should not show files that have both the FILE_ATTRIBUTE_SYSTEM and FILE_ATTRIBUTE_HIDDEN attributes to the user.
 
 ### -field REST_NOSHELLSEARCHBUTTON
 
@@ -394,7 +394,7 @@ If nonzero, the system administrator has removed the <b>Manage</b> command from 
 
 If nonzero, the system administrator has restricted the programs the user can run.  Programs listed under the registry key 
                             
-                               <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Policies</b>&#92;<b>Explorer</b>&#92;<b>DisallowRun</b>may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
+                               <b>HKEY_CURRENT_USER</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>Policies</b>&#92;<b>Explorer</b>&#92;<b>DisallowRun</b>may not be run from the <b>Run</b> dialog box, by double-clicking, or by selecting from the <b>File</b> menu.  Programs are listed by their full path (for example, "C:\Windows\system32\cmd.exe"). Applications should prevent users from running programs listed under that key. Applications that use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function to run programs do not need to take any special action because those functions will check the policy.
 
 ### -field REST_NOWELCOMESCREEN
 
@@ -424,7 +424,7 @@ If nonzero, the system administrator has disabled the keyboard shortcut associat
 
 ### -field REST_NOENCRYPTONMOVE
 
-If nonzero, the system administrator has specified that unencrypted files and folders moved into an encrypted folder should remain unencrypted instead of inheriting the encryption attribute from the enclosing folder. Applications that move files and folders should unencrypt them if they were originally unencrypted and are moved into an encrypted folder. Applications that use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function to move files do not need to perform any special actions because the <b>SHFileOperation</b> function respects this policy.
+If nonzero, the system administrator has specified that unencrypted files and folders moved into an encrypted folder should remain unencrypted instead of inheriting the encryption attribute from the enclosing folder. Applications that move files and folders should unencrypt them if they were originally unencrypted and are moved into an encrypted folder. Applications that use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function to move files do not need to perform any special actions because the <b>SHFileOperation</b> function respects this policy.
 
 ### -field REST_NOLOCALMACHINERUN
 
@@ -780,4 +780,3 @@ If nonzero, the system administrator has removed the option to choose the progra
 #### - REST_NORECENTDOCSNETHOOD
 
 Windows Vista. If nonzero, the system administrator has disabled the automatic addition of shortcuts in <b>Network Neighborhood</b> to recently-accessed network resources. Applications do not need to perform any special actions.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of a state object. Use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
+Specifies the type of a state object. Use with <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Collection state object.
 ### -field D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE
 
 Raytracing pipeline state object.
-

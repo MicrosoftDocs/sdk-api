@@ -58,7 +58,7 @@ Commits all the objects of the collection and returns the commit results for eac
 ### -param options [in]
 
 One or more options to use when committing the collection of objects. For possible values, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
+      <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
 ### -param results [out]
 
@@ -77,7 +77,7 @@ The method returns the following return values.
 
 Committing objects in a batch operation provides better performance than committing each object in the 
     collection individually (for example, calling the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreen::Commit</a> method).
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreen::Commit</a> method).
 
 Note that the state of the objects in the collection must be the same. For example, the collection must 
     contain all new objects, objects marked for deletion, or modified objects. The modified category covers objects 
@@ -86,11 +86,10 @@ Note that the state of the objects in the collection must be the same. For examp
 
 A collection of imported objects would be considered a collection of modified objects. If you marked one or 
     more of the imported objects for deletion (called the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-delete">Delete</a> method on the object), you would first have to 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">remove</a> those objects from the collection before 
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-delete">Delete</a> method on the object), you would first have to 
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">remove</a> those objects from the collection before 
     committing the rest.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a>

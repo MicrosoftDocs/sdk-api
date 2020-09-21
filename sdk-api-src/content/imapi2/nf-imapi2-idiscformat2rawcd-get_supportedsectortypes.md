@@ -89,7 +89,7 @@ Value: 0x80070057
 </dl>
 </td>
 <td width="60%">
-The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a>. 
+The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a>. 
 
 Value: 0x80004003
 
@@ -346,9 +346,8 @@ Value: 0xC0AA0210
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>

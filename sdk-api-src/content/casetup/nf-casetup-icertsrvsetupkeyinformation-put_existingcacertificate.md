@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ExistingCACertificate</b> property gets or sets the binary value that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and that is the binary value of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate that corresponds to an existing key.
+The <b>ExistingCACertificate</b> property gets or sets the binary value that has been encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and that is the binary value of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate that corresponds to an existing key.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>

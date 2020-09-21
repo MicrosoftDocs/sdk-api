@@ -54,7 +54,7 @@ Retrieves the information in the property pages offered by an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerPropertyBrowsing</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerPropertyBrowsing</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerPropertyBrowsing</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerPropertyBrowsing</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPerPropertyBrowsing</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getdisplaystring">GetDisplayString</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getdisplaystring">GetDisplayString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a text string describing the specified property.
@@ -78,7 +78,7 @@ Retrieves a text string describing the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">GetPredefinedStrings</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">GetPredefinedStrings</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array description strings for the allowable values that the specified property can accept.
@@ -87,7 +87,7 @@ Retrieves an array description strings for the allowable values that the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">GetPredefinedValue</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">GetPredefinedValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified property that is associated with a predefined string name.
@@ -96,7 +96,7 @@ Retrieves the value of the specified property that is associated with a predefin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">MapPropertyToPage</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">MapPropertyToPage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of the property page associated with the specified property.
@@ -107,17 +107,16 @@ Retrieves the CLSID of the property page associated with the specified property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>

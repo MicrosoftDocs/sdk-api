@@ -54,14 +54,14 @@ api_name:
 
 The 
 <b>MsiDatabaseGetPrimaryKeys</b> function returns a record containing the names of all the primary key columns for a specified table. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
 
 ### -param hDatabase [in]
 
 Handle to the database. See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-a-database-handle">Obtaining a Database Handle</a>.
+<a href="/windows/desktop/Msi/obtaining-a-database-handle">Obtaining a Database Handle</a>.
 
 ### -param szTableName [in]
 
@@ -81,11 +81,11 @@ The field count of the returned record is the count of primary key columns retur
 <b>MsiDatabaseGetPrimaryKeys</b> function. The returned record contains the table name in Field (0) and the column names that make up the primary key names in succeeding fields. These primary key names correspond to the column numbers for the fields.
 
 This function cannot be used with the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/-tables-table">_Tables table</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/-columns-table">_Columns table</a>.
+<a href="/windows/desktop/Msi/-tables-table">_Tables table</a> or the 
+<a href="/windows/desktop/Msi/-columns-table">_Columns table</a>.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 
 
@@ -96,5 +96,4 @@ Note that it is recommended to use variables of type PMSIHANDLE because the inst
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

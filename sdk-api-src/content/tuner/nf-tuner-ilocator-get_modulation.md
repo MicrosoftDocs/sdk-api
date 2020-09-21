@@ -56,7 +56,7 @@ The <b>get_Modulation</b> method gets the modulation type.
 
 ### -param Modulation [out]
 
-Receives the modulation type, as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> enumeration.
+Receives the modulation type, as a member of the <a href="/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> enumeration.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_modulation">put_Modulation</a> for the definition of <b>ModulationType</b>.
+See <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_modulation">put_Modulation</a> for the definition of <b>ModulationType</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator Interface</a>

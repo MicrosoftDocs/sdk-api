@@ -344,15 +344,14 @@ Value: 0xC0AA0210
 
 You must initialize the recorder before calling any of the methods of this interface. 
 
-To retrieve a list of devices on the computer and their unique identifiers, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
+To retrieve a list of devices on the computer and their unique identifiers, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
 
-This method will not fail on a drive that is exclusively locked.  However, if the drive is exclusively locked, several of the methods of this interface may return E_IMAPI_RECORDER_LOCKED. To determine who has exclusive access, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> method.
+This method will not fail on a drive that is exclusively locked.  However, if the drive is exclusively locked, several of the methods of this interface may return E_IMAPI_RECORDER_LOCKED. To determine who has exclusive access, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">IDiscRecorder2::get_ActiveDiscRecorder</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">IDiscRecorder2::get_ActiveDiscRecorder</a>

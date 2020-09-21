@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_INFORMATION</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust information.
+The <b>LSA_FOREST_TRUST_INFORMATION</b> structure contains <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust information.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ The <b>LSA_FOREST_TRUST_INFORMATION</b> structure contains <a href="https://docs
 
 ### -field RecordCount
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
+Number of <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
 
 ### -field Entries
 
-Pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures, each of which contains one piece of forest trust information.
-
+Pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures, each of which contains one piece of forest trust information.

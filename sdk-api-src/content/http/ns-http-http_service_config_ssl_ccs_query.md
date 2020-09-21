@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function. The   SSL certificate record specifies that Http.sys should consult the CCS store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
+Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function. The   SSL certificate record specifies that Http.sys should consult the CCS store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
 
 ## -struct-fields
 
 ### -field QueryDesc
 
-One of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration that indicates whether the call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is a call to retrieve a single record or part of a sequence of calls to retrieve a sequence of records.
+One of the following values from the <a href="/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration that indicates whether the call to <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is a call to retrieve a single record or part of a sequence of calls to retrieve a sequence of records.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ One of the following values from the <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is call to retrieve a single SSL CCS certificate record, which the <b>KeyDesc</b> member specifies.
+The call to <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is call to retrieve a single SSL CCS certificate record, which the <b>KeyDesc</b> member specifies.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ The call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http
 </dl>
 </td>
 <td width="60%">
-The call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is part of  a sequence of calls to retrieve a sequence of SSL CCS certificate records. The value of the <b>dwToken</b> member controls which record in the sequence that this call to <b>HttpQueryServiceConfiguration</b> retrieves.
+The call to <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is part of  a sequence of calls to retrieve a sequence of SSL CCS certificate records. The value of the <b>dwToken</b> member controls which record in the sequence that this call to <b>HttpQueryServiceConfiguration</b> retrieves.
 
 </td>
 </tr>
@@ -91,26 +91,25 @@ The call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http
 
 ### -field KeyDesc
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a> structure that identifies the SSL CCS certificate record queried,  if the <b>QueryDesc</b> member is equal to <b>HttpServiceConfigQueryExact</b>. Ignored if <b>QueryDesc</b>  is equal to <b>HTTPServiceConfigQueryNext</b>.
+An <a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a> structure that identifies the SSL CCS certificate record queried,  if the <b>QueryDesc</b> member is equal to <b>HttpServiceConfigQueryExact</b>. Ignored if <b>QueryDesc</b>  is equal to <b>HTTPServiceConfigQueryNext</b>.
 
 ### -field dwToken
 
-The position of the record in the sequence of records that this call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> should retrieve if the <b>QueryDesc</b> method equals <b>HTTPServiceConfigQueryNext</b>, starting from zero.  In other words,  <b>dwToken</b> must be equal to zero on the first call to the <b>HttpQueryServiceConfiguration</b> function, one on the second call, two on the third call, and so forth. When the sequence of calls has returned  all SSL certificate records,  <b>HttpQueryServiceConfiguration</b> returns <b>ERROR_NO_MORE_ITEMS</b>.
+The position of the record in the sequence of records that this call to <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> should retrieve if the <b>QueryDesc</b> method equals <b>HTTPServiceConfigQueryNext</b>, starting from zero.  In other words,  <b>dwToken</b> must be equal to zero on the first call to the <b>HttpQueryServiceConfiguration</b> function, one on the second call, two on the third call, and so forth. When the sequence of calls has returned  all SSL certificate records,  <b>HttpQueryServiceConfiguration</b> returns <b>ERROR_NO_MORE_ITEMS</b>.
 Ignored if the <b>QueryDesc</b> is equal to <b>HttpServiceConfigQueryExact</b>.
 
 ## -remarks
 
-Pass this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function by using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
+Pass this structure to the <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function by using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
+<a href="/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>

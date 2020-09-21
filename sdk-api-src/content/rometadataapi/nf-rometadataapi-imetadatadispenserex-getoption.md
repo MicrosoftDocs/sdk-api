@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The following list shows the GUIDs that are supported for this method. For descriptions, see the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-setoption">SetOption</a> method. If <i>optionId</i> is not in this list, this method returns HRESULT <b>E_INVALIDARG</b>, indicating an incorrect parameter.
+The following list shows the GUIDs that are supported for this method. For descriptions, see the <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-setoption">SetOption</a> method. If <i>optionId</i> is not in this list, this method returns HRESULT <b>E_INVALIDARG</b>, indicating an incorrect parameter.
 
 <ul>
 <li>
@@ -103,5 +103,4 @@ MetaDataLinkerOptions
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>

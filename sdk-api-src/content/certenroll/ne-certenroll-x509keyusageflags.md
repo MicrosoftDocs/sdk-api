@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509KeyUsageFlags</b> enumeration type specifies the purpose of a key contained in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. You can use the enumeration to identify restrictions. For example, if a key should be used only for signing, you can select the <b>XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE</b> or the <b>XCN_CERT_NON_REPUDIATION_KEY_USAGE</b> values. Likewise, if a key should be used only for key management, you can select the <b>XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE</b> value. This enumeration can be used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a> object.
+The <b>X509KeyUsageFlags</b> enumeration type specifies the purpose of a key contained in a <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. You can use the enumeration to identify restrictions. For example, if a key should be used only for signing, you can select the <b>XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE</b> or the <b>XCN_CERT_NON_REPUDIATION_KEY_USAGE</b> values. Likewise, if a key should be used only for key management, you can select the <b>XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE</b> value. This enumeration can be used to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a> object.
 
 ## -enum-fields
 
@@ -60,11 +60,11 @@ The purpose of the key is not defined.
 
 ### -field XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE
 
-The key is used with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) to support services other than nonrepudiation, certificate signing, or revocation list signing.
+The key is used with a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) to support services other than nonrepudiation, certificate signing, or revocation list signing.
 
 ### -field XCN_CERT_NON_REPUDIATION_KEY_USAGE
 
-The key is used to verify a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> as part of a nonrepudiation service that protects against false denial of action by a signing entity.
+The key is used to verify a <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> as part of a nonrepudiation service that protects against false denial of action by a signing entity.
 
 ### -field XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE
 
@@ -80,11 +80,11 @@ The key is used for key agreement. The key agreement or key exchange protocol en
 
 ### -field XCN_CERT_KEY_CERT_SIGN_KEY_USAGE
 
-The key is used to verify a certificate signature. This value can only be used for certificates issued by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a>.
+The key is used to verify a certificate signature. This value can only be used for certificates issued by <a href="/windows/desktop/SecGloss/c-gly">certification authorities</a>.
 
 ### -field XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE
 
-The key is used to verify an offline <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) signature.
+The key is used to verify an offline <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) signature.
 
 ### -field XCN_CERT_CRL_SIGN_KEY_USAGE
 
@@ -100,17 +100,16 @@ The key is used to decrypt data while performing key agreement. When this value 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionkeyusage-initializeencode">InitializeEncode</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionkeyusage-initializeencode">InitializeEncode</a>

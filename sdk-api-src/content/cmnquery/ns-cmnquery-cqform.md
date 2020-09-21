@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CQFORM</b> structure is used to define a query form added to the query dialog box with the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a> callback function.
+The <b>CQFORM</b> structure is used to define a query form added to the query dialog box with the <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a> callback function.
 
 ## -struct-fields
 
@@ -90,14 +90,13 @@ Pointer to a null-terminated Unicode string that contains the title of the query
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>
+<a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active
   Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a>
-
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a>

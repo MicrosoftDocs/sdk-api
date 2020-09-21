@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
 
 ## -parameters
 
@@ -113,5 +113,4 @@ The stream data for the sample is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>

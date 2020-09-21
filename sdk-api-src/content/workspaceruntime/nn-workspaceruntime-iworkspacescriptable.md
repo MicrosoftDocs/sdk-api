@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. This interface is implemented by the RemoteApp and Desktop Connection runtime. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
+Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. This interface is implemented by the RemoteApp and Desktop Connection runtime. These methods are called by custom clients that implement the <a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWorkspaceScriptable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWorkspaceScriptable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWorkspaceScriptable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-clearworkspacecredential">ClearWorkspaceCredential</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-clearworkspacecredential">ClearWorkspaceCredential</a>
 </td>
 <td align="left" width="63%">
 Deletes the user credentials associated with the specified connection ID.
@@ -78,7 +78,7 @@ Deletes the user credentials associated with the specified connection ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-disconnectworkspace">DisconnectWorkspace</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-disconnectworkspace">DisconnectWorkspace</a>
 </td>
 <td align="left" width="63%">
 Disconnects all existing connections associated with the specified connection ID.
@@ -87,7 +87,7 @@ Disconnects all existing connections associated with the specified connection ID
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-disconnectworkspacebyfriendlyname">DisconnectWorkspaceByFriendlyName</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-disconnectworkspacebyfriendlyname">DisconnectWorkspaceByFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Disconnects all existing connections associated with the connection that has the  specified name.
@@ -96,7 +96,7 @@ Disconnects all existing connections associated with the connection that has the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-isworkspacecredentialspecified">IsWorkspaceCredentialSpecified</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-isworkspacecredentialspecified">IsWorkspaceCredentialSpecified</a>
 </td>
 <td align="left" width="63%">
 Determines whether user credentials exist for the specified connection ID.
@@ -105,7 +105,7 @@ Determines whether user credentials exist for the specified connection ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-isworkspacessoenabled">IsWorkspaceSSOEnabled</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-isworkspacessoenabled">IsWorkspaceSSOEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.
@@ -114,7 +114,7 @@ Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-onauthenticated">OnAuthenticated</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-onauthenticated">OnAuthenticated</a>
 </td>
 <td align="left" width="63%">
 Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area.
@@ -123,7 +123,7 @@ Marks the authentication of user credentials for the connection ID, and subseque
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-startworkspace">StartWorkspace</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable-startworkspace">StartWorkspace</a>
 </td>
 <td align="left" width="63%">
 Associates user credentials and certificates with a connection ID.
@@ -131,4 +131,3 @@ Associates user credentials and certificates with a connection ID.
 </td>
 </tr>
 </table>
-

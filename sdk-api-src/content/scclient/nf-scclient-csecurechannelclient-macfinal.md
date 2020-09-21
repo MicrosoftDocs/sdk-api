@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -97,12 +97,12 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-This method completes creating a MAC key. For information about MAC creation, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>.
+This method completes creating a MAC key. For information about MAC creation, see <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>.
 
 
 #### Examples
 
-The following example code checks the MAC received by a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
+The following example code checks the MAC received by a call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
 
 ```cpp
@@ -130,13 +130,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
+<a href="/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

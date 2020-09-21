@@ -62,7 +62,7 @@ The CLSID that will associate the correct data and code.
 
 ### -param riid [in]
 
-A reference to the identifier of the interface that the caller is to use to communicate with the class object. Usually, this is IID_IClassFactory (defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>).
+A reference to the identifier of the interface that the caller is to use to communicate with the class object. Usually, this is IID_IClassFactory (defined in the OLE headers as the interface identifier for <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>).
 
 ### -param ppv [out]
 
@@ -103,12 +103,12 @@ The DLL does not support the class (object definition).
 
 ## -remarks
 
-If a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function finds the class object that is to be loaded in a DLL, <b>CoGetClassObject</b> uses the DLL's exported <b>DllGetClassObject</b> function. 
+If a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function finds the class object that is to be loaded in a DLL, <b>CoGetClassObject</b> uses the DLL's exported <b>DllGetClassObject</b> function. 
 
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-You should not call <b>DllGetClassObject</b> directly. When an object is defined in a DLL, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> calls the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function to load the DLL, which, in turn, calls <b>DllGetClassObject</b>. 
+You should not call <b>DllGetClassObject</b> directly. When an object is defined in a DLL, <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> calls the <a href="/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function to load the DLL, which, in turn, calls <b>DllGetClassObject</b>. 
 
 
 
@@ -119,7 +119,7 @@ You need to implement <b>DllGetClassObject</b> in (and export it from) DLLs that
 
 #### Examples
 
-The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
+The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
 
 
 
@@ -143,9 +143,8 @@ HRESULT_export CALLBACK DllGetClassObject
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>waveOutPause</b> function pauses playback on the given waveform-audio output device. The current position is saved. Use the <a href="https://docs.microsoft.com/previous-versions/dd743871(v=vs.85)">waveOutRestart</a> function to resume playback from the current position.
+The <b>waveOutPause</b> function pauses playback on the given waveform-audio output device. The current position is saved. Use the <a href="/previous-versions/dd743871(v=vs.85)">waveOutRestart</a> function to resume playback from the current position.
 
 ## -parameters
 
@@ -121,9 +121,8 @@ Calling this function when the output is already paused has no effect, and the f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

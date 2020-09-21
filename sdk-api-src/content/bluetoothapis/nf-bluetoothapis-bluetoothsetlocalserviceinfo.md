@@ -152,9 +152,9 @@ To use Bluetooth APIs like
 <div class="alert"><b>Warning</b>  The process that calls 
     <b>BluetoothSetLocalServiceInfo</b> must have the <b>SE_LOAD_DRIVER_NAME</b> privilege. A process running in the
     system or an administrator context can elevate its privilege by using the SDK 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> functions. For more information about this see 
-    <a href="https://docs.microsoft.com/previous-versions/ff536681(v=vs.85)">Installing a Bluetooth
+    <a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a> and 
+    <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> functions. For more information about this see 
+    <a href="/previous-versions/ff536681(v=vs.85)">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
 The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
@@ -163,4 +163,3 @@ The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_s
 ## -see-also
 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a>
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a> interface that contains the identity of the update.
+Gets the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a> interface that contains the identity of the update.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>

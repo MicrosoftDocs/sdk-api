@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>ACTIVATION_CONTEXT_DETAILED_INFORMATION</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 ## -struct-fields
 
@@ -117,7 +117,7 @@ Path of the application directory.
 ## -remarks
 
 If 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the ActivationContextDetailedInformation option, and the function succeeds, the information in the returned buffer is in the form of the 
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the ActivationContextDetailedInformation option, and the function succeeds, the information in the returned buffer is in the form of the 
 <b>ACTIVATION_CONTEXT_DETAILED_INFORMATION</b> structure. The following is an example of a structure used to hold detailed information about the activation context and a call from 
 <b>QueryActCtxW</b>.
 
@@ -191,4 +191,3 @@ DoneQuerying:
 
 
 ```
-

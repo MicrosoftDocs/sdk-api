@@ -60,7 +60,7 @@ Pointer to the object type. Can be <b>NULL</b>.
 
 ### -param pFormatEtc [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
 
 ### -param pfInsertable [out]
 
@@ -105,17 +105,16 @@ The clipboard formats supported by the document are dependent on the application
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-insertembedded">InsertEmbedded</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-insertembedded">InsertEmbedded</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-insertembeddedatselection">InsertEmbeddedAtSelection</a>
-
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-insertembeddedatselection">InsertEmbeddedAtSelection</a>

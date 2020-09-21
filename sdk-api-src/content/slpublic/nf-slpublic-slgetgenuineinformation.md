@@ -93,7 +93,7 @@ Get a value that specifies whether the computer is in nongenuine grace period mo
 </dl>
 </td>
 <td width="60%">
-Get the value returned from the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slacquiregenuineticket">SLAcquireGenuineTicket</a> function.
+Get the value returned from the last call to the <a href="/windows/desktop/api/slpublic/nf-slpublic-slacquiregenuineticket">SLAcquireGenuineTicket</a> function.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Gets the cause of the computer being put into nongenuine grace period mode.
 
 ### -param peDataType [out, optional]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 ### -param pcbValue [out]
 
@@ -121,13 +121,13 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
 The address of a pointer to an array of <b>BYTE</b> pointers that specifies the value associated with the name specified by the <i>pwszValueName</i> parameter.
 
-When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+When you have finished using this array, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Slerror.h.
 
@@ -164,9 +164,8 @@ The specified name-value pair was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>
+<a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a>
-
+<a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a>

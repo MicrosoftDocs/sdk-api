@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Type of user comment in a <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure.
+Type of user comment in a <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure.
 
 ## -enum-fields
 
@@ -74,5 +74,4 @@ The comment is in a user-defined format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

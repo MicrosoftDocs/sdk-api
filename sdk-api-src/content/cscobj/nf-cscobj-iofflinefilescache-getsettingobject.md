@@ -61,7 +61,7 @@ Case-insensitive name of the setting.  One of the following values:
 
 ### -param ppSetting [out]
 
-If the setting exists, a pointer to the object's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a> interface is returned.
+If the setting exists, a pointer to the object's <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a> interface is returned.
 
 ## -returns
 
@@ -75,5 +75,4 @@ This method is available to both administrators and non-administrators.  Securit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>

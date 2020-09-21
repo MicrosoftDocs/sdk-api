@@ -219,13 +219,12 @@ If <i>Level</i> specifies <b>BatteryUniqueId</b>, the miniclass driver must retu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e9326d96-bd96-4493-a0b2-abe6b8f2401a">BATTERY_INFORMATION</a>
+<a href="/previous-versions/ff536283(v=vs.85)">BATTERY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
+<a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a>

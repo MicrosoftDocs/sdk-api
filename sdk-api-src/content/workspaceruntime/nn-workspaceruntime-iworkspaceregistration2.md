@@ -52,11 +52,11 @@ api_name:
 
 Not implemented.
 
-Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
+Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection. These methods are called by custom clients that implement the <a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceRegistration2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration">IWorkspaceRegistration</a>. <b>IWorkspaceRegistration2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceRegistration2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration">IWorkspaceRegistration</a>. <b>IWorkspaceRegistration2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWorkspaceRegistration2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration2-addresourceex">AddResourceEx</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration2-addresourceex">AddResourceEx</a>
 </td>
 <td align="left" width="63%">
 Adds a resource to the connection in RemoteApp and Desktop Connection.
@@ -80,7 +80,7 @@ Adds a resource to the connection in RemoteApp and Desktop Connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration2-removeresourceex">RemoveResourceEx</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration2-removeresourceex">RemoveResourceEx</a>
 </td>
 <td align="left" width="63%">
 Notifies the RemoteApp and Desktop Connection runtime that  the client is disconnecting the connection.
@@ -88,4 +88,3 @@ Notifies the RemoteApp and Desktop Connection runtime that  the client is discon
 </td>
 </tr>
 </table>
-

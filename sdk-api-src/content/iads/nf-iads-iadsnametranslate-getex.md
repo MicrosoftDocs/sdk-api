@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>.
+The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>.
 
 ## -parameters
 
@@ -184,9 +184,8 @@ The following VBScript/ASP code example translates two distinguished names compl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>

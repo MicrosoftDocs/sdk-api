@@ -60,7 +60,7 @@ The <b>FWP_VALUE0</b> structure defines a data value that can be one of a number
 
 The type of data for this value. 
 
-See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
+See [FWP_DATA_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
 
 ### -field uint8
 
@@ -195,7 +195,7 @@ A pointer to a double-precision floating-point  value.
 
 case(FWP_BYTE_ARRAY16_TYPE)
 
-A pointer to a [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)  structure.
+A pointer to a [FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)  structure.
 
 
 
@@ -203,7 +203,7 @@ A pointer to a [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api
 
 case(FWP_BYTE_BLOB_TYPE)
 
-A pointer to a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure.
+A pointer to a [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure.
 
 
 
@@ -219,7 +219,7 @@ A pointer to a SID.
 
 case(FWP_SECURITY_DESCRIPTOR_TYPE)
 
-A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -227,7 +227,7 @@ A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](https://docs.m
 
 case(FWP_TOKEN_INFORMATION_TYPE)
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_token_information_">FWP_TOKEN_INFORMATION</a>  structure.
+A pointer to an <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_token_information_">FWP_TOKEN_INFORMATION</a>  structure.
 
 
 
@@ -235,7 +235,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes
 
 case(FWP_TOKEN_ACCESS_INFORMATION_TYPE)
 
-A pointer to token access information contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
+A pointer to token access information contained in a [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
 
 
 
@@ -260,21 +260,20 @@ filter engine.
 
 When IP addresses are stored in FWP_UINT32 format or when IP port is stored in FWP_UINT16 format, they are stored in host-order not network-order. 
 
-<b>FWP_VALUE0</b> is a specific implementation of FWP_VALUE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWP_VALUE0</b> is a specific implementation of FWP_VALUE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
+[FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
+[FWP_DATA_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

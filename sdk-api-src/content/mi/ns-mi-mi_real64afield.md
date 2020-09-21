@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_real64a">MI_Real64A</a>.
+A field of type <a href="/windows/desktop/api/mi/ns-mi-mi_real64a">MI_Real64A</a>.
 
 ### -field exists
 
@@ -94,5 +94,4 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 
 ## -remarks
 
-This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa392157(v=vs.85).aspx">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
-
+This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="/windows/win32/wmisdk/key-qualifier">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.

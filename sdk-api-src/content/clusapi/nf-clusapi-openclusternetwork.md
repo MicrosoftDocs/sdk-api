@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Opens a connection to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
+Opens a connection to a <a href="/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
     to it. The <b>PCLUSAPI_OPEN_CLUSTER_NETWORK</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszNetworkName [in]
 
@@ -78,7 +78,7 @@ Pointer to the name of an existing network.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -90,13 +90,12 @@ If the operation was successful,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a>

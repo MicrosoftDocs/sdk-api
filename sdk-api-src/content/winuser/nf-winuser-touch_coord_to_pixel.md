@@ -105,5 +105,4 @@ case WM_TOUCH:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/touch-macros">Macros</a>
-
+<a href="/windows/desktop/wintouch/touch-macros">Macros</a>

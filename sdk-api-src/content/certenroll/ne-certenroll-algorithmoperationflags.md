@@ -52,16 +52,16 @@ api_name:
 
 The <b>AlgorithmOperationFlags</b> enumeration type specifies the operations that an algorithm can perform. This enumeration is used in the following interfaces to retrieve the operational capabilities of a cryptographic provider or status information based on those capabilities.<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
 </li>
 </ul>
 
@@ -92,23 +92,23 @@ No operation is specified.
 
 ### -field XCN_NCRYPT_CIPHER_OPERATION
 
-The algorithm can be  used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric encryption</a>. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC2</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC4</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES), 3DED, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">AES</a> algorithms.
+The algorithm can be  used for <a href="/windows/desktop/SecGloss/s-gly">symmetric encryption</a>. This includes the <a href="/windows/desktop/SecGloss/r-gly">RC2</a>, <a href="/windows/desktop/SecGloss/r-gly">RC4</a>, <a href="/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES), 3DED, and <a href="/windows/desktop/SecGloss/a-gly">AES</a> algorithms.
 
 ### -field XCN_NCRYPT_HASH_OPERATION
 
-The algorithm can be used for hashing. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">MD2</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithms</a>.
+The algorithm can be used for hashing. This includes the <a href="/windows/desktop/SecGloss/m-gly">MD2</a>, <a href="/windows/desktop/SecGloss/m-gly">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) <a href="/windows/desktop/SecGloss/h-gly">hashing algorithms</a>.
 
 ### -field XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION
 
-The algorithm can be used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> encryption. This includes <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a>.
+The algorithm can be used for <a href="/windows/desktop/SecGloss/p-gly">public key</a> encryption. This includes <a href="/windows/desktop/SecGloss/r-gly">RSA</a>.
 
 ### -field XCN_NCRYPT_SECRET_AGREEMENT_OPERATION
 
-The algorithm can used for key exchange. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> and ECDH algorithm.
+The algorithm can used for key exchange. This includes the <a href="/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> and ECDH algorithm.
 
 ### -field XCN_NCRYPT_SIGNATURE_OPERATION
 
-The algorithm can be  used for signing. This includes the RSA algorithm, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
+The algorithm can be  used for signing. This includes the RSA algorithm, <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
 
 ### -field XCN_NCRYPT_RNG_OPERATION
 
@@ -128,7 +128,7 @@ The algorithm can be used for public key encryption, key exchange, and signing. 
 
 ### -field XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION
 
-Signature algorithms are preferred but not required. An encryption algorithm may be chosen instead. This is used when searching for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) status information based on supported operational capability.
+Signature algorithms are preferred but not required. An encryption algorithm may be chosen instead. This is used when searching for <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) status information based on supported operational capability.
 
 ### -field XCN_NCRYPT_PREFER_NON_SIGNATURE_OPERATION
 
@@ -144,13 +144,12 @@ Use to mask the algorithm operation preference.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmtype">AlgorithmType</a>
+<a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmtype">AlgorithmType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

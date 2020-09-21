@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
+The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
 
 ```cpp
 HRESULT hr = S_OK;
@@ -67,7 +67,7 @@ The  <b>IDsObjectPicker</b> implemented by the system  supports both apartment a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsObjectPicker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsObjectPicker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsObjectPicker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsObjectPicker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IDsObjectPicker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">Initialize</a>
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the interface with data about the scopes, filters, and options used by the dialog box.
@@ -91,7 +91,7 @@ Initializes the interface with data about the scopes, filters, and options used 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">InvokeDialog</a>
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">InvokeDialog</a>
 </td>
 <td align="left" width="63%">
 Displays the dialog box and returns the user's selections.
@@ -103,13 +103,12 @@ Displays the dialog box and returns the user's selections.
 ## -remarks
 
 It is acceptable to create and initialize a single instance of the <b>IDsObjectPicker</b> interface and then make multiple 
-calls to <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">InvokeDialog</a> without having to reinitializing the interface.
+calls to <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">InvokeDialog</a> without having to reinitializing the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
-
+<a href="/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>

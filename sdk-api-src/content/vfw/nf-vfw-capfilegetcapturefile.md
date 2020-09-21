@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileGetCaptureFile</b> macro returns the name of the current capture file. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-get-capture-file">WM_CAP_FILE_GET_CAPTURE_FILE</a> message.
+The <b>capFileGetCaptureFile</b> macro returns the name of the current capture file. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-file-get-capture-file">WM_CAP_FILE_GET_CAPTURE_FILE</a> message.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ The default capture filename is C:\CAPTURE.AVI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

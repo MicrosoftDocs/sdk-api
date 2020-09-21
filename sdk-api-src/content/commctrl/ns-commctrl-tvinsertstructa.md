@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information used to add a new item to a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message. The structure is identical to the <b>TV_INSERTSTRUCT</b> structure, but it has been renamed to follow current naming conventions.
+Contains information used to add a new item to a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message. The structure is identical to the <b>TV_INSERTSTRUCT</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
 
@@ -123,17 +123,17 @@ Inserts the item into the list in alphabetical order.
 
 ### -field DUMMYUNIONNAME.itemex
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
+<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
 </b>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure that contains information about the item to add.
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.71</a>. <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure that contains information about the item to add.
 
 ### -field DUMMYUNIONNAME.item
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
 </b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the item to add.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the item to add.
 
 ## -remarks
 
@@ -146,4 +146,3 @@ The unions in this structure have been updated to work with compilers that do no
 
 > [!NOTE]
 > The commctrl.h header defines TVINSERTSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

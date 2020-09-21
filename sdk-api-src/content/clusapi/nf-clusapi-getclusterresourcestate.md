@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Returns 
-    the current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_STATE</b> type defines a pointer to this function.
+    the current state of a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_STATE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 
 ### -param lpszGroupName [out, optional]
 
-Pointer to a buffer that receives the name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> that 
+Pointer to a buffer that receives the name of the <a href="/previous-versions/windows/desktop/mscs/groups">group</a> that 
        contains the specified resource. The name is returned as a <b>NULL</b>-terminated Unicode 
        string. Pass <b>NULL</b> if the group name is not required.
 
@@ -95,7 +95,7 @@ Pointer to the size of the <i>lpszGroupName</i> buffer as a count of characters.
 
 <b>GetClusterResourceState</b> returns the 
        current state of the resource enumerated from the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
        represented by one of the following values.
 
 <table>
@@ -200,7 +200,7 @@ The resource is in the process of going offline.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -212,36 +212,35 @@ Do not call <b>GetClusterResourceState</b> from
      any resource DLL entry point function. 
      <b>GetClusterResourceState</b> can safely be called 
      from a worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/getting-object-states">Getting Object States</a> for an example.
+See <a href="/previous-versions/windows/desktop/mscs/getting-object-states">Getting Object States</a> for an example.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-offlineclusterresource">OfflineClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-offlineclusterresource">OfflineClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-onlineclusterresource">OnlineClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-onlineclusterresource">OnlineClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>

@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a> message explicitly.
+Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param lpszReplace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 A pointer to a null-terminated string containing the replacement text.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a>.

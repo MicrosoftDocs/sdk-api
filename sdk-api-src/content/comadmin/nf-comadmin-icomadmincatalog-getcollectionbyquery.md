@@ -64,7 +64,7 @@ A reference to an array consisting of key property values for all parent items o
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the collection.
+The <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the collection.
 
 ## -returns
 
@@ -72,15 +72,14 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">ICatalogObject::Key</a> property value for an item is a GUID that serves to uniquely identify it in the COM+ catalog.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">ICatalogObject::Key</a> property value for an item is a GUID that serves to uniquely identify it in the COM+ catalog.
 
-The <b>GetCollectionByQuery</b> method retrieves any collection on the catalog, given the key values for all of its parent items. However, with the <a href="https://docs.microsoft.com/windows/desktop/cossdk/errorinfo">ErrorInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/cossdk/propertyinfo">PropertyInfo</a>, and <a href="https://docs.microsoft.com/windows/desktop/cossdk/relatedcollectioninfo">RelatedCollectionInfo</a> collections, this method behaves differently. If you specify any of these collections, <b>GetCollectionByQuery</b> always returns that named collection immediately relative to the <a href="https://docs.microsoft.com/windows/desktop/cossdk/root">Root</a> collection.
+The <b>GetCollectionByQuery</b> method retrieves any collection on the catalog, given the key values for all of its parent items. However, with the <a href="/windows/desktop/cossdk/errorinfo">ErrorInfo</a>, <a href="/windows/desktop/cossdk/propertyinfo">PropertyInfo</a>, and <a href="/windows/desktop/cossdk/relatedcollectioninfo">RelatedCollectionInfo</a> collections, this method behaves differently. If you specify any of these collections, <b>GetCollectionByQuery</b> always returns that named collection immediately relative to the <a href="/windows/desktop/cossdk/root">Root</a> collection.
 
-To get the <a href="https://docs.microsoft.com/windows/desktop/cossdk/errorinfo">ErrorInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/cossdk/propertyinfo">PropertyInfo</a>, or <a href="https://docs.microsoft.com/windows/desktop/cossdk/relatedcollectioninfo">RelatedCollectionInfo</a> collection that is relative to an arbitrary collection in the catalog and not relative to the <a href="https://docs.microsoft.com/windows/desktop/cossdk/root">Root</a> collection, use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a> method from the parent collection.
+To get the <a href="/windows/desktop/cossdk/errorinfo">ErrorInfo</a>, <a href="/windows/desktop/cossdk/propertyinfo">PropertyInfo</a>, or <a href="/windows/desktop/cossdk/relatedcollectioninfo">RelatedCollectionInfo</a> collection that is relative to an arbitrary collection in the catalog and not relative to the <a href="/windows/desktop/cossdk/root">Root</a> collection, use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a> method from the parent collection.
 
-For a complete list of available collections, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
+For a complete list of available collections, see <a href="/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

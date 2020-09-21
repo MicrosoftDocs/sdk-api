@@ -52,7 +52,7 @@ api_name:
 
 The <b>CertEnumSystemStoreLocationCallback</b> 
 	callback function formats and presents information on each system store location found by a call to 
-	<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
+	<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 ## -parameters
 
@@ -71,11 +71,10 @@ Reserved for future use.
 ### -param *pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
-	 passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
+	 passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 ## -returns
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>.
-

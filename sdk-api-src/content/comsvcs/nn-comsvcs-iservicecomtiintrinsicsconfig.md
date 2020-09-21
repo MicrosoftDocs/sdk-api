@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> function. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
+Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> function. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceComTIIntrinsicsConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">ComTIIntrinsicsConfig</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">ComTIIntrinsicsConfig</a>
 </td>
 <td align="left" width="63%">
 Configures the COMTI intrinsics for the enclosed work.
@@ -80,5 +80,4 @@ Configures the COMTI intrinsics for the enclosed work.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
-
+<a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>

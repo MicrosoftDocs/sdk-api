@@ -68,11 +68,10 @@ An interim character selection spans exactly one character and is visually repre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION
       </a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfactiveselend">TfActiveSelEnd
       </a>
-

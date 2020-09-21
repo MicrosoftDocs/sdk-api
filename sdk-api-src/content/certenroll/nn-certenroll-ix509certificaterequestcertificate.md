@@ -56,7 +56,7 @@ The <b>IX509CertificateRequestCertificate</b> interface represents a request obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestCertificate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestCertificate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IX509CertificateRequestCertificate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature">CheckPublicKeySignature</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature">CheckPublicKeySignature</a>
 </td>
 <td align="left" width="63%">
 Verifies the certificate signature by using the public key of the signing certificate.
@@ -89,7 +89,7 @@ Verifies the certificate signature by using the public key of the signing certif
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer">Issuer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer">Issuer</a>
 
 
 </td>
@@ -101,7 +101,7 @@ Specifies or retrieves the name of the certificate issuer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter">NotAfter</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter">NotAfter</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Specifies the date and time after which the certificate is no longer valid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore">NotBefore</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore">NotBefore</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Specifies the date and time before which the certificate is not valid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber">SerialNumber</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber">SerialNumber</a>
 
 
 </td>
@@ -137,12 +137,12 @@ Specifies and retrieves a string that contains the certificate serial number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate">SignerCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate">SignerCertificate</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object used to sign the certificate.
+Specifies or retrieves the  <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object used to sign the certificate.
 
 </td>
 </tr>
@@ -150,13 +150,12 @@ Specifies or retrieves the  <a href="https://docs.microsoft.com/windows/desktop/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHUnlockShared</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Unlocks memory locked by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
+Unlocks memory locked by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
 
 ## -parameters
 
@@ -60,15 +60,14 @@ Unlocks memory locked by <a href="https://docs.microsoft.com/windows/desktop/api
 
 Type: <b>void*</b>
 
-A pointer to the shared memory block returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
+A pointer to the shared memory block returned by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is <b>TRUE</b> and all modified pages within the specified range are written to the disk with low priority. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b> and all modified pages within the specified range are written to the disk with low priority. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a> to free the memory block.
-
+Call <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a> to free the memory block.

@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-Packs four byte-values into a single LPARAM suitable for use with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipm-setaddress">IPM_SETADDRESS</a> message.
+Packs four byte-values into a single LPARAM suitable for use with the <a href="/windows/desktop/Controls/ipm-setaddress">IPM_SETADDRESS</a> message.
 
 ## -parameters
 
 ### -param b1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The field 0 address.
 
 ### -param b2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The field 1 address.
 
 ### -param b3
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The field 2 address.
 
 ### -param b4
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The field 3 address.
-

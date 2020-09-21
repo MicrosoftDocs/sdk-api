@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 ## -enum-fields
 
@@ -112,13 +112,12 @@ B'        1.000000    1.826000    0.000000       Pr
 </code></pre>
 This enumeration is equivalent to the <b>DXVA_VideoTransferMatrix</b> enumeration used in DXVA 1.0.
 
-If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the video transfer matrix is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-yuv-matrix-attribute">MF_MT_YUV_MATRIX</a> attribute.
+If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the video transfer matrix is specified in the <a href="/windows/desktop/medfound/mf-mt-yuv-matrix-attribute">MF_MT_YUV_MATRIX</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
+<a href="/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

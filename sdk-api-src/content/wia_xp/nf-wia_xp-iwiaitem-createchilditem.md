@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects to the <b>IWiaItem</b> tree of a device.
+The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects to the <b>IWiaItem</b> tree of a device.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a hr
 
 Type: <b>LONG</b>
 
-Specifies the WIA item type. Must be set to one of the values listed in <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-item-type-flags">WIA Item Type Flags</a>.
+Specifies the WIA item type. Must be set to one of the values listed in <a href="/windows/desktop/wia/-wia-wia-item-type-flags">WIA Item Type Flags</a>.
 
 ### -param bstrItemName [in]
 
@@ -74,9 +74,9 @@ Specifies the full WIA item name. You can think of this parameter as equivalent 
 
 ### -param ppIWiaItem [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface that sets the <b>IWiaItem::CreateChildItem</b> method.
+Receives the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface that sets the <b>IWiaItem::CreateChildItem</b> method.
 
 ## -returns
 
@@ -86,9 +86,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Some WIA hardware devices allow applications to create new items in the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree that represents the device. Applications must test the devices to see if they support this capability. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps">IEnumWIA_DEV_CAPS</a> interface to enumerate the current device's capabilities.
+Some WIA hardware devices allow applications to create new items in the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree that represents the device. Applications must test the devices to see if they support this capability. Use the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps">IEnumWIA_DEV_CAPS</a> interface to enumerate the current device's capabilities.
 
-If the device allows the creation of new items in the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree, invoking <b>IWiaItem::CreateChildItem</b> creates a new <b>IWiaItem</b> that is a child of the current node. <b>IWiaItem::CreateChildItem</b> passes a pointer to the new node to the application through the <i>ppIWiaItem</i> parameter.
+If the device allows the creation of new items in the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree, invoking <b>IWiaItem::CreateChildItem</b> creates a new <b>IWiaItem</b> that is a child of the current node. <b>IWiaItem::CreateChildItem</b> passes a pointer to the new node to the application through the <i>ppIWiaItem</i> parameter.
 
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
-
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.

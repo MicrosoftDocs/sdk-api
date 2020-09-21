@@ -77,5 +77,4 @@ If the function succeeds, the return value is the number of characters in the re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid">StringFromCLSID</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid">StringFromCLSID</a>

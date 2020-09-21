@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 Contains the user-defined event and optional data associated with the 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a> device event.
+<a href="/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a> device event.
 
 ## -struct-fields
 
 ### -field dbud_dbh
 
 Information about the device affected by a 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message as specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a> structure. Because 
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message as specified by the 
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a> structure. Because 
 <b>_DEV_BROADCAST_USERDEFINED</b> is variable length, the <b>dbch_size</b> member of the <b>dbud_dbh</b> structure must be the size in bytes of the entire structure, including the variable length portion.
 
 ### -field dbud_szName
@@ -85,13 +85,12 @@ typedef struct tagWIDGET_WARE_DEV_BROADCAST_USERDEFINED
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a>
+<a href="/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>

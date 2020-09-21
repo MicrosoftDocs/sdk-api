@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds console properties.
+Holds an extra data block used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds console properties.
 
 ## -struct-fields
 
@@ -78,21 +78,21 @@ Fill attribute for console pop-ups.
 
 ### -field dwScreenBufferSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a></b>
+Type: <b><a href="/windows/console/coord-str">COORD</a></b>
 
-A <a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a> structure with the console's screen buffer size.
+A <a href="/windows/console/coord-str">COORD</a> structure with the console's screen buffer size.
 
 ### -field dwWindowSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a></b>
+Type: <b><a href="/windows/console/coord-str">COORD</a></b>
 
-A <a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a> structure with the console's window size.
+A <a href="/windows/console/coord-str">COORD</a> structure with the console's window size.
 
 ### -field dwWindowOrigin
 
-Type: <b><a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a></b>
+Type: <b><a href="/windows/console/coord-str">COORD</a></b>
 
-A <a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a> structure with the console's window origin.
+A <a href="/windows/console/coord-str">COORD</a> structure with the console's window origin.
 
 ### -field nFont
 
@@ -108,9 +108,9 @@ The input buffer size.
 
 ### -field dwFontSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a></b>
+Type: <b><a href="/windows/console/coord-str">COORD</a></b>
 
-A <a href="https://docs.microsoft.com/windows/console/coord-str">COORD</a> structure with the font size.
+A <a href="/windows/console/coord-str">COORD</a> structure with the font size.
 
 ### -field uFontFamily
 
@@ -180,7 +180,6 @@ A boolean value that is set to <b>TRUE</b> if old duplicate history lists should
 
 ### -field ColorTable
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>[16]</b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a>[16]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> values with the console's color settings.
-
+An array of <a href="/windows/desktop/gdi/colorref">COLORREF</a> values with the console's color settings.

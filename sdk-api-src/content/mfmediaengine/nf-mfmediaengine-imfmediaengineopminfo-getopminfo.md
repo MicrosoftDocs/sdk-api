@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets status information about the   <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
+Gets status information about the   <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
 
 ## -parameters
 
 ### -param pStatus [out]
 
-        A pointer to a <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-opm-status">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
+        A pointer to a <a href="/windows/desktop/medfound/mf-media-engine-opm-status">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
 
 ### -param pConstricted [out]
 
@@ -97,5 +97,4 @@ If any of the parameters are <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo">IMFMediaEngineOPMInfo</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo">IMFMediaEngineOPMInfo</a>

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Queries the state of the selected catalog.
 
@@ -72,7 +72,7 @@ The computer name on which the catalog is located, such as "." for the local com
 
 ### -param pCiState [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure that receives the catalog state.
+A pointer to a <a href="/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure that receives the catalog state.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The function failed because Indexing Service is too busy to respond to the query
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
+The <a href="/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
 
 
 
@@ -161,8 +161,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a>
+<a href="/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a>
  
 
  
-

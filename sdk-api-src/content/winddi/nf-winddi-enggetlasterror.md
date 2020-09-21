@@ -64,5 +64,4 @@ The return value is the last error code set by <b>EngSetLastError</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsetlasterror">EngSetLastError</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engsetlasterror">EngSetLastError</a>

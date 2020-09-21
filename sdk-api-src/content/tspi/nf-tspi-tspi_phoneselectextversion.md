@@ -62,7 +62,7 @@ The handle to the phone for which an extension version is to be selected.
 ### -param dwExtVersion
 
 The extension version to be selected. This version number is negotiated using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>. The most-significant <b>WORD</b> is the major version number and the least-significant <b>WORD</b> is the minor version number. Calling this function with a <i>dwExtVersion</i> of zero cancels the current selection.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>. The most-significant <b>WORD</b> is the major version number and the least-significant <b>WORD</b> is the minor version number. Calling this function with a <i>dwExtVersion</i> of zero cancels the current selection.
 
 ## -returns
 
@@ -80,5 +80,4 @@ Subsequent operations on the phone after an extension version is selected behave
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>

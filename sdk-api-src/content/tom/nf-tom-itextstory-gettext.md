@@ -60,7 +60,7 @@ Type: <b>long</b>
 
 The conversion flags.
 
-A <i>Flags</i> value of 0 retrieves text the same as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>.  Other values include the following.
+A <i>Flags</i> value of 0 retrieves text the same as <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>.  Other values include the following.
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>
@@ -140,9 +140,9 @@ The text in the story.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -186,13 +186,12 @@ Insufficient memory.
 
 ## -remarks
 
-This method is similar to using <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
+This method is similar to using <a href="/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>

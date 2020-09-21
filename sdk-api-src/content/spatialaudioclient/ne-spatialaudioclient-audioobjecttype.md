@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>. A spatial audio object can be dynamic, meaning that it's spatial properties can change over time, or static, which means that its spatial properties are fixed. There are 17 audio channels to which a static spatial audio object can be assigned, each representing a real or virtualized speaker. The static channel values of the enumeration can be combined as a mask to assign a spatial audio object to multiple channels. All of the enumeration values except for <b>AudioObjectType_None</b> and <b>AudioObjectType_Dynamic</b> represent static channels.
+Specifies the type of an <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>. A spatial audio object can be dynamic, meaning that it's spatial properties can change over time, or static, which means that its spatial properties are fixed. There are 17 audio channels to which a static spatial audio object can be assigned, each representing a real or virtualized speaker. The static channel values of the enumeration can be combined as a mask to assign a spatial audio object to multiple channels. All of the enumeration values except for <b>AudioObjectType_None</b> and <b>AudioObjectType_Dynamic</b> represent static channels.
 
 ## -enum-fields
 
@@ -64,51 +64,51 @@ The spatial audio object is dynamic. It's spatial properties can be changed over
 
 ### -field AudioObjectType_FrontLeft
 
-The spatial audio object is assigned the front left channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_LEFT.
+The spatial audio object is assigned the front left channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_LEFT.
 
 ### -field AudioObjectType_FrontRight
 
-The spatial audio object is assigned the front right channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_RIGHT.
+The spatial audio object is assigned the front right channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_RIGHT.
 
 ### -field AudioObjectType_FrontCenter
 
-The spatial audio object is assigned the front center channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_CENTER.
+The spatial audio object is assigned the front center channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_FRONT_CENTER.
 
 ### -field AudioObjectType_LowFrequency
 
-The spatial audio object is assigned the low frequency channel. Because this channel is not spatialized, it does not count toward the system resource limits for spatialized audio objects. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_LOW_FREQUENCY.
+The spatial audio object is assigned the low frequency channel. Because this channel is not spatialized, it does not count toward the system resource limits for spatialized audio objects. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_LOW_FREQUENCY.
 
 ### -field AudioObjectType_SideLeft
 
-The spatial audio object is assigned the side left channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_SIDE_LEFT.
+The spatial audio object is assigned the side left channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_SIDE_LEFT.
 
 ### -field AudioObjectType_SideRight
 
-The spatial audio object is assigned the side right channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_SIDE_RIGHT.
+The spatial audio object is assigned the side right channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_SIDE_RIGHT.
 
 ### -field AudioObjectType_BackLeft
 
-The spatial audio object is assigned the back left channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_BACK_LEFT.
+The spatial audio object is assigned the back left channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_BACK_LEFT.
 
 ### -field AudioObjectType_BackRight
 
-The spatial audio object is assigned the back right channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_BACK_RIGHT.
+The spatial audio object is assigned the back right channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_BACK_RIGHT.
 
 ### -field AudioObjectType_TopFrontLeft
 
-The spatial audio object is assigned the top front left channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_FRONT_LEFT.
+The spatial audio object is assigned the top front left channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_FRONT_LEFT.
 
 ### -field AudioObjectType_TopFrontRight
 
-The spatial audio object is assigned the top front right channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_FRONT_RIGHT.
+The spatial audio object is assigned the top front right channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_FRONT_RIGHT.
 
 ### -field AudioObjectType_TopBackLeft
 
-The spatial audio object is assigned the top back left channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_BACK_LEFT.
+The spatial audio object is assigned the top back left channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_BACK_LEFT.
 
 ### -field AudioObjectType_TopBackRight
 
-The spatial audio object is assigned the top back right channel. The equivalent channel mask of DirectShow's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_BACK_RIGHT.
+The spatial audio object is assigned the top back right channel. The equivalent channel mask of DirectShow's <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> enumeration is SPEAKER_TOP_BACK_RIGHT.
 
 ### -field AudioObjectType_BottomFrontLeft
 
@@ -129,4 +129,3 @@ The spatial audio object is assigned the bottom back right channel.
 ### -field AudioObjectType_BackCenter
 
 The spatial audio object is assigned the back center channel.
-

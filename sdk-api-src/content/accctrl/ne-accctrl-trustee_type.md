@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>TRUSTEE_TYPE</b> enumeration contains values that indicate the type of trustee identified by a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 ## -enum-fields
 
@@ -80,7 +80,7 @@ Indicates an alias.
 ### -field TRUSTEE_IS_WELL_KNOWN_GROUP
 
 Indicates a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">well-known group</a>.
+<a href="/windows/desktop/SecAuthZ/well-known-sids">well-known group</a>.
 
 ### -field TRUSTEE_IS_DELETED
 
@@ -96,13 +96,12 @@ Indicates a computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>

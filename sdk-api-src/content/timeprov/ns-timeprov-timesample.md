@@ -77,12 +77,12 @@ The total measurement error of the clock offset, including root dispersion, in (
 ### -field nSysTickCount
 
 The value returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_TickCount.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_TickCount.
 
 ### -field nSysPhaseOffset
 
 The value returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_PhaseOffset.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_PhaseOffset.
 
 ### -field nLeapFlags
 
@@ -182,9 +182,8 @@ The name that uniquely identifies the source of the sample. For network provider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>

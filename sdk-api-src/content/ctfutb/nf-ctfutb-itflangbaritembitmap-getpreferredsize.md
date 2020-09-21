@@ -56,7 +56,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
+Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
 
 ### -param psz [out]
 
@@ -86,9 +86,8 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmap">ITfLangBarItemBitmap</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmap">ITfLangBarItemBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
-
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>

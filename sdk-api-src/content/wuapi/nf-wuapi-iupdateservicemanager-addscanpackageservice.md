@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Registers a scan package as a service with Windows Update Agent (WUA) and then returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
+Registers a scan package as a service with Windows Update Agent (WUA) and then returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
 
 ## -parameters
 
@@ -67,11 +67,11 @@ The path of the Microsoft signed scan file that has to be registered as a servic
 
 Determines how to remove the service registration of the scan package. 
 
-For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateserviceoption">UpdateServiceOption</a>.
+For possible values, see <a href="/windows/desktop/api/wuapi/ne-wuapi-updateserviceoption">UpdateServiceOption</a>.
 
 ### -param ppService [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface that contains service registration information.
+A pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface that contains service registration information.
 
 ## -returns
 
@@ -120,19 +120,18 @@ The computer could not access the update site.
 
 ## -remarks
 
-You can use the ID of the service in searches by passing the ID as the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface.
+You can use the ID of the service in searches by passing the ID as the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface.
 
-To free resources, remove the service after it is no longer needed. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">RemoveService</a> method to remove the service.
+To free resources, remove the service after it is no longer needed. Use the  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">RemoveService</a> method to remove the service.
 
-Do not  call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-registerservicewithau">RegisterServiceWithAU</a> method for the service that  the <b>AddScanPackageService</b> method registers.
+Do not  call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-registerservicewithau">RegisterServiceWithAU</a> method for the service that  the <b>AddScanPackageService</b> method registers.
 
-The service that is returned by <b>AddScanPackageService</b> is in the collection of services that the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services">Services</a> property of the IUpdateServiceManager interface returns. This service has the special <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice">IsScanPackageService</a> property.
+The service that is returned by <b>AddScanPackageService</b> is in the collection of services that the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services">Services</a> property of the IUpdateServiceManager interface returns. This service has the special <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice">IsScanPackageService</a> property.
 
-An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> if the Authorization Cab is not  signed.
+An error is returned by <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> if the Authorization Cab is not  signed.
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that implements the interface has been locked down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

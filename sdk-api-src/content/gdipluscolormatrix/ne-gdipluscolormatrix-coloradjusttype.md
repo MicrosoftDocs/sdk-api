@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 The <b>ColorAdjustType</b> enumeration specifies which GDI+ objects use color-adjustment information. You can adjust the colors in a rendered image by passing the address of an 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object to the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">Graphics::DrawImage</a> method. An 
+			<a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object to the 
+			<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">Graphics::DrawImage</a> method. An 
 			<b>ImageAttributes</b> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. Several of the methods of the 
 			<b>ImageAttributes</b> class receive an element of the <b>ColorAdjustType</b> enumeration to specify the adjustment category.
 
@@ -86,4 +86,3 @@ Used internally to record the number of color adjustment types.
 ### -field ColorAdjustTypeAny
 
 Reserved
-

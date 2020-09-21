@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a private <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer on the video device and associates that pointer with a GUID.
+Sets a private <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer on the video device and associates that pointer with a GUID.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The GUID associated with the pointer.
 
 ### -param pData [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

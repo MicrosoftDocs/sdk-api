@@ -60,7 +60,7 @@ The <b>MIDIPROPTEMPO</b> structure contains the tempo property for a stream.
 
 ### -field cbStruct
 
-Length, in bytes, of this structure. This member must be filled in for both the MIDIPROP_SET and MIDIPROP_GET operations of the <a href="https://docs.microsoft.com/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a> function.
+Length, in bytes, of this structure. This member must be filled in for both the MIDIPROP_SET and MIDIPROP_GET operations of the <a href="/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a> function.
 
 ### -field dwTempo
 
@@ -68,17 +68,16 @@ Tempo of the stream, in microseconds per quarter note. The tempo is honored only
 
 ## -remarks
 
-The tempo property is read or written by the <a href="https://docs.microsoft.com/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a> function.
+The tempo property is read or written by the <a href="/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
+<a href="/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
+<a href="/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a>
-
+<a href="/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a>

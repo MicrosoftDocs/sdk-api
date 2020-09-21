@@ -60,7 +60,7 @@ Pointer to the <b>IDirect3DDevice9</b> interface of a Direct3D device.
 
 ### -param vos [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_video_output_semantics">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
+A member of the <a href="/windows/desktop/api/opmapi/ne-opmapi-opm_video_output_semantics">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/n
 </dl>
 </td>
 <td width="60%">
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers will use OPM semantics.
+The returned <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers will use OPM semantics.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-o
 </dl>
 </td>
 <td width="60%">
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers will use Certified Output Protection Protocol (COPP) semantics.
+The returned <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers will use Certified Output Protection Protocol (COPP) semantics.
 
 </td>
 </tr>
@@ -91,11 +91,11 @@ The returned <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-o
 
 ### -param pulNumVideoOutputs [out]
 
-Receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers returned in the <i>pppOPMVideoOutputArray</i> parameter.
+Receives the number of <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers returned in the <i>pppOPMVideoOutputArray</i> parameter.
 
 ### -param pppOPMVideoOutputArray [out]
 
-Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers. Each <b>IOPMVideoOutput</b> pointer is associated with a single physical monitor. The caller must release each pointer in the array, and call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the array.
+Receives a pointer to an array of <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers. Each <b>IOPMVideoOutput</b> pointer is associated with a single physical monitor. The caller must release each pointer in the array, and call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the array.
 
 ## -returns
 
@@ -103,11 +103,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-A single Direct3D device can be associated with several physical monitors. Each physical monitor has its own connector. The application must set the protection mechanism individually for each physical monitor, by using the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers returned in <i>pppOPMVideoOutputArray</i>.
+A single Direct3D device can be associated with several physical monitors. Each physical monitor has its own connector. The application must set the protection mechanism individually for each physical monitor, by using the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> pointers returned in <i>pppOPMVideoOutputArray</i>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface has two modes of behavior, depending on the value of the <i>vos</i> parameter. If <i>vos</i> is OPM_VOS_COPP_SEMANTICS, <b>IOPMVideoOutput</b> uses COPP semantics. This mode is intended for backward compatibility with COPP. If <i>vos</i> is OPM_VOS_OPM_SEMANTICS, <b>IOPMVideoOutput</b> uses the newer OPM semantics. Differences in behavior are noted on the reference page for each method. The mode does not change during the lifetime of the object.
+The <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface has two modes of behavior, depending on the value of the <i>vos</i> parameter. If <i>vos</i> is OPM_VOS_COPP_SEMANTICS, <b>IOPMVideoOutput</b> uses COPP semantics. This mode is intended for backward compatibility with COPP. If <i>vos</i> is OPM_VOS_OPM_SEMANTICS, <b>IOPMVideoOutput</b> uses the newer OPM semantics. Differences in behavior are noted on the reference page for each method. The mode does not change during the lifetime of the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-functions">OPM Functions</a>
-
+<a href="/windows/desktop/medfound/opm-functions">OPM Functions</a>

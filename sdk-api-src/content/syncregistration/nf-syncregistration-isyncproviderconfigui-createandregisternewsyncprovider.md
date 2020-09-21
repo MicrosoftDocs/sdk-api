@@ -65,7 +65,7 @@ Pointer to an interface containing additional information needed to generate the
 
 ### -param ppProviderInfo [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
+An <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
 
 ## -returns
 
@@ -113,5 +113,4 @@ There was not enough memory available to create and register the synchronization
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>

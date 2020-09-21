@@ -56,7 +56,7 @@ api_name:
 
 Specifies attributes for a user-mode scheduling (UMS) worker thread. 
 
-This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> function.
+This structure is used with the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> function.
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ The UMS version for which the application was built. This parameter must be <b>U
 
 ### -field UmsContext
 
-A pointer to a UMS thread context for the worker thread to be created. This pointer is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumsthreadcontext">CreateUmsThreadContext</a> function.
+A pointer to a UMS thread context for the worker thread to be created. This pointer is provided by the <a href="/windows/desktop/api/winbase/nf-winbase-createumsthreadcontext">CreateUmsThreadContext</a> function.
 
 ### -field UmsCompletionList
 
-A pointer to a UMS completion list. This pointer is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function. The newly created worker thread is queued to the specified completion list.
-
+A pointer to a UMS completion list. This pointer is provided by the <a href="/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function. The newly created worker thread is queued to the specified completion list.

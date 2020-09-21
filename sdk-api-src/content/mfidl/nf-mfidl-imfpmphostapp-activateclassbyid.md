@@ -60,7 +60,7 @@ Id of object to create.
 
 ### -param pStream [in]
 
-Data to be passed to the object by way of a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>.
+Data to be passed to the object by way of a <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>.
 
 ### -param riid [in]
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>

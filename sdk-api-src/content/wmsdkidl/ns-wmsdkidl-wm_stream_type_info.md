@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_STREAM_TYPE_INFO</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-streamtypeinfo">WM/StreamTypeInfo</a> complex metadata attribute. It stores the major type and the size of the associated format data.
+The <b>WM_STREAM_TYPE_INFO</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wm-streamtypeinfo">WM/StreamTypeInfo</a> complex metadata attribute. It stores the major type and the size of the associated format data.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ None.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-setparameters">Blur::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-blur-setparameters">Blur::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a>

@@ -67,7 +67,7 @@ The package family name.
 
 Type: <b>UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. All package constants except <b>PACKAGE_FILTER_ALL_LOADED</b> are supported.
+The <a href="/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. All package constants except <b>PACKAGE_FILTER_ALL_LOADED</b> are supported.
 
 ### -param count [in, out]
 
@@ -101,7 +101,7 @@ A pointer to memory space that receives  the string of characters for all of the
 
 Type: <b>UINT32*</b>
 
-A pointer to memory space that receives  the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package properties</a> for all of the packages that were found.
+A pointer to memory space that receives  the <a href="/windows/desktop/appxpkg/package-constants">package properties</a> for all of the packages that were found.
 
 ## -returns
 
@@ -126,4 +126,3 @@ One or more buffer is not large enough to hold the data. The required size is sp
 </td>
 </tr>
 </table>
-

@@ -53,7 +53,7 @@ The <i>DdSetExclusiveMode</i> callback function notifies the driver when a Direc
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
 
 ## -returns
 
@@ -67,5 +67,4 @@ DirectDraw applications can go full screen and take total control of the primary
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a>

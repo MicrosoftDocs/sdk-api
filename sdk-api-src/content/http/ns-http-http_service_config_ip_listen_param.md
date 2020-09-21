@@ -70,16 +70,15 @@ A pointer to an Internet Protocol (IP) address to be added to or deleted from th
 
 
 
-To specify an IPv6 address, use a <a href="https://msdn.microsoft.com/library/aa915715.aspx">SOCKADDR_IN6</a> structure, declared in the Ws2tcpip.h header file, and cast its address to a PSOCKADDR when you use it to set the <b>pAddress</b> member. The <b>sin_family</b> member of the SOCKADDR_IN6 should be set to AF_INET6.
+To specify an IPv6 address, use a <a href="/previous-versions/aa915715(v=msdn.10)">SOCKADDR_IN6</a> structure, declared in the Ws2tcpip.h header file, and cast its address to a PSOCKADDR when you use it to set the <b>pAddress</b> member. The <b>sin_family</b> member of the SOCKADDR_IN6 should be set to AF_INET6.
 
-  If the <b>sin_addr</b> field in <a href="https://msdn.microsoft.com/library/aa915715.aspx">SOCKADDR_IN6</a> structure is set to 0.0.0.0, it means to bind to all IPv4 addresses.
-   If the <b>sin6_addr</b> field in <a href="https://msdn.microsoft.com/library/aa915715.aspx">SOCKADDR_IN6</a> is set to [::], it means to bind to all IPv6 addresses.
+  If the <b>sin_addr</b> field in <a href="/previous-versions/aa915715(v=msdn.10)">SOCKADDR_IN6</a> structure is set to 0.0.0.0, it means to bind to all IPv4 addresses.
+   If the <b>sin6_addr</b> field in <a href="/previous-versions/aa915715(v=msdn.10)">SOCKADDR_IN6</a> is set to [::], it means to bind to all IPv6 addresses.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>

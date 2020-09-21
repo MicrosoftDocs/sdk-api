@@ -58,13 +58,12 @@ Specifies that the source of the xml should be obtained from a callback.
 
 ### -field input
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a>.
 
 ### -field readCallback
 
-A callback that is invoked when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> is called.
+A callback that is invoked when <a href="/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> is called.
 
 ### -field readCallbackState
 
 A user-defined value that will be passed back to readCallback.
-

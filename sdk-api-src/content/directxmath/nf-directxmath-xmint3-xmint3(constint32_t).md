@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a> from a from a three element
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a> from a from a three element
   <code>int32_t</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -83,9 +83,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>

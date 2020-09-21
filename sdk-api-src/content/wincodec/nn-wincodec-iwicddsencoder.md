@@ -54,7 +54,7 @@ Enables writing DDS format specific information to an encoder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICDdsEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe">CreateNewFrame</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe">CreateNewFrame</a>
 </td>
 <td align="left" width="63%">
 Creates a new frame to encode.
@@ -78,7 +78,7 @@ Creates a new frame to encode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-getparameters">GetParameters</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-getparameters">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets DDS-specific data.
@@ -87,7 +87,7 @@ Gets DDS-specific data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters">SetParameters</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets DDS-specific data.
@@ -98,5 +98,4 @@ Sets DDS-specific data.
 
 ## -remarks
 
-This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder">IWICBitmapEncoder</a> using the DDS codec and QueryInterface for <b>IWICDdsEncoder</b>.
-
+This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder">IWICBitmapEncoder</a> using the DDS codec and QueryInterface for <b>IWICDdsEncoder</b>.

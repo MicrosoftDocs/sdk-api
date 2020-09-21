@@ -48,7 +48,7 @@ Specifies the parameters for the output stream for a video decode operation. [D3
 
 ### -field pOutputTexture2D
 
-An [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the output texture.  If decode conversion is enabled, this texture will contain the post-conversion output.  If decode conversion is not enabled, this texture will contain the decode output.
+An [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the output texture.  If decode conversion is enabled, this texture will contain the post-conversion output.  If decode conversion is not enabled, this texture will contain the decode output.
 
 ### -field OutputSubresource
 
@@ -62,4 +62,3 @@ An optional [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](ns-d3d12video-d3d12_video_
 ## -remarks
 
 ## -see-also
-

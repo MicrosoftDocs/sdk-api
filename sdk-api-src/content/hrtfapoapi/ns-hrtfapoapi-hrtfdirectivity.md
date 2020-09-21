@@ -70,9 +70,8 @@ For fully directional sources, while direct path signal outside the directivity 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ne-hrtfapoapi-hrtfdirectivitytype">HrtfDirectivityType</a>
+<a href="/windows/desktop/api/hrtfapoapi/ne-hrtfapoapi-hrtfdirectivitytype">HrtfDirectivityType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

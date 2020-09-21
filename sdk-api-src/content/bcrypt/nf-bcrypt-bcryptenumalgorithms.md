@@ -137,7 +137,7 @@ A pointer to a <b>ULONG</b> variable to receive the number of elements in the <i
 
 ### -param ppAlgList [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_algorithm_identifier">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function when it is no longer needed.
+The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_algorithm_identifier">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function when it is no longer needed.
 
 ### -param dwFlags [in]
 
@@ -194,5 +194,4 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
-
+<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.

@@ -56,13 +56,13 @@ api_name:
 
 The <b>HTTP_LOGGING_TYPE</b> enumeration defines the type of logging that is performed.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
+This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
 ## -enum-fields
 
 ### -field HttpLoggingTypeW3C
 
-The log format is W3C style extended logging. Applications choose the fields that are logged in the  <b>Fields</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
+The log format is W3C style extended logging. Applications choose the fields that are logged in the  <b>Fields</b> member of the <a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
  When this type of logging is set on a URL Group, logging is similar to the IIS6 site logging. When set on a server session this format functions as a centralized logging for all of the URL Groups.
 
@@ -204,13 +204,12 @@ The following table lists time element characters and what they represent. <tabl
 
 
 
-For more information about the log file formats, see <a href="https://msdn.microsoft.com/library/ms525807.aspx">IIS Log File Formats</a>.
+For more information about the log file formats, see <a href="/previous-versions/iis/6.0-sdk/ms525807(v=vs.90)">IIS Log File Formats</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>

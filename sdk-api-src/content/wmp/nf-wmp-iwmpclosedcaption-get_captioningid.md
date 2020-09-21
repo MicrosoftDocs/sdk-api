@@ -88,13 +88,12 @@ The element name specified can be any HTML element in the webpage as long as it 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
+<a href="/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_captioningid">IWMPClosedCaption::put_captioningId</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_captioningid">IWMPClosedCaption::put_captioningId</a>

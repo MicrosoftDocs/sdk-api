@@ -71,9 +71,8 @@ Default constructor for <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyten4-ctor">XMBYTEN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmbyten4-ctor">XMBYTEN4 Constructors</a>

@@ -54,7 +54,7 @@ Provides a mechanism for notifying the app about information regarding the media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaKeySessionNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyadded">KeyAdded</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyadded">KeyAdded</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that the key has been added.  
@@ -78,7 +78,7 @@ Notifies the application that the key has been added.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">KeyError</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">KeyError</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that an error occurred while processing the key.
@@ -87,7 +87,7 @@ Notifies the application that an error occurred while processing the key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keymessage">KeyMessage</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keymessage">KeyMessage</a>
 </td>
 <td align="left" width="63%">
 Passes information to the application so it can initiate a key acquisition.
@@ -98,5 +98,4 @@ Passes information to the application so it can initiate a key acquisition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

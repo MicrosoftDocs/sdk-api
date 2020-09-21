@@ -65,7 +65,7 @@ The size of the data actually returned to the application, in bytes. This member
 ### -field dwRequiredSize
 
 The number of bytes required for the entire 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure, including the variable-length portion.
+<a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure, including the variable-length portion.
 
 ### -field dwDevSpecificOffset
 
@@ -129,7 +129,7 @@ Medium volume.
  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
+<a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
 
 ### -field dwSpeakerMode
 
@@ -196,7 +196,7 @@ The modem options requested by the application. The local and remote modems nego
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 ### -field dwNegotiatedModemOptions
@@ -207,7 +207,7 @@ The modem options that are actually in effect. This member is filled in after a 
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 ### -field dwNegotiatedDCERate
@@ -220,5 +220,4 @@ Optional provider-defined information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a>
-
+<a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a>

@@ -63,7 +63,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -remarks
 
-Protocol rollover is a process whereby the reader object discovers the best streaming protocol available from a server. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/protocol-rollover">Protocol Rollover</a>.
+Protocol rollover is a process whereby the reader object discovers the best streaming protocol available from a server. For more information, see <a href="/windows/desktop/wmformat/protocol-rollover">Protocol Rollover</a>.
 
 When the reader object uses protocol rollover, it records which protocol was used and tries that protocol first on subsequent connection attempts. After a certain period of time, the reader object goes back to the default protocol rollover behavior.
 
@@ -73,9 +73,8 @@ Player users sometimes experiment with network settings when they are having con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>

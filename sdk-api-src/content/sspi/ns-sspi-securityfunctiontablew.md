@@ -72,7 +72,7 @@ Version number of the table.
 
 ### -field FreeCredentialsHandle
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
 
 ### -field Reserved2
 
@@ -82,41 +82,41 @@ Reserved for future use.
 
 ### -field AcceptSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
 ### -field CompleteAuthToken
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
 
 ### -field DeleteSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
 
 ### -field ApplyControlToken
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 ### -field QueryContextAttributesW
 
 ### -field ImpersonateSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
 
 ### -field RevertSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-revertsecuritycontext">RevertSecurityContext</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-revertsecuritycontext">RevertSecurityContext</a> function.
 
 ### -field MakeSignature
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
 
 ### -field VerifySignature
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
 
 ### -field FreeContextBuffer
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 ### -field QuerySecurityPackageInfoW
 
@@ -130,7 +130,7 @@ Reserved for future use.
 
 ### -field ExportSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a> function.
 
 ### -field ImportSecurityContextW
 
@@ -142,15 +142,15 @@ Reserved for future use.
 
 ### -field QuerySecurityContextToken
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a> function.
+Pointer to the  <a href="/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a> function.
 
 ### -field EncryptMessage
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> function.
+Pointer to the  <a href="/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> function.
 
 ### -field DecryptMessage
 
-Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (General)</a> function.
+Pointer to the   <a href="/windows/desktop/api/sspi/nf-sspi-decryptmessage">DecryptMessage (General)</a> function.
 
 ### -field SetContextAttributesW
 
@@ -171,42 +171,42 @@ Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf
 
 #### - AcquireCredentialsHandle
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
 
 
 #### - AddCredentials
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_add_credential">AddCredential</a> function.
+Pointer to the  <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_add_credential">AddCredential</a> function.
 
 
 #### - EnumerateSecurityPackages
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function.
 
 
 #### - ImportSecurityContext
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a> function.
 
 
 #### - InitializeSecurityContext
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
+Pointer to the  <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
 
 
 #### - QueryContextAttributes
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
+Pointer to the  <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 
 #### - QueryCredentialsAttributes
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function.
+Pointer to the  <a href="/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function.
 
 
 #### - QuerySecurityPackageInfo
 
-Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function.
+Pointer to the   <a href="/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function.
 
 
 #### - Reserved1
@@ -216,14 +216,13 @@ Reserved for future use.
 
 #### - SetContextAttributes
 
-Pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-setcontextattributesa">SetContextAttributes</a> function.
+Pointer to the   <a href="/windows/desktop/api/sspi/nf-sspi-setcontextattributesa">SetContextAttributes</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initsecurityinterfacea">InitSecurityInterface</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-initsecurityinterfacea">InitSecurityInterface</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines SecurityFunctionTable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

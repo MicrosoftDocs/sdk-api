@@ -59,11 +59,11 @@ Represents a start element in xml (e.g.
 
 ### -field node
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
 
 ### -field prefix
 
-The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a>.
+The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a>.
 
 ### -field localName
 
@@ -84,4 +84,3 @@ The array of attributes for the element.
 ### -field isEmpty
 
 Whether the element is an empty element or not.  In the example, it would be <b>FALSE</b>.
-

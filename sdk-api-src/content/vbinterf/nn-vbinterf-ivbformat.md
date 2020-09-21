@@ -54,7 +54,7 @@ Provides formatting support for controls on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVBFormat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-ivbformat-format">Format</a>
+<a href="/windows/desktop/api/vbinterf/nf-vbinterf-ivbformat-format">Format</a>
 </td>
 <td align="left" width="63%">
 Formats a string the way the Visual Basic <b>Format$</b> function would.
@@ -77,4 +77,3 @@ Formats a string the way the Visual Basic <b>Format$</b> function would.
 </td>
 </tr>
 </table>
-

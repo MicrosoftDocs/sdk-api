@@ -104,13 +104,13 @@ Cannot get Ethernet or token-ring hardware address for this computer.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 For security reasons, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s. 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s. 
 <b>UuidCreateSequential</b> was introduced to allow creation of <b>UUID</b>s using the MAC address of a machine's Ethernet card.
 
 The 
@@ -118,19 +118,18 @@ The
 
 <div class="alert"><b>Note</b>  The 
 <b>UuidCreateSequential</b> function tends to be slightly faster than the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> function. When the performance of the generation of a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is a significant consideration, the 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> function. When the performance of the generation of a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is a significant consideration, the 
 <b>UuidCreateSequential</b> function may be used.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>

@@ -107,12 +107,12 @@ The <b>iIndent</b> member is valid or must be filled in.
 ### -field itemID
 
 A value that specifies a console-supplied unique item identifier for the result item. This value is used to identify an item in the result pane  of  calls to  some  
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a> interface methods.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a> interface methods.
 
-After the snap-in successfully inserts an item in the scope pane (by using <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">IResultData::InsertItem</a>), the <b>itemID</b> member of the 
+After the snap-in successfully inserts an item in the scope pane (by using <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">IResultData::InsertItem</a>), the <b>itemID</b> member of the 
 <b>RESULTDATAITEM</b> structure contains the <b>HRESULTITEM</b> handle of the newly inserted item. This handle is the unique identifier for the result item.
 
-The snap-in should store this value  to  manipulate  (later) the inserted item by calling methods such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>. If this value is not stored, it can be looked up  by using <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">IResultData::FindItemByLParam</a>.
+The snap-in should store this value  to  manipulate  (later) the inserted item by calling methods such as <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>. If this value is not stored, it can be looked up  by using <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">IResultData::FindItemByLParam</a>.
 
 ### -field nIndex
 
@@ -170,7 +170,7 @@ The item is selected. The appearance of a selected item depends on whether it ha
 ### -field lParam
 
 A value that specifies a user-supplied 32-bit value to associate with the item. This item, also called a cookie, is the value that is passed as the first parameter to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>.
 
 ### -field iIndent
 
@@ -178,5 +178,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>

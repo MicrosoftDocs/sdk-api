@@ -56,7 +56,7 @@ The <code>get_Category</code> method returns one of the filter categories for th
 
 ### -param dwIndex [in]
 
-Index of the category GUID to retrieve. To find the number of categories, call the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numcategories">IKsTopologyInfo::get_NumCategories</a> method.
+Index of the category GUID to retrieve. To find the number of categories, call the <a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numcategories">IKsTopologyInfo::get_NumCategories</a> method.
 
 ### -param pCategory [out]
 
@@ -86,9 +86,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>

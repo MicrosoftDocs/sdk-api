@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-sethotdivider">HDM_SETHOTDIVIDER</a> message explicitly.
+Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-sethotdivider">HDM_SETHOTDIVIDER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
 ### -param fPos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A value specifying how 
 					<i>dwInputValue</i> is to be interpreted. The value in this field can be one of the following: 
@@ -98,7 +98,7 @@ Indicates that
 
 ### -param dw
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The value held here is interpreted depending on the value of 
 					<i>flag</i>. 
@@ -114,5 +114,4 @@ If
 
 ## -remarks
 
-A header control set to the <a href="https://docs.microsoft.com/windows/desktop/Controls/header-control-styles">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually.
-
+A header control set to the <a href="/windows/desktop/Controls/header-control-styles">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually.

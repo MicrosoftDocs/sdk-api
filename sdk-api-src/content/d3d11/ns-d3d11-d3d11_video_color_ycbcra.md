@@ -80,9 +80,8 @@ For example, for 8-bit YUV formats, <code>val = BYTE(f * 255.0)</code>.  Referen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-yuv-video">About YUV Video</a>
+<a href="/windows/desktop/medfound/about-yuv-video">About YUV Video</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

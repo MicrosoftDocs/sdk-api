@@ -66,7 +66,7 @@ Deletes all files in the folder, except the report and cabinet file.
 
 ### -field plaSendCab
 
-Sends the cabinet file to the location specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_sendcabto">IFolderAction::SendCabTo</a> property.
+Sends the cabinet file to the location specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_sendcabto">IFolderAction::SendCabTo</a> property.
 
 ### -field plaDeleteCab
 
@@ -82,5 +82,4 @@ Specify one or more actions. The data manager applies the actions in the order i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>

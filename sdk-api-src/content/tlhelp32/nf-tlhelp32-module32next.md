@@ -66,48 +66,47 @@ Retrieves information about the next module associated with a process or thread.
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 ### -param lpme [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-moduleentry32">MODULEENTRY32</a> structure.
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-moduleentry32">MODULEENTRY32</a> structure.
 
 ## -returns
 
 Returns <b>TRUE</b> if the next entry of the module list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if no more modules exist.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if no more modules exist.
 
 ## -remarks
 
 To retrieve information about first module associated with a process, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-module-list">Traversing the Module List</a>.
+<a href="/windows/desktop/ToolHelp/traversing-the-module-list">Traversing the Module List</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-moduleentry32">MODULEENTRY32</a>
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-moduleentry32">MODULEENTRY32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/module-walking">Module Walking</a>
+<a href="/windows/desktop/ToolHelp/module-walking">Module Walking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

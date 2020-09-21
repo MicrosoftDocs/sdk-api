@@ -56,13 +56,13 @@ Notifies diagnostic tools about an end-of-frame operation without the use of a s
 
 ### -param pResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 A pointer to the resource that contains the final frame contents. This resource is treated as the *back buffer* of the **Present**.
 
 ### -param Subresource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned 32bit subresource id.
 
@@ -72,5 +72,4 @@ If provided, indicates which window the tools should use for displaying addition
 
 ## -see-also
 
-[ID3D12SharingContract](https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract)
-
+[ID3D12SharingContract](/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract)

@@ -86,11 +86,11 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-The **IOCTL_DISK_GET_PARTITION_INFO_EX** control code is supported on basic disks. It is only supported on dynamic disks that are boot or system disks, or have retained entries in the partition table. The [DiskPart.exe](https://technet.microsoft.com/library/26a4a166-95fa-4faf-95bc-2d5345f4a57a) command **RETAIN** can be used to do this for other dynamic simple partitions.
+The **IOCTL_DISK_GET_PARTITION_INFO_EX** control code is supported on basic disks. It is only supported on dynamic disks that are boot or system disks, or have retained entries in the partition table. The [DiskPart.exe](/windows-server/administration/windows-commands/diskpart) command **RETAIN** can be used to do this for other dynamic simple partitions.
 
 The disk support can be summarized as follows.
 
@@ -110,8 +110,7 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
-* [File System Recognition](https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
+* [File System Recognition](/windows/desktop/FileIO/file-system-recognition)
 * [IOCTL_DISK_SET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_set_partition_info_ex.md)
 * [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md)
-

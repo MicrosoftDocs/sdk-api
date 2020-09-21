@@ -63,64 +63,63 @@ Sets the specified event object to the signaled state.
 ### -param hEvent [in]
 
 A handle to the event object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
 
 
 
 
 The handle must have the EVENT_MODIFY_STATE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The state of a manual-reset event object remains signaled until it is set explicitly to the nonsignaled state by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function. Any number of waiting threads, or threads that subsequently begin wait operations for the specified event object by calling one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>, can be released while the object's state is signaled.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function. Any number of waiting threads, or threads that subsequently begin wait operations for the specified event object by calling one of the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>, can be released while the object's state is signaled.
 
 The state of an auto-reset event object remains signaled until a single waiting thread is released, at which time the system automatically sets the state to nonsignaled. If no threads are waiting, the event object's state remains signaled.
 
 Setting an event that is already set has no effect.
 
-Windows Store apps can respond to named events and semaphores as described in <a href="https://docs.microsoft.com/previous-versions/windows/apps/jj248674(v=win.10)">How to respond to named events and semaphores</a>.
+Windows Store apps can respond to named events and semaphores as described in <a href="/previous-versions/windows/apps/jj248674(v=win.10)">How to respond to named events and semaphores</a>.
 
 
 #### Examples
 
 For an example that uses 
 <b>SetEvent</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-event-objects">Using Event Objects</a>.
+<a href="/windows/desktop/Sync/using-event-objects">Using Event Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>
+<a href="/windows/desktop/Sync/event-objects">Event Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

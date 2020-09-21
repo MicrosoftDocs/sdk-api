@@ -61,15 +61,15 @@ Closes an open window station handle.
 ### -param hWinSta [in]
 
 A handle to the window station to be closed. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function. Do not specify the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a> or 
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function. Do not specify the handle returned by the <a href="/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>This function does not set the last error code on failure.
 
@@ -80,9 +80,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>
-
+<a href="/windows/desktop/winstation/window-stations">Window Stations</a>

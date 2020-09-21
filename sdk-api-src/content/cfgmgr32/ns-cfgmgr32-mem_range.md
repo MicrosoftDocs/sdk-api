@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ The highest-numbered of a range of contiguous memory addresses that can be alloc
 
 ### -field MR_Flags
 
-One bit flag from [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
+One bit flag from [MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
 
 ### -field MR_Reserved
 
@@ -84,5 +84,4 @@ One bit flag from [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmg
 
 ## -see-also
 
-[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)
-
+[MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)

@@ -58,7 +58,7 @@ The <b>IAccessible::put_accValue</b> method sets the value of the specified obje
 
 Type: <b>VARIANT</b>
 
-Specifies whether the value information being set belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to set information on the object) or a child ID (to set information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
+Specifies whether the value information being set belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to set information on the object) or a child ID (to set information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ### -param szValue [in]
 
@@ -68,11 +68,11 @@ A localized string that contains the object's value.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -105,5 +105,4 @@ An argument is not valid.
 
 ## -remarks
 
-The <b>IAccessible::put_accValue</b> method is supported for some UI elements (usually edit controls). For UI elements that do not support this method, control-specific methods are used instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Supported User Interface Element Reference</a>.
-
+The <b>IAccessible::put_accValue</b> method is supported for some UI elements (usually edit controls). For UI elements that do not support this method, control-specific methods are used instead. For more information, see <a href="/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Supported User Interface Element Reference</a>.

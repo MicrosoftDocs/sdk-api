@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioClose</b> function closes a file that was opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioClose</b> function closes a file that was opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ Flags for the close operation. The following value is defined.
 
 ## -returns
 
-Returns zero if successful or an error otherwise. The error value can originate from the <a href="https://docs.microsoft.com/previous-versions/dd757319(v=vs.85)">mmioFlush</a> function or from the I/O procedure. Possible error values include the following.
+Returns zero if successful or an error otherwise. The error value can originate from the <a href="/previous-versions/dd757319(v=vs.85)">mmioFlush</a> function or from the I/O procedure. Possible error values include the following.
 
 <table>
 <tr>
@@ -99,4 +99,3 @@ The contents of the buffer could not be written to disk.
 </td>
 </tr>
 </table>
-

@@ -56,7 +56,7 @@ The <b>DrtGetSearchPath</b> function returns a list of nodes contacted during th
 
 ### -param hSearchContext [in]
 
-Handle to the search context. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
+Handle to the search context. This parameter is returned by the <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
 
 ### -param ulSearchPathSize [in, out]
 
@@ -64,7 +64,7 @@ The size of the search path which represents the number of nodes utilized in the
 
 ### -param pSearchPath [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a> structure containing the list of addresses.
+Pointer to a <a href="/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a> structure containing the list of addresses.
 
 ## -returns
 
@@ -72,9 +72,8 @@ This function returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchpathsize">DrtGetSearchPathSize</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtgetsearchpathsize">DrtGetSearchPathSize</a>

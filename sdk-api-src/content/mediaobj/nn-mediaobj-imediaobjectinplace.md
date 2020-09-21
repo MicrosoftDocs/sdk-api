@@ -58,11 +58,11 @@ The <code>IMediaObjectInPlace</code> interface provides methods for processing d
 <li>It has one input stream and one output stream.</li>
 <li>Both streams use the same media type.</li>
 <li>The output is produced in place on the buffer; that is, without copying data.</li>
-</ul>This interface provides an optimized way to process data. The application calls a single <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">IMediaObjectInPlace::Process</a> method instead of the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a> methods. However, any DMO that implements this interface must also implement the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
+</ul>This interface provides an optimized way to process data. The application calls a single <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">IMediaObjectInPlace::Process</a> method instead of the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> and <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a> methods. However, any DMO that implements this interface must also implement the <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaObjectInPlace</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaObjectInPlace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaObjectInPlace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaObjectInPlace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaObjectInPlace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-clone">Clone</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the DMO in its current state.
@@ -86,7 +86,7 @@ Creates a copy of the DMO in its current state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-getlatency">GetLatency</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-getlatency">GetLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the latency introduced by this DMO.
@@ -95,7 +95,7 @@ Retrieves the latency introduced by this DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">Process</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">Process</a>
 </td>
 <td align="left" width="63%">
 Processes a block of data.
@@ -103,4 +103,3 @@ Processes a block of data.
 </td>
 </tr>
 </table>
-

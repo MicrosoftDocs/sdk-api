@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Retrieves the printer's capabilities formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
+Retrieves the printer's capabilities formatted in compliance with the XML <a href="/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 ## -parameters
 
 ### -param hProvider [in]
 
-A handle to an open provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
+A handle to an open provider whose print capabilities are to be retrieved. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param pPrintTicket [in]
 
@@ -77,13 +77,13 @@ If the operation succeeds, the return value is S_OK.
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-If the <i>pPrintTicket</i> is not compliant with the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a> , the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
+If the <i>pPrintTicket</i> is not compliant with the <a href="/windows/desktop/printdocs/printschema">Print Schema</a> , the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
-If the <i>pCapabilities</i> is not compliant with the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a> , the <b>HRESULT</b> is E_PRINTCAPABILITIES_FORMAT.
+If the <i>pCapabilities</i> is not compliant with the <a href="/windows/desktop/printdocs/printschema">Print Schema</a> , the <b>HRESULT</b> is E_PRINTCAPABILITIES_FORMAT.
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -94,19 +94,18 @@ Otherwise, another error code is returned in the <b>HRESULT</b>. For more inform
 
 The printer driver uses <i>pPrintTicket</i> values (when the value is not <b>NULL</b>) to create settings when the driver produces printer capabilities that vary depending on the current settings.
 
-When the function returns, the seek position of <i>pPrintTicket</i> is at the end of the print ticket content and the seek position of <i>pCapabilities</i> is at the end of the stream. If the caller uses a memory stream for <i>pCapabilities</i>, such as a stream created by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> , the caller is responsible for resetting the seek position before reading the data.
+When the function returns, the seek position of <i>pPrintTicket</i> is at the end of the print ticket content and the seek position of <i>pCapabilities</i> is at the end of the stream. If the caller uses a memory stream for <i>pCapabilities</i>, such as a stream created by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> , the caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

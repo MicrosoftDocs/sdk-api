@@ -56,7 +56,7 @@ The <b>IsEqualDevice</b> method queries whether this device and another device r
 
 ### -param Device [in]
 
-Pointer to the other device's <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface.
+Pointer to the other device's <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface.
 
 ### -param IsEqual [out]
 
@@ -136,5 +136,4 @@ Unexpected error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>

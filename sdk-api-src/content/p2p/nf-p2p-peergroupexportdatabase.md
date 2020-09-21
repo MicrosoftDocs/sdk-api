@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a> function.
+The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a> function.
 
 ## -parameters
 
 ### -param hGroup [in]
 
-Handle to the peer group whose database is exported to a local file on the peer. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group whose database is exported to a local file on the peer. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param pwzFilePath [in]
 
@@ -98,9 +98,8 @@ There is not enough memory to perform the specified operation.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a>

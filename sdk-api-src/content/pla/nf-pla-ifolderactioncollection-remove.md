@@ -64,17 +64,16 @@ Returns S_OK if successful.
 
 ## -remarks
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface to be removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-add">IFolderActionCollection::Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-add">IFolderActionCollection::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-clear">IFolderActionCollection::Clear</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-clear">IFolderActionCollection::Clear</a>

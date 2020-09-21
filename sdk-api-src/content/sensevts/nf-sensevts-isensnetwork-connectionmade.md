@@ -67,7 +67,7 @@ Connection type. This value can be CONNECTION_LAN (0) or CONNECTION_WAN (1).
 ### -param lpQOCInfo [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/ns-sensevts-sens_qocinfo">SENS_QOCINFO</a> structure which contains Quality of Connection information.
+<a href="/windows/desktop/api/sensevts/ns-sensevts-sens_qocinfo">SENS_QOCINFO</a> structure which contains Quality of Connection information.
 
 ## -returns
 
@@ -96,29 +96,28 @@ Method returned successfully.
 SENS calls this method to notify your application that the specified connection has been established. SENS also provides a pointer to a structure containing Quality of Connection information.
 
 Filtering can be performed on the publisher property <i>ulConnectionMadeType</i> by setting it to either CONNECTION_LAN or CONNECTION_WAN or both. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo">ISensNetwork::ConnectionMadeNoQOCInfo</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo">ISensNetwork::ConnectionMadeNoQOCInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/ns-sensevts-sens_qocinfo">SENS_QOCINFO</a>
-
+<a href="/windows/desktop/api/sensevts/ns-sensevts-sens_qocinfo">SENS_QOCINFO</a>

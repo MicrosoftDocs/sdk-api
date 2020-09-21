@@ -57,7 +57,7 @@ The <code>Acquire</code> method acquires photos from a device.
 
 ### -param pPhotoAcquireSource [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object representing the device from which to acquire photos. Initialize this object by calling <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a>.
+Pointer to an <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object representing the device from which to acquire photos. Initialize this object by calling <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a>.
 
 ### -param fShowProgress [in]
 
@@ -73,7 +73,7 @@ Pointer to a null-terminated string containing the application name.
 
 ### -param pPhotoAcquireProgressCB [in]
 
-Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB</a> object.
+Pointer to an optional <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB</a> object.
 
 ## -returns
 
@@ -110,21 +110,20 @@ Non-<b>NULL</b> pointer was expected.
 
 ## -remarks
 
-To initialize the <i>pPhotoAcquireSource</i> parameter passed to <code>Acquire</code>, <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a> should be called prior to calling <code>Acquire</code>.
+To initialize the <i>pPhotoAcquireSource</i> parameter passed to <code>Acquire</code>, <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a> should be called prior to calling <code>Acquire</code>.
 
 <i>pPhotoAcquireProgressCB</i> provides callback methods that allow you to apply further filtering or control as items are acquired.
 
-To verify that there are items in the device before acquisition, or to selectively acquire items from the device, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">IPhotoAcquireSource::InitializeItemList</a> to enumerate the items before calling <code>Acquire</code>.
+To verify that there are items in the device before acquisition, or to selectively acquire items from the device, call <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">IPhotoAcquireSource::InitializeItemList</a> to enumerate the items before calling <code>Acquire</code>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>

@@ -76,5 +76,4 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwaretype">GetFirmwareType</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfirmwaretype">GetFirmwareType</a>

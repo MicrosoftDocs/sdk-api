@@ -66,7 +66,7 @@ The handle to the call to be retrieved. The call state of <i>hdCall</i> can be <
 ## -returns
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
@@ -75,17 +75,16 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEE
 The service provider returns LINEERR_INVALCALLSTATE if the call is not currently on hold.
 
 This operation works for calls on hard hold (calls placed on hold using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linehold">TSPI_lineHold</a>) and on soft hold. The service provider should check that the call is currently in the <i>onHold</i>, <i>onHoldPendingTransfer</i>, or <i>onHoldPendingConference</i> state, change the state to <i>connected</i>, and send a LINECALLSTATE message for the new call state.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linehold">TSPI_lineHold</a>) and on soft hold. The service provider should check that the call is currently in the <i>onHold</i>, <i>onHoldPendingTransfer</i>, or <i>onHoldPendingConference</i> state, change the state to <i>connected</i>, and send a LINECALLSTATE message for the new call state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linehold">TSPI_lineHold</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linehold">TSPI_lineHold</a>

@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-tvstateimagechanging">NM_TVSTATEIMAGECHANGING</a> notification code.
+Contains information about an <a href="/windows/desktop/Controls/nm-tvstateimagechanging">NM_TVSTATEIMAGECHANGING</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field hti
 
@@ -82,4 +82,3 @@ The index of the old state image.
 Type: <b>int</b>
 
 The index of the new state image.
-

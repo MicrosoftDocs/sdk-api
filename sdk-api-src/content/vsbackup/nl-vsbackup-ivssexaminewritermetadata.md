@@ -56,15 +56,15 @@ The
 
 An 
 <b>IVssExamineWriterMetadata</b> interface to a live writer's metadata is obtained by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">IVssBackupComponents::GetWriterMetadata</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">IVssBackupComponents::GetWriterMetadata</a>.
 
 Metadata obtained from a stored XML document can be examined by an instance of 
 <b>IVssExamineWriterMetadata</b> obtained by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-createvssexaminewritermetadata">CreateVssExamineWriterMetadata</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-createvssexaminewritermetadata">CreateVssExamineWriterMetadata</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadata</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExamineWriterMetadata</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadata</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExamineWriterMetadata</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IVssExamineWriterMetadata</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">GetAlternateLocationMapping</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">GetAlternateLocationMapping</a>
 </td>
 <td align="left" width="63%">
 Obtains information about the specified alternate location mapping.
@@ -88,7 +88,7 @@ Obtains information about the specified alternate location mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">GetBackupSchema</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">GetBackupSchema</a>
 </td>
 <td align="left" width="63%">
 Gets the backup schema (how a backup is to be executed) to be used when processing a writer's files.
@@ -97,7 +97,7 @@ Gets the backup schema (how a backup is to be executed) to be used when processi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">GetComponent</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">GetComponent</a>
 </td>
 <td align="left" width="63%">
 Obtains information about a specified backup component.
@@ -106,7 +106,7 @@ Obtains information about a specified backup component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getdocument">GetDocument</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getdocument">GetDocument</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -115,7 +115,7 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">GetExcludeFile</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">GetExcludeFile</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified file element excluded from the backup.
@@ -124,7 +124,7 @@ Obtains the specified file element excluded from the backup.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts">GetFileCounts</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts">GetFileCounts</a>
 </td>
 <td align="left" width="63%">
 Obtains file element information.
@@ -133,7 +133,7 @@ Obtains file element information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">GetIdentity</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">GetIdentity</a>
 </td>
 <td align="left" width="63%">
 Obtains basic information about a specific writer instance.
@@ -142,7 +142,7 @@ Obtains basic information about a specific writer instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getincludefile">GetIncludeFile</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getincludefile">GetIncludeFile</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -151,7 +151,7 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">GetRestoreMethod</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">GetRestoreMethod</a>
 </td>
 <td align="left" width="63%">
 Returns information on how the writer data is to be restored.
@@ -160,7 +160,7 @@ Returns information on how the writer data is to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">LoadFromXML</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">LoadFromXML</a>
 </td>
 <td align="left" width="63%">
 Converts the specified string of backup data into writer metadata.
@@ -169,7 +169,7 @@ Converts the specified string of backup data into writer metadata.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">SaveAsXML</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">SaveAsXML</a>
 </td>
 <td align="left" width="63%">
 Converts the specified string of writer metadata into a string that can be saved as part of the backup.
@@ -180,5 +180,4 @@ Converts the specified string of writer metadata into a string that can be saved
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>

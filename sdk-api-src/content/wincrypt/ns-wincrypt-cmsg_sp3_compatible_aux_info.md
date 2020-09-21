@@ -64,5 +64,4 @@ Size of this structure in bytes.
 
 ### -field dwFlags
 
-Setting CMSG_SP3_COMPATIBLE_ENCRYPT_FLAG enables SP3 compatible encryption. Zero <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">salt</a> instead of no salt and the encryption algorithm parameters are <b>NULL</b> instead of containing encoded RC2 parameters or encoded IV octet string. The encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> is encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> instead of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">big-endian</a> form.
-
+Setting CMSG_SP3_COMPATIBLE_ENCRYPT_FLAG enables SP3 compatible encryption. Zero <a href="/windows/desktop/SecGloss/s-gly">salt</a> instead of no salt and the encryption algorithm parameters are <b>NULL</b> instead of containing encoded RC2 parameters or encoded IV octet string. The encrypted <a href="/windows/desktop/SecGloss/s-gly">symmetric key</a> is encoded <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> instead of <a href="/windows/desktop/SecGloss/b-gly">big-endian</a> form.

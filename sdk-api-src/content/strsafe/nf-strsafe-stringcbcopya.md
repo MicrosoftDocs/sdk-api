@@ -56,12 +56,12 @@ Copies one string to another. The size of the destination buffer is provided to 
 
 <b>StringCbCopy</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/kk6xf663.aspx">strcpy, wcscpy, _tcscpy</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strcpy-wcscpy-mbscpy">strcpy, wcscpy, _tcscpy</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcpyw">StrCpy</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcpyw">StrCpy</a>
 </li>
 </ul>
 
@@ -89,7 +89,7 @@ A pointer to a buffer containing the source string. This source string must be n
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ Compared to  the functions it replaces, <b>StringCbCopy</b> provides additional 
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbCopy</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -181,9 +181,8 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>

@@ -54,18 +54,18 @@ api_name:
 Gets a buffer from the sample, by index.
 
 
-<div class="alert"><b>Note</b>  In most cases, it is safer to use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a> method.  If the sample contains more than one buffer, the <b>ConvertToContiguousBuffer</b> method replaces them with a single buffer, copies the original data into that buffer, and returns the new buffer to the caller. The copy operation occurs at most once. On subsequent calls, no data is copied.</div>
+<div class="alert"><b>Note</b>  In most cases, it is safer to use the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a> method.  If the sample contains more than one buffer, the <b>ConvertToContiguousBuffer</b> method replaces them with a single buffer, copies the original data into that buffer, and returns the new buffer to the caller. The copy operation occurs at most once. On subsequent calls, no data is copied.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param dwIndex [in]
 
-Index of the buffer. To find the number of buffers in the sample, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
+Index of the buffer. To find the number of buffers in the sample, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
 
 ### -param ppBuffer [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -116,13 +116,12 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

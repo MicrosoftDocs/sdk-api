@@ -92,13 +92,12 @@ This method fails unless the calling application is running on the local compute
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings">IWMPNetwork::getProxySettings</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings">IWMPNetwork::getProxySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal">IWMPNetwork::setProxyBypassForLocal</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal">IWMPNetwork::setProxyBypassForLocal</a>

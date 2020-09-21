@@ -64,15 +64,14 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 The DMO performs the following actions when this method is called:
 
 <ul>
-<li>Releases any <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> references it holds.</li>
+<li>Releases any <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> references it holds.</li>
 <li>Discards any values that specify the time stamp or sample length for a media buffer.</li>
 <li>Reinitializes any internal states that depend on the contents of a media sample.</li>
 </ul>
 Media types, maximum latency, and locked state do not change.
 
-When the method returns, every input stream accepts data. Output streams cannot produce any data until the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method on at least one input stream.
+When the method returns, every input stream accepts data. Output streams cannot produce any data until the application calls the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method on at least one input stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

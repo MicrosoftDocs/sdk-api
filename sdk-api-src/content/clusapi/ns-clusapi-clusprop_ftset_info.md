@@ -53,21 +53,20 @@ api_name:
 ## -description
 
 Contains information about an FT (fault tolerant) set. It is used as an entry in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> and a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_ftset_info">CLUS_FTSET_INFO</a> structure.
+    <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> and a  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_ftset_info">CLUS_FTSET_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field CLUSPROP_VALUE
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure that describes the format, 
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure that describes the format, 
      type, and length of the resource class value.
 
 ### -field CLUS_FTSET_INFO
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_ftset_info">CLUS_FTSET_INFO</a> value that describes the 
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_ftset_info">CLUS_FTSET_INFO</a> value that describes the 
      FT set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

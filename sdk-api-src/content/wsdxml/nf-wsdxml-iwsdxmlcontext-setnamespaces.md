@@ -52,13 +52,13 @@ api_name:
 
 Associates custom namespaces with the XML context object. 
 
-This method should only be called by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>, and should not be called directly by a WSDAPI client. Instead, the code generator will provide wrappers that access this method properly.
+This method should only be called by <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>, and should not be called directly by a WSDAPI client. Instead, the code generator will provide wrappers that access this method properly.
 
 ## -parameters
 
 ### -param pNamespaces [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structures.
+An array of <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structures.
 
 ### -param wNamespacesCount [in]
 
@@ -66,7 +66,7 @@ The number of namespaces in the <i>pNamespaces</i> array.
 
 ### -param bLayerNumber [in]
 
-The layer number associated with the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated service code</a>.
+The layer number associated with the <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated service code</a>.
 
 ## -returns
 
@@ -125,5 +125,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
-
+<a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>

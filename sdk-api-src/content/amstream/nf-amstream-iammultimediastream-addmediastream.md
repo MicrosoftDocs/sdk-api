@@ -62,7 +62,7 @@ Pointer to the <b>IUnknown</b> interface of an object that is used to create the
 
 ### -param PurposeId [in]
 
-Pointer an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mspid">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
+Pointer an <a href="/windows/desktop/DirectShow/mspid">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 
@@ -95,7 +95,7 @@ Bitwise combination of zero or more of the following flags.
 
 ### -param ppNewStream [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
 
 ## -returns
 
@@ -176,5 +176,4 @@ If the method succeeds, the caller must release the returned <b>IMediaStream</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts a new tab in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message explicitly.
+Inserts a new tab in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -70,5 +70,4 @@ Index of the new tab.
 
 Type: <b>const LPTCITEM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitema">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message.
-
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-tcitema">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message.

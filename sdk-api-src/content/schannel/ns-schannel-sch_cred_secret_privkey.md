@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The <b>SCH_CRED_SECRET_PRIVKEY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure.]
 
-The <b>SCH_CRED_SECRET_PRIVKEY</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> information needed to authenticate a client or server.
+The <b>SCH_CRED_SECRET_PRIVKEY</b> structure contains <a href="/windows/desktop/SecGloss/p-gly">private key</a> information needed to authenticate a client or server.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ Number of bytes in the encrypted private key.
 ### -field pszPassword
 
 Pointer to a null-terminated string that Schannel uses to decrypt the private key.
-

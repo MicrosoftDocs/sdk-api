@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertAddEncodedCRLToStore</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context from an encoded CRL and adds it to the certificate store. The function makes a copy of the CRL context before adding it to the store.
+The <b>CertAddEncodedCRLToStore</b> function creates a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context from an encoded CRL and adds it to the certificate store. The function makes a copy of the CRL context before adding it to the store.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle of a certificate store.
 
 ### -param dwCertEncodingType [in]
 
-Specifies the type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -71,7 +71,7 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 ### -param pbCrlEncoded [in]
 
-A pointer to a buffer containing the encoded CRL to be added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
+A pointer to a buffer containing the encoded CRL to be added to the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param cbCrlEncoded [in]
 
@@ -103,7 +103,7 @@ Makes no check for an existing matching CRL or link to a matching CRL. A new CRL
 </td>
 <td width="60%">
 If a matching CRL or a link to a matching CRL exists, the operation fails. 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ If a matching CRL or a link to a matching CRL exists, the operation fails.
 </td>
 <td width="60%">
 If a matching CRL or a link to a matching CRL exists, the <b>ThisUpdate</b> times on the CRLs are compared. If the existing CRL has a <b>ThisUpdate</b> time less than the <b>ThisUpdate</b> time on the new CRL, the old CRL or link is replaced just as with CERT_STORE_ADD_REPLACE_EXISTING. If the existing CRL has a <b>ThisUpdate</b> time greater than or equal to the <b>ThisUpdate</b> time on the CRL to be added, the function fails with 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code.
 
 If a matching CRL or a link to a matching CRL is not found in the store, a new CRL is added to the store.
 
@@ -170,15 +170,15 @@ If a matching CRL or a link to a matching CRL does not exist, a new CRL is added
 ### -param ppCrlContext [out, optional]
 
 A pointer to a pointer to the decoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing CRL. If a copy is made, that context must be freed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing CRL. If a copy is made, that context must be freed using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -210,18 +210,17 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore">CertAddCRLContextToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore">CertAddCRLContextToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>

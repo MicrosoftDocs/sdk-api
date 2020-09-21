@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>ICommandTree::GetCommandTree</b> method echoes the current command as a tree, including all post-processing operations that have been added.
 
@@ -58,7 +58,7 @@ The <b>ICommandTree::GetCommandTree</b> method echoes the current command as a t
 
 ### -param ppRoot [out]
 
-The command object allocates memory for the command tree and returns the address to this memory; the consumer releases this memory with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>, one node at a time, when it no longer needs the command tree. The provider sets <i>ppRoot</i> to a null pointer if an error occurs.
+The command object allocates memory for the command tree and returns the address to this memory; the consumer releases this memory with <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>, one node at a time, when it no longer needs the command tree. The provider sets <i>ppRoot</i> to a null pointer if an error occurs.
 
 ## -returns
 
@@ -87,7 +87,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The provider discovered nonfatal errors in the command text previously set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a> while building the command tree.
+The provider discovered nonfatal errors in the command text previously set by <a href="/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a> while building the command tree.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The provider was unable to allocate sufficient memory in which to return the com
 </dl>
 </td>
 <td width="60%">
-The provider cannot represent the command text previously set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a> as a tree.
+The provider cannot represent the command text previously set by <a href="/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a> as a tree.
 
 </td>
 </tr>
@@ -139,11 +139,10 @@ The provider cannot represent the command text previously set by <a href="https:
 
 ## -remarks
 
-The returned tree reflects exactly the command set by the last invocation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a>, as modified by subsequent calls to <b>IQuery::AddPostProcessing</b>. If the command is stored as a tree, the returned tree is a copy of the one stored in the command object. If a tree node was passed with text, it is also echoed as text. If the command is stored as text, the provider should return a "navigable" command-tree representation of the text, which is not necessarily in optimized form. If the provider cannot create a full representation, the command tree can consist of a single text node. For example, if the tree can be represented as a DBOP_SQL_select node, and the provider supports that node, it must be returned in that format. However, if the tree cannot be represented as a DBOP_SQL_select node, but can be represented in a nontrivial command tree (that is, in a type other than DBOP_text_command), the provider must return it as that nontrivial tree. The provider may only return the tree as the trivial DBOP_text_command node, if that is the only command node it supports. Otherwise, it must return a valid, non-trivial navigable tree or return DB_E_CANTTRANSLATE if the text cannot be represented in such a tree. At this time, the provider should not make any unnecessary validation, such as binding, but if in the course of parsing the provider discovers nonfatal errors in building the tree, it should put the error information in the tree and return DB_S_ERRORSINTREE.
+The returned tree reflects exactly the command set by the last invocation of <a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> or <a href="/previous-versions/windows/desktop/ms709757(v=vs.85)">ICommandText::SetCommandText</a>, as modified by subsequent calls to <b>IQuery::AddPostProcessing</b>. If the command is stored as a tree, the returned tree is a copy of the one stored in the command object. If a tree node was passed with text, it is also echoed as text. If the command is stored as text, the provider should return a "navigable" command-tree representation of the text, which is not necessarily in optimized form. If the provider cannot create a full representation, the command tree can consist of a single text node. For example, if the tree can be represented as a DBOP_SQL_select node, and the provider supports that node, it must be returned in that format. However, if the tree cannot be represented as a DBOP_SQL_select node, but can be represented in a nontrivial command tree (that is, in a type other than DBOP_text_command), the provider must return it as that nontrivial tree. The provider may only return the tree as the trivial DBOP_text_command node, if that is the only command node it supports. Otherwise, it must return a valid, non-trivial navigable tree or return DB_E_CANTTRANSLATE if the text cannot be represented in such a tree. At this time, the provider should not make any unnecessary validation, such as binding, but if in the course of parsing the provider discovers nonfatal errors in building the tree, it should put the error information in the tree and return DB_S_ERRORSINTREE.
 
-This method does not reveal a provider's internal, optimized translation (which may be different from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure) of text to (non-text) tree operations.
+This method does not reveal a provider's internal, optimized translation (which may be different from a <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure) of text to (non-text) tree operations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
-
+<a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>

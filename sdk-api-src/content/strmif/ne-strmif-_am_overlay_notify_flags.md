@@ -68,13 +68,12 @@ Destination rectangle changed or changing.
 
 ## -remarks
 
-The <a href="https://msdn.microsoft.com/ede823ba-8340-4339-8e8a-e1d4f9ad1273">IDDrawExclModeVideoCallback::OnUpdateOverlay</a> method uses these flags to indicate how the overlay has changed, so that applications can take the necessary steps.
+The <a href="/windows/win32/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdateoverlay">IDDrawExclModeVideoCallback::OnUpdateOverlay</a> method uses these flags to indicate how the overlay has changed, so that applications can take the necessary steps.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/ede823ba-8340-4339-8e8a-e1d4f9ad1273">IDDrawExclModeVideoCallback::OnUpdateOverlay</a>
-
+<a href="/windows/win32/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdateoverlay">IDDrawExclModeVideoCallback::OnUpdateOverlay</a>

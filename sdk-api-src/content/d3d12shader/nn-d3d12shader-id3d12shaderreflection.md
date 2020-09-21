@@ -51,7 +51,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>ID3D12ShaderReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getbitwiseinstructioncount">GetBitwiseInstructionCount</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getbitwiseinstructioncount">GetBitwiseInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bitwise instructions.
@@ -76,7 +76,7 @@ Gets the number of bitwise instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a constant buffer by index.
@@ -86,7 +86,7 @@ Gets a constant buffer by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyname">GetConstantBufferByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconstantbufferbyname">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Gets a constant buffer by name.
@@ -96,7 +96,7 @@ Gets a constant buffer by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconversioninstructioncount">GetConversionInstructionCount</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getconversioninstructioncount">GetConversionInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of conversion instructions.
@@ -106,7 +106,7 @@ Gets the number of conversion instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a shader description.
@@ -116,7 +116,7 @@ Gets a shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getgsinputprimitive">GetGSInputPrimitive</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getgsinputprimitive">GetGSInputPrimitive</a>
 </td>
 <td align="left" width="63%">
 Gets the geometry-shader input-primitive description.
@@ -126,7 +126,7 @@ Gets the geometry-shader input-primitive description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getinputparameterdesc">GetInputParameterDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getinputparameterdesc">GetInputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Gets an input-parameter description for a shader.
@@ -136,7 +136,7 @@ Gets an input-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getminfeaturelevel">GetMinFeatureLevel</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getminfeaturelevel">GetMinFeatureLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum feature level.
@@ -146,7 +146,7 @@ Gets the minimum feature level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovcinstructioncount">GetMovcInstructionCount</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovcinstructioncount">GetMovcInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Movc instructions.
@@ -156,7 +156,7 @@ Gets the number of Movc instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovinstructioncount">GetMovInstructionCount</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getmovinstructioncount">GetMovInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Mov instructions.
@@ -166,7 +166,7 @@ Gets the number of Mov instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getnuminterfaceslots">GetNumInterfaceSlots</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getnuminterfaceslots">GetNumInterfaceSlots</a>
 </td>
 <td align="left" width="63%">
 Gets the number of interface slots in a shader.
@@ -176,7 +176,7 @@ Gets the number of interface slots in a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getoutputparameterdesc">GetOutputParameterDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getoutputparameterdesc">GetOutputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Gets an output-parameter description for a shader.
@@ -186,7 +186,7 @@ Gets an output-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getpatchconstantparameterdesc">GetPatchConstantParameterDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getpatchconstantparameterdesc">GetPatchConstantParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a patch-constant parameter description for a shader.
@@ -196,7 +196,7 @@ Gets a patch-constant parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getrequiresflags">GetRequiresFlags</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getrequiresflags">GetRequiresFlags</a>
 </td>
 <td align="left" width="63%">
 Gets a group of flags that indicates the requirements of a shader.
@@ -206,7 +206,7 @@ Gets a group of flags that indicates the requirements of a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a shader.
@@ -216,7 +216,7 @@ Gets a description of how a resource is bound to a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a shader.
@@ -226,7 +226,7 @@ Gets a description of how a resource is bound to a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getthreadgroupsize">GetThreadGroupSize</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getthreadgroupsize">GetThreadGroupSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
@@ -236,7 +236,7 @@ Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getvariablebyname">GetVariableByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getvariablebyname">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Gets a variable by name.
@@ -246,7 +246,7 @@ Gets a variable by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-issamplefrequencyshader">IsSampleFrequencyShader</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-issamplefrequencyshader">IsSampleFrequencyShader</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a shader is a sample frequency shader.
@@ -258,14 +258,13 @@ Indicates whether a shader is a sample frequency shader.
 
 ## -remarks
 
-An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dreflect">D3DReflect</a>.
+An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using <a href="/windows/desktop/direct3dhlsl/d3dreflect">D3DReflect</a>.
 
 > [!NOTE]
 > This function from `d3dcompiler.dll` supports Shader Model 2 - 5.1. For Shader Model 6 shader reflection, see `dxcompiler.dll` and  [Using dxc.exe and dxcompiler.dll](https://github.com/microsoft/DirectXShaderCompiler/wiki/Using-dxc.exe-and-dxcompiler.dll).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>

@@ -57,7 +57,7 @@ Retrieves information on the progress of the file transfer.
 ### -param pVal [out]
 
 Structure whose members indicate the progress of the file transfer. For details on the type of progress information available, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a> structure.
+<a href="/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a> structure.
 
 ## -returns
 
@@ -65,13 +65,12 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a>
+<a href="/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a>

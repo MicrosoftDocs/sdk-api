@@ -61,19 +61,19 @@ A fax client application calls the <b>FaxSetLoggingCategories</b> function to mo
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
 ### -param Categories [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures. Each structure contains the data to modify one logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level for the category. For a description of predefined logging categories and logging levels, see the <b>FAX_LOG_CATEGORY</b> topic.
+Pointer to an array of <a href="/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures. Each structure contains the data to modify one logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level for the category. For a description of predefined logging categories and logging levels, see the <b>FAX_LOG_CATEGORY</b> topic.
 
 ### -param NumberCategories [in]
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that contains the number of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures the function passes in the <i>Categories</i> parameter.
+Specifies a <b>DWORD</b> variable that contains the number of <a href="/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures the function passes in the <i>Categories</i> parameter.
 
 ## -returns
 
@@ -81,7 +81,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ One or all of the <i>FaxHandle</i>, <i>Categories</i>, or <i>NumberCategories</i
 </dl>
 </td>
 <td width="60%">
-The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>.
+The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="/windows/desktop/winmsg/wm-user">WM_USER</a>.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is s
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-specific-fax-access-rights">FAX_CONFIG_SET</a> access is required.
+Access is denied. <a href="/previous-versions/windows/desktop/fax/-mfax-specific-fax-access-rights">FAX_CONFIG_SET</a> access is required.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ An error occurred during memory allocation.
 
 ## -remarks
 
-The fax service administration application, a Microsoft Management Console (MMC) snap-in component, typically calls the <b>FaxSetLoggingCategories</b> function to modify the current logging categories and logging levels for a fax server. To query the categories and levels, an application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetloggingcategoriesa">FaxGetLoggingCategories</a> function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-logging-categories">Managing Logging Categories</a>.
+The fax service administration application, a Microsoft Management Console (MMC) snap-in component, typically calls the <b>FaxSetLoggingCategories</b> function to modify the current logging categories and logging levels for a fax server. To query the categories and levels, an application can call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetloggingcategoriesa">FaxGetLoggingCategories</a> function. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-managing-logging-categories">Managing Logging Categories</a>.
 
 
 
@@ -147,21 +147,20 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a>
+<a href="/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetloggingcategoriesa">FaxGetLoggingCategories</a>
-
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetloggingcategoriesa">FaxGetLoggingCategories</a>

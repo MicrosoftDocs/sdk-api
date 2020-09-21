@@ -67,9 +67,8 @@ The method returns E_NOTIMPL.
 
 ## -remarks
 
-To retrieve the storage format, use the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-containerformat">WM/ContainerFormat</a> attribute.
+To retrieve the storage format, use the <a href="/windows/desktop/wmformat/wm-containerformat">WM/ContainerFormat</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>

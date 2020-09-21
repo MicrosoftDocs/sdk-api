@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>CertFindSubjectInSortedCTL</b> function attempts to find the specified subject in a sorted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). A subject can be identified either by the certificate's whole context or by any unique identifier of the certificate's subject, such as the SHA1 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate's issuer and serial number.
+The <b>CertFindSubjectInSortedCTL</b> function attempts to find the specified subject in a sorted <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). A subject can be identified either by the certificate's whole context or by any unique identifier of the certificate's subject, such as the SHA1 <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate's issuer and serial number.
 
 ## -parameters
 
 ### -param pSubjectIdentifier [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure uniquely identifying the subject. The information in this structure can be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> or any unique byte sequence.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure uniquely identifying the subject. The information in this structure can be a <a href="/windows/desktop/SecGloss/h-gly">hash</a> or any unique byte sequence.
 
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be searched.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be searched.
 
 ### -param dwFlags [in]
 
@@ -74,7 +74,7 @@ Reserved for future use and must be <b>NULL</b>.
 
 ### -param pEncodedAttributes [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure containing a byte count and a pointer to the subject's encoded attributes.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure containing a byte count and a pointer to the subject's encoded attributes.
 
 ## -returns
 
@@ -84,13 +84,12 @@ If the function fails and does not locate a matching subject identifier, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>

@@ -115,17 +115,16 @@ The charge state of the battery. This value is only valid for wireless devices w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/structures">XInput Structures</a>
+<a href="/windows/desktop/xinput/structures">XInput Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>

@@ -56,7 +56,7 @@ Serializes a tuning request to an XML tuning request string.
 
 ### -param piTuneRequest [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a> interface for the tuning request object that is serialized.
+Pointer to the <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a> interface for the tuning request object that is serialized.
 
 ### -param pString
 
@@ -68,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility2">IPersistTuneXmlUtility2</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility2">IPersistTuneXmlUtility2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexmlutility-deserialize">IPersistTuneXmlUtility::Deserialize</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexmlutility-deserialize">IPersistTuneXmlUtility::Deserialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a>

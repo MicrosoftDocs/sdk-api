@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Flags used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to specify the Flip3D window policy.
+Flags used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to specify the Flip3D window policy.
 
 ## -enum-fields
 
@@ -68,13 +68,12 @@ Exclude the window from Flip3D and display it above the Flip3D rendering.
 
 ### -field DWMFLIP3D_LAST
 
-The maximum recognized <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmflip3dwindowpolicy">DWMFLIP3DWINDOWPOLICY</a> value, used for validation purposes.
+The maximum recognized <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwmflip3dwindowpolicy">DWMFLIP3DWINDOWPOLICY</a> value, used for validation purposes.
 
 ## -remarks
 
-To use a <b>DWMFLIP3DWINDOWPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to <b>DWMWA_FLIP3D_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMFLIP3DWINDOWPOLICY</b> value.
+To use a <b>DWMFLIP3DWINDOWPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to <b>DWMWA_FLIP3D_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMFLIP3DWINDOWPOLICY</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/composition-ovw">Enable and Control DWM Composition</a>
-
+<a href="/windows/desktop/dwm/composition-ovw">Enable and Control DWM Composition</a>

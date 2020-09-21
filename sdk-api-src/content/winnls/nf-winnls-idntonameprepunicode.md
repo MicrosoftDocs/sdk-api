@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="http://www.faqs.org/rfcs/rfc3491.html">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
+Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group <a href="http://www.faqs.org/rfcs/rfc3491.html">RFC 3491</a>, but does not perform the additional conversion to Punycode. For more information and links to related draft standards, see <a href="/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
 
 ## -parameters
 
 ### -param dwFlags [in]
 
-Flags specifying conversion options. For detailed definitions, see the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
+Flags specifying conversion options. For detailed definitions, see the <i>dwFlags</i> parameter of <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
 
 ### -param lpUnicodeCharStr [in]
 
@@ -82,7 +82,7 @@ Returns the number of characters retrieved in <i>lpNameprepCharStr</i> if succes
 
 If the function succeeds and the value of <i>cchNameprepChar</i> is 0, the function returns the required size, in characters including a terminating null character if it was part of the input buffer.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -94,34 +94,33 @@ The function returns 0 if it does not succeed. To get extended error information
 
 ## -remarks
 
-See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>. 	  	 
+See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>. 	  	 
 		
 
 
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/nls--internationalized-domain-name--idn--conversion-sample">NLS: Internationalized Domain Name (IDN) Conversion Sample</a> demonstrates the use of this function.
+<a href="/windows/desktop/Intl/nls--internationalized-domain-name--idn--conversion-sample">NLS: Internationalized Domain Name (IDN) Conversion Sample</a> demonstrates the use of this function.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
+<a href="/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

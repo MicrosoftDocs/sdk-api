@@ -105,7 +105,7 @@ PO_ENUM_AS_INTEGERS
 
 </td>
 <td>
-The driver can request that the vertices returned from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
+The driver can request that the vertices returned from <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
 
 The driver can set PO_ENUM_AS_INTEGERS only when GDI has set the PO_ALL_INTEGERS flag. That is, the path must be known to contain only integer coordinates. Note that PO_ENUM_AS_INTEGERS is the only flag that the driver is permitted to modify.
 
@@ -128,51 +128,50 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 <dl>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bclosefigure">PATHOBJ_bCloseFigure</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bclosefigure">PATHOBJ_bCloseFigure</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_vgetbounds">PATHOBJ_vGetBounds</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_vgetbounds">PATHOBJ_vGetBounds</a>
 </dt>
 </dl>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>

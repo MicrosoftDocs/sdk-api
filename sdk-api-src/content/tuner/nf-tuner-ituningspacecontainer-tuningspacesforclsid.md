@@ -52,7 +52,7 @@ api_name:
 
 The <b>TuningSpacesForCLSID</b> method retrieves a collection of tuning spaces that match the specified CLSID.
 
-This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">ITuningSpaceContainer::_TuningSpacesForCLSID</a> method instead, which returns a GUID value.
+This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">ITuningSpaceContainer::_TuningSpacesForCLSID</a> method instead, which returns a GUID value.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ String representation of the CLSID of the tuning space.
 
 ### -param NewColl [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -70,5 +70,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

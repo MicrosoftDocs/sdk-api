@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_OBJECTINFORMATION</b> structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
@@ -68,8 +68,8 @@ The
 Type: <b>DWORD</b>
 
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
 
 ### -field dwType
 
@@ -91,7 +91,7 @@ Type of device or system control for which to get/set information. This member m
 </td>
 <td width="60%">
 A changer object represents the robotic element of a library unit. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ A changer object represents the robotic element of a library unit. The <b>Info</
 </td>
 <td width="60%">
 A changer type object is created for each unique changer device type attached to a system. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ A changer type object is created for each unique changer device type attached to
 </dl>
 </td>
 <td width="60%">
-The current computer object. There is no structure for the computer object. The <b>Info</b> member is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_computerinformation">NTMS_COMPUTERINFORMATION</a> structure.
+The current computer object. There is no structure for the computer object. The <b>Info</b> member is a pointer to an <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_computerinformation">NTMS_COMPUTERINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ The current computer object. There is no structure for the computer object. The 
 </td>
 <td width="60%">
 A drive object represents a tape drive or disk drive. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ A drive object represents a tape drive or disk drive. The <b>Info</b> member is 
 </td>
 <td width="60%">
 A drive type object is created for each unique drive device type attached to a system. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ A drive type object is created for each unique drive device type attached to a s
 </td>
 <td width="60%">
 An NTMS_IEDOOR object represents the door-access mechanism of a library unit. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ An NTMS_IEDOOR object represents the door-access mechanism of a library unit. Th
 </td>
 <td width="60%">
 An NTMS_IEPORT object represents the insert/eject port of a library unit. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ An NTMS_IEPORT object represents the insert/eject port of a library unit. The <b
 </td>
 <td width="60%">
 A library object represents an online or offline library. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ A library object represents an online or offline library. The <b>Info</b> member
 </td>
 <td width="60%">
 A library request object is created for each request for a library to perform an action. A list of library requests is maintained by RSM as a queue of work to be performed. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ A library request object is created for each request for a library to perform an
 </td>
 <td width="60%">
 The primary handle used by applications to access the specified medium. In the case of multi-sided media, each side is treated as an individual piece of physical media. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ The primary handle used by applications to access the specified medium. In the c
 </td>
 <td width="60%">
 A media pool is a logical grouping of media. All media in a media pool must be the same media type. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ A media pool is a logical grouping of media. All media in a media pool must be t
 </td>
 <td width="60%">
 A media type object is created for each unique media type in a system. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ A media type object is created for each unique media type in a system. The <b>In
 </td>
 <td width="60%">
 An operator request object represents an RSM request for a user to get the information. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_oprequestinformationa">NTMS_OPREQUESTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_oprequestinformationa">NTMS_OPREQUESTINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ An operator request object represents an RSM request for a user to get the infor
 </td>
 <td width="60%">
 A side object represents a side of a piece of physical media. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ A side object represents a side of a piece of physical media. The <b>Info</b> me
 </td>
 <td width="60%">
 A physical media object represents a magnetic tape or removable disk. A piece of physical media can contain one or more sides. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -255,7 +255,7 @@ A physical media object represents a magnetic tape or removable disk. A piece of
 </td>
 <td width="60%">
 A storage slot object represents one of the slots that can hold the specified medium in a library. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -335,14 +335,14 @@ This device or object has failed and needs service.
 Type: <b>TCHAR[NTMS_OBJECTNAME_LENGTH]</b>
 
 Name of the media, device, or system control object. Media pool and logical media names can be changed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. All other object names are read-only.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. All other object names are read-only.
 
 ### -field szDescription
 
 Type: <b>TCHAR[NTMS_DESCRIPTION_LENGTH]</b>
 
 Description of the device or system control object. The description of device and system control objects can be changed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. (Writable for all objects)
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. (Writable for all objects)
 
 ### -field Info.Drive.case
 
@@ -418,85 +418,85 @@ Device or system control object-specific information. The format of this informa
 
 ### -field Info.Drive
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
 ### -field Info.DriveType
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 
 ### -field Info.Library
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 
 ### -field Info.Changer
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
 
 ### -field Info.ChangerType
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
 
 ### -field Info.StorageSlot
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
 
 ### -field Info.IEDoor
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
 
 ### -field Info.IEPort
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
 
 ### -field Info.PhysicalMedia
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
 
 ### -field Info.LogicalMedia
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
 
 ### -field Info.Partition
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
 
 ### -field Info.MediaPool
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
 
 ### -field Info.MediaType
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
 
 ### -field Info.LibRequest
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
+<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
 
@@ -522,9 +522,8 @@ All members of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>

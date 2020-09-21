@@ -58,31 +58,31 @@ The fax service calls the <b>FaxExtInitializeConfig</b> function to initialize t
 
 Type: <b>PFAX_EXT_GET_DATA</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> fax service callback function.
+Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> fax service callback function.
 
 ### -param arg2 [in]
 
 Type: <b>PFAX_EXT_SET_DATA</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a> fax service callback function.
+Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a> fax service callback function.
 
 ### -param arg3 [in]
 
 Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> fax service callback function.
+Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> fax service callback function.
 
 ### -param arg4 [in]
 
 Type: <b>PFAX_EXT_UNREGISTER_FOR_EVENTS</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextunregisterforevents">FaxExtUnregisterForEvents</a> fax service callback function.
+Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextunregisterforevents">FaxExtUnregisterForEvents</a> fax service callback function.
 
 ### -param arg5 [in]
 
 Type: <b>PFAX_EXT_FREE_BUFFER</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextfreebuffer">FaxExtFreeBuffer</a> fax service callback function.
+Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextfreebuffer">FaxExtFreeBuffer</a> fax service callback function.
 
 ## -returns
 
@@ -104,21 +104,20 @@ The <b>FaxExtInitializeConfig</b> function exposes pointers to the callback func
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextfreebuffer">FaxExtFreeBuffer</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextfreebuffer">FaxExtFreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextunregisterforevents">FaxExtUnregisterForEvents</a>
-
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextunregisterforevents">FaxExtUnregisterForEvents</a>

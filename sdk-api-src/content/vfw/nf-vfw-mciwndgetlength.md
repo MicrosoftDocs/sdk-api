@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetLength</b> macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getlength">MCIWNDM_GETLENGTH</a> message.
+The <b>MCIWndGetLength</b> macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getlength">MCIWNDM_GETLENGTH</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle of the MCIWnd window.
 
 ## -remarks
 
-This value added to the value returned for the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetstart">MCIWndGetStart</a> macro equals the end of the content.
+This value added to the value returned for the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetstart">MCIWndGetStart</a> macro equals the end of the content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getlength">MCIWNDM_GETLENGTH</a>
+<a href="/windows/desktop/Multimedia/mciwndm-getlength">MCIWNDM_GETLENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetstart">MCIWndGetStart</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetstart">MCIWndGetStart</a>

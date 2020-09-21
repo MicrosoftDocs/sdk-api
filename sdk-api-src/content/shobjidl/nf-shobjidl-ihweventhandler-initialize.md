@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes an object that contains an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a> interface.
+Initializes an object that contains an implementation of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a> interface.
 
 ## -parameters
 
@@ -84,4 +84,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method receives the registry string stored in the InitCmdLine value under the
         
          <b>AutoPlayHandlers</b>&#92;<b>Handlers</b>&#92;<i>HandlerName</i>key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
-

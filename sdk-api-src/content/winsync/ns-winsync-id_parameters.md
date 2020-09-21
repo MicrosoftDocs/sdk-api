@@ -74,17 +74,16 @@ The ID format that is expected for change unit IDs.
 
 ## -remarks
 
-To obtain ID parameters, both providers are queried through a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncprovider-getidparameters">ISyncProvider::GetIdParameters</a>. These ID parameters are then compared to verify that both providers use the same ID schema. If this verification fails, the synchronization session is not created, and an error code is returned.
+To obtain ID parameters, both providers are queried through a call to <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncprovider-getidparameters">ISyncProvider::GetIdParameters</a>. These ID parameters are then compared to verify that both providers use the same ID schema. If this verification fails, the synchronization session is not created, and an error code is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameter_pair">ID_PARAMETER_PAIR Structure</a>
+<a href="/windows/desktop/api/winsync/ns-winsync-id_parameter_pair">ID_PARAMETER_PAIR Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>

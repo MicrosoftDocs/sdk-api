@@ -67,13 +67,12 @@ The maximum length of this property is 512 characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrule">BizRule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaztask-get_bizrulelanguage">BizRuleLanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>

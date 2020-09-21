@@ -56,11 +56,10 @@ The message contains a request for App-Assisted Individualization (or re-individ
 
 ## -remarks
 
-This value is used by the [IMFContentDecryptionModuleSessionCallbacks::KeyMessage](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage) callback.
+This value is used by the [IMFContentDecryptionModuleSessionCallbacks::KeyMessage](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage.md) callback.
 
 **MF_MEDIAKEYSESSION_MESSAGETYPE** is based on the Encrypted Media Extension specification's [MediaKeyStatus](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeymessagetype) enumeration.
 
 ## -see-also
 
-[IMFContentDecryptionModuleSessionCallbacks::KeyMessage](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage)
-
+[IMFContentDecryptionModuleSessionCallbacks::KeyMessage](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage.md)

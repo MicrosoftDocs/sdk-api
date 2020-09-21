@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-setdownlevelrasterizationlimit">Metafile::SetDownLevelRasterizationLimit</a>.
+Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-setdownlevelrasterizationlimit">Metafile::SetDownLevelRasterizationLimit</a>.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ Gets the rasterization limit currently set for this metafile. The rasterization 
 Type: <b>UINT</b>
 
 This method returns the rasterization limit in dpi.
-

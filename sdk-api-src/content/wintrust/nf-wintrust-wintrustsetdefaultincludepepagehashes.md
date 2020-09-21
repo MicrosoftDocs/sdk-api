@@ -52,9 +52,9 @@ api_name:
 
 The <b>WintrustSetDefaultIncludePEPageHashes</b> function sets the default setting that determines whether page hashes are included when creating subject interface package (SIP) indirect data for PE files.
 
-This setting is only used if neither the <b>SPC_EXC_PE_PAGE_HASHES_FLAG</b> or the <b>SPC_INC_PE_PAGE_HASHES_FLAG</b> flag is specified in the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex">SignerSignEx</a> function.
+This setting is only used if neither the <b>SPC_EXC_PE_PAGE_HASHES_FLAG</b> or the <b>SPC_INC_PE_PAGE_HASHES_FLAG</b> flag is specified in the <i>dwFlags</i> parameter of the <a href="/windows/desktop/SecCrypto/signersignex">SignerSignEx</a> function.
 
- This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+ This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ This setting applies to each instance of Wintrust.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex">SignerSignEx</a>
-
+<a href="/windows/desktop/SecCrypto/signersignex">SignerSignEx</a>

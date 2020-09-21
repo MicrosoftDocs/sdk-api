@@ -68,13 +68,12 @@ Number of elements in the <b>pRRComponents</b> array.
 
 ### -field pRRComponents
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a> structures.
+Array of <a href="/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a>
+<a href="/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

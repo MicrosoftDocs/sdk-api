@@ -80,11 +80,11 @@ Type: <b>HGLOBAL</b>
 
 If the function succeeds, the return value is a handle to the data associated with the resource.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
+The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
 
 To use a resource immediately, an application should use the following resource-specific functions to find and load the resource in one call.
 
@@ -96,7 +96,7 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 </td>
 <td>Loads and formats a message-table entry</td>
 <td>No action needed</td>
@@ -112,11 +112,11 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 </td>
 <td>Loads a bitmap resource</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
@@ -161,7 +161,7 @@ For example, an application can use the <a href="https://msdn.microsoft.com/3a80
 
 #### Examples
 
-For an example see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
+For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -179,11 +179,11 @@ For an example see <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-loadmodule">LoadModule</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-loadmodule">LoadModule</a>
 
 
 
@@ -200,4 +200,3 @@ For an example see <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
-

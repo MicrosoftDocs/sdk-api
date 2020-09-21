@@ -58,28 +58,28 @@ api_name:
 
 ### -field id
 
-A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">NapComponentId</a> value that contains the unique identifier of the component.
+A <a href="/windows/desktop/NAP/nap-datatypes">NapComponentId</a> value that contains the unique identifier of the component.
 
 ### -field friendlyName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the friendly (human-readable) name of the component.
+A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the friendly (human-readable) name of the component.
 
 ### -field description
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains a description of the component.
+A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains a description of the component.
 
 ### -field version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the version of the component.
+A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the version of the component.
 
 ### -field vendorName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the vendor name for the component.
+A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the vendor name for the component.
 
 ### -field infoClsid
 
-The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a>of the COM object that implements
-   the <a href="https://docs.microsoft.com/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a> interface. This interface
+The <a href="/windows/win32/com/clsid-key-hklm">CLSID</a>of the COM object that implements
+   the <a href="/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a> interface. This interface
    is used to retrieve more detailed and localized
    information about the NAP component.
 
@@ -88,21 +88,21 @@ Currently, enforcement clients do not need to
 
 ### -field configClsid
 
-The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a> of the COM object that implements
-   the <a href="https://docs.microsoft.com/windows/desktop/NAP/inapcomponentconfig">INapComponentConfig</a> interface. This interface is used to launch a customized user interface and to get and set SHV configuration settings.
+The <a href="/windows/win32/com/clsid-key-hklm">CLSID</a> of the COM object that implements
+   the <a href="/windows/desktop/NAP/inapcomponentconfig">INapComponentConfig</a> interface. This interface is used to launch a customized user interface and to get and set SHV configuration settings.
 
 Currently, SHAs and enforcement clients do not need to
    provide a valid <i>configClsid</i>.
 
 ### -field registrationDate
 
-A <a href="https://msdn.microsoft.com/library/ms724284.aspx">FILETIME</a> structure that contains the registration information date.
+A <a href="/windows/win32/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the registration information date.
 
 ### -field componentType
 
 A value that defines the component type.
 
-For enforcement clients this value should be either  <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">ComponentTypeEnforcementClientSoH</a> or <b>ComponentTypeEnforcementClientRp</b>.
+For enforcement clients this value should be either  <a href="/windows/desktop/NAP/nap-type-constants">ComponentTypeEnforcementClientSoH</a> or <b>ComponentTypeEnforcementClientRp</b>.
 
 Currently, <i>componentType</i> is ignored for SHAs and SHVs and should be set to 0x00000000.
 
@@ -117,17 +117,16 @@ When information about registered NAP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
+<a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a>
+<a href="/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-edit_setrect">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setrectnp">EM_SETRECTNP</a> message explicitly.
+Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="/windows/desktop/api/windowsx/nf-windowsx-edit_setrect">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="/windows/desktop/Controls/em-setrectnp">EM_SETRECTNP</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -70,5 +70,4 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 <b>Rich Edit 3.0 and later.</b> This macro does not have full functionality, because it does not set the WPARAM of the message.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setrectnp">EM_SETRECTNP</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-setrectnp">EM_SETRECTNP</a>.

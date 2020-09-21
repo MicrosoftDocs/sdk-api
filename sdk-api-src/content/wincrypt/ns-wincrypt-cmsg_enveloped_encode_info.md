@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CMSG_ENVELOPED_ENCODE_INFO</b> structure contains information needed to encode an enveloped message. It is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> if the <i>dwMsgType</i> parameter is CMSG_ENVELOPED.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> if the <i>dwMsgType</i> parameter is CMSG_ENVELOPED.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ The size, in bytes, of this structure.
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>Specifies a handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do content encryption, recipient key encryption, and export. The private keys of the <b>hCryptProv</b> are not used. 
+<b>Windows Server 2003 and Windows XP:  </b>Specifies a handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do content encryption, recipient key encryption, and export. The private keys of the <b>hCryptProv</b> are not used. 
 
 
 This member's data type is <b>HCRYPTPROV</b>.
@@ -76,15 +76,15 @@ Unless there is a strong reason for passing in a specific cryptographic provider
 
 ### -field ContentEncryptionAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and any associated additional parameters in encoded form. 
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and any associated additional parameters in encoded form. 
 
 
 
 
 The <b>pszObjId</b> member of the structure specifies the algorithm used to encrypt the message contents.
 
-The following encryption algorithms require an encoded eight byte <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV) in the <b>Parameters</b> member of structure. For details, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>.
+The following encryption algorithms require an encoded eight byte <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV) in the <b>Parameters</b> member of structure. For details, see 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>.
 
 <table>
 <tr>
@@ -114,15 +114,15 @@ szOID_RSA_DES_EDE3_CBC
 </table>
  
 
-If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded OCTET STRING containing the IV is generated using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>.
+If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded OCTET STRING containing the IV is generated using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>.
 
 The szOID_RSA_RC2CBC (CALG_RC2) algorithm requires the <b>pbData</b> member of <b>Parameters</b> to be an encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure. If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an ASN.1 encoded CRYPT_RC2_CBC_PARAMETERS is generated with a default value of 40 for the <b>dwVersion</b> member. This sets the default key length to 40 bits. This default key length can be overridden with <b>pvEncryptionAuxInfo</b> pointing to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure containing the desired key length.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure. If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an ASN.1 encoded CRYPT_RC2_CBC_PARAMETERS is generated with a default value of 40 for the <b>dwVersion</b> member. This sets the default key length to 40 bits. This default key length can be overridden with <b>pvEncryptionAuxInfo</b> pointing to a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure containing the desired key length.
 
 <div class="alert"><b>Note</b>  On decryption, if an IV exists, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> is called with the IV before decryption begins.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> is called with the IV before decryption begins.</div>
 <div> </div>
 
 ### -field pvEncryptionAuxInfo
@@ -146,7 +146,7 @@ A pointer to a structure depending on the encryption algorithm.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
 
 
 </td>
@@ -158,7 +158,7 @@ A pointer to a structure depending on the encryption algorithm.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
 
 
 </td>
@@ -170,7 +170,7 @@ A pointer to a structure depending on the encryption algorithm.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_sp3_compatible_aux_info">CMSG_SP3_COMPATIBLE_AUX_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_sp3_compatible_aux_info">CMSG_SP3_COMPATIBLE_AUX_INFO</a>
 
 
 </td>
@@ -194,11 +194,11 @@ Number of elements in the <b>rgpRecipients</b> or <b>rgCmsRecipients</b> array.
 ### -field rgpRecipients
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structures, each containing a recipient's certificate Issuer, SerialNumber, and SubjectPublicKeyInfo. This array can only be used for recipients identified by their Issuer and serial number. If <b>rgpRecipients</b> is not <b>NULL</b>, <b>rgCmsRecipients</b> must be <b>NULL</b>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structures, each containing a recipient's certificate Issuer, SerialNumber, and SubjectPublicKeyInfo. This array can only be used for recipients identified by their Issuer and serial number. If <b>rgpRecipients</b> is not <b>NULL</b>, <b>rgCmsRecipients</b> must be <b>NULL</b>.
 
 ### -field rgCmsRecipients
 
-Optional. An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures containing recipient information. If <b>rgCmsRecipients</b> is not <b>NULL</b>, <b>rgpRecipients</b> must be <b>NULL</b>. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
+Optional. An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures containing recipient information. If <b>rgCmsRecipients</b> is not <b>NULL</b>, <b>rgpRecipients</b> must be <b>NULL</b>. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
 ### -field cCertEncoded
 
@@ -206,15 +206,15 @@ Optional. A <b>DWORD</b> value that indicates the number of encoded certificates
 
 ### -field rgCertEncoded
 
-Optional. Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
+Optional. Array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
 ### -field cCrlEncoded
 
-Optional. A <b>DWORD</b> value that indicates the number of encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) in the <b>rgCRLEncoded</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
+Optional. A <b>DWORD</b> value that indicates the number of encoded <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) in the <b>rgCRLEncoded</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
 ### -field rgCrlEncoded
 
-Optional. An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRL_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
+Optional. An array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRL_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
 ### -field cAttrCertEncoded
 
@@ -222,7 +222,7 @@ Optional. A <b>DWORD</b> value that indicates the number of encoded certificate 
 
 ### -field rgAttrCertEncoded
 
-Optional. An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this member.
+Optional. An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this member.
 
 ### -field cUnprotectedAttr
 
@@ -230,13 +230,12 @@ Optional. A <b>DWORD</b> value that indicates the number of unprotected attribut
 
 ### -field rgUnprotectedAttr
 
-Optional. An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
+Optional. An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>

@@ -57,19 +57,19 @@ Draws the transform to the graphics processing unit (GPU)–based Direct2D pipel
 
 ### -param target [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>*</b>
 
 The target to which the transform should be written.
 
 ### -param drawRect [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
+Type: <b>const <a href="/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The area within the source from which the image should be drawn.
 
 ### -param targetOrigin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2u">D2D1_POINT_2U</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2u">D2D1_POINT_2U</a></b>
 
 The origin within the target bitmap to which the source data should be drawn.
 
@@ -86,18 +86,17 @@ The implementation of the rasterizer guarantees that adding the <i>renderRect</i
 When implementing this method you must update the bitmap in this way: 
 
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">ID2D1Bitmap::Map</a> method with the  D2D1_MAP_OPTIONS_DISCARD and D2D1_MAP_OPTIONS_WRITE
+<li>Call the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">ID2D1Bitmap::Map</a> method with the  D2D1_MAP_OPTIONS_DISCARD and D2D1_MAP_OPTIONS_WRITE
 flags.</li>
 <li>Update the buffer this method returns.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-unmap">ID2D1Bitmap::Unmap</a> method.</li>
+<li>Call the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-unmap">ID2D1Bitmap::Unmap</a> method.</li>
 </ol>
-If you  set the buffer precision manually on the associated <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a> object, it must handle different pixel formats in this method by calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelformat">ID2D1Bitmap::GetPixelFormat</a>.  If you set the buffer precision manually, then you can rely on that format always being the one you provided.
+If you  set the buffer precision manually on the associated <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a> object, it must handle different pixel formats in this method by calling <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelformat">ID2D1Bitmap::GetPixelFormat</a>.  If you set the buffer precision manually, then you can rely on that format always being the one you provided.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform">ID2D1SourceTransform</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform">ID2D1SourceTransform</a>

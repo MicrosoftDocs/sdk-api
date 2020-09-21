@@ -54,7 +54,7 @@ Allows a client program to manage the desktop items and wallpaper on a local com
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveDesktop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActiveDesktop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveDesktop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActiveDesktop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActiveDesktop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">AddDesktopItem</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">AddDesktopItem</a>
 </td>
 <td align="left" width="63%">
 Adds a desktop item.
@@ -78,7 +78,7 @@ Adds a desktop item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui">AddDesktopItemWithUI</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui">AddDesktopItemWithUI</a>
 </td>
 <td align="left" width="63%">
 Adds a desktop item to the Active Desktop after  displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
@@ -87,7 +87,7 @@ Adds a desktop item to the Active Desktop after  displaying user interfaces that
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl">AddUrl</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl">AddUrl</a>
 </td>
 <td align="left" width="63%">
 Adds the desktop item associated with the specified URL.
@@ -96,7 +96,7 @@ Adds the desktop item associated with the specified URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">ApplyChanges</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">ApplyChanges</a>
 </td>
 <td align="left" width="63%">
 Applies changes to the Active Desktop and saves them in the registry.
@@ -105,7 +105,7 @@ Applies changes to the Active Desktop and saves them in the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml">GenerateDesktopItemHtml</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml">GenerateDesktopItemHtml</a>
 </td>
 <td align="left" width="63%">
 Generates a generic HTML page containing the given desktop item.
@@ -114,7 +114,7 @@ Generates a generic HTML page containing the given desktop item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem">GetDesktopItem</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem">GetDesktopItem</a>
 </td>
 <td align="left" width="63%">
 Gets the specified desktop item.
@@ -123,7 +123,7 @@ Gets the specified desktop item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid">GetDesktopItemByID</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid">GetDesktopItemByID</a>
 </td>
 <td align="left" width="63%">
 Gets the desktop item that matches the given identification.
@@ -132,7 +132,7 @@ Gets the desktop item that matches the given identification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource">GetDesktopItemBySource</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource">GetDesktopItemBySource</a>
 </td>
 <td align="left" width="63%">
 Gets a desktop item using its source URL.
@@ -141,7 +141,7 @@ Gets a desktop item using its source URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">GetDesktopItemCount</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">GetDesktopItemCount</a>
 </td>
 <td align="left" width="63%">
 Gets a count of the desktop items.
@@ -150,7 +150,7 @@ Gets a count of the desktop items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions">GetDesktopItemOptions</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions">GetDesktopItemOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the options for the desktop item.
@@ -159,7 +159,7 @@ Gets the options for the desktop item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern">GetPattern</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern">GetPattern</a>
 </td>
 <td align="left" width="63%">
 Gets the current pattern.
@@ -168,7 +168,7 @@ Gets the current pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper">GetWallpaper</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper">GetWallpaper</a>
 </td>
 <td align="left" width="63%">
 Gets the current wallpaper.
@@ -177,7 +177,7 @@ Gets the current wallpaper.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions">GetWallpaperOptions</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions">GetWallpaperOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the wallpaper options.
@@ -186,7 +186,7 @@ Gets the wallpaper options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem">ModifyDesktopItem</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem">ModifyDesktopItem</a>
 </td>
 <td align="left" width="63%">
 Modifies the desktop item.
@@ -195,7 +195,7 @@ Modifies the desktop item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem">RemoveDesktopItem</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem">RemoveDesktopItem</a>
 </td>
 <td align="left" width="63%">
 Removes the specified desktop item from the desktop.
@@ -204,7 +204,7 @@ Removes the specified desktop item from the desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions">SetDesktopItemOptions</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions">SetDesktopItemOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the item's options.
@@ -213,7 +213,7 @@ Sets the item's options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern">SetPattern</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern">SetPattern</a>
 </td>
 <td align="left" width="63%">
 Sets the Active Desktop pattern.
@@ -222,7 +222,7 @@ Sets the Active Desktop pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper">SetWallpaper</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper">SetWallpaper</a>
 </td>
 <td align="left" width="63%">
 Sets the wallpaper for the Active Desktop.
@@ -231,7 +231,7 @@ Sets the wallpaper for the Active Desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions">SetWallpaperOptions</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions">SetWallpaperOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the wallpaper options.
@@ -246,5 +246,4 @@ Your code must include Wininet.h before it includes Shlobj.h. Failure to do so w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
-
+<a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>

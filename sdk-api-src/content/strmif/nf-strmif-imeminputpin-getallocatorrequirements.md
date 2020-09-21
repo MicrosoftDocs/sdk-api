@@ -57,7 +57,7 @@ The <code>GetAllocatorRequirements</code> method retrieves the allocator propert
 
 ### -param pProps [in]
 
-Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties), structure which is filled in with the requirements.
+Pointer to an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties), structure which is filled in with the requirements.
 
 ## -returns
 
@@ -109,9 +109,8 @@ When an output pin initializes a memory allocator, it can call this method to de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>

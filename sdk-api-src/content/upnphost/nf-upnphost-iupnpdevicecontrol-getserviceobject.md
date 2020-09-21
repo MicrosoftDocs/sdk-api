@@ -79,9 +79,8 @@ Embedded devices are differentiated by their UDNs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a>
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">Initialize</a>
-
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">Initialize</a>

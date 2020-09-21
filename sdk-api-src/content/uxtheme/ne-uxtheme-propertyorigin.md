@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returned by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a> to specify where a property was found.
+Returned by <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a> to specify where a property was found.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ Property was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemepropertyorigin">GetThemePropertyOrigin</a>

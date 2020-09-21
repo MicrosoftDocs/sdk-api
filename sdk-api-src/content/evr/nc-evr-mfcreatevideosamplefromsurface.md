@@ -60,7 +60,7 @@ A pointer to the <b>IUnknown</b> interface of the Direct3D surface. This paramet
 
 ### -param ppSample [out]
 
-Receives a pointer to the sample's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface.
+Receives a pointer to the sample's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface.
           The caller must release the interface.
 
 ## -returns
@@ -69,24 +69,24 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -remarks
 
-The media sample created by this function exposes the following interfaces in addition to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>:
+The media sample created by this function exposes the following interfaces in addition to <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample">IMFTrackedSample</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample">IMFTrackedSample</a>
 </li>
 </ul>
-If <i>pUnkSurface</i> is non-<b>NULL</b>, the sample contains a single media buffer, which holds a pointer to the Direct3D surface. To get the Direct3D surface from the media buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the buffer, using the service identifier MR_BUFFER_SERVICE. The media buffer does not implement <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>, nor does it implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">Unlock</a> methods.
+If <i>pUnkSurface</i> is non-<b>NULL</b>, the sample contains a single media buffer, which holds a pointer to the Direct3D surface. To get the Direct3D surface from the media buffer, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the buffer, using the service identifier MR_BUFFER_SERVICE. The media buffer does not implement <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>, nor does it implement the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">Unlock</a> methods.
 
-Alternatively, you can set <i>pUnkSurface</i> to <b>NULL</b>, and later add a DirectX surface buffer to the sample by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-addbuffer">IMFSample::AddBuffer</a>. To create a DirectX surface buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxsurfacebuffer">MFCreateDXSurfaceBuffer</a>.
+Alternatively, you can set <i>pUnkSurface</i> to <b>NULL</b>, and later add a DirectX surface buffer to the sample by calling <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-addbuffer">IMFSample::AddBuffer</a>. To create a DirectX surface buffer, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxsurfacebuffer">MFCreateDXSurfaceBuffer</a>.
 
 
 #### Examples
 
-The following example is taken from the <a href="https://docs.microsoft.com/windows/desktop/medfound/evrpresenter-sample">EVRPresenter Sample</a>.
+The following example is taken from the <a href="/windows/desktop/medfound/evrpresenter-sample">EVRPresenter Sample</a>.
 
 
 ```cpp
@@ -144,13 +144,12 @@ done:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-surface-buffer">DirectX Surface Buffer</a>
+<a href="/windows/desktop/medfound/directx-surface-buffer">DirectX Surface Buffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

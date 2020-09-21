@@ -67,7 +67,6 @@ The name of the event. This must be a string literal and not a variable. It cann
 
 #### - args [in, optional]
 
-Additional parameters added to the event. The maximum number of optional parameters is 99. All parameters must be wrapper macros as defined in <a href="https://docs.microsoft.com/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
+Additional parameters added to the event. The maximum number of optional parameters is 99. All parameters must be wrapper macros as defined in <a href="/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
 
 <b>TraceLoggingWriteTagged</b> does not use the activity’s level or keyword – the default level is 5 (verbose) and the default keyword is 0 (none). Unlike with <b>TraceLoggingWriteStart</b> and <b>TraceLoggingWriteStop</b>, it is ok to use <b>TraceLoggingLevel</b> and <b>TraceLoggingKeyword</b> as args here.
-

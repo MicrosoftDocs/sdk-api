@@ -55,7 +55,7 @@ api_name:
 
 The <b>MBN_SMS_FLAG</b> enumerated type specifies the SMS message class.
 
-These enumerated values are used in the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter">MBN_SMS_FILTER</a> structure.
+These enumerated values are used in the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter">MBN_SMS_FILTER</a> structure.
 
 ## -enum-fields
 
@@ -82,4 +82,3 @@ Refers to all sent and saved messages.
 ### -field MBN_SMS_FLAG_DRAFT
 
 Refers to all unsent and saved messages.
-

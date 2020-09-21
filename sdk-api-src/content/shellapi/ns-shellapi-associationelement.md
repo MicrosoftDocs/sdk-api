@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines information used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-assoccreateforclasses">AssocCreateForClasses</a> to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface for a given file association.
+Defines information used by <a href="/windows/desktop/api/shellapi/nf-shellapi-assoccreateforclasses">AssocCreateForClasses</a> to retrieve an <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface for a given file association.
 
 ## -struct-fields
 
@@ -120,7 +120,7 @@ The <b>pszClass</b> member names a key found as
 
 The APPID storing the application information is found at
                                 
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>&#92;<i>FileName</i> where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
+                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>&#92;<i>FileName</i> where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
 
 
 
@@ -166,5 +166,4 @@ A pointer to the name of a class that contains association information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>
-
+<a href="/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>

@@ -59,7 +59,7 @@ This function is not used by newer authentication packages, such as Kerberos.
 ### -param LogonId [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the session ID of the logon session from which credentials are to be retrieved.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the session ID of the logon session from which credentials are to be retrieved.
 
 ### -param AuthenticationPackage [in]
 
@@ -89,15 +89,15 @@ If the <i>RetrieveAllCredentials</i> parameter is <b>TRUE</b>, this parameter re
 ### -param Credentials [out]
 
 Pointer to a buffer that receives the retrieved credential. Only one credential is retrieved for each call made. The credential is returned in a buffer that the function allocates by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. It is the caller's responsibility to free the <i>Credentials</i> buffer when it is no longer needed, by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a>.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. It is the caller's responsibility to free the <i>Credentials</i> buffer when it is no longer needed, by calling 
+<a href="/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a>.
 
 ## -returns
 
 If the function succeeds, the function returns the NTSTATUS code, STATUS_SUCCESS, indicating that the credentials were successfully retrieved.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -141,13 +141,12 @@ The specified logon session could not be found.
  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>

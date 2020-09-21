@@ -58,11 +58,10 @@ Gets a count of the sync items in the container.
 
 Type: <b>ULONG*</b>
 
-When this method returns, contains a pointer to the number of items in the container. This is the number of items enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a>.
+When this method returns, contains a pointer to the number of items in the container. This is the number of items enumerated by <a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrsyncitems">IEnumSyncMgrSyncItems</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

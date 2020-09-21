@@ -52,13 +52,13 @@ api_name:
 
 The <b>ITfFnGetPreferredTouchKeyboardLayout</b> interface is implemented by a text service to specify the use of a particular keyboard layout supported by the inbox Windows 8 touch keyboard.
 
-When an IME is active the touch keyboard will use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with <b>IID_ITfFnGetPreferredTouchKeyboardLayout</b> to query the IME for this function.
+When an IME is active the touch keyboard will use <a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with <b>IID_ITfFnGetPreferredTouchKeyboardLayout</b> to query the IME for this function.
 
 If the function is not supported by the IME, then the touch keyboard will show the default layout for the language.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITfFnGetPreferredTouchKeyboardLayout</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">GetLayout</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">GetLayout</a>
 </td>
 <td align="left" width="63%">
 Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
@@ -97,5 +97,4 @@ This interface applies only to IMEs written using the Text Services Framework an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>

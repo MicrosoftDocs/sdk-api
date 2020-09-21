@@ -66,7 +66,7 @@ The handle to the call to be accepted. The call state of <i>hdCall</i> can be <i
 ### -param lpsUserUserInfo
 
 A pointer to a <b>null</b>-terminated Unicode string containing user-user information to be sent to the remote party as part of the call accept. This pointer is <b>NULL</b> if no user-user information is to be sent. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 ### -param dwSize
 
@@ -75,7 +75,7 @@ The size in bytes of the user-user information in <i>lpsUserUserInfo</i>. If <i>
 ## -returns
 
 Returns <i>dwRequestID</i> if the function is completed asynchronously or an error number if an error occurs. The <i>lResult</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_USERUSERINFOTOOBIG, LINEERR_OPERATIONUNAVAIL.
 
@@ -83,15 +83,15 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEER
 
 The 
 <b>TSPI_lineAccept</b> function is used in telephony environments (such as ISDN) that allow alerting associated with incoming calls to be separate from the initial offering of the call. When a call comes in, the call is first offered. For some small time duration, the client application may have the option to reject the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedrop">TSPI_lineDrop</a>, redirect the call to another station using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect">TSPI_lineRedirect</a>, answer the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer">TSPI_lineAnswer</a>, or accept the call using 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linedrop">TSPI_lineDrop</a>, redirect the call to another station using 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect">TSPI_lineRedirect</a>, answer the call using 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer">TSPI_lineAnswer</a>, or accept the call using 
 <b>TSPI_lineAccept</b>. After a call has been successfully accepted, alerting at both the called and calling device begins, and typically the call state transitions to the <i>accepted</i> state. The service provider must set the flag LINEADDRCAPFLAGS_ACCEPTTOALERT in the <b>dwAddrCapFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure if the application must call 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure if the application must call 
 <b>TSPI_lineAccept</b> for alerting to begin.
 
 To TAPI, alerting is reported using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a> message with the <i>ringing</i> indication.
+<a href="/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a> message with the <i>ringing</i> indication.
 
 <b>TSPI_lineAccept</b> may also be supported by non-ISDN service providers. The call state transition to the <i>accepted</i> state can be used by other of the TAPI clients as an indication that some application has claimed responsibility for the call and has presented the call to the user.
 
@@ -99,37 +99,36 @@ The client application has the option to send user-user information at the time 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer">TSPI_lineAnswer</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer">TSPI_lineAnswer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedrop">TSPI_lineDrop</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linedrop">TSPI_lineDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect">TSPI_lineRedirect</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect">TSPI_lineRedirect</a>

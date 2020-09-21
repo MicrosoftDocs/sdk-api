@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Contains description properties of the variable.
 
@@ -68,7 +68,7 @@ The description of the variable.
 
 ### -field FeatureType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_feature_type">WINML_FEATURE_TYPE</a> containing the feature type of variable.
+A <a href="/windows/desktop/api/winml/ne-winml-winml_feature_type">WINML_FEATURE_TYPE</a> containing the feature type of variable.
 
 ### -field Required
 
@@ -76,17 +76,16 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_f
 
 ### -field Tensor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_tensor_variable_desc">WINML_TENSOR_VARIABLE_DESC</a> containing the description of the tensor variable.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_tensor_variable_desc">WINML_TENSOR_VARIABLE_DESC</a> containing the description of the tensor variable.
 
 ### -field Sequence
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_sequence_variable_desc">WINML_SEQUENCE_VARIABLE_DESC</a> containing the description of the sequence variable.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_sequence_variable_desc">WINML_SEQUENCE_VARIABLE_DESC</a> containing the description of the sequence variable.
 
 ### -field Map
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_map_variable_desc">WINML_MAP_VARIABLE_DESC</a> containing the description of the map variable.
+A <a href="/windows/desktop/api/winml/ns-winml-winml_map_variable_desc">WINML_MAP_VARIABLE_DESC</a> containing the description of the map variable.
 
 ### -field Image
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_image_variable_desc">WINML_IMAGE_VARIABLE_DESC</a> containing the description of the image variable.
-
+A <a href="/windows/desktop/api/winml/ns-winml-winml_image_variable_desc">WINML_IMAGE_VARIABLE_DESC</a> containing the description of the image variable.

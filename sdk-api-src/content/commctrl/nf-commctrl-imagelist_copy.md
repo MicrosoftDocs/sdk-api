@@ -80,7 +80,7 @@ The zero-based index of the image to be used as the source of the copy operation
 
 ### -param uFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 the bit flag value that specifies the type of copy operation to be made. This parameter can be one of the following values: 
 
@@ -113,7 +113,6 @@ The source and destination images exchange positions within the image list.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
-

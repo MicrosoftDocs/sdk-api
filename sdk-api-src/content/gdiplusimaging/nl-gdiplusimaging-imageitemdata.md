@@ -58,22 +58,22 @@ The <b>ImageItemData</b> class is used to store and retrieve custom image metada
 
 ## -remarks
 
-To retrieve custom metadata from an image file, call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>. To store custom metadata in an image file, follow these steps:
+To retrieve custom metadata from an image file, call <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>. To store custom metadata in an image file, follow these steps:
 
 		    
 
 <ol>
 <li>Create and initialize an <b>ImageItemData</b> object.</li>
-<li>Create an <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that has an array of one or more <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.</li>
-<li>For one of the <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms535407(v=vs.85)">Image::Save</a> method of an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.</li>
+<li>Create an <a href="/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that has an array of one or more <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.</li>
+<li>For one of the <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
+<li>Pass the address of the <a href="/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object to the <a href="/previous-versions/ms535407(v=vs.85)">Image::Save</a> method of an <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.</li>
 </ol>
 
 #### Examples
 
 
 
-The following example saves a piece of custom metadata in a JPEG file. The code relies on a helper function, GetEncoderClsid, to get the class identifier for the JPEG encoder. To see the source code for GetEncoderClsid, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-retrieving-the-class-identifier-for-an-encoder-use">Retrieving the Class Identifier for an Encoder</a>.
+The following example saves a piece of custom metadata in a JPEG file. The code relies on a helper function, GetEncoderClsid, to get the class identifier for the JPEG encoder. To see the source code for GetEncoderClsid, see <a href="/windows/desktop/gdiplus/-gdiplus-retrieving-the-class-identifier-for-an-encoder-use">Retrieving the Class Identifier for an Encoder</a>.
 
 
 ```cpp
@@ -102,4 +102,3 @@ encoderParameters.Parameter[0].Value = &itemData;
 Image image(L"River.jpg");
 image.Save(L"River2.jpg", &encoderClsid, &encoderParameters);
 ```
-

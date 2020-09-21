@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevices</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDevices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -87,7 +87,7 @@ N/A
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -99,7 +99,7 @@ Enumerator interface for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count">Count</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count">Count</a>
 
 
 </td>
@@ -111,15 +111,14 @@ Number of devices in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item">Item</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item">Item</a>
 
 
 </td>
 <td align="left" width="63%">
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface in the collection.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface in the collection.
 
 </td>
 </tr>
 </table>
-

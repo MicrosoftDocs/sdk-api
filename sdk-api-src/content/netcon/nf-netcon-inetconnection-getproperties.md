@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>GetProperties</b> method retrieves a structure that contains the properties for this network connection.
@@ -60,7 +60,7 @@ The
 ### -param ppProps [out]
 
 Pointer to a pointer that, on successful return, points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
+<a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
 
 ## -returns
 
@@ -166,17 +166,16 @@ The method failed for unknown reasons.
 ## -remarks
 
 The calling application should free the memory occupied by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-ncfreenetconproperties">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
+<a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="/windows/desktop/api/netcon/nf-netcon-ncfreenetconproperties">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

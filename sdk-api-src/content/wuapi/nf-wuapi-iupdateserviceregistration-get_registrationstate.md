@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateserviceregistrationstate">UpdateServiceRegistrationState</a> value that indicates the current state of the service registration.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-updateserviceregistrationstate">UpdateServiceRegistrationState</a> value that indicates the current state of the service registration.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>

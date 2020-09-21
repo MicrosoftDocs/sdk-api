@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A structure that is used to specify a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a>s.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ An array of properties.  The number of elements in the array is specified
 ### -field propertyCount
 
 The number of elements in the properties array.
-

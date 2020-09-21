@@ -68,13 +68,12 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">IWMPCdromBurn::get_burnFormat</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">IWMPCdromBurn::get_burnFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">IWMPCdromBurn::put_burnFormat</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">IWMPCdromBurn::put_burnFormat</a>

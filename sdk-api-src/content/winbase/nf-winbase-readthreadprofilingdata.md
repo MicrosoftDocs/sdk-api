@@ -56,11 +56,11 @@ Reads the specified profiling data associated with the thread.
 
 ### -param PerformanceDataHandle [in]
 
-The handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function returned.
+The handle that the <a href="/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function returned.
 
 ### -param Flags [in]
 
-One or more of the following flags that specify the counter data to read. The flags must have been set when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function.
+One or more of the following flags that specify the counter data to read. The flags must have been set when you called the <a href="/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function.
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ Get the hardware performance counters data.
 
 ### -param PerformanceData [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure that contains the thread profiling and hardware counter data.
+A <a href="/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure that contains the thread profiling and hardware counter data.
 
 ## -returns
 
@@ -101,5 +101,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-perform
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>

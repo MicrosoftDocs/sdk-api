@@ -52,35 +52,35 @@ api_name:
 ## -description
 
 Copies data into a
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
 
 ## -parameters
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>*</b>
 
 A pointer to the destination resource (an
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>).
+            <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>).
 
 ### -param DstSubresource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index, that identifies the destination subresource.
             For more details, see
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11calcsubresource">D3D11CalcSubresource</a>.
+            <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11calcsubresource">D3D11CalcSubresource</a>.
 
 ### -param pDstBox [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a>*</b>
 
 A pointer to a box that defines the portion of the destination subresource to copy the resource data into.
               If NULL, the data is written to the destination subresource with no offset.
               The dimensions of the source must fit the destination (see
-              <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a>).
+              <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a>).
             
 
 An empty box results in a no-op.
@@ -95,22 +95,22 @@ A pointer to the source data in memory.
 
 ### -param SrcRowPitch [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of one row of the source data.
 
 ### -param SrcDepthPitch [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of one depth slice of source data.
 
 ## -remarks
 
 The provided resource must be a
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped for writing by a previous call to
-          ID3D11DeviceContext3::<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped for writing by a previous call to
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 This API is intended for calling at high frequency.
@@ -129,5 +129,4 @@ When writing to sub mipmap levels, it is recommended to use larger width and hei
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
-
+<a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>

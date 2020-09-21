@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetDest</b> macro retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a> message.
+The <b>MCIWndGetDest</b> macro retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a> message.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Pointer to a RECT structure to return the coordinates of the destination rectang
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a>

@@ -56,15 +56,15 @@ Receives information related to heap allocations.
 
 ### -param HeapAllocation
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure containing information about the heap to be enumerated.
+A pointer to an <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure containing information about the heap to be enumerated.
 
 ### -param EnumerationContext
 
-A pointer to user-defined information in the context of the enumeration that is passed in when the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function is invoked.
+A pointer to user-defined information in the context of the enumeration that is passed in when the <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function is invoked.
 
 ### -param EnumerationLevel
 
-A pointer to a value that informs the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function to either continue or stop the enumeration operation. These values are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
+A pointer to a value that informs the <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function to either continue or stop the enumeration operation. These values are defined in the <a href="/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function returns error codes or other values defined by the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
-
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>

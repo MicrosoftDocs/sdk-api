@@ -57,7 +57,7 @@ Called when the sample-grabber sink receives a new media sample.
 
 ### -param guidMajorMediaType [in]
 
-The major type that specifies the format of the data. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
+The major type that specifies the format of the data. For a list of possible values, see <a href="/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
 
 ### -param dwSampleFlags [in]
 
@@ -91,5 +91,4 @@ If you use the sample-grabber sink in a playback topology, this method should re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>

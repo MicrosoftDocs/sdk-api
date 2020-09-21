@@ -53,11 +53,11 @@ api_name:
 The 
 <b>ITPluggableTerminalEventSinkRegistration</b> interface registers and unregisters a client application for pluggable terminal events. The 
 <b>ITPluggableTerminalEventSinkRegistration</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalEventSinkRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITPluggableTerminalEventSinkRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalEventSinkRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITPluggableTerminalEventSinkRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITPluggableTerminalEventSinkRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-registersink">RegisterSink</a>
+<a href="/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-registersink">RegisterSink</a>
 </td>
 <td align="left" width="63%">
 Register for pluggable terminal events.
@@ -81,7 +81,7 @@ Register for pluggable terminal events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-unregistersink">UnregisterSink</a>
+<a href="/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-unregistersink">UnregisterSink</a>
 </td>
 <td align="left" width="63%">
 Unregister for pluggable terminal events.
@@ -92,5 +92,4 @@ Unregister for pluggable terminal events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink">ITPluggableTerminalEventSink</a>
-
+<a href="/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink">ITPluggableTerminalEventSink</a>

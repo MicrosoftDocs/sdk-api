@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Gets or sets the window handle, HWND, associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object. 
+Gets or sets the window handle, HWND, associated with the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object. 
 
 
 
@@ -64,9 +64,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_hwnd">IRealTimeStylus::HWND Property</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_hwnd">IRealTimeStylus::HWND Property</a>

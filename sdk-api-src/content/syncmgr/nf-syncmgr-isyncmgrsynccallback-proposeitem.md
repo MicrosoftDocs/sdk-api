@@ -56,9 +56,9 @@ Proposes the addition of a new item to the set of items previously enumerated.
 
 ### -param pNewItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>*</b>
 
-A pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> representing the new item.
+A pointer to an instance of <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> representing the new item.
 
 ## -returns
 
@@ -68,14 +68,14 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 ## -remarks
 
-<b>ISyncMgrSyncCallback::ProposeItem</b> is typically called when items are not considered part of the sync set unless they have been successfully synchronized. Sync Center does not display this item in the UI until the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">ISyncMgrSyncCallback::CommitItem</a> method has been called.
+<b>ISyncMgrSyncCallback::ProposeItem</b> is typically called when items are not considered part of the sync set unless they have been successfully synchronized. Sync Center does not display this item in the UI until the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">ISyncMgrSyncCallback::CommitItem</a> method has been called.
 
 
 #### Examples
 
 
 
-The following example shows the usage of <b>ISyncMgrSyncCallback::ProposeItem</b> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">ISyncMgrSyncCallback::CommitItem</a> by the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::ProposeItem</b> and <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">ISyncMgrSyncCallback::CommitItem</a> by the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
 
 
 ```cpp
@@ -112,4 +112,3 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

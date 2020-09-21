@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>HatchStyle</b> enumeration specifies the hatch pattern used by a brush of type 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background.
+			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>. The hatch pattern consists of a solid background color and lines drawn over the background.
 
 ## -enum-fields
 
@@ -444,4 +444,3 @@ Specifies HatchStyleHorizonal.
 ### -field HatchStyleMax
 
 Specifies HatchStyleSolidDiamond.
-

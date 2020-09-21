@@ -73,7 +73,7 @@ Wide-character, null-terminated string containing the property name. The propert
 </dl>
 </td>
 <td width="60%">
-Retrieves the name of the codec that is associated with the format (or FOURCC). This is an alternative to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings</a> interface.
+Retrieves the name of the codec that is associated with the format (or FOURCC). This is an alternative to the <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings</a> interface.
 
 </td>
 </tr>
@@ -132,5 +132,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>

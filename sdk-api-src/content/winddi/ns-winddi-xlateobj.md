@@ -75,7 +75,7 @@ XO_DEVICE_ICM
 
 </td>
 <td>
-ICM is enabled on the device. The driver should translate color according to the color transform created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>. The driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_hgetcolortransform">XLATEOBJ_hGetColorTransform</a> to get the color transform handle. This bit is mutually exclusive from XO_HOST_ICM.
+ICM is enabled on the device. The driver should translate color according to the color transform created by <a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>. The driver should call <a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_hgetcolortransform">XLATEOBJ_hGetColorTransform</a> to get the color transform handle. This bit is mutually exclusive from XO_HOST_ICM.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ XO_FROM_CMYK
 
 </td>
 <td>
-As a result of ICM translation, source indices are translated to the 32-bit <a href="https://docs.microsoft.com/windows-hardware/drivers/">CMYK</a> color format. When this bit is set, <b>iSrcType</b>, <b>iDstType</b>, <b>cEntries</b>, and <b>pulXlate</b> should be ignored.
+As a result of ICM translation, source indices are translated to the 32-bit <a href="/windows-hardware/drivers/">CMYK</a> color format. When this bit is set, <b>iSrcType</b>, <b>iDstType</b>, <b>cEntries</b>, and <b>pulXlate</b> should be ignored.
 
 </td>
 </tr>
@@ -133,11 +133,11 @@ Source indices are usable as target indices.
 
 ### -field iSrcType
 
-Is obsolete. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the source format.
+Is obsolete. Use <a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the source format.
 
 ### -field iDstType
 
-Is obsolete. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the destination format.
+Is obsolete. Use <a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the destination format.
 
 ### -field cEntries
 
@@ -155,17 +155,16 @@ The XLATEOBJ structure is used to translate color indices that refer to the sour
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_hgetcolortransform">XLATEOBJ_hGetColorTransform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_hgetcolortransform">XLATEOBJ_hGetColorTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_pivector">XLATEOBJ_piVector</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_pivector">XLATEOBJ_piVector</a>

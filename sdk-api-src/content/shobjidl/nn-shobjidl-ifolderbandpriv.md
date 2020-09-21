@@ -56,7 +56,7 @@ Exposes methods that set folder items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderBandPriv</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderBandPriv</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFolderBandPriv</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setaccelerators">SetAccelerators</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setaccelerators">SetAccelerators</a>
 </td>
 <td align="left" width="63%">
 Sets accelerators.
@@ -80,7 +80,7 @@ Sets accelerators.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setcascade">SetCascade</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setcascade">SetCascade</a>
 </td>
 <td align="left" width="63%">
 Sets a cascade folder.
@@ -89,7 +89,7 @@ Sets a cascade folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnoicons">SetNoIcons</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnoicons">SetNoIcons</a>
 </td>
 <td align="left" width="63%">
 Sets whether icons are displayed in a folder band.
@@ -98,7 +98,7 @@ Sets whether icons are displayed in a folder band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnotext">SetNoText</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnotext">SetNoText</a>
 </td>
 <td align="left" width="63%">
 Sets whether text is displayed in a folder band.
@@ -106,4 +106,3 @@ Sets whether text is displayed in a folder band.
 </td>
 </tr>
 </table>
-

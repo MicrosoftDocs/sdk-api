@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-step">MCI_STEP</a> command.
+The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-step">MCI_STEP</a> command.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param n
 
 Step value. Negative values step the device through the content in reverse. The units for the step value depend on the current time format.
-

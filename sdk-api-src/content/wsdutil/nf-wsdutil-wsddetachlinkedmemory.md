@@ -60,5 +60,4 @@ Pointer to the memory block to be detached.
 
 ## -remarks
 
-The child memory block must have been previously allocated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
-
+The child memory block must have been previously allocated by a call to <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.

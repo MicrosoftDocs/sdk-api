@@ -406,7 +406,7 @@ DDCAPS2_AUTOFLIPOVERLAY
 
 </td>
 <td>
-The overlay can be automatically flipped to the next surface in the flip chain each time a hardware video port V-sync occurs, allowing the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object and the overlay to double buffer the video without CPU overhead. This option is only valid when the surface is receiving data from hardware video port. If the hardware video port data is noninterlaced or noninterleaved, it flips on every V-sync. If the data is being interleaved in memory, it flips on every other V-sync.
+The overlay can be automatically flipped to the next surface in the flip chain each time a hardware video port V-sync occurs, allowing the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object and the overlay to double buffer the video without CPU overhead. This option is only valid when the surface is receiving data from hardware video port. If the hardware video port data is noninterlaced or noninterleaved, it flips on every V-sync. If the data is being interleaved in memory, it flips on every other V-sync.
 
 </td>
 </tr>
@@ -551,7 +551,7 @@ DDCAPS2_COPYFOURCC
 
 </td>
 <td>
-The driver supports blitting any <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> surface to another surface of the same FOURCC.
+The driver supports blitting any <a href="/windows-hardware/drivers/">FOURCC</a> surface to another surface of the same FOURCC.
 
 </td>
 </tr>
@@ -581,7 +581,7 @@ DDCAPS2_NO2DDURING3DSCENE
 
 </td>
 <td>
-The driver cannot interleave 2D operations such as <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> on any surfaces that Microsoft Direct3D is using between calls to the <b>IDirect3DDevice::BeginScene</b> and <b>IDirect3DDevice::EndScene</b> methods.
+The driver cannot interleave 2D operations such as <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> or <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> on any surfaces that Microsoft Direct3D is using between calls to the <b>IDirect3DDevice::BeginScene</b> and <b>IDirect3DDevice::EndScene</b> methods.
 
 </td>
 </tr>
@@ -1271,7 +1271,7 @@ Specifies the current number of visible overlays.
 
 ### -field dwNumFourCCCodes
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> codes that the driver supports.
+Specifies the number of <a href="/windows-hardware/drivers/">FOURCC</a> codes that the driver supports.
 
 ### -field dwAlignBoundarySrc
 
@@ -1299,7 +1299,7 @@ Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indica
 
 ### -field ddsCaps
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
+Specifies a <a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
 
 ### -field dwMinOverlayStretch
 
@@ -1403,7 +1403,6 @@ This section contains the DirectDraw driver structure whose name has the form DD
 
 This structure mirrors the first entries of the DDCAPS structure, but is of a fixed size and does not grow as DDCAPS does.
 
-The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
+The driver initializes DDCORECAPS when it is initializing the other members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
 
-DirectDraw requests additional driver capabilities by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.
-
+DirectDraw requests additional driver capabilities by calling the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.

@@ -109,13 +109,12 @@ One or more of the arguments is not valid.
 
 Upon return, the VARIANT you pass contains a direct pointer to the record's field, <i>ppvDataCArray</i>. If you modify the VARIANT, then the underlying record field will change.
 
-The caller allocates memory of the VARIANT, but does not own the memory so cannot free <i>pvarField</i>. This method calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> for <i>pvarField</i> before filling in the requested field.
+The caller allocates memory of the VARIANT, but does not own the memory so cannot free <i>pvarField</i>. This method calls <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> for <i>pvarField</i> before filling in the requested field.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>

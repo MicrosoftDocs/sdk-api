@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::GetLastInputTime</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getlastinputtime">IWRdsProtocolConnection::GetLastInputTime</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::GetLastInputTime</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getlastinputtime">IWRdsProtocolConnection::GetLastInputTime</a>.]
 
 Returns the last time the protocol received input data.
 
@@ -62,5 +62,4 @@ An integer that contains the elapsed time, in milliseconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

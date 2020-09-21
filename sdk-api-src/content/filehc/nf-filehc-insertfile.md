@@ -60,11 +60,11 @@ The name of the file to be inserted.
 
 ### -param pContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the file being inserted.
+A pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that is associated with the file being inserted.
 
 ### -param fKeepReference [in]
 
-Specifies whether the reference to the file is to be kept. If <b>TRUE</b>, the user must make a call to <a href="https://msdn.microsoft.com/library/ms527734.aspx">ReleaseContext</a> for the inserted <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>.
+Specifies whether the reference to the file is to be kept. If <b>TRUE</b>, the user must make a call to <a href="/previous-versions/exchange-server/exchange-10/ms527734(v=exchg.10)">ReleaseContext</a> for the inserted <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>.
 
 ## -returns
 
@@ -72,9 +72,8 @@ Returns <b>TRUE</b> if the file is inserted; otherwise, it returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms527734.aspx">ReleaseContext</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms527734(v=exchg.10)">ReleaseContext</a>

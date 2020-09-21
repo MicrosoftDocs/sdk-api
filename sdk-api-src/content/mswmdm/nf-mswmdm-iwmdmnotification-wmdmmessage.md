@@ -96,7 +96,7 @@ The return value is an <b>HRESULT</b> in which application can return results of
 
 ## -remarks
 
-To learn how an application subscribes to receive notifications through this method, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>.
+To learn how an application subscribes to receive notifications through this method, see <a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>.
 
 
 #### Examples
@@ -133,9 +133,8 @@ HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification Interface</a>

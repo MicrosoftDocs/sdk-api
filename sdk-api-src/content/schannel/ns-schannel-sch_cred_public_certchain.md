@@ -66,7 +66,7 @@ Must always be set to SCH_CRED_X509_CERTCHAIN.
 
 ### -field cbCertChain
 
-Size of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate, in bytes.
+Size of the <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate, in bytes.
 
 ### -field pCertChain
 
@@ -74,5 +74,4 @@ Pointer to an X.509 leaf certificate.
 
 ## -remarks
 
-This structure does not directly support certificate chains. If a server needs to use certificate chains, the intermediate certificates can be placed in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> and Schannel will automatically pick them up from there.
-
+This structure does not directly support certificate chains. If a server needs to use certificate chains, the intermediate certificates can be placed in the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> and Schannel will automatically pick them up from there.

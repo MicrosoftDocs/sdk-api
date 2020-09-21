@@ -56,7 +56,7 @@ Creates a context handle that can be used to pass commands to TBS.
 
 ### -param pContextParams [in]
 
-A parameter to a [TBS_CONTEXT_PARAMS](/windows/win32/api/tbs/ns-tbs-tbs_context_params) structure that contains the parameters associated with the context.
+A parameter to a [TBS_CONTEXT_PARAMS](./ns-tbs-tbs_context_params.md) structure that contains the parameters associated with the context.
 
 ### -param phContext [out]
 
@@ -197,9 +197,8 @@ A compatible Trusted Platform Module (TPM) Security Device cannot be found on th
 
 ## -remarks
 
-The [TBS_CONTEXT_PARAMS](/windows/win32/api/tbs/ns-tbs-tbs_context_params) structure can be provided, with the version field set to TPM_VERSION_12.
-Applications interacting with version 2.0 TPM will pass a pointer to a [TBS_CONTEXT_PARAMS2](/windows/win32/api/tbs/ns-tbs-tbs_context_params2) structure, with the version field set to TPM_VERSION_20. Set the reserved field to 0, and the <b>includeTPm20</b> field to 1. If the application is prepared to interact with a version 1.2 TPM as well (in case the system has no version 2.0 TPM), set the <b>includeTpm12</b> field to 1.
+The [TBS_CONTEXT_PARAMS](./ns-tbs-tbs_context_params.md) structure can be provided, with the version field set to TPM_VERSION_12.
+Applications interacting with version 2.0 TPM will pass a pointer to a [TBS_CONTEXT_PARAMS2](./ns-tbs-tbs_context_params2.md) structure, with the version field set to TPM_VERSION_20. Set the reserved field to 0, and the <b>includeTPm20</b> field to 1. If the application is prepared to interact with a version 1.2 TPM as well (in case the system has no version 2.0 TPM), set the <b>includeTpm12</b> field to 1.
 
 
 If no TPM is present on the system, or the TPM version does not match those requested by the caller, <b>Tbsi_Context_Create</b> will return the TBS_E_TPM_NOT_FOUND (0x8028400) error code.  Application programs must check for both versions and be able to interact with either TPM.
-

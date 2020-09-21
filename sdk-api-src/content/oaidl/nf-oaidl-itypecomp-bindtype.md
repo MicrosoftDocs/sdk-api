@@ -60,15 +60,15 @@ The name to be bound.
 
 ### -param lHashVal [in]
 
-The hash value for the name computed by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofname">LHashValOfName</a>.
+The hash value for the name computed by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofname">LHashValOfName</a>.
 
 ### -param ppTInfo [out]
 
- An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> of the type to which the name was bound.
+ An <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> of the type to which the name was bound.
 
 ### -param ppTComp [out]
 
-Passes a valid pointer, such as the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> variable.
+Passes a valid pointer, such as the address of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> variable.
 
 ## -returns
 
@@ -119,9 +119,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-Use the function <b>BindType</b> for binding a type name to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> that describes the type. This function is invoked on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> that is returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypecomp">ITypeLib::GetTypeComp</a> to bind to types defined within that library. It can also be used in the future for binding to nested types.
+Use the function <b>BindType</b> for binding a type name to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> that describes the type. This function is invoked on the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> that is returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypecomp">ITypeLib::GetTypeComp</a> to bind to types defined within that library. It can also be used in the future for binding to nested types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a>

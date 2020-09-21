@@ -1749,13 +1749,12 @@ Index key attribute for an index entry.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tag-types">TAG Types</a>
+<a href="/windows/desktop/DevNotes/tag-types">TAG Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tagid">TAGID</a>
+<a href="/windows/desktop/DevNotes/tagid">TAGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tagref">TAGREF</a>
-
+<a href="/windows/desktop/DevNotes/tagref">TAGREF</a>

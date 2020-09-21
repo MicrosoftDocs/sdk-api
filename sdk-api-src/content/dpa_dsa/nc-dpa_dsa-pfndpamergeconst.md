@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Defines the prototype for the merge function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_merge">DPA_Merge</a>, using constant values.
+Defines the prototype for the merge function used by <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_merge">DPA_Merge</a>, using constant values.
 
 ## -parameters
 
 ### -param uMsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A message that instructs this function how to handle the merge. One of the following values.
 
@@ -114,7 +114,7 @@ A pointer to the source item in the merge.
 
 ### -param lParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional data that can be used by the merge callback.
 
@@ -126,5 +126,4 @@ A pointer to constant data which results from the merge, or <b>NULL</b> if there
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a>
-
+<a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a>

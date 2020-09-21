@@ -60,7 +60,7 @@ Contains different levels of listener settings for a remote desktop connection.
 
 ### -field WRdsListenerSettings1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
 
 ### -field WRdsListenerSettings1.case
 
@@ -69,4 +69,3 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrd
 ### -field switch_type
 
 ### -field switch_type.WRDS_LISTENER_SETTING_LEVEL
-

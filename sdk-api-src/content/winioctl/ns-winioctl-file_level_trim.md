@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Used as input to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a> control code.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a> control code.
 
 ## -struct-fields
 
@@ -64,10 +64,10 @@ Reserved. Set to zero (0).
 
 ### -field NumRanges
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries in 
+Number of <a href="/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries in 
       the <b>Ranges</b> member. On return should be compared with the 
       <b>NumRangesProcessed</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure.
+      <a href="/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure.
 
 ### -field Ranges
 
@@ -75,13 +75,12 @@ Array of ranges that describe the portions of the file that are to be trimmed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>

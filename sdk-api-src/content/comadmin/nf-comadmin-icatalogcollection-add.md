@@ -56,7 +56,7 @@ Adds an item to the collection, giving it the high index value.
 
 ### -param ppCatalogObject [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a> interface pointer for the new object.
+A pointer to the <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a> interface pointer for the new object.
 
 ## -returns
 
@@ -64,13 +64,12 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_addenabled">AddEnabled</a> property indicates whether the collection supports this method.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_addenabled">AddEnabled</a> property indicates whether the collection supports this method.
 
-When an object is added, the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a> property is incremented to reflect the change.
+When an object is added, the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a> property is incremented to reflect the change.
 
-This change is not reflected in the persisted COM+ catalog data store until you use <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>.
+This change is not reflected in the persisted COM+ catalog data store until you use <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

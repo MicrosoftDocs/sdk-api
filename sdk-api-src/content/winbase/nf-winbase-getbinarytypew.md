@@ -69,7 +69,7 @@ The full path of the file whose executable type is to be determined.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param lpBinaryType [out]
 
@@ -166,13 +166,13 @@ If the file is executable, the return value is nonzero. The function sets the va
        <i>lpBinaryType</i> to indicate the file's executable type.
 
 If the file is not executable, or if the function fails, the return value is zero. To get extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the file is a DLL, 
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the file is a DLL, 
        the last error code is <b>ERROR_BAD_EXE_FORMAT</b>.
 
 ## -remarks
 
 As an alternative, you can obtain the same information by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function, passing the 
+    <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function, passing the 
     <b>SHGFI_EXETYPE</b> flag in the <i>uFlags</i> parameter.
 
 Symbolic link behavior—If the path points to a symbolic link, the target file is 
@@ -247,13 +247,12 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

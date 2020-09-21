@@ -309,5 +309,4 @@ The bytes of the word are reversed. This flag is obsolete.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>

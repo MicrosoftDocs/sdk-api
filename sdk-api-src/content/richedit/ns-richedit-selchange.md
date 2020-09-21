@@ -70,7 +70,7 @@ New selection range.
 
 ### -field seltyp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the contents of the new selection. This member is SEL_EMPTY if the selection is empty or one or more of the following values. 
 
@@ -124,4 +124,3 @@ More than one COM object.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
-

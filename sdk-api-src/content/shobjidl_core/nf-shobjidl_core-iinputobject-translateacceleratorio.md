@@ -58,11 +58,10 @@ Enables the object to process keyboard accelerators.
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keyboard message that is being translated.
+The address of an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keyboard message that is being translated.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the accelerator was translated, or <b>S_FALSE</b> otherwise.
-

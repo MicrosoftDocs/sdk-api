@@ -68,7 +68,7 @@ Specifies the number of attributes to check.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check.
+Pointer to the <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check.
 
 ### -param dwFlags [in]
 
@@ -148,20 +148,19 @@ The character positions specified are beyond the text in the document.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  If an application does not implement <b>ITextStoreACP::FindNextAttrTransition</b>, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges">ITfReadOnlyProperty::EnumRanges</a> fails with E_FAIL.</div>
+<div class="alert"><b>Note</b>  If an application does not implement <b>ITextStoreACP::FindNextAttrTransition</b>, <a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges">ITfReadOnlyProperty::EnumRanges</a> fails with E_FAIL.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
+<a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
+<a href="/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
-

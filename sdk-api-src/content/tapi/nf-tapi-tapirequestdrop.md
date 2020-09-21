@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes a call request made by a previous call to <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapirequestmediacall">tapiRequestMediaCall</a>.
+Closes a call request made by a previous call to <a href="/windows/desktop/Tapi/tapirequestmediacall">tapiRequestMediaCall</a>.
 <div class="alert"><b>Note</b>  The tapiRequestDrop function is nonfunctional and obsolete for all classes of Windows-based applications. It should not be used.</div><div> </div>
 
 ## -parameters
@@ -69,9 +69,8 @@ The function is obsolete and will always return an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

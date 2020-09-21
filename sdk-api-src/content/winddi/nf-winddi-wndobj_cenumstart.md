@@ -56,15 +56,15 @@ The <b>WNDOBJ_cEnumStart</b> function is a callback function that sets parameter
 
 ### -param pwo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure created by a call to <a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
 
 ### -param iType
 
-Specifies the type of structures to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_benum">WNDOBJ_bEnum</a>. This parameter can be CT_RECTANGLES, meaning that the region is to be enumerated as a list of rectangles.
+Specifies the type of structures to be returned by <a href="/windows/desktop/api/winddi/nf-winddi-wndobj_benum">WNDOBJ_bEnum</a>. This parameter can be CT_RECTANGLES, meaning that the region is to be enumerated as a list of rectangles.
 
 ### -param iDirection
 
-Determines the order in which the rectangles are returned. This order can be essential when an overlapping <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> is being performed on the same surface. If the order is not relevant to the device driver, then CD_ANY should be specified. This allows GDI to optimize its enumeration for complex regions. This parameter can be one of the following values:
+Determines the order in which the rectangles are returned. This order can be essential when an overlapping <a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> is being performed on the same surface. If the order is not relevant to the device driver, then CD_ANY should be specified. This allows GDI to optimize its enumeration for complex regions. This parameter can be one of the following values:
 
 <table>
 <tr>
@@ -159,7 +159,7 @@ Enumeration can be restarted by calling this function again.
 
 <ul>
 <li>
-In the context of the driver callback function supplied to GDI in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a> function, or the graphics DDI functions where a WNDOBJ is given. 
+In the context of the driver callback function supplied to GDI in the <a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a> function, or the graphics DDI functions where a WNDOBJ is given. 
 
 </li>
 <li>
@@ -170,21 +170,20 @@ When the calling thread has the device lock to ensure that no client region chan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_benum">WNDOBJ_bEnum</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-wndobj_benum">WNDOBJ_bEnum</a>

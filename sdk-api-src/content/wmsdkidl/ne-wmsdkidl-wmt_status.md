@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WMT_STATUS</b> enumeration type defines a range of file status information. Members of <b>WMT_STATUS</b> are passed to the common callback function, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>, so that the application can respond to the changing status of the objects being used.
+The <b>WMT_STATUS</b> enumeration type defines a range of file status information. Members of <b>WMT_STATUS</b> are passed to the common callback function, <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>, so that the application can respond to the changing status of the objects being used.
 
 ## -enum-fields
 
@@ -96,7 +96,7 @@ A reporting object is connecting to server.
 
 ### -field WMT_NO_RIGHTS
 
-There is no <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license</a> and the content is protected by version 1 digital rights management.
+There is no <a href="/windows/desktop/wmformat/wmformat-glossary">license</a> and the content is protected by version 1 digital rights management.
 
 ### -field WMT_MISSING_CODEC
 
@@ -138,15 +138,15 @@ The reader has stopped saving a file from a server.
 
 ### -field WMT_NEW_SOURCEFLAGS
 
-The current file's header object contains certain attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo</a> interface to query for any of the following attributes in a new file: <a href="https://docs.microsoft.com/windows/desktop/wmformat/stridable">Stridable</a>, <a href="https://docs.microsoft.com/windows/desktop/wmformat/broadcast">Broadcast</a>, <a href="https://docs.microsoft.com/windows/desktop/wmformat/seekable">Seekable</a>, and <a href="https://docs.microsoft.com/windows/desktop/wmformat/hasimage">HasImage</a>.
+The current file's header object contains certain attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo</a> interface to query for any of the following attributes in a new file: <a href="/windows/desktop/wmformat/stridable">Stridable</a>, <a href="/windows/desktop/wmformat/broadcast">Broadcast</a>, <a href="/windows/desktop/wmformat/seekable">Seekable</a>, and <a href="/windows/desktop/wmformat/hasimage">HasImage</a>.
 
 ### -field WMT_NEW_METADATA
 
-The current file's header object contains metadata attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo</a> interface to query for any metadata attribute you are interested in.
+The current file's header object contains metadata attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo</a> interface to query for any metadata attribute you are interested in.
 
 ### -field WMT_BACKUPRESTORE_BEGIN
 
-A <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license</a> backup or restore has started.
+A <a href="/windows/desktop/wmformat/wmformat-glossary">license</a> backup or restore has started.
 
 ### -field WMT_SOURCE_SWITCH
 
@@ -154,11 +154,11 @@ The next source in the playlist was opened.
 
 ### -field WMT_ACQUIRE_LICENSE
 
-The <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> process has completed. The <i>pValue</i> parameter in <b>OnStatus</b> contains a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> structure. The <b>hr</b> member of this structure indicates whether the license was successfully acquired.
+The <a href="/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> process has completed. The <i>pValue</i> parameter in <b>OnStatus</b> contains a <a href="/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> structure. The <b>hr</b> member of this structure indicates whether the license was successfully acquired.
 
 ### -field WMT_INDIVIDUALIZE
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">Individualization</a> status message.
+<a href="/windows/desktop/wmformat/wmformat-glossary">Individualization</a> status message.
 
 ### -field WMT_NEEDS_INDIVIDUALIZATION
 
@@ -166,11 +166,11 @@ The file loaded in the reader object cannot be played without a security update.
 
 ### -field WMT_NO_RIGHTS_EX
 
-There is no <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license</a> and the content is protected by version 7 digital rights management.
+There is no <a href="/windows/desktop/wmformat/wmformat-glossary">license</a> and the content is protected by version 7 digital rights management.
 
 ### -field WMT_BACKUPRESTORE_END
 
-A <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license</a> backup or restore has finished.
+A <a href="/windows/desktop/wmformat/wmformat-glossary">license</a> backup or restore has finished.
 
 ### -field WMT_BACKUPRESTORE_CONNECTING
 
@@ -186,15 +186,15 @@ Error relating to the URL.
 
 ### -field WMT_RESTRICTED_LICENSE
 
-The backup restorer object cannot back up one or more <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">licenses</a> because the right has been disallowed by the content owner.
+The backup restorer object cannot back up one or more <a href="/windows/desktop/wmformat/wmformat-glossary">licenses</a> because the right has been disallowed by the content owner.
 
 ### -field WMT_CLIENT_CONNECT
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
 
 ### -field WMT_CLIENT_DISCONNECT
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
 
 ### -field WMT_NATIVE_OUTPUT_PROPS_CHANGED
 
@@ -210,11 +210,11 @@ End of automatic reconnection to a server.
 
 ### -field WMT_CLIENT_CONNECT_EX
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure.
 
 ### -field WMT_CLIENT_DISCONNECT_EX
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
 
 ### -field WMT_SET_FEC_SPAN
 
@@ -230,15 +230,15 @@ The reader is finished buffering.
 
 ### -field WMT_CLIENT_PROPERTIES
 
-Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
+Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
 
 ### -field WMT_LICENSEURL_SIGNATURE_STATE
 
-Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> URL is completely trusted.
+Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> URL is completely trusted.
 
 ### -field WMT_INIT_PLAYLIST_BURN
 
-Sent when the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">IWMReaderPlaylistBurn::InitPlaylistBurn</a> method returns.
+Sent when the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">IWMReaderPlaylistBurn::InitPlaylistBurn</a> method returns.
 
 ### -field WMT_TRANSCRYPTOR_INIT
 
@@ -262,7 +262,7 @@ Sent when the proximity detection protocol has finished.
 
 ### -field WMT_PROXIMITY_COMPLETED
 
-Sent when proximity detection thread has stopped running. The application must not release the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> interface until this message is received. Once launched, the thread runs for two minutes; there is no way to terminate the thread before two minutes have elapsed.
+Sent when proximity detection thread has stopped running. The application must not release the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> interface until this message is received. Once launched, the thread runs for two minutes; there is no way to terminate the thread before two minutes have elapsed.
 
 ### -field WMT_CONTENT_ENABLER
 
@@ -270,9 +270,8 @@ Sent when a content enabler is required.
 
 ## -remarks
 
-For more information on how this enumeration type is used, see the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
+For more information on how this enumeration type is used, see the Remarks section for the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

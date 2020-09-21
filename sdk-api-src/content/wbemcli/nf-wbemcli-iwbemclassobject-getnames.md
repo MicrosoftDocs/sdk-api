@@ -62,8 +62,8 @@ api_name:
 The <b>IWbemClassObject::GetNames</b> method 
    retrieves the names of the properties in the object. Furthermore, depending on user-supplied 
    selection criteria, it can retrieve all or a subset of the properties. These properties can then be accessed by 
-   using <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a> for each name. This 
-   method can also return <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
+   using <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a> for each name. This 
+   method can also return <a href="/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ A parameter that cannot be <b>NULL</b>, but on entry this parameter must point t
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -152,7 +152,7 @@ The flag values are bit fields, and can be combined. One flag from each of the f
 <tr>
 <td><b>WBEM_FLAG_SYSTEM_ONLY</b></td>
 <td>Return only 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.</td>
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.</td>
 </tr>
 <tr>
 <td><b>WBEM_FLAG_NONSYSTEM_ONLY</b></td>
@@ -166,19 +166,19 @@ It is not an error for an empty list to be returned in cases where no properties
 
 For more information about using <b>SAFEARRAY</b> structures of 
     <b>BSTR</b> values, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
+    <a href="/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a>
 
 
 
@@ -186,5 +186,4 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>

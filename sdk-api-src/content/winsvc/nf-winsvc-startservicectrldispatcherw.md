@@ -66,14 +66,14 @@ Connects the main thread of a service process to the service control manager, wh
 ### -param lpServiceStartTable [in]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structures containing one entry for each service that can execute in the calling process. The members of the last entry in the table must have NULL values to designate the end of the table.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structures containing one entry for each service that can execute in the calling process. The members of the last entry in the table must have NULL values to designate the end of the table.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error code can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -115,7 +115,7 @@ The specified dispatch table contains entries that are not in the proper format.
 </td>
 <td width="60%">
  The process has already called 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>. Each process can call 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>. Each process can call 
 <b>StartServiceCtrlDispatcher</b> only one time.
 
 </td>
@@ -127,29 +127,29 @@ The specified dispatch table contains entries that are not in the proper format.
 When the service control manager starts a service process, it waits for the process to call the 
 <b>StartServiceCtrlDispatcher</b> function. The main thread of a service process should make this call as soon as possible after it starts up (within 30 seconds). If 
 <b>StartServiceCtrlDispatcher</b> succeeds, it connects the calling thread to the service control manager and does not return until all running services in the process have entered the SERVICE_STOPPED state. The service control manager uses this connection to send control and service start requests to the main thread of the service process. The main thread acts as a dispatcher by invoking the appropriate 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function to handle control requests, or by creating a new thread to execute the appropriate 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function when a new service is started.
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function to handle control requests, or by creating a new thread to execute the appropriate 
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function when a new service is started.
 
 The <i>lpServiceTable</i> parameter contains an entry for each service that can run in the calling process. Each entry specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function for that service. For SERVICE_WIN32_SHARE_PROCESS services, each entry must contain the name of a service. This name is the service name that was specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function when the service was installed. For SERVICE_WIN32_OWN_PROCESS services, the service name in the table entry is ignored.
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function for that service. For SERVICE_WIN32_SHARE_PROCESS services, each entry must contain the name of a service. This name is the service name that was specified by the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function when the service was installed. For SERVICE_WIN32_OWN_PROCESS services, the service name in the table entry is ignored.
 
 If a service runs in its own process, the main thread of the service process should immediately call 
 <b>StartServiceCtrlDispatcher</b>. All initialization tasks are done in the service's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function when the service is started.
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function when the service is started.
 
 If multiple services share a process and some common process-wide initialization needs to be done before any 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function is called, the main thread can do the work before calling 
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function is called, the main thread can do the work before calling 
 <b>StartServiceCtrlDispatcher</b>, as long as it takes less than 30 seconds. Otherwise, another thread must be created to do the process-wide initialization, while the main thread calls 
 <b>StartServiceCtrlDispatcher</b> and becomes the service control dispatcher. Any service-specific initialization should still be done in the individual service main functions.
 
-Services should not attempt to display a user interface directly. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
+Services should not attempt to display a user interface directly. For more information, see <a href="/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/writing-a-service-program-s-main-function">Writing a Service Program's Main Function</a>.
+<a href="/windows/desktop/Services/writing-a-service-program-s-main-function">Writing a Service Program's Main Function</a>.
 
 <div class="code"></div>
 
@@ -161,25 +161,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-entry-point">Service Entry Point</a>
+<a href="/windows/desktop/Services/service-entry-point">Service Entry Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
-
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>

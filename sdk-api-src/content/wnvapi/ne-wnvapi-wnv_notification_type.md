@@ -77,5 +77,4 @@ The maximum possible value for this enumeration type. This is not a legal value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a>
-
+<a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a>

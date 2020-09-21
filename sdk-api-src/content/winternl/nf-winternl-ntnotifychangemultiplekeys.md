@@ -66,7 +66,7 @@ The number of subkeys under the key specified by the <i>MasterKeyHandle</i> para
 
 ### -param SubordinateObjects [in, optional]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a> structures, one for each subkey.   This array can contain one <b>OBJECT_ATTRIBUTES</b> structure.
+Pointer to an array of <a href="/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a> structures, one for each subkey.   This array can contain one <b>OBJECT_ATTRIBUTES</b> structure.
 
 ### -param Event [in, optional]
 
@@ -82,7 +82,7 @@ A pointer to a context supplied by the caller for its APC function. This value i
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to the <i>Buffer</i> parameter is supplied in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure.
+A pointer to an <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to the <i>Buffer</i> parameter is supplied in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure.
 
 ### -param CompletionFilter [in]
 
@@ -161,9 +161,8 @@ The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntst
 
 ## -remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
-
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>

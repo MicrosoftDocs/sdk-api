@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from the specified projection matrix.
+Creates a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from the specified projection matrix.
 
 ## -parameters
 
 ### -param Out [out, ref]
 
-The new [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+The new [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ### -param Projection [in]
 
-The left-handed projection matrix to create the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from.
+The left-handed projection matrix to create the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from.
 
 ## -returns
 
@@ -73,7 +73,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -82,4 +82,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

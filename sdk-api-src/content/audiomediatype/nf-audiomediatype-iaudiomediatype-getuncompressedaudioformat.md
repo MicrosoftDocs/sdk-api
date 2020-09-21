@@ -56,7 +56,7 @@ The <code>IAudioMediaType::GetUncompressedAudioFormat</code> returns information
 
 ### -param pUncompressedAudioFormat [out]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure.
+Specifies a pointer to an <a href="/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure.
 
 ## -returns
 
@@ -68,5 +68,4 @@ The information that is returned is useful for uncompressed formats. However, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
-
+<a href="/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>

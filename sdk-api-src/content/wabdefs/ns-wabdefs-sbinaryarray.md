@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a>.
+Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a>.
 
 ## -struct-fields
 
@@ -65,7 +65,6 @@ Variable of type <b>ULONG</b> that specifies the number of entry identifiers.
 
 ### -field lpbin
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
+Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
 
-Array of variables of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that specify the entry identifiers.
-
+Array of variables of type <a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that specify the entry identifiers.

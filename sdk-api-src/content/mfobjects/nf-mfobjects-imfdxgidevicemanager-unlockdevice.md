@@ -56,7 +56,7 @@ Unlocks the Microsoft Direct3D device.
 
 ### -param hDevice [in]
 
-A handle to the Direct3D device. To get the device handle, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a>.
+A handle to the Direct3D device. To get the device handle, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a>.
 
 ### -param fSaveState [in]
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
- Call this method to release the device after calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-lockdevice">IMFDXGIDeviceManager::LockDevice</a>.
+ Call this method to release the device after calling <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-lockdevice">IMFDXGIDeviceManager::LockDevice</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>

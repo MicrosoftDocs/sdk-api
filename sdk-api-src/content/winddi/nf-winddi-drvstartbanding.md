@@ -56,11 +56,11 @@ The <b>DrvStartBanding</b> function is called by GDI when it is ready to start s
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure, which identifies the banding surface.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure, which identifies the banding surface.
 
 ### -param pptl [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the first band.
+Caller-supplied pointer to a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the first band.
 
 ## -returns
 
@@ -68,21 +68,20 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 ## -remarks
 
-If a printer graphics DLL uses GDI-managed surfaces, and if it supports surface banding, it must provide a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> function. GDI calls <b>DrvStartBanding</b> only if the printer graphics DLL's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> function previously called <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a> to specify a banding surface.
+If a printer graphics DLL uses GDI-managed surfaces, and if it supports surface banding, it must provide a <a href="/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> function. GDI calls <b>DrvStartBanding</b> only if the printer graphics DLL's <a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> function previously called <a href="/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a> to specify a banding surface.
 
 The <b>DrvStartBanding</b> function's purpose is to allow the printer graphics DLL to perform any initializations needed before banding operations begin on a physical page, and to provide GDI with the indices of the first band's origin.
 
-The <b>DrvStartBanding</b> function is called once per page. Each time GDI has finished drawing a band, it calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> so the driver can send the band to the printer.
+The <b>DrvStartBanding</b> function is called once per page. Each time GDI has finished drawing a band, it calls <a href="/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> so the driver can send the band to the printer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>

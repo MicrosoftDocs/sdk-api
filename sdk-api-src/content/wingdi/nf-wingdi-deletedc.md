@@ -70,32 +70,31 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application must not delete a DC whose handle was obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function. Instead, it must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a> function to free the DC.
+An application must not delete a DC whose handle was obtained by calling the <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function. Instead, it must call the <a href="/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a> function to free the DC.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/retrieving-the-capabilities-of-a-printer">Retrieving the Capabilities of a Printer</a>.
+For an example, see <a href="/windows/desktop/gdi/retrieving-the-capabilities-of-a-printer">Retrieving the Capabilities of a Printer</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a>

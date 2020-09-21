@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the attributes of the set of items contained in an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>. If the array contains more than one item, the attributes retrieved by this method are not the attributes of single items, but a logical combination of all of the requested attributes of all of the items.
+Gets the attributes of the set of items contained in an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>. If the array contains more than one item, the attributes retrieved by this method are not the attributes of single items, but a logical combination of all of the requested attributes of all of the items.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets the attributes of the set of items contained in an <a href="https://docs.mi
 
 Type: <b>SIATTRIBFLAGS</b>
 
-If the array contains a single item, this method provides the same results as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes">GetAttributes</a>. However, if the array contains multiple items, the attribute sets of all the items are combined into a single attribute set and returned in the value pointed to by <i>psfgaoAttribs</i>. This parameter takes one of the following values to define how that final attribute set is determined:
+If the array contains a single item, this method provides the same results as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes">GetAttributes</a>. However, if the array contains multiple items, the attribute sets of all the items are combined into a single attribute set and returned in the value pointed to by <i>psfgaoAttribs</i>. This parameter takes one of the following values to define how that final attribute set is determined:
 
 
 
@@ -76,7 +76,7 @@ If the array contains a single item, this method provides the same results as <a
 
 #### SIATTRIBFLAGS_APPCOMPAT (0x00000003)
 
-0x00000003. Retrieve the attributes directly from the Shell data source. To use this value, the Shell item array must have been initialized as an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with its contents specified as an array of child PIDLs.
+0x00000003. Retrieve the attributes directly from the Shell data source. To use this value, the Shell item array must have been initialized as an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with its contents specified as an array of child PIDLs.
 
 
 
@@ -94,7 +94,7 @@ If the array contains a single item, this method provides the same results as <a
 
 Type: <b>SFGAOF</b>
 
-A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> values.
+A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="/windows/desktop/shell/sfgao">SFGAO</a> values.
 
 ### -param psfgaoAttribs [out]
 
@@ -113,4 +113,3 @@ Returns S_OK if the attributes returned exactly match those requested in <i>sfga
 The Shell item array caches individual attributes after they have been determined.
 
 As this method passes through the array gathering attribute information, it normally stops looking at a particular attribute after that value is irrevocably set. For instance, if the SIATTRIBFLAGS_AND flag is set, after an attribute is found not to be set on an item (a value of 0), there is no need to continue examining that attribute value on other items because the result of the AND operation will always be 0. Therefore, the final set of attributes is commonly calculated by looking at only the first few items in the array, which is all that is needed to obtain the final value. If you have a need to examine all items in the array, set the SIATTRIBFLAGS_ALLITEMS flag. However, be aware that this can slow the method's return considerably, so do not do so without cause.
-

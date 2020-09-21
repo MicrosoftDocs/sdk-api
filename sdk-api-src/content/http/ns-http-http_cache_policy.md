@@ -61,7 +61,7 @@ The
 
 ### -field Policy
 
-This parameter is one of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_CACHE_POLICY_TYPE</a> to control how an associated response or response fragment is cached.
+This parameter is one of the following values from the <a href="/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_CACHE_POLICY_TYPE</a> to control how an associated response or response fragment is cached.
 
 <table>
 <tr>
@@ -106,5 +106,4 @@ When the <b>Policy</b> member is equal to HttpCachePolicyTimeToLive, data is cac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>

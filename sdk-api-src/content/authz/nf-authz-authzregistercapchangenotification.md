@@ -56,7 +56,7 @@ The <b>AuthzRegisterCapChangeNotification</b> function registers a CAP update no
 
 ### -param phCapChangeSubscription [out]
 
-Pointer to the CAP change notification subscription handle. When you have finished using the handle, unsubscribe by passing this parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a> function.
+Pointer to the CAP change notification subscription handle. When you have finished using the handle, unsubscribe by passing this parameter to the <a href="/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a> function.
 
 ### -param pfnCapChangeCallback [in]
 
@@ -71,7 +71,7 @@ The context of the user to be passed to the callback function.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -79,13 +79,12 @@ This function is intended for applications that manually manage CAP usage to get
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/central-authorization-policies">Central Access Policies</a>
+<a href="/windows/desktop/SecAuthZ/central-authorization-policies">Central Access Policies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
-
+<a href="/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>

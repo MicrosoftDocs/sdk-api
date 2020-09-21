@@ -65,5 +65,4 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iregistertuner">IRegisterTuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iregistertuner">IRegisterTuner Interface</a>

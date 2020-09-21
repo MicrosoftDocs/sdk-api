@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 The values retrieved by this method are dependent upon the current CSP.
 
@@ -60,7 +60,7 @@ The values retrieved by this method are dependent upon the current CSP.
 
 ### -param pdwKeySpec [out]
 
-A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange</a> and/or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature keys</a>.
+A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="/windows/desktop/SecGloss/e-gly">exchange</a> and/or <a href="/windows/desktop/SecGloss/s-gly">signature keys</a>.
 
 ## -returns
 
@@ -77,5 +77,4 @@ Call this method to determine whether the current CSP supports exchange keys, si
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>

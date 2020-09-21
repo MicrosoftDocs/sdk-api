@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_PICTURE</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmpicture">WM/Picture</a> complex metadata attribute.
+The <b>WM_PICTURE</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wmpicture">WM/Picture</a> complex metadata attribute.
 
 ## -struct-fields
 
@@ -167,5 +167,4 @@ Pointer to a <b>BYTE</b> array containing the picture data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

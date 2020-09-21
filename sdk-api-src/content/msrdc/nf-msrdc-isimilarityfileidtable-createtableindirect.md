@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
- Creates or opens a similarity file ID table using the RDC application's implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilewriter">IRdcFileWriter</a> interface.
+ Creates or opens a similarity file ID table using the RDC application's implementation of the <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilewriter">IRdcFileWriter</a> interface.
 
 ## -parameters
 
 ### -param fileIdFile [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilewriter">IRdcFileWriter</a> interface pointer initialized to 
+An <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilewriter">IRdcFileWriter</a> interface pointer initialized to 
       write the file ID table to the file.
 
 ### -param truncate [in]
@@ -81,5 +81,4 @@ If an existing table is being opened, the table must be valid, and the value of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>

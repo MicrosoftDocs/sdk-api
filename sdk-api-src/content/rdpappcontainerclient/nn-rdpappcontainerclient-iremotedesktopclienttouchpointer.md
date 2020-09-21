@@ -57,7 +57,7 @@ Provides the properties needed to control the touch pointer feature of the Remot
 The touch pointer feature allows the Remote Desktop Protocol (RDP) app container client control to translate touch screen actions on the 
     client into equivalent mouse actions in the remote session. This feature is useful when the remote session is 
     running an operating system or application that is not optimized for touch screen. When the 
-    <a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclienttouchpointer-enabled">Enabled</a> property is set, the 
+    <a href="/windows/desktop/TermServ/iremotedesktopclienttouchpointer-enabled">Enabled</a> property is set, the 
     RDP app container client control will interpret certain touch gestures and translate them into mouse events in the 
     remote session. These translations make it easier for the user to simulate certain mouse actions that do not 
     readily translate to touch screen gestures, such as right-click and drag.
@@ -122,5 +122,4 @@ Right button click and hold
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>

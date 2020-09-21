@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>InternetGetCookieEx</b> function retrieves data stored in cookies associated with a specified URL. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>, <b>InternetGetCookieEx</b> can be used to  restrict data retrieved to a single cookie name or, by policy, associated with untrusted sites or third-party cookies.
+The <b>InternetGetCookieEx</b> function retrieves data stored in cookies associated with a specified URL. Unlike <a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>, <b>InternetGetCookieEx</b> can be used to  restrict data retrieved to a single cookie name or, by policy, associated with untrusted sites or third-party cookies.
 
 ## -parameters
 
@@ -136,7 +136,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 
 If the function fails, it returns <b>FALSE</b>. To get a specific error value, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If <b>NULL</b> is passed to <i>lpszCookieData</i>, the call will succeed and the function will not set <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
@@ -185,7 +185,7 @@ Returned if no cookied data as specified could be retrieved.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -196,25 +196,24 @@ Returned if no cookied data as specified could be retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
+<a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
+<a href="/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

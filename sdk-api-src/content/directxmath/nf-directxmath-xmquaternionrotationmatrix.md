@@ -64,7 +64,7 @@ Returns the rotation quaternion.
 
 ## -remarks
 
-This function only uses the upper 3x3 portion of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. Note if the input matrix contains scales, shears, or 
+This function only uses the upper 3x3 portion of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>. Note if the input matrix contains scales, shears, or 
     other non-rotation transformations in the upper 3x3 matrix, then the output of this function is ill-defined.
 
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 
@@ -75,5 +75,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>

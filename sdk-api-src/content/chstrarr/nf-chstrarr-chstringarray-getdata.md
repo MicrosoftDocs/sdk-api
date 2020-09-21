@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetData</b> method gains direct access to the elements in the array.
@@ -63,7 +63,7 @@ The <b>GetData</b> method gains direct access to the elements in the array.
 
 ## -returns
 
-If the <b>GetData</b> method is successful, it returns a pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> pointers.
+If the <b>GetData</b> method is successful, it returns a pointer to the array of <a href="/windows/desktop/WmiSdk/chstring">CHString</a> pointers.
 
 ## -remarks
 
@@ -73,25 +73,24 @@ Although direct access to the elements of an array can help you work more quickl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-elementat(int)">CHStringArray::ElementAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-elementat(int)">CHStringArray::ElementAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">CHStringArray::FreeExtra</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">CHStringArray::FreeExtra</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">CHStringArray::GetAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">CHStringArray::GetAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>
-
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>

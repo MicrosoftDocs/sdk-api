@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>
-
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>

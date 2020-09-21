@@ -58,7 +58,7 @@ The <b>IResultData::GetNextItem</b> method gets the next item in the result view
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be obtained. The <b>nIndex</b> member should be set to the index at which to start the search, or to –1 to start at the first item. The specified index is excluded from the search. The <b>nState</b> member should specify which state flags must be set on the returned item.
+<a href="/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be obtained. The <b>nIndex</b> member should be set to the index at which to start the search, or to –1 to start at the first item. The specified index is excluded from the search. The <b>nState</b> member should specify which state flags must be set on the returned item.
 
 The <b>nIndex</b> member will be updated to the index of the found item (or –1, if none is found). The <b>bScopeItem</b> and <b>lParam</b> members will be set according to the found item.
 
@@ -72,9 +72,8 @@ When applied to virtual lists, only the <b>LVIS_FOCUSED</b> and <b>LVIS_SELECTED
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>

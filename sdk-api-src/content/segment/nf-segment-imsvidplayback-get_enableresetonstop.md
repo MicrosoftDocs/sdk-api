@@ -110,9 +110,8 @@ The method succeeded.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">IMSVidPlayback::put_EnableResetOnStop</a>.
+For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">IMSVidPlayback::put_EnableResetOnStop</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>

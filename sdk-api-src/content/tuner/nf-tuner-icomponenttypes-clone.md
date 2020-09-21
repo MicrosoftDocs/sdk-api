@@ -56,7 +56,7 @@ The <b>Clone</b> method creates a new copy of the collection.
 
 ### -param NewList [out]
 
-Address of an <b>IComponentTypes</b> interface pointer that will be set to the new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componenttypes-object">ComponentTypes</a> object.
+Address of an <b>IComponentTypes</b> interface pointer that will be set to the new <a href="/previous-versions/windows/desktop/mstv/componenttypes-object">ComponentTypes</a> object.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes Interface</a>

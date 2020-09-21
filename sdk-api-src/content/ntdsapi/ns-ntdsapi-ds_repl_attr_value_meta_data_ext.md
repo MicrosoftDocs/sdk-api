@@ -64,7 +64,7 @@ The number of elements in the <b>rgMetaData</b> array.
 
 The zero-based index of the next entry to retrieve if more entries are available. This value is passed for 
       the <i>dwEnumerationContext</i> parameter in the next call to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> to retrieve the next block of 
+      <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> to retrieve the next block of 
       entries. If no more entries are available, this member contains -1.
 
 ### -field rgMetaData.size_is
@@ -73,19 +73,18 @@ The zero-based index of the next entry to retrieve if more entries are available
 
 ### -field rgMetaData
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
+An array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
       structures that contain the attribute replication  values. The <b>cNumEntries</b> member 
       contains the number of elements in this array.
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
+An array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
       structures that contain the attribute replication values. The <b>cNumEntries</b> member 
       contains the number of elements in this array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_info_type">DS_REPL_INFO_TYPE</a>
+<a href="/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_info_type">DS_REPL_INFO_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
-
+<a href="/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>

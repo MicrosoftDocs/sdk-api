@@ -56,7 +56,7 @@ Gets  the font's current Weight property.
 
 ### -param pWeight [out]
 
-A pointer to the caller-allocated variable that receives the current Weight property for the font. For a list of possible values, see the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
+A pointer to the caller-allocated variable that receives the current Weight property for the font. For a list of possible values, see the <b>lfWeight</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 ## -returns
 
@@ -93,9 +93,8 @@ The address in the <i>pWeight</i> parameter is not valid. For example, it may be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">IFont::put_Weight</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">IFont::put_Weight</a>

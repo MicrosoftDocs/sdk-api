@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>ExportSecurityContext</b> function creates a serialized representation of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> that can later be imported into a different process by calling  
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>. The process that imports the security context must be running on the same computer as the process that called <b>ExportSecurityContext</b>.
+The <b>ExportSecurityContext</b> function creates a serialized representation of a <a href="/windows/desktop/SecGloss/s-gly">security context</a> that can later be imported into a different process by calling  
+<a href="/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>. The process that imports the security context must be running on the same computer as the process that called <b>ExportSecurityContext</b>.
 
 ## -parameters
 
@@ -109,14 +109,14 @@ This value is not supported.
 
 ### -param pPackedContext [out]
 
-A pointer to a buffer of type <b>SECBUFFER_EMPTY</b> that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> security context. When you have finished using this context,  free it by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
+A pointer to a buffer of type <b>SECBUFFER_EMPTY</b> that receives the <a href="/windows/desktop/SecGloss/s-gly">serialized</a> security context. When you have finished using this context,  free it by calling the 
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 ### -param pToken [out, optional]
 
 A pointer to receive the handle of the context's token.
 
-When you have finished using the user token, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
+When you have finished using the user token, release the handle by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ## -returns
 
@@ -166,13 +166,12 @@ Schannel kernel mode does not support this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

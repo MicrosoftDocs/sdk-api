@@ -68,5 +68,4 @@ Developer Mode must be enabled for this interface to respond.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12tools">ID3D12Tools</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12tools">ID3D12Tools</a>

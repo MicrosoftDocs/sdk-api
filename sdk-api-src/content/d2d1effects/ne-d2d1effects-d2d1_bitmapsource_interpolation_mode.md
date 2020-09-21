@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The interpolation mode used to scale the image in the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
+The interpolation mode used to scale the image in the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
 
 ## -enum-fields
 
@@ -76,4 +76,3 @@ Generates mipmap chain in system memory using bilinear interpolation. For each m
           and then scales the remaining amount using linear interpolation.
 
 ### -field D2D1_BITMAPSOURCE_INTERPOLATION_MODE_FORCE_DWORD
-

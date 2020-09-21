@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxRecipients::Add</b> method adds a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection.
+The <b>IFaxRecipients::Add</b> method adds a new <a href="/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object to the <a href="/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a> collection.
 
 ## -parameters
 
@@ -68,9 +68,9 @@ Specifies the name of the fax recipient.
 
 ### -param ppFaxRecipient [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>**</b>
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object.
+A <a href="/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object.
 
 ## -returns
 
@@ -80,13 +80,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Broadcasting a Fax</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Broadcasting a Fax</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxrecipients">FaxRecipients</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipients">IFaxRecipients</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipients">IFaxRecipients</a>

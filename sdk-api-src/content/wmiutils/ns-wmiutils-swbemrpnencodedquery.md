@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SWbemRpnEncodedQuery</b> structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_RPN_SEQUENCE</b> analysis type. Not all  the fields in the structure are used actively, because some are reserved for future use.
+The <b>SWbemRpnEncodedQuery</b> structure contains information from the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_RPN_SEQUENCE</b> analysis type. Not all  the fields in the structure are used actively, because some are reserved for future use.
 
 ## -struct-fields
 
@@ -146,7 +146,7 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
@@ -155,4 +155,3 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
-

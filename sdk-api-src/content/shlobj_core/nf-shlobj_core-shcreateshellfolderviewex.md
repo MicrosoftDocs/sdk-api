@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates a new instance of the default Shell folder view object. It is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a> rather than this function.
+Creates a new instance of the default Shell folder view object. It is recommended that you use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a> rather than this function.
 
 ## -parameters
 
 ### -param pcsfv [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-csfv">CSFV</a>*</b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-csfv">CSFV</a>*</b>
 
 Pointer to a structure that describes the details used in creating this instance of the Shell folder view object.
 
 ### -param ppsv [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface pointer that, when this function returns successfully, points to the new view object. On failure, this value is <b>NULL</b>.
+The address of an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface pointer that, when this function returns successfully, points to the new view object. On failure, this value is <b>NULL</b>.
 
 ## -returns
 
@@ -74,11 +74,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a> is recommended over <b>SHCreateShellFolderViewEx</b> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a> is recommended over <b>SHCreateShellFolderViewEx</b> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
 
-When dealing with several instances of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object using IID_CDefView. This call succeeds only on the default Shell folder view object.
+When dealing with several instances of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object using IID_CDefView. This call succeeds only on the default Shell folder view object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>

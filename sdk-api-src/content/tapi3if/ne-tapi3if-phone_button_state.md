@@ -73,9 +73,8 @@ State of the button is not available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonstate">ITPhone::get_ButtonState</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonstate">ITPhone::get_ButtonState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_buttonstate">ITPhoneEvent::get_ButtonState</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_buttonstate">ITPhoneEvent::get_ButtonState</a>

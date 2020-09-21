@@ -77,7 +77,7 @@ DDKERNELCAPS_AUTOFLIP
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> and the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ DDKERNELCAPS_CAPTURE_INVERTED
 
 </td>
 <td>
-The device supports inverting the <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIBs</a> while capturing the data.
+The device supports inverting the <a href="/windows-hardware/drivers/">DIBs</a> while capturing the data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ DDKERNELCAPS_CAPTURE_NONLOCALVIDMEM
 
 </td>
 <td>
-The device supports a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
+The device supports a <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ DDKERNELCAPS_FLIPOVERLAY
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callback.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callback.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ DDKERNELCAPS_FLIPVIDEOPORT
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> callback.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> callback.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ DDKERNELCAPS_LOCK
 
 </td>
 <td>
-The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> callback.
+The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> callback.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ DDKERNELCAPS_SETSTATE
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ DDKERNELCAPS_SKIPFIELDS
 
 </td>
 <td>
-The device supports field skipping, either using hardware or by supporting the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a> callback.
+The device supports field skipping, either using hardware or by supporting the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a> callback.
 
 </td>
 </tr>
@@ -396,21 +396,20 @@ he device can generate V-sync IRQs for hardware video port number 9.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>

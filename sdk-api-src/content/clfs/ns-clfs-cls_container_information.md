@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes general information about a container.  The <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> functions use container descriptors to scan and return information  about all  Common Log File System (CLFS) containers.
+Describes general information about a container.  The <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> and <a href="/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> functions use container descriptors to scan and return information  about all  Common Log File System (CLFS) containers.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ The file system attributes. CLFS uses the following attributes:
 </li>
 <li>FILE_ATTRIBUTE_READONLY - The file is read-only. Applications can read the file, but cannot write to it or delete it.</li>
 </ul>
-CLFS ignores but preserves all other file attribute values. The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a> topic lists the valid values for attributes.
+CLFS ignores but preserves all other file attribute values. The <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a> topic lists the valid values for attributes.
 
 ### -field CreationTime
 
@@ -184,13 +184,12 @@ The logical container identifier that  changes every time the container is recyc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogcontainername">GetLogContainerName</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogcontainername">GetLogContainerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a>

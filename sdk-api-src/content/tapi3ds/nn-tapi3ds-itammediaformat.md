@@ -53,9 +53,9 @@ api_name:
 The 
 <b>ITAMMediaFormat</b> interface sets and gets DirectShow media format. The format is described using the 
 <b>AM_MEDIA_TYPE</b> structure. For more information on <b>AM_MEDIA_TYPE</b>, see the DirectX documentation. This interface is exposed on a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a> only if an MSP is involved in terminal creation and implements this interface. The 
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a> only if an MSP is involved in terminal creation and implements this interface. The 
 <b>ITAMMediaFormat</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
 
 On addresses where a variety of formats are supported (such as Wave MSP addresses, which are used on most modems and voice boards), this media format must be set or the terminal will not be able to connect.
 
@@ -63,7 +63,7 @@ For other addresses, such as those implemented over IP, the format may be fixed/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAMMediaFormat</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITAMMediaFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAMMediaFormat</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITAMMediaFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>ITAMMediaFormat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the media format.
@@ -87,7 +87,7 @@ Gets the media format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat">put_MediaFormat</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat">put_MediaFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the media format.
@@ -98,5 +98,4 @@ Sets the media format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

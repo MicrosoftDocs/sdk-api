@@ -60,61 +60,60 @@ The <b>PEER_GRAPH_EVENT_DATA</b> structure contains data associated with a peer 
 
 ### -field eventType
 
-The type of peer event this data corresponds to. Must be one of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a> values. The members that remain are given values based on the peer event type that has occurred.  Not all members contain data.
+The type of peer event this data corresponds to. Must be one of the <a href="/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a> values. The members that remain are given values based on the peer event type that has occurred.  Not all members contain data.
 
 ### -field dwStatus
 
-This member is given a value  if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_STATUS_CHANGE</a> peer event is triggered.  A change has been made in relation to a node's connection to the graph.
+This member is given a value  if the <a href="/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_STATUS_CHANGE</a> peer event is triggered.  A change has been made in relation to a node's connection to the graph.
 
 ### -field incomingData
 
-This member is given a value if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_GRAPH_INCOMING_DATA</a> peer event is triggered.  A node has received data from a neighbor or a direct connection.
+This member is given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_GRAPH_INCOMING_DATA</a> peer event is triggered.  A node has received data from a neighbor or a direct connection.
 
 ### -field recordChangeData
 
-This member given a value if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_GRAPH_EVENT_RECORD_CHANGE</a> peer event is triggered.  A record type the application asked for notifications of has changed.
+This member given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_GRAPH_EVENT_RECORD_CHANGE</a> peer event is triggered.  A record type the application asked for notifications of has changed.
 
 ### -field connectionChangeData
 
-This member is given a value if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</a> or <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> peer event is triggered.  An aspect of a neighbor or direct connection state has changed.
+This member is given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</a> or <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> peer event is triggered.  An aspect of a neighbor or direct connection state has changed.
 
 ### -field nodeChangeData
 
-This member is given a value if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_node_change_data">PEER_GRAPH_EVENT_NODE_CHANGED</a> peer event is triggered.  A node's presence state has changed.
+This member is given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_node_change_data">PEER_GRAPH_EVENT_NODE_CHANGED</a> peer event is triggered.  A node's presence state has changed.
 
 ### -field synchronizedData
 
-This member is given a value if the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_synchronized_data">PEER_GRAPH_EVENT_SYNCHRONIZED</a> peer event is triggered.  A record type has completed its synchronization.
+This member is given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_synchronized_data">PEER_GRAPH_EVENT_SYNCHRONIZED</a> peer event is triggered.  A record type has completed its synchronization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_EVENT_INCOMING_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data">PEER_EVENT_INCOMING_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_node_change_data">PEER_EVENT_NODE_CHANGE_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_node_change_data">PEER_EVENT_NODE_CHANGE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_EVENT_RECORD_CHANGE_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_EVENT_RECORD_CHANGE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_synchronized_data">PEER_EVENT_SYNCHRONIZED_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_synchronized_data">PEER_EVENT_SYNCHRONIZED_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a>
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags">PEER_GRAPH_STATUS_FLAGS</a>
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags">PEER_GRAPH_STATUS_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>

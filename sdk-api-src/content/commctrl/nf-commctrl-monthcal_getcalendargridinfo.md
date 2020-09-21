@@ -56,13 +56,12 @@ Gets information about a calendar grid.
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param pmcGridInfo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.
-
+Pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.

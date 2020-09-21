@@ -54,7 +54,7 @@ The <b>INetwork</b> interface represents a network on the local machine. It can 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetwork</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetwork</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetwork</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetwork</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetwork</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getcategory">GetCategory</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getcategory">GetCategory</a>
 </td>
 <td align="left" width="63%">
 Returns the category of a network.
@@ -79,7 +79,7 @@ Returns the category of a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getconnectivity">GetConnectivity</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getconnectivity">GetConnectivity</a>
 </td>
 <td align="left" width="63%">
 Returns the connectivity state of the network.
@@ -88,7 +88,7 @@ Returns the connectivity state of the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a description string for the network.
@@ -97,7 +97,7 @@ Returns a description string for the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getdomaintype">GetDomainType</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getdomaintype">GetDomainType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of network.
@@ -106,7 +106,7 @@ Returns the type of network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getname">GetName</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the network.
@@ -115,7 +115,7 @@ Returns the name of the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getnetworkconnections">GetNetworkConnections</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getnetworkconnections">GetNetworkConnections</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of all network connections for a network.
@@ -124,7 +124,7 @@ Returns an enumeration of all network connections for a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getnetworkid">GetNetworkId</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-getnetworkid">GetNetworkId</a>
 </td>
 <td align="left" width="63%">
 Returns the unique identifier of a network.
@@ -133,7 +133,7 @@ Returns the unique identifier of a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-gettimecreatedandconnected">GetTimeCreatedAndConnected</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-gettimecreatedandconnected">GetTimeCreatedAndConnected</a>
 </td>
 <td align="left" width="63%">
 Returns the local date and time when the network was created and connected.
@@ -142,7 +142,7 @@ Returns the local date and time when the network was created and connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setcategory">SetCategory</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setcategory">SetCategory</a>
 </td>
 <td align="left" width="63%">
 Sets the category of a network. Administrative privileges are needed for this API call.
@@ -151,7 +151,7 @@ Sets the category of a network. Administrative privileges are needed for this AP
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setdescription">SetDescription</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets a new description for the network.
@@ -160,7 +160,7 @@ Sets a new description for the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setname">SetName</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Sets or renames the network. This change occurs immediately.
@@ -178,7 +178,7 @@ Sets or renames the network. This change occurs immediately.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-get_isconnected">get_IsConnected</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-get_isconnected">get_IsConnected</a>
 
 
 </td>
@@ -194,7 +194,7 @@ Specifies if the network has any network connectivity.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-get_isconnectedtointernet">get_IsConnectedToInternet</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetwork-get_isconnectedtointernet">get_IsConnectedToInternet</a>
 
 
 </td>
@@ -211,7 +211,7 @@ Specifies if the network has internet connectivity.
 
 ## -remarks
 
-The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="https://msdn.microsoft.com/library/ms890661.aspx">QueryInterface</a> for <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
+The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="/previous-versions/windows/embedded/ms890661(v=msdn.10)">QueryInterface</a> for <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
 
 <table>
 <tr>
@@ -227,7 +227,7 @@ The COM Object that implements <b>INetwork</b> also implements a property bag fo
 <tr>
 <td>NA_NetworkClass</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_class">NLM_NETWORK_CLASS</a> value stored as VT_UINT </td>
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_class">NLM_NETWORK_CLASS</a> value stored as VT_UINT </td>
 <td>Specifies the class of network. Possible values include:<ul>
 <li>
 NLM_NETWORK_IDENTIFYING     (0x01)
@@ -260,7 +260,7 @@ NA_InternetConnectivityV6
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_internet_connectivity">NLM_INTERNET_CONNECTIVITY</a> value stored as VT_UINT</td>
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_internet_connectivity">NLM_INTERNET_CONNECTIVITY</a> value stored as VT_UINT</td>
 <td>
 Provides details regarding IPv4 or IPv6 network connectivity. Possible values include:<ul>
 <li>
@@ -334,5 +334,4 @@ The machine has been configured for Direct Access and access is detected to the 
 </table>
  
 
-The <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="https://msdn.microsoft.com/library/ms884257.aspx">IPropertyBag::Read</a> and <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.
-
+The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="/previous-versions/windows/embedded/ms884257(v=msdn.10)">IPropertyBag::Read</a> and <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.

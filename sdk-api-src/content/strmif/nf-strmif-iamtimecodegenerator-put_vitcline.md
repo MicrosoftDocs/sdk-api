@@ -71,13 +71,12 @@ Set the high bit to add to this line to any previously set lines.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">IAMTimecodeGenerator::get_VITCLine</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">IAMTimecodeGenerator::get_VITCLine</a>

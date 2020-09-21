@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
+The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ Pointer to a wide-character string. Note that the strings returned by the variou
 ### -field Buffer.length_is
 
 ### -field Buffer.length_is.Length/2
-

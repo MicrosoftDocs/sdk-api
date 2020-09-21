@@ -98,25 +98,24 @@ Value: 0xC0AAB142
 
 ## -remarks
 
-If the size of the newly assigned boot image is either 1.2, 1.44. or 2.88 MB, this method will automatically adjust the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> value to the respective "floppy" type value.   It is, however, possible to  override the default or previously assigned <b>EmulationType</b> value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">IBootOptions::put_Emulation</a> method.
+If the size of the newly assigned boot image is either 1.2, 1.44. or 2.88 MB, this method will automatically adjust the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> value to the respective "floppy" type value.   It is, however, possible to  override the default or previously assigned <b>EmulationType</b> value by calling the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">IBootOptions::put_Emulation</a> method.
 
-The additional specification of the platform on which to use the boot image requires the call to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a> method.
+The additional specification of the platform on which to use the boot image requires the call to the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a> method.
 
 IMAPI does not include any boot images; developers must provide their own boot images.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage">IBootOptions::get_BootImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage">IBootOptions::get_BootImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a>

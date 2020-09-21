@@ -98,5 +98,4 @@ The <b>D3D10_SHADER_DEBUG_SCOPETYPE</b> enumeration is used to specify scope typ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-enums">Shader Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-enums">Shader Enumerations</a>

@@ -70,30 +70,29 @@ If the function fails, the return value is less than or equal to zero.
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The system disables the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a> function between calls to the <b>StartPage</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> functions. This means that you cannot change the device mode except at page boundaries. After calling <b>EndPage</b>, you can call <b>ResetDC</b> to change the device mode, if necessary. Note that a call to <b>ResetDC</b> resets all device context attributes back to default values.
+The system disables the <a href="/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a> function between calls to the <b>StartPage</b> and <a href="/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> functions. This means that you cannot change the device mode except at page boundaries. After calling <b>EndPage</b>, you can call <b>ResetDC</b> to change the device mode, if necessary. Note that a call to <b>ResetDC</b> resets all device context attributes back to default values.
 
-Neither <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> nor <b>StartPage</b> resets the device context attributes. Device context attributes remain constant across subsequent pages. You do not need to re-select objects and set up the mapping mode again before printing the next page; however, doing so will produce the same results and reduce code differences between versions of Windows.
+Neither <a href="/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> nor <b>StartPage</b> resets the device context attributes. Device context attributes remain constant across subsequent pages. You do not need to re-select objects and set up the mapping mode again before printing the next page; however, doing so will produce the same results and reduce code differences between versions of Windows.
 
 
 #### Examples
 
-For a sample program that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/how-to--print-using-the-gdi-print-api">How To: Print Using the GDI Print API</a>.
+For a sample program that uses this function, see <a href="/windows/desktop/printdocs/how-to--print-using-the-gdi-print-api">How To: Print Using the GDI Print API</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a>

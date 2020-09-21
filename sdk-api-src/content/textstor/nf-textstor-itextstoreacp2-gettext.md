@@ -76,7 +76,7 @@ Receives the number of characters copied into the plain text buffer. This parame
 
 ### -param prgRunInfo [out]
 
-Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO</a> structures. May be <b>NULL</b> only if <i>cRunInfoReq</i> = 0.
+Receives an array of <a href="/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO</a> structures. May be <b>NULL</b> only if <i>cRunInfoReq</i> = 0.
 
 ### -param cRunInfoReq [in]
 
@@ -136,7 +136,7 @@ The caller does not have a read-only lock on the document.
 
 ## -remarks
 
-Callers that use this method must have a read-only lock on the document by calling the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-requestlock">RequestLock</a> method. Without a read-only lock, the method fails and returns <a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_NOLOCK</a>.
+Callers that use this method must have a read-only lock on the document by calling the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-requestlock">RequestLock</a> method. Without a read-only lock, the method fails and returns <a href="/windows/desktop/TSF/manager-return-values">TF_E_NOLOCK</a>.
 
 Applications can also truncate the method return values for internal reasons. Callers should carefully examine the return characters and text run counts to get the required return values. If the return values are incomplete, repeatedly call the method until the return values are complete.
 
@@ -148,18 +148,17 @@ On exit, <i>pacpNext</i> should be set to the character position of the next cha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">Manager Return Values</a>
+<a href="/windows/desktop/TSF/manager-return-values">Manager Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-requestlock">RequestLock</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-requestlock">RequestLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO
       </a>
-

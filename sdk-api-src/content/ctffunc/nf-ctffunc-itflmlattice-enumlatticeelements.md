@@ -60,11 +60,11 @@ Specifies the offset, in 100-nanosecond units, relative to the start of the phra
 
 ### -param rguidType [in]
 
-Specifies the lattice type identifier. This can be one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/lattice-types">Lattice Type</a> values.
+Specifies the lattice type identifier. This can be one of the <a href="/windows/desktop/TSF/lattice-types">Lattice Type</a> values.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements</a> interface pointer that receives the enumerator object.
 
 ## -returns
 
@@ -123,15 +123,14 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itflmlattice">ITfLMLattice</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itflmlattice">ITfLMLattice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/lattice-types">Lattice Types
+<a href="/windows/desktop/TSF/lattice-types">Lattice Types
       </a>
-

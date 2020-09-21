@@ -54,7 +54,7 @@ Exposes methods to create a new Internet shortcut.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewShortcutHook</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewShortcutHook</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewShortcutHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewShortcutHook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INewShortcutHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getextension">GetExtension</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getextension">GetExtension</a>
 </td>
 <td align="left" width="63%">
 Gets the file name extension for the shortcut object.
@@ -78,7 +78,7 @@ Gets the file name extension for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getfolder">GetFolder</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets the folder name for the shortcut object.
@@ -87,7 +87,7 @@ Gets the folder name for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getname">GetName</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the file name of the shortcut object, without the extension.
@@ -96,7 +96,7 @@ Gets the file name of the shortcut object, without the extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getreferent">GetReferent</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getreferent">GetReferent</a>
 </td>
 <td align="left" width="63%">
 Gets the referent of the shortcut object.
@@ -105,7 +105,7 @@ Gets the referent of the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setfolder">SetFolder</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setfolder">SetFolder</a>
 </td>
 <td align="left" width="63%">
 Sets the folder name for the shortcut object.
@@ -114,7 +114,7 @@ Sets the folder name for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setreferent">SetReferent</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setreferent">SetReferent</a>
 </td>
 <td align="left" width="63%">
 Sets the referent of the shortcut object.
@@ -129,11 +129,10 @@ You do not typically implement <b>INewShortcutHook</b>. It is implemented by the
 
 You use <b>INewShortcutHook</b> when creating a new Internet shortcut. The methods provided by this interface are supplied as a convenience.
 
-<b>INewShortcutHook</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed methods are specific to <b>INewShortcutHook</b>.
+<b>INewShortcutHook</b> is derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed methods are specific to <b>INewShortcutHook</b>.
 
 
 
 
 > [!NOTE]
 > The shlobj.h header defines INewShortcutHook as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

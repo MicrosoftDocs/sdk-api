@@ -84,5 +84,4 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error code otherwise. Poss
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
-
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>

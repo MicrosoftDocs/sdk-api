@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of 
    a disk extent.
@@ -67,7 +67,7 @@ The GUID of the disk.
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
+A <a href="/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
 
 ### -field ullOffset
 
@@ -98,9 +98,9 @@ The <i>volumeId</i>, <i>plexId</i>, and
     unless the volume is striped or striped with parity (RAID-5). An extent can also be unallocated or free.
    
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">IVdsDisk::QueryExtents</a> method returns this 
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">IVdsDisk::QueryExtents</a> method returns this 
     structure to report the property details of a disk extent. Likewise, the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-queryextents">IVdsVolumePlex::QueryExtents</a> method 
+    <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-queryextents">IVdsVolumePlex::QueryExtents</a> method 
     returns it to report the details of the disk extents allocated to a plex.
 
 A disk extent is a contiguous set of blocks on a single disk or LUN handled by a software provider. A drive 
@@ -108,21 +108,20 @@ A disk extent is a contiguous set of blocks on a single disk or LUN handled by a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
+<a href="/windows/desktop/VDS/disk-object">Disk Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">IVdsDisk::QueryExtents</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">IVdsDisk::QueryExtents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-queryextents">IVdsVolumePlex::QueryExtents</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-queryextents">IVdsVolumePlex::QueryExtents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a>
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a>

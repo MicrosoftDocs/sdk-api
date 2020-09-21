@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Contains the starting VCN to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
 
 ## -struct-fields
 
@@ -63,9 +63,8 @@ the operation will begin enumerating extents in the file. This value may be roun
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364407(v=vs.85)">Defragmentation</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364407(v=vs.85)">Defragmentation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>

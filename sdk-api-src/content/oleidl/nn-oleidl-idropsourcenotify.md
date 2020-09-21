@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IDropSourceNotify</b> interface is implemented on an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a> object to receive notifications from OLE when a user drags the mouse into or out of a potential drop target window.
+The <b>IDropSourceNotify</b> interface is implemented on an <a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a> object to receive notifications from OLE when a user drags the mouse into or out of a potential drop target window.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSourceNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropSourceNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSourceNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropSourceNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDropSourceNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragentertarget">DragEnterTarget</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragentertarget">DragEnterTarget</a>
 </td>
 <td align="left" width="63%">
 OLE calls this method when the user drags the mouse cursor into a potential drop target window.
@@ -78,7 +78,7 @@ OLE calls this method when the user drags the mouse cursor into a potential drop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragleavetarget">DragLeaveTarget</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragleavetarget">DragLeaveTarget</a>
 </td>
 <td align="left" width="63%">
 OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
@@ -89,9 +89,8 @@ OLE calls this method when the user drags the mouse cursor out of a potential dr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>

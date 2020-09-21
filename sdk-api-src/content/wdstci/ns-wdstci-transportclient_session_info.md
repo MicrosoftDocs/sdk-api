@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstartex">PFN_WdsTransportClientSessionStartEx</a> callback function.
+This structure is used by the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstartex">PFN_WdsTransportClientSessionStartEx</a> callback function.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The size of the file, in bytes.
 ### -field ulBlockSize
 
 The size of a receive block, in bytes.
-

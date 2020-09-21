@@ -57,7 +57,7 @@ Cancels a registration to receive notification when the system is suspended or r
 
 ### -param RegistrationHandle [in, out]
 
-A handle to a registration obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a> function.
+A handle to a registration obtained by calling the <a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a> function.
 
 ## -returns
 
@@ -65,5 +65,4 @@ Returns ERROR_SUCCESS (zero) if the call was successful, and a nonzero value if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure defines a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key value.  The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
+The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure defines a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key value.  The <b>CRYPT_XML_KEY_DSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
 
 ## -struct-fields
 
@@ -83,4 +83,3 @@ The seed value, in big-endian format.
 ### -field Counter
 
 The count value, in big-endian format.
-

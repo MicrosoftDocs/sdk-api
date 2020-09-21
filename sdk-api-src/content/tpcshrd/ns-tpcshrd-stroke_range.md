@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies a range of strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Specifies a range of strokes in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ Index of the first stroke in the range, inclusive.
 ### -field iStrokeEnd
 
 Index of the last stroke in the range, inclusive.
-

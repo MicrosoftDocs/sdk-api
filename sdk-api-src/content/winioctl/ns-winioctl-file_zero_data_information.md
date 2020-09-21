@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a> control code
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a> control code
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
-
+<a href="/windows/desktop/FileIO/sparse-files">Sparse Files</a>

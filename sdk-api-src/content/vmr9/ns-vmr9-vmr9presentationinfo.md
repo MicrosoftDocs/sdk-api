@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenter9-presentimage">IVMRImagePresenter9::PresentImage</a> method.
+The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenter9-presentimage">IVMRImagePresenter9::PresentImage</a> method.
 
 ## -struct-fields
 
 ### -field dwFlags
 
-Contains a bitwise combintation of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9presentationflags">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
+Contains a bitwise combintation of flags from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9presentationflags">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
 
 ### -field lpSurf
 
@@ -94,5 +94,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

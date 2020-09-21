@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PeerCollabUnsubscribeEndpointData</b> function  removes a  subscription to an endpoint created with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>.
+The <b>PeerCollabUnsubscribeEndpointData</b> function  removes a  subscription to an endpoint created with <a href="/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>.
 
 ## -parameters
 
 ### -param pcEndpoint [in]
 
-Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint) structure that contains the peer endpoint that is used to remove the subscription.
+Pointer to a [PEER_ENDPOINT](./ns-p2p-peer_endpoint.md) structure that contains the peer endpoint that is used to remove the subscription.
 
 ## -returns
 
@@ -110,5 +110,4 @@ The <b>PeerCollabUnsubscribeEndpointData</b> function will timeout at 30 seconds
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>

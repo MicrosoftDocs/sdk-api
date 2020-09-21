@@ -57,7 +57,7 @@ Returns the display properties currently set on the text ink object (tInk).
 
 ### -param pim [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure that stores the display properties of the text ink object.
+A pointer to an <a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure that stores the display properties of the text ink object.
 
 ## -returns
 
@@ -94,17 +94,16 @@ The <i>pim</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
+<a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>

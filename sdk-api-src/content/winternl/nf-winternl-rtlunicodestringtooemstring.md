@@ -56,11 +56,11 @@ Converts the specified Unicode source string into an OEM string. The translation
 
 ### -param DestinationString [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
+A pointer to an <a href="/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 ### -param SourceString [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that is to be
+A pointer to an <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that is to be
         converted to OEM.
 
 ### -param AllocateDestinationString [in]
@@ -72,7 +72,7 @@ Controls allocation of the buffer space for the destination
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
 
 
 
@@ -105,4 +105,3 @@ The Unicode string was converted to OEM. Otherwise, no storage was allocated, an
 ## -remarks
 
 This routine allocates a buffer for the <i>DestinationString</i> only.
-

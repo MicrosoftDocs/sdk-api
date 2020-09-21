@@ -58,11 +58,10 @@ Removes data collected during a namespace walk.
 
 Type: <b>HRESULT</b>
 
-The results of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">Walk</a>.
+The results of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">Walk</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-

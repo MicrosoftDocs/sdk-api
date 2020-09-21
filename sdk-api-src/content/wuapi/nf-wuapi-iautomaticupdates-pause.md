@@ -124,7 +124,7 @@ Automatic Updates is paused.
 You cannot search for updates if the following conditions are true:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
+<li>The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>.</li>
 <li>The managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.</li>
 </ul>
 </td>
@@ -136,7 +136,7 @@ You cannot search for updates if the following conditions are true:
 This method requires administrator permissions.
 
 Automatic Updates can be paused for only eight hours.  This limit  varies in different binary versions. 
-    Callers should call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a> method after 
+    Callers should call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a> method after 
     calling <b>Pause</b> as soon as they no longer need to 
     pause automatic updating.
 
@@ -148,9 +148,8 @@ This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">IAutomaticUpdates.Resume</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">IAutomaticUpdates.Resume</a>

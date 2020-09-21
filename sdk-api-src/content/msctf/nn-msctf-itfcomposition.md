@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfComposition</b> interface is implemented by the TSF manager and is used by a text service to obtain data about and terminate a <a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">composition</a>. An instance of this interface is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition</a> method.
+The <b>ITfComposition</b> interface is implemented by the TSF manager and is used by a text service to obtain data about and terminate a <a href="/windows/desktop/TSF/compositions">composition</a>. An instance of this interface is provided by the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfComposition</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfComposition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfComposition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfComposition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">EndComposition</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">EndComposition</a>
 </td>
 <td align="left" width="63%">
 Terminates a composition.
@@ -78,7 +78,7 @@ Terminates a composition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-getrange">GetRange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-getrange">GetRange</a>
 </td>
 <td align="left" width="63%">
 Obtains a range object that contains the text covered by the composition.
@@ -87,7 +87,7 @@ Obtains a range object that contains the text covered by the composition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftend">ShiftEnd</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftend">ShiftEnd</a>
 </td>
 <td align="left" width="63%">
 Moves the end anchor of a composition.
@@ -96,7 +96,7 @@ Moves the end anchor of a composition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftstart">ShiftStart</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftstart">ShiftStart</a>
 </td>
 <td align="left" width="63%">
 Moves the start anchor of a composition.
@@ -107,14 +107,13 @@ Moves the start anchor of a composition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
+<a href="/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -138,32 +138,31 @@ An application-specific pointer that is passed back to the callback function.
 
 ## -returns
 
-This function returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+This function returns one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Verifier.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Verifier.dll.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/windows/desktop/DevNotes/using-resource-enumeration">Using Resource Enumeration</a>.
+See <a href="/windows/desktop/DevNotes/using-resource-enumeration">Using Resource Enumeration</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback">AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK</a>
+<a href="/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback">AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_heapallocation_enumerate_callback">AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK</a>
+<a href="/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_heapallocation_enumerate_callback">AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_resource_enumerate_callback">AVRF_RESOURCE_ENUMERATE_CALLBACK</a>
+<a href="/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_resource_enumerate_callback">AVRF_RESOURCE_ENUMERATE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
-
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>

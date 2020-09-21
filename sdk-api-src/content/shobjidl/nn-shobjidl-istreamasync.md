@@ -54,7 +54,7 @@ Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamAsync</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IStreamAsync</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamAsync</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IStreamAsync</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-cancelio">CancelIo</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-cancelio">CancelIo</a>
 </td>
 <td align="left" width="63%">
 Marks all pending input/output (I/O) operations as canceled.
@@ -78,7 +78,7 @@ Marks all pending input/output (I/O) operations as canceled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-overlappedresult">OverlappedResult</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-overlappedresult">OverlappedResult</a>
 </td>
 <td align="left" width="63%">
 Retrieves the results of an overlapped operation.
@@ -87,7 +87,7 @@ Retrieves the results of an overlapped operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-readasync">ReadAsync</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-readasync">ReadAsync</a>
 </td>
 <td align="left" width="63%">
 Reads information from a stream asynchronously. For example, the Shell implements this interface on file items when transferring them asynchronously.
@@ -96,7 +96,7 @@ Reads information from a stream asynchronously. For example, the Shell implement
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-writeasync">WriteAsync</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-writeasync">WriteAsync</a>
 </td>
 <td align="left" width="63%">
 Writes information to a stream asynchronously. For example, the Shell implements this method on file items when transferring them asynchronously.
@@ -104,4 +104,3 @@ Writes information to a stream asynchronously. For example, the Shell implements
 </td>
 </tr>
 </table>
-

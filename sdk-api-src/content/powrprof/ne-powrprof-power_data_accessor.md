@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Enumeration values used by <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> 
-    and <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>.
+Enumeration values used by <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> 
+    and <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>.
 
 ## -enum-fields
 
 ### -field ACCESS_AC_POWER_SETTING_INDEX
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
+Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for AC power settings.
 
 ### -field ACCESS_DC_POWER_SETTING_INDEX
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
+Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for DC power settings.
 
 ### -field ACCESS_FRIENDLY_NAME
@@ -100,28 +100,28 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-po
 ### -field ACCESS_SCHEME
 
 Used to enumerate power schemes with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> and with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to check for 
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> and with 
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to check for 
       restricted access to specific power schemes.
 
 ### -field ACCESS_SUBGROUP
 
 Used to enumerate subgroups with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
 
 ### -field ACCESS_INDIVIDUAL_SETTING
 
 Used to enumerate individual power settings with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>.
 
 ### -field ACCESS_ACTIVE_SCHEME
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
+Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for active power schemes.
 
 ### -field ACCESS_CREATE_SCHEME
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
+Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for restricted access for creating power schemes.
 
 ### -field ACCESS_AC_POWER_SETTING_MAX
@@ -140,13 +140,12 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-po
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
+<a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>

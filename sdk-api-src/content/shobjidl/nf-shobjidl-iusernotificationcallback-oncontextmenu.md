@@ -56,9 +56,9 @@ Called when the user right-clicks (or presses SHIFT+F10) the icon in the notific
 
 ### -param pt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-When returned by the method, takes a pointer to the <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure at the position of the mouse in the screen space where the click occurred.
+When returned by the method, takes a pointer to the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure at the position of the mouse in the screen space where the click occurred.
 
 In the case where user presses SHIFT+F10, the pointer points to the center of the icon in the screen space.
 
@@ -67,4 +67,3 @@ In the case where user presses SHIFT+F10, the pointer points to the center of th
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

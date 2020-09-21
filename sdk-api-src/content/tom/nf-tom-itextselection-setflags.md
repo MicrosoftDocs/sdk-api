@@ -116,7 +116,7 @@ selection.Flags = tomSelStartActive + tomSelAtEOL
 
 
 The 
-				Flags property is useful because an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object can select itself. With <b>SetFlags</b>, you can change the active end from the default value of End, select the caret position for an ambiguous 
+				Flags property is useful because an <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object can select itself. With <b>SetFlags</b>, you can change the active end from the default value of End, select the caret position for an ambiguous 
 				character position, or change the Insert/Overtype mode.
 
 ## -see-also
@@ -125,15 +125,15 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-getflags">GetFlags</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-getflags">GetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
@@ -141,5 +141,4 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

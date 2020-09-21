@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the alpha mode of the output of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
+Specifies the alpha mode of the output of the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The effect output uses premultiplied alpha.
 The effect output uses straight alpha.
 
 ### -field D2D1_BITMAPSOURCE_ALPHA_MODE_FORCE_DWORD
-

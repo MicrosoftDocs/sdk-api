@@ -54,9 +54,9 @@ api_name:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Qualifies the filter conditions used for searching for function instances. This enumeration is used when adding a constraint to a query using the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">IFunctionInstanceCollectionQuery::AddPropertyConstraint</a> method.
+Qualifies the filter conditions used for searching for function instances. This enumeration is used when adding a constraint to a query using the <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">IFunctionInstanceCollectionQuery::AddPropertyConstraint</a> method.
 
-A function instance will only match a property constraint when the property key (PKEY) passed to  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">AddPropertyConstraint</a> has the same PROPVARIANT type as the PKEY in the function instance's property store and the PROPVARIANT value satisfies the constraint's filter conditions.
+A function instance will only match a property constraint when the property key (PKEY) passed to  <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">AddPropertyConstraint</a> has the same PROPVARIANT type as the PKEY in the function instance's property store and the PROPVARIANT value satisfies the constraint's filter conditions.
 
 ## -enum-fields
 
@@ -106,5 +106,4 @@ For PROPVARIANTs of type VT_VECTOR|VT_LPWSTR, the constraint PKEY value must hav
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">IFunctionInstanceCollectionQuery::AddPropertyConstraint</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">IFunctionInstanceCollectionQuery::AddPropertyConstraint</a>

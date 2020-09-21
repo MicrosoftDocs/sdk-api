@@ -54,8 +54,8 @@ api_name:
 
 The 
 MMC_CONTROL_TYPE enumeration defines the kinds of controls that can appear in the control bar. The values can be used in the nType parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">IControlbar::Attach</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">IControlbar::Create</a> methods.
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">IControlbar::Attach</a> and 
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">IControlbar::Create</a> methods.
 
 ## -enum-fields
 
@@ -73,9 +73,8 @@ Not implemented at this time. This is a standard Win32 combo box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">IControlbar::Attach</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">IControlbar::Attach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">IControlbar::Create</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">IControlbar::Create</a>

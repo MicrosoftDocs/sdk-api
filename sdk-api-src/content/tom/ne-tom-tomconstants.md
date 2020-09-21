@@ -58,19 +58,19 @@ Defines values that are used with the Text Object Model (TOM) API.
 
 ### -field tomFalse
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates false.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates false.
 
 ### -field tomTrue
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates true.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates true.
 
 ### -field tomUndefined
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="/windows/desktop/gdi/colorref">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
 
 ### -field tomToggle
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that toggles the state of a property.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that toggles the state of a property.
 
 ### -field tomAutoColor
 
@@ -446,7 +446,7 @@ List is ordered with uppercase Roman letters (I, II, III, ...).
 
 ### -field tomListNumberAsSequence
 
-The value returned by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getliststart">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
+The value returned by <a href="/windows/desktop/api/tom/nf-tom-itextpara-getliststart">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
 
 ### -field tomListNumberedCircle
 
@@ -1428,11 +1428,11 @@ Alternative orientation.
 
 ### -field tomNoIME
 
-Disables the IME operation (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
+Disables the IME operation (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
 
 ### -field tomSelfIME
 
-Directs the rich edit control to allow the application to handle all IME operations (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>).
+Directs the rich edit control to allow the application to handle all IME operations (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>).
 
 ### -field tomNoUpScroll
 
@@ -1732,7 +1732,7 @@ Don't include math zone brackets.
 
 ### -field tomConvertMathChar
 
-Convert to or from math italic and/or math bold according to the status of italic and bold retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-geteffects">ITextFont2::GetEffects</a> method.
+Convert to or from math italic and/or math bold according to the status of italic and bold retrieved by the <a href="/windows/desktop/api/tom/nf-tom-itextfont2-geteffects">ITextFont2::GetEffects</a> method.
 
 ### -field tomNoUCGreekItalic
 
@@ -2295,7 +2295,7 @@ Alignment properties for a math paragraph.
 
 ### -field tomDocMathBuild
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setproperty">ITextDocument2::SetProperty</a> method to set any combination of <b>tomMathAutoCorrect</b>, <b>tomTeX</b>, or <b>tomMathAlphabetics</b>.
+Used with the <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setproperty">ITextDocument2::SetProperty</a> method to set any combination of <b>tomMathAutoCorrect</b>, <b>tomTeX</b>, or <b>tomMathAlphabetics</b>.
 
 ### -field tomMathLMargin
 
@@ -2672,4 +2672,3 @@ Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can hav
 #### - tomUseOperandPrec
 
 Use operand precedence.
-

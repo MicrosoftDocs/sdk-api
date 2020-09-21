@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>get_InputType</code> method retrieves the input type set in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-put_inputtype">IAMTVTuner::put_InputType</a>.
+The <code>get_InputType</code> method retrieves the input type set in <a href="/windows/desktop/api/strmif/nf-strmif-iamtvtuner-put_inputtype">IAMTVTuner::put_InputType</a>.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Index value that specifies the input pin that will be set.
 
 ### -param pInputType [out]
 
-Pointer to a variable the receives a member of the [TunerInputType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
+Pointer to a variable the receives a member of the [TunerInputType](/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

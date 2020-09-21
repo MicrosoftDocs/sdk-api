@@ -53,14 +53,14 @@ api_name:
 The 
 <i>LPM_AdmitRsvpMsg</i> function is called by the PCM to pass RSVP messages to the LPM for policy based–admission control decisions. Results from calling 
 <i>LPM_AdmitRsvpMsg</i> can be passed back to the PCM either synchronously or asynchronously by setting the return value appropriately. Asynchronous results should be returned by calling the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
 
 ## -parameters
 
 ### -param PcmReqHandle [in]
 
 Unique handle that identifies this request from all other requests. LPMs must pass this handle to the PCM when returning results asynchronously for an individual request by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>. The <i>PcmReqHandle</i> parameter becomes invalid once results are returned, requiring each request to get its own unique <i>PcmReqHandle</i> from the PCM.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>. The <i>PcmReqHandle</i> parameter becomes invalid once results are returned, requiring each request to get its own unique <i>PcmReqHandle</i> from the PCM.
 
 ### -param pRecvdIntf [in]
 
@@ -195,7 +195,7 @@ Note that LPMs do not need to set this flag when a new PATH message is being acc
 ### -param pPolicyDecisions [out]
 
 Pointer to policy decisions. An LPM must allocate this buffer using the memory allocator supplied in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function call; the SBM frees the buffer after acting on <i>pPolicyDecisions</i>. The PCM looks at <i>pPolicyDecisions</i> only when the function returns LPM_RESULT_READY. Synchronous policy decisions must be returned for each flow in <i>FlowDescList</i>, and the number of entries in the <i>pPolicyDecisions</i> array must be equal to <i>FlowDescListCount</i>. Each policy decision consists of the values shown in the following table. 
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function call; the SBM frees the buffer after acting on <i>pPolicyDecisions</i>. The PCM looks at <i>pPolicyDecisions</i> only when the function returns LPM_RESULT_READY. Synchronous policy decisions must be returned for each flow in <i>FlowDescList</i>, and the number of entries in the <i>pPolicyDecisions</i> array must be equal to <i>FlowDescListCount</i>. Each policy decision consists of the values shown in the following table. 
 
 
 
@@ -212,7 +212,7 @@ Pointer to policy decisions. An LPM must allocate this buffer using the memory a
 <td width="60%">
 Pointer to a buffer to receive the LPM Priority Value from the LPM. Note that the PCM will only look at this parameter if the return value of 
 <i>LPM_AdmitRsvpMsg</i> is set to LPM_RESULT_READY. If the LPM is returning results synchronously, this parameter must be set to a valid priority value. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/local-policy-module">Local Policy Module</a> for more information.
+<a href="/previous-versions/windows/desktop/qos/local-policy-module">Local Policy Module</a> for more information.
 
 </td>
 </tr>
@@ -252,17 +252,16 @@ This function returns ULONG.
 ## -remarks
 
 The Subnet Bandwidth Manager (SBM) forwards RSVP PATH, RESV, PATHERR, RESVERR, PATH_TEAR, and RESV_TEAR messages to the PCM. If a request passes LPM policy–based admission (in which case the success status is passed up through the PCM to the SBM), the SBM performs resource based–admission control as part of its RSVP processing; if resource based–admission control fails, the SBM will instruct the PCM to instruct each LPM to delete its state through the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_commitresv">LPM_CommitResv</a> function. In such circumstances, the SBM (and not the LPMs) will create the requisite RSVP error message.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_commitresv">LPM_CommitResv</a> function. In such circumstances, the SBM (and not the LPMs) will create the requisite RSVP error message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>

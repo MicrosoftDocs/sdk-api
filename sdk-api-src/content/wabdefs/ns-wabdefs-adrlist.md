@@ -67,7 +67,6 @@ Variable of type <b>ULONG</b> that specifies the entry count in the array specif
 
 ### -field aEntries
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a>[MAPI_DIM]</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a>[MAPI_DIM]</b>
 
-Variable of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
-
+Variable of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.

@@ -76,5 +76,4 @@ When the <b>Pull</b> method is called, data is requested from the provider of th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipedouble">IPipeDouble</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipipedouble">IPipeDouble</a>

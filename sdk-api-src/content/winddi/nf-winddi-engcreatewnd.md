@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>EngCreateWnd</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure for the window referenced by <i>hwnd</i>.
+The <b>EngCreateWnd</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure for the window referenced by <i>hwnd</i>.
 
 ## -parameters
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure identifying a device surface.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure identifying a device surface.
 
 ### -param hwnd
 
@@ -68,7 +68,7 @@ Handle to the window created by an application's call to the Win32 <b>CreateWind
 
 ### -param fl
 
-Is a bitmask that specifies the type of changes GDI should track and report to the driver. This value must be consistent through all <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> requests made by the driver. This parameter can be one or more of the following bitfield values:
+Is a bitmask that specifies the type of changes GDI should track and report to the driver. This value must be consistent through all <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> requests made by the driver. This parameter can be one or more of the following bitfield values:
 
 <table>
 <tr>
@@ -175,27 +175,26 @@ Specifies the pixel format associated with the window object. The pixel format o
 
 ## -returns
 
-The return value is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure if the function is successful. Otherwise, the return value is −1 if the same window is being tracked by the driver, or zero if the driver is not tracking the same window.
+The return value is a pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure if the function is successful. Otherwise, the return value is −1 if the same window is being tracked by the driver, or zero if the driver is not tracking the same window.
 
 ## -remarks
 
-Because creating a window object involves locking window resources, <b>EngCreateWnd</b> should be called only in the context of the WNDOBJ_SETUP escape in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
+Because creating a window object involves locking window resources, <b>EngCreateWnd</b> should be called only in the context of the WNDOBJ_SETUP escape in <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
 
-<b>EngCreateWnd</b> supports window tracking by multiple drivers, where each driver is identified by a unique <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570601(v=vs.85)">WNDOBJCHANGEPROC</a> function pointer identified by <i>pfn</i>. For example, a live video driver can track changes to live video windows while an OpenGL driver is tracking changes to OpenGL windows.
+<b>EngCreateWnd</b> supports window tracking by multiple drivers, where each driver is identified by a unique <a href="/previous-versions/windows/hardware/drivers/ff570601(v=vs.85)">WNDOBJCHANGEPROC</a> function pointer identified by <i>pfn</i>. For example, a live video driver can track changes to live video windows while an OpenGL driver is tracking changes to OpenGL windows.
 
-GDI will call <b>WNDOBJCHANGEPROC</b> with the most recent window state if a new <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> is created by <i>DrvEscape</i>. GDI will also notify <b>WNDOBJCHANGEPROC</b> when a window described by a WNDOBJ structure is destroyed.
+GDI will call <b>WNDOBJCHANGEPROC</b> with the most recent window state if a new <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> is created by <i>DrvEscape</i>. GDI will also notify <b>WNDOBJCHANGEPROC</b> when a window described by a WNDOBJ structure is destroyed.
 
-The WOC_SPRITE_OVERLAP and WOC_SPRITE_NO_OVERLAP notifications passed to <b>WNDOBJCHANGEPROC</b> allow the driver to be synchronously informed when a sprite is on top of its window, and take the appropriate action. The driver receives these notifications even if all sprites have been torn down by the ECS_TEARDOWN flag of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcontrolsprites">EngControlSprites</a>.
+The WOC_SPRITE_OVERLAP and WOC_SPRITE_NO_OVERLAP notifications passed to <b>WNDOBJCHANGEPROC</b> allow the driver to be synchronously informed when a sprite is on top of its window, and take the appropriate action. The driver receives these notifications even if all sprites have been torn down by the ECS_TEARDOWN flag of <a href="/windows/desktop/api/winddi/nf-winddi-engcontrolsprites">EngControlSprites</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570601(v=vs.85)">WNDOBJCHANGEPROC</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff570601(v=vs.85)">WNDOBJCHANGEPROC</a>

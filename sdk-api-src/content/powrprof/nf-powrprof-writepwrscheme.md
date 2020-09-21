@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>WritePwrScheme</b> is no longer available for use as of Windows Vista. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate power settings for a specified scheme, and the power write functions to write individual settings.]
+<p class="CCE_Message">[<b>WritePwrScheme</b> is no longer available for use as of Windows Vista. Instead, use the <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate power settings for a specified scheme, and the power write functions to write individual settings.]
 
 Writes policy settings that are unique to the specified power scheme.
 
@@ -71,47 +71,46 @@ The description of the power scheme.
 ### -param lpScheme [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure that contains the power policy settings to be written.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure that contains the power policy settings to be written.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This change does not affect the current system power policy. To apply this change to the current system power policy, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function with the index of this power scheme.
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function with the index of this power scheme.
 
 Power policy schemes written using 
 <b>WritePwrScheme</b> are permanently stored in the system registry hives, and remain available for use in the Power Options control panel program, or by subsequent calls to the power scheme API. To permanently remove a power scheme from the system, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-deletepwrscheme">DeletePwrScheme</a> function.
+<a href="/windows/desktop/api/powrprof/nf-powrprof-deletepwrscheme">DeletePwrScheme</a> function.
 
-For more information about using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
+For more information about using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-deletepwrscheme">DeletePwrScheme</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-deletepwrscheme">DeletePwrScheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
+<a href="/windows/desktop/Power/power-schemes">Power Schemes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-readpwrscheme">ReadPwrScheme</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-readpwrscheme">ReadPwrScheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>

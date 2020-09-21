@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Verifies that a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> is correctly formatted.
+Verifies that a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> is correctly formatted.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ Size of the input buffer pointed to by <i>pInPropertyList</i>.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetprivatepropertylist">ResUtilSetPrivatePropertyList</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetprivatepropertylist">ResUtilSetPrivatePropertyList</a>

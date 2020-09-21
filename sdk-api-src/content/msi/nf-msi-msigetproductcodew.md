@@ -146,5 +146,4 @@ During initialization, an application must determine the product code under whic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>

@@ -74,5 +74,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 When the oplock is broken, the API will handle the break notification automatically on behalf of the caller by draining all active requests and then closing the underneath Win32 handle.  
 
-This aims to removing the complexity related to oplock usages. The caller must close the handle returned by <b>CfOpenFileWithOplock</b> with <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfclosehandle">CfCloseHandle</a>.
-
+This aims to removing the complexity related to oplock usages. The caller must close the handle returned by <b>CfOpenFileWithOplock</b> with <a href="/windows/desktop/api/cfapi/nf-cfapi-cfclosehandle">CfCloseHandle</a>.

@@ -61,7 +61,7 @@ A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a sing
 ### -param ListEntry [in]
 
 A pointer to an 
-[SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents an item in a singly linked list.
+[SLIST_ENTRY](./ns-winnt-slist_entry.md) structure that represents an item in a singly linked list.
 
 ## -returns
 
@@ -69,9 +69,8 @@ The return value is the previous first item in the list. If the list was previou
 
 ## -remarks
 
-Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a> function are forwarded to the <b>RtlInterlockedPushEntrySList</b> function. Applications should call <b>InterlockedPushEntrySList</b> instead of calling this function directly.
+Calls to the <a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a> function are forwarded to the <b>RtlInterlockedPushEntrySList</b> function. Applications should call <b>InterlockedPushEntrySList</b> instead of calling this function directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
-
+<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>

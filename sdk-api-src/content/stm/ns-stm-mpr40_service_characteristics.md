@@ -135,64 +135,64 @@ The protocol is able to perform autostatic updates of services when requested by
 ### -field pfnIsService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pis_service">IsService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pis_service">IsService</a> function for this routing protocol.
 
 ### -field pfnUpdateServices
 
 ### -field pfnCreateServiceEnumerationHandle
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> function for this routing protocol.
 
 ### -field pfnEnumerateGetNextService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-penumerate_get_next_service">EnumerateGetNextService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-penumerate_get_next_service">EnumerateGetNextService</a> function for this routing protocol.
 
 ### -field pfnCloseServiceEnumerationHandle
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pclose_service_enumeration_handle">CloseServiceEnumerationHandle</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pclose_service_enumeration_handle">CloseServiceEnumerationHandle</a> function for this routing protocol.
 
 ### -field pfnGetServiceCount
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pget_service_count">GetServiceCount</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pget_service_count">GetServiceCount</a> function for this routing protocol.
 
 ### -field pfnCreateStaticService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_static_service">CreateStaticService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_static_service">CreateStaticService</a> function for this routing protocol.
 
 ### -field pfnDeleteStaticService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pdelete_static_service">DeleteStaticService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pdelete_static_service">DeleteStaticService</a> function for this routing protocol.
 
 ### -field pfnBlockConvertServicesToStatic
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_convert_services_to_static">BlockConvertServicesToStatic</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pblock_convert_services_to_static">BlockConvertServicesToStatic</a> function for this routing protocol.
 
 ### -field pfnBlockDeleteStaticServices
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a> function for this routing protocol.
 
 ### -field pfnGetFirstOrderedService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pget_first_ordered_service">GetFirstOrderedService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pget_first_ordered_service">GetFirstOrderedService</a> function for this routing protocol.
 
 ### -field pfnGetNextOrderedService
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pget_next_ordered_service">GetNextOrderedService</a> function for this routing protocol.
+<a href="/windows/desktop/api/stm/nc-stm-pget_next_ordered_service">GetNextOrderedService</a> function for this routing protocol.
 
 ## -remarks
 
 The members of this structure are pointers to Service Table Management functions implemented in the routing protocol DLL. The routing protocol fills in the address values for these pointers during a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a> function.
+<a href="/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a> function.
 
 Only routing protocol DLLs that support services need to fill in the 
 <b>MPR_SERVICE_CHARACTERISTICS</b> structure.
@@ -203,21 +203,20 @@ To use this structure, the user should add -DMPR50=1 to the compiler flags.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
+<a href="/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>

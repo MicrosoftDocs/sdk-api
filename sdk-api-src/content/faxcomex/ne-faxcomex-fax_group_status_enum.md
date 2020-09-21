@@ -72,5 +72,4 @@ The routing group contains some devices that are unavailable for sending faxes. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup-status-vb">IFaxOutboundRoutingGroup::get_Status</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup-status-vb">IFaxOutboundRoutingGroup::get_Status</a>

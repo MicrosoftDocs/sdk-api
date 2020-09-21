@@ -55,7 +55,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>. <b>ID3D10ShaderReflection1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection1</b> interface inherits from <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>. <b>ID3D10ShaderReflection1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10ShaderReflection1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getbitwiseinstructioncount">GetBitwiseInstructionCount</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getbitwiseinstructioncount">GetBitwiseInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bitwise instructions.
@@ -79,7 +79,7 @@ Gets the number of bitwise instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getconversioninstructioncount">GetConversionInstructionCount</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getconversioninstructioncount">GetConversionInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of conversion instructions used in a shader.
@@ -88,7 +88,7 @@ Gets the number of conversion instructions used in a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getgsinputprimitive">GetGSInputPrimitive</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getgsinputprimitive">GetGSInputPrimitive</a>
 </td>
 <td align="left" width="63%">
 Gets the geometry-shader input-primitive description.
@@ -97,7 +97,7 @@ Gets the geometry-shader input-primitive description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovcinstructioncount">GetMovcInstructionCount</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovcinstructioncount">GetMovcInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Movc instructions.
@@ -106,7 +106,7 @@ Gets the number of Movc instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovinstructioncount">GetMovInstructionCount</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getmovinstructioncount">GetMovInstructionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of Mov instructions.
@@ -115,7 +115,7 @@ Gets the number of Mov instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
 </td>
 <td align="left" width="63%">
 Gets a resource binding description by name.
@@ -124,7 +124,7 @@ Gets a resource binding description by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getvariablebyname">GetVariableByName</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-getvariablebyname">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Gets a variable by name.
@@ -133,7 +133,7 @@ Gets a variable by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-islevel9shader">IsLevel9Shader</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-islevel9shader">IsLevel9Shader</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a shader was compiled in Direct3D 10 on Direct3D 9 mode.
@@ -142,7 +142,7 @@ Indicates whether a shader was compiled in Direct3D 10 on Direct3D 9 mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-issamplefrequencyshader">IsSampleFrequencyShader</a>
+<a href="/windows/desktop/api/d3d10_1shader/nf-d3d10_1shader-id3d10shaderreflection1-issamplefrequencyshader">IsSampleFrequencyShader</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a pixel shader is intended to run a pixel frequency or sample frequency.
@@ -157,9 +157,8 @@ This interface requires Windows Vista Service Pack 1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>
+<a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>

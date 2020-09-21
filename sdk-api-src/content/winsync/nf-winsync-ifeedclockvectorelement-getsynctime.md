@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Gets a <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 ## -parameters
 
 ### -param pSyncTime [out]
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Returns a <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 ## -returns
 
@@ -90,13 +90,12 @@ The method succeeded.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
+The <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>

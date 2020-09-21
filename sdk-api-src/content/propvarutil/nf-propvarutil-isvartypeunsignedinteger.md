@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Returns whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an unsigned integer.
+Returns whether a <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an unsigned integer.
 
 ## -parameters
 
 ### -param vt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
+Specifies the <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an unsigned integer; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an unsigned integer; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
-

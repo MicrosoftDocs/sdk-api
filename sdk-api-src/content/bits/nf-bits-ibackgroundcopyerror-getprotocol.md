@@ -57,7 +57,7 @@ Retrieves the protocol used to transfer the file. The remote file name identifie
 ### -param pProtocol [out]
 
 Null-terminated string that contains the protocol used to transfer the file. The string contains "http" for the HTTP protocol and "file" for the SMB protocol. The <i>ppProtocol</i> parameter is set to <b>NULL</b> if the error is not related to the transfer protocol. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProtocol</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppProtocol</i> when done.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The error is not associated with the remote file transfer protocol. The <i>ppPro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>

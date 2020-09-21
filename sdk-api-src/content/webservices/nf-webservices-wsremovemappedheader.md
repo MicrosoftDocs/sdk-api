@@ -59,7 +59,7 @@ Removes all instances of a mapped header from the message.
 The message to set the header in.
                 
 
-The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
 ### -param headerName [in]
 
@@ -111,4 +111,3 @@ A message may contain additional transport-specific information that is
                 This function is used to remove mapped headers from the message object.
                 This can be used by a custom channel implementation to remove mapped headers
                 prior to sending the message.
-

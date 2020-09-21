@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI. This window rectangle can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create a window with a client area of the desired size.
+Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI. This window rectangle can then be passed to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create a window with a client area of the desired size.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ A pointer to a <b>RECT</b> structure that contains the coordinates of the top-le
 
 ### -param dwStyle [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style.
+The <a href="/windows/desktop/winmsg/window-styles">Window Style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style.
 
 ### -param bMenu [in]
 
@@ -73,7 +73,7 @@ Indicates whether the window has a menu.
 
 ### -param dwExStyle [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Style</a> of the window whose required size is to be calculated.
+The <a href="/windows/desktop/winmsg/extended-window-styles">Extended Window Style</a> of the window whose required size is to be calculated.
 
 ### -param dpi [in]
 
@@ -83,9 +83,8 @@ The DPI to use for scaling.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function returns the same result as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex">AdjustWindowRectEx</a> but scales it according to an arbitrary DPI you provide if appropriate.
-
+This function returns the same result as <a href="/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex">AdjustWindowRectEx</a> but scales it according to an arbitrary DPI you provide if appropriate.

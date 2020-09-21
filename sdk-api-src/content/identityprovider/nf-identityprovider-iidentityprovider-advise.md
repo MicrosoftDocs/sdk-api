@@ -56,7 +56,7 @@ The <b>Advise</b> method allows a calling application to specify the list of ide
 
 ### -param pIdentityAdvise [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a> interface implemented by the calling application. This interface provides a method that the identity provider can call when one of the events specified by the <i>dwIdentityUpdateEvents</i> parameter occurs.
+A pointer to the <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a> interface implemented by the calling application. This interface provides a method that the identity provider can call when one of the events specified by the <i>dwIdentityUpdateEvents</i> parameter occurs.
 
 ### -param dwIdentityUpdateEvents [in]
 
@@ -137,19 +137,18 @@ The value of  a property of an identity changed.
 
 ### -param pdwCookie [out]
 
-A pointer to a value that identifies this connection. When you have finished using this connection, delete it by passing this value to the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-unadvise">UnAdvise</a> method.
+A pointer to a value that identifies this connection. When you have finished using this connection, delete it by passing this value to the <a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-unadvise">UnAdvise</a> method.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IIdentityAdvise::IdentityUpdated</a>
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IIdentityAdvise::IdentityUpdated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>

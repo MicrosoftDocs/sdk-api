@@ -49,7 +49,7 @@ api_name:
 
 Performance an identity operation on an **XMVECTOR** instance.
 
-The `operator +` takes an instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> and returns a new instance of XMVECTOR, with an identity operator applied to each component.
+The `operator +` takes an instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> and returns a new instance of XMVECTOR, with an identity operator applied to each component.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -67,5 +67,4 @@ Vector whose components are the result of the identity operation performed on *V
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
-
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

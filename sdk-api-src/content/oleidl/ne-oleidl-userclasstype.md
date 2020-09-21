@@ -70,9 +70,8 @@ The name of the application servicing the class and is used in the result text i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Invalidate the pointer to the surface retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a> and re-enable GPU access to the resource.
+Invalidate the pointer to the surface retrieved by <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a> and re-enable GPU access to the resource.
 
 ## -parameters
 
@@ -59,9 +59,8 @@ Invalidate the pointer to the surface retrieved by <a href="https://docs.microso
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
+Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>

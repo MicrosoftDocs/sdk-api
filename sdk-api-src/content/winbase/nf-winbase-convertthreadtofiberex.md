@@ -60,7 +60,7 @@ Converts the current thread into a fiber. You must convert a thread into a fiber
 ### -param lpParameter [in, optional]
 
 A  pointer to a variable that is passed to the fiber. The fiber can retrieve this data by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a> macro.
+<a href="/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a> macro.
 
 ### -param dwFlags [in]
 
@@ -71,30 +71,29 @@ If this parameter is zero, the floating-point state on x86 systems is not switch
 If the function succeeds, the return value is the address of the fiber.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Only fibers can execute other fibers. If a thread needs to execute a fiber, it must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertTheadToFiber</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertTheadToFiber</a> or 
 <b>ConvertThreadToFiberEx</b> to create an area in which to save fiber state information. The thread is now the current fiber. The state information for this fiber includes the fiber data specified by <i>lpParameter</i>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertfibertothread">ConvertFiberToThread</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-convertfibertothread">ConvertFiberToThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

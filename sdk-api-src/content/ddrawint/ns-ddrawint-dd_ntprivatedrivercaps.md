@@ -68,27 +68,26 @@ Indicates how DirectDraw should create the surface.
 
 #### DDHAL_PRIVATECAP_AUTOMICSURFACECREATION
 
-When this flag is set, it indicates that the driver requests <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
+When this flag is set, it indicates that the driver requests <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
 
 
 
 #### DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION
 
-When this flag is set, the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function is called when creating a primary surface. If this flag is not set, the driver's <i>DdCreateSurface</i> function is not called.
+When this flag is set, the driver's <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function is called when creating a primary surface. If this flag is not set, the driver's <i>DdCreateSurface</i> function is not called.
 
 ## -remarks
 
 The behavior of DirectDraw emulates the surface creation techniques employed by DirectDraw when creating surfaces for Microsoft Windows 98/Me.
 
-When the DDHAL_PRIVATECAP_AUTOMICSURFACECREATION flag is not set, DirectDraw performs surface creation using the original method, that is, it calls the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function once for each surface being created.
+When the DDHAL_PRIVATECAP_AUTOMICSURFACECREATION flag is not set, DirectDraw performs surface creation using the original method, that is, it calls the driver's <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function once for each surface being created.
 
 When the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is not set, DirectDraw performs primary surface creation using the original method, that is, it does not call the driver when creating a primary surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>

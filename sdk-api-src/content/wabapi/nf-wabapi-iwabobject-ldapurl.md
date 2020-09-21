@@ -65,9 +65,9 @@ Processes an Lightweight Directory Access Protocol (LDAP) URL
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book to use.
 
 ### -param hWnd
@@ -117,9 +117,9 @@ Value of type <b>LPSTR</b> that specifies the
 
 ### -param lppMailUser
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> 
+Address of a pointer to an <a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> 
 				interface that receives the returned Mailuser object, 
 				if requested. Otherwise, it is <b>NULL</b>.
 
@@ -141,4 +141,3 @@ To pass in a Unicode LDAP 
 	URL pointer to a <b>LPSTR</b> and pass it into 
 	this function. Mark <i>ulFlags</i> to include <b>MAPI_UNICODE</b>, and the WAB will cast the 
 	URL back to an <b>LPWSTR</b> prior to using it.
-

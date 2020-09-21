@@ -126,9 +126,8 @@ Not all device types implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">IMSVidDevice::put_Power</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">IMSVidDevice::put_Power</a>

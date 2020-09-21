@@ -65,9 +65,8 @@ Although this method can make transitions much more immediate, it can also make 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>
-
+<a href="/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>

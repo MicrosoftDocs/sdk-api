@@ -156,18 +156,17 @@ Handle to a bitmap to display.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetimemenuitemsa">ImmGetImeMenuItems</a>
+<a href="/windows/desktop/api/imm/nf-imm-immgetimemenuitemsa">ImmGetImeMenuItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The immdev.h header defines IMEMENUITEMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

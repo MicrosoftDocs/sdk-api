@@ -56,7 +56,7 @@ The <b>GetNextLocator</b> method creates a new tune request with locator informa
 
 ### -param CurrentRequest [in]
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
+Specifies the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
 
 ### -param TuneRequest [out]
 
@@ -97,15 +97,14 @@ The method succeeded.
 
 ## -remarks
 
-This method is used internally by the Network Provider's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekup">IScanningTuner::SeekUp</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekdown">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
+This method is used internally by the Network Provider's <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekup">IScanningTuner::SeekUp</a> and <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekdown">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
 
 Currently this method is not implemented for DVB-C or DVB-S networks, and the method returns E_NOTIMPL. The method is implemented for DVB-T.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>

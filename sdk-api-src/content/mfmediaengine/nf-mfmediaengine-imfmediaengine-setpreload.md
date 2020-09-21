@@ -56,7 +56,7 @@ Sets the preload flag.
 
 ### -param Preload [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_preload">MF_MEDIA_ENGINE_PRELOAD</a> value equal to  the preload flag.
+An <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_preload">MF_MEDIA_ENGINE_PRELOAD</a> value equal to  the preload flag.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method corresponds to setting the <b>preload</b> attribute of the <b>HTMLMe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

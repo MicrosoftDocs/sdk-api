@@ -57,7 +57,7 @@ Runs a query to retrieve events from a channel or log file that match the specif
 
 ### -param Session [in]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to query for events on the local computer.
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to query for events on the local computer.
 
 ### -param Path [in]
 
@@ -69,36 +69,35 @@ A query that specifies the types of events that you want to retrieve. You can sp
 
 ### -param Flags [in]
 
-One or more flags that specify the order that you want to receive the events and whether you are querying against a channel or log file.  For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_query_flags">EVT_QUERY_FLAGS</a> enumeration.
+One or more flags that specify the order that you want to receive the events and whether you are querying against a channel or log file.  For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_query_flags">EVT_QUERY_FLAGS</a> enumeration.
 
 ## -returns
 
-A handle to the query results if successful; otherwise, <b>NULL</b>. If the function returns <b>NULL</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+A handle to the query results if successful; otherwise, <b>NULL</b>. If the function returns <b>NULL</b>, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 ## -remarks
 
-  To get events from the query results, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a> function. To retrieve events beginning with a specific event in the results, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a> function.
+  To get events from the query results, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a> function. To retrieve events beginning with a specific event in the results, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a> function.
 
- You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function with the query results handle when done.
+ You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function with the query results handle when done.
 
 You must only use the query handle that this function returns on the same thread that created the handle.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/querying-for-events">Querying for Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/querying-for-events">Querying for Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>

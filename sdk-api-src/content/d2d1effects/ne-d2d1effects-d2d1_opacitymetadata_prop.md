@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/opacity-metadata-effect">Opacity metadata effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/opacity-metadata-effect">Opacity metadata effect</a>.
 
 ## -enum-fields
 
@@ -59,9 +59,8 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 The portion of the source image that is opaque. The default is the entire input image.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
 
 The default is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}.
 
 ### -field D2D1_OPACITYMETADATA_PROP_FORCE_DWORD
-

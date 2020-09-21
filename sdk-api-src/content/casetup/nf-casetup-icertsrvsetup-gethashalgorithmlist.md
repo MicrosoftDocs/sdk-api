@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetHashAlgorithmList</b> method gets the list of hash algorithms supported by the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for an asymmetric signature key algorithm. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetHashAlgorithmList</b> method gets the list of hash algorithms supported by the specified <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for an asymmetric signature key algorithm. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

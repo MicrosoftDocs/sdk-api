@@ -56,7 +56,7 @@ Terminates an advisory connection previously established between a connection po
 
 ### -param dwCookie [in]
 
-A connection token previously returned from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>.
+A connection token previously returned from <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>.
 
 ## -returns
 
@@ -93,9 +93,8 @@ The value in <i>dwCookie</i> does not represent a valid connection.
 
 ## -remarks
 
-When an advisory connection is terminated, the connection point calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method on the pointer that was saved for the connection during the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a> method. This <b>Release</b> reverses the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> that was performed during the <b>Advise</b> when the connection point calls the advisory sink's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>.
+When an advisory connection is terminated, the connection point calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method on the pointer that was saved for the connection during the <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a> method. This <b>Release</b> reverses the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> that was performed during the <b>Advise</b> when the connection point calls the advisory sink's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>

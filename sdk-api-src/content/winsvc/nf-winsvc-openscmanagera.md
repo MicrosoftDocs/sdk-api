@@ -73,7 +73,7 @@ The name of the service control manager database. This parameter should be set t
 ### -param dwDesiredAccess [in]
 
 The access to the service control manager. For a list of access rights, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>. 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>. 
 
 
 
@@ -87,7 +87,7 @@ The SC_MANAGER_CONNECT access right is implicitly specified by calling this func
 If the function succeeds, the return value is a handle to the specified service control manager database.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the SCM. Other error codes can be set by the registry functions that are called by the SCM.
 
@@ -124,22 +124,22 @@ The specified database does not exist.
 
 When a process uses the 
 <b>OpenSCManager</b> function to open a handle to a service control manager database, the system performs a security check before granting the requested access. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-If the current user does not have proper access when connecting to a service on another computer, the  <b>OpenSCManager</b> function call fails. To connect to a service remotely, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function with LOGON32_LOGON_NEW_CREDENTIALS and then call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a> before calling <b>OpenSCManager</b>. For more information about connecting to services remotely, see <a href="https://docs.microsoft.com/windows/desktop/Services/services-and-rpc-tcp">Services and RPC/TCP</a>.
+If the current user does not have proper access when connecting to a service on another computer, the  <b>OpenSCManager</b> function call fails. To connect to a service remotely, call the <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function with LOGON32_LOGON_NEW_CREDENTIALS and then call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a> before calling <b>OpenSCManager</b>. For more information about connecting to services remotely, see <a href="/windows/desktop/Services/services-and-rpc-tcp">Services and RPC/TCP</a>.
 
 Only processes with Administrator privileges are able to open a database handle that can be used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function.
 
 The returned handle is only valid for the process that called the 
 <b>OpenSCManager</b> function. It can be closed by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/changing-a-service-configuration">Changing a Service's Configuration</a>.
+<a href="/windows/desktop/Services/changing-a-service-configuration">Changing a Service's Configuration</a>.
 
 <div class="code"></div>
 
@@ -151,25 +151,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/scm-handles">SCM Handles</a>
+<a href="/windows/desktop/Services/scm-handles">SCM Handles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
-
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>

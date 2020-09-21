@@ -111,7 +111,7 @@ Type: <b>UINT</b>
 
 If the function succeeds, the return value is the identifier or position of the menu item.
 
-If the function fails, the return value is -1. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is -1. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -119,7 +119,7 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -127,5 +127,4 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenudefaultitem">SetMenuDefaultItem</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenudefaultitem">SetMenuDefaultItem</a>

@@ -82,9 +82,8 @@ The number of bytes transferred during operations other than read and write oper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessiocounters">GetProcessIoCounters</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessiocounters">GetProcessIoCounters</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
-

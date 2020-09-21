@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_SA_DETAILS1</b> structure is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
-[IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0) is available.</div><div> </div>
+[IKEEXT_SA_DETAILS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,34 +65,34 @@ LUID identifying the security association.
 
 Key module type. 
 
-See [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type) for more information.
+See [IKEEXT_KEY_MODULE_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type) for more information.
 
 ### -field ipVersion
 
-IP version specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
+IP version specified by [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
 
 ### -field v4UdpEncapsulation
 
-Points to an  [IPSEC_V4_UDP_ENCAPSULATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0) structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
+Points to an  [IPSEC_V4_UDP_ENCAPSULATION0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0) structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
    Main Mode.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field ikeTraffic
 
-The traffic corresponding to this IKE SA specified by [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0).
+The traffic corresponding to this IKE SA specified by [IKEEXT_TRAFFIC0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0).
 
 ### -field ikeProposal
 
-The main mode proposal corresponding to this IKE SA specified by [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0).
+The main mode proposal corresponding to this IKE SA specified by [IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0).
 
 ### -field cookiePair
 
-SA cookies specified by [IKEEXT_COOKIE_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0).
+SA cookies specified by [IKEEXT_COOKIE_PAIR0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0).
 
 ### -field ikeCredentials
 
-Credentials information for the SA specified by [IKEEXT_CREDENTIALS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials1).
+Credentials information for the SA specified by [IKEEXT_CREDENTIALS1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials1).
 
 ### -field ikePolicyKey
 
@@ -106,5 +106,4 @@ ID/Handle to virtual interface tunneling state. Applicable only to IKEv2.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

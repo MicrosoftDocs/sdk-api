@@ -58,7 +58,7 @@ Specifies a channel specific setting.
 
 ### -field id
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ID</a>.
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ID</a>.
 
 ### -field value
 
@@ -69,4 +69,3 @@ A pointer to the value to set.
 ### -field valueSize
 
 The size in bytes of the memory pointed to by the <b>value</b> member.
-

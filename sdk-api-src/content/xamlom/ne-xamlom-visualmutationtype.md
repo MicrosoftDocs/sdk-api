@@ -64,6 +64,5 @@ The child element was removed from the visual tree of the parent element.
 
 ## -remarks
 
-<b>VisualMutationType</b> is used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservicecallback">IVisualTreeServiceCallback</a> to indicate to the callback
+<b>VisualMutationType</b> is used by <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservicecallback">IVisualTreeServiceCallback</a> to indicate to the callback
 whether the element is entering or leaving the live visual tree.
-

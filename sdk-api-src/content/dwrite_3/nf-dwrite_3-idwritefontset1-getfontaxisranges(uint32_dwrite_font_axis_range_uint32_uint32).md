@@ -58,7 +58,7 @@ Zero-based index of the font in the set.
 
 ### -param fontAxisRanges [out]
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)\***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)\***
 
 List of axis value ranges to retrieve.
 
@@ -87,4 +87,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

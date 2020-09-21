@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Applications must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
+Applications must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras">IWiaItemExtras</a>
-
+<a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras">IWiaItemExtras</a>

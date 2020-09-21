@@ -78,7 +78,7 @@ This member is ignored.
 
 Type: <b>LONG_PTR</b>
 
-A pointer to data defined by the application. When the Control Panel sends the <a href="https://docs.microsoft.com/windows/desktop/shell/fa-associationarray">CPL_DBLCLK</a> and <a href="https://docs.microsoft.com/windows/desktop/shell/library-functions-bumper">CPL_STOP</a> messages, it passes this value back to your application.
+A pointer to data defined by the application. When the Control Panel sends the <a href="/windows/desktop/shell/fa-associationarray">CPL_DBLCLK</a> and <a href="/windows/desktop/shell/library-functions-bumper">CPL_STOP</a> messages, it passes this value back to your application.
 
 ### -field hIcon
 
@@ -106,12 +106,11 @@ This member is ignored.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="https://docs.microsoft.com/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message.
+The <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message.
 
 > [!NOTE]
 > The cpl.h header defines NEWCPLINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cpl/ns-cpl-cplinfo">CPLINFO</a>
-
+<a href="/windows/desktop/api/cpl/ns-cpl-cplinfo">CPLINFO</a>

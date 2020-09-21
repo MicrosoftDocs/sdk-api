@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>WINUSB_PIPE_INFORMATION</b> structure contains pipe information that the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a> routine retrieves.
+The <b>WINUSB_PIPE_INFORMATION</b> structure contains pipe information that the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a> routine retrieves.
 
 ## -struct-fields
 
 ### -field PipeType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
+A <a href="/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
 
 ### -field PipeId
 
@@ -76,13 +76,12 @@ The pipe interval.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a>

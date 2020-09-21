@@ -69,9 +69,8 @@ A pointer to the <b>BOOL</b> value this function will use to indicate whether th
 
 ## -returns
 
-This routine returns FALSE on failure. Any other value indicates success.      Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
+This routine returns FALSE on failure. Any other value indicates success.      Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
-
+<a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>

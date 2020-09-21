@@ -68,13 +68,13 @@ The y-axis scale factor of the scale transformation.
 
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the scale is performed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new scale transformation.
 
@@ -82,7 +82,7 @@ The new scale transformation.
 
 This method creates a scale transformation for the specified <i>centerPoint</i> and the 
 	 x-axis and y-axis scale factors. If you prefer to create a  
-	 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)">Scale</a> method. 
+	 <a href="/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)">Scale</a> method. 
 
 The following illustration shows the size of the square increased 
 	 to 130% in both dimensions.
@@ -90,9 +90,8 @@ The following illustration shows the size of the square increased
 
 <img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="images/scale_ovw.png"/>
 
- For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
+ For an example, see <a href="/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

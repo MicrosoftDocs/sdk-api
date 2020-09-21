@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Called when a pipeline component sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event.
+Called when a pipeline component sends an <a href="/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Pointer to the <b>IUnknown</b> interface of the object that sent the event. The 
 
 ### -param pEvent [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>

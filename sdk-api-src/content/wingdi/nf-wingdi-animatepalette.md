@@ -70,7 +70,7 @@ The number of entries to be replaced.
 
 ### -param ppe [in]
 
-A pointer to the first member in an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures used to replace the current entries.
+A pointer to the first member in an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures used to replace the current entries.
 
 ## -returns
 
@@ -80,33 +80,32 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-The <b>AnimatePalette</b> function only changes entries with the PC_RESERVED flag set in the corresponding <b>palPalEntry</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure.
+The <b>AnimatePalette</b> function only changes entries with the PC_RESERVED flag set in the corresponding <b>palPalEntry</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure.
 
 If the given palette is associated with the active window, the colors in the palette are replaced immediately.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
-
+<a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>

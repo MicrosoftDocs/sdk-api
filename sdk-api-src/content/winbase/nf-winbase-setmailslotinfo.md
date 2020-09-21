@@ -65,7 +65,7 @@ Sets the time-out value used by the specified mailslot for a read operation.
 ### -param hMailslot [in]
 
 A handle to a mailslot. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
 
 ### -param lReadTimeout [in]
 
@@ -108,26 +108,25 @@ This time-out value applies to all subsequent read operations and to all inherit
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The initial time-out value used by a mailslot for a read operation is typically set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> when the mailslot is created.
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> when the mailslot is created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getmailslotinfo">GetMailslotInfo</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getmailslotinfo">GetMailslotInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
+<a href="/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots Overview</a>
-
+<a href="/windows/desktop/ipc/mailslots">Mailslots Overview</a>

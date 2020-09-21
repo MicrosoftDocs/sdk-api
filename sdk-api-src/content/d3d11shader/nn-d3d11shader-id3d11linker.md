@@ -56,7 +56,7 @@ A linker interface is used to link a shader module. <div class="alert"><b>Note</
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Linker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Linker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Linker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Linker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>ID3D11Linker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-addclipplanefromcbuffer">AddClipPlaneFromCBuffer</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-addclipplanefromcbuffer">AddClipPlaneFromCBuffer</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9">clip plane</a> with the plane coefficients taken from a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> entry for 10Level9 shaders.
+Adds a <a href="/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9">clip plane</a> with the plane coefficients taken from a <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> entry for 10Level9 shaders.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-link">Link</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-link">Link</a>
 </td>
 <td align="left" width="63%">
 Links the shader and produces a shader blob that the Direct3D runtime can use.
@@ -90,7 +90,7 @@ Links the shader and produces a shader blob that the Direct3D runtime can use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-uselibrary">UseLibrary</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-uselibrary">UseLibrary</a>
 </td>
 <td align="left" width="63%">
 Adds an instance of a library module to be used for linking.
@@ -101,7 +101,7 @@ Adds an instance of a library module to be used for linking.
 
 ## -remarks
 
-To get a linker interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreatelinker">D3DCreateLinker</a>.
+To get a linker interface, call <a href="/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreatelinker">D3DCreateLinker</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11Linker</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -110,9 +110,8 @@ To get a linker interface, call <a href="https://docs.microsoft.com/windows/desk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>

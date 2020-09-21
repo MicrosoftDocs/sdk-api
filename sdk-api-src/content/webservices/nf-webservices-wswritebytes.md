@@ -118,12 +118,12 @@ A quota was exceeded.
 
 ## -remarks
 
-<b>WsWriteBytes</b> may be called more than once between <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It may
-        not be combined with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
+<b>WsWriteBytes</b> may be called more than once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It may
+        not be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
       
 
 For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified
-        during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> then the bytes will be buffered and  placed in their own MIME part.  Otherwise
+        during <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> then the bytes will be buffered and  placed in their own MIME part.  Otherwise
         the bytes are encoded in base64 and placed directly in the document.
       
 
@@ -131,4 +131,3 @@ For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mto
         the name 'contentType' and the namespace 'http://www.w3.org/2004/11/xmlmime', then the value of the attribute
         will be reflected in the content type header for the MIME part as described in 
         XML-binary Optimized Packaging.
-

@@ -115,9 +115,8 @@ No file is open in the synchronous reader.
 
 ## -remarks
 
-To configure a stream to deliver compressed samples, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">IWMSyncReader::SetReadStreamSamples</a>.
+To configure a stream to deliver compressed samples, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">IWMSyncReader::SetReadStreamSamples</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

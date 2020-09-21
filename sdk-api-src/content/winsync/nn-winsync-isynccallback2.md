@@ -54,7 +54,7 @@ Represents additional application callbacks that are used to notify the applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncCallback2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncCallback2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncCallback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangeapplied">OnChangeApplied</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangeapplied">OnChangeApplied</a>
 </td>
 <td align="left" width="63%">
 Occurs after a change is successfully applied.
@@ -78,7 +78,7 @@ Occurs after a change is successfully applied.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangefailed">OnChangeFailed</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangefailed">OnChangeFailed</a>
 </td>
 <td align="left" width="63%">
 Occurs after a change fails to apply.
@@ -93,9 +93,8 @@ Occurs after a change fails to apply.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

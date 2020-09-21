@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>WintrustGetRegPolicyFlags</b> function retrieves policy flags for a policy provider.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
 
@@ -178,5 +178,4 @@ Allow only items in personal trust database.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustsetregpolicyflags">WintrustSetRegPolicyFlags</a>
-
+<a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustsetregpolicyflags">WintrustSetRegPolicyFlags</a>

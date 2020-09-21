@@ -101,7 +101,7 @@ Input arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized or not in a valid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized or not in a valid domain.
 
 </td>
 </tr>
@@ -109,21 +109,20 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 
 ## -remarks
 
-To get the available audio languages on the disc, call <code>GetCurrentAudio</code> and then call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudiolanguage">GetAudioLanguage</a> for each stream, starting from zero through (<i>pulStreamsAvailable</i> - 1) to get the language content.
+To get the available audio languages on the disc, call <code>GetCurrentAudio</code> and then call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudiolanguage">GetAudioLanguage</a> for each stream, starting from zero through (<i>pulStreamsAvailable</i> - 1) to get the language content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-audio-stream-change">EC_DVD_AUDIO_STREAM_CHANGE</a>
+<a href="/windows/desktop/DirectShow/ec-dvd-audio-stream-change">EC_DVD_AUDIO_STREAM_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

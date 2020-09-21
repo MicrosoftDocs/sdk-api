@@ -98,5 +98,4 @@ This method must be completely implemented in any document object, even if the d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
-
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>

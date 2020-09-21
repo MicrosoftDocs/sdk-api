@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure.
+Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure.
 
 ## -struct-fields
 
@@ -110,9 +110,9 @@ A value that is set to <b>TRUE</b> if the component is scrollable, or <b>FALSE</
 
 ### -field cpPos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure containing position and size information.
+A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure containing position and size information.
 
 ### -field wszFriendlyName
 
@@ -131,4 +131,3 @@ The component's URL.
 Type: <b>WCHAR[INTERNET_MAX_URL_LENGTH]</b>
 
 The URL that a user has been subscribed to.
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IADsClass</b> interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a> for attribute definitions and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssyntax">IADsSyntax</a> for attribute syntax.
+The <b>IADsClass</b> interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include  <a href="/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a> for attribute definitions and  <a href="/windows/desktop/api/iads/nn-iads-iadssyntax">IADsSyntax</a> for attribute syntax.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsClass</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsClass</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsClass</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsClass</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsClass</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -79,7 +79,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -88,7 +88,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -97,7 +97,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -106,7 +106,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -115,7 +115,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -124,7 +124,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsclass-qualifiers">Qualifiers</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsclass-qualifiers">Qualifiers</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of ADSI objects that describe provider-specific qualifiers for the schema.
@@ -133,7 +133,7 @@ Returns a collection of ADSI objects that describe provider-specific qualifiers 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -151,7 +151,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">Abstract</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">Abstract</a>
 
 
 </td>
@@ -167,7 +167,7 @@ Gets and sets the flag in order to determine whether or not this schema class is
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -183,7 +183,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">AuxDerivedFrom</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">AuxDerivedFrom</a>
 
 
 </td>
@@ -199,7 +199,7 @@ Gets and sets the immediate super Auxiliary class of this schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">Auxiliary</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">Auxiliary</a>
 
 
 </td>
@@ -215,7 +215,7 @@ Gets and set the flag in order to determine whether or not this schema class is 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -231,7 +231,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">CLSID</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">CLSID</a>
 
 
 </td>
@@ -247,7 +247,7 @@ Gets and sets the CLSID identifying application component that implements this s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">Container</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">Container</a>
 
 
 </td>
@@ -263,7 +263,7 @@ Gets and sets the flag to indicate whether or not this is a container object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">Containment</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">Containment</a>
 
 
 </td>
@@ -279,7 +279,7 @@ Gets and sets legal objects types that can be contained within this container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">DerivedFrom</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">DerivedFrom</a>
 
 
 </td>
@@ -295,7 +295,7 @@ Gets and sets the immediate super class of this schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -311,7 +311,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">HelpFileContext</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">HelpFileContext</a>
 
 
 </td>
@@ -327,7 +327,7 @@ Gets and sets the context identifier of an optional help file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">HelpFileName</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">HelpFileName</a>
 
 
 </td>
@@ -343,7 +343,7 @@ Gets and sets the name of an optional help file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">MandatoryProperties</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">MandatoryProperties</a>
 
 
 </td>
@@ -359,7 +359,7 @@ Gets and sets a list of names of the mandatory properties an ADSI object must ha
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -375,7 +375,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">NamingProperties</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">NamingProperties</a>
 
 
 </td>
@@ -391,7 +391,7 @@ Gets and sets a list of naming attributes for the schema object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">OID</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">OID</a>
 
 
 </td>
@@ -407,7 +407,7 @@ Gets and sets the directory-specific object identifier.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">OptionalProperties</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">OptionalProperties</a>
 
 
 </td>
@@ -423,7 +423,7 @@ Gets and sets a list of names of optional properties an ADSI object may have.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -439,7 +439,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">PossibleSuperiors</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">PossibleSuperiors</a>
 
 
 </td>
@@ -455,7 +455,7 @@ Gets and sets a list of classes that can contain instances of this class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">PrimaryInterface</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">PrimaryInterface</a>
 
 
 </td>
@@ -471,7 +471,7 @@ Gets the identifier of the interface that defines this schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -488,7 +488,7 @@ Gets the ADsPath string to the schema class object for this object.
 
 ## -remarks
 
-Schema objects are organized in the schema container of a given directory. To access an object's schema class, use the object's <b>Schema</b> property (namely, call the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">IADs::get_Schema</a> property method) to obtain the ADsPath string and use that string to bind to its schema class object.
+Schema objects are organized in the schema container of a given directory. To access an object's schema class, use the object's <b>Schema</b> property (namely, call the <a href="/windows/desktop/ADSI/iads-property-methods">IADs::get_Schema</a> property method) to obtain the ADsPath string and use that string to bind to its schema class object.
 
 
 #### Examples
@@ -592,21 +592,20 @@ HRESULT printVarArray(VARIANT var)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssyntax">IADsSyntax</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssyntax">IADsSyntax</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

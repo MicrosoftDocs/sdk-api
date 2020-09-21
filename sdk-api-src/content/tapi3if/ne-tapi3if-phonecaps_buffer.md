@@ -61,9 +61,8 @@ Device-specific phone capabilities.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-getphonecapsbuffer">ITPhone::GetPhoneCapsBuffer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-getphonecapsbuffer">ITPhone::GetPhoneCapsBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">ITPhone::get_PhoneCapsBuffer</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">ITPhone::get_PhoneCapsBuffer</a>

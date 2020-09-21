@@ -51,21 +51,21 @@ api_name:
 
 ## -description
 
-Cuts or copies strokes from an existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object and pastes them into a new <b>InkDisp</b> object, by using the known rectangle to determine which strokes to extract.
+Cuts or copies strokes from an existing <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object and pastes them into a new <b>InkDisp</b> object, by using the known rectangle to determine which strokes to extract.
 
 ## -parameters
 
 ### -param Rectangle [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object which delimits the ink to extract from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Specifies the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object which delimits the ink to extract from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ### -param extractFlags [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags</a> enumeration type, which determines whether the ink should be cut or copied from the existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is IEF_DEFAULT, which cuts the strokes from the existing <b>InkDisp</b> object.
+Optional. Specifies the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags</a> enumeration type, which determines whether the ink should be cut or copied from the existing <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is IEF_DEFAULT, which cuts the strokes from the existing <b>InkDisp</b> object.
 
 ### -param ExtractedInk [out, retval]
 
-When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that contains the extracted collection of strokes.
+When this method returns, contains a pointer to an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that contains the extracted collection of strokes.
 
 ## -returns
 
@@ -157,19 +157,19 @@ The Ink object was not registered.
 
 ## -remarks
 
-The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object retains the drawing attributes, properties, and coordinates of the original <b>InkDisp</b> object.
+The new <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object retains the drawing attributes, properties, and coordinates of the original <b>InkDisp</b> object.
 
-This method is useful for creating a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object without the deleted or cut strokes from the original object.
+This method is useful for creating a new <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object without the deleted or cut strokes from the original object.
 
-To extract strokes from a known collection of strokes, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>.
+To extract strokes from a known collection of strokes, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>.
 
-Only the portion of a stroke that is within the rectangle is added to the new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Only the portion of a stroke that is within the rectangle is added to the new <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-When the <i>extractFlags</i> parameter is <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">RemoveFromOriginal</a> or <b>Default</b>, any strokes that cross the rectangle are split and the portion within the rectangle removed from the existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+When the <i>extractFlags</i> parameter is <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">RemoveFromOriginal</a> or <b>Default</b>, any strokes that cross the rectangle are split and the portion within the rectangle removed from the existing <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
 
 
 
@@ -177,17 +177,16 @@ When the <i>extractFlags</i> parameter is <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

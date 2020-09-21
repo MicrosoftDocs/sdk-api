@@ -64,7 +64,7 @@ A handle to the process's image file. If this member is <b>NULL</b>, the handle 
        valid. Otherwise, the debugger can use the member to read from and write to the image file.
 
 When the debugger is finished with this file, it should close the handle using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
+       <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ### -field hProcess
 
@@ -105,7 +105,7 @@ A pointer to a block of data. At offset 0x2C into this block is another pointer,
 
 A pointer to the starting address of the thread. This value may only be an approximation of the thread's 
       starting address, because any application with appropriate access to the thread can change the thread's context 
-      by using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
+      by using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> function.
 
 ### -field lpImageName
 
@@ -121,7 +121,7 @@ This member is strictly optional. Debuggers must be prepared to handle the case 
        <b>NULL</b>. Specifically, the system does not provide an image name for a create process 
        event, and will not likely pass an image name for the first DLL event. The system also does not provide this 
        information in the case of debug events that originate from a call to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a> function.
+       <a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a> function.
 
 ### -field fUnicode
 
@@ -130,21 +130,20 @@ A value that indicates whether a file name specified by the <b>lpImageName</b> m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
+<a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>

@@ -55,15 +55,15 @@ provides similar functionality.]
 
 The 
 <b>get_DefaultDirectories</b> method enumerates all configured default directories. This method is similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a> but is provided for use by Visual Basic and other scripting languages.
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a> but is provided for use by Visual Basic and other scripting languages.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> that will receive an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface pointers.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface pointers.
 
 ## -returns
 
@@ -112,18 +112,17 @@ Pointer is invalid.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>ITRendezvous::get_DefaultDirectories</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>ITRendezvous::get_DefaultDirectories</b>. The application must call <b>Release</b> on the 
 <b>ITDirectory</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>

@@ -109,7 +109,7 @@ The requested interface was not available.
 </dl>
 </td>
 <td width="60%">
-Before this function can be called, the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function must be called on the current thread.
+Before this function can be called, the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function must be called on the current thread.
 
 </td>
 </tr>
@@ -119,11 +119,10 @@ Before this function can be called, the <a href="https://docs.microsoft.com/wind
 
 <b>CoGetObjectContext</b> retrieves the context for the object from which it is called, and returns a pointer to an interface that can be used to manipulate context properties. Context properties are used to provide services to configured components running within COM+ applications.
 
-For components running within COM applications, the following interfaces are supported for accessing context properties: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>.
+For components running within COM applications, the following interfaces are supported for accessing context properties: <a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>, <a href="/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>, and <a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>.
 
-For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextactivity">IObjectContextActivity</a>, <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>.
+For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextactivity">IObjectContextActivity</a>, <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>, and <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">Contexts and Threading Models</a>
-
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">Contexts and Threading Models</a>

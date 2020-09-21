@@ -57,9 +57,9 @@ Creates an up-down control.
 
 ### -param dwStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Window styles for the control. This parameter should include the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_CHILD</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_BORDER</a>, and <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control.
+Window styles for the control. This parameter should include the <a href="/windows/desktop/winmsg/window-styles">WS_CHILD</a>, <a href="/windows/desktop/winmsg/window-styles">WS_BORDER</a>, and <a href="/windows/desktop/winmsg/window-styles">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control.
 
 ### -param x
 
@@ -87,7 +87,7 @@ Height, in pixels, of the up-down control.
 
 ### -param hParent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the parent window of the up-down control.
 
@@ -99,13 +99,13 @@ Identifier for the up-down control.
 
 ### -param hInst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module instance of the application creating the up-down control.
 
 ### -param hBuddy
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the window associated with the up-down control. If this parameter is <b>NULL</b>, the control has no buddy window.
 
@@ -129,7 +129,6 @@ Position of the control.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 If the function succeeds, the return value is the window handle to the up-down control. If the function fails, the return value is <b>NULL</b>.
-

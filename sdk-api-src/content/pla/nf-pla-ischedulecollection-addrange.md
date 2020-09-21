@@ -56,7 +56,7 @@ Adds one or more schedules to the collection.
 
 ### -param pSchedules [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a> interface to a collection of one or more schedules to add to this collection.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a> interface to a collection of one or more schedules to add to this collection.
 
 ## -returns
 
@@ -64,13 +64,12 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-add">IScheduleCollection::Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-add">IScheduleCollection::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">IScheduleCollection::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">IScheduleCollection::Remove</a>

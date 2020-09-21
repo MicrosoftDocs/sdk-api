@@ -62,9 +62,8 @@ Initializes the thread for multi-threaded concurrency. The current thread is ini
 
 ## -remarks
 
-Pass the <b>RO_INIT_TYPE</b> enumeration to the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a> function to initialize a thread in the Windows Runtime.
+Pass the <b>RO_INIT_TYPE</b> enumeration to the <a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a> function to initialize a thread in the Windows Runtime.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a>
-
+<a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a>

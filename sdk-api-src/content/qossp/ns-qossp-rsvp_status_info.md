@@ -80,14 +80,14 @@ Additional mechanism for storing or returning provider-specific status informati
 ## -remarks
 
 When applications register their interest in FD_QOS events (see 
-<a href="https://docs.microsoft.com/previous-versions/aa374065(v=vs.80)">QOS Events</a>), event and error information is associated with the event in the form of the 
+<a href="/previous-versions/aa374065(v=vs.80)">QOS Events</a>), event and error information is associated with the event in the form of the 
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that is associated with the event. For more detailed information associated with that event, applications can investigate the <b>RSVP_STATUS_INFO</b> object that is provided in 
-<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">the ProviderSpecific buffer</a> of the event-associated 
+<a href="/previous-versions/aa374467(v=vs.80)">the ProviderSpecific buffer</a> of the event-associated 
 <b>QOS</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
+<a href="/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
 
 
 
@@ -95,5 +95,4 @@ When applications register their interest in FD_QOS events (see
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

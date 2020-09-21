@@ -50,84 +50,83 @@ api_name:
 
 ## -description
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource(s)</a> from a resource that are accessible using a render-target view.
+Specifies the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource(s)</a> from a resource that are accessible using a render-target view.
 
 ## -struct-fields
 
 ### -field Format
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The data format (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>).
+The data format (see <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>).
 
 ### -field ViewDimension
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_rtv_dimension">D3D10_RTV_DIMENSION</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_rtv_dimension">D3D10_RTV_DIMENSION</a></b>
 
-The resource type (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_rtv_dimension">D3D10_RTV_DIMENSION</a>), which specifies how the render-target resource will be accessed.
+The resource type (see <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_rtv_dimension">D3D10_RTV_DIMENSION</a>), which specifies how the render-target resource will be accessed.
 
 ### -field Buffer
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_rtv">D3D10_BUFFER_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_rtv">D3D10_BUFFER_RTV</a></b>
 
-Specifies which buffer elements can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_rtv">D3D10_BUFFER_RTV</a>).
+Specifies which buffer elements can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_rtv">D3D10_BUFFER_RTV</a>).
 
 ### -field Texture1D
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_rtv">D3D10_TEX1D_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_rtv">D3D10_TEX1D_RTV</a></b>
 
-Specifies the subresources in a 1D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_rtv">D3D10_TEX1D_RTV</a>).
+Specifies the subresources in a 1D texture that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_rtv">D3D10_TEX1D_RTV</a>).
 
 ### -field Texture1DArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_rtv">D3D10_TEX1D_ARRAY_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_rtv">D3D10_TEX1D_ARRAY_RTV</a></b>
 
-Specifies the subresources in a 1D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_rtv">D3D10_TEX1D_ARRAY_RTV</a>).
+Specifies the subresources in a 1D texture array that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_rtv">D3D10_TEX1D_ARRAY_RTV</a>).
 
 ### -field Texture2D
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_rtv">D3D10_TEX2D_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_rtv">D3D10_TEX2D_RTV</a></b>
 
-Specifies the subresources in a 2D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_rtv">D3D10_TEX2D_RTV</a>).
+Specifies the subresources in a 2D texture that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_rtv">D3D10_TEX2D_RTV</a>).
 
 ### -field Texture2DArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_rtv">D3D10_TEX2D_ARRAY_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_rtv">D3D10_TEX2D_ARRAY_RTV</a></b>
 
-Specifies the subresources in a 2D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_rtv">D3D10_TEX2D_ARRAY_RTV</a>).
+Specifies the subresources in a 2D texture array that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_rtv">D3D10_TEX2D_ARRAY_RTV</a>).
 
 ### -field Texture2DMS
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_rtv">D3D10_TEX2DMS_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_rtv">D3D10_TEX2DMS_RTV</a></b>
 
-Specifies a single subresource because a multisampled 2D texture only contains one subresource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_rtv">D3D10_TEX2DMS_RTV</a>).
+Specifies a single subresource because a multisampled 2D texture only contains one subresource (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_rtv">D3D10_TEX2DMS_RTV</a>).
 
 ### -field Texture2DMSArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_rtv">D3D10_TEX2DMS_ARRAY_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_rtv">D3D10_TEX2DMS_ARRAY_RTV</a></b>
 
-Specifies the subresources in a multisampled 2D texture array that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_rtv">D3D10_TEX2DMS_ARRAY_RTV</a>).
+Specifies the subresources in a multisampled 2D texture array that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_rtv">D3D10_TEX2DMS_ARRAY_RTV</a>).
 
 ### -field Texture3D
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_rtv">D3D10_TEX3D_RTV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_rtv">D3D10_TEX3D_RTV</a></b>
 
-Specifies subresources in a 3D texture that can be accessed (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_rtv">D3D10_TEX3D_RTV</a>).
+Specifies subresources in a 3D texture that can be accessed (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_rtv">D3D10_TEX3D_RTV</a>).
 
 ## -remarks
 
-A render-target-view description is passed into <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrendertargetview">ID3D10Device::CreateRenderTargetView</a> to create a render target.
+A render-target-view description is passed into <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrendertargetview">ID3D10Device::CreateRenderTargetView</a> to create a render target.
 
 A render-target-view cannot use the following formats:
 
 <ul>
-<li>Any <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">typeless format</a>.</li>
+<li>Any <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">typeless format</a>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> if the view will be used to bind a buffer (vertex, index, constant, or stream-output).</li>
+<a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> if the view will be used to bind a buffer (vertex, index, constant, or stream-output).</li>
 </ul>
-If the format is set to <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>, then the format of the resource that the view binds to the pipeline will be used.
+If the format is set to <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>, then the format of the resource that the view binds to the pipeline will be used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>

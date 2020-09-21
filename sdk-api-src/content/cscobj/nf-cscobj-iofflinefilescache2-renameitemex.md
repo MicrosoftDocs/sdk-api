@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Renames an item in the cache. This method is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-renameitem">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away.
+Renames an item in the cache. This method is identical to the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-renameitem">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away.
 
 ## -parameters
 
@@ -77,9 +77,8 @@ This method does not require system administrator privilege.
 
 If the item to be renamed is a file or directory, it must obey the file system semantics for the rename operation. If the file or a child file (for a directory) is already open, the rename will fail. Also, this method attempts to perform the rename as long as the user has access to the item that is being renamed.
 
-If you need to minimize the chance that the item is in use, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-renameitem">IOfflineFilesCache::RenameItem</a> method instead.
+If you need to minimize the chance that the item is in use, call the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-renameitem">IOfflineFilesCache::RenameItem</a> method instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache2">IOfflineFilesCache2</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache2">IOfflineFilesCache2</a>

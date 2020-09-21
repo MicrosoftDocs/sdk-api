@@ -53,7 +53,7 @@ The <b>DdMoCompEndFrame</b> callback function completes a decoded frame.
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_endmocompframedata">DD_ENDMOCOMPFRAMEDATA</a> structure that contains the information needed to complete the decoded frame.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_endmocompframedata">DD_ENDMOCOMPFRAMEDATA</a> structure that contains the information needed to complete the decoded frame.
 
 ## -returns
 
@@ -67,5 +67,4 @@ DirectDraw ensures that begin and end frames will be properly paired.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_endmocompframedata">DD_ENDMOCOMPFRAMEDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_endmocompframedata">DD_ENDMOCOMPFRAMEDATA</a>

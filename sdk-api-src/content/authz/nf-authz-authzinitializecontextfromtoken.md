@@ -84,24 +84,23 @@ A pointer to parameters to be passed to the callback function that computes dyna
 ### -param phAuthzClientContext [out]
 
 A pointer to the <i>AuthzClientContext</i> handle returned. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a> when done with the client context.
+<a href="/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a> when done with the client context.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function calls the  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function to add <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> to the newly created context.
+This function calls the  <a href="/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function to add <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> to the newly created context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

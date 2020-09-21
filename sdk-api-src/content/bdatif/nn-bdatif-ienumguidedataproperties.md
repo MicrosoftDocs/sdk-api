@@ -54,18 +54,18 @@ The <b>IEnumGuideDataProperties</b> interface represents a collection of guide d
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getprogramproperties">IGuideData::GetProgramProperties</a>.</li>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getprogramproperties">IGuideData::GetProgramProperties</a>.</li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryproperties">IGuideData::GetScheduleEntryProperties</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getscheduleentryproperties">IGuideData::GetScheduleEntryProperties</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getserviceproperties">IGuideData::GetServiceProperties</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getserviceproperties">IGuideData::GetServiceProperties</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGuideDataProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGuideDataProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IEnumGuideDataProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection. (Currently not implemented.)
@@ -89,7 +89,7 @@ Creates a copy of the collection. (Currently not implemented.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item or items in the collection.
@@ -98,7 +98,7 @@ Retrieves the next item or items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumerator to the first item in the collection.
@@ -107,7 +107,7 @@ Sets the enumerator to the first item in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of items. (Currently not implemented.)
@@ -122,5 +122,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

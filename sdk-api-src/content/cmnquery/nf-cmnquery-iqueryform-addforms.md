@@ -56,11 +56,11 @@ The <b>IQueryForm::AddForms</b> method is called to allow a query form extension
 
 ### -param pAddFormsProc [in]
 
-Pointer to a callback function of the form <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>. The query form extension  calls this function with the supplied <i>lParam</i> one time for each form to be added.
+Pointer to a callback function of the form <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>. The query form extension  calls this function with the supplied <i>lParam</i> one time for each form to be added.
 
 ### -param lParam [in]
 
-Contains a 32-bit value that is defined by the query handler. This value must be passed as the <i>lParam</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a> call.
+Contains a 32-bit value that is defined by the query handler. This value must be passed as the <i>lParam</i> parameter in the <a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a> call.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns <b>S_OK</b> if successful or a standard <b>HRESULT</b> failure code othe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>
+<a href="/windows/desktop/api/cmnquery/nc-cmnquery-lpcqaddformsproc">CQAddFormsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
-
+<a href="/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>

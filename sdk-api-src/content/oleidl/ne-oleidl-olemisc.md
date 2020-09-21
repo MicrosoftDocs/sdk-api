@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Describes miscellaneous characteristics of an object or class of objects. A container can call the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method to determine the <b>OLEMISC</b> bits set for an object. The values specified in an object server's CLSID\MiscStatus entry in the registration database are based on the <b>OLEMISC</b> enumeration. These constants are also used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure.
+Describes miscellaneous characteristics of an object or class of objects. A container can call the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method to determine the <b>OLEMISC</b> bits set for an object. The values specified in an object server's CLSID\MiscStatus entry in the registration database are based on the <b>OLEMISC</b> enumeration. These constants are also used in the <b>dwStatus</b> member of the <a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure.
 
 ## -enum-fields
 
 ### -field OLEMISC_RECOMPOSEONRESIZE
 
-When the container resizes the space allocated to displaying one of the object's presentations, the object wants to recompose the presentation. This means that on resize, the object wants to do more than scale its picture. If this bit is set, the container should force the object to the running state and call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a> with the new size.
+When the container resizes the space allocated to displaying one of the object's presentations, the object wants to recompose the presentation. This means that on resize, the object wants to do more than scale its picture. If this bit is set, the container should force the object to the running state and call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a> with the new size.
 
 ### -field OLEMISC_ONLYICONIC
 
@@ -66,11 +66,11 @@ The object has no useful content view other than its icon. From the user's persp
 
 ### -field OLEMISC_INSERTNOTREPLACE
 
-The object has initialized itself from the data in the container's current selection. Containers should examine this bit after calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-initfromdata">IOleObject::InitFromData</a> to initialize an object from the current selection. If set, the container should insert the object beside the current selection rather than replacing the current selection. If this bit is not set, the object being inserted replaces the current selection.
+The object has initialized itself from the data in the container's current selection. Containers should examine this bit after calling <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-initfromdata">IOleObject::InitFromData</a> to initialize an object from the current selection. If set, the container should insert the object beside the current selection rather than replacing the current selection. If this bit is not set, the object being inserted replaces the current selection.
 
 ### -field OLEMISC_STATIC
 
-This object is a static object, which is an object that contains only a presentation; it contains no native data. See <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a>.
+This object is a static object, which is an object that contains only a presentation; it contains no native data. See <a href="/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a>.
 
 ### -field OLEMISC_CANTLINKINSIDE
 
@@ -78,7 +78,7 @@ This object cannot be the link source that when bound to activates (runs) the ob
 
 ### -field OLEMISC_CANLINKBYOLE1
 
-This object can be linked to by OLE 1 containers. This bit is used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure transferred with the Object and Link Source Descriptor formats. An object can be linked to by OLE 1 containers if it is an untitled document, a file, or a selection of data within a file. Embedded objects or pseudo-objects that are contained within an embedded object cannot be linked to by OLE 1 containers (i.e., OLE 1 containers cannot link to link sources that, when bound, require more than one object server to be run.
+This object can be linked to by OLE 1 containers. This bit is used in the <b>dwStatus</b> member of the <a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure transferred with the Object and Link Source Descriptor formats. An object can be linked to by OLE 1 containers if it is an untitled document, a file, or a selection of data within a file. Embedded objects or pseudo-objects that are contained within an embedded object cannot be linked to by OLE 1 containers (i.e., OLE 1 containers cannot link to link sources that, when bound, require more than one object server to be run.
 
 ### -field OLEMISC_ISLINKOBJECT
 
@@ -102,7 +102,7 @@ This value is used with controls. It indicates that the control has no run-time 
 
 ### -field OLEMISC_ALWAYSRUN
 
-This value is used with controls. It tells the container that this control always wants to be running. As a result, the container should call <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> when loading or creating the object.
+This value is used with controls. It tells the container that this control always wants to be running. As a result, the container should call <a href="/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> when loading or creating the object.
 
 ### -field OLEMISC_ACTSLIKEBUTTON
 
@@ -122,15 +122,15 @@ This value is used with controls. It indicates that the control understands how 
 
 ### -field OLEMISC_SIMPLEFRAME
 
-This value is used with controls. It indicates that the control is a simple grouping of other controls and does little more than pass Windows messages to the control container managing the form. Controls of this sort require the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a> on the container's site.
+This value is used with controls. It indicates that the control is a simple grouping of other controls and does little more than pass Windows messages to the control container managing the form. Controls of this sort require the implementation of <a href="/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a> on the container's site.
 
 ### -field OLEMISC_SETCLIENTSITEFIRST
 
-This value is used with controls. It indicates that the control wants to use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> as its initialization function, even before a call such as <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">IPersistStorage::InitNew</a>. This allows the control to access a container's ambient properties before loading information from persistent storage. Note that the current implementations of <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>, and the default handler do not understand this value. Control containers that wish to honor this value must currently implement their own versions of these functions in order to establish the correct initialization sequence for the control.
+This value is used with controls. It indicates that the control wants to use <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> as its initialization function, even before a call such as <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a> or <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">IPersistStorage::InitNew</a>. This allows the control to access a container's ambient properties before loading information from persistent storage. Note that the current implementations of <a href="/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>, <a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>, <a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>, and the default handler do not understand this value. Control containers that wish to honor this value must currently implement their own versions of these functions in order to establish the correct initialization sequence for the control.
 
 ### -field OLEMISC_IMEMODE
 
-Obsolete. A control that works with an Input Method Editor (IME) system component can control the state of the IME through the IMEMode property rather than using this value in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> enumeration. You can use an IME component to enter information in Asian character sets with a regular keyboard. A Japanese IME, for example, allows you to type a word such as "sushi," on a regular keyboard and when you hit the spacebar, the IME component converts that word to appropriate kanji or proposes possible choices. The OLEMISC_IMEMODE value was previously used to mark a control as capable of controlling an IME mode system component.
+Obsolete. A control that works with an Input Method Editor (IME) system component can control the state of the IME through the IMEMode property rather than using this value in the <a href="/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> enumeration. You can use an IME component to enter information in Asian character sets with a regular keyboard. A Japanese IME, for example, allows you to type a word such as "sushi," on a regular keyboard and when you hit the spacebar, the IME component converts that word to appropriate kanji or proposes possible choices. The OLEMISC_IMEMODE value was previously used to mark a control as capable of controlling an IME mode system component.
 
 ### -field OLEMISC_IGNOREACTIVATEWHENVISIBLE
 
@@ -146,9 +146,8 @@ A control that supports multi-level undo sets this value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>
-
+<a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>

@@ -54,7 +54,7 @@ The <b>IDsBrowseDomainTree</b> interface is used by an application to display a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsBrowseDomainTree</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsBrowseDomainTree</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsBrowseDomainTree</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsBrowseDomainTree</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDsBrowseDomainTree</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto">BrowseTo</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto">BrowseTo</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box used to browse for a domain.
@@ -78,7 +78,7 @@ Displays a dialog box used to browse for a domain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">FlushCachedDomains</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">FlushCachedDomains</a>
 </td>
 <td align="left" width="63%">
 Frees the cached domain list.
@@ -87,16 +87,16 @@ Frees the cached domain list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">FreeDomains</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">FreeDomains</a>
 </td>
 <td align="left" width="63%">
-Frees the memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
+Frees the memory allocated by the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">GetDomains</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">GetDomains</a>
 </td>
 <td align="left" width="63%">
 Retrieves the trust domains of the current computer.
@@ -105,7 +105,7 @@ Retrieves the trust domains of the current computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">SetComputer</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">SetComputer</a>
 </td>
 <td align="left" width="63%">
 Specifies the computer and credentials to be used by this instance of the <b>IDsBrowseDomainTree</b> interface.
@@ -116,7 +116,7 @@ Specifies the computer and credentials to be used by this instance of the <b>IDs
 
 ## -remarks
 
-An instance of this interface is created by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
+An instance of this interface is created by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
 
 
 ```cpp
@@ -140,5 +140,4 @@ if(SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>

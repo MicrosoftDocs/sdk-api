@@ -57,11 +57,11 @@ Retrieves a list of available ELS platform-supported services, along with associ
 
 ### -param pOptions [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
+Pointer to a <a href="/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
 
 ### -param prgServices [out]
 
-Address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
+Address of a pointer to an array of <a href="/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
 
 ### -param pdwServicesCount [out]
 
@@ -74,34 +74,33 @@ Returns S_OK if successful. The function returns an error HRESULT value if it do
 
 ## -remarks
 
-The ELS application can either retrieve all services or filter the services according to specified options. For an associated procedure and code sample, see <a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>.
+The ELS application can either retrieve all services or filter the services according to specified options. For an associated procedure and code sample, see <a href="/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>.
 
-To avoid resource leaks, the application must free the pointer indicated by <i>prgServices</i> with a call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>.  
+To avoid resource leaks, the application must free the pointer indicated by <i>prgServices</i> with a call to <a href="/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>.  
 
 
 For performance reasons, it is recommended to retrieve services infrequently. For example, if the application needs a specific service, by GUID, it can be enumerated when needed and cached for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
+<a href="/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a>
+<a href="/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
+<a href="/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>
-
+<a href="/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>

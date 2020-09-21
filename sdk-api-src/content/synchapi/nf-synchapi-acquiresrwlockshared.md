@@ -67,13 +67,12 @@ A pointer to the SRW lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-releasesrwlockshared">ReleaseSRWLockShared</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-releasesrwlockshared">ReleaseSRWLockShared</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
+<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

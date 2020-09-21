@@ -67,9 +67,8 @@ The supported languages are specific, not neutral. For Hebrew, for example, the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>

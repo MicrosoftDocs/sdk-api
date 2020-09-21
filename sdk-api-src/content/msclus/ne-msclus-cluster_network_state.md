@@ -52,14 +52,14 @@ api_name:
 ## -description
 
 Enumerates the possible values of the state of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>.
+    <a href="/previous-versions/windows/desktop/mscs/networks">network</a>.
 
 ## -enum-fields
 
 ### -field ClusterNetworkStateUnknown
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ### -field ClusterNetworkUnavailable
 
@@ -68,7 +68,7 @@ All of the network interfaces on the network are unavailable, which means that t
 
 ### -field ClusterNetworkDown
 
-The network is not operational; none of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the network 
+The network is not operational; none of the <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the network 
        can communicate.
 
 ### -field ClusterNetworkPartitioned
@@ -82,13 +82,12 @@ The network is operational; all of the nodes in the cluster can communicate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate">GetClusterNetworkState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate">GetClusterNetworkState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnetwork-state">State Property of the ClusNetwork Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusnetwork-state">State Property of the ClusNetwork Object</a>

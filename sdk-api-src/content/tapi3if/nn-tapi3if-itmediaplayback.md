@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>ITMediaPlayback</b> interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaPlayback</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaPlayback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaPlayback</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaPlayback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITMediaPlayback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-get_playlist">get_PlayList</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-get_playlist">get_PlayList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of files to play.
@@ -80,7 +80,7 @@ Gets the list of files to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-put_playlist">put_PlayList</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-put_playlist">put_PlayList</a>
 </td>
 <td align="left" width="63%">
 Sets the list of files to play.
@@ -91,9 +91,8 @@ Sets the list of files to play.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>

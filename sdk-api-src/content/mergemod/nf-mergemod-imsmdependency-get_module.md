@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>get_Module</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-module">Module</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the ModuleID of the module required by the current string in the form of a <b>BSTR</b>. The ModuleID is of the same form as used in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/modulesignature-table">ModuleSignature table</a>.
+<a href="/windows/desktop/Msi/dependency-module">Module</a> property of the 
+<a href="/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the ModuleID of the module required by the current string in the form of a <b>BSTR</b>. The ModuleID is of the same form as used in the 
+<a href="/windows/desktop/Msi/modulesignature-table">ModuleSignature table</a>.
 
 ## -parameters
 
@@ -101,9 +101,8 @@ The client is responsible for freeing the resulting string using <b>SysFreeStrin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

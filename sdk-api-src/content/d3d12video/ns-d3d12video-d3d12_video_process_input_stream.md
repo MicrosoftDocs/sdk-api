@@ -48,7 +48,7 @@ Contains input information for the video processor blend functionality.
 
 ### -field pTexture2D
 
-An [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the current input field or frame.
+An [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the current input field or frame.
 
 ### -field Subresource
 
@@ -61,4 +61,3 @@ A [D3D12_VIDEO_PROCESS_REFERENCE_SET](ns-d3d12video-d3d12_video_process_referenc
 ## -remarks
 
 ## -see-also
-

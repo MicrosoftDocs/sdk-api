@@ -226,7 +226,7 @@ The specified volume is nested too deeply to participate in the VSS operation. P
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -278,7 +278,7 @@ The volume or remote file share is not supported by the specified provider.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -293,8 +293,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 The provider returned an unexpected error code. This error code is only returned via the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
         <i>ppAsync</i> parameter.
        
 
@@ -306,7 +306,7 @@ The provider returned an unexpected error code. This error code is only returned
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-If <i>pwszVolumeName</i> is a UNC share path, the server name portion must be in hostname or fully qualified domain name format. UNC share names with IP addresses must be normalized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths">IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths</a> method before they are passed to <b>AddToSnapshotSet</b>.
+If <i>pwszVolumeName</i> is a UNC share path, the server name portion must be in hostname or fully qualified domain name format. UNC share names with IP addresses must be normalized by calling the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths">IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths</a> method before they are passed to <b>AddToSnapshotSet</b>.
 
 The maximum number of shadow copied volumes in a single shadow copy set is 64.
 
@@ -331,13 +331,12 @@ The shadow copy identifier that is returned in the <i>pidSnapshot</i> parameter 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths">IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths">IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

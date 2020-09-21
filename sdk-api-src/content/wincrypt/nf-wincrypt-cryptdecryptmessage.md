@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-The <b>CryptDecryptMessage</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decodes</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decrypts</a> a message.
+The <b>CryptDecryptMessage</b> function <a href="/windows/desktop/SecGloss/d-gly">decodes</a> and <a href="/windows/desktop/SecGloss/d-gly">decrypts</a> a message.
 
 ## -parameters
 
 ### -param pDecryptPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_decrypt_message_para">CRYPT_DECRYPT_MESSAGE_PARA</a> structure that contains decryption parameters.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_decrypt_message_para">CRYPT_DECRYPT_MESSAGE_PARA</a> structure that contains decryption parameters.
 
 ### -param pbEncryptedBlob [in]
 
-A pointer to a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoded</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypted</a> message to be decrypted.
+A pointer to a buffer that contains the <a href="/windows/desktop/SecGloss/e-gly">encoded</a> and <a href="/windows/desktop/SecGloss/e-gly">encrypted</a> message to be decrypted.
 
 ### -param cbEncryptedBlob [in]
 
@@ -75,7 +75,7 @@ A pointer to a buffer that receives the decrypted message.
 
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. A decrypted message will not be returned if this parameter is <b>NULL</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbDecrypted [in, out, optional]
 
@@ -88,20 +88,20 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param ppXchgCert [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a <a href="/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecrypt">CryptDecrypt</a> might be propagated to this function.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecrypt">CryptDecrypt</a> might be propagated to this function.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the following error codes most often.
+The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the following error codes most often.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ If the buffer specified by the <i>pbDecrypted</i> parameter is not large enough 
 </dl>
 </td>
 <td width="60%">
-Invalid message and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding types</a>. Currently only PKCS_7_ASN_ENCODING and X509_ASN_ENCODING_TYPE are supported. Invalid <b>cbSize</b> in *<i>pDecryptPara</i>.
+Invalid message and <a href="/windows/desktop/SecGloss/c-gly">certificate encoding types</a>. Currently only PKCS_7_ASN_ENCODING and X509_ASN_ENCODING_TYPE are supported. Invalid <b>cbSize</b> in *<i>pDecryptPara</i>.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Invalid message and <a href="https://docs.microsoft.com/windows/desktop/SecGloss
 </dl>
 </td>
 <td width="60%">
-Not an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enveloped</a> cryptographic message.
+Not an <a href="/windows/desktop/SecGloss/e-gly">enveloped</a> cryptographic message.
 
 </td>
 </tr>
@@ -159,35 +159,34 @@ The message was encrypted by using an unknown or unsupported algorithm.
 </dl>
 </td>
 <td width="60%">
-No certificate was found having a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> property to use for decrypting.
+No certificate was found having a <a href="/windows/desktop/SecGloss/p-gly">private key</a> property to use for decrypting.
 
 </td>
 </tr>
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -remarks
 
 When <b>NULL</b> is passed for <i>pbDecrypted</i>, and <i>pcbDecrypted</i> is not <b>NULL</b>, <b>NULL</b> is returned for the address passed in <i>ppXchgCert</i>; otherwise, a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If the function fails, the value at <i>ppXchgCert</i> is set to <b>NULL</b>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If the function fails, the value at <i>ppXchgCert</i> is set to <b>NULL</b>.
 
 
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage">Example C Program: Using CryptEncryptMessage and CryptDecryptMessage</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage">Example C Program: Using CryptEncryptMessage and CryptDecryptMessage</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

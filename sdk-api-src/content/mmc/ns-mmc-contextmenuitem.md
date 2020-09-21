@@ -53,9 +53,9 @@ api_name:
 ## -description
 
 The <b>CONTEXTMENUITEM</b> structure is passed to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> method or the 
+    <a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> method or the 
     <b>IContextMenuProvider::AddItem</b> method 
-    (inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>) to define a new 
+    (inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>) to define a new 
     menu item, submenu, or insertion point. The context menu is built from the root down, with each new item going to 
     the end of the submenu or insertion point where it is inserted.
 
@@ -72,12 +72,12 @@ A pointer to a null-terminated string that contains the text that is displayed i
 ### -field lCommandID
 
 A value that specifies the command identifier for menu items. If this menu item is added by 
-       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">IExtendContextMenu::AddMenuItems</a> and 
+       <a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">IExtendContextMenu::AddMenuItems</a> and 
        then selected, this is the command ID that is passed back to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>. If this menu 
-       item is added by the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> 
+       <a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>. If this menu 
+       item is added by the <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> 
        interface and then selected, this is the command ID that is passed back to pISelected by 
-       <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a>. 
+       <a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a>. 
        If this is an insertion point (<b>CCM_SPECIAL_INSERTION_POINT</b> is set in 
        <i>fSpecialFlags</i>) or a submenu (<b>MF_POPUP</b> is set in 
        <i>fFlags</i>), use <i>lCommandID</i> in subsequent calls as 
@@ -107,7 +107,7 @@ Special behavior. Snap-ins can use the other bits as required.
 These insertion points and submenus are shared between the creator of the context menu, the primary extension, and the third-party extension. Items added to a shared insertion point or submenu are available to the creator of the context menu, the primary extension, and the third-party extension.
 
 If this bit is not set, the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface and each extension can use the same ID. Each ID refers to a different insertion point or submenu.
+         <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface and each extension can use the same ID. Each ID refers to a different insertion point or submenu.
 
 Only the context menu creator and the primary snap-in can create shared insertion points or submenus.
 
@@ -144,7 +144,7 @@ A value that specifies where in the context menu the new item should be added. S
 #### 0 (zero)
 
 An <i>lInsertionPointID</i> of zero refers to the root menu for this context menu. Zero can be used interchangeably with <b>CCM_INSERTIONPOINTID_ROOT_MENU</b>. Be aware that only the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add items directly to the root menu. Extensions can only add items to insertion points and submenus added to the root menu by 
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add items directly to the root menu. Extensions can only add items to insertion points and submenus added to the root menu by 
 <b>IContextMenuProvider</b> or by MMC.
 
 
@@ -190,10 +190,10 @@ Extension snap-ins can use this insertion point to add items to the bottom of th
 #### CCM_INSERTIONPOINTID_ROOT_MENU = 0x80000000
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can use this insertion point to add items to the root menu.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can use this insertion point to add items to the root menu.
 
 Neither primary extensions nor third-party extensions can add items to the root menu except through insertion points added by 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>.
 
 ### -field fFlags
 
@@ -211,7 +211,7 @@ A value that specifies that this is a submenu within the context menu. Menu item
 MF_OWNERDRAW
 
 These flags are not supported and will result in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> returning <b>E_INVALIDARG</b>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> returning <b>E_INVALIDARG</b>.
 
 
 
@@ -220,7 +220,7 @@ These flags are not supported and will result in
 Draws a horizontal separator line.
 
 Only the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add menu items with <b>MF_SEPARATOR</b> set.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add menu items with <b>MF_SEPARATOR</b> set.
 
 The following flags function in the same way that they do in the Windows API:
 
@@ -285,7 +285,7 @@ A value that specifies one or more of the following flags:
 Ignore all other parameters except <i>lInsertionPointID</i>. Add a separator to the end of the menu or at the specified insertion point. Separators placed at the top or bottom of a menu or submenu will not be displayed. Separators with no menu items between them will be collapsed into a single separator.
 
 Only the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add separators, special or otherwise.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a> interface can add separators, special or otherwise.
 
 
 
@@ -315,17 +315,16 @@ Validate the item parameters, but do not add the menu item. Return result code t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
-
+<a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>

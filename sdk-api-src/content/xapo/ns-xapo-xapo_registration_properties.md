@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">IXAPO::GetRegistrationProperties</a>, <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase">CXAPOBase::CXAPOBase</a>.
+	 <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">IXAPO::GetRegistrationProperties</a>, <a href="/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="/windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase">CXAPOBase::CXAPOBase</a>.
 
 ## -struct-fields
 
@@ -168,5 +168,4 @@ Windows 10 (XAudio2.9);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndRealize</b> macro controls how an MCI window realized in the foreground or background. This macro also causes the palette for the MCI window to be realized in the process. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-realize">MCIWNDM_REALIZE</a> message.
+The <b>MCIWndRealize</b> macro controls how an MCI window realized in the foreground or background. This macro also causes the palette for the MCI window to be realized in the process. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-realize">MCIWNDM_REALIZE</a> message.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ Background flag. Specify <b>TRUE</b> for this parameter for the window to be rea
 A common use for <b>MCIWndRealize</b> is to coordinate palette ownership between an MCI control and the application that contains it. The application can have the MCI window realize in the background and realize its own palette in the foreground.
 
 If your application contains an MCI control, but does not need to realize its palette, you can use this macro to handle the WM_PALETTECHANGED and WM_QUERYNEWPALETTE messages, instead of using <b>RealizePalette</b>. However, it is usually easier to call the <b>SendMessage</b> function to forward the message to the MCIWnd window, which will automatically realize the palette.
-

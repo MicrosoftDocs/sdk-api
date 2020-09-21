@@ -57,7 +57,7 @@ Retrieves an Advanced Systems Format (ASF) profile that describes the ASF conten
 
 ### -param ppIProfile [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface pointer. The caller must release the interface. If the object does not have an ASF profile, this parameter receives the value <b>NULL</b>.
+Receives an <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface pointer. The caller must release the interface. If the object does not have an ASF profile, this parameter receives the value <b>NULL</b>.
 
 ## -returns
 
@@ -83,17 +83,17 @@ The method succeeded.
 
 ## -remarks
 
-The profile is set by calling either <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile">IMFASFContentInfo::SetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader">IMFASFContentInfo::ParseHeader</a>.
+The profile is set by calling either <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile">IMFASFContentInfo::SetProfile</a> or <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader">IMFASFContentInfo::ParseHeader</a>.
 
-The ASF profile object returned by this method does not include any of the <b>MF_PD_ASF_xxx</b> attributes (see <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptor-attributes">Presentation Descriptor Attributes</a>). To get these attributes, do the following:
+The ASF profile object returned by this method does not include any of the <b>MF_PD_ASF_xxx</b> attributes (see <a href="/windows/desktop/medfound/presentation-descriptor-attributes">Presentation Descriptor Attributes</a>). To get these attributes, do the following:
 
 <ol>
 <li>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor">IMFASFContentInfo::GeneratePresentationDescriptor</a> to get the ASF presentation descriptor. You can query the presentation descriptor for the <b>MF_PD_ASF_xxx</b> attributes.
+Call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor">IMFASFContentInfo::GeneratePresentationDescriptor</a> to get the ASF presentation descriptor. You can query the presentation descriptor for the <b>MF_PD_ASF_xxx</b> attributes.
 
 </li>
 <li>
-(Optional.) Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor">MFCreateASFProfileFromPresentationDescriptor</a> to convert the presentation descriptor into an ASF profile. The profile object created by this function contains the <b>MF_PD_ASF_xxx</b> attributes.
+(Optional.) Call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor">MFCreateASFProfileFromPresentationDescriptor</a> to convert the presentation descriptor into an ASF profile. The profile object created by this function contains the <b>MF_PD_ASF_xxx</b> attributes.
 
 </li>
 </ol>
@@ -101,13 +101,12 @@ An ASF profile is a template for file encoding, and is intended mainly for creat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
+<a href="/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
-
+<a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>

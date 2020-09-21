@@ -56,9 +56,8 @@ The <b>EngDeletePalette</b> function sends a request to GDI to delete the specif
 
 ### -param hpal [in]
 
-Handle to the palette to be deleted. This handle is supplied by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>.
+Handle to the palette to be deleted. This handle is supplied by <a href="/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>.
 
 ## -returns
 
 The return value is <b>TRUE</b> if the function is successful; otherwise, it returns <b>FALSE</b>.
-

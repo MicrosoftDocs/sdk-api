@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetDeviceFromCanonicalName</b> method retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>.
+The <b>GetDeviceFromCanonicalName</b> method retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name. You can retrieve a device's canonical name by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A wide-character, <b>null</b>-terminated string specifying the canonical name of
 
 ### -param ppDevice
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> interface of the device object with the specified canonical name. The caller must release this interface when done with it.
+Pointer to a pointer to the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> interface of the device object with the specified canonical name. The caller must release this interface when done with it.
 
 ## -returns
 
@@ -98,13 +98,12 @@ There is no connected device found with canonical name <i>pwszCanonicalName</i>.
 
 ## -remarks
 
-This method can be useful if an application implements <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a>, which sends a canonical name notification when a device connects or disconnects from the computer.
+This method can be useful if an application implements <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a>, which sends a canonical name notification when a device connects or disconnects from the computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>

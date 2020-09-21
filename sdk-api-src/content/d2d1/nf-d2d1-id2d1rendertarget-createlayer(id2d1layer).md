@@ -69,11 +69,10 @@ The layer automatically resizes itself, as needed.
 
 ## Examples
 
-For an example on how to use [CreateLayer](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(constd2d1_size_f_id2d1layer)), see the <a href="/windows/win32/Direct2D/how-to-clip-with-layers">How to Clip a Region with a Layer</a>.
+For an example on how to use [CreateLayer](./nf-d2d1-id2d1rendertarget-createlayer(constd2d1_size_f_id2d1layer).md), see the <a href="/windows/win32/Direct2D/how-to-clip-with-layers">How to Clip a Region with a Layer</a>.
 
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 <a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>
-

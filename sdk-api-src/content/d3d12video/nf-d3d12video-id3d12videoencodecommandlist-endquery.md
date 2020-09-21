@@ -48,11 +48,11 @@ Ends a query.
 
 ### -param pQueryHeap
 
-A pointer to an [ID3D12QueryHeap](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap) specifying the storage for this query.
+A pointer to an [ID3D12QueryHeap](/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap) specifying the storage for this query.
 
 ### -param Type
 
-A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) enumeration specifying the type of the query.
+A member of the [D3D12_QUERY_TYPE](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) enumeration specifying the type of the query.
 
 ### -param Index
 
@@ -61,4 +61,3 @@ The index of the query within the query heap.
 ## -remarks
 
 ## -see-also
-

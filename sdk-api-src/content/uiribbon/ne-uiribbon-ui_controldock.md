@@ -68,13 +68,12 @@ The QAT is docked as a visually integral band below the Ribbon, as shown in the 
 
 ## -remarks
 
-The QAT dock position is based on the <b>UI_CONTROLDOCK</b> value in <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-quickaccesstoolbardock">UI_PKEY_QuickAccessToolbarDock</a>.
+The QAT dock position is based on the <b>UI_CONTROLDOCK</b> value in <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-quickaccesstoolbardock">UI_PKEY_QuickAccessToolbarDock</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-quickaccesstoolbardock">UI_PKEY_QuickAccessToolbarDock</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-quickaccesstoolbardock">UI_PKEY_QuickAccessToolbarDock</a>

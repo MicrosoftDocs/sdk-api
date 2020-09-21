@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the results for each of the token bindings that <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>   verified.
+Contains the results for each of the token bindings that <a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>   verified.
 
 ## -struct-fields
 
@@ -60,9 +60,8 @@ The number of elements in the array that  the <b>resultData</b> member contains.
 
 ### -field resultData
 
-An array of results, one for each of the token bindings that <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>   verified.
+An array of results, one for each of the token bindings that <a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>   verified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>

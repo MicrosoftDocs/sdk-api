@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies constraints for state objects. Use values from this enumeration in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> structure.
+Specifies constraints for state objects. Use values from this enumeration in the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> structure.
 
 ## -enum-fields
 
@@ -77,4 +77,3 @@ In the absence of this flag (default), exports from this collection cannot be di
 A subobject association defined externally that associates an external subobject to a local export does not count as an external dependency on a local definition, so the presence or absence of this flag does not affect whether the association is allowed or not. On the other hand if the current collection defines a subobject association for a locally defined subobject to an external export (e.g. shader), that counts as an external dependency on a local definition and this flag must be set.
 
 Regardless of the presence or absence of this flag, shader entrypoints (such as hit groups or miss shaders) in the collection are visible as entrypoints to a containing state object (e.g. RTPSO) if exported by it.  In the case of an RTPSO, the exported entrypoints can be used in shader tables for raytracing.
-

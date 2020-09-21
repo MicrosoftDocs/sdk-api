@@ -54,13 +54,13 @@ api_name:
 
 Specifies information for a plug-in request. A pointer to a <b>WSMAN_PLUGIN_REQUEST</b> structure is passed to all operation
 entry points within the plug-in. All result notification methods use this
-pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a>on the operation.
+pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a>on the operation.
 
 ## -struct-fields
 
 ### -field senderDetails
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
 
 ### -field locale
 
@@ -74,11 +74,11 @@ Any call into the plug-in will have the locale on the thread set to the  locale 
 
 ### -field resourceUri
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> for this operation.
+Specifies the <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> for this operation.
 
 ### -field operationInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_operation_info">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_operation_info">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
 
 ### -field shutdownNotification
 
@@ -95,4 +95,3 @@ If the operation is canceled, <b>shutdownNotification</b> is signaled.
 Operations must signal the callback for the operation to indicate it has been shut down. Operations are canceled in a hierarchical way to ensure that all follow-on operations are canceled before the top-level operations. A plug-in has two ways of handling the cancellation of an operation.   First, the plug-in can check the <b>shutdownNotification</b> Boolean value
 if it iterates through a set of results.  Second, if the plug-in is more 
 asynchronous in nature, the <b>shutdownNotificationHandle</b> can be used when queuing asynchronous notification threads.
-

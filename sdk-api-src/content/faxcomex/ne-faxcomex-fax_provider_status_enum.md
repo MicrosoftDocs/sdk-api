@@ -60,7 +60,7 @@ The extension loaded, linked, and initialized successfully.
 
 ### -field fpsSERVER_ERROR
 
-A server-related error occurred while the fax service was trying to load, link, and initialize the extension; for example, there may have been insufficient memory resources. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
+A server-related error occurred while the fax service was trying to load, link, and initialize the extension; for example, there may have been insufficient memory resources. Call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
 
 ### -field fpsBAD_GUID
 
@@ -68,25 +68,24 @@ An error occurred while the fax service was parsing the extension's installation
 
 ### -field fpsBAD_VERSION
 
-An error occurred while the fax service was parsing the extension's installation data; the extension reports an invalid version of the FSP or routing extension API; the routing extension is the non-default MS routing extension for a desktop computer installation. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
+An error occurred while the fax service was parsing the extension's installation data; the extension reports an invalid version of the FSP or routing extension API; the routing extension is the non-default MS routing extension for a desktop computer installation. Call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
 
 ### -field fpsCANT_LOAD
 
-An error occurred while the fax service was loading the FSP or routing extension's DLL. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
+An error occurred while the fax service was loading the FSP or routing extension's DLL. Call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
 
 ### -field fpsCANT_LINK
 
-An error occurred when the fax service attempted to dynamically link to one of the functions that the FSP or routing extension's DLL must export. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
+An error occurred when the fax service attempted to dynamically link to one of the functions that the FSP or routing extension's DLL must export. Call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
 
 ### -field fpsCANT_INIT
 
-An error occurred when the fax service called the extension's initialization function. For virtual devices, the <b>InitErrorCode</b> property is an <b>HRESULT</b> value; otherwise, it is a Win32 error code. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
+An error occurred when the fax service called the extension's initialization function. For virtual devices, the <b>InitErrorCode</b> property is an <b>HRESULT</b> value; otherwise, it is a Win32 error code. Call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider-initerrorcode-vb">IFaxDeviceProvider::get_InitErrorCode</a> method or the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-initerrorcode-vb">IFaxInboundRoutingExtension::get_InitErrorCode</a> method to return the last error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceprovider-get_status">IFaxDeviceProvider::get_Status</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceprovider-get_status">IFaxDeviceProvider::get_Status</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-status-vb">IFaxInboundRoutingExtension::get_Status</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-status-vb">IFaxInboundRoutingExtension::get_Status</a>

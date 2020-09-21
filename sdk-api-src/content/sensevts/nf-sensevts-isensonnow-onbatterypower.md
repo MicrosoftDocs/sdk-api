@@ -87,25 +87,24 @@ SENS calls this method to notify an application that a computer is using battery
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">ISensOnNow::BatteryLow</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">ISensOnNow::BatteryLow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">ISensOnNow::OnACPower</a>
-
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">ISensOnNow::OnACPower</a>

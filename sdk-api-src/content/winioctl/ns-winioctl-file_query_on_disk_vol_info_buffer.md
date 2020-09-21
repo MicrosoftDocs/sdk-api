@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Receives the volume information from a call to  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info">FSCTL_QUERY_ON_DISK_VOLUME_INFO</a>.
+Receives the volume information from a call to  <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info">FSCTL_QUERY_ON_DISK_VOLUME_INFO</a>.
 
 ## -struct-fields
 
@@ -107,5 +107,4 @@ The last implementation that modified the disk. This information is implementati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info">FSCTL_QUERY_ON_DISK_VOLUME_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info">FSCTL_QUERY_ON_DISK_VOLUME_INFO</a>

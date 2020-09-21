@@ -60,12 +60,12 @@ Represents the status of the specified element.
 ### -field Element
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
 
 ### -field SrcElementAddress
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
 
 
 
@@ -135,7 +135,7 @@ The element supports export of media through the changer's insert/eject port.
 The element contains a piece of media.
 
 Note that this value is valid only if the element type is ChangerDrive, ChangerSlot, or ChangerTransport. If the element type is ChangerIEPort, this value is valid only if the <b>Features0</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> includes CHANGER_REPORT_IEPORT_STATE.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> includes CHANGER_REPORT_IEPORT_STATE.
 
 </td>
 </tr>
@@ -358,7 +358,7 @@ Reserved for future use. The value of this member must be zero.
 ### -field PrimaryVolumeID
 
 The primary volume identifier for the media. If the changer supports a barcode reader and the reader is installed (as indicated by CHANGER_BAR_CODE_SCANNER_INSTALLED in the <b>Features0</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a>), <b>PrimaryVolumeID</b> is the bar code of the media. If the changer does not support a barcode reader, <b>PrimaryVolumeID</b> is the value previously assigned to the media. 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a>), <b>PrimaryVolumeID</b> is the bar code of the media. If the changer does not support a barcode reader, <b>PrimaryVolumeID</b> is the value previously assigned to the media. 
 
 
 
@@ -390,9 +390,8 @@ The serial number for the drive.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>

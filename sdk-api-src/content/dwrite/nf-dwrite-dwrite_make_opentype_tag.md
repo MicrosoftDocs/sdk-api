@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little-endian architectures), which can be used to compare with tags in the font file. This macro is compatible with [DWRITE_FONT_FEATURE_TAG](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag).
+Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little-endian architectures), which can be used to compare with tags in the font file. This macro is compatible with [DWRITE_FONT_FEATURE_TAG](./ne-dwrite-dwrite_font_feature_tag.md).
 
 ## -parameters
 
@@ -87,4 +87,3 @@ The OpenType language (such as "ROM ", "URD ", and "FAR " for Romanian, Urdu, an
 DWRITE_MAKE_OPENTYPE_TAG('c','c','m','p');
 // Result: DWORD 0x706D6363
 ```
-

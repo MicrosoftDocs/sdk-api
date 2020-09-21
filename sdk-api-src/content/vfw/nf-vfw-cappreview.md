@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-preview">WM_CAP_SET_PREVIEW</a> message.
+The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-preview">WM_CAP_SET_PREVIEW</a> message.
 
 ## -parameters
 
@@ -64,15 +64,14 @@ Preview flag. Specify <b>TRUE</b> for this parameter to enable preview mode or <
 
 ## -remarks
 
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

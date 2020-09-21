@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMUINT3</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>.
+A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
@@ -65,7 +65,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>

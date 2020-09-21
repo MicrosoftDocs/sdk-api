@@ -54,7 +54,7 @@ Exposes provider state methods that are implemented by third parties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderState</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCProviderState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCProviderState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWPCProviderState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-disable">Disable</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-disable">Disable</a>
 </td>
 <td align="left" width="63%">
 Notifies the third-party application that it is not the current provider.
@@ -78,7 +78,7 @@ Notifies the third-party application that it is not the current provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-enable">Enable</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Notifies the third-party application that it has been selected as the new current provider.
@@ -86,4 +86,3 @@ Notifies the third-party application that it has been selected as the new curren
 </td>
 </tr>
 </table>
-

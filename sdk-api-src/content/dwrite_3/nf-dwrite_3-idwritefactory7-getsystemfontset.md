@@ -58,9 +58,9 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 ### -param fontSet
 
-Type: **[IDWriteFontSet2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2)\*\***
+Type: **[IDWriteFontSet2](./nn-dwrite_3-idwritefontset2.md)\*\***
 
-The address of a pointer to an [IDWriteFontSet2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) interface. On successful completion, the function sets the pointer to the font set object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSet2](./nn-dwrite_3-idwritefontset2.md) interface. On successful completion, the function sets the pointer to the font set object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -71,4 +71,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

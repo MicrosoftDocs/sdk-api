@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The [DVD_MultichannelAudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_multichannelaudioattributes) structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
+The [DVD_MultichannelAudioAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_multichannelaudioattributes) structure contains an array of eight <code>DVD_MUA_Coeff</code> structures, one for each channel in the stream.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The mixing coefficient for this channel to channel 1.
 
 ## -remarks
 
-The information contained in this structure reflects the mixing coefficients as authored on the digital video disc (DVD). An application cannot modify these values or otherwise use them unless it is also decoding the audio. In the typical DVD filter graph, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not send this information to the decoder.
+The information contained in this structure reflects the mixing coefficients as authored on the digital video disc (DVD). An application cannot modify these values or otherwise use them unless it is also decoding the audio. In the typical DVD filter graph, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not send this information to the decoder.
 
 The alpha coefficient is used to mix to audio channel 0 and the beta coefficient is used to mix to audio channel 1. In general, the following formula calculates the mixing coefficients.
 
@@ -86,13 +86,12 @@ Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ...
 
 ## -see-also
 
-[DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes)
+[DVD_AudioAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes)
 
 
 
-[DVD_MUA_MixingInfo](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_mua_mixinginfo)
+[DVD_MUA_MixingInfo](/windows/desktop/api/strmif/ns-strmif-dvd_mua_mixinginfo)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

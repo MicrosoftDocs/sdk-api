@@ -121,7 +121,7 @@ Pointer to a hook function that processes messages intended for the dialog box. 
 
 ### -field lCustData
 
-Application-defined data that the library passes to the hook function pointed to by the [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member.
+Application-defined data that the library passes to the hook function pointed to by the [OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md) structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member.
 
 ### -field hInstance
 
@@ -145,7 +145,7 @@ This member is reserved.
 
 ### -field lpOleUILinkContainer
 
-Pointer to the container's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface, used to validate the link source. The <b>Edit Links</b> dialog box uses this to allow the container to manipulate its links.
+Pointer to the container's implementation of the <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface, used to validate the link source. The <b>Edit Links</b> dialog box uses this to allow the container to manipulate its links.
 
 ### -field dwLink
 
@@ -169,14 +169,13 @@ Pointer to the prefix of the source to be changed to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangesourcea">OleUIChangeSource</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuichangesourcea">OleUIChangeSource</a>
 
 ## -remarks
 
 > [!NOTE]
 > The oledlg.h header defines OLEUICHANGESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

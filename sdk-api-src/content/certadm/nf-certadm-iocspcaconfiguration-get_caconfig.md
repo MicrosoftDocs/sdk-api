@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CAConfig</b> property gets or sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name with which a signing certificate must be signed.
+The <b>CAConfig</b> property gets or sets a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name with which a signing certificate must be signed.
 
 The <b>CAConfig</b> property contains a CA name. This name lets an Online Certificate Status Protocol (OCSP) signing-certificate renewal request specify the issuing CA. The new signing certificate must be signed with this CA.
 
@@ -64,5 +64,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

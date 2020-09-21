@@ -56,7 +56,7 @@ Creates a new work queue.
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>
@@ -89,7 +89,7 @@ Create a work queue without a message loop. Using this flag is equivalent to cal
 </dl>
 </td>
 <td width="60%">
-Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
+Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> and <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
 
 </td>
 </tr>
@@ -102,4 +102,3 @@ Receives an identifier for the work queue that was created.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

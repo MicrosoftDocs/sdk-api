@@ -58,7 +58,7 @@ The <b>EAP_ATTRIBUTES</b> structure contains an array of EAP attributes.
 
 ### -field dwNumberOfAttributes
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
+The number of <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
 
 ### -field pAttribs.size_is
 
@@ -66,7 +66,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/n
 
 ### -field pAttribs
 
-Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
+Pointer to the address of the first element in an array of <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
 
 ## -see-also
 
@@ -74,5 +74,4 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a>

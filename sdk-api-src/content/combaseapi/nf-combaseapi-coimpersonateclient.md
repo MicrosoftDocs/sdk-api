@@ -71,25 +71,24 @@ This method allows the server to impersonate the client of the current call for 
     pss-&gt;ImpersonateClient();
     pss-&gt;Release();
 </code></pre>
-<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> that contains data about the current call, calling its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
+<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> that contains data about the current call, calling its <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a> (or <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/com/cloaking">Cloaking</a>
+<a href="/windows/desktop/com/cloaking">Cloaking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">IServerSecurity::ImpersonateClient</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">IServerSecurity::ImpersonateClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/impersonation">Impersonation</a>
+<a href="/windows/desktop/com/impersonation">Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>
+<a href="/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

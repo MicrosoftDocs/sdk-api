@@ -56,7 +56,7 @@ Implemented by clients that want to enforce a cross origin policy for HTML5 medi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCrossOriginSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCrossOriginSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCrossOriginSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCrossOriginSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -101,4 +101,3 @@ Returns true when the specified URL has the same origin as the HTML5 media eleme
 ## -remarks
 
 The Media Foundation network code uses these client callbacks to implement and enforce cross origin downloads.
-

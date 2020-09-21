@@ -75,8 +75,8 @@ This parameter should be set to one of the following flag bits.
 </td>
 <td width="60%">
 <b>QueryActCtxW</b> queries the activation context active on the thread instead of the context specified by <i>hActCtx</i>. This is usually the last activation context passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. If 
-<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. If 
+<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>.
 
 </td>
 </tr>
@@ -146,9 +146,9 @@ Pointer to a <b>DWORD</b> that specifies the index of the assembly within the ac
 </td>
 <td width="60%">
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -210,9 +210,9 @@ If
 </td>
 <td width="60%">
 Information about a file in one of the assemblies in Activation Context. The <i>pvSubInstance</i> parameter must point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -266,9 +266,9 @@ Number of bytes written or required. The parameter <i>pcbWrittenOrRequired</i> c
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -298,4 +298,3 @@ if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLast
     HeapFree(GetProcessHeap(), 0, pvData);
     pvData = NULL;
 }</code></pre>
-

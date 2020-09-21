@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>HTTP_IS_NULL_ID</b> macro determines if the <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-data-types">HTTP_OPAQUE_ID</a> is <b>NULL</b>.
+The <b>HTTP_IS_NULL_ID</b> macro determines if the <a href="/windows/desktop/Http/http-server-api-version-2-0-data-types">HTTP_OPAQUE_ID</a> is <b>NULL</b>.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ The parameter determined to be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-macros">HTTP Server API Version 2.0 Macros</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-macros">HTTP Server API Version 2.0 Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364541(v=vs.85)">HTTP_NULL_ID</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364541(v=vs.85)">HTTP_NULL_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-http_set_null_id">HTTP_SET_NULL_ID</a>
-
+<a href="/windows/desktop/api/http/nf-http-http_set_null_id">HTTP_SET_NULL_ID</a>

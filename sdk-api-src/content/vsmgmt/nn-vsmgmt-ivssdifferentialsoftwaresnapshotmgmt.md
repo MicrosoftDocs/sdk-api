@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssDifferentialSoftwareSnapshotMgmt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssDifferentialSoftwareSnapshotMgmt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,42 +72,42 @@ The <b>IVssDifferentialSoftwareSnapshotMgmt</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">AddDiffArea</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">AddDiffArea</a>
 </td>
 <td align="left" width="63%">
 Adds a diff area association for a certain volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a>
 </td>
 <td align="left" width="63%">
 Updates the shadow copy storage area maximum size for a certain volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">QueryDiffAreasForSnapshot</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">QueryDiffAreasForSnapshot</a>
 </td>
 <td align="left" width="63%">
 Queries shadow copy storage  areas in use by the given shadow copy.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">QueryDiffAreasForVolume</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">QueryDiffAreasForVolume</a>
 </td>
 <td align="left" width="63%">
 Queries shadow copy storage areas that host shadow copies on the given volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">QueryDiffAreasOnVolume</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">QueryDiffAreasOnVolume</a>
 </td>
 <td align="left" width="63%">
 Queries shadow copy storage areas that physically reside on the given volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">QueryVolumesSupportedForDiffAreas</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">QueryVolumesSupportedForDiffAreas</a>
 </td>
 <td align="left" width="63%">
 Queries volumes that support shadow copy storage  areas (including volumes with disabled differential areas).</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
@@ -116,9 +116,8 @@ Queries volumes that support shadow copy storage  areas (including volumes with 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

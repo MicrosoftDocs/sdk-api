@@ -55,7 +55,7 @@ Specifies an event that should be fired when one or more of a collection of fenc
 
 Type: <b>ID3D12Fence*</b>
 
-An array of length <i>NumFences</i> that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> objects.
+An array of length <i>NumFences</i> that specifies the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> objects.
 
 ### -param pFenceValues [in]
 
@@ -71,9 +71,9 @@ Specifies the number of fences to be included.
 
 ### -param Flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a></b>
 
-Specifies one  of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a> that determines how to proceed.
+Specifies one  of the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a> that determines how to proceed.
 
 ### -param hEvent
 
@@ -89,11 +89,10 @@ This method returns an HRESULT success or error code.
 
 ## -remarks
 
-To specify a single fence refer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">SetEventOnCompletion</a> method.
+To specify a single fence refer to the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">SetEventOnCompletion</a> method.
 
 If *hEvent* is a null handle, then this API will not return until the specified fence value(s) have been reached.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>

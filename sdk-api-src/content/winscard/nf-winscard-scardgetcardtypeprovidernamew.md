@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-The <b>SCardGetCardTypeProviderName</b> function returns the name of the module (dynamic link library) that contains the provider for a given card name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">provider type</a>.
+The <b>SCardGetCardTypeProviderName</b> function returns the name of the module (dynamic link library) that contains the provider for a given card name and <a href="/windows/desktop/SecGloss/p-gly">provider type</a>.
 
 ## -parameters
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context can be set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This value can be <b>NULL</b> if the call to <b>SCardGetCardTypeProviderName</b> is not directed to a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context can be set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This value can be <b>NULL</b> if the call to <b>SCardGetCardTypeProviderName</b> is not directed to a specific <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
 ### -param szCardName [in]
 
@@ -84,7 +84,7 @@ Identifier for the provider associated with this card type.
 </dl>
 </td>
 <td width="60%">
-The function retrieves the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card's</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary service provider</a> as a GUID string.
+The function retrieves the name of the <a href="/windows/desktop/SecGloss/s-gly">smart card's</a> <a href="/windows/desktop/SecGloss/p-gly">primary service provider</a> as a GUID string.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ The function retrieves the name of the <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The function retrieves the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a>.
+The function retrieves the name of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The function retrieves the name of the <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The function retrieves the name of the smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key storage provider</a> (KSP).
+The function retrieves the name of the smart card <a href="/windows/desktop/SecGloss/k-gly">key storage provider</a> (KSP).
 
 </td>
 </tr>
@@ -125,12 +125,12 @@ The function retrieves the name of the card module.
 
 ### -param szProvider [out]
 
-String variable to receive the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">provider name</a> upon successful completion of this function.
+String variable to receive the <a href="/windows/desktop/SecGloss/p-gly">provider name</a> upon successful completion of this function.
 
 ### -param pcchProvider [in, out]
 
 Pointer to <b>DWORD</b> value. On input, <i>pcchProvider</i> supplies the length of the <i>szProvider</i> buffer in characters. If this value is SCARD_AUTOALLOCATE, then <i>szProvider</i> is converted to a pointer to a byte pointer and receives the address of a block of memory containing the string. This block of memory must be deallocated by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>. 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>. 
 
 
 
@@ -165,7 +165,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -176,12 +176,12 @@ An error code. For more information, see
 This function is not redirected, but calling the function when inside a Remote Desktop session  will not result in an error. It only means that the result will be from the remote computer instead of the local computer. 
 
 Upon successful completion of this function, the value in <i>szProvider</i> can be used as the third parameter in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 
 #### Examples
 
-The following example shows how to retrieve the provider name for the specified reader context. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
+The following example shows how to retrieve the provider name for the specified reader context. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
 
 
 ```cpp
@@ -227,13 +227,12 @@ if (SCARD_S_SUCCESS == lReturn)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardsetcardtypeprovidernamea">SCardSetCardTypeProviderName</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardsetcardtypeprovidernamea">SCardSetCardTypeProviderName</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the data type of the buffer returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function.
+Specifies the data type of the buffer returned by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function.
 
 ## -enum-fields
 
@@ -79,4 +79,3 @@ The buffer contains multiple null-terminated Unicode strings.
 ### -field SL_DATA_SUM
 
 The buffer contains a sum.
-

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Res_Des_Data</b> function retrieves the information stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on the local machine.
+The <b>CM_Get_Res_Des_Data</b> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.
 
 ## -parameters
 
 ### -param rdResDes [in]
 
-Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des">CM_Get_Next_Res_Des</a>.
+Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des">CM_Get_Next_Res_Des</a>.
 
 ### -param Buffer [out]
 
-Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size">CM_Get_Res_Des_Data_Size</a>.
+Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size">CM_Get_Res_Des_Data_Size</a>.
 
 ### -param BufferLen [in]
 
@@ -79,9 +79,8 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a>, based on the resource type that was specified when <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des">CM_Get_Next_Res_Des</a> was called to obtain the resource descriptor handle.
+Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a>, based on the resource type that was specified when <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des">CM_Get_Next_Res_Des</a> was called to obtain the resource descriptor handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex">CM_Get_Res_Des_Data_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex">CM_Get_Res_Des_Data_Ex</a>

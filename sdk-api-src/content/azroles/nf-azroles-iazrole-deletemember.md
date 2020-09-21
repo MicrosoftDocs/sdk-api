@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DeleteMember</b> method removes  the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of Windows  accounts that belong to the role.
+The <b>DeleteMember</b> method removes  the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of Windows  accounts that belong to the role.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -remarks
 
-To view the list of SIDs of Windows accounts that belong to the role in text form, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a> property.
-
+To view the list of SIDs of Windows accounts that belong to the role in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a> property.

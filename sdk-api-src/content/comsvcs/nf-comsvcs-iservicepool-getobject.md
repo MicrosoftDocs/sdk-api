@@ -121,5 +121,4 @@ The object pool was not initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>

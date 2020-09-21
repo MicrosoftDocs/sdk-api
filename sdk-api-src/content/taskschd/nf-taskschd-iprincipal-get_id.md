@@ -60,19 +60,18 @@ This property is read/write.
 
 ## -remarks
 
-This identifier is also used when specifying the  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context">IActionCollection::Context</a> property.
+This identifier is also used when specifying the  <a href="/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context">IActionCollection::Context</a> property.
 
-When reading or writing XML for a task, the identifier of the principal is specified in the Id attribute of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-principal-principaltype-element">Principal</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the identifier of the principal is specified in the Id attribute of the <a href="/windows/desktop/TaskSchd/taskschedulerschema-principal-principaltype-element">Principal</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context">IActionCollection.Context</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context">IActionCollection.Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

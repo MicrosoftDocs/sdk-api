@@ -99,7 +99,7 @@ The Group Policy Object Editor cannot determine which Active Directory objects a
 <b>GetHint</b> method provides linking information based on how the user started the Group Policy Object Editor. It can be started in the following ways:
 
 <ul>
-<li>As an extension to the Active Directory Manager. Navigate to the site, domain, or organizational unit, then select <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-start-page">Group Policy</a>.</li>
+<li>As an extension to the Active Directory Manager. Navigate to the site, domain, or organizational unit, then select <a href="/previous-versions/windows/desktop/Policy/group-policy-start-page">Group Policy</a>.</li>
 <li>As a stand-alone MMC tool with a specific link.</li>
 <li>As a stand-alone MMC tool without a specific link.</li>
 </ul>
@@ -107,15 +107,14 @@ You may want to customize your application's user interface based on the result 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>

@@ -104,21 +104,20 @@ Cannot get Ethernet or token-ring hardware address for this computer.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 For security reasons, it is often desirable to keep ethernet addresses on networks from becoming available outside a company or organization. The 
 <b>UuidCreate</b> function generates a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> that cannot be traced to the ethernet address of the computer on which it was generated. It also cannot be associated with other <b>UUID</b>s created on the same computer. If you do not need this level of security, your application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreatesequential">UuidCreateSequential</a> function, which behaves exactly as the 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreatesequential">UuidCreateSequential</a> function, which behaves exactly as the 
 <b>UuidCreate</b> function does on all other versions of the operating system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>

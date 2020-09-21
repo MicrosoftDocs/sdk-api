@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the values that identify how a color swatch in a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-dropdowncolorpicker">DropDownColorPicker</a> or a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
+Specifies the values that identify how a color swatch in a <a href="/windows/desktop/windowsribbon/windowsribbon-element-dropdowncolorpicker">DropDownColorPicker</a> or a <a href="/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
 <div class="alert"><b>Note</b>  These are recommendations only. The application can associate any fill type with these values.</div><div> </div>
 
 ## -enum-fields
@@ -61,7 +61,7 @@ The swatch is transparent.
 
 ### -field UI_SWATCHCOLORTYPE_AUTOMATIC
 
-The swatch is filled with a solid RGB color bound to <a href="https://msdn.microsoft.com/library/ms724371.aspx">GetSysColor(COLOR_WINDOWTEXT)</a>.
+The swatch is filled with a solid RGB color bound to <a href="/windows/win32/api/winuser/nf-winuser-getsyscolor">GetSysColor(COLOR_WINDOWTEXT)</a>.
 
 ### -field UI_SWATCHCOLORTYPE_RGB
 
@@ -69,5 +69,4 @@ The swatch is filled with a solid RGB color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>

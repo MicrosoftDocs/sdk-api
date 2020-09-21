@@ -115,14 +115,14 @@ This time-out value applies to all subsequent read operations and all inherited 
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. The <b>bInheritHandle</b> member of the structure determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited.
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. The <b>bInheritHandle</b> member of the structure determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited.
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the mailslot, for use in server mailslot operations.  The handle returned by this function is asynchronous, or overlapped.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -130,13 +130,13 @@ The mailslot exists until one of the following conditions is true:
 
 <ul>
 <li>The last (possibly inherited or duplicated) handle to it is closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.</li>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.</li>
 <li>The process owning the last (possibly inherited or duplicated) handle exits.</li>
 </ul>
 The system uses the second method to destroy mailslots.
 
 To write a message to a mailslot, a process uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, specifying the mailslot name by using one of the following formats.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, specifying the mailslot name by using one of the following formats.
 
 <table>
 <tr>
@@ -162,18 +162,18 @@ To write a message to a mailslot, a process uses the
 </table>
  
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> specifies a domain or uses the asterisk format to specify the system's primary domain, the application cannot write more than 424 bytes at a time to the mailslot. If the application attempts to do so, the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function fails and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_BAD_NETPATH</b>.
+If <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> specifies a domain or uses the asterisk format to specify the system's primary domain, the application cannot write more than 424 bytes at a time to the mailslot. If the application attempts to do so, the <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function fails and 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_BAD_NETPATH</b>.
 
-An application must specify the <b>FILE_SHARE_READ</b> flag when using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to retrieve a client handle to a mailslot.
+An application must specify the <b>FILE_SHARE_READ</b> flag when using <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to retrieve a client handle to a mailslot.
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called to access a non-existent mailslot, the  <b>ERROR_FILE_NOT_FOUND</b> error code will be set. 
+If <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called to access a non-existent mailslot, the  <b>ERROR_FILE_NOT_FOUND</b> error code will be set. 
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/creating-a-mailslot">Creating a Mailslot</a>.
+<a href="/windows/desktop/ipc/creating-a-mailslot">Creating a Mailslot</a>.
 
 <div class="code"></div>
 
@@ -185,33 +185,32 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getmailslotinfo">GetMailslotInfo</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getmailslotinfo">GetMailslotInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
+<a href="/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots Overview</a>
+<a href="/windows/desktop/ipc/mailslots">Mailslots Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setmailslotinfo">SetMailslotInfo</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setmailslotinfo">SetMailslotInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>

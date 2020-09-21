@@ -108,5 +108,4 @@ Last enumerated value. Not a valid state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>

@@ -58,7 +58,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 ### -param Arg1 [in]
 
- Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure for this dialog box.
+ Pointer to the In/Out [OLEUICHANGEICON]() structure for this dialog box.
 
 ## -returns
 
@@ -291,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -389,7 +389,7 @@ The <i>szIconExe</i> value was invalid.
 
 ## -remarks
 
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure.
+[OLEUICHANGEICON]() structure.
 
 
 
@@ -401,5 +401,4 @@ The <i>szIconExe</i> value was invalid.
 
 ## -see-also
 
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
-
+[OLEUICHANGEICON]()

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <code>ConfigureFilterUsingProfile</code> method sets an ASF profile on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
+The <code>ConfigureFilterUsingProfile</code> method sets an ASF profile on the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
 
 ## -parameters
 
 ### -param pProfile [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile.
+Pointer to the <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile.
 
 ## -returns
 
@@ -96,7 +96,7 @@ The graph is stopped.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface pointer is invalid.
+The <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface pointer is invalid.
 
 </td>
 </tr>
@@ -104,19 +104,18 @@ The <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWM
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface is documented in the Windows Media Format SDK.
+The <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface is documented in the Windows Media Format SDK.
 
-If successful, this method will cause an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-graph-changed">EC_GRAPH_CHANGED</a> event to be sent to the application.
+If successful, this method will cause an <a href="/windows/desktop/DirectShow/ec-graph-changed">EC_GRAPH_CHANGED</a> event to be sent to the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>

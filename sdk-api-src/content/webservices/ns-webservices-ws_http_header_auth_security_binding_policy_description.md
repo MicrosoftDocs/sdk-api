@@ -57,12 +57,11 @@ This type description is used with template APIs to describe
       
 
 See also,
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxyfromtemplate">WsCreateServiceProxyFromTemplate</a>,
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceendpointfromtemplate">WsCreateServiceEndpointFromTemplate</a>
+        <a href="/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxyfromtemplate">WsCreateServiceProxyFromTemplate</a>,
+        <a href="/windows/desktop/api/webservices/nf-webservices-wscreateserviceendpointfromtemplate">WsCreateServiceEndpointFromTemplate</a>
 
 ## -struct-fields
 
 ### -field securityBindingProperties
 
 Specifies the security binding properties according to the specific policy.
-

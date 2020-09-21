@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Obtains an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
+Obtains an <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 ## -parameters
 
 ### -param ppIPortableDevice [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a>  object.
+Pointer to a pointer to an <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a>  object.
 
 ## -returns
 
@@ -74,7 +74,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-Pointer to <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> was obtained successfully.
+Pointer to <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a> was obtained successfully.
 
 </td>
 </tr>
@@ -93,5 +93,4 @@ Pointer to <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDescriptionDocumentCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDescriptionDocumentCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDescriptionDocumentCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDescriptionDocumentCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPDescriptionDocumentCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete">LoadComplete</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete">LoadComplete</a>
 </td>
 <td align="left" width="63%">
 Invoked by the UPnP framework to notify the application that a load operation has been completed.
@@ -78,4 +78,3 @@ Invoked by the UPnP framework to notify the application that a load operation ha
 </td>
 </tr>
 </table>
-

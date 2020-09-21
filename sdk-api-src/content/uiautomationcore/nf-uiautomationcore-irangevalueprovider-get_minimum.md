@@ -63,5 +63,4 @@ This value should be less than [Maximum](nf-uiautomationcore-irangevalueprovider
 
 ## -see-also
 
-[IRangeValueProvider interface](nn-uiautomationcore-irangevalueprovider.md), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
-
+[IRangeValueProvider interface](nn-uiautomationcore-irangevalueprovider.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)

@@ -52,11 +52,11 @@ api_name:
 
 This interface is used to discover services on the network advertised by WS-Discovery.
 
-To get this interface, you can call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a>.
+To get this interface, you can call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveryProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveryProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWSDiscoveryProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a>
 </td>
 <td align="left" width="63%">
 Attaches a callback interface to the discovery provider.
@@ -80,7 +80,7 @@ Attaches a callback interface to the discovery provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-detach">Detach</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-detach">Detach</a>
 </td>
 <td align="left" width="63%">
 Detaches a callback interface from the discovery provider.
@@ -89,7 +89,7 @@ Detaches a callback interface from the discovery provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-getxmlcontext">GetXMLContext</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-getxmlcontext">GetXMLContext</a>
 </td>
 <td align="left" width="63%">
 Gets the  XML context associated with this provider.
@@ -98,7 +98,7 @@ Gets the  XML context associated with this provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress">SearchByAddress</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress">SearchByAddress</a>
 </td>
 <td align="left" width="63%">
 Initializes a search for WS-Discovery hosts by device address.
@@ -107,7 +107,7 @@ Initializes a search for WS-Discovery hosts by device address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid">SearchById</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid">SearchById</a>
 </td>
 <td align="left" width="63%">
 Initializes a search for WS-Discovery hosts by device identifier.
@@ -116,7 +116,7 @@ Initializes a search for WS-Discovery hosts by device identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype">SearchByType</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype">SearchByType</a>
 </td>
 <td align="left" width="63%">
 Initializes a search for WS-Discovery hosts by device type.
@@ -125,7 +125,7 @@ Initializes a search for WS-Discovery hosts by device type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-setaddressfamily">SetAddressFamily</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-setaddressfamily">SetAddressFamily</a>
 </td>
 <td align="left" width="63%">
 Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
@@ -140,5 +140,4 @@ The Discovery Provider represents the "client" view of WS-Discovery.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
-
+<a href="/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>

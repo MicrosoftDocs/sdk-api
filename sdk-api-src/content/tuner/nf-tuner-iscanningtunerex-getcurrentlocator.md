@@ -61,7 +61,7 @@ The <b>GetCurrentLocator</b> method retrieves the current locator object.
 
 ### -param pILocator [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface of the locator object. The caller must release the interface.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> interface of the locator object. The caller must release the interface.
 
 ## -returns
 
@@ -69,5 +69,4 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>

@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-The <b>POINTTOPOINTS</b> macro converts a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure to a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>POINTTOPOINTS</b> macro converts a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
 
 ## -parameters
 
 ### -param pt
 
-The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure to convert.
+The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to convert.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-makepoints">MAKEPOINTS</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-makepoints">MAKEPOINTS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a>
+<a href="/previous-versions/dd162808(v=vs.85)">POINTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
+<a href="/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
-
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>

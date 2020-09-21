@@ -77,9 +77,8 @@ The SDO computer is part of a Windows domain running in mixed mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasostype">IASOSTYPE</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasostype">IASOSTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">ISdoMachine::GetDomainType</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">ISdoMachine::GetDomainType</a>

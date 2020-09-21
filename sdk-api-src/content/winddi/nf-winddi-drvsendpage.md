@@ -56,7 +56,7 @@ A printer graphics DLL's <b>DrvSendPage</b> function is called by GDI when it ha
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the drawing surface.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the drawing surface.
 
 ## -returns
 
@@ -64,28 +64,27 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 ## -remarks
 
-GDI calls <b>DrvSendPage</b> each time it has finished drawing a physical page's image on the drawing surface. The function is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> to send the image to the printer, and for performing end-of-page operations, such as ejecting the page.
+GDI calls <b>DrvSendPage</b> each time it has finished drawing a physical page's image on the drawing surface. The function is responsible for calling <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> to send the image to the printer, and for performing end-of-page operations, such as ejecting the page.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> using GDI-managed surfaces are typically implemented so that for pages that are banded, the image for each band is sent to the printer by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> function. 
+<a href="/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> using GDI-managed surfaces are typically implemented so that for pages that are banded, the image for each band is sent to the printer by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> function. 
 
-Additionally, if a printer graphics DLL is using a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a>, the <b>DrvSendPage</b> function typically only needs to perform end-of-page operations, because the image is sent to the printer as it is drawn.
+Additionally, if a printer graphics DLL is using a <a href="/windows-hardware/drivers/">device-managed surface</a>, the <b>DrvSendPage</b> function typically only needs to perform end-of-page operations, because the image is sent to the printer as it is drawn.
 
-If there is a potential for this function to take a long time to execute, it should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcheckabort">EngCheckAbort</a> every five seconds. If <b>EngCheckAbort</b> returns <b>TRUE</b>, <b>DrvSendPage</b> should terminate its operation and return <b>FALSE</b>.
+If there is a potential for this function to take a long time to execute, it should call <a href="/windows/desktop/api/winddi/nf-winddi-engcheckabort">EngCheckAbort</a> every five seconds. If <b>EngCheckAbort</b> returns <b>TRUE</b>, <b>DrvSendPage</b> should terminate its operation and return <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstartpage">DrvStartPage</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstartpage">DrvStartPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcheckabort">EngCheckAbort</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcheckabort">EngCheckAbort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>

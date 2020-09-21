@@ -59,9 +59,9 @@ This property is read-only.
 
 ## -remarks
 
-The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_longname">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_longname">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
-<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_longname">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_longname">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
 <div> </div>
 <table>
 <tr>
@@ -114,5 +114,4 @@ The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>

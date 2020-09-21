@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> by providing additional methods for manipulating and interacting with image lists.
+Extends <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> by providing additional methods for manipulating and interacting with image lists.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a>. <b>IImageList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList2</b> interface inherits from <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a>. <b>IImageList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IImageList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-discardimages">DiscardImages</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-discardimages">DiscardImages</a>
 </td>
 <td align="left" width="63%">
 Discards images from list, as specified.
@@ -78,7 +78,7 @@ Discards images from list, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent">ForceImagePresent</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent">ForceImagePresent</a>
 </td>
 <td align="left" width="63%">
 Forces an image present, as specified.
@@ -87,7 +87,7 @@ Forces an image present, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getcallback">GetCallback</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getcallback">GetCallback</a>
 </td>
 <td align="left" width="63%">
 Gets an image list callback object.
@@ -96,7 +96,7 @@ Gets an image list callback object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getoriginalsize">GetOriginalSize</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getoriginalsize">GetOriginalSize</a>
 </td>
 <td align="left" width="63%">
 Gets the original size of a specified image.
@@ -105,7 +105,7 @@ Gets the original size of a specified image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets an image list statistics structure.
@@ -114,7 +114,7 @@ Gets an image list statistics structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-initialize">Initialize</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an image list, as specified.
@@ -123,7 +123,7 @@ Initializes an image list, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-preloadimages">PreloadImages</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-preloadimages">PreloadImages</a>
 </td>
 <td align="left" width="63%">
 Preloads images, as specified.
@@ -132,7 +132,7 @@ Preloads images, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-replace2">Replace2</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-replace2">Replace2</a>
 </td>
 <td align="left" width="63%">
 Replaces an image in an image list.
@@ -141,7 +141,7 @@ Replaces an image in an image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-replacefromimagelist">ReplaceFromImageList</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-replacefromimagelist">ReplaceFromImageList</a>
 </td>
 <td align="left" width="63%">
 Replaces an image in one image list with an image from another image list.
@@ -150,7 +150,7 @@ Replaces an image in one image list with an image from another image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-resize">Resize</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-resize">Resize</a>
 </td>
 <td align="left" width="63%">
 Resizes the current image.
@@ -159,7 +159,7 @@ Resizes the current image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-setcallback">SetCallback</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-setcallback">SetCallback</a>
 </td>
 <td align="left" width="63%">
 Sets an image list callback.
@@ -168,7 +168,7 @@ Sets an image list callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-setoriginalsize">SetOriginalSize</a>
+<a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-setoriginalsize">SetOriginalSize</a>
 </td>
 <td align="left" width="63%">
 Sets the original size of a specified image.
@@ -176,4 +176,3 @@ Sets the original size of a specified image.
 </td>
 </tr>
 </table>
-

@@ -57,9 +57,9 @@ Launches the Windows Address Book (WAB) Find dialog box.
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book to search.
 
 ### -param hWnd
@@ -75,4 +75,3 @@ Value of type <b>HWND</b> that specifies
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful.
-

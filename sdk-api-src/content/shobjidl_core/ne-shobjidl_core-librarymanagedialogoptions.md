@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shshowmanagelibraryui">SHShowManageLibraryUI</a> to define options for handling a name collision when saving a library.
+Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shshowmanagelibraryui">SHShowManageLibraryUI</a> to define options for handling a name collision when saving a library.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Show default warning UI to the user.
 ### -field LMD_ALLOWUNINDEXABLENETWORKLOCATIONS
 
 Do not display a warning dialog to the user in collisions that concern network locations that cannot be indexed.
-

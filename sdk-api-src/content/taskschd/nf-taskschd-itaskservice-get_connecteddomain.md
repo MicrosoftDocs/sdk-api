@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the name of the domain to which the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver">TargetServer</a> computer is connected.
+Gets the name of the domain to which the <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver">TargetServer</a> computer is connected.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>

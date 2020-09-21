@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 The 
-<b>IVssCreateWriterMetadata</b> interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event. It is used only in 
-the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> method.
+<b>IVssCreateWriterMetadata</b> interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event. It is used only in 
+the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> method.
 
 The addition and specification of components by a writer is managed through this interface.
 
@@ -66,73 +66,73 @@ After it is constructed, the Writer Metadata Document is a read-only object that
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">AddAlternateLocationMapping</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">AddAlternateLocationMapping</a>
 </td>
 <td>Creates an alternate location mapping.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">AddComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">AddComponent</a>
 </td>
 <td>Adds a database or file group as a component to be backed up.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency">AddComponentDependency</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency">AddComponentDependency</a>
 </td>
 <td>Indicates that a component participates in a backup or restore only if specified components managed by other writers also participate.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">AddDatabaseFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">AddDatabaseFiles</a>
 </td>
 <td>Indicates the physical files that are associated with a database to be backed up, as well as their location.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">AddDatabaseLogFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">AddDatabaseLogFiles</a>
 </td>
 <td>Indicates the log files that are associated with a database to be backed up, as well as their location.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">AddExcludeFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">AddExcludeFiles</a>
 </td>
 <td>Specifies the files that will be excluded from the backup.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">AddFilesToFileGroup</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">AddFilesToFileGroup</a>
 </td>
 <td>Adds the specified file or files to the specified file group.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addincludefiles">AddIncludeFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addincludefiles">AddIncludeFiles</a>
 </td>
 <td>Reserved for system use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-getdocument">GetDocument</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-getdocument">GetDocument</a>
 </td>
 <td>Reserved for system use.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-saveasxml">SaveAsXML</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-saveasxml">SaveAsXML</a>
 </td>
 <td>Saves a text string containing the Writer Metadata Document.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">SetBackupSchema</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">SetBackupSchema</a>
 </td>
 <td>Sets the backup schema (how a backup is to be executed) to be used when processing a writer's files.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">SetRestoreMethod</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">SetRestoreMethod</a>
 </td>
 <td>Indicates how writer data is to be restored.</td>
 </tr>
@@ -140,5 +140,4 @@ After it is constructed, the Writer Metadata Document is a read-only object that
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>

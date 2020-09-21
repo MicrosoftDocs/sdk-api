@@ -50,33 +50,32 @@ api_name:
 
 ## -description
 
-Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemstate">LVM_SETITEMSTATE</a> message explicitly.
+Selects or deselects an item in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setitemstate">LVM_SETITEMSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
 ### -param i
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of the item for which to set the check state.
 
 ### -param fCheck
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A value that is set to <b>TRUE</b> to select the item, or <b>FALSE</b> to deselect it.
 
 ## -remarks
 
-This macro should only be used for list-view controls with the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style.
+This macro should only be used for list-view controls with the <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>

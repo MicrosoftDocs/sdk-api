@@ -54,9 +54,9 @@ api_name:
 
 Adds a file name extension to a path string.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -124,4 +124,3 @@ The buffer is too small to hold the returned string.
 </td>
 </tr>
 </table>
-

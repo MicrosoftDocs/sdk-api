@@ -54,7 +54,7 @@ Reserved for Microsoft use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXblIdpAuthManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXblIdpAuthManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXblIdpAuthManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXblIdpAuthManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXblIdpAuthManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getenvironment">GetEnvironment</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getenvironment">GetEnvironment</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -78,7 +78,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getgameraccount">GetGamerAccount</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getgameraccount">GetGamerAccount</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -87,7 +87,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getsandbox">GetSandbox</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-getsandbox">GetSandbox</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -96,7 +96,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-gettokenandsignaturewithtokenresult">GetTokenAndSignatureWithTokenResult</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-gettokenandsignaturewithtokenresult">GetTokenAndSignatureWithTokenResult</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -105,7 +105,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-setappviewinitialized">SetAppViewInitialized</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-setappviewinitialized">SetAppViewInitialized</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -114,7 +114,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-setgameraccount">SetGamerAccount</a>
+<a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nf-xblidpauthmanager-ixblidpauthmanager-setgameraccount">SetGamerAccount</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.
@@ -122,4 +122,3 @@ Reserved for Microsoft use.
 </td>
 </tr>
 </table>
-

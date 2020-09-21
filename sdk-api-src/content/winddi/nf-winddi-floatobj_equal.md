@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_Equal</b> function determines whether the two <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>s are equal.
+The <b>FLOATOBJ_Equal</b> function determines whether the two <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>s are equal.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ The <b>FLOATOBJ_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

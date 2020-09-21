@@ -54,15 +54,14 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_MUTUAL_AUTH_LEVEL</b> structure contains the authentication level used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+The <b>SECPKG_MUTUAL_AUTH_LEVEL</b> structure contains the authentication level used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
 
 ### -field MutualAuthLevel
 
 The mutual authentication level.
-

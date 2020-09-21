@@ -56,7 +56,7 @@ The security binding subtype for specifying the use of the Windows
 Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO)
 with the TCP transport.  A specific SSP package may be chosen using
 the security binding property 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>;
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>;
 if that property is not specified, SPNEGO is used by default.  The use
 of NTLM is strongly discouraged due to its security weakness
 (specifically, lack of server authentication).  If NTLM is to be
@@ -65,38 +65,38 @@ must be set to <b>FALSE</b>.
             
 
 This security binding operates at the transport security level and is
-supported only with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.  The
+supported only with the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.  The
 TCP/Windows SSPI combination uses the wire form defined by the 
 NegotiateStreamprotocol and the .Net Message Framing specification.
             
 
 On the client side, the security identity of the target server is
-specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> 
-parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>.  If the identity is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a> or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>, 
+specified using the identity field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> 
+parameter supplied during <a href="/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>.  If the identity is a 
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a> or a <a href="/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>, 
 that string identity value is used directly with the SSP.  If the identity is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a> and the value of its dns field is
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a> and the value of its dns field is
 'd1', or if no identity is specified in the <b>WS_ENDPOINT_ADDRESS</b> 
 and the host component (according to Section 3.2.2 of 
 RFC2396) the address URI
 is 'd1', then the form 'host/d1' is used as the server SPN.
-Specifying any other <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a> subtype in 
+Specifying any other <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a> subtype in 
 <b>WS_ENDPOINT_ADDRESS</b> will cause <b>WsOpenChannel</b> to fail.
             
 
 With this security binding, the following security binding properties may be specified:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH</a> (client side only)
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH</a> (client side only)
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS</a> (server side only)
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS</a> (server side only)
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL</a> (client side only)
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL</a> (client side only)
 </li>
 </ul>
 
@@ -111,4 +111,3 @@ The base type from which this security binding subtype and all other security bi
 The Windows Integrated Authentication credential to be used to
 authenticate the client.  This is required on the client and must not
 be specified on the server.
-

@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead of this function because <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> identifiers are no longer supported in CNG. Use the <b>CRYPT_OID_INFO_OID_KEY</b> value in the <i>dwKeyType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead.
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead of this function because <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> identifiers are no longer supported in CNG. Use the <b>CRYPT_OID_INFO_OID_KEY</b> value in the <i>dwKeyType</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead.
 
-<b>Windows Server 2003 and Windows XP:  </b>The <b>CertOIDToAlgId</b> function converts the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string to the CryptoAPI algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>).
+<b>Windows Server 2003 and Windows XP:  </b>The <b>CertOIDToAlgId</b> function converts the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string to the CryptoAPI algorithm identifier (<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>).
 
 ## -parameters
 
@@ -63,9 +63,8 @@ Pointer to the ASN.1 OID to be converted to an algorithm identifier.
 ## -returns
 
 Returns the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> that corresponds to the object identifier (OID) or zero if no <b>ALG_ID</b> corresponds to the OID.
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> that corresponds to the object identifier (OID) or zero if no <b>ALG_ID</b> corresponds to the OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>

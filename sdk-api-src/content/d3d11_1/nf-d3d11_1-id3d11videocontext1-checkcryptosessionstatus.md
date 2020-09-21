@@ -58,11 +58,11 @@ Checks the status of a crypto session.
 
 Type: <b>ID3D11CryptoSession*</b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> for which status is checked.
+Specifies a <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> for which status is checked.
 
 ### -param pStatus [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status">D3D11_CRYPTO_SESSION_STATUS</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status">D3D11_CRYPTO_SESSION_STATUS</a>*</b>
 
 A D3D11_CRYPTO_SESSION_STATUS that is populated with the crypto session status upon completion.
 
@@ -89,5 +89,4 @@ This method returns one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[<b>ExtractAssociatedIconEx</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file. It extends the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a> function by retrieving the icon's ID when that icon is extracted from an executable file.
+Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file. It extends the <a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a> function by retrieving the icon's ID when that icon is extracted from an executable file.
 
 ## -parameters
 
@@ -102,7 +102,7 @@ Returns the icon's handle if successful, otherwise <b>NULL</b>.
 
 ## -remarks
 
-The icon handle returned by this function must be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when it is no longer needed.
+The icon handle returned by this function must be released by calling <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when it is no longer needed.
 
 
 
@@ -113,13 +113,12 @@ The icon handle returned by this function must be released by calling <a href="h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>

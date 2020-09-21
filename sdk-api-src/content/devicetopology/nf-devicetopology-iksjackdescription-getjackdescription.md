@@ -55,7 +55,7 @@ The <b>GetJackDescription</b> method gets a description of an audio jack.
 
 ### -param nJack [in]
 
-The jack index. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a> method.
+The jack index. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a> method.
 
 ### -param pDescription [out]
 
@@ -108,13 +108,12 @@ For more information, see <a href="/windows/win32/api/devicetopology/ns-deviceto
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription Interface</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a>
 
 
 
 <a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>
-

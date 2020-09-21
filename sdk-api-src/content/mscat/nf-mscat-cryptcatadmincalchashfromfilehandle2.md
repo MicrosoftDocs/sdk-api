@@ -52,13 +52,13 @@ api_name:
 
 The <b>CryptCATAdminCalcHashFromFileHandle2</b> function calculates the hash for a file by using the specified algorithm.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
 ### -param hCatAdmin [in]
 
-Handle of an open catalog administrator context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext2">CryptCATAdminAcquireContext2</a>.
+Handle of an open catalog administrator context. For more information, see <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext2">CryptCATAdminAcquireContext2</a>.
 
 ### -param hFile [in]
 
@@ -81,9 +81,9 @@ Reserved. This value must be zero.
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The following table lists the error codes most commonly returned by the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The following table lists the error codes most commonly returned by the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -137,9 +137,8 @@ The amount of time this function takes to execute depends on the length of the f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle2">CryptCATAdminCalcHashFromFileHandle2</a>
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle2">CryptCATAdminCalcHashFromFileHandle2</a>

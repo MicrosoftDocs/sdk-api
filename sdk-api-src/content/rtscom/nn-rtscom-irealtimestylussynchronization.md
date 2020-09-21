@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Synchronizes access to the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+Synchronizes access to the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylusSynchronization</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylusSynchronization</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylusSynchronization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylusSynchronization</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRealTimeStylusSynchronization</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-acquirelock">AcquireLock</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-acquirelock">AcquireLock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified lock to use.
@@ -78,7 +78,7 @@ Retrieves the specified lock to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-releaselock">ReleaseLock</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-releaselock">ReleaseLock</a>
 </td>
 <td align="left" width="63%">
 Releases the specified lock.
@@ -89,15 +89,14 @@ Releases the specified lock.
 
 ## -remarks
 
-Use locks when you must protect access to and modification of the plug-ins or properties of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object through the <b>IRealTimeStylusSynchronization Interface</b> interface.
+Use locks when you must protect access to and modification of the plug-ins or properties of the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object through the <b>IRealTimeStylusSynchronization Interface</b> interface.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-realtimestyluslocktype">RealTimeStylusLockType Enumeration</a> enumeration to specify the lock.
+Use the <a href="/windows/desktop/api/rtscom/ne-rtscom-realtimestyluslocktype">RealTimeStylusLockType Enumeration</a> enumeration to specify the lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>

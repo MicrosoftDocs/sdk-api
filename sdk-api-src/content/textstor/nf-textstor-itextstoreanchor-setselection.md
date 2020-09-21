@@ -60,7 +60,7 @@ Specifies the number of text selections in <i>pSelection</i>.
 
 ### -param pSelection [in]
 
-Specifies the style, start, and end character positions of the text selected through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure. The start anchor member <b>paStart</b> of the structure must never follow the end anchor member <b>paEnd</b>, although they might be at the same location.
+Specifies the style, start, and end character positions of the text selected through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure. The start anchor member <b>paStart</b> of the structure must never follow the end anchor member <b>paEnd</b>, although they might be at the same location.
 
 When <b>paStart</b> = <b>paEnd</b>, the method places a caret at the anchor location. There can be only one caret at a time in the text stream.
 
@@ -132,15 +132,14 @@ The caller does not have a read/write lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
-

@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.]
+<p class="CCE_Message">[  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.]
 
-Deprecated. Gets or sets a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object attempts to send text to the attached control through the <a href="https://docs.microsoft.com/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF) and enables the use of the <b>correction</b> user interface.
+Deprecated. Gets or sets a Boolean value that indicates whether the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object attempts to send text to the attached control through the <a href="/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF) and enables the use of the <b>correction</b> user interface.
 
 ## -parameters
 
 ### -param Enable
 
-<b>TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object should attempt to send text to the attached control using TSF and that the correction user interface should be enabled; otherwise <b>FALSE</b>. The default value is <b>TRUE</b>.
+<b>TRUE</b> if the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object should attempt to send text to the attached control using TSF and that the correction user interface should be enabled; otherwise <b>FALSE</b>. The default value is <b>TRUE</b>.
 
 ## -returns
 
@@ -118,11 +118,11 @@ An unspecified error occurred.
 
 ## -remarks
 
-Calling this method with Enable set to <b>TRUE</b> causes the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to start the TSF on the attached control.
+Calling this method with Enable set to <b>TRUE</b> causes the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to start the TSF on the attached control.
 
-<b>EnableTsf</b> should be used to enable the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> to use the TSF insertion context rather than the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
+<b>EnableTsf</b> should be used to enable the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> to use the TSF insertion context rather than the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
 
-When you call <b>EnableTsf</b> with a value of <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object sends an <a href="https://docs.microsoft.com/windows/desktop/Controls/em-seteditstyle">EM_SETEDITSTYLE</a> message to the attached control. If the control does not support this message, results may be unpredictable. The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control does support TSF.
+When you call <b>EnableTsf</b> with a value of <b>TRUE</b>, the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object sends an <a href="/windows/desktop/Controls/em-seteditstyle">EM_SETEDITSTYLE</a> message to the attached control. If the control does not support this message, results may be unpredictable. The <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control does support TSF.
 
 <h3><a id="Support_for_Legacy_Applications"></a><a id="support_for_legacy_applications"></a><a id="SUPPORT_FOR_LEGACY_APPLICATIONS"></a>Support for Legacy Applications</h3>
 Support has been added to TSF and Microsoft Windows to provide a consistent user interface for all applications across the desktop. This new support enables legacy applications or controls that are not aware of TSF to take advantage of some advanced text services for free. For example, speech dictation and handwriting can now be used to enter text into a document in any application.
@@ -143,7 +143,7 @@ On the <b>Advanced</b> tab of the <b>Text Services and Input Languages</b> dialo
 
 </li>
 </ol>
-If successful, text is sent to the attached control through TSF. Furthermore, if the control supports TSF (and is not simply receiving text from TSF just because Advanced Text Services has been enabled for all programs in Control Panel as noted above), then the correction user interface appears in the control and allows access to handwriting alternates. Calling this method with Enable set to <b>FALSE</b> causes the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to shut down TSF on the attached control.
+If successful, text is sent to the attached control through TSF. Furthermore, if the control supports TSF (and is not simply receiving text from TSF just because Advanced Text Services has been enabled for all programs in Control Panel as noted above), then the correction user interface appears in the control and allows access to handwriting alternates. Calling this method with Enable set to <b>FALSE</b> causes the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to shut down TSF on the attached control.
 
 ## -see-also
 
@@ -151,5 +151,4 @@ If successful, text is sent to the attached control through TSF. Furthermore, if
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

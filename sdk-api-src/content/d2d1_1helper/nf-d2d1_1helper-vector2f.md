@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a filled <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a> structure.
+Returns a filled <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a> structure.
 
 ## -parameters
 
@@ -68,7 +68,6 @@ The y value of the vector.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a></b>
 
 A vector of 2 FLOAT values (x, y).
-

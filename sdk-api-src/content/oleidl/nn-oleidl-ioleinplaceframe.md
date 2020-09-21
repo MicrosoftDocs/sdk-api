@@ -69,7 +69,7 @@ The <b>IOleInPlaceFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-enablemodeless">EnableModeless</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-enablemodeless">EnableModeless</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a frame's modeless dialog boxes.
@@ -78,7 +78,7 @@ Enables or disables a frame's modeless dialog boxes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-insertmenus">InsertMenus</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-insertmenus">InsertMenus</a>
 </td>
 <td align="left" width="63%">
 Enables the container to insert menu groups.
@@ -87,7 +87,7 @@ Enables the container to insert menu groups.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-removemenus">RemoveMenus</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-removemenus">RemoveMenus</a>
 </td>
 <td align="left" width="63%">
 Removes a container's menu elements from the composite menu.
@@ -96,7 +96,7 @@ Removes a container's menu elements from the composite menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">SetMenu</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">SetMenu</a>
 </td>
 <td align="left" width="63%">
 Adds a composite menu to the window frame containing the object being activated in place.
@@ -105,7 +105,7 @@ Adds a composite menu to the window frame containing the object being activated 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setstatustext">SetStatusText</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setstatustext">SetStatusText</a>
 </td>
 <td align="left" width="63%">
 Sets and displays status text about the in-place object in the container's frame window status line.
@@ -114,7 +114,7 @@ Sets and displays status text about the in-place object in the container's frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">TranslateAccelerator</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Translates accelerator keystrokes intended for the container's frame while an object is active in place.
@@ -125,9 +125,8 @@ Translates accelerator keystrokes intended for the container's frame while an ob
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>

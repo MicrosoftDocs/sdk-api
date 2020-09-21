@@ -68,7 +68,7 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 ### -field Units
 
- The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units">PROPERTY_UNITS</a> enumeration type.
+ The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units">PROPERTY_UNITS</a> enumeration type.
 
 ### -field fResolution
 
@@ -76,9 +76,8 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property">PACKET_PROPERTY Structure</a>
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property">PACKET_PROPERTY Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units">PROPERTY_UNITS Enumeration</a>
-
+<a href="/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units">PROPERTY_UNITS Enumeration</a>

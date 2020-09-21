@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>OPENCARD_SEARCH_CRITERIA</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call <b>SCardUIDlgSelectCard</b> without using this structure.
+<a href="/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call <b>SCardUIDlgSelectCard</b> without using this structure.
 
 ## -struct-fields
 
@@ -65,11 +65,11 @@ The length, in bytes, of the structure. Must not be <b>NULL</b>.
 
 ### -field lpstrGroupNames
 
-A pointer to a buffer containing null-terminated group name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a group of cards that is to be included in the search. If <b>lpstrGroupNames</b> is <b>NULL</b>, the default group (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Scard$DefaultReaders</a>) is searched.
+A pointer to a buffer containing null-terminated group name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a group of cards that is to be included in the search. If <b>lpstrGroupNames</b> is <b>NULL</b>, the default group (<a href="/windows/desktop/SecGloss/s-gly">Scard$DefaultReaders</a>) is searched.
 
 ### -field nMaxGroupNames
 
-The maximum number of bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrGroupNames</b> string.
+The maximum number of bytes (ANSI version) or characters (<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrGroupNames</b> string.
 
 ### -field rgguidInterfaces
 
@@ -157,7 +157,7 @@ Void pointer to user data. This pointer is passed back to the caller on the Conn
 ### -field dwShareMode
 
 If <b>lpfnConnect</b> is not <b>NULL</b>, the <b>dwShareMode</b> and <b>dwPreferredProtocols</b> members are ignored. If <b>lpfnConnect</b> is <b>NULL</b> and <b>dwShareMode</b> is nonzero, an internal call is made to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> that uses <b>dwShareMode</b> and <b>dwPreferredProtocols</b> as the parameter.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> that uses <b>dwShareMode</b> and <b>dwPreferredProtocols</b> as the parameter.
 
 ### -field dwPreferredProtocols
 
@@ -165,14 +165,13 @@ Used for internal connection as described in <b>dwShareMode</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
+<a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winscard.h header defines OPENCARD_SEARCH_CRITERIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

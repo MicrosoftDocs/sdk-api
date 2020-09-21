@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides methods to bring a disk online and take it offline.<b>Windows Vista:  </b>This interface is not supported until Windows Vista with Service Pack 1 (SP1). Use <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk2">IVdsDisk2</a> instead.
+Provides methods to bring a disk online and take it offline.<b>Windows Vista:  </b>This interface is not supported until Windows Vista with Service Pack 1 (SP1). Use <a href="/windows/desktop/api/vds/nn-vds-ivdsdisk2">IVdsDisk2</a> instead.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDiskOnline</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskOnline</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDiskOnline</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskOnline</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsDiskOnline</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-offline">Offline</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskonline-offline">Offline</a>
 </td>
 <td align="left" width="63%">
 Takes the disk offline.
@@ -81,7 +81,7 @@ Takes the disk offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">Online</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">Online</a>
 </td>
 <td align="left" width="63%">
 Brings the disk online.
@@ -89,4 +89,3 @@ Brings the disk online.
 </td>
 </tr>
 </table>
-

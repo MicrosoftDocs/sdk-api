@@ -56,21 +56,21 @@ The <b>PeerCollabInviteEndpoint</b> function sends an invitation to a specified 
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains information about the invited peer. This peer is sent an invitation when this API is called.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains information about the invited peer. This peer is sent an invitation when this API is called.
 
 This parameter must not be set to <b>NULL</b>.
 
 ### -param pcInvitation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
 
 ### -param ppResponse [out]
 
-Pointer to a   <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a> structure that receives an invited peer endpoint's responses to the invitation request.
+Pointer to a   <a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a> structure that receives an invited peer endpoint's responses to the invitation request.
 
 If this call fails with an error, on output this parameter will be <b>NULL</b>.
 
-Free the memory associated with this structure by pass it to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Free the memory associated with this structure by pass it to <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -118,33 +118,32 @@ The recipient of the invitation has not responded within 5 minutes.
 
 ## -remarks
 
-This API sends an invitation to the endpoint specified as input. It does not guarantee that the recipient of the invite is the specific contact that the user  intended to send the invite to. To ensure that the invitation is sent to the correct contact, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabinvitecontact">PeerCollabInviteContact</a>.
+This API sends an invitation to the endpoint specified as input. It does not guarantee that the recipient of the invite is the specific contact that the user  intended to send the invite to. To ensure that the invitation is sent to the correct contact, call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabinvitecontact">PeerCollabInviteContact</a>.
 
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="/windows/desktop/api/p2p/nf-p2p-peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetapplaunchinfo">PeerCollabGetAppLaunchInfo</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabgetapplaunchinfo">PeerCollabGetAppLaunchInfo</a>

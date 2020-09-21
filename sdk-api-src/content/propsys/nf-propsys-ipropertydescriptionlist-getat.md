@@ -70,7 +70,7 @@ A reference to the IID of the requested property description interface, typicall
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
-

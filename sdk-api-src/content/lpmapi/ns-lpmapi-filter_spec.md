@@ -57,19 +57,19 @@ The
 
 ### -field filt_header
 
-RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
+RSVP Object Header for the FILTERSPEC, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field filt_u
 
 #### filt_ipv4
 
-FILTERSPEC, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a> header.
+FILTERSPEC, in the form of a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a> header.
 
 
 
 #### filt_ipv4gpi
 
-FILTERSPEC GPI information, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a> header.
+FILTERSPEC GPI information, in the form of a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a> header.
 
 ### -field filt_ipv4
 
@@ -77,13 +77,12 @@ FILTERSPEC GPI information, in the form of a <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>

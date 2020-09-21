@@ -52,7 +52,7 @@ An **LPWSTR** identifying the Key System for which the interface is created.
 
 ### -param configurations
 
-An [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object containing the configuration options for the CDM.
+An [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the configuration options for the CDM.
 
 ### -param numConfigurations
 
@@ -73,4 +73,3 @@ Returns S_OK on success.
 ## -see-also
 
 - [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess.md)
-

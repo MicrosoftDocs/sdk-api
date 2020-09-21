@@ -82,11 +82,10 @@ Indicates that the synth is not set.
 
 ## -remarks
 
-The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
+The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
 
 For more information, see the description of the <b>IDirectMusicPort</b> interface in the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a>

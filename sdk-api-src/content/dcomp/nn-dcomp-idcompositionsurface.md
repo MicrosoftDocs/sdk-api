@@ -54,7 +54,7 @@ Represents a physical bitmap that can be associated with a visual for compositio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSurface</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionSurface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSurface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionSurface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionSurface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">BeginDraw</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">BeginDraw</a>
 </td>
 <td align="left" width="63%">
 Initiates drawing on this DirectComposition surface object.
@@ -78,7 +78,7 @@ Initiates drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">EndDraw</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">EndDraw</a>
 </td>
 <td align="left" width="63%">
 Marks the end of drawing on this DirectComposition surface object.
@@ -87,7 +87,7 @@ Marks the end of drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-resumedraw">ResumeDraw</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-resumedraw">ResumeDraw</a>
 </td>
 <td align="left" width="63%">
 Resumes drawing on this DirectComposition surface object.
@@ -96,7 +96,7 @@ Resumes drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-scroll">Scroll</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-scroll">Scroll</a>
 </td>
 <td align="left" width="63%">
 Scrolls a rectangular area of a DirectComposition logical surface.
@@ -105,7 +105,7 @@ Scrolls a rectangular area of a DirectComposition logical surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-suspenddraw">SuspendDraw</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-suspenddraw">SuspendDraw</a>
 </td>
 <td align="left" width="63%">
 Suspends the drawing on this DirectComposition surface object.
@@ -116,13 +116,12 @@ Suspends the drawing on this DirectComposition surface object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-dcompositioncreatesurfacehandle">DCompositionCreateSurfaceHandle</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-dcompositioncreatesurfacehandle">DCompositionCreateSurfaceHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvirtualsurface">IDCompositionVirtualSurface</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvirtualsurface">IDCompositionVirtualSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">IDCompositionVisual::SetContent</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">IDCompositionVisual::SetContent</a>

@@ -56,11 +56,11 @@ The <b>SetupDiDeleteDevRegKey</b> function deletes specified user-accessible reg
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 ### -param Scope [in]
 
@@ -94,13 +94,13 @@ The type of registry storage key to delete. Can be one of the following values:
 
 #### DIREG_DEV
 
-Delete the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware key</a>.
+Delete the device's <a href="/windows-hardware/drivers/">hardware key</a>.
 
 
 
 #### DIREG_DRV
 
-Delete the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">software key</a>.
+Delete the device's <a href="/windows-hardware/drivers/">software key</a>.
 
 
 
@@ -110,7 +110,7 @@ Delete both the hardware and software keys for the device.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -120,9 +120,8 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>

@@ -83,5 +83,4 @@ Supplying a null name in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">User Interface Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">User Interface Functions</a>

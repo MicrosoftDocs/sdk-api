@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>IAVIEditStream</b> interface supports manipulating and modifying editable streams. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
+The <b>IAVIEditStream</b> interface supports manipulating and modifying editable streams. Uses <a href="/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIEditStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIEditStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIEditStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIEditStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAVIEditStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavieditstream-clone">Clone</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavieditstream-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Duplicates a stream.
@@ -79,7 +79,7 @@ Duplicates a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavieditstream-copy">Copy</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavieditstream-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies a stream or a portion of it to a temporary stream.
@@ -88,7 +88,7 @@ Copies a stream or a portion of it to a temporary stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavieditstream-cut">Cut</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavieditstream-cut">Cut</a>
 </td>
 <td align="left" width="63%">
 Removes a portion of a stream and places it in a temporary stream.
@@ -97,7 +97,7 @@ Removes a portion of a stream and places it in a temporary stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavieditstream-paste">Paste</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavieditstream-paste">Paste</a>
 </td>
 <td align="left" width="63%">
 Copies a stream or a portion of it and places it in another stream.
@@ -106,7 +106,7 @@ Copies a stream or a portion of it and places it in another stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavieditstream-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavieditstream-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Changes the characteristics of a stream.
@@ -117,9 +117,8 @@ Changes the characteristics of a stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

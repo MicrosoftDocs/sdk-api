@@ -60,9 +60,9 @@ The unique ID of the interface associated with the data plan. This GUID is deter
 
 ### -field UsageData
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> structure containing  current data usage value expressed in megabytes, as well as the  system time at the moment this value was last synced. 
+An <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> structure containing  current data usage value expressed in megabytes, as well as the  system time at the moment this value was last synced. 
 
-If this value is not supplied, <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> will indicate <b>NLM_UNKNOWN_DATAPLAN_STATUS</b> for <b>UsageInMegabytes</b> and a value of '0' will be set for <b>LastSyncTime.</b>
+If this value is not supplied, <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> will indicate <b>NLM_UNKNOWN_DATAPLAN_STATUS</b> for <b>UsageInMegabytes</b> and a value of '0' will be set for <b>LastSyncTime.</b>
 
 ### -field DataLimitInMegabytes
 
@@ -90,13 +90,12 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getdataplanstatus">INetworkConnectionCost::GetDataPlanStatus</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getdataplanstatus">INetworkConnectionCost::GetDataPlanStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">INetworkCostManagerEvents::DataPlanStatusChanged</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">INetworkCostManagerEvents::DataPlanStatusChanged</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a>
-
+<a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a>

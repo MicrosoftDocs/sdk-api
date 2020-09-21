@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> issued distinguished name–serial number pair.
+The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> issued distinguished name–serial number pair.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ A pointer to a null-terminated wide character string that contains the issuer of
 ### -field wszSerial
 
 A pointer to a null-terminated wide character string that contains the serial number of the certificate.
-

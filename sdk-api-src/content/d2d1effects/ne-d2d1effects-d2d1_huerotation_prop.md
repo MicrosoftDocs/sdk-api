@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/hue-rotate">Hue rotate effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/hue-rotate">Hue rotate effect</a>.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ The type is FLOAT.
 The default is 0.0f.
 
 ### -field D2D1_HUEROTATION_PROP_FORCE_DWORD
-

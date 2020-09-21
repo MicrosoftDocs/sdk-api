@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>SetBackgroundColor</code> method sets the background color that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter uses for overlay. The default background color is magenta.
+The <code>SetBackgroundColor</code> method sets the background color that the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter uses for overlay. The default background color is magenta.
 
 
 
@@ -69,13 +69,12 @@ Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
+<a href="/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getbackgroundcolor">IAMLine21Decoder::GetBackgroundColor</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getbackgroundcolor">IAMLine21Decoder::GetBackgroundColor</a>

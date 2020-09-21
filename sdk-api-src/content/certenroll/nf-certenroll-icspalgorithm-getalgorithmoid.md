@@ -71,7 +71,7 @@ A <b>LONG</b> variable that identifies the required key size of the symmetric en
 
 ### -param AlgFlags [in]
 
-An  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmflags">AlgorithmFlags</a> enumeration value that specifies whether to search for a key wrapping algorithm. This can be one of the following values:<ul>
+An  <a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmflags">AlgorithmFlags</a> enumeration value that specifies whether to search for a key wrapping algorithm. This can be one of the following values:<ul>
 <li><b>AlgorithmFlagsNone</b></li>
 <li><b>AlgorithmFlagsWrap</b></li>
 </ul>
@@ -91,13 +91,13 @@ Specifying <b>AlgorithmFlagsWrap</b> causes this method to search for algorithms
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the algorithm OID.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the algorithm OID.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ The algorithm OID could not be found.
 </dl>
 </td>
 <td width="60%">
-The CSP information has not been initialized. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface.
+The CSP information has not been initialized. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface.
 
 </td>
 </tr>
@@ -132,9 +132,8 @@ The CSP information has not been initialized. For more information, see the <a h
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface before calling <b>GetAlgorithmOid</b>.
+You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a> method or the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface before calling <b>GetAlgorithmOid</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>

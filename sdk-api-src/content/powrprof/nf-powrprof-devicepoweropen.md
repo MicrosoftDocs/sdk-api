@@ -66,5 +66,4 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
-
+<a href="/windows/desktop/Power/device-power-management">Device Power Management</a>

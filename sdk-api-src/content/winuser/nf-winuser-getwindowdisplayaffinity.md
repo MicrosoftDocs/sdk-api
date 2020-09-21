@@ -76,21 +76,21 @@ Type: <b>BOOL</b>
 
 This function succeeds only when the window is layered and Desktop Windows Manager 
 				is composing the desktop. If this function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
-				To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+				To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This function currently only supports one flag, <b>WDA_MONITOR</b> (0x01). This flag  enables  a window's contents to be displayed only on the monitor.
 		
 
-This function and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
+This function and <a href="/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied via a specific set of public operating system features 
 		and APIs. However, it works only when the Desktop Window Manager (DWM) is composing the desktop. 
 		
 
 It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
-		 using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> 
-		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
+		 using <a href="/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> 
+		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmiscompositionenabled">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
 
 ## -see-also
 
@@ -98,5 +98,4 @@ It is important to note that unlike a security feature or an implementation of D
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_STRING</b> structure is used by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify an ANSI string.
+The <b>LSA_STRING</b> structure is used by <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify an ANSI string.
 
 ## -struct-fields
 
@@ -81,4 +81,3 @@ Pointer to an array of characters. Note that strings returned by the LSA may not
 When the <b>Length</b> structure member is zero and the <b>MaximumLength</b> structure member is 1, the <b>Buffer</b> structure member must not be an empty string or contain solely a null character.
 
 <b>Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>When the <b>Length</b> structure member is zero and the <b>MaximumLength</b> structure member is 1, the <b>Buffer</b> structure member can be an empty string or contain solely a null character. This behavior changed beginning with Windows Server 2008 R2 and Windows 7 with SP1.
-

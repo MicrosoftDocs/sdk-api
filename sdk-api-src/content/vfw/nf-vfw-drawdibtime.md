@@ -60,7 +60,7 @@ Handle to a DrawDib DC.
 
 ### -param lpddtime
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-drawdibtime">DRAWDIBTIME</a> structure.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-drawdibtime">DRAWDIBTIME</a> structure.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function is present only in the debug version of the Microsoft Windows Soft
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>

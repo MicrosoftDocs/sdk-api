@@ -57,7 +57,7 @@ The <b>BeginSession</b> method begins a device session.
 
 ### -param type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>.
+A <a href="/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>.
 
 ### -param pCtx [in]
 
@@ -76,7 +76,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -167,13 +167,12 @@ CHECK_HR(hr,"Closed the session.","Couldn't close the session.");
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession">IWMDMDeviceSession Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession">IWMDMDeviceSession Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">IWMDMDeviceSession::EndSession</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">IWMDMDeviceSession::EndSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>
-
+<a href="/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>

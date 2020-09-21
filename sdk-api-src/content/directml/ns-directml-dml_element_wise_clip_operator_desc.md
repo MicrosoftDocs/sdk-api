@@ -76,13 +76,12 @@ An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml
 
 ### -field Min
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The minimum value, below which the operator replaces the value with <i>Min</i>. This is referred to as minValue in the operator description above in order not to confuse it with the min function.
 
 ### -field Max
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The maximum value, above which the operator replaces the value with <i>Max</i>. This is referred to as maxValue in the operator description above in order not to confuse it with the max function.
-

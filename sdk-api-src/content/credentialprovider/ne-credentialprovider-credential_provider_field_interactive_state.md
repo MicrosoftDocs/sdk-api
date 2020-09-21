@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getfieldstate">ICredentialProviderCredential::GetFieldState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldinteractivestate">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
+Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states. Used by <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getfieldstate">ICredentialProviderCredential::GetFieldState</a> and <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldinteractivestate">ICredentialProviderCredentialEvents::SetFieldInteractiveState</a>.
 
 ## -enum-fields
 
@@ -75,4 +75,3 @@ Credential providers use this field interactive state to indicate that the field
 ## -remarks
 
 Starting with Windows 10, field interactive states are set during the initial rendering of the Credential UI and when the credential provider fires interactive state change events. An example of this event would be when the user enters digits in the first field and the credential provider automatically moves the cursor to the second field. Be careful when you fire interactive state change events because it could interrupt users entering credential data.
-

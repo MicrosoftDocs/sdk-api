@@ -57,9 +57,9 @@ Flushes any outstanding rendering commands and sets the specified event object t
 
 ### -param hEvent [in]
 
-A handle to the event object. The <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. All types of event objects (manual-reset, auto-reset, and so on) are supported.
+A handle to the event object. The <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. All types of event objects (manual-reset, auto-reset, and so on) are supported.
 
-The handle must have the EVENT_MODIFY_STATE access right. For more information about access rights, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+The handle must have the EVENT_MODIFY_STATE access right. For more information about access rights, see <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ## -returns
 
@@ -69,15 +69,15 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 <li><b>E_OUTOFMEMORY</b> if insufficient memory is available to complete the operation.</li>
 <li><b>E_INVALIDARG</b> if the parameter was validated and determined to be incorrect.</li>
 </ul>
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>EnqueueSetEvent</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>EnqueueSetEvent</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -remarks
 
-<b>EnqueueSetEvent</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function on the event object after all previously submitted rendering commands complete or the device is removed.
+<b>EnqueueSetEvent</b> calls the <a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function on the event object after all previously submitted rendering commands complete or the device is removed.
 
-After an application calls <b>EnqueueSetEvent</b>, it  can immediately call the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> function to put itself to sleep until rendering commands complete.
+After an application calls <b>EnqueueSetEvent</b>, it  can immediately call the <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> function to put itself to sleep until rendering commands complete.
 
-You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getframestatistics">IDXGISwapChain::GetFrameStatistics</a>.
+You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getframestatistics">IDXGISwapChain::GetFrameStatistics</a>.
 
 
 #### Examples
@@ -128,5 +128,4 @@ void BlockingFinish( IDXGIDevice2* pDevice )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>

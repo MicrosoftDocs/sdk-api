@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to  represent the specified privilege name.
+Retrieves the <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) used by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to  represent the specified privilege name.
 
 This function is not declared in a public header.
 
-Do not use this function. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>.
+Do not use this function. Instead, use <a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>.
 
 ## -parameters
 
 ### -param PolicyHandle
 
-A handle to the LSA <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
+A handle to the LSA <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ### -param Name
 
@@ -75,4 +75,3 @@ A pointer to a variable that receives the LUID by which the privilege is known b
 If the function succeeds, return <b>STATUS_SUCCESS</b>.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-

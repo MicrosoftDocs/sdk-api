@@ -56,7 +56,7 @@ Retrieves the generic address object representing the local address that receive
 
 ### -param ppAddress [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the local address that received the message.
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the local address that received the message.
 
 ## -returns
 
@@ -102,5 +102,4 @@ The caller is responsible for releasing memory allocated to <i>ppAddress</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">FilterPluginStore</a> instance of the  filter plugin store.
+Retrieves a <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">FilterPluginStore</a> instance of the  filter plugin store.
 
 ## -parameters
 
 ### -param ppStore [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">ITsSbFilterPluginStore</a> interface pointer.
+The address of an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">ITsSbFilterPluginStore</a> interface pointer.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>

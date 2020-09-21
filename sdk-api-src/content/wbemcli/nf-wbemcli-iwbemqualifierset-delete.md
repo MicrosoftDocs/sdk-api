@@ -68,5 +68,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
-
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>

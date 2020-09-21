@@ -82,5 +82,4 @@ Update DHCP server policy enabled/disabled status.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setpolicy">Dhcpv4SetPolicy</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setpolicy">Dhcpv4SetPolicy</a>

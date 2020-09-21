@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawWindow</b> macro notifies a rendering driver that the window specified for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-window">ICM_DRAW_WINDOW</a> message.
+The <b>ICDrawWindow</b> macro notifies a rendering driver that the window specified for the <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message needs to be redrawn. The window has moved or become temporarily obscured. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-window">ICM_DRAW_WINDOW</a> message.
 
 ## -parameters
 
@@ -66,13 +66,12 @@ Pointer to the destination rectangle in screen coordinates. If this parameter po
 
 This message is supported by hardware that performs its own asynchronous decompression, timing, and drawing.
 
-Video-overlay drivers use this message to draw when the window is obscured or moved. When a window specified for <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> is completely hidden by other windows, the destination rectangle is empty. Drivers should turn off video-overlay hardware when this condition occurs.
+Video-overlay drivers use this message to draw when the window is obscured or moved. When a window specified for <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> is completely hidden by other windows, the destination rectangle is empty. Drivers should turn off video-overlay hardware when this condition occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

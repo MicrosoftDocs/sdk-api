@@ -61,7 +61,7 @@ The prototype for the
 <b>InstallHinfSection</b> function follows the form of all entry-point functions used with Rundll32.exe.
 
 If a file is copied or modified, the caller of this function is required have privileges to write into the target directory. If there are any services being installed, the caller of this function is required have access to the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
+<a href="/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
 
 ## -parameters
 
@@ -156,4 +156,3 @@ For example, the following command line runs the DefaultInstall section of the S
 
 > [!NOTE]
 > The setupapi.h header defines InstallHinfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

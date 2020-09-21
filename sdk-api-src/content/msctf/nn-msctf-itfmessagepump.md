@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
+The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> and <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMessagePump</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMessagePump</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMessagePump</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMessagePump</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfMessagePump</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagea">GetMessageA</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagea">GetMessageA</a>
 </td>
 <td align="left" width="63%">
 Obtains a message from the message queue and does not return until a message is obtained. This is the ANSI version of this method.
@@ -78,7 +78,7 @@ Obtains a message from the message queue and does not return until a message is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagew">GetMessageW</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagew">GetMessageW</a>
 </td>
 <td align="left" width="63%">
 Obtains a message from the message queue and does not return until a message is obtained. This is the Unicode version of this method.
@@ -87,7 +87,7 @@ Obtains a message from the message queue and does not return until a message is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagea">PeekMessageA</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagea">PeekMessageA</a>
 </td>
 <td align="left" width="63%">
 Obtains a message from the message queue and returns if no message is obtained. This is the ANSI version of this method.
@@ -96,7 +96,7 @@ Obtains a message from the message queue and returns if no message is obtained. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagew">PeekMessageW</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagew">PeekMessageW</a>
 </td>
 <td align="left" width="63%">
 Obtains a message from the message queue and returns if no message is obtained. This is the Unicode version of this method.
@@ -113,7 +113,7 @@ If the application is Unicode, it should use the PeekMessageW and GetMessageW me
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
           </a>
 
 
@@ -134,4 +134,3 @@ if(SUCCEEDED(hr))
 }
 
 ```
-

@@ -68,9 +68,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-When a display name string is set by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shsetlocalizedname">SHSetLocalizedName</a>, Windows Explorer uses that string for display instead of the file name. The path to the file is unchanged.
+When a display name string is set by <a href="/windows/desktop/api/shellapi/nf-shellapi-shsetlocalizedname">SHSetLocalizedName</a>, Windows Explorer uses that string for display instead of the file name. The path to the file is unchanged.
 
-Applications can use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> method to get the display (localized) name through with the SIGDN_NORMALDISPLAY flag and the parsing (non-localized) name with SIGDN_DESKTOPABSOLUTEPARSING.
+Applications can use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> method to get the display (localized) name through with the SIGDN_NORMALDISPLAY flag and the parsing (non-localized) name with SIGDN_DESKTOPABSOLUTEPARSING.
 
 Calling <b>SHRemoveLocalizedName</b> makes the display name identical to the parsing name.
-

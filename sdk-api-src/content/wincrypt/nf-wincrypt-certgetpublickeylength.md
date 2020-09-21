@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a>.
+The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a>.
 
 ## -parameters
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -67,15 +67,14 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 ### -param pPublicKey [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a> containing the keys for which the length is being retrieved.
+A pointer to the <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> containing the keys for which the length is being retrieved.
 
 ## -returns
 
 Returns the length of the public/private keys in bits. If unable to determine the key's length, returns zero.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to see the reason for any failures.
+Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to see the reason for any failures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

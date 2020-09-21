@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 These flags enumerate reasons why URLs are included or excluded from the current crawl scope. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex">ISearchCrawlScopeManager::IncludedInCrawlScopeEx</a> method returns a pointer to this enumeration to explain why a specified URL is either included or excluded from the current crawl scope.
 
 ## -enum-fields
 
@@ -67,9 +67,8 @@ The URL has been included or excluded by a default rule. Default rules are set d
 
 ### -field CLUSIONREASON_USER
 
-The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> interface.
+The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> interface.
 
 ### -field CLUSIONREASON_GROUPPOLICY
 
  Not Supported.
-

@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-This property returns the description as you originally set it in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">IDataCollectorSet::Description</a> property. Typically, you would use this property if you set the description using the form @<i>binary</i>,#<i>id</i>.
+This property returns the description as you originally set it in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">IDataCollectorSet::Description</a> property. Typically, you would use this property if you set the description using the form @<i>binary</i>,#<i>id</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">IDataCollectorSet::Description</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">IDataCollectorSet::Description</a>

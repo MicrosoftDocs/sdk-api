@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the dispenser manager's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface.
+Retrieves the dispenser manager's <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface.
 
 ## -parameters
 
 ### -param Arg1 [out]
 
-A pointer to the location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
+A pointer to the location that receives the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>

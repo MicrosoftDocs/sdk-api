@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
+Releases a VARDESC previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The VARDESC to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Do not use. Contains an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures.
+Do not use. Contains an array of one or more <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures.
 
 ## -struct-fields
 
@@ -63,11 +63,10 @@ Do not use. Contains an array of one or more <a href="https://docs.microsoft.com
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the count of <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member.
+Variable of type <b>ULONG</b> that specifies the count of <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member.
 
 ### -field aProblem
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a>[MAPI_DIM]</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> that specify information about a property error.
-
+Array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> that specify information about a property error.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies a sink that a <a href="https://docs.microsoft.com/windows/desktop/Midl/requestedit">requestedit</a> property is about to change.
+Notifies a sink that a <a href="/windows/desktop/Midl/requestedit">requestedit</a> property is about to change.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ The specified property or properties are allowed to change.
 </dl>
 </td>
 <td width="60%">
-The specified property or properties are not allowed to change. The caller must obey this return value by discarding the new property value(s). This is part of the contract of the [<a href="https://docs.microsoft.com/windows/desktop/Midl/requestedit">requestedit</a>] attribute and this method.
+The specified property or properties are not allowed to change. The caller must obey this return value by discarding the new property value(s). This is part of the contract of the [<a href="/windows/desktop/Midl/requestedit">requestedit</a>] attribute and this method.
 
 </td>
 </tr>
@@ -93,9 +93,9 @@ The specified property or properties are not allowed to change. The caller must 
 
 ## -remarks
 
-The sink may choose to allow or disallow the change to take place. For example, the sink may enforce a read-only state on the property. DISPID_UNKNOWN is a valid parameter to this method to indicate that multiple properties are about to change. In this case, the sink can enforce a global read-only state for all [<a href="https://docs.microsoft.com/windows/desktop/Midl/requestedit">requestedit</a>] properties in the object, including any specific ones that the sink otherwise recognizes.
+The sink may choose to allow or disallow the change to take place. For example, the sink may enforce a read-only state on the property. DISPID_UNKNOWN is a valid parameter to this method to indicate that multiple properties are about to change. In this case, the sink can enforce a global read-only state for all [<a href="/windows/desktop/Midl/requestedit">requestedit</a>] properties in the object, including any specific ones that the sink otherwise recognizes.
 
-If the sink allows changes, the object must also make <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> notifications for any properties that are marked [<a href="https://docs.microsoft.com/windows/desktop/Midl/bindable">bindable</a>] in addition to [<a href="https://docs.microsoft.com/windows/desktop/Midl/requestedit">requestedit</a>].
+If the sink allows changes, the object must also make <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> notifications for any properties that are marked [<a href="/windows/desktop/Midl/bindable">bindable</a>] in addition to [<a href="/windows/desktop/Midl/requestedit">requestedit</a>].
 
 
 
@@ -103,5 +103,4 @@ This method cannot be used to implement any sort of data validation. At the time
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>

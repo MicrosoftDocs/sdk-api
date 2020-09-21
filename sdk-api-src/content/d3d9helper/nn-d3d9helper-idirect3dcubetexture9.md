@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3DCubeTexture9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCubeTexture9</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DCubeTexture9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCubeTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DCubeTexture9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DCubeTexture9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-adddirtyrect">AddDirtyRect</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-adddirtyrect">AddDirtyRect</a>
 </td>
 <td align="left" width="63%">
 Adds a dirty region to a cube texture resource.
@@ -79,7 +79,7 @@ Adds a dirty region to a cube texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">GetCubeMapSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">GetCubeMapSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cube texture map surface.
@@ -88,7 +88,7 @@ Retrieves a cube texture map surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getleveldesc">GetLevelDesc</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getleveldesc">GetLevelDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of one face of the specified cube texture level.
@@ -97,7 +97,7 @@ Retrieves a description of one face of the specified cube texture level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-lockrect">LockRect</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-lockrect">LockRect</a>
 </td>
 <td align="left" width="63%">
 Locks a rectangle on a cube texture resource.
@@ -106,7 +106,7 @@ Locks a rectangle on a cube texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">UnlockRect</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">UnlockRect</a>
 </td>
 <td align="left" width="63%">
 Unlocks a rectangle on a cube texture resource.
@@ -117,11 +117,11 @@ Unlocks a rectangle on a cube texture resource.
 
 ## -remarks
 
-The <b>IDirect3DCubeTexture9</b> interface can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a> method or one of the D3DXCreateCubeTexture<i>xxx</i> functions.
+The <b>IDirect3DCubeTexture9</b> interface can be obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a> method or one of the D3DXCreateCubeTexture<i>xxx</i> functions.
 
-This interface inherits additional functionality from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface.
+This interface inherits additional functionality from the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface.
 
-This interface, like all COM interfaces, inherits additional functionality from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits additional functionality from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 The LPDIRECT3DCUBETEXTURE9 and PDIRECT3DCubeTexture9 types are defined as pointers to the <b>IDirect3DCubeTexture9</b> interface.
     
@@ -137,41 +137,40 @@ typedef struct IDirect3DCubeTexture9 *LPDIRECT3DCUBETEXTURE9, *PDIRECT3DCubeText
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexture">D3DXCreateCubeTexture</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexture">D3DXCreateCubeTexture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromfile">D3DXCreateCubeTextureFromFile</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromfile">D3DXCreateCubeTextureFromFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileex">D3DXCreateCubeTextureFromFileEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileex">D3DXCreateCubeTextureFromFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileinmemory">D3DXCreateCubeTextureFromFileInMemory</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileinmemory">D3DXCreateCubeTextureFromFileInMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileinmemoryex">D3DXCreateCubeTextureFromFileInMemoryEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromfileinmemoryex">D3DXCreateCubeTextureFromFileInMemoryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromresource">D3DXCreateCubeTextureFromResource</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromresource">D3DXCreateCubeTextureFromResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatecubetexturefromresourceex">D3DXCreateCubeTextureFromResourceEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatecubetexturefromresourceex">D3DXCreateCubeTextureFromResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a>

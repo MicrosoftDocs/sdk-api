@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-An SP_PROPCHANGE_PARAMS structure corresponds to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a> installation request.
+An SP_PROPCHANGE_PARAMS structure corresponds to a <a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a> installation request.
 
 ## -struct-fields
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
 
 ### -field StateChange
 
@@ -150,17 +150,16 @@ Supplies the hardware profile ID for profile-specific changes. Zero specifies th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
+<a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>

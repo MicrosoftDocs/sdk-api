@@ -57,7 +57,7 @@ Obtains a message from the message queue and returns if no message is obtained. 
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message data.
+Pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message data.
 
 ### -param hwnd [in]
 
@@ -118,13 +118,12 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmessagepump">ITfMessagePump</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmessagepump">ITfMessagePump</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>

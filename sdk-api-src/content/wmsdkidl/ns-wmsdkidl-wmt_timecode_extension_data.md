@@ -85,5 +85,4 @@ Ranges are guaranteed to be monotonically increasing (in other words, 0, 1, 2, 3
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

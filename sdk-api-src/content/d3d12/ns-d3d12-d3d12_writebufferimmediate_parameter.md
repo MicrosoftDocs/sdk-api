@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the immediate value and destination address written using <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12CommandList2::WriteBufferImmediate</a>.
+Specifies the immediate value and destination address written using <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12CommandList2::WriteBufferImmediate</a>.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ The 32-bit value to write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

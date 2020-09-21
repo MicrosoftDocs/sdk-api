@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Opened</b> property retrieves a Boolean value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> is open.
+The <b>Opened</b> property retrieves a Boolean value that specifies whether the <a href="/windows/desktop/SecGloss/p-gly">private key</a> is open.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method to create a private key, and call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a> method to open one.
+You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method to create a private key, and call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a> method to open one.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

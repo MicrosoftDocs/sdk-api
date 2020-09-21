@@ -65,7 +65,7 @@ Pointer to a Unicode string that specifies the name of the port on which the use
 
 ### -param lpdwIpv6Address [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that contains zero or the IPv6 address RAS allocated for the user. 
+Pointer to an <a href="/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that contains zero or the IPv6 address RAS allocated for the user. 
 
 
 Currently, only 64 bit identifiers are supported.
@@ -75,7 +75,7 @@ On output, if RAS specified zero, the DLL allocates an IPv6 address for the user
 ### -param bNotifyRelease [out]
 
 Pointer to a <b>BOOL</b> variable. If the DLL sets this variable to <b>TRUE</b>, RAS  calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a> when the user disconnects. Otherwise, RAS does not notify the DLL when this IP address is released.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a> when the user disconnects. Otherwise, RAS does not notify the DLL when this IP address is released.
 
 ## -returns
 
@@ -88,21 +88,20 @@ If the function returns anything other than NO_ERROR, RAS will terminate the con
 An administration DLL need not implement the 
 <i>MprAdminGetIpv6AddressForUser</i> function. However, if the DLL implements 
 <i>MprAdminGetIpv6AddressForUser</i>, it must also implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
+<a href="/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

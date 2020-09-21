@@ -118,7 +118,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -126,5 +126,4 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

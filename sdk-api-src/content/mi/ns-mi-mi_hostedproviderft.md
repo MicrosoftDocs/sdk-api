@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_hostedprovider">MI_HostedProvider</a> structure. Use the functions with 
+     <a href="/windows/desktop/api/mi/ns-mi-mi_hostedprovider">MI_HostedProvider</a> structure. Use the functions with 
      the name prefix "MI_HostedProvider_" to manipulate these structures.
 
 ## -struct-fields
@@ -64,10 +64,9 @@ TBD
 
 ### -field Close
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a>.
+See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a>.
 
 ### -field GetApplication
 
 See 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.
-
+      <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.

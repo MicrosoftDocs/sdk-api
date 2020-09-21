@@ -91,5 +91,4 @@ Indicates calling context does not have proper privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>

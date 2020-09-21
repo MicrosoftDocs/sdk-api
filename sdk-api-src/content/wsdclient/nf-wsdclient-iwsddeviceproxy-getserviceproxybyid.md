@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a generic <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> service proxy by service ID. Service IDs can be obtained by examining the service host metadata.
+Retrieves a generic <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> service proxy by service ID. Service IDs can be obtained by examining the service host metadata.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The service ID.
 
 ### -param ppServiceProxy [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object for the specified service proxy.
+Pointer to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object for the specified service proxy.
 
 ## -returns
 
@@ -130,5 +130,4 @@ There is no endpoint associated with the service proxy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>

@@ -85,7 +85,7 @@ No password is required.
 
 The user cannot change the password. This flag can be read, but not set directly.  For more information and 
       a code example that shows how to prevent a user from changing the password, see 
-      <a href="https://docs.microsoft.com/windows/desktop/ADSI/user-cannot-change-password">User Cannot Change Password</a>.
+      <a href="/windows/desktop/ADSI/user-cannot-change-password">User Cannot Change Password</a>.
 
 ### -field ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED
 
@@ -149,10 +149,10 @@ This account does not require Kerberos preauthentication for logon.
 
 The user password has expired. This flag is created by the system using data from the  password last set 
       attribute and the domain policy.  It is read-only and cannot be set. To manually set a user password as expired, 
-      use the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> 
+      use the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function with the 
+      <a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> 
       (<b>usri3_password_expired</b> member) or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> 
+      <a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> 
       (<b>usri4_password_expired</b> member) structure.
 
 ### -field ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION
@@ -163,12 +163,12 @@ The account is enabled for delegation. This is a security-sensitive setting; acc
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/managing-users">Managing Users</a>.
+For more information, see <a href="/windows/desktop/AD/managing-users">Managing Users</a>.
 
 For more information, and a code example that shows how to set the 
      <b>ADS_UF_DONT_EXPIRE_PASSWD</b> value on a user 
      <b>userAccountControl</b> attribute, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ADSI/password-never-expires">Password Never Expires</a>.
+     <a href="/windows/desktop/ADSI/password-never-expires">Password Never Expires</a>.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not understand the symbolic 
     constants as defined above. Use the numerical constants, instead, to set the appropriate flags in your VBScript 
@@ -178,13 +178,12 @@ For more information, and a code example that shows how to set the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/managing-users">Managing Users</a>
+<a href="/windows/desktop/AD/managing-users">Managing Users</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>

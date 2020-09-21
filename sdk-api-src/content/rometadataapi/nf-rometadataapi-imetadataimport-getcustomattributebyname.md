@@ -76,9 +76,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-It is legal to define multiple custom attributes for the same owner; they may even have the same name. However, <b>GetCustomAttributeByName</b> returns only one instance. (<b>GetCustomAttributeByName</b> returns the first instance that it encounters.) To find all instances of a custom attribute, call the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumcustomattributes">EnumCustomAttributes</a> method.
+It is legal to define multiple custom attributes for the same owner; they may even have the same name. However, <b>GetCustomAttributeByName</b> returns only one instance. (<b>GetCustomAttributeByName</b> returns the first instance that it encounters.) To find all instances of a custom attribute, call the <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumcustomattributes">EnumCustomAttributes</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

@@ -54,7 +54,7 @@ Represents a 2D transformation that affects only the offset of a visual along th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionTranslateTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionTranslateTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionTranslateTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449126(v=vs.85)">SetOffsetX</a>
+<a href="/previous-versions/windows/desktop/legacy/hh449126(v=vs.85)">SetOffsetX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of a 2D translation transform.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionTranslateTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449131(v=vs.85)">SetOffsetY</a>
+<a href="/previous-versions/windows/desktop/legacy/hh449131(v=vs.85)">SetOffsetY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of a 2D translation transform.
 
@@ -95,9 +95,8 @@ The effect is simply to offset the coordinate system by <i>x</i> and <i>y</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>

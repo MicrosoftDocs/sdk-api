@@ -64,7 +64,7 @@ The <b>Point</b> class encapsulates a point in a 2-D coordinate system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point()</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object and initializes the 
@@ -75,7 +75,7 @@ Creates a <b>Point</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inint_inint)">Point::Point(INT,INT)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inint_inint)">Point::Point(INT,INT)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using two integers to initialize the 
@@ -86,7 +86,7 @@ Creates a <b>Point</b> object using two integers to initialize the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point(Point&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point(Point&)</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>Point</b> object and copies the data members from another <b>Point</b> object.
@@ -95,11 +95,11 @@ Creates a new <b>Point</b> object and copies the data members from another <b>Po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstsize_)">Point::Point(Size&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstsize_)">Point::Point(Size&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object to initialize the 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -114,10 +114,10 @@ Creates a <b>Point</b> object using a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a> method determines whether two 
+The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a> method determines whether two 
 			<b>Point</b> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
@@ -126,21 +126,20 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-(Point&)</a>
+<a href="/previous-versions/ms535009(v=vs.85)">Point::operator-(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="/previous-versions/ms535009(v=vs.85)">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+(Point&)</a>
+<a href="/previous-versions/ms535008(v=vs.85)">Point::operator+(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="/previous-versions/ms535008(v=vs.85)">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>
 </table>
-

@@ -56,10 +56,10 @@ The security binding template for specifying the use of SSL/TLS
         protocol based transport security. 
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
 
 This security binding is supported only with the
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+        <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
 
 ## -struct-fields
 
@@ -72,12 +72,11 @@ Application provided security binding properties that cannot be represented in p
 The local certificate credential to be used with this security binding.
         
 
-Server side: When SSL is used for transport security with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
-          registered by the application using the <a href="https://msdn2.microsoft.com/library/aa364478.aspx">HttpCfg.exe</a> and this field must be set to <b>NULL</b>.  In all other cases, the
+Server side: When SSL is used for transport security with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
+          registered by the application using the <a href="/windows/win32/http/httpcfg-exe">HttpCfg.exe</a> and this field must be set to <b>NULL</b>.  In all other cases, the
           server SSL certificate must be specified using this field.
         
 
 Client side: If a client certificate is to be used with SSL, it must
           be specified using this field.  If no client certificate is to be
           used, this field must be set to <b>NULL</b>.
-

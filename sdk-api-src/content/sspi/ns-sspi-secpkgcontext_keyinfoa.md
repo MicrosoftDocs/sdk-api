@@ -56,10 +56,10 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> used in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
+The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="/windows/desktop/SecGloss/s-gly">session keys</a> used in a <a href="/windows/desktop/SecGloss/s-gly">security context</a>. The 
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
-Applications using the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
+Applications using the Schannel <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
 
 ## -struct-fields
 
@@ -77,18 +77,17 @@ Specifies the effective key length, in bits, for the session key. This is typica
 
 ### -field SignatureAlgorithm
 
-Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for generating signatures, if available.
+Specifies the algorithm identifier (<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for generating signatures, if available.
 
 ### -field EncryptAlgorithm
 
-Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for encrypting messages. Reserved for future use.
+Specifies the algorithm identifier (<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for encrypting messages. Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines SecPkgContext_KeyInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

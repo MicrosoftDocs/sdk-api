@@ -70,5 +70,4 @@ Not all implementations permit the initial page number to be set, as some implem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
-
+<a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>

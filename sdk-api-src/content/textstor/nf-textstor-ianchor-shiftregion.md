@@ -193,20 +193,19 @@ An input parameter value is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-shift--constants">TS_SHIFT_* Constants
+<a href="/windows/desktop/TSF/ts-shift--constants">TS_SHIFT_* Constants
       </a>
 
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
       </a>
-

@@ -64,15 +64,15 @@ The handle of the window used to obtain the drag image. This value can be <b>NUL
 
 ### -param pdata [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on a data object that contains the data being dragged.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on a data object that contains the data being dragged.
 
 ### -param pdsrc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>*</b>
 
-A pointer to an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a> interface, which is used to communicate with the source during the drag operation.
+A pointer to an implementation of the <a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a> interface, which is used to communicate with the source during the drag operation.
         
                         
 
@@ -82,13 +82,13 @@ As of Windows Vista, if this value is <b>NULL</b>, the Shell creates a drop sou
 
 Type: <b>DWORD</b>
 
-The effects that the source allows in the drag-and-drop operation. The most significant effect is whether the drag-and-drop operation permits a move. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a>.
+The effects that the source allows in the drag-and-drop operation. The most significant effect is whether the drag-and-drop operation permits a move. For a list of possible values, see <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a>.
 
 ### -param pdwEffect [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to a value that indicates how the drag-and-drop operation affected the source data. The <i>pdwEffect</i> parameter is set only if the operation is not canceled. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a>.
+A pointer to a value that indicates how the drag-and-drop operation affected the source data. The <i>pdwEffect</i> parameter is set only if the operation is not canceled. For a list of possible values, see <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a>.
 
 ## -returns
 
@@ -139,4 +139,3 @@ Unexpected error occurred.
 ## -remarks
 
 As of Windows Vista, if a drag image is not already stored in the data object <i>pdtobj</i> and a drag image cannot be obtained from the window specified by <i>hwnd</i>, the Shell provides a generic drag image. A drag image can fail to be obtained from the specified window either because <i>hwnd</i> is <b>NULL</b> or the specified window does not support the DI_GETDRAGIMAGE message.
-

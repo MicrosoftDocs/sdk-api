@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHValidateUNC</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Validates a Universal Naming Convention (UNC) path by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>. The function makes it possible for the user to type a remote network access (RNA) UNC application or document name from the <b>Run</b> dialog box on the <b>Start</b> menu.
+Validates a Universal Naming Convention (UNC) path by calling <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>. The function makes it possible for the user to type a remote network access (RNA) UNC application or document name from the <b>Run</b> dialog box on the <b>Start</b> menu.
 
 ## -parameters
 
@@ -109,4 +109,3 @@ Mask value used to verify that the flags passed to <b>SHValidateUNC</b> are vali
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if the UNC path exists; <b>FALSE</b> if the UNC path does not exist or if some other failure occurred.
-

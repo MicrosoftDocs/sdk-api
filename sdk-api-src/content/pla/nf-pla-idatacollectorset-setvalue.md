@@ -70,13 +70,12 @@ Returns S_OK if successful.
 
 You can specify one or more user-defined values. If you specify a key that currently exists, the current value is overwritten. To remove a value, set the <i>pValue</i> parameter to <b>NULL</b>.
 
-You use the key value if you want to perform variable substitution in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
+You use the key value if you want to perform variable substitution in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-getvalue">IDataCollectorSet::GetValue</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-getvalue">IDataCollectorSet::GetValue</a>

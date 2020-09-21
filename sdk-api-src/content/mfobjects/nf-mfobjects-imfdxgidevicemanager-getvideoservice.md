@@ -56,7 +56,7 @@ Queries the Microsoft Direct3D device for an interface.
 
 ### -param hDevice [in]
 
-A handle to the Direct3D device. To get the device handle, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a>.
+A handle to the Direct3D device. To get the device handle, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a>.
 
 ### -param riid [in]
 
@@ -64,9 +64,9 @@ The interface identifier (IID) of the requested interface. The Direct3D device s
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>. To get a pointer to the Direct3D11 device, use <b>IID_ID3D11Device</b> as the <i>riid</i>.</li>
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>. To get a pointer to the Direct3D11 device, use <b>IID_ID3D11Device</b> as the <i>riid</i>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>. To get a pointer to the Direct3D11 video device, use <b>IID_ID3D11VideoDevice</b> as the <i>riid</i>.</li>
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>. To get a pointer to the Direct3D11 video device, use <b>IID_ID3D11VideoDevice</b> as the <i>riid</i>.</li>
 </ul>
 
 ### -param ppService [out]
@@ -111,7 +111,7 @@ The specified handle is not a Direct3D device handle.
 </dl>
 </td>
 <td width="60%">
-The DXGI Device Manager was not initialized. The owner of the device must call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a>.
+The DXGI Device Manager was not initialized. The owner of the device must call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The device handle is invalid.
 </dl>
 </td>
 <td width="60%">
-If a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>  is specified and the D3D device created is using the reference rasterizer or WARP.  Or it is a hardware device and you are using the Microsoft Basic Display Adapter.
+If a  <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>  is specified and the D3D device created is using the reference rasterizer or WARP.  Or it is a hardware device and you are using the Microsoft Basic Display Adapter.
 
 </td>
 </tr>
@@ -142,11 +142,10 @@ If a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3
 
 ## -remarks
 
-If the method returns <b>MF_E_DXGI_NEW_VIDEO_DEVICE</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-closedevicehandle">IMFDXGIDeviceManager::CloseDeviceHandle</a> to close the handle and then call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a> method invalidates all open device handles.
+If the method returns <b>MF_E_DXGI_NEW_VIDEO_DEVICE</b>, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-closedevicehandle">IMFDXGIDeviceManager::CloseDeviceHandle</a> to close the handle and then call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The  <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a> method invalidates all open device handles.
 
-For more info see, <a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-direct3d-11-video-decoding-in-media-foundation">Supporting Direct3D 11 Video Decoding in Media Foundation</a>.
+For more info see, <a href="/windows/desktop/medfound/supporting-direct3d-11-video-decoding-in-media-foundation">Supporting Direct3D 11 Video Decoding in Media Foundation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>

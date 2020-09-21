@@ -58,7 +58,7 @@ The <b>MsiGetPatchFileList</b> function is provided a list of .msp files, delimi
 
 ### -param szProductCode [in]
 
-A null-terminated string value containing the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> (GUID) of the product which is the target of the patches.  This parameter cannot be <b>NULL</b>.
+A null-terminated string value containing the <a href="/windows/desktop/Msi/productcode">ProductCode</a> (GUID) of the product which is the target of the patches.  This parameter cannot be <b>NULL</b>.
 
 ### -param szPatchPackages [in]
 
@@ -123,11 +123,11 @@ For example, <i>szPatchList</i> could have the value: "c:\sus\download\cache\Off
 This function runs in the context of the caller. The product code is searched in the order of user-unmanaged context, user-managed context, and machine context.
 
 You must close all MSIHANDLE objects that are returned by this function by calling 
-the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function.
+the <a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function.
 
-If the function fails, you can obtain extended error information by using the <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a> function.
+If the function fails, you can obtain extended error information by using the <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a> function.
 
-For more information about using the <b>MsiGetPatchFileList</b> function  see <a href="https://docs.microsoft.com/windows/desktop/Msi/listing-the-files-that-can-be-updated">Listing the Files that can be Updated</a>.
+For more information about using the <b>MsiGetPatchFileList</b> function  see <a href="/windows/desktop/Msi/listing-the-files-that-can-be-updated">Listing the Files that can be Updated</a>.
 
 
 
@@ -138,5 +138,4 @@ For more information about using the <b>MsiGetPatchFileList</b> function  see <a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-1">Not Supported in Windows Installer 3.1 and earlier versions</a>
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-1">Not Supported in Windows Installer 3.1 and earlier versions</a>

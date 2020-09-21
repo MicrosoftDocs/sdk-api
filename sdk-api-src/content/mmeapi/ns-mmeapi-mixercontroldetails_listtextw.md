@@ -101,21 +101,20 @@ MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a>
+<a href="/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
-
+<a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>

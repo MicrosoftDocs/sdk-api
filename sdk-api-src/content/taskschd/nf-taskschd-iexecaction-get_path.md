@@ -62,15 +62,14 @@ This property is read/write.
 
 This action performs a command-line operation. For example, the action could run a script or launch an executable.
 
-When reading or writing XML, the command-line operation path is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-command-exectype-element">Command</a> element of the Task Scheduler schema.
+When reading or writing XML, the command-line operation path is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-command-exectype-element">Command</a> element of the Task Scheduler schema.
 
 The path is checked to make sure it is valid when the task is registered, not when this property is set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

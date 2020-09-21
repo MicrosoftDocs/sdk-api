@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Assigns an image list to an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setimagelist">HDM_SETIMAGELIST</a> message explicitly.
+Assigns an image list to an existing header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-setimagelist">HDM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -65,4 +65,3 @@ A handle to a header control.
 Type: <b>HIMAGELIST</b>
 
 A handle to an image list.
-

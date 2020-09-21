@@ -54,7 +54,7 @@ Monitors the individual log records maintained by a specific CRM clerk for a giv
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorLogRecords</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitorLogRecords</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorLogRecords</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitorLogRecords</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICrmMonitorLogRecords</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_count">get_Count</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of log records written by this CRM clerk.
@@ -78,7 +78,7 @@ Retrieves the number of log records written by this CRM clerk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_structuredrecords">get_StructuredRecords</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_structuredrecords">get_StructuredRecords</a>
 </td>
 <td align="left" width="63%">
 Retrieves a flag indicating whether the log records written by this CRM clerk were structured.
@@ -87,7 +87,7 @@ Retrieves a flag indicating whether the log records written by this CRM clerk we
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">get_TransactionState</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">get_TransactionState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current state of the transaction.
@@ -96,7 +96,7 @@ Retrieves the current state of the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecord">GetLogRecord</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecord">GetLogRecord</a>
 </td>
 <td align="left" width="63%">
 Retrieves an unstructured log record given its numeric index.
@@ -105,7 +105,7 @@ Retrieves an unstructured log record given its numeric index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecordvariants">GetLogRecordVariants</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecordvariants">GetLogRecordVariants</a>
 </td>
 <td align="left" width="63%">
 Retrieves a structured log record given its numeric index.
@@ -116,5 +116,4 @@ Retrieves a structured log record given its numeric index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
-
+<a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>

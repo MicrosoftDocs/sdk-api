@@ -58,7 +58,7 @@ Specifies the context for handling incoming messages.
 
 ### -field Handler
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/nc-wsdtypes-pwsd_soap_message_handler">PSWD_SOAP_MESSAGE_HANDLER</a> function that specifies the incoming message handler.
+<a href="/windows/desktop/api/wsdtypes/nc-wsdtypes-pwsd_soap_message_handler">PSWD_SOAP_MESSAGE_HANDLER</a> function that specifies the incoming message handler.
 
 ### -field PVoid
 
@@ -67,4 +67,3 @@ The value supplied by the <i>pVoidContext</i> parameter of the IWSDSession::AddP
 ### -field Unknown
 
 The value supplied by the <i>unknownContext</i> parameter of the IWSDSession::AddPort, IWSDSession::RegisterForIncomingRequests, or IWSDSession::RegisterForIncomingResponse methods.
-

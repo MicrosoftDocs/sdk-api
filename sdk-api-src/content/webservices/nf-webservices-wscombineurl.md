@@ -56,11 +56,11 @@ Produces an absolute URL from a specified URL reference (absolute or relative UR
 
 ### -param baseUrl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure containing an absolute URL in encoded format.
+Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_STRING</a> structure containing an absolute URL in encoded format.
 
 ### -param referenceUrl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
+Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
 
 ### -param flags [in]
 
@@ -68,16 +68,16 @@ Controls the  format of the resulting URL.  For more information, see <a href="/
 
 ### -param heap [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> object from which the memory for the resulting URL is allocated.
+Pointer to the <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> object from which the memory for the resulting URL is allocated.
 
 ### -param resultUrl [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_STRING</a> structure that receives the resulting URL.
+Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_STRING</a> structure that receives the resulting URL.
                 This is an absolute URL in encoded format.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -142,5 +142,4 @@ If the reference URL is absolute, it is returned unchanged, if the specified fla
             If the reference URL is relative, it is combined with the base URL before being returned.
             
 
-Only the schemes listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> are supported.
-
+Only the schemes listed in <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> are supported.

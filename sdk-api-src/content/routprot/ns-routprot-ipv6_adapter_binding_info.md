@@ -63,7 +63,7 @@ The number of IPv6 addresses associated with this adapter.
 
 ### -field RemoteAddress
 
-This member is for WAN interfaces. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
+This member is for WAN interfaces. An <a href="/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
 
 ### -field Mtu
 
@@ -76,27 +76,26 @@ Reserved for future use.
 ### -field Address
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IPv6 addresses associated with this adapter.
+<a href="/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures. The array  contains a structure for each of the IPv6 addresses associated with this adapter.
 
 ## -remarks
 
 Since an adapter can have more than one IP address, the 
 <b>IPV6_ADAPTER_BINDING_INFO</b> structure maintains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures.
+<a href="/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-ipv6_local_binding">IPV6_LOCAL_BINDING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

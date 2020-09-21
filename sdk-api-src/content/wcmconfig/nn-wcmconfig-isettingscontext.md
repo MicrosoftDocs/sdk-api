@@ -54,7 +54,7 @@ An interface to a backing store that is used to store setting changes made throu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-deserialize">Deserialize</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-deserialize">Deserialize</a>
 </td>
 <td align="left" width="63%">
  Deserializes the data in the provided stream into this context.
@@ -78,7 +78,7 @@ The <b>ISettingsContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getnamespaces">GetNamespaces</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getnamespaces">GetNamespaces</a>
 </td>
 <td align="left" width="63%">
 Gets the namespaces that exist in the context.
@@ -87,7 +87,7 @@ Gets the namespaces that exist in the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getstoredsettings">GetStoredSettings</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getstoredsettings">GetStoredSettings</a>
 </td>
 <td align="left" width="63%">
 Gets the stored setting changes from the context for the given namespace.
@@ -96,7 +96,7 @@ Gets the stored setting changes from the context for the given namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getuserdata">GetUserData</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getuserdata">GetUserData</a>
 </td>
 <td align="left" width="63%">
 Gets a user-defined piece of data.
@@ -105,7 +105,7 @@ Gets a user-defined piece of data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-revertsetting">RevertSetting</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-revertsetting">RevertSetting</a>
 </td>
 <td align="left" width="63%">
 Reverts a setting in the namespace.
@@ -114,7 +114,7 @@ Reverts a setting in the namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-serialize">Serialize</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the data in this context into the provided stream.
@@ -123,7 +123,7 @@ Serializes the data in this context into the provided stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-setuserdata">SetUserData</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-setuserdata">SetUserData</a>
 </td>
 <td align="left" width="63%">
 Sets a user-defined piece of data.
@@ -131,4 +131,3 @@ Sets a user-defined piece of data.
 </td>
 </tr>
 </table>
-

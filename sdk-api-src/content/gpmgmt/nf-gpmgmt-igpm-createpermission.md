@@ -62,7 +62,7 @@ Required. Trustee name. This parameter can be a string that specifies the securi
 ### -param perm [in]
 
 Required. Permission to use for the trustee. The following policy-related permissions are supported. Note that each permission value represents one or more 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">access rights</a> that apply to the GPO.
+<a href="/windows/desktop/SecAuthZ/access-rights-and-access-masks">access rights</a> that apply to the GPO.
 
 The following GPO permissions are supported.
 
@@ -149,7 +149,7 @@ The trustee can create GPOs in the domain. Applies to domains only.
 <td><strong>C++</strong></td>
 <td>
 <b>VARIANT_BOOL</b>. If <b>VARIANT_TRUE</b>, children inherit the permission. Note that this parameter is significant only when you add permissions to security information using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">IGPMSecurityInfo::Add</a> method. This parameter is ignored for searches.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">IGPMSecurityInfo::Add</a> method. This parameter is ignored for searches.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ The trustee can create GPOs in the domain. Applies to domains only.
 <td><strong>JScript</strong></td>
 <td>
 If true, children inherit the permission. Note that this parameter is significant only when you add permissions to security information using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">GPMSecurityInfo.Add</a> method. This parameter is ignored for searches.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">GPMSecurityInfo.Add</a> method. This parameter is ignored for searches.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ If true, children inherit the permission. Note that this parameter is significan
 ### -param ppPerm [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface.
 
 ## -returns
 
@@ -181,26 +181,25 @@ Returns a reference to a <b>GPMPermission</b> object.
 
 ## -remarks
 
-For more information about access control lists (ACLs), access rights, and the security model for controlling access to Windows objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>. For more information about security groups, see 
-How <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
+For more information about access control lists (ACLs), access rights, and the security model for controlling access to Windows objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>. For more information about security groups, see 
+How <a href="/windows/desktop/AD/how-security-groups-are-used-in-access-control">Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains values used to specify the timeout for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> method.
+Contains values used to specify the timeout for the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> method.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ Contains values used to specify the timeout for the <a href="https://docs.micros
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a>

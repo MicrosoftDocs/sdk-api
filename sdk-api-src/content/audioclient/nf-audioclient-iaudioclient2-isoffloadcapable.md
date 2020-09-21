@@ -72,5 +72,4 @@ The <b>IsOffloadCapable</b> method returns <b>S_OK</b> to indicate that it has c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>

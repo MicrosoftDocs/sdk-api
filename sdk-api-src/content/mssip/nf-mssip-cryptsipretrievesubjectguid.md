@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptSIPRetrieveSubjectGuid</b> function retrieves a GUID based on the header information in  a specified file. The GUID is used by the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function to load the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) implementation for the given file type.
+The <b>CryptSIPRetrieveSubjectGuid</b> function retrieves a GUID based on the header information in  a specified file. The GUID is used by the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function to load the <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) implementation for the given file type.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ A GUID that identifies the subject.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

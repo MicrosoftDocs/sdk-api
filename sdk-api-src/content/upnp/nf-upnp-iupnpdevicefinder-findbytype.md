@@ -66,7 +66,7 @@ Must be zero. This parameter is reserved for future use.
 ### -param pDevices [out]
 
 Receives a reference to a collection of 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> devices that were found.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> devices that were found.
 
 ## -returns
 
@@ -78,13 +78,12 @@ This method does not return until the search is complete. The search can take at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>

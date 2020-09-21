@@ -60,25 +60,24 @@ CMYK color value from which the cyan color value will be retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getkvalue">GetKValue</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getkvalue">GetKValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmvalue">GetMValue</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getmvalue">GetMValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getyvalue">GetYValue</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getyvalue">GetYValue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/macros-for-cmyk-values-and-colors">Macros for CMYK Values and Colors</a>
-
+<a href="/previous-versions/windows/desktop/wcs/macros-for-cmyk-values-and-colors">Macros for CMYK Values and Colors</a>

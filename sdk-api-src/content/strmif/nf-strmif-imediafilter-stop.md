@@ -98,13 +98,12 @@ This method always sets the filter's state to State_Stopped, even if the method 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-[FILTER_STATE Enumeration](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state)
+[FILTER_STATE Enumeration](/windows/desktop/api/strmif/ne-strmif-filter_state)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>

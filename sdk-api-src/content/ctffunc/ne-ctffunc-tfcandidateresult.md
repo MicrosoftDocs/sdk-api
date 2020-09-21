@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
+Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
 
 ## -enum-fields
 
@@ -70,6 +70,5 @@ The reconversion operation has been canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">ITfCandidateList::SetResult
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">ITfCandidateList::SetResult
       </a>
-

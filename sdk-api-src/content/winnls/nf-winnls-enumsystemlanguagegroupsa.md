@@ -60,14 +60,14 @@ api_name:
 
 ## -description
 
-Enumerates the language groups that are either installed on or supported by an operating system. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> instead of <b>EnumSystemLanguageGroups</b>.</div>
+Enumerates the language groups that are either installed on or supported by an operating system. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> instead of <b>EnumSystemLanguageGroups</b>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param lpLanguageGroupEnumProc [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317821(v=vs.85)">EnumLanguageGroupsProc</a>.
+Pointer to an application-defined callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/dd317821(v=vs.85)">EnumLanguageGroupsProc</a>.
 
 ### -param dwFlags [in]
 
@@ -106,7 +106,7 @@ Application-defined value to pass to the callback function. This parameter can b
 
 ## -returns
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -127,21 +127,20 @@ This function enumerates language groups by passing language group identifiers, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317821(v=vs.85)">EnumLanguageGroupsProc</a>
+<a href="/previous-versions/windows/desktop/legacy/dd317821(v=vs.85)">EnumLanguageGroupsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlanguagegroup">IsValidLanguageGroup</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-isvalidlanguagegroup">IsValidLanguageGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains). The collection does not include GPO links from site SOMs or disabled links. The collection is sorted in  order of precedence, with the first (earliest) link having the highest priority and last (latest) link having the lowest priority. Note that  the GPOs are applied in  reverse order of their precedence. The last GPO in the list is applied first and the first GPO in the list is applied last.
+Returns a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains). The collection does not include GPO links from site SOMs or disabled links. The collection is sorted in  order of precedence, with the first (earliest) link having the highest priority and last (latest) link having the lowest priority. Note that  the GPOs are applied in  reverse order of their precedence. The last GPO in the list is applied first and the first GPO in the list is applied last.
 
 ## -parameters
 
 ### -param ppGPOLinks [out]
 
 Address of a pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a> interface.
 
 ## -returns
 
@@ -66,20 +66,19 @@ Address of a pointer to an
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPOLinksCollection</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>

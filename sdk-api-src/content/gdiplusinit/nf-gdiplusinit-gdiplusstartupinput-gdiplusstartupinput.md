@@ -4,7 +4,7 @@ title: GdiplusStartupInput::GdiplusStartupInput
 ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: Constructor for the [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput) structure.
+description: Constructor for the [**GdiplusStartupInput**]() structure.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Constructor for the [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput) structure.
+Constructor for the [**GdiplusStartupInput**]() structure.
 
 The constructor sets the **GdiplusVersion** member to 1. All of the constructor parameters are optional, so you can declare a variable of type **GdiplusStartupInput** without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.
 
@@ -50,15 +50,15 @@ The constructor sets the **GdiplusVersion** member to 1. All of the constructor 
 
 ### -param debugEventCallback
 
-Type: **[DebugEventProc](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc)**
+Type: **[DebugEventProc](./nc-gdiplusinit-debugeventproc.md)**
 
-Pointer to your [**DebugEventProc**](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
+Pointer to your [**DebugEventProc**](./nc-gdiplusinit-debugeventproc.md) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
 
 ### -param suppressBackgroundThread
 
 Type: **BOOL**
 
-Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
+Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
 
 ### -param suppressExternalCodecs
 
@@ -69,4 +69,3 @@ Boolean value that specifies whether you want GDI+ to suppress external image co
 ## -remarks
 
 ## -see-also
-

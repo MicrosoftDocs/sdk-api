@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-Handles events that are generated or received by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> object.
-
+Handles events that are generated or received by a <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> object.

@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CertSerializeCRLStoreElement</b> function serializes an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CRL and properties can be retrieved at a later time.
+The <b>CertSerializeCRLStoreElement</b> function serializes an encoded <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) <a href="/windows/desktop/SecGloss/c-gly">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CRL and properties can be retrieved at a later time.
 
 ## -parameters
 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure being serialized.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure being serialized.
 
 ### -param dwFlags [in]
 
@@ -71,7 +71,7 @@ A pointer to a buffer to receive the serialized output, including the encoded CR
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbElement [in, out]
 
@@ -88,13 +88,12 @@ A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the buffer p
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>

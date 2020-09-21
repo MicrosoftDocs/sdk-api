@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-settooltips">LVM_SETTOOLTIPS</a> message explicitly.
+Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-settooltips">LVM_SETTOOLTIPS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param hwndNewHwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the tooltip control to be set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_gettooltips">ListView_GetToolTips</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_gettooltips">ListView_GetToolTips</a>

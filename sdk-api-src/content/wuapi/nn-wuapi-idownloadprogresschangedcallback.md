@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Handles the notification that indicates a change in the progress of an asynchronous download operation.   This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
+Handles the notification that indicates a change in the progress of an asynchronous download operation.   This interface is implemented by programmers who call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgressChangedCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDownloadProgressChangedCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgressChangedCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDownloadProgressChangedCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>IDownloadProgressChangedCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">Invoke</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
-Handles the notification of a change in the progress of an asynchronous download that was  initiated by calling <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a>.
+Handles the notification of a change in the progress of an asynchronous download that was  initiated by calling <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a>.
 
 </td>
 </tr>
 </table>
-

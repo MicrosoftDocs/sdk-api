@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The 
-<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
+<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMSPAddress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITMSPAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMSPAddress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITMSPAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,17 +70,17 @@ The <b>ITMSPAddress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
 </td>
 <td align="left" width="63%">
 Create an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> object representing a new TAPI call.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> object representing a new TAPI call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Gets event information.
@@ -89,7 +89,7 @@ Gets event information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-initialize">Initialize</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called when the MSP is loaded.
@@ -98,7 +98,7 @@ Called when the MSP is loaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a>
 </td>
 <td align="left" width="63%">
 Called when the TSP sends asynchronous data to the MSP.
@@ -107,7 +107,7 @@ Called when the TSP sends asynchronous data to the MSP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Called when the MSP is unloaded.
@@ -116,7 +116,7 @@ Called when the MSP is unloaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>
 </td>
 <td align="left" width="63%">
 Called when the call is being disconnected.
@@ -127,21 +127,20 @@ Called when the call is being disconnected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

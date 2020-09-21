@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
-Retrieves which <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> methods are currently valid.
+Retrieves which <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> methods are currently valid.
 
 ## -parameters
 
@@ -98,7 +98,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 ## -remarks
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 The value of <i>pUOP</i> is a bit field defined as follows.
 
@@ -134,14 +134,14 @@ The value of <i>pUOP</i> is a bit field defined as follows.
 <td>0</td>
 <td>UOP_FLAG_Title_Or_Time_Play</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">TitlePlay</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timeplay">TimePlay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">TitlePlay</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timeplay">TimePlay</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
 <td>UOP_FLAG_Chapter_Search_Or_Play</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chaptersearch">ChapterSearch</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chapterplay">ChapterPlay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chaptersearch">ChapterSearch</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chapterplay">ChapterPlay</a>
 </td>
 </tr>
 <tr>
@@ -153,148 +153,148 @@ The value of <i>pUOP</i> is a bit field defined as follows.
 <td>3</td>
 <td>UOP_FLAG_Stop</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stopforresume">StopForResume</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stopforresume">StopForResume</a>
 </td>
 </tr>
 <tr>
 <td>4</td>
 <td>UOP_FLAG_GoUp</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-goup">GoUp</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-goup">GoUp</a>
 </td>
 </tr>
 <tr>
 <td>5</td>
 <td>UOP_FLAG_Time_Or_Chapter_Search</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timesearch">TimeSearch</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chaptersearch">ChapterSearch</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timesearch">TimeSearch</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chaptersearch">ChapterSearch</a>
 </td>
 </tr>
 <tr>
 <td>6</td>
 <td>UOP_FLAG_Prev_Or_Top_PG_Search</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-prevpgsearch">PrevPGSearch</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-toppgsearch">TopPGSearch</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-prevpgsearch">PrevPGSearch</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-toppgsearch">TopPGSearch</a>
 </td>
 </tr>
 <tr>
 <td>7</td>
 <td>UOP_FLAG_Next_PG_Search</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-nextpgsearch">NextPGSearch</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-nextpgsearch">NextPGSearch</a>
 </td>
 </tr>
 <tr>
 <td>8</td>
 <td>UOP_FLAG_Forward_Scan</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-forwardscan">ForwardScan</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-forwardscan">ForwardScan</a>
 </td>
 </tr>
 <tr>
 <td>9</td>
 <td>UOP_FLAG_Backward_Scan</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-backwardscan">BackwardScan</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-backwardscan">BackwardScan</a>
 </td>
 </tr>
 <tr>
 <td>10</td>
 <td>UOP_FLAG_Title_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 2 (DVD_MENU_Title)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 2 (DVD_MENU_Title)</td>
 </tr>
 <tr>
 <td>11</td>
 <td>UOP_FLAG_Root_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 3 (DVD_MENU_Root)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 3 (DVD_MENU_Root)</td>
 </tr>
 <tr>
 <td>12</td>
 <td>UOP_FLAG_SubPic_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 4 (DVD_MENU_Subpicture)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 4 (DVD_MENU_Subpicture)</td>
 </tr>
 <tr>
 <td>13</td>
 <td>UOP_FLAG_Audio_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 5 (DVD_MENU_Audio)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 5 (DVD_MENU_Audio)</td>
 </tr>
 <tr>
 <td>14</td>
 <td>UOP_FLAG_Angle_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 6 (DVD_MENU_Angle)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 6 (DVD_MENU_Angle)</td>
 </tr>
 <tr>
 <td>15</td>
 <td>UOP_FLAG_Chapter_Menu_Call</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 7 (DVD_MENU_Chapter)</td>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a> with a parameter value of 7 (DVD_MENU_Chapter)</td>
 </tr>
 <tr>
 <td>16</td>
 <td>UOP_FLAG_Resume</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-resume">Resume</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-resume">Resume</a>
 </td>
 </tr>
 <tr>
 <td>17</td>
 <td>UOP_FLAG_Button_Select_Or_Activate</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-upperbuttonselect">UpperButtonSelect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-lowerbuttonselect">LowerButtonSelect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-leftbuttonselect">LeftButtonSelect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-rightbuttonselect">RightButtonSelect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonactivate">ButtonActivate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonselectandactivate">ButtonSelectAndActivate</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-upperbuttonselect">UpperButtonSelect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-lowerbuttonselect">LowerButtonSelect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-leftbuttonselect">LeftButtonSelect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-rightbuttonselect">RightButtonSelect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonactivate">ButtonActivate</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonselectandactivate">ButtonSelectAndActivate</a>
 </td>
 </tr>
 <tr>
 <td>18</td>
 <td>UOP_FLAG_Still_Off</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stilloff">StillOff</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stilloff">StillOff</a>
 </td>
 </tr>
 <tr>
 <td>19</td>
 <td>UOP_FLAG_Pause_On</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-pauseon">PauseOn</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menulanguageselect">MenuLanguageSelect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-pauseon">PauseOn</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menulanguageselect">MenuLanguageSelect</a>
 </td>
 </tr>
 <tr>
 <td>20</td>
 <td>UOP_FLAG_Audio_Stream_Change</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-audiostreamchange">AudioStreamChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-audiostreamchange">AudioStreamChange</a>
 </td>
 </tr>
 <tr>
 <td>21</td>
 <td>UOP_FLAG_SubPic_Stream_Change</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-subpicturestreamchange">SubpictureStreamChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-subpicturestreamchange">SubpictureStreamChange</a>
 </td>
 </tr>
 <tr>
 <td>22</td>
 <td>UOP_FLAG_Angle_Change</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-anglechange">AngleChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentallevelselect">ParentalLevelSelect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-anglechange">AngleChange</a>, <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentallevelselect">ParentalLevelSelect</a>
 </td>
 </tr>
 <tr>
 <td>23</td>
 <td>UOP_FLAG_Karaoke_Audio_Pres_Mode_Change</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-karaokeaudiopresentationmodechange">KaraokeAudioPresentationModeChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-karaokeaudiopresentationmodechange">KaraokeAudioPresentationModeChange</a>
 </td>
 </tr>
 <tr>
 <td>24</td>
 <td>UOP_FLAG_Video_Pres_Mode_Change</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">VideoModePreferrence</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">VideoModePreferrence</a>
 </td>
 </tr>
 </table>
@@ -304,9 +304,8 @@ This method is useful because DVD titles can enable or disable individual user o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

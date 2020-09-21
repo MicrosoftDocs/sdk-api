@@ -58,9 +58,8 @@ Gets the status of the protected session.
 
 Type: **[D3D12_PROTECTED_SESSION_STATUS](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status)**
 
-The status of the protected session. If the returned value is [D3D12_PROTECTED_SESSION_STATUS_INVALID](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status), then you need to wait for a uniqueness value bump to reuse the resource if the session is an [ID3D12ProtectedResourceSession](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
+The status of the protected session. If the returned value is [D3D12_PROTECTED_SESSION_STATUS_INVALID](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status), then you need to wait for a uniqueness value bump to reuse the resource if the session is an [ID3D12ProtectedResourceSession](/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
 
 ## -see-also
 
-[ID3D12ProtectedSession](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession)
-
+[ID3D12ProtectedSession](/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession)

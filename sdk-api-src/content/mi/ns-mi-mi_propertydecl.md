@@ -98,7 +98,7 @@ If property is a fixed length array, then this value will hold the length of the
 
 ### -field offset
 
-Offset of this property field from the start of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>.
+Offset of this property field from the start of the <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>.
 
 ### -field origin
 
@@ -111,4 +111,3 @@ Ancestor class that last defined a property with this name.
 ### -field value
 
 Default value of this property.
-

@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>EnumerateDynamicTerminalClasses</b> method enumerates the currently available dynamic 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal classes</a> that are supported. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses">get_DynamicTerminalClasses</a> method.
+<a href="/windows/desktop/Tapi/terminal-class">terminal classes</a> that are supported. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses">get_DynamicTerminalClasses</a> method.
 
 ## -parameters
 
 ### -param ppTerminalClassEnumerator [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> enumerator. TAPI returns these classes as GUIDs.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> enumerator. TAPI returns these classes as GUIDs.
 
 ## -returns
 
@@ -109,19 +109,19 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 An application calls this method to find out which dynamic terminal classes are supported by this address in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>.
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface returned by <b>ITTerminalSupport::EnumerateDynamicTerminalClasses</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface returned by <b>ITTerminalSupport::EnumerateDynamicTerminalClasses</b>. The application must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumTerminalClass</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
 
 
 
@@ -129,13 +129,12 @@ TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
+<a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal classes</a>
-
+<a href="/windows/desktop/Tapi/terminal-class">terminal classes</a>

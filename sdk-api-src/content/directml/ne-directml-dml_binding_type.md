@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines constants that specify the nature of the resource(s) referred to by a binding description (a [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc) structure).
+Defines constants that specify the nature of the resource(s) referred to by a binding description (a [DML_BINDING_DESC](./ns-directml-dml_binding_desc.md) structure).
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ Specifies a binding that binds an array of buffers to the binding table. The cor
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc)
-
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [DML_BINDING_DESC](./ns-directml-dml_binding_desc.md)

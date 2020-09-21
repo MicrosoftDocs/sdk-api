@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>Children</b> property specifies all the child devices of the device. The devices are stored in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection.
 
 ## -parameters
 
 ### -param ppudChildren [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection that enumerates the child devices of the device. This reference must be released when it is no longer required. 
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a> collection that enumerates the child devices of the device. This reference must be released when it is no longer required. 
 
 
 
@@ -72,17 +72,16 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -remarks
 
-To determine if a device has any children (but not the actual number of children), use <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>.
+To determine if a device has any children (but not the actual number of children), use <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren">IUPnPDevice::HasChildren</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>

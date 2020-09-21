@@ -100,33 +100,32 @@ The data source is alpha data from a pixel shader. The pre-blend operation clamp
 
 ### -field D3D10_BLEND_BLEND_FACTOR
 
-The data source is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">ID3D10Device::OMSetBlendState</a>. No pre-blend operation.
+The data source is the blend factor set with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">ID3D10Device::OMSetBlendState</a>. No pre-blend operation.
 
 ### -field D3D10_BLEND_INV_BLEND_FACTOR
 
-The data source is the blend factor set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">ID3D10Device::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
+The data source is the blend factor set with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">ID3D10Device::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
 
 ### -field D3D10_BLEND_SRC1_COLOR
 
-The data sources are both color data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
+The data sources are both color data output by a pixel shader. There is no pre-blend operation. This options supports <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
 
 ### -field D3D10_BLEND_INV_SRC1_COLOR
 
-The data sources are both color data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - RGB. This options supports <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
+The data sources are both color data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - RGB. This options supports <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
 
 ### -field D3D10_BLEND_SRC1_ALPHA
 
-The data sources are alpha data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
+The data sources are alpha data output by a pixel shader. There is no pre-blend operation. This options supports <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
 
 ### -field D3D10_BLEND_INV_SRC1_ALPHA
 
-The data sources are alpha data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - A. This options supports <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
+The data sources are alpha data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - A. This options supports <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">dual-source color blending</a>.
 
 ## -remarks
 
-Blend operations are specified in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_blend_desc">blend description</a>.
+Blend operations are specified in a <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_blend_desc">blend description</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

@@ -67,9 +67,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 ## -see-also
 
 [AddEventHandlerGroup](nf-uiautomationclient-iuiautomation6-addeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md), [IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md)
-

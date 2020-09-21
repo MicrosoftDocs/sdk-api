@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Flush</b> method ensures that any internal buffers maintained by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> implementation are written out to the underlying physical storage.
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> implementation are written out to the underlying physical storage.
 
 ## -parameters
 
@@ -68,13 +68,12 @@ The COM-provided implementation of compound files calls this method during a tra
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
+<a href="/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-global-memory-implementation">ILockBytes - Global Memory Implementation</a>
+<a href="/windows/desktop/Stg/ilockbytes-global-memory-implementation">ILockBytes - Global Memory Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>

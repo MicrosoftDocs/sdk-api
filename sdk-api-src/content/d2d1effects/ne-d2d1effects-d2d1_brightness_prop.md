@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/brightness">Brightness effect</a>.
+Identifiers for the properties of the <a href="/windows/desktop/Direct2D/brightness">Brightness effect</a>.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ The upper portion of the brightness transfer curve. The white point adjusts the 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is (1.0f, 1.0f).
 
@@ -70,9 +70,8 @@ The lower portion of the brightness transfer curve. The black point adjusts the 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is (0.0f, 0.0f).
 
 ### -field D2D1_BRIGHTNESS_PROP_FORCE_DWORD
-

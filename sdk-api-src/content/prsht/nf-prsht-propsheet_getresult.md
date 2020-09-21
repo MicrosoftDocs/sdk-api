@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-Used by modeless property sheets to retrieve the information returned to modal property sheets by <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>. You can use this macro or sent the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-getresult">PSM_GETRESULT</a> message explicitly.
+Used by modeless property sheets to retrieve the information returned to modal property sheets by <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>. You can use this macro or sent the <a href="/windows/desktop/Controls/psm-getresult">PSM_GETRESULT</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet's dialog box.
 
 ## -remarks
 
-To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To retrieve extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The return value is identical to what <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> would have returned had this been a modal property sheet.
+The return value is identical to what <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> would have returned had this been a modal property sheet.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> The <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets may need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned.
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80.</a> The <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets may need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned.
 
-For a modeless property sheet, your message loop should use <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-isdialogmessage">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box, and <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-getcurrentpagehwnd">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then retrieve the value that a modal property sheet would have received from <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> by sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-getresult">PSM_GETRESULT</a> message.
+For a modeless property sheet, your message loop should use <a href="/windows/desktop/Controls/psm-isdialogmessage">PSM_ISDIALOGMESSAGE</a> to pass messages to the property sheet dialog box, and <a href="/windows/desktop/Controls/psm-getcurrentpagehwnd">PSM_GETCURRENTPAGEHWND</a> to determine when to destroy the dialog box. When the user clicks the <b>OK</b> or <b>Cancel</b> button, <b>PSM_GETCURRENTPAGEHWND</b> returns <b>NULL</b>. You can then retrieve the value that a modal property sheet would have received from <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> by sending a <a href="/windows/desktop/Controls/psm-getresult">PSM_GETRESULT</a> message.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-

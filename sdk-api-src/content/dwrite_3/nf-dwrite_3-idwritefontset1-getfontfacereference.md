@@ -58,9 +58,9 @@ Zero-based index of the font item in the set.
 
 ### -param fontFaceReference
 
-Type: **[IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1)\*\***
+Type: **[IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md)\*\***
 
-The address of a pointer to an [IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) interface. On successful completion, the function sets the pointer to the font face reference.
+The address of a pointer to an [IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md) interface. On successful completion, the function sets the pointer to the font face reference.
 
 ## -returns
 
@@ -71,4 +71,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

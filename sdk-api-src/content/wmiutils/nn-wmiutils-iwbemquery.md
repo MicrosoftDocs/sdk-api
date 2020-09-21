@@ -55,14 +55,14 @@ api_name:
 ## -description
 
 The 
-<b>IWbemQuery</b> interface provides an entry point through which a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI</a>).
+<b>IWbemQuery</b> interface provides an entry point through which a <a href="/windows/desktop/WmiSdk/gloss-w">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI</a>).
 
 The following table lists the methods for 
 <b>IWbemQuery</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQuery</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWbemQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-empty">Empty</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-empty">Empty</a>
 </td>
 <td align="left" width="63%">
 Frees the memory that the parser is holding.
@@ -86,17 +86,17 @@ Frees the memory that the parser is holding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-freememory">FreeMemory</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-freememory">FreeMemory</a>
 </td>
 <td align="left" width="63%">
 Frees the memory that the parser returned to the caller in the previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>.
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>
 </td>
 <td align="left" width="63%">
 Gets the results of a successfully parsed query.
@@ -112,7 +112,7 @@ Not implemented. Returns <b>E_NOTIMPL</b> if called.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-parse">Parse</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-parse">Parse</a>
 </td>
 <td align="left" width="63%">
 Parses a query string.
@@ -137,9 +137,8 @@ Not implemented. Returns <b>E_NOTIMPL</b> if called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
-
+<a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>

@@ -56,21 +56,20 @@ Gets an object that provides the default paragraph format  information for this 
 
 ### -param ppPara [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>**</b>
 
 The object that provides the default paragraph format  information.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentpara">ITextDocument2::SetDocumentPara</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentpara">ITextDocument2::SetDocumentPara</a>

@@ -66,7 +66,6 @@ The changed item is placed ahead of other queued items in the indexer's queue, t
 
 ## -remarks
 
-Set the <b>priority</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
+Set the <b>priority</b> member of the <a href="/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
 
 As the indexer crawls, it builds a list of items that need to be indexed. These flags indicate the placement of changed items in the indexer's queue. Higher priority items are placed at the front of the queue.
-

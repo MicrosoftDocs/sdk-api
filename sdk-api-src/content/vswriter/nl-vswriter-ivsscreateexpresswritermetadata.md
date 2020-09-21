@@ -57,7 +57,7 @@ After it is constructed, the Writer Metadata Document is a read-only object that
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssCreateExpressWriterMetadata</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssCreateExpressWriterMetadata</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssCreateExpressWriterMetadata</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssCreateExpressWriterMetadata</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVssCreateExpressWriterMetadata</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponent">AddComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponent">AddComponent</a>
 </td>
 <td align="left" width="63%">
 Adds a 
@@ -82,7 +82,7 @@ Adds a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponentdependency">AddComponentDependency</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponentdependency">AddComponentDependency</a>
 </td>
 <td align="left" width="63%">
 Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
@@ -91,7 +91,7 @@ Allows an express writer to indicate that a component it manages has an explicit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addexcludefiles">AddExcludeFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addexcludefiles">AddExcludeFiles</a>
 </td>
 <td align="left" width="63%">
 Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
@@ -100,7 +100,7 @@ Excludes a file set (a specified file or files) that might otherwise be implicit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addfilestofilegroup">AddFilesToFileGroup</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addfilestofilegroup">AddFilesToFileGroup</a>
 </td>
 <td align="left" width="63%">
 Adds a file set (a specified file or files) to a specified file group component for an express writer.
@@ -109,7 +109,7 @@ Adds a file set (a specified file or files) to a specified file group component 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-saveasxml">SaveAsXML</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-saveasxml">SaveAsXML</a>
 </td>
 <td align="left" width="63%">
 Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
@@ -118,7 +118,7 @@ Stores the Writer Metadata Document that contains an express writer's state info
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-setbackupschema">SetBackupSchema</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-setbackupschema">SetBackupSchema</a>
 </td>
 <td align="left" width="63%">
 Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
@@ -127,7 +127,7 @@ Used by an express writer to indicate in its Writer Metadata Document the types 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-setrestoremethod">SetRestoreMethod</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-setrestoremethod">SetRestoreMethod</a>
 </td>
 <td align="left" width="63%">
 Specifies how an express writer's data is to be restored.
@@ -138,9 +138,8 @@ Specifies how an express writer's data is to be restored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>

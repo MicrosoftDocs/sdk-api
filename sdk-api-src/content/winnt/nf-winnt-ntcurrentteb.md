@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) of the current thread.
+The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) of the current thread.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ A pointer to the thread environment block of the current thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntxxx-routines">NtXxx Routines</a>
-
+<a href="/windows-hardware/drivers/kernel/ntxxx-routines">NtXxx Routines</a>

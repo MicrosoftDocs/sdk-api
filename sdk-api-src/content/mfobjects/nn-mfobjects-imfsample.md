@@ -53,11 +53,11 @@ api_name:
 
 Represents a media sample, which is a container object for media data. For video, a sample typically contains one video frame. For audio data, a sample typically contains multiple audio samples, rather than a single sample of audio.
 
-A media sample contains zero or more buffers. Each buffer manages a block of memory, and is represented by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. A sample can have multiple buffers. The buffers are kept in an ordered list and accessed by index value. It is also valid to have an empty sample with no buffers.
+A media sample contains zero or more buffers. Each buffer manages a block of memory, and is represented by the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. A sample can have multiple buffers. The buffers are kept in an ordered list and accessed by index value. It is also valid to have an empty sample with no buffers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSample</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSample</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-addbuffer">AddBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-addbuffer">AddBuffer</a>
 </td>
 <td align="left" width="63%">
 Adds a buffer to the end of the list of buffers in the sample.
@@ -81,7 +81,7 @@ Adds a buffer to the end of the list of buffers in the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">ConvertToContiguousBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">ConvertToContiguousBuffer</a>
 </td>
 <td align="left" width="63%">
 Converts a sample with multiple buffers into a sample with a single buffer.
@@ -90,7 +90,7 @@ Converts a sample with multiple buffers into a sample with a single buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-copytobuffer">CopyToBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-copytobuffer">CopyToBuffer</a>
 </td>
 <td align="left" width="63%">
 Copies the sample data to a buffer.
@@ -99,7 +99,7 @@ Copies the sample data to a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex">GetBufferByIndex</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex">GetBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a buffer from the sample.
@@ -108,7 +108,7 @@ Retrieves a buffer from the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount">GetBufferCount</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount">GetBufferCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of buffers in the sample.
@@ -117,7 +117,7 @@ Retrieves the number of buffers in the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleduration">GetSampleDuration</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleduration">GetSampleDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the sample.
@@ -126,7 +126,7 @@ Retrieves the duration of the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleflags">GetSampleFlags</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleflags">GetSampleFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags associated with the sample.
@@ -135,7 +135,7 @@ Retrieves flags associated with the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampletime">GetSampleTime</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampletime">GetSampleTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presentation time of the sample.
@@ -144,7 +144,7 @@ Retrieves the presentation time of the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-gettotallength">GetTotalLength</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-gettotallength">GetTotalLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total length of the valid data in all of the buffers in the sample.
@@ -153,7 +153,7 @@ Retrieves the total length of the valid data in all of the buffers in the sample
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-removeallbuffers">RemoveAllBuffers</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-removeallbuffers">RemoveAllBuffers</a>
 </td>
 <td align="left" width="63%">
 Removes all buffers from the sample.
@@ -162,7 +162,7 @@ Removes all buffers from the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-removebufferbyindex">RemoveBufferByIndex</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-removebufferbyindex">RemoveBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes a buffer at a specified index from the sample.
@@ -171,7 +171,7 @@ Removes a buffer at a specified index from the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleduration">SetSampleDuration</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleduration">SetSampleDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the duration of the sample.
@@ -180,7 +180,7 @@ Sets the duration of the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags">SetSampleFlags</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags">SetSampleFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags associated with the sample.
@@ -189,7 +189,7 @@ Sets flags associated with the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampletime">SetSampleTime</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampletime">SetSampleTime</a>
 </td>
 <td align="left" width="63%">
 Sets the presentation time of the sample.
@@ -200,9 +200,9 @@ Sets the presentation time of the sample.
 
 ## -remarks
 
-To create a new media sample, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatesample">MFCreateSample</a>.
+To create a new media sample, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatesample">MFCreateSample</a>.
 
-<div class="alert"><b>Note</b>  <p class="note">When you call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-copyallitems">CopyAllItems</a>, inherited from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, on an <b>IMFSample</b>, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
+<div class="alert"><b>Note</b>  <p class="note">When you call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-copyallitems">CopyAllItems</a>, inherited from the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, on an <b>IMFSample</b>, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
 
 </div>
 <div> </div>
@@ -215,17 +215,16 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sample-attributes">Sample Attributes</a>
-
+<a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>

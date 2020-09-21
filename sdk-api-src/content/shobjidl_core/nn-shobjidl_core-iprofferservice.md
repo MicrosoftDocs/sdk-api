@@ -54,7 +54,7 @@ Exposes a general mechanism for objects to offer services to other objects on th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProfferService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProfferService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProfferService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProfferService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IProfferService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">ProfferService</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">ProfferService</a>
 </td>
 <td align="left" width="63%">
 Makes a service available to other objects on the same host.
@@ -78,10 +78,10 @@ Makes a service available to other objects on the same host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-revokeservice">RevokeService</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-revokeservice">RevokeService</a>
 </td>
 <td align="left" width="63%">
-Makes a service unavailable that had previously been available to other objects through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
+Makes a service unavailable that had previously been available to other objects through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
 		
 
 </td>
@@ -90,9 +90,8 @@ Makes a service unavailable that had previously been available to other objects 
 
 ## -remarks
 
-Objects that expose a service first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on their host for this interface, then execute <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
+Objects that expose a service first call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on their host for this interface, then execute <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>

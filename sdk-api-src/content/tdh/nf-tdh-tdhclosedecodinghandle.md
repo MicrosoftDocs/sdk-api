@@ -69,5 +69,4 @@ This function returns ERROR_SUCCESS on completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhopendecodinghandle">TdhOpenDecodingHandle</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhopendecodinghandle">TdhOpenDecodingHandle</a>

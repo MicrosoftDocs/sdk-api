@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the left-to-right order of header items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setorderarray">HDM_SETORDERARRAY</a> message explicitly.
+Sets the left-to-right order of header items. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-setorderarray">HDM_SETORDERARRAY</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -65,11 +65,10 @@ A handle to a header control.
 Type: <b>int</b>
 
 The size of the buffer at 
-					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a>.
+					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a>.
 
 ### -param lpi
 
 Type: <b>int*</b>
 
 A pointer to an array that specifies the order in which items should be displayed, from left to right. For example, if the contents of the array are {2,0,1}, the control displays item 2, item 0, and item 1, from left to right.
-

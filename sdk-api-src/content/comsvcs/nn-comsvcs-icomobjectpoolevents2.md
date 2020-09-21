@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber when a new object is created for or removed from the pool. The subscriber is also notified when a new object pool is created or when the request for a pooled object times out. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber when a new object is created for or removed from the pool. The subscriber is also notified when a new object pool is created or when the request for a pooled object times out. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComObjectPoolEvents2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatedecision">OnObjPoolCreateDecision</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatedecision">OnObjPoolCreateDecision</a>
 </td>
 <td align="left" width="63%">
 Generated when a pool provides a requesting client with an existing object or creates a new one.
@@ -78,7 +78,7 @@ Generated when a pool provides a requesting client with an existing object or cr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreateobject">OnObjPoolCreateObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreateobject">OnObjPoolCreateObject</a>
 </td>
 <td align="left" width="63%">
 Generated when an object is created for the pool.
@@ -87,7 +87,7 @@ Generated when an object is created for the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatepool">OnObjPoolCreatePool</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatepool">OnObjPoolCreatePool</a>
 </td>
 <td align="left" width="63%">
 Generated when a new pool is created.
@@ -96,7 +96,7 @@ Generated when a new pool is created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooldestroyobject">OnObjPoolDestroyObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooldestroyobject">OnObjPoolDestroyObject</a>
 </td>
 <td align="left" width="63%">
 Generated when an object is permanently removed from the pool.
@@ -105,7 +105,7 @@ Generated when an object is permanently removed from the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooltimeout">OnObjPoolTimeout</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooltimeout">OnObjPoolTimeout</a>
 </td>
 <td align="left" width="63%">
 Generated when the request for a pooled object times out.
@@ -116,9 +116,8 @@ Generated when the request for a pooled object times out.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

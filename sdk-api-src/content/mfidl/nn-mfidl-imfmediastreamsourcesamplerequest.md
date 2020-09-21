@@ -54,7 +54,7 @@ Represents a request for a  sample from a MediaStreamSource.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaStreamSourceSampleRequest</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaStreamSourceSampleRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaStreamSourceSampleRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaStreamSourceSampleRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaStreamSourceSampleRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediastreamsourcesamplerequest-setsample">SetSample</a>
+<a href="/windows/desktop/medfound/imfmediastreamsourcesamplerequest-setsample">SetSample</a>
 </td>
 <td align="left" width="63%">
 Sets the sample for the media stream source.
@@ -81,9 +81,8 @@ Sets the sample for the media stream source.
 ## -remarks
 
 <b>MFMediaStreamSourceSampleRequest</b> is implemented by the
-     <a href="https://docs.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest">Windows.Media.Core.MediaStreamSourceSampleRequest</a> runtime class.
+     <a href="/uwp/api/windows.media.core.mediastreamsourcesamplerequest">Windows.Media.Core.MediaStreamSourceSampleRequest</a> runtime class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -56,7 +56,7 @@ Exposes methods and properties that display, manipulate, and describe image data
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IShellImageData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-cloneframe">CloneFrame</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-cloneframe">CloneFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves a clone of the current image or frame.
@@ -80,7 +80,7 @@ Retrieves a clone of the current image or frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a>
 </td>
 <td align="left" width="63%">
 Decodes the image file, setting state.
@@ -89,7 +89,7 @@ Decodes the image file, setting state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-discardedit">DiscardEdit</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-discardedit">DiscardEdit</a>
 </td>
 <td align="left" width="63%">
 Discards edits made to an image.
@@ -98,7 +98,7 @@ Discards edits made to an image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-displayname">DisplayName</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-displayname">DisplayName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the file if <b>IShellImageData</b> was initialized on a file path. Otherwise, gets the name of the data stream.
@@ -107,7 +107,7 @@ Gets the name of the file if <b>IShellImageData</b> was initialized on a file pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-draw">Draw</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-draw">Draw</a>
 </td>
 <td align="left" width="63%">
 Draws a decoded image.
@@ -116,7 +116,7 @@ Draws a decoded image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getcurrentpage">GetCurrentPage</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getcurrentpage">GetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Gets the current page of a multipage image.
@@ -125,7 +125,7 @@ Gets the current page of a multipage image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getdelay">GetDelay</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getdelay">GetDelay</a>
 </td>
 <td align="left" width="63%">
 Gets the delay value for the current frame of an animation.
@@ -134,7 +134,7 @@ Gets the delay value for the current frame of an animation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getencoderparams">GetEncoderParams</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getencoderparams">GetEncoderParams</a>
 </td>
 <td align="left" width="63%">
 Gets the current set of encoder parameters.
@@ -143,7 +143,7 @@ Gets the current set of encoder parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getpagecount">GetPageCount</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getpagecount">GetPageCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of pages in a multipage image.
@@ -152,7 +152,7 @@ Gets the number of pages in a multipage image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getpixelformat">GetPixelFormat</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getpixelformat">GetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the pixel format of the image.
@@ -161,16 +161,16 @@ Gets the pixel format of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> through which the properties of the image can be accessed.
+Gets an <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> through which the properties of the image can be accessed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getrawdataformat">GetRawDataFormat</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getrawdataformat">GetRawDataFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a GUID that identifies the format of the image.
@@ -179,7 +179,7 @@ Retrieves a GUID that identifies the format of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getresolution">GetResolution</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getresolution">GetResolution</a>
 </td>
 <td align="left" width="63%">
 Gets the resolution, in dpi, of the image.
@@ -188,7 +188,7 @@ Gets the resolution, in dpi, of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getsize">GetSize</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the dimensions of the image file.
@@ -197,7 +197,7 @@ Gets the dimensions of the image file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isanimated">IsAnimated</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isanimated">IsAnimated</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image is animated.
@@ -206,16 +206,16 @@ Determines whether the image is animated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isdecoded">IsDecoded</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isdecoded">IsDecoded</a>
 </td>
 <td align="left" width="63%">
-Determines whether the image has been decoded by calling <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
+Determines whether the image has been decoded by calling <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-iseditable">IsEditable</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-iseditable">IsEditable</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image can be edited.
@@ -224,7 +224,7 @@ Determines whether the image can be edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-ismultipage">IsMultipage</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-ismultipage">IsMultipage</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image is a multipage TIFF image.
@@ -233,7 +233,7 @@ Determines whether the image is a multipage TIFF image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isprintable">IsPrintable</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isprintable">IsPrintable</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image can be printed.
@@ -242,7 +242,7 @@ Determines whether the image can be printed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-istransparent">IsTransparent</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-istransparent">IsTransparent</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image is transparent.
@@ -251,7 +251,7 @@ Determines whether the image is transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isvector">IsVector</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-isvector">IsVector</a>
 </td>
 <td align="left" width="63%">
 Determines whether the image is a vector image.
@@ -260,7 +260,7 @@ Determines whether the image is a vector image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-nextframe">NextFrame</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-nextframe">NextFrame</a>
 </td>
 <td align="left" width="63%">
 Switches to the next frame of an animated image.
@@ -269,7 +269,7 @@ Switches to the next frame of an animated image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-nextpage">NextPage</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-nextpage">NextPage</a>
 </td>
 <td align="left" width="63%">
 Switches to the next page of a multipage image. Any associated animations are reset.
@@ -278,7 +278,7 @@ Switches to the next page of a multipage image. Any associated animations are re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-prevpage">PrevPage</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-prevpage">PrevPage</a>
 </td>
 <td align="left" width="63%">
 Switches to the previous page of a multipage image. Any associated animations are reset.
@@ -287,7 +287,7 @@ Switches to the previous page of a multipage image. Any associated animations ar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-registerabort">RegisterAbort</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-registerabort">RegisterAbort</a>
 </td>
 <td align="left" width="63%">
 Sets a callback abort object, optionally returning a pointer to the previous object.
@@ -296,7 +296,7 @@ Sets a callback abort object, optionally returning a pointer to the previous obj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-replaceframe">ReplaceFrame</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-replaceframe">ReplaceFrame</a>
 </td>
 <td align="left" width="63%">
 Replaces the current frame with a new image.
@@ -305,7 +305,7 @@ Replaces the current frame with a new image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-rotate">Rotate</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-rotate">Rotate</a>
 </td>
 <td align="left" width="63%">
 Rotates an image in increments of 90 degrees.
@@ -314,7 +314,7 @@ Rotates an image in increments of 90 degrees.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>
 </td>
 <td align="left" width="63%">
 Adjusts the size of an image.
@@ -323,7 +323,7 @@ Adjusts the size of an image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-selectpage">SelectPage</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-selectpage">SelectPage</a>
 </td>
 <td align="left" width="63%">
 Selects a specified page in a multipage image.
@@ -332,7 +332,7 @@ Selects a specified page in a multipage image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-setencoderparams">SetEncoderParams</a>
+<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-setencoderparams">SetEncoderParams</a>
 </td>
 <td align="left" width="63%">
 Sets encoder parameters.
@@ -344,4 +344,3 @@ Sets encoder parameters.
 ## -remarks
 
 This interface was not included in a public header file prior to Windows Vista.
-

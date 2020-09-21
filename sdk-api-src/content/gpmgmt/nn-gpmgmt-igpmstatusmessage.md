@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMStatusMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-errorcode">ErrorCode</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-errorcode">ErrorCode</a>
 </td>
 <td align="left" width="63%">
 Returns the actual error that occurred during the GPMC operation.
@@ -81,7 +81,7 @@ Returns the actual error that occurred during the GPMC operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-operationcode">OperationCode</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-operationcode">OperationCode</a>
 </td>
 <td align="left" width="63%">
 Returns a code related to the GPMC operation indicating a specific failure or warning for the operation.
@@ -98,7 +98,7 @@ Returns a code related to the GPMC operation indicating a specific failure or wa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ExtensionName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ExtensionName</a>
 
 
 </td>
@@ -110,7 +110,7 @@ Name of the extension that was being processed when the message was generated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Message, in human-readable format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ObjectPath</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ObjectPath</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Path of the object to which the message applies.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">SettingsName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">SettingsName</a>
 
 
 </td>
@@ -147,13 +147,12 @@ Name of the policy setting that was being processed when the message was generat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>

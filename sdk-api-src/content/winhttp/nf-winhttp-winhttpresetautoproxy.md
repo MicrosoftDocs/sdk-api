@@ -57,8 +57,8 @@ The <b>WinHttpResetAutoProxy</b> function resets the auto-proxy.
 ### -param hSession [in]
 
 A valid 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> WinHTTP session handle returned by a previous call to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function.
+<a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> WinHTTP session handle returned by a previous call to 
+the <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function.
 
 ### -param dwFlags [in]
 
@@ -151,7 +151,7 @@ Act on the autoproxy service instead of the current process.  <div class="alert"
 <div> </div>
 
 
-Applications that use the  <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function to purge in-process caching should close the <i>hInternet</i> handle and open a new handle for future calls.
+Applications that use the  <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function to purge in-process caching should close the <i>hInternet</i> handle and open a new handle for future calls.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ The <i>hSession</i> parameter is not a valid handle.
 </dl>
 </td>
 <td width="60%">
-The <i>hSession</i> parameter is not the product of a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.
+The <i>hSession</i> parameter is not the product of a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.
 
 </td>
 </tr>
@@ -212,4 +212,3 @@ To reset everything, set the <i>dwFlags</i> parameter to include <b>WINHTTP_RESE
 <div class="alert"><b>Note</b>  If you make subsequent calls to the <b>WinHttpResetAutoProxy</b> function, there must be at least 30 seconds delay between calls to reset the state of the auto-proxy. If there is less than 30 seconds, the <b>WinHttpResetAutoProxy</b> function call may return <b>ERROR_SUCCESS</b> but the reset won't happen. 
 </div>
 <div> </div>
-

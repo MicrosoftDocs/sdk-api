@@ -51,43 +51,42 @@ api_name:
 
 ## -description
 
-The <b>Encode</b> method returns an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded string of the date array stored in this object.
+The <b>Encode</b> method returns an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded string of the date array stored in this object.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeDateArray</b> object.
+Use the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeDateArray</b> object.
 
 Before using this method, you must call both the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">Reset</a> method to size the array and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">SetValue</a> method to set each array element.
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">Reset</a> method to size the array and the 
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">SetValue</a> method to set each array element.
 
 ## -parameters
 
 ### -param pstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded <b>Date</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded <b>Date</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the ASN.1-encoded string that represents the <b>DATE</b> array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodedatearray">ICertEncodeDateArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodedatearray">ICertEncodeDateArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-decode">ICertEncodeDateArray::Decode</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-decode">ICertEncodeDateArray::Decode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">ICertEncodeDateArray::Reset</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">ICertEncodeDateArray::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">ICertEncodeDateArray::SetValue</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">ICertEncodeDateArray::SetValue</a>

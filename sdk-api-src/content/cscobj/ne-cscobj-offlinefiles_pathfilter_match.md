@@ -78,5 +78,4 @@ Event must be an exact match or any descendant of the fully qualified UNC path a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getpathfilter">IOfflineFilesEventsFilter::GetPathFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getpathfilter">IOfflineFilesEventsFilter::GetPathFilter</a>

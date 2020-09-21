@@ -47,14 +47,14 @@ api_name:
 
 ## -description
 
-The **Bitmap::ApplyEffect** method alters this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object by applying a specified effect.
+The **Bitmap::ApplyEffect** method alters this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object by applying a specified effect.
 
 ## -parameters
 
 ### -param effect
 
-Pointer to an instance of a descendant of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> class.
-The descendant (for example, a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object) specifies the effect that is applied.
+Pointer to an instance of a descendant of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> class.
+The descendant (for example, a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">Blur</a> object) specifies the effect that is applied.
 
 ### -param ROI
 
@@ -63,11 +63,11 @@ Pass **NULL** to specify that the effect applies to the entire input bitmap.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -103,5 +103,4 @@ VOID Example_BrightnessContrastApplyEffect1(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>

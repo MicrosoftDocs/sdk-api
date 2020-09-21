@@ -120,10 +120,9 @@ If the document window is minimized, or if the specified text is not currently v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>

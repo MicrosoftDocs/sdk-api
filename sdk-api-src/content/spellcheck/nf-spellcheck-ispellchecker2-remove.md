@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes a word that was previously added by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>, or set by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a> to be ignored.
+Removes a word that was previously added by <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>, or set by <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a> to be ignored.
 
 ## -parameters
 
@@ -104,17 +104,16 @@ Successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker2">ISpellChecker2</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker2">ISpellChecker2</a>

@@ -78,5 +78,4 @@ Number of samples that were compressed into the data point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/counteritem-getdataat">CounterItem.GetDataAt</a>
-
+<a href="/windows/desktop/SysMon/counteritem-getdataat">CounterItem.GetDataAt</a>

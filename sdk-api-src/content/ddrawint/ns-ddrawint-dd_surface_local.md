@@ -60,7 +60,7 @@ The DD_SURFACE_LOCAL structure contains surface-related data that is unique to a
 
 ### -field lpGbl
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a> structure containing surface data that is shared globally with multiple surfaces.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a> structure containing surface data that is shared globally with multiple surfaces.
 
 ### -field dwFlags
 
@@ -145,7 +145,7 @@ The surface has been invalidated by a mode setting operation.
 
 ### -field ddsCaps
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the capabilities of the surface.
+Specifies a <a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the capabilities of the surface.
 
 ### -field dwReserved1
 
@@ -169,11 +169,11 @@ Specifies a DDCOLORKEY structure that describes the color key for destination co
 
 ### -field lpSurfMore
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_more">DD_SURFACE_MORE</a> structure that contains additional local surface data.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_more">DD_SURFACE_MORE</a> structure that contains additional local surface data.
 
 ### -field lpAttachList
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_attachlist">DD_ATTACHLIST</a> structure that contains the list of surfaces to which this surface attached.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_attachlist">DD_ATTACHLIST</a> structure that contains the list of surfaces to which this surface attached.
 
 ### -field lpAttachListFrom
 
@@ -182,4 +182,3 @@ Points to a DD_ATTACHLIST structure that contains the list of surfaces attached 
 ### -field rcOverlaySrc
 
 Reserved for system use and should be ignored by the driver.
-

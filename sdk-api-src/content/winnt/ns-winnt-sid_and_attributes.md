@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attributes. SIDs are used to uniquely identify users or groups.
+The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attributes. SIDs are used to uniquely identify users or groups.
 
 ## -struct-fields
 
 ### -field Sid
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure.
 
 ### -field Attributes
 
@@ -68,17 +68,16 @@ Specifies attributes of the SID. This value contains up to 32 one-bit flags. Its
 
 ## -remarks
 
-A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure.
+A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>

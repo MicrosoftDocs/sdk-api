@@ -60,7 +60,6 @@ This property is read-only.
 
 ## -remarks
 
-The UPN client name is retrieved by impersonating the client token and calling the <a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUserPrincipal</b> specified for the <i>NameFormat</i> parameter. 
+The UPN client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUserPrincipal</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in UPN format is "someone@example.com".
-

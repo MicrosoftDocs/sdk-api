@@ -57,7 +57,7 @@ Clocks and some media sinks expose this interface through <b>QueryInterface</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFClock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">GetClockCharacteristics</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">GetClockCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Retrieves the characteristics of the clock.
@@ -81,7 +81,7 @@ Retrieves the characteristics of the clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcontinuitykey">GetContinuityKey</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcontinuitykey">GetContinuityKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clock's continuity key.
@@ -90,7 +90,7 @@ Retrieves the clock's continuity key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">GetCorrelatedTime</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">GetCorrelatedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last clock time that was correlated with system time.
@@ -99,7 +99,7 @@ Retrieves the last clock time that was correlated with system time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of the clock.
@@ -108,7 +108,7 @@ Retrieves the properties of the clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getstate">GetState</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current state of the clock.
@@ -119,13 +119,12 @@ Retrieves the current state of the clock.
 
 ## -remarks
 
-The <b>IMFClock</b> interface applies to any kind of clock. The presentation clock exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface in addition to <b>IMFClock</b>.
+The <b>IMFClock</b> interface applies to any kind of clock. The presentation clock exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface in addition to <b>IMFClock</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

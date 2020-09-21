@@ -42,9 +42,8 @@ api_name:
 
 Represents a list of fonts. **IDWriteFontList2** adds new facilities, including retrieving the underlying font set used by the list.
 
-This interface extends [IDWriteFontList1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist1).
+This interface extends [IDWriteFontList1](./nn-dwrite_3-idwritefontlist1.md).
 
 ## -see-also
 
-[IDWriteFontList1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist1)
-
+[IDWriteFontList1](./nn-dwrite_3-idwritefontlist1.md)

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Set the value of the <code>y</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>.
+Set the value of the <code>y</code> component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A floating-point value to be assigned to <code>y</code> of <i>V</i>.
 
 ## -returns
 
-An instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the floating-point value
+An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the floating-point value
        provided by the argument <i>y</i> to <code>XMVectorSetY</code>. All other components of the returned
        <b>XMVECTOR Data Type</b> instance have the same value as those of the input vector <i>V</i>.
 
@@ -75,5 +75,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>

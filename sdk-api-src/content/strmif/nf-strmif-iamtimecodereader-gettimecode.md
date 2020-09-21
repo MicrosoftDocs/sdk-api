@@ -57,7 +57,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode, userbit,
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
 
 ## -returns
 
@@ -70,9 +70,9 @@ Use this method to monitor the timecode and to parse duplicates and discontinuit
 The timecode contains undefined bits, called <i>userbits</i>. Applications can use these bits to store synchronization information or other custom information.
 
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> driver supports reading SMPTE timecode or absolute track numbers (ATN). The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> driver supports reading the relative time counter (RTC). To read time information on these devices, do the following:
+The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> driver supports reading SMPTE timecode or absolute track numbers (ATN). The <a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> driver supports reading the relative time counter (RTC). To read time information on these devices, do the following:
 
-Set the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
+Set the <b>dwFlags</b> member of the <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Set the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows
 </table>
  
 
-The <b>timecode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
+The <b>timecode</b> member of the <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
 
 All other structure members are ignored.
 
@@ -139,13 +139,12 @@ Also, the <b>dwUser</b> member receives the <i>blank flag</i> bit from the devic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/getting-timecode-from-the-device">Getting Timecode from the Device</a>
+<a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">Getting Timecode from the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an express writer metadata object and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to it.
+Creates an express writer metadata object and returns an <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to it.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A null-terminated wide character string that contains the name of the writer cla
 
 ### -param usageType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value that indicates how the data that is managed by the writer is used on the host system. The only valid values for this parameter are VSS_UT_BOOTABLESYSTEMSTATE, VSS_UT_SYSTEMSERVICE, and VSS_UT_USERDATA.
+A <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value that indicates how the data that is managed by the writer is used on the host system. The only valid values for this parameter are VSS_UT_BOOTABLESYSTEMSTATE, VSS_UT_SYSTEMSERVICE, and VSS_UT_USERDATA.
 
 ### -param versionMajor [in]
 
@@ -80,7 +80,7 @@ This parameter is reserved for system use.
 
 ### -param ppMetadata [out]
 
-A pointer to a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to the newly created express writer metadata.
+A pointer to a variable that receives an <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to the newly created express writer metadata.
 
 ## -returns
 
@@ -99,9 +99,8 @@ If a writer does not specify a version number, VSS will assign a default version
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-createvssexpresswriter">CreateVssExpressWriter</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-createvssexpresswriter">CreateVssExpressWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>

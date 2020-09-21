@@ -108,7 +108,7 @@ The password is encrypted.
 
 #### WKS_FLAG_CREDS_AUTHENTICATED (4 (0x4))
 
-The user credentials are verified. If this flag is not set, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee351600(v=vs.85)">OnAuthenticated</a> method before using the credentials.
+The user credentials are verified. If this flag is not set, you must call the <a href="/previous-versions/windows/desktop/legacy/ee351600(v=vs.85)">OnAuthenticated</a> method before using the credentials.
 
 ## -returns
 
@@ -116,9 +116,8 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
-
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>

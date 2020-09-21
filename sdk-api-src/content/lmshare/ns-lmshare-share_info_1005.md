@@ -75,7 +75,7 @@ A bitmask of flags that specify information about the shared resource.
 </td>
 <td width="60%">
 The specified share is present in a Dfs tree structure. This flag cannot be set with 
-        <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
+        <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The specified share is present in a Dfs tree structure. This flag cannot be set 
 </td>
 <td width="60%">
 The specified share is the root volume in a Dfs tree structure. This flag cannot be set with 
-        <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
+        <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
 
 </td>
 </tr>
@@ -134,9 +134,9 @@ Clients are allowed to cache the namespace of the specified share.
 The server will filter directory entries based on the access permissions that the user on the  client computer has for the server on which the files reside. 
         Only files for which the user has read access and directories for which the user has FILE_LIST_DIRECTORY access will be returned. If the user has SeBackupPrivilege, all available information will be returned.
 
-For more information about file and directory access, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+For more information about file and directory access, see <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-For more information about SeBackupPrivilege, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
+For more information about SeBackupPrivilege, see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 <div class="alert"><b>Note</b>  This flag is supported only on servers running Windows Server 2003 with SP1 or later.</div>
 <div> </div>
@@ -274,25 +274,24 @@ Enables server-side functionality needed for peer caching support.
 ## -remarks
 
 This structure can be retrieved by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function. It can be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function.
+    <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function. It can be set by calling the <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

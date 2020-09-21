@@ -54,7 +54,7 @@ Exposes methods that provide access to underlining metadata content. This interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICMetadataReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getcount">GetCount</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of metadata items within the reader.
@@ -78,7 +78,7 @@ Gets the number of metadata items within the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getenumerator">GetEnumerator</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getenumerator">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator of all the metadata items.
@@ -87,7 +87,7 @@ Gets an enumerator of all the metadata items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat">GetMetadataFormat</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat">GetMetadataFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata format associated with the reader.
@@ -96,7 +96,7 @@ Gets the metadata format associated with the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadatahandlerinfo">GetMetadataHandlerInfo</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadatahandlerinfo">GetMetadataHandlerInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata handler info associated with the reader.
@@ -105,7 +105,7 @@ Gets the metadata handler info associated with the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue">GetValue</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata item value.
@@ -114,7 +114,7 @@ Gets the metadata item value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvaluebyindex">GetValueByIndex</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvaluebyindex">GetValueByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata item at the given index.
@@ -125,7 +125,7 @@ Gets the metadata item at the given index.
 
 ## -remarks
 
-A metadata reader can be used to access metadata blocks and items within a metadata block instead of using a query reader. To directly access the metadata reader, query a decoder or its frames for the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a> interface to enumerate each metadata reader.
+A metadata reader can be used to access metadata blocks and items within a metadata block instead of using a query reader. To directly access the metadata reader, query a decoder or its frames for the <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a> interface to enumerate each metadata reader.
 
 ## -see-also
 
@@ -133,17 +133,16 @@ A metadata reader can be used to access metadata blocks and items within a metad
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadatahandlers">Metadata Extensibility Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadatahandlers">Metadata Extensibility Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

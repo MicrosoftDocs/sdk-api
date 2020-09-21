@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The edge mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/border">Border effect</a>.
+The edge mode for the <a href="/windows/desktop/Direct2D/border">Border effect</a>.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Uses pixels from the opposite end edge of the image.
 Reflects pixels about the edge of the image.
 
 ### -field D2D1_BORDER_EDGE_MODE_FORCE_DWORD
-

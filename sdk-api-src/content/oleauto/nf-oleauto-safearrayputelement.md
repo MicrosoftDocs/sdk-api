@@ -56,7 +56,7 @@ Stores the data element at the specified location in the array.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param rgIndices [in]
 
@@ -123,9 +123,8 @@ Memory could not be allocated for the element.
 
 ## -remarks
 
-This function automatically calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> before and after assigning the element. If the data element is a string, object, or variant, the function copies it correctly when the safe array is destroyed. If the existing element is a string, object, or variant, it is cleared correctly.  If the data element is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count. 
+This function automatically calls <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> before and after assigning the element. If the data element is a string, object, or variant, the function copies it correctly when the safe array is destroyed. If the existing element is a string, object, or variant, it is cleared correctly.  If the data element is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count. 
 
 <div class="alert"><b>Note</b>  Multiple locks can be on an array. Elements can be put into an array while the array is locked by other operations.</div>
 <div> </div>
 For an example that demonstrates calling <b>SafeArrayPutElement</b>, see the COM Fundamentals Lines sample (CLines::Add in Lines.cpp).
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Automatically calls member functions on an interface, given the type information for the interface. You can describe an interface with type information and implement <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> for the interface using this single call.
+Automatically calls member functions on an interface, given the type information for the interface. You can describe an interface with type information and implement <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> for the interface using this single call.
 
 ## -parameters
 
 ### -param _this
 
-An implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface described by <i>ptinfo</i>.
+An implementation of the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface described by <i>ptinfo</i>.
 
 ### -param ptinfo
 
@@ -64,11 +64,11 @@ The type information that describes the interface.
 
 ### -param dispidMember
 
-The member to be invoked. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> or the object's documentation to obtain the DISPID.
+The member to be invoked. Use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> or the object's documentation to obtain the DISPID.
 
 ### -param wFlags
 
-Flags describing the context of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> call.
+Flags describing the context of the <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> call.
 
 <table>
 <tr>
@@ -209,7 +209,7 @@ The requested member does not exist.
 </dl>
 </td>
 <td width="60%">
-This implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> does not support named arguments.
+This implementation of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> does not support named arguments.
 
 </td>
 </tr>
@@ -296,7 +296,7 @@ The parameter <i>_this</i> is a pointer to an implementation of the interface th
 
 #### Examples
 
-The following code from the Lines sample file Lines.cpp implements <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> using <b>DispInvoke</b>. This implementation relies on <b>DispInvoke</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
+The following code from the Lines sample file Lines.cpp implements <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> using <b>DispInvoke</b>. This implementation relies on <b>DispInvoke</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
 
 
 ```cpp
@@ -320,21 +320,20 @@ CLines::Invoke(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
+<a href="/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">ITypeInfo::Invoke</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">ITypeInfo::Invoke</a>

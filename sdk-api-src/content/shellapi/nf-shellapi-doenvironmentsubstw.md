@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 
@@ -127,7 +127,7 @@ The following are only available to interactive applications.
 <li>USERDOMAIN</li>
 <li>USERNAME</li>
 </ul>
-The environment variables that correspond to file system folders can be mapped to an equivalent <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>value can be obtained through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
+The environment variables that correspond to file system folders can be mapped to an equivalent <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>value can be obtained through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
 
 
 #### Examples
@@ -161,4 +161,3 @@ int _tmain(int argc, _TCHAR* argv[])
 
 > [!NOTE]
 > The shellapi.h header defines DoEnvironmentSubst as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

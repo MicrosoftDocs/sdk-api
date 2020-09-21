@@ -58,7 +58,7 @@ The <b>IPsecKeyManagerSetSecurityInfoByKey0</b> function sets specified security
 
 Type: <b>HANDLE</b>
 
-A handle to an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+A handle to an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param reserved
 
@@ -68,31 +68,31 @@ Reserved. Should be specified as NULL.
 
 ### -param securityInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
+Type: <b><a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
 
 The type of security information to set.
 
 ### -param sidOwner [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
 
 The owner's security identifier (SID) to be set in the security descriptor.
 
 ### -param sidGroup [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
 
 The group's SID to be set in the security descriptor.
 
 ### -param dacl [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
 
 The discretionary access control list (DACL) to be set in the security descriptor.
 
 ### -param sacl [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
 
 The system access control list (SACL) to be set in the security descriptor.
 
@@ -125,7 +125,7 @@ The security information was successfully set.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -145,5 +145,4 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>

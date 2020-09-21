@@ -61,7 +61,7 @@ This method is not implemented.
 
 ### -param EditID [in]
 
-Specifies the edit property set. Use the identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditpropertyset">IAMExtTransport::SetEditPropertySet</a> method.
+Specifies the edit property set. Use the identifier returned by the <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditpropertyset">IAMExtTransport::SetEditPropertySet</a> method.
 
 ### -param Param [in]
 
@@ -83,7 +83,7 @@ The <i>Param</i> parameter is a flag that specifies the edit event parameter. Th
 
 <ul>
 <li>ED_EDIT_HEVENT: Handle to an event. The device will signal the event when the edit event has completed.</li>
-<li>ED_EDIT_IMMEDIATE: If the value is OATRUE, the application can switch the device into edit mode by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> with the value ED_MODE_EDIT_CUE.</li>
+<li>ED_EDIT_IMMEDIATE: If the value is OATRUE, the application can switch the device into edit mode by calling <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> with the value ED_MODE_EDIT_CUE.</li>
 <li>ED_EDIT_MODE: Specifies the editing mode. Use one of the following constants.<table>
 <tr>
 <th>Constant</th>
@@ -190,17 +190,16 @@ The <i>Param</i> parameter is a flag that specifies the edit event parameter. Th
 </ul>
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditproperty">IAMExtTransport::GetEditProperty</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditproperty">IAMExtTransport::GetEditProperty</a>

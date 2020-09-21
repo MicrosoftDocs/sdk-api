@@ -57,15 +57,15 @@ Creates a pixel shader.
 
 ### -param pFunction [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the pixel shader function token array, specifying the blending operations. This value cannot be <b>NULL</b>.
 
 ### -param ppShader [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>**</b>
 
-Pointer to the returned pixel shader interface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>.
+Pointer to the returned pixel shader interface. See <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>.
 
 ## -returns
 
@@ -76,13 +76,12 @@ E_OUTOFMEMORY.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxassembleshader">D3DXAssembleShader</a>
+<a href="/windows/desktop/direct3d9/d3dxassembleshader">D3DXAssembleShader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxassembleshaderfromfile">D3DXAssembleShaderFromFile</a>
+<a href="/windows/desktop/direct3d9/d3dxassembleshaderfromfile">D3DXAssembleShaderFromFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

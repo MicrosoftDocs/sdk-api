@@ -58,7 +58,7 @@ The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
 
 ### -field hdr
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
 
 ### -field dwStartTimeCode
 
@@ -70,11 +70,11 @@ Length of the sequence header, in bytes. For DVD, set this field to zero. The se
 
 ### -field dwProfile
 
-Specifies the MPEG-2 profile as an <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2profile">AM_MPEG2Profile</a> enumeration type.
+Specifies the MPEG-2 profile as an <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2profile">AM_MPEG2Profile</a> enumeration type.
 
 ### -field dwLevel
 
-Specifies the MPEG-2 level as an <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level">AM_MPEG2Level</a> enumeration type.
+Specifies the MPEG-2 level as an <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level">AM_MPEG2Level</a> enumeration type.
 
 ### -field dwFlags
 
@@ -200,7 +200,7 @@ If set and this stream is sent to an analog output, it should  be in widescreen 
 </table>
  
 
-Set undefined flags to zero or connection will be rejected. For more information on how to use these flags, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-decoder-preprocessing-transformations">MPEG Decoder Preprocessing Transformations</a>.
+Set undefined flags to zero or connection will be rejected. For more information on how to use these flags, see <a href="/windows/desktop/DirectShow/mpeg-decoder-preprocessing-transformations">MPEG Decoder Preprocessing Transformations</a>.
 
 ### -field dwSequenceHeader
 
@@ -208,9 +208,8 @@ Start of an array that contains the sequence header, including quantization matr
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
+The <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure contained in the <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

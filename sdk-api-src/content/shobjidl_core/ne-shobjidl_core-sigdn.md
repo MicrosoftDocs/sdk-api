@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Requests the form of an item's display name to retrieve through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetnamefromidlist">SHGetNameFromIDList</a>.
+Requests the form of an item's display name to retrieve through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetnamefromidlist">SHGetNameFromIDList</a>.
 
 ## -enum-fields
 
@@ -78,11 +78,11 @@ Requests the form of an item's display name to retrieve through <a href="https:/
 
 ### -field SIGDN_FILESYSPATH
 
-(int)0x80058000. Returns the item's file system path, if it has one. Only items that report <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO_FILESYSTEM</a> have a file system path. When an item does not have a file system path, a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> on that item will fail. In UI this name is suitable for display to the user in some cases, but note that it might not be specified for all items.
+(int)0x80058000. Returns the item's file system path, if it has one. Only items that report <a href="/windows/desktop/shell/sfgao">SFGAO_FILESYSTEM</a> have a file system path. When an item does not have a file system path, a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> on that item will fail. In UI this name is suitable for display to the user in some cases, but note that it might not be specified for all items.
 
 ### -field SIGDN_URL
 
-(int)0x80068000. Returns the item's URL, if it has one. Some items do not have a URL, and in those cases a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> will fail. This name is suitable for display to the user in some cases, but note that it might not be specified for all items.
+(int)0x80068000. Returns the item's URL, if it has one. Some items do not have a URL, and in those cases a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> will fail. This name is suitable for display to the user in some cases, but note that it might not be specified for all items.
 
 ### -field SIGDN_PARENTRELATIVEFORADDRESSBAR
 
@@ -104,16 +104,15 @@ Different forms of an item's name can be retrieved through the item's properties
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-filename">PKEY_FileName</a>
+<a href="/windows/desktop/properties/props-system-filename">PKEY_FileName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemfoldernamedisplay">PKEY_ItemFolderNameDisplay</a>
+<a href="/windows/desktop/properties/props-system-itemfoldernamedisplay">PKEY_ItemFolderNameDisplay</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemfolderpathdisplay">PKEY_ItemFolderPathDisplay</a>
+<a href="/windows/desktop/properties/props-system-itemfolderpathdisplay">PKEY_ItemFolderPathDisplay</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemfolderpathdisplaynarrow">PKEY_ItemFolderPathDisplayNarrow</a>
+<a href="/windows/desktop/properties/props-system-itemfolderpathdisplaynarrow">PKEY_ItemFolderPathDisplayNarrow</a>
 </li>
 </ul>
-

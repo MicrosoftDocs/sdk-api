@@ -76,7 +76,7 @@ Reserved for internal use.
 Enables the connection monitoring feature and starts logging creation and deletion events (and notifying any subscribers).
 
 
-If the ETW operational log is already enabled, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginegetoption0">FwpmEngineGetOption0</a> will return showing the option as enabled. <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginesetoption0">FwpmEngineSetOption0</a> can be used set the value (but fails with FWP_E_STILL_ON ERROR when attempting to disable it).
+If the ETW operational log is already enabled, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginegetoption0">FwpmEngineGetOption0</a> will return showing the option as enabled. <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginesetoption0">FwpmEngineSetOption0</a> can be used set the value (but fails with FWP_E_STILL_ON ERROR when attempting to disable it).
 
 
 <div class="alert"><b>Note</b>  Available only in Windows 8 and Windows Server 2012.</div>
@@ -104,9 +104,8 @@ Maximum value for testing purposes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/logging">Logging</a>
+<a href="/windows/desktop/FWP/logging">Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-
+<a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>

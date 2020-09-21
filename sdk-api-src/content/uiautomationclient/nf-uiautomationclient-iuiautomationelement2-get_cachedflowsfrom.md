@@ -60,13 +60,12 @@ This property is read/write.
 
 ## -remarks
 
-This property maps to the Microsoft Accessible Rich Internet Applications (ARIA) <a href="https://msdn.microsoft.com/library/Hh969192">x-ms-aria-flowfrom</a> property.
+This property maps to the Microsoft Accessible Rich Internet Applications (ARIA) <a href="/previous-versions/hh969192(v=vs.85)">x-ms-aria-flowfrom</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_currentflowsfrom">CurrentFlowsFrom</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_currentflowsfrom">CurrentFlowsFrom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>

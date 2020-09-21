@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
+The <b>EngUnloadImage</b> function unloads an image loaded by <a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle to the image to be unloaded from system memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>

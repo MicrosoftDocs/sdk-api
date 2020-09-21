@@ -57,32 +57,32 @@ The <i>EditStreamCallback</i> function is an application defined callback functi
 
 ### -param dwCookie [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
 Value of the 
 					<i>dwCookie</i> member of the <a href="https://msdn.microsoft.com/613c29f5-6ae6-476f-bb5e-fdddab731d9c">EDITSTREAM</a> structure. The application specifies this value when it sends the <a href="https://msdn.microsoft.com/b8d3a108-b415-4f5e-99e7-0e0e7a82a778">EM_STREAMIN</a> or <a href="https://msdn.microsoft.com/3f14aaac-4b17-47af-8f2b-503390631a88">EM_STREAMOUT</a> message.
 
 ### -param pbBuff [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPBYTE</a></b>
 
 Pointer to a buffer to read from or write to. For a stream-in (read) operation, the callback function fills this buffer with data to transfer into the rich edit control. For a stream-out (write) operation, the buffer contains data from the control that the callback function writes to some storage.
 
 ### -param cb [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of bytes to read or write.
 
 ### -param *pcb [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 Pointer to a variable that the callback function sets to the number of bytes actually read or written.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The callback function returns zero to indicate success.
 
@@ -127,4 +127,3 @@ The control calls the callback function repeatedly, transferring a portion of th
 
 
 <b>Reference</b>
-

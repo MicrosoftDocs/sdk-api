@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees the memory and references used by an array of <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures stored in an array.
+Frees the memory and references used by an array of <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures stored in an array.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Frees the memory and references used by an array of <a href="https://docs.micros
 
 Type: <b>VARIANT*</b>
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures to free.
+Array of <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures to free.
 
 ### -param cvars [in]
 
@@ -77,7 +77,7 @@ This function releases the memory and references held by each structure in the a
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-clearvariantarray">ClearVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-clearvariantarray">ClearVariantArray</a>
 
 
 
@@ -90,9 +90,8 @@ ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>
-
+<a href="/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>

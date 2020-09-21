@@ -55,27 +55,27 @@ The window to be used as the owner for the window prompting the user for credent
 
 ### -param request
 
-Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
+Type: **[IInspectable](../inspectable/nn-inspectable-iinspectable.md)\***
 
 The web token request, given as an instance of the
 [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
-class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
 interface.
 
 ### -param webAccount
 
-Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
+Type: **[IInspectable](../inspectable/nn-inspectable-iinspectable.md)\***
 
 The web account for the request, given as an instance of the
 [WebAccount](/uwp/api/windows.security.credentials.webaccount)
-class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
 interface.
 
 ### -param riid
 
 Type: **REFIID**
 
-Must refer to the [interface identifier (IID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
+Must refer to the [interface identifier (IID)](/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
 for the interface
 [IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>.
 
@@ -111,4 +111,3 @@ This method is the equivalent for desktop apps of
 ## -see-also
 
 [Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenForWindowAsync](nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync)
-

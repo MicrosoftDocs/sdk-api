@@ -62,7 +62,7 @@ Handle to an event object. The routing protocol signals this event when it wants
 ### -param SupportFunctions [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a> structure. The fields of this structure are pointers to functions in the router manager. These functions allow the protocol to access information that spans routing protocols.
+<a href="/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a> structure. The fields of this structure are pointers to functions in the router manager. These functions allow the protocol to access information that spans routing protocols.
 
 ### -param GlobalInfo [in]
 
@@ -121,21 +121,20 @@ One of the parameters pointed to by the <i>GlobalInfo</i> parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>

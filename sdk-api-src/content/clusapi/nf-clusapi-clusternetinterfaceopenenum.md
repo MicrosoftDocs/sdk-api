@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Opens an 
-    enumerator for iterating through the installed <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a>.
+    enumerator for iterating through the installed <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a>.
 
 ## -parameters
 
@@ -73,5 +73,4 @@ If the operation succeeds, returns a handle to an
        enumerator.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
+       error, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.

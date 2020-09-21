@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>ber_alloc_t</b> function allocates and constructs a new 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Unrecognized option bits are ignored.
 
 ## -returns
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
@@ -71,21 +71,20 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 The <b>LBER_USE_DER</b> option does not cause values of sets to be rearranged in tag and byte order or default values to be removed, so these functions are not sufficient for generating DER output as defined in X.509 and X.680. If the caller handles ordering values of sets correctly and removing default values, DER output as defined in X.509 and X.680 can be produced.
 
-The allocated <b>BerElement</b> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>.
+The allocated <b>BerElement</b> should be freed with <a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_free">ber_free</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_printf">ber_printf</a>
-
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_printf">ber_printf</a>

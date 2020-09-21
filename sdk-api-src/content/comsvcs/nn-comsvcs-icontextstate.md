@@ -54,7 +54,7 @@ Controls object deactivation and transaction voting by manipulating context stat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextState</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IContextState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getdeactivateonreturn">GetDeactivateOnReturn</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getdeactivateonreturn">GetDeactivateOnReturn</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the done flag.
@@ -78,7 +78,7 @@ Retrieves the value of the done flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getmytransactionvote">GetMyTransactionVote</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getmytransactionvote">GetMyTransactionVote</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the consistent flag.
@@ -87,7 +87,7 @@ Retrieves the value of the consistent flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setdeactivateonreturn">SetDeactivateOnReturn</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setdeactivateonreturn">SetDeactivateOnReturn</a>
 </td>
 <td align="left" width="63%">
 Sets the done flag, which controls whether the object deactivates on method return.
@@ -96,7 +96,7 @@ Sets the done flag, which controls whether the object deactivates on method retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setmytransactionvote">SetMyTransactionVote</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setmytransactionvote">SetMyTransactionVote</a>
 </td>
 <td align="left" width="63%">
 Sets the consistent flag.
@@ -107,5 +107,4 @@ Sets the consistent flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
-
+<a href="/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>

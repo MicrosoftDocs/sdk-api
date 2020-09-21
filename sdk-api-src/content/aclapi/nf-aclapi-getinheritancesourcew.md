@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetInheritanceSource</b> function returns information about the source of inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <b>GetInheritanceSource</b> function returns information about the source of inherited <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ## -parameters
 
@@ -94,7 +94,7 @@ The mapping of generic rights to specific rights for the object.
 
 ### -param pInheritArray [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structures that the <b>GetInheritanceSource</b> function fills with the inheritance information. The caller must allocate enough memory for an entry for each ACE in the ACL.
+A pointer to an array of <a href="/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structures that the <b>GetInheritanceSource</b> function fills with the inheritance information. The caller must allocate enough memory for an entry for each ACE in the ACL.
 
 ## -returns
 
@@ -104,10 +104,10 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 ## -remarks
 
-The <b>GetInheritanceSource</b> function allocates memory for the names returned in the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structure. When the function has finished using this memory, the calling program must free it by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>. Note that the caller must provide memory for the array itself. If the caller allocated the memory, the caller must free that memory after calling <b>FreeInheritedFromArray</b>.
+The <b>GetInheritanceSource</b> function allocates memory for the names returned in the <a href="/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structure. When the function has finished using this memory, the calling program must free it by calling 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>. Note that the caller must provide memory for the array itself. If the caller allocated the memory, the caller must free that memory after calling <b>FreeInheritedFromArray</b>.
 
-This function does not handle race conditions. If your thread calls this function at the approximate time that another thread changes the object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>, then this function could fail.
+This function does not handle race conditions. If your thread calls this function at the approximate time that another thread changes the object's <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>, then this function could fail.
 
 
 
@@ -118,5 +118,4 @@ This function does not handle race conditions. If your thread calls this functio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
-
+<a href="/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>

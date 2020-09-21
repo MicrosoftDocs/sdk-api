@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Queries 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> for the result view object 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> for the result view object 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer.
 
 ## -parameters
 
 ### -param pUnknown [out]
 
-A pointer to the location of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer to the result view object.
+A pointer to the location of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer to the result view object.
 
 ## -returns
 
@@ -67,10 +67,9 @@ This method can return one of these values.
 ## -remarks
 
 <b>QueryResultView</b> can be used when the result view is an OLE custom control (OCX) that implements the 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface. The user should call 
-<b>QueryResultView</b> to get the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to the OCX. This is necessary because the Node Manager handles the creation of the OCX.
+<a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface. The user should call 
+<b>QueryResultView</b> to get the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to the OCX. This is necessary because the Node Manager handles the creation of the OCX.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>

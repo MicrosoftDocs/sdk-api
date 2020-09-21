@@ -68,7 +68,7 @@ Slice pitch for volume textures.
 
 ### -field lpVidMemHeap
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure from which the heap display memory was allocated.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure from which the heap display memory was allocated.
 
 ### -field dwBlockSizeX
 
@@ -80,7 +80,7 @@ Specifies the location in which the driver returns the size in bytes of the memo
 
 ### -field fpVidMem
 
-If the driver allocates the memory block, it should return the offset into display memory in this member. If the driver requests DirectDraw to do the memory allocation, it can instead return one of the following values in this member from its <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> routine:
+If the driver allocates the memory block, it should return the offset into display memory in this member. If the driver requests DirectDraw to do the memory allocation, it can instead return one of the following values in this member from its <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> routine:
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ Reserved for use by the display driver.
 
 ### -field ddpfSurface
 
-Points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that describes the pixel format of the surface.
+Points to the <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that describes the pixel format of the surface.
 
 ### -field fpHeapOffset
 
@@ -151,27 +151,26 @@ Reserved for system use and should be ignored by the driver.
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-vertex-buffers">vertex buffer</a>, which is created by <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>, holds a list of vertices used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback for rendering primitives. Microsoft Windows represents vertex buffers as DirectDraw surfaces, thereby establishing a connection between vertex buffers and the DD_SURFACE_GLOBAL structure.
+A <a href="/windows-hardware/drivers/display/direct3d-vertex-buffers">vertex buffer</a>, which is created by <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>, holds a list of vertices used by the <a href="/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback for rendering primitives. Microsoft Windows represents vertex buffers as DirectDraw surfaces, thereby establishing a connection between vertex buffers and the DD_SURFACE_GLOBAL structure.
 
 When a DirectX driver is working with a vertex buffer, it is important for it to be able to correctly determine the size of this buffer. DirectDraw passes the linear buffer size to the driver in the <b>lPitch</b> member of this structure. On Windows 2000 and later versions, but not on Windows 98/Me, the <b>wWidth</b> member of this structure is set to the same value. Note that both structure members should be considered to be read-only. The value that DirectDraw places in these members represents the minimum vertex buffer size. Should the need for a larger buffer arise (such as for optimization), a driver writer is free to create a buffer larger than that size. Under no circumstances, however, should the driver report the larger buffer size to DirectDraw.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+<a href="/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
+<a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>

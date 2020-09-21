@@ -54,7 +54,7 @@ The <b>IFaxOutboundRoutingRule</b> interface describes a configuration object th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRule</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRoutingRule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRoutingRule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxOutboundRoutingRule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-refresh-vb">Refresh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-refresh-vb">IFaxOutboundRoutingRule::Refresh</a> method refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object information from the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-refresh-vb">IFaxOutboundRoutingRule::Refresh</a> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-save-vb">Save</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-save-vb">IFaxOutboundRoutingRule::Save</a> method saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object data.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-save-vb">IFaxOutboundRoutingRule::Save</a> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-areacode-vb">AreaCode</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-areacode-vb">AreaCode</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-areacode-vb">IFaxOutboundRoutingRule::get_AreaCode</a> property specifies the area code to which the outbound routing rule applies.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-areacode-vb">IFaxOutboundRoutingRule::get_AreaCode</a> property specifies the area code to which the outbound routing rule applies.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-countrycode-vb">CountryCode</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-countrycode-vb">CountryCode</a>
 
 
 </td>
@@ -122,14 +122,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-countrycode-vb">IFaxOutboundRoutingRule::get_CountryCode</a> property specifies the country/region code to which the outbound routing rule applies.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-countrycode-vb">IFaxOutboundRoutingRule::get_CountryCode</a> property specifies the country/region code to which the outbound routing rule applies.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-deviceid-vb">DeviceId</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-deviceid-vb">DeviceId</a>
 
 
 </td>
@@ -138,14 +138,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-deviceid-vb">IFaxOutboundRoutingRule::get_DeviceId</a> property specifies the device ID if the outbound routing rule points to a single fax device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-deviceid-vb">IFaxOutboundRoutingRule::get_DeviceId</a> property specifies the device ID if the outbound routing rule points to a single fax device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-groupname-vb">GroupName</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-groupname-vb">GroupName</a>
 
 
 </td>
@@ -154,14 +154,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-groupname-vb">IFaxOutboundRoutingRule::get_GroupName</a> property specifies the group name if the outbound routing rule points to a group of fax devices.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-groupname-vb">IFaxOutboundRoutingRule::get_GroupName</a> property specifies the group name if the outbound routing rule points to a group of fax devices.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-status-vb">Status</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-status-vb">Status</a>
 
 
 </td>
@@ -170,14 +170,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-status-vb">IFaxOutboundRoutingRule::get_Status</a> property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-status-vb">IFaxOutboundRoutingRule::get_Status</a> property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-usedevice-vb">UseDevice</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-usedevice-vb">UseDevice</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-usedevice-vb">IFaxOutboundRoutingRule::get_UseDevice</a> property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule-usedevice-vb">IFaxOutboundRoutingRule::get_UseDevice</a> property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
 
 </td>
 </tr>
@@ -194,5 +194,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 ## -remarks
 
-A default implementation of <b>IFaxOutboundRoutingRule</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object.
-
+A default implementation of <b>IFaxOutboundRoutingRule</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object.

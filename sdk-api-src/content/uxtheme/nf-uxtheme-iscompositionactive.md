@@ -58,11 +58,10 @@ Determines whether Desktop Window Manager (DWM) composition effects are availabl
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if composition effects are available; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
 Composition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.
-

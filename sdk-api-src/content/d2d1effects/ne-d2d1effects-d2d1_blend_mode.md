@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The blend mode used for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
+The blend mode used for the <a href="/windows/desktop/Direct2D/blend">Blend effect</a>.
 
 ## -enum-fields
 
@@ -212,4 +212,3 @@ Basic blend formula for alpha only.
 <img alt="Mathematical formula for a division blend effect." src="./images/blend_mode_division_1.png"/>
 
 ### -field D2D1_BLEND_MODE_FORCE_DWORD
-

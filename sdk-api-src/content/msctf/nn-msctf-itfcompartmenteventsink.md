@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfCompartmentEventSink</b> interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes. This notification sink is installed by obtaining an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface from the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> object and calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfCompartmentEventSink and a pointer to the <b>ITfCompartmentEventSink</b> object.
+The <b>ITfCompartmentEventSink</b> interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes. This notification sink is installed by obtaining an <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface from the <a href="/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> object and calling <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfCompartmentEventSink and a pointer to the <b>ITfCompartmentEventSink</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCompartmentEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">OnChange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">OnChange</a>
 </td>
 <td align="left" width="63%">
 Called when compartment data changes.
@@ -77,4 +77,3 @@ Called when compartment data changes.
 </td>
 </tr>
 </table>
-

@@ -51,7 +51,7 @@ Describes a 3D vector with X and Y components stored as 11 bit floating point nu
 	component stored as a 10 bit floating-point value.
 
 For a list of additional functionality, such as constructors and operators, available using
-	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>.
+	<code>XMFLOAT3PK</code> when programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>.
 
 ## -struct-fields
 
@@ -137,10 +137,10 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 </li>
 </ul>
-<code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
+<code>XMFLOAT3PK</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
 
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3pk">XMStoreFloat3PK</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3pk">XMStoreFloat3PK</a>.
 
 
 MIN_F10 / MIN_F11 = 6.10352e-5
@@ -156,9 +156,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>

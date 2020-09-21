@@ -56,7 +56,7 @@ Removes all events from the specified channel and writes them to the target log 
 
 ### -param Session [in, optional]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
 
 ### -param ChannelPath [in]
 
@@ -97,7 +97,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+The function failed. Use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop
 
 ## -remarks
 
-To copy events from a channel or log file, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a> function.
+To copy events from a channel or log file, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a> function.
 
 You must specify the absolute path to the target log file; you cannot use relative paths and environment variables to specifying the target log file.  The path can be a Universal Naming Convention (UNC) path. You should use .evtx as the file name extension.
 
@@ -113,9 +113,8 @@ This function affects only the channel—if the channel uses autoBackup or fileM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtarchiveexportedlog">EvtArchiveExportedLog</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtarchiveexportedlog">EvtArchiveExportedLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>

@@ -62,7 +62,7 @@ Handle to the input context.
 
 ### -param lpCandidate [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure that contains information about the candidates window.
+Pointer to a <a href="/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure that contains information about the candidates window.
 
 ## -returns
 
@@ -70,21 +70,20 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcandidatepos">IMN_SETCANDIDATEPOS</a> command to be sent. Both the IME and the application call this function.
+This function causes an <a href="/windows/desktop/Intl/imn-setcandidatepos">IMN_SETCANDIDATEPOS</a> command to be sent. Both the IME and the application call this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
+<a href="/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcandidatepos">IMN_SETCANDIDATEPOS</a>
+<a href="/windows/desktop/Intl/imn-setcandidatepos">IMN_SETCANDIDATEPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

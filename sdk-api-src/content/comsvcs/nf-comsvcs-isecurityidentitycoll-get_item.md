@@ -121,9 +121,8 @@ This collection represents a security identity, which provides information about
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--security">COM+ Security</a>
+<a href="/windows/desktop/cossdk/com--security">COM+ Security</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>

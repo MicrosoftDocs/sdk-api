@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcalendarborder">MCM_SETCALENDARBORDER</a> message explicitly.
+Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setcalendarborder">MCM_SETCALENDARBORDER</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param fset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, then the border size is set to the number of pixels that <i>xyborder</i> specifies. If <b>FALSE</b>, then the border size is reset to the default value specified by the theme, or zero if themes are not being used.
 
@@ -71,4 +71,3 @@ If <b>TRUE</b>, then the border size is set to the number of pixels that <i>xybo
 Type: <b>int</b>
 
 Number of pixels of the border size.
-

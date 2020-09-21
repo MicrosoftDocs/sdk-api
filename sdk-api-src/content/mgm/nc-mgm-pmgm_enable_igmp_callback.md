@@ -54,7 +54,7 @@ The
 <b>PMGM_ENABLE_IGMP_CALLBACK</b> callback is a call into IGMP to notify it that a routing protocol has finished taking or releasing ownership of an interface.
 
 When this callback is invoked, IGMP should add all its group memberships on the specified interface using calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> function.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> function.
 
 ## -parameters
 
@@ -81,5 +81,4 @@ IGMP must not add group memberships in the context of this callback. The multica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_disable_igmp_callback">PMGM_DISABLE_IGMP_CALLBACK</a>
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_disable_igmp_callback">PMGM_DISABLE_IGMP_CALLBACK</a>

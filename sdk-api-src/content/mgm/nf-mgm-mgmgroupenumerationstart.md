@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>MgmGroupEnumerationStart</b> function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a> function to enumerate the groups.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a> function to enumerate the groups.
 
 ## -parameters
 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ### -param metEnumType [in]
 
@@ -97,8 +97,8 @@ Retrieves group entries that have at least one source specified.
 ### -param phEnumHandle [out]
 
 Receives the handle to the enumeration. Use this handle in calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a> and 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>.
 
 ## -returns
 
@@ -152,13 +152,12 @@ Not enough memory to complete this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
+<a href="/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>

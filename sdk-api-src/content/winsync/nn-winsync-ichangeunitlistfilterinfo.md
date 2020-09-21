@@ -69,7 +69,7 @@ The <b>IChangeUnitListFilterInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitid">GetChangeUnitId</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitid">GetChangeUnitId</a>
 </td>
 <td align="left" width="63%">
 Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter. 
@@ -78,7 +78,7 @@ Gets the change unit ID that is stored at the specified index in the array of ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitidcount">GetChangeUnitIdCount</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitidcount">GetChangeUnitIdCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of change unit IDs that define the filter. 
@@ -87,7 +87,7 @@ Gets the number of change unit IDs that define the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a new instance of the <b>IChangeUnitListFilterInfo</b> class that contains the specified array of change unit IDs.
@@ -107,5 +107,4 @@ If a provider filters the contents of a change batch that it creates, it must cr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

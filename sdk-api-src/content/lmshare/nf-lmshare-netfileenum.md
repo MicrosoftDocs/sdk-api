@@ -71,7 +71,7 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> is define
 
 ### -param username [in]
 
-Pointer to a string that specifies the name of the user or the name of the connection. If the string begins with two backslashes ("\\"), then it indicates the name of the connection, for example, "\\127.0.0.1" or "\\ClientName". The part of the connection name after the backslashes is the same as the client name in the session information structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a> function. If the string does not begin with two backslashes, then it indicates the name of the user. If this parameter is not <b>NULL</b>, its value serves as a qualifier for the enumeration. The files returned are limited to those that have user names or connection names that match the qualifier. If this parameter is <b>NULL</b>, no user-name qualifier is used.
+Pointer to a string that specifies the name of the user or the name of the connection. If the string begins with two backslashes ("\\"), then it indicates the name of the connection, for example, "\\127.0.0.1" or "\\ClientName". The part of the connection name after the backslashes is the same as the client name in the session information structure returned by the <a href="/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a> function. If the string does not begin with two backslashes, then it indicates the name of the user. If this parameter is not <b>NULL</b>, its value serves as a qualifier for the enumeration. The files returned are limited to those that have user names or connection names that match the qualifier. If this parameter is <b>NULL</b>, no user-name qualifier is used.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This parameter is a pointer to a string that specifies the name of the user. If this parameter is not <b>NULL</b>, its value serves as a qualifier for the enumeration. The files returned are limited to those that have user names matching the qualifier. If this parameter is <b>NULL</b>, no user-name qualifier is used.
 
@@ -95,7 +95,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return the file identification number. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return information about the file. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a> structures.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a> structures.
 
 </td>
 </tr>
@@ -120,13 +120,13 @@ Pointer to the address of the buffer that receives the information. The format o
 
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
 
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ### -param entriesread [out]
 
@@ -214,37 +214,36 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetFileEnum</b> function.
 
 You can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a> function to retrieve information about a particular opening of a server resource.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a> function to retrieve information about a particular opening of a server resource.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling 
 <b>NetFileEnum</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile
+<a href="/windows/desktop/NetShare/netfile-functions">NetFile
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

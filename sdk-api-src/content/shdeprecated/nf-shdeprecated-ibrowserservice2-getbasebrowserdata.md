@@ -59,7 +59,7 @@ Deprecated. Gets a read-only structure containing the protected elements owned b
 
 Type: <b>LPCBASEBROWSERDATA*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure that receives the read-only state of the base browser.
+A pointer to a <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure that receives the read-only state of the base browser.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is used as an optimization to access the internal state of the base browser. The state should be updated only by the base browser.
-

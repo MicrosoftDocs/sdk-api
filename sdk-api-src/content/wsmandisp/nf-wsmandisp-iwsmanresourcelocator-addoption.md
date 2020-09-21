@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds data required to process the request. For example, some WMI providers may require an <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> or <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalueset">SWbemNamedValueSet</a> object with provider-specific information. You can provide a <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">ResourceLocator</a> object instead of specifying a resource URI in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
+Adds data required to process the request. For example, some WMI providers may require an <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> or <a href="/windows/desktop/WmiSdk/swbemnamedvalueset">SWbemNamedValueSet</a> object with provider-specific information. You can provide a <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">ResourceLocator</a> object instead of specifying a resource URI in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-addoption">ResourceLocator.AddOption</a>
-
+<a href="/windows/desktop/WinRM/resourcelocator-addoption">ResourceLocator.AddOption</a>

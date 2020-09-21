@@ -56,7 +56,7 @@ Retrieves the pointer to the specific document package target, which allows the 
 
 ### -param guidTargetType [in]
 
-The target type GUID obtained from <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagetarget-getpackagetargettypes">GetPackageTargetTypes</a>.
+The target type GUID obtained from <a href="/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagetarget-getpackagetargettypes">GetPackageTargetTypes</a>.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ The identifier of the interface being requested.
 
 ### -param ppvTarget [out]
 
-The requested document target interface. The returned pointer is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a> interface.
+The requested document target interface. The returned pointer is a pointer to an <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a> interface.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If the <b>GetPackageTarget</b> method completes successfully, it returns an S_OK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
-
+<a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>

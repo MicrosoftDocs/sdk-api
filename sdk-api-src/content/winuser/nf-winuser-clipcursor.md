@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a> function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area.
+Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the <a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a> function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -77,7 +77,7 @@ The calling process must have <b>WINSTA_WRITEATTRIBUTES</b> access to the window
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Confining a Cursor</a>.
+For an example, see <a href="/windows/desktop/menurc/using-cursors">Confining a Cursor</a>.
 
 <div class="code"></div>
 
@@ -87,15 +87,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipcursor">GetClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipcursor">GetClipCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -111,5 +111,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>

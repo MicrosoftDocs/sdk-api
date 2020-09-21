@@ -64,17 +64,16 @@ The version number of the context. This must be <b>PKU2U_CREDUI_CONTEXT_VERSION<
 
 ### -field cbHeaderLength
 
-The size, in bytes, of this structure, not including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
+The size, in bytes, of this structure, not including the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
 
 ### -field cbStructureLength
 
-The size, in bytes, of this structure, including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
+The size, in bytes, of this structure, including the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
 
 ### -field CertArrayCount
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
+The size, in bytes, of the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
 
 ### -field CertArrayOffset
 
-The number of bytes from the beginning of this structure in memory to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
-
+The number of bytes from the beginning of this structure in memory to the beginning of the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.

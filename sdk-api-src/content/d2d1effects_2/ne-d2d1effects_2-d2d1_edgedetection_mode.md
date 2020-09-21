@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/edge-detection-effect">Edge Detection effect</a>.
+Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="/windows/desktop/Direct2D/edge-detection-effect">Edge Detection effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Indicates the Sobel operator should be used for edge detection.
 Indicates the Prewitt operator should be used for edge detection.
 
 ### -field D2D1_EDGEDETECTION_MODE_FORCE_DWORD
-

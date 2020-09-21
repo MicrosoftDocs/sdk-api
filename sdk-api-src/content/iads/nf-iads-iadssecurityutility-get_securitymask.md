@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>.
+The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>.
 
 This property is read/write.
 
@@ -64,13 +64,12 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>

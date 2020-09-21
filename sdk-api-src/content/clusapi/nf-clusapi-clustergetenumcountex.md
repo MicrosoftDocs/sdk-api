@@ -59,7 +59,7 @@ Returns the
 ### -param hClusterEnum [in]
 
 The handle to a cluster enumeration. This handle is obtained from the  
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a>    function. A valid handle is required. This 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a>    function. A valid handle is required. This 
       parameter cannot be NULL.
 
 ## -returns
@@ -69,5 +69,4 @@ The number of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>

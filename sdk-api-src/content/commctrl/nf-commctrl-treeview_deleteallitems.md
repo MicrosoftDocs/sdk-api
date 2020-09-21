@@ -56,7 +56,7 @@ Deletes all items from a tree-view control.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -64,11 +64,11 @@ Handle to the tree-view control.
 
 Once an item is deleted from a tree-view control, its <b>HTREEITEM</b> handle is invalid and cannot be used.
 
-The parent window receives a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-deleteitem">TVN_DELETEITEM</a> notification code when each item is removed.
+The parent window receives a <a href="/windows/desktop/Controls/tvn-deleteitem">TVN_DELETEITEM</a> notification code when each item is removed.
 
-If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-endlabeledit">TVN_ENDLABELEDIT</a> notification code. 
+If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="/windows/desktop/Controls/tvn-endlabeledit">TVN_ENDLABELEDIT</a> notification code. 
 
-You can also delete all items with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_deleteitem">TreeView_DeleteItem</a> macro or the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-deleteitem">TVM_DELETEITEM</a> message by setting 
+You can also delete all items with the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_deleteitem">TreeView_DeleteItem</a> macro or the <a href="/windows/desktop/Controls/tvm-deleteitem">TVM_DELETEITEM</a> message by setting 
 				<i>lParam</i> to TVI_ROOT.
 
 If the window style for a tree-view control contains TVS_NOSCROLL and all items are deleted, new items are not displayed until the window styles are reset. The following code shows one way to ensure that items are always displayed.
@@ -80,4 +80,3 @@ DWORD styles = GetWindowLong(hwnd, GWL_STYLE);
 TreeView_DeleteAllItems(hwnd);
 SetWindowLong(hwnd, GWL_STYLE, styles);
 ```
-

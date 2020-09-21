@@ -163,15 +163,14 @@ Specifies the maximum character increment of all glyphs in the font.
 
 ### -field ptlCaret
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 ## -remarks
 
 If a font has already been emboldened, the only possible remaining simulation is italicization, yielding a bold italic simulation. Similarly, an italicized font can only be emboldened, also yielding a bold italic simulation.
 
-For descriptions of the FSHORT and FWORD data types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+For descriptions of the FSHORT and FWORD data types, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>

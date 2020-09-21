@@ -56,7 +56,7 @@ The <b>QOSQueryFlow</b> function requests information about a specific flow adde
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param FlowId [in]
 
@@ -77,7 +77,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
+<i>Buffer</i> will contain a <a href="/windows/desktop/api/qos2/ns-qos2-qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
+<i>Buffer</i> will contain a <a href="/windows/desktop/api/qos2/ns-qos2-qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Indicates that the update flow request was successfully initiated.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -333,5 +333,4 @@ There is currently insufficient data about networking conditions to answer the q
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

@@ -53,7 +53,7 @@ api_name:
 The router manager calls the 
 <i>GetNeighbors</i> function to obtain the querier for the network attached through the specified interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_NEIGHBORS</a> type defines a pointer to this callback function. <i>GetNeighbors</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_NEIGHBORS</a> type defines a pointer to this callback function. <i>GetNeighbors</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -142,9 +142,8 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 ## -remarks
 
 Only multicast routing protocols are required implement this function. Non-multicast routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_mfe_status">GetMfeStatus</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_mfe_status">GetMfeStatus</a>

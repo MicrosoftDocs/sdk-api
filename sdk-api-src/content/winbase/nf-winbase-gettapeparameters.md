@@ -66,7 +66,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwOperation [in]
 
@@ -108,10 +108,10 @@ Pointer to a variable that receives the size, in bytes, of the buffer specified 
 ### -param lpTapeInformation [out]
 
 Pointer to a structure that contains the requested information. If the <i>dwOperation</i> parameter is <b>GET_TAPE_MEDIA_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
 
 If <i>dwOperation</i> is <b>GET_TAPE_DRIVE_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
 
 ## -returns
 
@@ -313,17 +313,16 @@ The block size range values (maximum and minimum) returned by the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>

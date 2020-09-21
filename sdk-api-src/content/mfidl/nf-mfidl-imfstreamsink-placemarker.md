@@ -57,7 +57,7 @@ Places a marker in the stream.
 
 ### -param eMarkerType [in]
 
-Specifies the marker type, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfstreamsink_marker_type">MFSTREAMSINK_MARKER_TYPE</a> enumeration.
+Specifies the marker type, as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfstreamsink_marker_type">MFSTREAMSINK_MARKER_TYPE</a> enumeration.
 
 ### -param pvarMarkerValue [in]
 
@@ -65,7 +65,7 @@ Optional pointer to a <b>PROPVARIANT</b> that contains additional information re
 
 ### -param pvarContextValue [in]
 
-Optional pointer to a <b>PROPVARIANT</b> that is attached to the <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkmarker">MEStreamSinkMarker</a> event. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">IMFMediaEvent::GetValue</a> to get this value from the event. The caller can use this information for any purpose. This parameter can be <b>NULL</b>.
+Optional pointer to a <b>PROPVARIANT</b> that is attached to the <a href="/windows/desktop/medfound/mestreamsinkmarker">MEStreamSinkMarker</a> event. Call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">IMFMediaEvent::GetValue</a> to get this value from the event. The caller can use this information for any purpose. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -96,7 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
               
 
 </td>
@@ -117,13 +117,12 @@ This stream was removed from the media sink and is no longer valid.
 
 ## -remarks
 
-This method causes the stream sink to send an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkmarker">MEStreamSinkMarker</a> event after the stream sink consumes all of the samples that were delivered up to this point (before the call to <b>PlaceMarker</b>).
+This method causes the stream sink to send an <a href="/windows/desktop/medfound/mestreamsinkmarker">MEStreamSinkMarker</a> event after the stream sink consumes all of the samples that were delivered up to this point (before the call to <b>PlaceMarker</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

@@ -58,7 +58,7 @@ Ensures that a specified region of the image source cache is populated.
 
 ### -param rectangleToFill [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a></b>
 
 Specifies the region of the image, in pixels, that should be populated in the cache. By default, this is the entire extent of the image.
 
@@ -82,5 +82,4 @@ This operation is only supported when the image source has been initialized usin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>

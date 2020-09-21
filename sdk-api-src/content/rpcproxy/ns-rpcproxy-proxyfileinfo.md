@@ -94,7 +94,7 @@ Version of the proxy stub. The version can be one of the versions.
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://docs.microsoft.com/windows/desktop/Midl/-os">/0s</a> option. 
+The .idl file is compiled with the <a href="/windows/desktop/Midl/-os">/0s</a> option. 
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The .idl file is compiled with the <a href="https://docs.microsoft.com/windows/d
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="/windows/desktop/Midl/-oi">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>
@@ -141,4 +141,3 @@ Not used.
 ### -field pstubVtblList
 
 Array of stub Vtables contained in the proxy DLL. Each array element contains the Vtable for each stub interface in the DLL.
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>getAllDevices</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface that represents all of the media-sharing client devices on the home network.
+The <b>getAllDevices</b> method retrieves an <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface that represents all of the media-sharing client devices on the home network.
 
 ## -parameters
 
 ### -param devices [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface.
+A pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevices">IWindowsMediaLibrarySharingDevices</a> interface.
 
 ## -returns
 
@@ -79,4 +79,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
-

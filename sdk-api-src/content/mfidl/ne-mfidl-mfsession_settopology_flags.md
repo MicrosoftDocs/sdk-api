@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method.
+Defines the behavior of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method.
 
 ## -enum-fields
 
@@ -76,7 +76,7 @@ Clear the current topology, as follows:
 </ul>
 Pending topologies are not removed from the playback queue. If there is a pending topology on the queue, that topology will be loaded after the current topology is cleared. Otherwise, playback simply stops.
 
-To remove all of the pending topologies from the queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">IMFMediaSession::ClearTopologies</a>.
+To remove all of the pending topologies from the queue, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">IMFMediaSession::ClearTopologies</a>.
 
 ## -remarks
 
@@ -84,5 +84,4 @@ These flags are optional, and are not mutually exclusive. If no flags are set, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

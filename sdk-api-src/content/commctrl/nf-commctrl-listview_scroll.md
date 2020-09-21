@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Scrolls the content of a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-scroll">LVM_SCROLL</a> message explicitly.
+Scrolls the content of a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-scroll">LVM_SCROLL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -76,4 +76,3 @@ A value of type <b>int</b> that specifies the amount of vertical scrolling, in p
 
 When the list-view control is in report view, the control can only be scrolled vertically in whole line increments. Therefore, the 
 				<i>dy</i> parameter will be rounded to the nearest number of pixels that form a whole line increment. For example, if the height of a line is 16 pixels and 8 is passed for <i>dy</i>, the list will be scrolled by 16 pixels (1 line). If 7 is passed for <i>dy</i>, the list will be scrolled 0 pixels (0 lines).
-

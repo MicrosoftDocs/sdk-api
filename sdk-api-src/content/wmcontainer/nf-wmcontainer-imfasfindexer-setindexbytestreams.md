@@ -57,7 +57,7 @@ Adds byte streams to be indexed.
 
 ### -param ppIByteStreams [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface pointers. To get the byte stream, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexerbytestream">MFCreateASFIndexerByteStream</a>.
+An array of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface pointers. To get the byte stream, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexerbytestream">MFCreateASFIndexerByteStream</a>.
 
 ### -param cByteStreams [in]
 
@@ -102,9 +102,8 @@ For a reading scenario, only one byte stream should be used by the indexer objec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines values for the burn verification implemented by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a> interface.
+Defines values for the burn verification implemented by the <a href="/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a> interface.
 
 ## -enum-fields
 
@@ -154,5 +154,4 @@ This enumeration is supported in Windows Server 2003 with Service Pack 1 (SP1)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerfication</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerfication</a>

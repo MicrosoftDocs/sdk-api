@@ -56,7 +56,7 @@ Retrieves the status of an object at creation and loading.
 
 ### -param dwAspect [in]
 
-The aspect of an object about which status information is being requested. The value is obtained from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
+The aspect of an object about which status information is being requested. The value is obtained from the enumeration <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
 
 ### -param pdwStatus [out]
 
@@ -112,9 +112,9 @@ A container normally calls <b>IOleObject::GetMiscStatus</b> when it creates or l
 
 Objects store status information in the registry. If the object is not running, the default handler's implementation of <b>IOleObject::GetMiscStatus</b> retrieves this information from the registry. If the object is running, the default handler invokes <b>IOleObject::GetMiscStatus</b> on the object itself.
 
-The information that is actually stored in the registry varies with individual objects. The status values to be returned are defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>.
+The information that is actually stored in the registry varies with individual objects. The status values to be returned are defined in the enumeration <a href="/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>.
 
-The default value of <b>IOleObject::GetMiscStatus</b> is used if a subkey corresponding to the specified <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> is not found. To set an OLE control, specify DVASPECT==1. This will cause the following to occur in the registry: 
+The default value of <b>IOleObject::GetMiscStatus</b> is used if a subkey corresponding to the specified <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> is not found. To set an OLE control, specify DVASPECT==1. This will cause the following to occur in the registry: 
 
 
 <pre xml:space="preserve"><b>HKEY_CLASSES_ROOT\CLSID\ . . .</b>
@@ -126,17 +126,16 @@ Implementation normally consists of delegating the call to the default handler.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>
-
+<a href="/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>

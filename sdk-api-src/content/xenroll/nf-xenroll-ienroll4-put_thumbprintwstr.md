@@ -54,11 +54,11 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>ThumbPrintWStr</b> property sets or retrieves a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate data.
+The <b>ThumbPrintWStr</b> property sets or retrieves a <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate data.
 			
 		The thumbprint is used to point to the pending certificate.
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 This property is read/write.
 
@@ -66,5 +66,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

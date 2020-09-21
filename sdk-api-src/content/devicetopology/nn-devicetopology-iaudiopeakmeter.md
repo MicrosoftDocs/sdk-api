@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IAudioPeakMeter</b> interface provides access to a hardware peak-meter control. The client obtains a reference to the <b>IAudioPeakMeter</b> interface of a subunit by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioPeakMeter. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioPeakMeter</b> interface. Only a subunit object that represents a hardware peak meter will support this interface.
+The <b>IAudioPeakMeter</b> interface provides access to a hardware peak-meter control. The client obtains a reference to the <b>IAudioPeakMeter</b> interface of a subunit by calling the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioPeakMeter. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioPeakMeter</b> interface. Only a subunit object that represents a hardware peak meter will support this interface.
 
-Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioPeakMeter</b> interface provides convenient access to the KSPROPERTY_AUDIO_PEAKMETER property of a subunit that has a subtype GUID value of KSNODETYPE_PEAKMETER. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
+Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioPeakMeter</b> interface provides convenient access to the KSPROPERTY_AUDIO_PEAKMETER property of a subunit that has a subtype GUID value of KSNODETYPE_PEAKMETER. To obtain the subtype GUID of a subunit, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioPeakMeter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioPeakMeter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioPeakMeter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioPeakMeter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAudioPeakMeter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">GetChannelCount</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">GetChannelCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of channels in the audio stream.
@@ -80,7 +80,7 @@ Gets the number of channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getlevel">GetLevel</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getlevel">GetLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
@@ -91,13 +91,12 @@ Gets the peak level that the peak meter recorded for the specified channel since
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
+<a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>

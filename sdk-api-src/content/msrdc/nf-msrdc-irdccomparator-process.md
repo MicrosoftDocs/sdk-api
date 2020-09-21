@@ -105,7 +105,7 @@ On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
 
 
 
@@ -118,4 +118,3 @@ On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
-

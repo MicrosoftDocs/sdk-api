@@ -73,7 +73,7 @@ If the specified name is not found, <b>NULL</b> is returned.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
 
 <i>dwEncodingType</i> = CRYPT_LOCALIZED_NAME_ENCODING_TYPE
 
@@ -90,7 +90,7 @@ If the specified name is not found, <b>NULL</b> is returned.
 <i>cbValueData</i> = (wcslen(Unicode localized string) + 1) * sizeof(WCHAR)
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
 
 <i>pbValueData</i> = <b>NULL</b>
 
@@ -127,15 +127,14 @@ NAME_FUNC
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

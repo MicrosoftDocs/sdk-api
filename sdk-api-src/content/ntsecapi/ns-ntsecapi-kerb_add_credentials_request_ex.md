@@ -55,14 +55,14 @@ api_name:
 ## -description
 
 Specifies a  message to add, remove, or replace an extra server credential for a logon session, and 
-the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal names</a> (SPNs) to be associated with that 
+the <a href="/windows/desktop/SecGloss/s-gly">service principal names</a> (SPNs) to be associated with that 
 credential. The <b>SeTcbPrivilege</b> constant is required to alter another logon account's credentials.
 
 ## -struct-fields
 
 ### -field Credentials
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a> structure that specifies the credentials to add, remove, or replace.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a> structure that specifies the credentials to add, remove, or replace.
 
 ### -field PrincipalNameCount
 
@@ -74,9 +74,8 @@ An array of SPNs to be associated with the user account specified by the <b>Cred
 
 ## -remarks
 
-Calling the   <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with this structure affects only the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Kerberos)</a> function. Using this structure allows multiple physical and virtual servers to share a single identity.
+Calling the   <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with this structure affects only the behavior of the <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Kerberos)</a> function. Using this structure allows multiple physical and virtual servers to share a single identity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a>
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a>

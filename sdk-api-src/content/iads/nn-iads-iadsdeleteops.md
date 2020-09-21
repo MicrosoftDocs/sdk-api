@@ -52,11 +52,11 @@ api_name:
 
 The <b>IADsDeleteOps</b> interface specifies a method an object can use to delete itself from the underlying directory. For a container object, the method deletes its children and the entire subtree.
 
-The interface is designed to offer features that complement  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>. To remove an object from the directory store, request its parent object to perform the operation. That amounts to calling the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a> method on the contained object. When the object also implements the <b>IADsDeleteOps</b> interface, you can instruct the object to remove itself, and all the contained objects, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a> method directly on the object.
+The interface is designed to offer features that complement  <a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>. To remove an object from the directory store, request its parent object to perform the operation. That amounts to calling the  <a href="/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a> method on the contained object. When the object also implements the <b>IADsDeleteOps</b> interface, you can instruct the object to remove itself, and all the contained objects, by calling the <a href="/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a> method directly on the object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDeleteOps</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsDeleteOps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDeleteOps</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsDeleteOps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IADsDeleteOps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">DeleteObject</a>
 </td>
 <td align="left" width="63%">
 Deletes the object from the directory.
@@ -82,21 +82,20 @@ Deletes the object from the directory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/access-control-and-object-deletion">Access Control and Object Deletion</a>
+<a href="/windows/desktop/AD/access-control-and-object-deletion">Access Control and Object Deletion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdeleteops-interface">IADsDeleteOps Interface</a>
+<a href="/windows/desktop/ADSI/iadsdeleteops-interface">IADsDeleteOps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

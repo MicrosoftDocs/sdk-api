@@ -129,9 +129,8 @@ This method is called to enable logging of certain ASX events when an ASX file c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/windows-media-metafiles-overview">Windows Media Metafiles Overview</a>
-
+<a href="/windows/desktop/WMP/windows-media-metafiles-overview">Windows Media Metafiles Overview</a>

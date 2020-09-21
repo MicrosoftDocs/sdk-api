@@ -57,9 +57,9 @@ Sets the viewport parameters for the device.
 
 ### -param pViewport [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dviewport9">D3DVIEWPORT9</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3dviewport9">D3DVIEWPORT9</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dviewport9">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dviewport9">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set.
 
 ## -returns
 
@@ -93,9 +93,8 @@ To draw multiple views within a scene, repeat the <b>IDirect3DDevice9::SetViewpo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getviewport">IDirect3DDevice9::GetViewport</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getviewport">IDirect3DDevice9::GetViewport</a>

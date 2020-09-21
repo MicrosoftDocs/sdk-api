@@ -70,5 +70,4 @@ Your code must have administrator privileges to use the <b>GetOSUpdateAssessment
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>
-
+<a href="/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>

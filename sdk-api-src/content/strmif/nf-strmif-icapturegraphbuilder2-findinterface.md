@@ -62,7 +62,7 @@ A pointer to a GUID that specifies the search criteria. See Remarks for more inf
 <ul>
 <li>&amp;LOOK_UPSTREAM_ONLY.</li>
 <li>&amp;LOOK_DOWNSTREAM_ONLY.</li>
-<li>One of the pin categories listed in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>. </li>
+<li>One of the pin categories listed in <a href="/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>. </li>
 <li><b>NULL</b></li>
 </ul>
 See Remarks for more information.
@@ -73,7 +73,7 @@ Pointer to a GUID that specifies the major media type of an output pin, or <b>NU
 
 ### -param pf [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter. The method begins searching from this filter.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter. The method begins searching from this filter.
 
 ### -param riid [in]
 
@@ -140,9 +140,9 @@ No such interface supported.
 
 ## -remarks
 
-In a capture graph, various filters and pins might expose interfaces for setting properties such as compression parameters (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression</a>) or stream formats (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig</a>). Depending on the capture device, other useful interfaces might include <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar</a>, which routes analog signals, or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a>, which controls a TV tuner device. You can use this method to find an interface, without writing special code that traverses the graph.
+In a capture graph, various filters and pins might expose interfaces for setting properties such as compression parameters (<a href="/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression</a>) or stream formats (<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig</a>). Depending on the capture device, other useful interfaces might include <a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar</a>, which routes analog signals, or <a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a>, which controls a TV tuner device. You can use this method to find an interface, without writing special code that traverses the graph.
 
-<div class="alert"><b>Important</b>  Do not call this method to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow</a> interface pointer. Always query the filter graph manager for this interface. Otherwise, the filter graph manager will not respond correctly to changes in screen resolution and other events.</div>
+<div class="alert"><b>Important</b>  Do not call this method to obtain an <a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow</a> interface pointer. Always query the filter graph manager for this interface. Otherwise, the filter graph manager will not respond correctly to changes in screen resolution and other events.</div>
 <div> </div>
 If the <i>pCategory</i> parameter is <b>NULL</b>, this method searches the entire graph for the requested interface. Starting from the filter specified by the <i>pf</i> parameter, it queries the following objects in the graph.
 
@@ -165,13 +165,12 @@ Pin categories are useful for finding pin interfaces on capture filters. For exa
 
 Some video capture filters have a video port pin (PIN_CATEGORY_VIDEOPORT) instead of a preview pin. If you specify PIN_CATEGORY_PREVIEW and MEDIATYPE_Video, the method treats any video port pins as preview pins. Your application does not have to test for this possibility.
 
-<b>Supporting Filters</b>. If a capture device uses a Windows Driver Model (WDM) driver, the graph may require certain filters upstream from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter, such as a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/tv-tuner-filter">TV Tuner</a> filter or an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/analog-video-crossbar-filter">Analog Video Crossbar</a> filter. If the <i>pCategory</i> parameter does not equal <b>NULL</b>, this method automatically inserts any required WDM filters into the graph. To do so, it queries the input pins on the capture filter to determine what mediums they support, and connects them to matching filters. If the <i>pCategory</i> parameter is <b>NULL</b>, the method does not add the upstream filters.
+<b>Supporting Filters</b>. If a capture device uses a Windows Driver Model (WDM) driver, the graph may require certain filters upstream from the <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter, such as a <a href="/windows/desktop/DirectShow/tv-tuner-filter">TV Tuner</a> filter or an <a href="/windows/desktop/DirectShow/analog-video-crossbar-filter">Analog Video Crossbar</a> filter. If the <i>pCategory</i> parameter does not equal <b>NULL</b>, this method automatically inserts any required WDM filters into the graph. To do so, it queries the input pins on the capture filter to determine what mediums they support, and connects them to matching filters. If the <i>pCategory</i> parameter is <b>NULL</b>, the method does not add the upstream filters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>

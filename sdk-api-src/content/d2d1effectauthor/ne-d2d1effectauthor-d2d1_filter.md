@@ -95,9 +95,8 @@ Use anisotropic interpolation for minification, magnification, and mip-level sam
 
 ## -remarks
 
-This enumeration has the same numeric values as <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>.
+This enumeration has the same numeric values as <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>
-
+<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>

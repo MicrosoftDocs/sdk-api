@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-  A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure points to the <b>PEER_EVENT_CONNECTION_CHANGE_DATA</b> structure if one of the following peer events is triggered:
+  A <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure points to the <b>PEER_EVENT_CONNECTION_CHANGE_DATA</b> structure if one of the following peer events is triggered:
 <ul>
 <li><b>PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</b></li>
 <li><b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b></li>
@@ -150,9 +150,8 @@ Specifies the unique ID for the node that has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
-
+[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)

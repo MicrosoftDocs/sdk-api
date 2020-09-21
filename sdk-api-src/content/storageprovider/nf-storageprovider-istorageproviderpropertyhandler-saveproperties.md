@@ -68,5 +68,4 @@ Attempting to save properties that are not managed by the sync engine should res
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>
-
+<a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>

@@ -61,5 +61,4 @@ Pointer to indication of stream's state. The precise return value is implementat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-
+<a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>

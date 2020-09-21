@@ -78,7 +78,6 @@ Type: <b>INT</b>
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
+<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
 <div> </div>
 By default, VT_NULL / VT_EMPTY / 0-element vectors are considered to be less than any other vartype.
-

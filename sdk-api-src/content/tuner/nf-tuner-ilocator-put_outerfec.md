@@ -56,7 +56,7 @@ The <b>put_OuterFEC</b> method sets the type of outer FEC to use.
 
 ### -param FEC [in]
 
-Specifies the outer FEC. This parameter is a value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a>.
+Specifies the outer FEC. This parameter is a value of type <a href="/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a>.
 
 ## -returns
 
@@ -64,17 +64,16 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693582(v=vs.85)">get_OuterFEC</a>
+<a href="/previous-versions/dd693582(v=vs.85)">get_OuterFEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693585(v=vs.85)">put_InnerFEC</a>
+<a href="/previous-versions/dd693585(v=vs.85)">put_InnerFEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693588(v=vs.85)">put_OuterFECRate</a>
-
+<a href="/previous-versions/dd693588(v=vs.85)">put_OuterFECRate</a>

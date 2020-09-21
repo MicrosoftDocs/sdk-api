@@ -53,11 +53,11 @@ api_name:
 This topic applies to Windows XP Media Center Edition 2004 and later.
         
 
-The <b>IAuxInTuningSpace2</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
+The <b>IAuxInTuningSpace2</b> interface is implemented on <a href="/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAuxInTuningSpace2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>. <b>IAuxInTuningSpace2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAuxInTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>. <b>IAuxInTuningSpace2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAuxInTuningSpace2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iauxintuningspace2-get_countrycode">get_CountryCode</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iauxintuningspace2-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Gets the country/region code of the tuning space (based on TAPI country/region codes).
@@ -81,7 +81,7 @@ Gets the country/region code of the tuning space (based on TAPI country/region c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iauxintuningspace2-put_countrycode">put_CountryCode</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iauxintuningspace2-put_countrycode">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region code of the tuning space (based on TAPI country/region codes).
@@ -96,9 +96,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

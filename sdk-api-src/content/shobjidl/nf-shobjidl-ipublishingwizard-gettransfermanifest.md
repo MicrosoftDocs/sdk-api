@@ -67,7 +67,7 @@ A pointer to a variable of type <b>HRESULT</b> that, when this method returns, i
 
 Type: <b>IXMLDOMDocument**</b>
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd892951(v=vs.85)">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
+Address of an <a href="/previous-versions/windows/desktop/dd892951(v=vs.85)">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
 
 ## -returns
 
@@ -95,17 +95,16 @@ The transfer manifest has not yet been created.
 
 ## -remarks
 
-The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic.
+The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a>
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/interfaces">Transfer Manifest Schema</a>
+<a href="/windows/desktop/shell/interfaces">Transfer Manifest Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>
-
+<a href="/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>

@@ -102,7 +102,7 @@ Loads the version resource strings from the corresponding MUI file, if available
 
 Type: <b>LPCTSTR</b>
 
-The name of the file of interest. The function uses the search sequence specified by the  <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
+The name of the file of interest. The function uses the search sequence specified by the  <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 
 ### -param lpdwHandle [out]
 
@@ -118,11 +118,11 @@ If the function succeeds, the return value is the size, in bytes, of the file's 
                     
                     
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoexa">GetFileVersionInfoEx</a> function. The size returned by <b>GetFileVersionInfoSizeEx</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfoEx</b>.
+Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoexa">GetFileVersionInfoEx</a> function. The size returned by <b>GetFileVersionInfoSizeEx</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfoEx</b>.
 
 
 
@@ -137,11 +137,11 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoexa">GetFileVersionInfoEx</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoexa">GetFileVersionInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
 
 
 
@@ -149,13 +149,12 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
+<a href="/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

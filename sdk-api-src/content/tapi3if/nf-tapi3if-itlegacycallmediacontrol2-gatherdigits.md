@@ -58,7 +58,7 @@ The
 ### -param DigitMode [in]
 
 The digit mode(s) to monitor. This parameter specifies one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE</a> constants.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE</a> constants.
 
 ### -param lNumDigits [in]
 
@@ -140,7 +140,7 @@ The call must be in the <i>connected</i> state.
 
 The 
 <b>GatherDigits</b> method translates to a call to the TAPI 2.<i>x</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a> function.
 
 Only one 
 <b>GatherDigits</b> call can be outstanding on a call. If you call 
@@ -148,5 +148,4 @@ Only one
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>

@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SI_ACCESS</b> structure contains information about an access right or default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> for a securable object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> method uses this structure to specify information that the access control editor uses to initialize its property pages.
+The <b>SI_ACCESS</b> structure contains information about an access right or default <a href="/windows/desktop/SecGloss/a-gly">access mask</a> for a securable object. The 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> method uses this structure to specify information that the access control editor uses to initialize its property pages.
 
 ## -struct-fields
 
@@ -75,14 +75,14 @@ A bitmask that specifies the access right described by this structure. The mask 
 
 ### -field pszName
 
-A pointer to a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string containing a display string that describes the access right. 
+A pointer to a null-terminated <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string containing a display string that describes the access right. 
 
 
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Use the 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 ### -field dwFlags
 
@@ -129,7 +129,7 @@ The access right is displayed on the basic security page.
 </td>
 <td width="60%">
 Indicates an access right that applies only to containers. If this flag is set, the access right is displayed on the basic security page only if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method specifies the SI_CONTAINER flag.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method specifies the SI_CONTAINER flag.
 
 </td>
 </tr>
@@ -194,9 +194,8 @@ Noncontainer objects contained by the primary object inherit the entry.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
-
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>

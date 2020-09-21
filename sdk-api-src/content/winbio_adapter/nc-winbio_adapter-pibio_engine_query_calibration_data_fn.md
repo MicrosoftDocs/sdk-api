@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to get a set of post-capture calibrati
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param DiscardAndRepeatCapture [out]
 
@@ -140,4 +140,3 @@ The <b>EngineAdapterQueryCalibrationData</b> method can independently control th
 <td>Zero</td>
 </tr>
 </table>
-

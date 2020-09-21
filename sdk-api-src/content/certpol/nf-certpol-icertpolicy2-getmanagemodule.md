@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>GetManageModule</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface by calling <b>GetManageModule</b> and passing in the address of a pointer to an <b>ICertManageModule</b>.
+The <b>GetManageModule</b> method retrieves the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface by calling <b>GetManageModule</b> and passing in the address of a pointer to an <b>ICertManageModule</b>.
 
 ## -parameters
 
 ### -param ppManageModule [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface.
+Pointer to the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface.
 
 ## -returns
 
@@ -66,7 +66,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/n
  The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was successful.
 
 <h3>VB</h3>
-The return value is a <b>Variant</b> containing the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface.
+The return value is a <b>Variant</b> containing the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a> interface.
 
 ## -see-also
 
@@ -74,5 +74,4 @@ The return value is a <b>Variant</b> containing the <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>

@@ -62,7 +62,7 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in]
 
-A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a>.
+A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a>.
 
 ### -param Flags [in]
 
@@ -120,7 +120,7 @@ Set this flag to suppress the user interface unless absolutely necessary. For ex
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -128,7 +128,7 @@ The caller of this function must be a member of the Administrators group.
 
 This function is called by a class installer when it installs a device of a new device class.
 
-To install an interface class or a device class, use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>.
+To install an interface class or a device class, use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>.
 
 
 
@@ -139,9 +139,8 @@ To install an interface class or a device class, use <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>

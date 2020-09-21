@@ -56,7 +56,7 @@ Gets a pointer to an array element.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param rgIndices [in]
 
@@ -113,4 +113,3 @@ One of the arguments is not valid.
 ## -remarks
 
 The array should be locked before <b>SafeArrayPtrOfIndex</b> is called. Failing to lock the array can cause unpredictable results.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
+The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Specifies the hostname of the well known node.
 
 ### -param ppModule [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
+Pointer to the <a href="/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 ## -returns
 
@@ -100,14 +100,13 @@ The system could not allocate memory for the provider.
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> and StringCbPrintfW.</div>
+<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> and StringCbPrintfW.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver">DrtDeleteDnsBootstrapResolver</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver">DrtDeleteDnsBootstrapResolver</a>

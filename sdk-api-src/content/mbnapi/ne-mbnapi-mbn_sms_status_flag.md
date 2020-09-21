@@ -55,7 +55,7 @@ api_name:
 
 The <b>MBN_SMS_STATUS_FLAG</b> enumerated type indicates the status of  a device's SMS message store.
 
-These enumerated values are used in a bitfield by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info">MBN_SMS_STATUS_INFO</a> structure.
+These enumerated values are used in a bitfield by the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info">MBN_SMS_STATUS_INFO</a> structure.
 
 ## -enum-fields
 
@@ -70,4 +70,3 @@ The message store is full.
 ### -field MBN_SMS_FLAG_NEW_MESSAGE
 
 A new non-class 0 message has been received by the interface.
-

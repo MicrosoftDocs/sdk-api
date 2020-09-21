@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure to indicate the base browser's lock icon status.
+Deprecated. This enumeration is used by the <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure to indicate the base browser's lock icon status.
 
 ## -enum-fields
 
@@ -118,4 +118,3 @@ A Fortezza security encryption has been suggested.
 ### -field SECURELOCK_SUGGEST_SECURE128BIT
 
 A 128-bit security encryption has been suggested.
-

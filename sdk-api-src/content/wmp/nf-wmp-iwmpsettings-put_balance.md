@@ -86,9 +86,8 @@ The value zero indicates that the audio plays at equal volume on both left and r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_balance">IWMPSettings::get_balance</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_balance">IWMPSettings::get_balance</a>

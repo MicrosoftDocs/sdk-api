@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IEnumStreamBufferRecordingAttrib</b> interface enumerates a collection of attributes on a stream buffer file. <i>Attributes</i> are metadata that describe the physical file (such as the bit rate and the duration) or the content of the file (such as the author or title). To obtain this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-enumattributes">IStreamBufferRecordingAttribute::EnumAttributes</a> method.
+The <b>IEnumStreamBufferRecordingAttrib</b> interface enumerates a collection of attributes on a stream buffer file. <i>Attributes</i> are metadata that describe the physical file (such as the bit rate and the duration) or the content of the file (such as the author or title). To obtain this interface, call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-enumattributes">IStreamBufferRecordingAttribute::EnumAttributes</a> method.
 
 This interface implements a standard Component Object Model (COM) collection object. For more information on COM collections, see the <b>IEnumXXXX</b> topic in the Microsoft Platform SDK. The collection object represents a snapshot of the attributes when the collection is created; the collection is not updated automatically.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumStreamBufferRecordingAttrib</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumStreamBufferRecordingAttrib</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumStreamBufferRecordingAttrib</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumStreamBufferRecordingAttrib</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEnumStreamBufferRecordingAttrib</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator object.
@@ -80,7 +80,7 @@ Makes a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of attributes in the enumeration sequence.
@@ -89,7 +89,7 @@ Retrieves a specified number of attributes in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -98,7 +98,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-ienumstreambufferrecordingattrib-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of attributes.
@@ -113,5 +113,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

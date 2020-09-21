@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>EapCredentialType</b> enumeration defines the set of possible EAP credentials that can be passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a> function.
+The <b>EapCredentialType</b> enumeration defines the set of possible EAP credentials that can be passed to the <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a> function.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ The EAP method has no credential passed to it. The method must attempt a machine
 
 ### -field EAP_USERNAME_PASSWORD_CREDENTIAL
 
-The EAP method uses a username and password for authentication. The credentials are passed using the <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure.
+The EAP method uses a username and password for authentication. The credentials are passed using the <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure.
 
 ### -field EAP_WINLOGON_CREDENTIAL
 
@@ -70,25 +70,24 @@ The EAP method uses the logged-on user credentials for authentication.
 
 ### -field EAP_CERTIFICATE_CREDENTIAL
 
-The EAP method uses a certificate present on the system for authentication. The credential is passed as an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a> structure.
+The EAP method uses a certificate present on the system for authentication. The credential is passed as an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a> structure.
 
 ### -field EAP_SIM_CREDENTIAL
 
-The EAP method uses a SIM for authentication. This is passed as an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a> structure.
+The EAP method uses a SIM for authentication. This is passed as an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a>
+<a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob">EapPeerGetConfigBlobAndUserBlob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>

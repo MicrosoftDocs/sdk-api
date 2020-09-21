@@ -57,7 +57,7 @@ Allows for communicating with a device service on a particular Mobile Broadband 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnDeviceService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnDeviceService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IMbnDeviceService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closecommandsession">CloseCommandSession</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closecommandsession">CloseCommandSession</a>
 </td>
 <td align="left" width="63%">
 Closes a command session to a device service on a Mobile Broadband device.
@@ -82,7 +82,7 @@ Closes a command session to a device service on a Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession">CloseDataSession</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession">CloseDataSession</a>
 </td>
 <td align="left" width="63%">
 Closes the data session to a device service on a Mobile Broadband device.
@@ -91,7 +91,7 @@ Closes the data session to a device service on a Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opencommandsession">OpenCommandSession</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opencommandsession">OpenCommandSession</a>
 </td>
 <td align="left" width="63%">
 Opens a command session to a device service on a Mobile Broadband device.
@@ -100,7 +100,7 @@ Opens a command session to a device service on a Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession">OpenDataSession</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession">OpenDataSession</a>
 </td>
 <td align="left" width="63%">
 Open a data session to the device service on a Mobile Broadband device.
@@ -109,7 +109,7 @@ Open a data session to the device service on a Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand">QueryCommand</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand">QueryCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a <b>QUERY</b> control command to the device service of a Mobile Broadband device.
@@ -118,7 +118,7 @@ Sends a <b>QUERY</b> control command to the device service of a Mobile Broadband
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querysupportedcommands">QuerySupportedCommands</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querysupportedcommands">QuerySupportedCommands</a>
 </td>
 <td align="left" width="63%">
 Gets the list of commands IDs supported by the Mobile Broadband device service.
@@ -127,7 +127,7 @@ Gets the list of commands IDs supported by the Mobile Broadband device service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-setcommand">SetCommand</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-setcommand">SetCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a <b>SET</b> control command to the device service of a Mobile Broadband device.
@@ -136,7 +136,7 @@ Sends a <b>SET</b> control command to the device service of a Mobile Broadband d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata">WriteData</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata">WriteData</a>
 </td>
 <td align="left" width="63%">
 Write data to a device service data session.
@@ -154,7 +154,7 @@ Write data to a device service data session.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">DeviceServiceID</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">DeviceServiceID</a>
 
 
 </td>
@@ -170,7 +170,7 @@ The ID of the device service to which this object is associated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid">InterfaceID</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid">InterfaceID</a>
 
 
 </td>
@@ -186,7 +186,7 @@ The interface ID of the Mobile Broadband device to which this object is associat
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_iscommandsessionopen">IsCommandSessionOpen</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_iscommandsessionopen">IsCommandSessionOpen</a>
 
 
 </td>
@@ -202,7 +202,7 @@ Reports if the device service command session is open.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen">IsDataSessionOpen</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen">IsDataSessionOpen</a>
 
 
 </td>
@@ -219,5 +219,4 @@ Reports if the device service data session is open.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> objects are provided by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice">GetDeviceService</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a> interface.
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> objects are provided by a call to the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice">GetDeviceService</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a> interface.

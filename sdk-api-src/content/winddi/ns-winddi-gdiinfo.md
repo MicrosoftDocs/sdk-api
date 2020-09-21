@@ -181,7 +181,7 @@ For displays, this member must be set to 96.
 
 ### -field flTextCaps
 
-Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function rather than the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
+Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function rather than the <a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> or <a href="/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
 
 ### -field ulDACRed
 
@@ -205,23 +205,23 @@ Specifies the square root of the sum of the squares of <b>ulAspectX</b> and <b>u
 
 ### -field xStyleStep
 
-Specifies the numerator of style advance for x-major lines, <i>dx</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
+Specifies the numerator of style advance for x-major lines, <i>dx</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field yStyleStep
 
-Specifies the numerator of style advance for y-major lines, <i>dy</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
+Specifies the numerator of style advance for y-major lines, <i>dy</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field denStyleStep
 
-Specifies the denominator of style advance, D. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
+Specifies the denominator of style advance, D. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field ptlPhysOffset
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
 
 ### -field szlPhysSize
 
-Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -field ulNumPalReg
 
@@ -229,7 +229,7 @@ Specifies the number of palette registers for an indexed device.
 
 ### -field ciDevice
 
-Is a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
+Is a <a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
 
 ### -field ulDevicePelsDPI
 
@@ -369,7 +369,7 @@ HT_FLAG_8BPP_CMY332_MASK
 
 </td>
 <td>
-Flag used to clear the upper eight bits of <b>flHTFlags</b> (bits 24 to 31). The <b>MAKE_CMY332_MASK</b> macro can then be used to set these bits with 8-bit-per-pixel CMY mode ink level information. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information.
+Flag used to clear the upper eight bits of <b>flHTFlags</b> (bits 24 to 31). The <b>MAKE_CMY332_MASK</b> macro can then be used to set these bits with 8-bit-per-pixel CMY mode ink level information. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information.
 
 </td>
 </tr>
@@ -452,7 +452,7 @@ HT_FLAG_INVERT_8BPP_BITMASK_IDX
 
 </td>
 <td>
-GDI halftone should render 8-bit-per-pixel ask mode surface bitmap using a CMY_INVERTED mode palette. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for CMY_INVERTED mode palette description and requirements.
+GDI halftone should render 8-bit-per-pixel ask mode surface bitmap using a CMY_INVERTED mode palette. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for CMY_INVERTED mode palette description and requirements.
 
 </td>
 </tr>
@@ -568,7 +568,7 @@ Specifies a set of flags that indicate the shading and blending capabilities of 
 
 ### -field ulPhysicalPixelCharacteristics
 
-Specifies the way that color fragments are configured to form pixels on the display device. The color fragments on the display device can be arranged in RGB order, or in BGR order, completely independent of the RGB ordering in the <a href="https://docs.microsoft.com/windows-hardware/drivers/">frame buffer</a>. The color fragments can be configured in horizontal stripes in which all of the fragments in one row are the same color. Alternatively, the color fragments can be configured in vertical stripes, in which all fragments in one column are the same color. Vertical striping is preferred, since it effectively provides three separate fragments in a row for each pixel, thereby giving greater horizontal subpixel resolution.  
+Specifies the way that color fragments are configured to form pixels on the display device. The color fragments on the display device can be arranged in RGB order, or in BGR order, completely independent of the RGB ordering in the <a href="/windows-hardware/drivers/">frame buffer</a>. The color fragments can be configured in horizontal stripes in which all of the fragments in one row are the same color. Alternatively, the color fragments can be configured in vertical stripes, in which all fragments in one column are the same color. Vertical striping is preferred, since it effectively provides three separate fragments in a row for each pixel, thereby giving greater horizontal subpixel resolution.  
 
 The <b>ulPhysicalPixelCharacteristics</b> member must be set to one of the values shown in the following table:
 
@@ -682,7 +682,7 @@ The device uses an sRGB gamma.
 
 ## -remarks
 
-GDI zero-initializes this structure before calling the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
+GDI zero-initializes this structure before calling the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
 
 The <b>xStyleStep</b>, <b>yStyleStep</b>, and <b>denStyleStep</b> members define how a cosmetic line style should advance as it draws each pixel of a cosmetic line. The amount advanced along the style for each pixel is defined as a fraction that depends on whether the line is x-styled or y-styled. If the line is x-styled, the style advances by the fractional amount <b>dx/D</b> for each pixel moved in the x direction. Otherwise the style advances by <b>dy/D</b> for each pixel moved in the y direction.
 
@@ -702,33 +702,32 @@ In this case, horizontal dotted lines are 4-pixels-on, 4-pixels-off, because the
 
 Styled lines look better if both the x and y style steps divide evenly into the style denominator, as they do in the preceding example. This gives dashes and dots that are always the same length.
 
-GDI needs this information so that its bitmap functions can emulate exactly what the device does on its own surface. Applications can access this information to determine exactly which pixels will be turned on for styled lines. Refer also to <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
+GDI needs this information so that its bitmap functions can emulate exactly what the device does on its own surface. Applications can access this information to determine exactly which pixels will be turned on for styled lines. Refer also to <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 The halftone-related members, <b>cxHTPat</b>, <b>cyHTPat</b>, <b>pHTPatA</b>, <b>pHTPatB</b>, and <b>pHTPatC</b>, can be used in an OEM Unidrv rendering plug-in to define a custom halftone pattern consisting of either one or three colors. These members are checked only if the <b>ulHTPatternSize</b> member is set to HT_PATSIZE_USER. In this case an OEM can use these members to define a custom halftone pattern, based on data stored in a resource file or generated by an OEM customization module. The <b>cxHTPat</b> and <b>cyHTPat</b> members define the size of each of the three two-dimensional halftone pattern arrays. The <b>pHTPatA</b>, <b>pHTPatB</b>, and <b>pHTPatC</b> members point to the respective pattern arrays for each color. If only one pattern array is used, <b>pHTPatA</b>, <b>pHTPatB</b>, and<b> pHTPatC</b> point to it.
 
-Each byte threshold at a particular location in a halftone dither pattern determines whether the pixel at the corresponding output plane location will be on or off. A zero threshold value at a particular location in the pattern array indicates that the corresponding pixel location is ignored (is black). Threshold values from 1 to 255 provide the dither pattern with 255 levels of gray; if the pixel value in the output plane is greater than or equal to the threshold value for that location, the pixel is turned on. A pixel value less than its corresponding threshold value causes its pixel to be turned off in the output plane. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-halftoning">Customized Halftoning</a> in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a> for more information.
+Each byte threshold at a particular location in a halftone dither pattern determines whether the pixel at the corresponding output plane location will be on or off. A zero threshold value at a particular location in the pattern array indicates that the corresponding pixel location is ignored (is black). Threshold values from 1 to 255 provide the dither pattern with 255 levels of gray; if the pixel value in the output plane is greater than or equal to the threshold value for that location, the pixel is turned on. A pixel value less than its corresponding threshold value causes its pixel to be turned off in the output plane. See <a href="/windows-hardware/drivers/print/customized-halftoning">Customized Halftoning</a> in <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>

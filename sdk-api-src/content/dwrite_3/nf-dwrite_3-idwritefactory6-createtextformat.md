@@ -58,13 +58,13 @@ Name of the font family from the collection.
 
 ### -param fontCollection
 
-Type: **[IDWriteFontCollection](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)\***
+Type: **[IDWriteFontCollection](../dwrite/nn-dwrite-idwritefontcollection.md)\***
 
 Font collection. Use `nullptr` to indicate the system font collection.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -88,9 +88,9 @@ Locale name (for example, "ja-JP", "en-US", "ar-EG").
 
 ### -param textFormat
 
-Type: **[IDWriteTextFormat3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3)\*\***
+Type: **[IDWriteTextFormat3](./nn-dwrite_3-idwritetextformat3.md)\*\***
 
-The address of a pointer to an [IDWriteTextFormat3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3) interface. On successful completion, the function sets the pointer to a newly created text format object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteTextFormat3](./nn-dwrite_3-idwritetextformat3.md) interface. On successful completion, the function sets the pointer to a newly created text format object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -100,7 +100,6 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## -remarks
 
-If *fontCollection* is `nullptr`, then the system font collection is used, grouped by typographic family name ([DWRITE_FONT_FAMILY_MODEL_TYPOGRAPHIC](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model)) without downloadable fonts.
+If *fontCollection* is `nullptr`, then the system font collection is used, grouped by typographic family name ([DWRITE_FONT_FAMILY_MODEL_TYPOGRAPHIC](./ne-dwrite_3-dwrite_font_family_model.md)) without downloadable fonts.
 
 ## -see-also
-

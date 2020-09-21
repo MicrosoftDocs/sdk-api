@@ -58,13 +58,13 @@ Contains folder view information.
 
 Type: <b>UINT</b>
 
-Folder view mode. One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a> values.
+Folder view mode. One of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a> values.
 
 ### -field fFlags
 
 Type: <b>UINT</b>
 
-A set of flags that indicate the options for the folder. This can be zero or a combination of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a> values.
+A set of flags that indicate the options for the folder. This can be zero or a combination of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a> values.
 
 ## -remarks
 
@@ -72,9 +72,8 @@ These settings assume a particular user interface, which the Shell's folder view
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-createviewwindow">IShellView::CreateViewWindow</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-createviewwindow">IShellView::CreateViewWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo">IShellView::GetCurrentInfo</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo">IShellView::GetCurrentInfo</a>

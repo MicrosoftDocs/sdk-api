@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of package for a <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a> object.
+Specifies the type of package for a <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a> object.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ The package is an app.
 ### -field APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE
 
 The package is a resource.
-

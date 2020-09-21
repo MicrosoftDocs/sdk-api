@@ -66,7 +66,7 @@ Handle to the module instance to associate with the MCIWnd window.
 
 ### -param dwStyle
 
-Flags defining the window style. In addition to specifying the window styles used with the <a href="https://msdn.microsoft.com/library/ms632680.aspx">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
+Flags defining the window style. In addition to specifying the window styles used with the <a href="/windows/win32/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
 
 <table>
 <tr>
@@ -105,15 +105,15 @@ Flags defining the window style. In addition to specifying the window styles use
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYMODE</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a> message whenever the device changes operating modes. The <i>lParam</i> parameter of this message identifies the new mode, such as MCI_MODE_STOP.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a> message whenever the device changes operating modes. The <i>lParam</i> parameter of this message identifies the new mode, such as MCI_MODE_STOP.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYPOS</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a> message whenever a change in the playback or record position within the content occurs. The <i>lParam</i> parameter of this message contains the new position in the content.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a> message whenever a change in the playback or record position within the content occurs. The <i>lParam</i> parameter of this message contains the new position in the content.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYMEDIA</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a> message whenever a new device is used or a data file is opened or closed. The <i>lParam</i> parameter of this message contains a pointer to the new file name.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a> message whenever a new device is used or a data file is opened or closed. The <i>lParam</i> parameter of this message contains a pointer to the new file name.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYSIZE</td>
@@ -137,7 +137,7 @@ Flags defining the window style. In addition to specifying the window styles use
 </tr>
 <tr>
 <td>MCIWNDF_SHOWMODE</td>
-<td>Displays the current mode of the MCI device in the window title bar. For a list of device modes, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a> macro.</td>
+<td>Displays the current mode of the MCI device in the window title bar. For a list of device modes, see the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a> macro.</td>
 </tr>
 <tr>
 <td>MCIWNDF_SHOWNAME</td>
@@ -163,7 +163,7 @@ Default window styles for a child window are WS_CHILD, WS_BORDER, and WS_VISIBLE
 
 Default window styles for a parent window are WS_OVERLAPPEDWINDOW and WS_VISIBLE. <b>MCIWndCreate</b> assumes a parent window when a <b>NULL</b> handle of a parent window is specified.
 
-Use the window handle returned by this function for the window handle in the MCIWnd macros. If your application uses this function, it does not need to use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a> function.
+Use the window handle returned by this function for the window handle in the MCIWnd macros. If your application uses this function, it does not need to use the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a> function.
 
 
 
@@ -174,21 +174,20 @@ Use the window handle returned by this function for the window handle in the MCI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a>
+<a href="/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a>
+<a href="/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a>
+<a href="/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetSelectedCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a>.]
+<p class="CCE_Message">[<b>GetSelectedCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a>.]
 
 Gets the number of items in the view that are selected.
 
@@ -67,4 +67,3 @@ A pointer to a value that, when this method returns successfully, receives the n
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

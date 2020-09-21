@@ -85,25 +85,24 @@ The method succeeded.
 
 Each record includes one or more streams. Every stream in a record is mutually exclusive of streams in every other record.
 
-Use this method in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a> to retrieve the streams that are included in each record.
+Use this method in conjunction with <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a> to retrieve the streams that are included in each record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removerecord">IMFASFMutualExclusion::RemoveRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removerecord">IMFASFMutualExclusion::RemoveRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-
+<a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>

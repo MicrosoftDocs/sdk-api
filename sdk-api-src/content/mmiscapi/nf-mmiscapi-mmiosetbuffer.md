@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioSetBuffer</b> function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioSetBuffer</b> function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ## -parameters
 
@@ -115,4 +115,3 @@ To supply your own buffer, set <i>pchBuffer</i> to point to the buffer, and set 
 To disable buffered I/O, set <i>pchBuffer</i> to <b>NULL</b> and <i>cchBuffer</i> to zero.
 
 If buffered I/O is already enabled using an internal buffer, you can reallocate the buffer to a different size by setting <i>pchBuffer</i> to <b>NULL</b> and <i>cchBuffer</i> to the new buffer size. The contents of the buffer can be changed after resizing.
-

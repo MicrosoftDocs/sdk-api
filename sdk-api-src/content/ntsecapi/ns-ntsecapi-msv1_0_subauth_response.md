@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-The <b>MSV1_0_SUBAUTH_RESPONSE</b> structure contains the response from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
+The <b>MSV1_0_SUBAUTH_RESPONSE</b> structure contains the response from a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
 
 ## -struct-fields
 
 ### -field MessageType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>MsV1_0SubAuth</b>.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>MsV1_0SubAuth</b>.
 
 ### -field SubAuthInfoLength
 
@@ -72,4 +72,3 @@ Indicates the length, in bytes, of the buffer returned by <b>SubAuthReturnBuffer
 ### -field SubAuthReturnBuffer
 
 Contains the subauthentication package response. The format and content of this buffer is specific to the subauthentication package. For more information, see the documentation for specific subauthentication packages.
-

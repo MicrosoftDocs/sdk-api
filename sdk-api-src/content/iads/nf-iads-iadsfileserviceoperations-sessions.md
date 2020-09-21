@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>IADsFileServiceOperations::Sessions</b> method gets a pointer to a pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on a collection of the session objects that represent the current open sessions for this file service.
+The <b>IADsFileServiceOperations::Sessions</b> method gets a pointer to a pointer to the  <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on a collection of the session objects that represent the current open sessions for this file service.
 
 ## -parameters
 
 ### -param ppSessions [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface used to enumerate objects that implement the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> interface and represent the current open sessions for this file service.
+Pointer to a pointer to the <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface used to enumerate objects that implement the  <a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> interface and represent the current open sessions for this file service.
 
 ## -returns
 
-This method supports the standard return values including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -94,23 +94,22 @@ Cleanup:
 ```
 
 
-For a code example using the <b>IADsFileServiceOperations::Sessions</b> interface, see the code example given in  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>.
+For a code example using the <b>IADsFileServiceOperations::Sessions</b> interface, see the code example given in  <a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>

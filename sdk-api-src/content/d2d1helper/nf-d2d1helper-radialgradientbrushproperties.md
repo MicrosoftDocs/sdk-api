@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a> structure.
 
 ## -parameters
 
 ### -param center [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the center of the gradient ellipse.
 
 ### -param gradientOriginOffset [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the offset of the gradient origin relative to the gradient ellipse's center.
 
@@ -80,7 +80,6 @@ In the brush's coordinate space, the y-radius of the gradient ellipse.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a></b>
 
-A structure that contains the gradient origin offset and the size and position of the gradient ellipse for an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.
-
+A structure that contains the gradient origin offset and the size and position of the gradient ellipse for an <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.

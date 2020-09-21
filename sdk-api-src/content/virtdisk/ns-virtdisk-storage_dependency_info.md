@@ -61,7 +61,7 @@ Contains virtual hard disk (VHD) storage dependency information.
 
 ### -field Version
 
-A [STORAGE_DEPENDENCY_INFO_TYPE_1](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1) or [STORAGE_DEPENDENCY_INFO_TYPE_2](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2).
+A [STORAGE_DEPENDENCY_INFO_TYPE_1](./ns-virtdisk-storage_dependency_info_type_1.md) or [STORAGE_DEPENDENCY_INFO_TYPE_2](./ns-virtdisk-storage_dependency_info_type_2.md).
 
 ### -field NumberEntries
 
@@ -77,9 +77,8 @@ Variable-length array containing <a href="/windows/win32/api/virtdisk/ns-virtdis
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

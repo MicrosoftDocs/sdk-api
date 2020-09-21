@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables or disables <a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
+Enables or disables <a href="/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Returns nonzero if the function succeeds or zero otherwise.
 
 ## -remarks
 
-For more information about child sessions, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
-
+For more information about child sessions, see <a href="/windows/desktop/TermServ/child-sessions">Child Sessions</a>.

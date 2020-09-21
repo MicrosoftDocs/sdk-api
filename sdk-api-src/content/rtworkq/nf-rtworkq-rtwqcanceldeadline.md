@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Cancels a deadline that was previously set with <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>.
+Cancels a deadline that was previously set with <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>
-
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqsetdeadline">RtwqSetDeadline</a>

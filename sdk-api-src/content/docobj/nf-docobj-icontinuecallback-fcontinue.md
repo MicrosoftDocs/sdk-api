@@ -89,5 +89,4 @@ Cancel the operation as soon as possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
-
+<a href="/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>

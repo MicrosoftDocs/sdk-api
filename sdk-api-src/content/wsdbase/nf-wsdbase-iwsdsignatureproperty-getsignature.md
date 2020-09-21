@@ -112,5 +112,4 @@ If <b>NULL</b> is passed to <i>pbSignature</i>, then <b>GetSignature</b> will re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>

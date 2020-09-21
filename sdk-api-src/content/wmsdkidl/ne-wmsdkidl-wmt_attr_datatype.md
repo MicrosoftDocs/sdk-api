@@ -84,9 +84,8 @@ The property is a 128-bit (6-byte) GUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
+<a href="/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

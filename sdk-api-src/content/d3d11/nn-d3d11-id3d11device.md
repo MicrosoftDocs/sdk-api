@@ -52,11 +52,11 @@ api_name:
 ## -description
 
 The device interface represents a virtual adapter; it is used to create resources.
-<div class="alert"><b>Note</b>  The latest version of this interface is <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5">ID3D11Device5</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D11Device5</b> interface instead of <b>ID3D11Device</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The latest version of this interface is <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5">ID3D11Device5</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D11Device5</b> interface instead of <b>ID3D11Device</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D11Device</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounter">CheckCounter</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounter">CheckCounter</a>
 </td>
 <td align="left" width="63%">
 Get the type, name, units of measure, and a description of an existing counter.
@@ -80,7 +80,7 @@ Get the type, name, units of measure, and a description of an existing counter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounterinfo">CheckCounterInfo</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounterinfo">CheckCounterInfo</a>
 </td>
 <td align="left" width="63%">
 Get a counter's information.
@@ -89,7 +89,7 @@ Get a counter's information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">CheckFeatureSupport</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">CheckFeatureSupport</a>
 </td>
 <td align="left" width="63%">
 Gets information about the features that are supported by the current graphics driver.
@@ -98,7 +98,7 @@ Gets information about the features that are supported by the current graphics d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkformatsupport">CheckFormatSupport</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkformatsupport">CheckFormatSupport</a>
 </td>
 <td align="left" width="63%">
 Get the support of a given format on the installed video device.
@@ -107,7 +107,7 @@ Get the support of a given format on the installed video device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkmultisamplequalitylevels">CheckMultisampleQualityLevels</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkmultisamplequalitylevels">CheckMultisampleQualityLevels</a>
 </td>
 <td align="left" width="63%">
 Get the number of quality levels available during multisampling.
@@ -116,7 +116,7 @@ Get the number of quality levels available during multisampling.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createblendstate">CreateBlendState</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createblendstate">CreateBlendState</a>
 </td>
 <td align="left" width="63%">
 Create a blend-state object that encapsules blend state for the output-merger stage.
@@ -125,7 +125,7 @@ Create a blend-state object that encapsules blend state for the output-merger st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createbuffer">CreateBuffer</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createbuffer">CreateBuffer</a>
 </td>
 <td align="left" width="63%">
 Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
@@ -134,7 +134,7 @@ Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createclasslinkage">CreateClassLinkage</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createclasslinkage">CreateClassLinkage</a>
 </td>
 <td align="left" width="63%">
 Creates class linkage libraries to enable dynamic shader linkage.
@@ -143,16 +143,16 @@ Creates class linkage libraries to enable dynamic shader linkage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createcomputeshader">CreateComputeShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createcomputeshader">CreateComputeShader</a>
 </td>
 <td align="left" width="63%">
-Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader">compute shader</a>.
+Create a <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader">compute shader</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createcounter">CreateCounter</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createcounter">CreateCounter</a>
 </td>
 <td align="left" width="63%">
 Create a counter object for measuring GPU performance.
@@ -161,7 +161,7 @@ Create a counter object for measuring GPU performance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">CreateDeferredContext</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">CreateDeferredContext</a>
 </td>
 <td align="left" width="63%">
 Creates a deferred context, which can record command lists.
@@ -170,7 +170,7 @@ Creates a deferred context, which can record command lists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilstate">CreateDepthStencilState</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilstate">CreateDepthStencilState</a>
 </td>
 <td align="left" width="63%">
 Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
@@ -179,7 +179,7 @@ Create a depth-stencil state object that encapsulates depth-stencil test informa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilview">CreateDepthStencilView</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilview">CreateDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Create a depth-stencil view for accessing resource data.
@@ -188,16 +188,16 @@ Create a depth-stencil view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdomainshader">CreateDomainShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdomainshader">CreateDomainShader</a>
 </td>
 <td align="left" width="63%">
-Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">domain shader</a>.
+Create a <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">domain shader</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshader">CreateGeometryShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshader">CreateGeometryShader</a>
 </td>
 <td align="left" width="63%">
 Create a geometry shader.
@@ -206,7 +206,7 @@ Create a geometry shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput">CreateGeometryShaderWithStreamOutput</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput">CreateGeometryShaderWithStreamOutput</a>
 </td>
 <td align="left" width="63%">
 Creates a geometry shader that can write to streaming output buffers.
@@ -215,16 +215,16 @@ Creates a geometry shader that can write to streaming output buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createhullshader">CreateHullShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createhullshader">CreateHullShader</a>
 </td>
 <td align="left" width="63%">
-Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull shader</a>.
+Create a <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull shader</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createinputlayout">CreateInputLayout</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createinputlayout">CreateInputLayout</a>
 </td>
 <td align="left" width="63%">
 Create an input-layout object to describe the input-buffer data for the input-assembler stage.
@@ -233,7 +233,7 @@ Create an input-layout object to describe the input-buffer data for the input-as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpixelshader">CreatePixelShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpixelshader">CreatePixelShader</a>
 </td>
 <td align="left" width="63%">
 Create a pixel shader.
@@ -242,7 +242,7 @@ Create a pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpredicate">CreatePredicate</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpredicate">CreatePredicate</a>
 </td>
 <td align="left" width="63%">
 Creates a predicate.
@@ -251,7 +251,7 @@ Creates a predicate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createquery">CreateQuery</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createquery">CreateQuery</a>
 </td>
 <td align="left" width="63%">
 This interface encapsulates methods for querying information from the GPU.
@@ -260,7 +260,7 @@ This interface encapsulates methods for querying information from the GPU.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrasterizerstate">CreateRasterizerState</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrasterizerstate">CreateRasterizerState</a>
 </td>
 <td align="left" width="63%">
 Create a rasterizer state object that tells the rasterizer stage how to behave.
@@ -269,7 +269,7 @@ Create a rasterizer state object that tells the rasterizer stage how to behave.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview">CreateRenderTargetView</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview">CreateRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target view for accessing resource data.
@@ -278,7 +278,7 @@ Creates a render-target view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createsamplerstate">CreateSamplerState</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createsamplerstate">CreateSamplerState</a>
 </td>
 <td align="left" width="63%">
 Create a sampler-state object that encapsulates sampling information for a texture.
@@ -287,7 +287,7 @@ Create a sampler-state object that encapsulates sampling information for a textu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createshaderresourceview">CreateShaderResourceView</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createshaderresourceview">CreateShaderResourceView</a>
 </td>
 <td align="left" width="63%">
 Create a shader-resource view for accessing data in a resource.
@@ -296,43 +296,43 @@ Create a shader-resource view for accessing data in a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture1d">CreateTexture1D</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture1d">CreateTexture1D</a>
 </td>
 <td align="left" width="63%">
-Creates an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">1D textures</a>.
+Creates an array of <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">1D textures</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture2d">CreateTexture2D</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture2d">CreateTexture2D</a>
 </td>
 <td align="left" width="63%">
-Create an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">2D textures</a>.
+Create an array of <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">2D textures</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture3d">CreateTexture3D</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture3d">CreateTexture3D</a>
 </td>
 <td align="left" width="63%">
-Create a single <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">3D texture</a>.
+Create a single <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">3D texture</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createunorderedaccessview">CreateUnorderedAccessView</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createunorderedaccessview">CreateUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
-Creates a view for accessing an <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">unordered access</a> resource.
+Creates a view for accessing an <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">unordered access</a> resource.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createvertexshader">CreateVertexShader</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createvertexshader">CreateVertexShader</a>
 </td>
 <td align="left" width="63%">
 Create a vertex-shader object from a compiled shader.
@@ -341,16 +341,16 @@ Create a vertex-shader object from a compiled shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getcreationflags">GetCreationFlags</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getcreationflags">GetCreationFlags</a>
 </td>
 <td align="left" width="63%">
-Get the flags used during the call to create the device with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.
+Get the flags used during the call to create the device with <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getdeviceremovedreason">GetDeviceRemovedReason</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getdeviceremovedreason">GetDeviceRemovedReason</a>
 </td>
 <td align="left" width="63%">
 Get the reason why the device was removed.
@@ -359,7 +359,7 @@ Get the reason why the device was removed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getexceptionmode">GetExceptionMode</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getexceptionmode">GetExceptionMode</a>
 </td>
 <td align="left" width="63%">
 Get the exception-mode flags.
@@ -368,7 +368,7 @@ Get the exception-mode flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getfeaturelevel">GetFeatureLevel</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getfeaturelevel">GetFeatureLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the feature level of the hardware device.
@@ -377,7 +377,7 @@ Gets the feature level of the hardware device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getimmediatecontext">GetImmediateContext</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getimmediatecontext">GetImmediateContext</a>
 </td>
 <td align="left" width="63%">
 Gets an immediate context, which can play back command lists.
@@ -386,7 +386,7 @@ Gets an immediate context, which can play back command lists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getprivatedata">GetPrivateData</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get application-defined data from a device.
@@ -395,7 +395,7 @@ Get application-defined data from a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-opensharedresource">OpenSharedResource</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-opensharedresource">OpenSharedResource</a>
 </td>
 <td align="left" width="63%">
 Give a device access to a shared resource created on a different device.
@@ -404,7 +404,7 @@ Give a device access to a shared resource created on a different device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setexceptionmode">SetExceptionMode</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setexceptionmode">SetExceptionMode</a>
 </td>
 <td align="left" width="63%">
 Get the exception-mode flags.
@@ -413,7 +413,7 @@ Get the exception-mode flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setprivatedata">SetPrivateData</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Set data to a device and associate that data with a guid.
@@ -422,7 +422,7 @@ Set data to a device and associate that data with a guid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setprivatedatainterface">SetPrivateDataInterface</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-setprivatedatainterface">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
 Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
@@ -433,7 +433,7 @@ Associate an IUnknown-derived interface with this device child and associate tha
 
 ## -remarks
 
-A device is created using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.
+A device is created using <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.
           
 
 <b>Windows Phone 8:
@@ -441,9 +441,8 @@ A device is created using <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

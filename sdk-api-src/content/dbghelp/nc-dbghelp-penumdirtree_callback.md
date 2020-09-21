@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a> function. It is called every time a match is found.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a> function. It is called every time a match is found.
 
 The <b>PENUMDIRTREE_CALLBACK</b> and <b>PENUMDIRTREE_CALLBACKW</b> types define a pointer to this callback function. 
 <i>EnumDirTreeProc</i> is a placeholder for the application-defined function name.
@@ -65,7 +65,7 @@ A pointer to a buffer that receives the full path of the file that is found.
 ### -param CallerData [in, optional]
 
 A user-defined value specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that enables the callback function to establish some context.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that enables the callback function to establish some context.
 
 ## -returns
 
@@ -75,9 +75,8 @@ To stop enumeration, the callback function must return <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDMEnumStorage</b> interface enumerates storages on a device. Obtain this interface the first time by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">IWMDMDevice::EnumStorage</a> on a device, and afterward by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>. This interface only enumerates the immediate children of the parent storage that was used to obtain this interface. (If IWMDMDevice::EnumStorage was used, the parent storage is the device's root storage.)
+The <b>IWMDMEnumStorage</b> interface enumerates storages on a device. Obtain this interface the first time by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">IWMDMDevice::EnumStorage</a> on a device, and afterward by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>. This interface only enumerates the immediate children of the parent storage that was used to obtain this interface. (If IWMDMDevice::EnumStorage was used, the parent storage is the device's root storage.)
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMEnumStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-clone">Clone</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator with the same enumeration state as the current enumerator.
@@ -78,7 +78,7 @@ Creates another enumerator with the same enumeration state as the current enumer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-next">Next</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the next sibling storage
@@ -87,7 +87,7 @@ Retrieves a pointer to the next sibling storage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-reset">Reset</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumeration sequence back to the beginning.
@@ -96,7 +96,7 @@ Sets the enumeration sequence back to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-skip">Skip</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of storage devices or separate items of content in the enumeration sequence.
@@ -107,13 +107,12 @@ Skips over the specified number of storage devices or separate items of content 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>
+<a href="/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

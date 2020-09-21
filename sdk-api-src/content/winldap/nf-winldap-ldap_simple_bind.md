@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>ldap_simple_bind</b> functionasynchronously authenticates a client to a server, using a plaintext password.
-<div class="alert"><b>Caution</b>  This function sends the name and password without encrypting them, and therefore someone eavesdropping on the network could read the password. Unless a TLS (SSL) encrypted session has been established, do not use this function. For more information about how to set up an encrypted session, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/initializing-a-session">Initializing a Session</a>.</div><div> </div>
+<div class="alert"><b>Caution</b>  This function sends the name and password without encrypting them, and therefore someone eavesdropping on the network could read the password. Unless a TLS (SSL) encrypted session has been established, do not use this function. For more information about how to set up an encrypted session, see <a href="/previous-versions/windows/desktop/ldap/initializing-a-session">Initializing a Session</a>.</div><div> </div>
 
 ## -parameters
 
@@ -82,50 +82,49 @@ The <b>ldap_simple_bind</b> function initiates a simple asynchronous bind operat
 To authenticate as a specific user, provide both the name of the entry (user) and the password for that entry. To authenticate an anonymous user, when no access permissions are required, pass <b>NULL</b> to both the <i>dn</i> and <i>passwd</i> parameters.
 
 As an asynchronous function, <b>ldap_simple_bind</b> returns a message ID for the operation. Call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous bind operation before it has completed, call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>. Be aware that if an LDAP 2 server is contacted, do not attempt other operations over the connection until the bind call has successfully completed.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous bind operation before it has completed, call 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>. Be aware that if an LDAP 2 server is contacted, do not attempt other operations over the connection until the bind call has successfully completed.
 
 To return the results directly, use the synchronous routine 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>.
 
 Multithreading: Bind calls are not safe because they apply to the connection as a whole. Use caution if threads share connections and try to thread binds with other operations.
 
 <div class="alert"><b>Note</b>  The Microsoft LDAP client uses a default timeout value of 120 seconds (2 minutes) for each bind-response roundtrip. This timeout value can be changed using the <b>LDAP_OPT_TIMELIMIT</b> session option. Other operations do not have a timeout unless specified using 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>.</div>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>.</div>
 <div> </div>
-When all of the operations on the session handle are completed, terminate the session by passing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_simple_bind</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
+When all of the operations on the session handle are completed, terminate the session by passing the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_simple_bind</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
 
 The <b>ldap_simple_bind</b> function is designed to bind to the local domain. The function cannot be used for cross forest authentication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
+<a href="/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>

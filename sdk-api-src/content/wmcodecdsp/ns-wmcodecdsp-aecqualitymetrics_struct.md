@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-retrieve-ts-statsproperty">MFPKEY_WMAAECMA_RETRIEVE_TS_STATS</a> property.
+Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-retrieve-ts-statsproperty">MFPKEY_WMAAECMA_RETRIEVE_TS_STATS</a> property.
 
 ## -struct-fields
 
@@ -134,9 +134,8 @@ Reserved
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture DSP</a>
-
+<a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture DSP</a>

@@ -53,9 +53,9 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>acceptFileResponseWStr</b> method accepts delivery of the credentials issued in response to an earlier call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createfilerequestwstr">createFileRequestWStr</a>, and it places the credentials in the appropriate store.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createfilerequestwstr">createFileRequestWStr</a>, and it places the credentials in the appropriate store.
 
-The response may be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> message or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The response may be a <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> message or a <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ A pointer to a null-terminated wide character string that represents the name of
 
 The response named in the <i>pwszResponseFileName</i> parameter must contain exactly one certificate; a child certificate cannot be present.
 
-The response may be either a PKCS #7 or a full CMC response; however, to accept a full CMC response, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> must support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
+The response may be either a PKCS #7 or a full CMC response; however, to accept a full CMC response, the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> must support <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

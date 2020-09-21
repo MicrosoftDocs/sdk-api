@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>EnumMetaFileProc</b> function is an application-defined callback function that processes Windows-format metafile records. This function is called by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function. The <b>MFENUMPROC</b> type defines a pointer to this callback function. <b>EnumMetaFileProc</b> is a placeholder for the application-defined function name.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>.</div><div> </div>
+The <b>EnumMetaFileProc</b> function is an application-defined callback function that processes Windows-format metafile records. This function is called by the <a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function. The <b>MFENUMPROC</b> type defines a pointer to this callback function. <b>EnumMetaFileProc</b> is a placeholder for the application-defined function name.
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>.</div><div> </div>
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Specifies the number of objects with associated handles in the handle table.
 
 ### -param hDC [in]
 
-Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
+Handle to the device context passed to <a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
 
 
 #### - lpClientData [in]
@@ -92,27 +92,26 @@ This function must return a nonzero value to continue enumeration; to stop enume
 
 ## -remarks
 
-An application must register the callback function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function.
+An application must register the callback function by passing its address to the <a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function.
 
 <b>EnumMetaFileProc</b> is a placeholder for the application-supplied function name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

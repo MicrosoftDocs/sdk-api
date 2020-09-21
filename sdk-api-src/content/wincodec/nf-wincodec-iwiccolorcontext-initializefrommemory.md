@@ -58,7 +58,7 @@ Initializes the color context from a memory block.
 
 Type: <b>const BYTE*</b>
 
-The buffer used to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>.
+The buffer used to initialize the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>.
 
 ### -param cbBufferSize [in]
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Once a color context has been initialized, it can't be re-initialized.
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the attributes of the specified item in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setitem">HDM_SETITEM</a> message explicitly.
+Sets the attributes of the specified item in a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-setitem">HDM_SETITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndHD
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -76,4 +76,3 @@ A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM
 ## -remarks
 
 The <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items.
-

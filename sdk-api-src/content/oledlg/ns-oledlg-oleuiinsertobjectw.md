@@ -270,31 +270,31 @@ Pointer to a list of CLSIDs to exclude from listing.
 
 ### -field iid
 
-Identifier of the requested interface. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it will return a pointer to this interface. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Identifier of the requested interface. If <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it will return a pointer to this interface. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 ### -field oleRender
 
-Rendering option. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the rendering option when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Rendering option. If <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the rendering option when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 ### -field lpFormatEtc
 
-Desired format. If <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the format when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
+Desired format. If <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> creates the object, then it selects the format when it creates the object. This parameter is ignored if <b>OleUIInsertObject</b> does not create the object.
 
 ### -field lpIOleClientSite
 
-Pointer to the client site to be used for the object. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
+Pointer to the client site to be used for the object. This parameter is ignored if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 ### -field lpIStorage
 
-Pointer to the storage to be used for the object. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
+Pointer to the storage to be used for the object. This parameter is ignored if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 ### -field ppvObj
 
-Address of output pointer variable that contains the interface pointer for the object being inserted. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
+Address of output pointer variable that contains the interface pointer for the object being inserted. This parameter is ignored if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 ### -field sc
 
-Result of creation calls. This parameter is ignored if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
+Result of creation calls. This parameter is ignored if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a> does not create the object.
 
 ### -field hMetaPict
 
@@ -302,10 +302,9 @@ MetafilePict structure containing the iconic aspect, if it wasn't placed in the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiinsertobjecta">OleUIInsertObject</a>
 
 ## -remarks
 
 > [!NOTE]
 > The oledlg.h header defines OLEUIINSERTOBJECT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

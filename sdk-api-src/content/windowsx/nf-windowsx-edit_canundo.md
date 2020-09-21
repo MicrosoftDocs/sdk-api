@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-canundo">EM_CANUNDO</a> message explicitly.
+Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-canundo">EM_CANUNDO</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-canundo">EM_CANUNDO</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-canundo">EM_CANUNDO</a>.

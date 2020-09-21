@@ -94,5 +94,4 @@ Reserved for Microsoft use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xblidp/xblidpauthmanager-portal">XblIdpAuthManager</a>
-
+<a href="/previous-versions/windows/desktop/xblidp/xblidpauthmanager-portal">XblIdpAuthManager</a>

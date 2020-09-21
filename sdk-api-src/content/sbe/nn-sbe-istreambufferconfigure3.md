@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IStreamBufferConfigure3</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object.
+The <b>IStreamBufferConfigure3</b> interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure3</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>. <b>IStreamBufferConfigure3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>. <b>IStreamBufferConfigure3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamBufferConfigure3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getnamespace">GetNamespace</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getnamespace">GetNamespace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
@@ -78,16 +78,16 @@ Retrieves the prefix that is added to the names of the synchronization objects t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getstartrecconfig">GetStartRecConfig</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getstartrecconfig">GetStartRecConfig</a>
 </td>
 <td align="left" width="63%">
-Queries whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
+Queries whether the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setnamespace">SetNamespace</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setnamespace">SetNamespace</a>
 </td>
 <td align="left" width="63%">
 Specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
@@ -96,7 +96,7 @@ Specifies a prefix that is added to the names of the synchronization objects tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setstartrecconfig">SetStartRecConfig</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setstartrecconfig">SetStartRecConfig</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the <b>IStreamBufferRecordControl::Start</b> method automatically stops the current recording.
@@ -111,9 +111,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

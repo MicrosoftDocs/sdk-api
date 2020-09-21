@@ -138,9 +138,8 @@ You should apply the new attributes (icon, aspect, and scale) to the object. If 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
-
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>

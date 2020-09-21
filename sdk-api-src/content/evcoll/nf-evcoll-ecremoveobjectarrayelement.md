@@ -56,7 +56,7 @@ The <b>EcRemoveObjectArrayElement</b> function removes an element from an array 
 
 ### -param ObjectArray [in]
 
-A  handle to the array in which to remove the element. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
+A  handle to the array in which to remove the element. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
 
 ### -param ArrayIndex [in]
 
@@ -73,11 +73,10 @@ Arrays are zero-based, so the index for the first item in the array is 0.
 
 #### Examples
 
-For example code using the <b>EcRemoveObjectArrayElement</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/removing-an-event-source-from-an-event-collector-subscription">Removing an Event Source from a Collector Initiated Subscription</a>.
+For example code using the <b>EcRemoveObjectArrayElement</b> function, see <a href="/windows/desktop/WEC/removing-an-event-source-from-an-event-collector-subscription">Removing an Event Source from a Collector Initiated Subscription</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

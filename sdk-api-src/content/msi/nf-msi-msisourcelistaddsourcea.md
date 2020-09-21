@@ -55,13 +55,13 @@ api_name:
 The 
 <b>MsiSourceListAddSource</b> function adds to the list of valid network sources that contain the specified type of sources for a product or patch in a specified user context.
 
-The number of sources in the <a href="https://docs.microsoft.com/windows/desktop/Msi/sourcelist">SOURCELIST</a> property is unlimited.
+The number of sources in the <a href="/windows/desktop/Msi/sourcelist">SOURCELIST</a> property is unlimited.
 
 ## -parameters
 
 ### -param szProduct [in]
 
- The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
+ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
 
 ### -param szUserName [in]
 
@@ -176,7 +176,7 @@ The specified product is unknown.
 
 ## -remarks
 
-An administrator can modify per-machine installations, their own per-user non-managed installations, and the per-user managed installations for any user. A non-administrator can only modify per-machine installations and their own (managed or non-managed)per-user installations.  Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
+An administrator can modify per-machine installations, their own per-user non-managed installations, and the per-user managed installations for any user. A non-administrator can only modify per-machine installations and their own (managed or non-managed)per-user installations.  Users can be enabled to browse for sources by setting policy. For more information, see the <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 Note that this function merely adds the new source  to the list of valid sources. If another source was used to install the product, the new source is not used until the current source is unavailable.
 
@@ -205,33 +205,32 @@ This function can  not modify a non-managed installation for any user besides th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
+<a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
+<a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
+<a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
+<a href="/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/sourcelist">SOURCELIST</a>
+<a href="/windows/desktop/Msi/sourcelist">SOURCELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
-
+<a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>

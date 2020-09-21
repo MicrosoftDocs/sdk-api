@@ -50,29 +50,29 @@ api_name:
 
 ## -description
 
-Called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to pass the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> stored for the authenticated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>. This function is called once for each set of credentials stored by the LSA.
+Called by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to pass the <a href="/windows/desktop/SecGloss/s-gly">security package</a> any <a href="/windows/desktop/SecGloss/c-gly">credentials</a> stored for the authenticated <a href="/windows/desktop/SecGloss/s-gly">security principal</a>. This function is called once for each set of credentials stored by the LSA.
 
 ## -parameters
 
 ### -param LogonType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
 
 ### -param AccountName [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure specifying the name of the logged-on account.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure specifying the name of the logged-on account.
 
 ### -param PrimaryCredentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure containing the credentials used to logon. This structure can have <b>NULL</b> members.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure containing the credentials used to logon. This structure can have <b>NULL</b> members.
 
 ### -param SupplementalCredentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a> structure containing package-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a>.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a> structure containing package-specific <a href="/windows/desktop/SecGloss/s-gly">supplemental credentials</a>.
 
 ## -returns
 
@@ -82,32 +82,31 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> should save the credentials so that it can service requests for credentials. For additional information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a> function.
+The <a href="/windows/desktop/SecGloss/s-gly">security package</a> should save the credentials so that it can service requests for credentials. For additional information, see the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a> function.
 
 SSP/APs must implement the <b>SpAcceptCredentials</b> function; unlike other SSP/AP functions the name of the function must be <b>SpAcceptCredentials</b>.
 
 The LSA accesses the <b>SpAcceptCredentials</b> function through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a>
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a> structure.
+The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_encoding">WS_XML_READER_ENCODING</a> structure.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 ### -field WS_XML_READER_ENCODING_TYPE_MTOM
 
 ### -field WS_XML_READER_ENCODING_TYPE_RAW
-

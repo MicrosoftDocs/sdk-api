@@ -56,13 +56,13 @@ Sets the cue banner text that is displayed for the edit control of a combo box.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box.
 
 ### -param lpcwText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a null-terminated Unicode string buffer that contains the text.
 
@@ -72,5 +72,4 @@ The cue banner is text that is displayed in the edit control of a combo box when
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-features">Combo Box Features</a>
-
+<a href="/windows/desktop/Controls/combo-box-features">Combo Box Features</a>

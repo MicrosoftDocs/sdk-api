@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Copies the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Copies the contents of a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Copies the contents of a <a href="https://docs.microsoft.com/windows/desktop/api
 
 Type: <b>const VARIANT*</b>
 
-Pointer to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Pointer to a source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param pPropVar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted information.
+Pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted information.
 
 ## -returns
 
@@ -83,4 +83,3 @@ The following cannot be handled by this function.
 <li>VT_BYREF | VT_BSTR</li>
 <li>VT_BYREF | VT_UNKNOWN</li>
 </ul>
-

@@ -69,7 +69,7 @@ The <b>IITPropList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-clear">Clear</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears memory associated with a property list and reinitializes the list.
@@ -80,7 +80,7 @@ Clears memory associated with a property list and reinitializes the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-get">Get</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-get">Get</a>
 </td>
 <td align="left" width="63%">
 Returns the property object associated with the given property ID.
@@ -91,7 +91,7 @@ Returns the property object associated with the given property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getdatasize">GetDataSize</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getdatasize">GetDataSize</a>
 </td>
 <td align="left" width="63%">
 Returns the number of bytes needed to save the property data. 
@@ -100,7 +100,7 @@ Returns the number of bytes needed to save the property data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getfirst">GetFirst</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getfirst">GetFirst</a>
 </td>
 <td align="left" width="63%">
 Returns the first property object in a property list.
@@ -111,7 +111,7 @@ Returns the first property object in a property list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getheadersize">GetHeaderSize</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getheadersize">GetHeaderSize</a>
 </td>
 <td align="left" width="63%">
 Returns the number of bytes needed to save the header. 
@@ -120,7 +120,7 @@ Returns the number of bytes needed to save the header.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-savedata">SaveData</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-savedata">SaveData</a>
 </td>
 <td align="left" width="63%">
 Saves the data size and data from the property list to a buffer.
@@ -131,7 +131,7 @@ Saves the data size and data from the property list to a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-saveheader">SaveHeader</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-saveheader">SaveHeader</a>
 </td>
 <td align="left" width="63%">
 Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
@@ -140,7 +140,7 @@ Saves the property ID and data type from the property list to a buffer. Only sav
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_dword_dword)">Set(PROPID,DWORD,DWORD)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_dword_dword)">Set(PROPID,DWORD,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -151,7 +151,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_lpcwstr_dword)">Set(PROPID,LPCWSTR,DWORD)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_lpcwstr_dword)">Set(PROPID,LPCWSTR,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -162,7 +162,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_lpvoid_dword_dword)">Set(PROPID,LPVOID,DWORD,DWORD)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-set(propid_lpvoid_dword_dword)">Set(PROPID,LPVOID,DWORD,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Sets a property to a given value or deletes a property from the list.
@@ -173,7 +173,7 @@ Sets a property to a given value or deletes a property from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-setpersist(bool)">SetPersist(BOOL)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-setpersist(bool)">SetPersist(BOOL)</a>
 </td>
 <td align="left" width="63%">
 Sets the persistence state on or off for all properties.
@@ -184,7 +184,7 @@ Sets the persistence state on or off for all properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-setpersist">SetPersist(PROPID,BOOL)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-setpersist">SetPersist(PROPID,BOOL)</a>
 </td>
 <td align="left" width="63%">
 Sets the persistence state on or off for a given property.
@@ -194,4 +194,3 @@ Sets the persistence state on or off for a given property.
 </td>
 </tr>
 </table>
-

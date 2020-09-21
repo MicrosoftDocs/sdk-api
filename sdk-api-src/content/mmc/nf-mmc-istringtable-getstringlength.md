@@ -69,13 +69,12 @@ This method can return one of these values.
 ## -remarks
 
 Use this method to determine the size of the buffer required for 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">IStringTable::GetString</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">IStringTable::GetString</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">IStringTable::GetString</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">IStringTable::GetString</a>

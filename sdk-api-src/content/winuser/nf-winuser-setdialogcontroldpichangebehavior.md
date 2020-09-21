@@ -68,23 +68,22 @@ The desired value to be set for the specified subset of flags.
 
 ## -returns
 
-This function returns TRUE if the operation was successful, and FALSE otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+This function returns TRUE if the operation was successful, and FALSE otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 Possible errors are <b>ERROR_INVALID_HANDLE</b> if passed an invalid HWND, and <b>ERROR_ACCESS_DENIED</b> if the windows belongs to another process.
 
 ## -remarks
 
-The behaviors are specified as values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a> enum. This function follows the typical two-parameter approach to setting flags, where a mask specifies the subset of the flags to be changed.
+The behaviors are specified as values from the <a href="/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a> enum. This function follows the typical two-parameter approach to setting flags, where a mask specifies the subset of the flags to be changed.
 
 It is valid to set these behaviors on <i>any</i> window. It does not matter if the window is currently a child of a dialog at the point in time that SetDialogControlDpiChangeBehavior is called. The behaviors are retained and will take effect only when the window is an immediate child of a dialog that has per-monitor DPI scaling enabled.
 
-This API influences individual controls within dialogs. The dialog-wide per-monitor DPI scaling behavior is controlled by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>.
+This API influences individual controls within dialogs. The dialog-wide per-monitor DPI scaling behavior is controlled by <a href="/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
+<a href="/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdialogcontroldpichangebehavior">GetDialogControlDpiChangeBehavior</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getdialogcontroldpichangebehavior">GetDialogControlDpiChangeBehavior</a>

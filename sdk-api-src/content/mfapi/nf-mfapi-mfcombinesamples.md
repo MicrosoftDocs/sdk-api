@@ -49,11 +49,11 @@ Concatenates a media sample onto another sample if their combined duration does 
 
 ### -param pSample
 
-A pointer to an [IMFSample](/windows/win32/api/mfobjects/nn-mfobjects-imfsample) to which the the sample provided in the *pSampleToAdd* parameter is appended.
+A pointer to an [IMFSample](../mfobjects/nn-mfobjects-imfsample.md) to which the the sample provided in the *pSampleToAdd* parameter is appended.
 
 ### -param pSampleToAdd
 
-A pointer to an [IMFSample](/windows/win32/api/mfobjects/nn-mfobjects-imfsample) to append to the sample provided in the  *pSample* parameter.
+A pointer to an [IMFSample](../mfobjects/nn-mfobjects-imfsample.md) to append to the sample provided in the  *pSample* parameter.
 
 ### -param dwMaxMergedDurationInMS
 
@@ -72,4 +72,3 @@ Returns HRESULT.
 Split combined samples by calling [MFSplitSample](nf-mfapi-mfsplitsample.md)
 
 ## -see-also
-

@@ -56,7 +56,7 @@ Gets the provider architecture for an operation.
 
 ### -param options [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param architecture [out]
 
@@ -81,4 +81,3 @@ Returned Boolean value where <b>MI_TRUE</b> means that if you are asking for a 3
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

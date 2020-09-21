@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-If the source variant is a VT_BSTR, extracts string and places it into a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
+If the source variant is a VT_BSTR, extracts string and places it into a <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Reference to a source variant structure.
 
 ### -param pstrret [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
 
 Pointer to the extracted string if one exists.
 
@@ -71,4 +71,3 @@ Pointer to the extracted string if one exists.
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

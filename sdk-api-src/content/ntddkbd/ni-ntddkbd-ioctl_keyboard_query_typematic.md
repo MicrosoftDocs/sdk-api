@@ -56,19 +56,19 @@ The IOCTL_KEYBOARD_QUERY_TYPEMATIC request returns the keyboard typematic settin
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+The size of a <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated output buffer that I8042prt uses to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated output buffer that I8042prt uses to output a <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+The size of a <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 ### -in-out-buffer
 
@@ -94,17 +94,16 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
-
+<a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>

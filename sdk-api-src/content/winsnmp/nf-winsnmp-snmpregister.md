@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpRegister</b> function registers or unregisters a WinSNMP application for trap and notification reception. The application can register and receive traps and notifications, or unregister and disable traps and notifications.
@@ -73,7 +73,7 @@ Because the implementation does not use this parameter to filter traps and notif
 If this parameter is <b>NULL</b>, the Microsoft WinSNMP implementation registers or unregisters all sources of trap and notification requests.
 
 Note that the <i>srcEntity</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function has a different role. In that function, <i>srcEntity</i> receives a handle to the entity that sent the trap.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function has a different role. In that function, <i>srcEntity</i> receives a handle to the entity that sent the trap.
 
 ### -param dstEntity [in]
 
@@ -85,7 +85,7 @@ Handle to the management entity that is the recipient of the registration reques
 If this parameter is <b>NULL</b>, the implementation registers or unregisters the WinSNMP application for traps and notifications from all management entities.
 
 Note that the <i>dstEntity</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function receives a handle to the management entity that registers for trap notification.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function receives a handle to the management entity that registers for trap notification.
 
 ### -param context [in]
 
@@ -99,7 +99,7 @@ If this parameter is <b>NULL</b>, the implementation registers or unregisters th
 ### -param notification [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure that contains the pattern-matching sequence for one type of trap or notification. The implementation uses this sequence to identify the type of trap or notification for which the WinSNMP application is registering or unregistering. For additional information, see the following Remarks section. 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure that contains the pattern-matching sequence for one type of trap or notification. The implementation uses this sequence to identify the type of trap or notification for which the WinSNMP application is registering or unregistering. For additional information, see the following Remarks section. 
 
 
 
@@ -144,7 +144,7 @@ Register to receive traps and notifications.
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function may return one of the following WinSNMP or network transport layer errors.
 
 <table>
@@ -160,7 +160,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ An unknown or undefined error occurred.
  
 
 For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/network-transport-errors">Network Transport Errors</a>.
+<a href="/windows/desktop/SNMP/network-transport-errors">Network Transport Errors</a>.
 
 ## -remarks
 
@@ -281,43 +281,42 @@ If a WinSNMP application passes <b>NULL</b> in a call to the
 <b>SnmpRegister</b> function in the <i>srcEntity</i>, <i>dstEntity</i>, <i>context</i>, or <i>notification</i> parameters, the implementation does not use that parameter to filter traps and notifications from reaching the WinSNMP application. If an application passes <b>NULL</b> in all of the parameters mentioned previously, the implementation delivers all received notifications to the session.
 
 If a WinSNMP application registers to receive a specific type of trap or notification, it must define an object identifier, that is, an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure, that corresponds to that type of trap. The <i>notification</i> parameter must point to this structure. RFC 1907, "Management Information Base for Version 2 of the Simple Network Management Protocol (SNMPv2)," defines trap and notification object identifiers. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/managing-traps-and-notifications">Managing Traps and Notifications</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/translating-traps-from-snmpv1-to-snmpv2c">Translating Traps from SNMPv1 to SNMPv2C</a>.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure, that corresponds to that type of trap. The <i>notification</i> parameter must point to this structure. RFC 1907, "Management Information Base for Version 2 of the Simple Network Management Protocol (SNMPv2)," defines trap and notification object identifiers. For additional information, see 
+<a href="/windows/desktop/SNMP/managing-traps-and-notifications">Managing Traps and Notifications</a> and 
+<a href="/windows/desktop/SNMP/translating-traps-from-snmpv1-to-snmpv2c">Translating Traps from SNMPv1 to SNMPv2C</a>.
 
 The implementation uses the value of the <i>notification</i> parameter as a pattern to match against received traps and notifications. For example, if the WinSNMP application passes n number of subidentifiers in the <i>notification</i> parameter, and the first n subidentifiers in a received trap match all the passed subidentifiers, then the trap object identifier is a match. If a received trap has fewer subidentifiers than n, the object identifier does not match. If there is a match, the implementation sends the trap or notification to the WinSNMP application.
 
 If any or all of the <i>dstEntity</i>, <i>srcEntity</i>, or <i>context</i> parameters are <b>NULL</b>, the implementation may need to allocate resources on a subsequent call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function, for that function's corresponding parameters. When the WinSNMP application no longer needs the resources 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function, for that function's corresponding parameters. When the WinSNMP application no longer needs the resources 
 <b>SnmpRecvMsg</b> returns, the application must free the individual resources with the function that corresponds to the resource. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreeentity">SnmpFreeEntity</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreeentity">SnmpFreeEntity</a> and 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/multiple-trap-registrations">Multiple Trap Registrations</a>.
+<a href="/windows/desktop/SNMP/multiple-trap-registrations">Multiple Trap Registrations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreecontext">SnmpFreeContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreeentity">SnmpFreeEntity</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreeentity">SnmpFreeEntity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
-
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>

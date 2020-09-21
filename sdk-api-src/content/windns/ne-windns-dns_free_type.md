@@ -60,7 +60,7 @@ The data freed is a flat structure.
 
 ### -field DnsFreeRecordList
 
-The data freed is a Resource Record list, and includes subfields of the <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure. Resources freed include structures returned by the <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> and <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a> functions.
+The data freed is a Resource Record list, and includes subfields of the <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure. Resources freed include structures returned by the <a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> and <a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a> functions.
 
 ### -field DnsFreeParsedMessageFields
 
@@ -68,7 +68,7 @@ The data freed is a parsed message field.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
+<a href="/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
 
 
 
@@ -76,13 +76,12 @@ The data freed is a parsed message field.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>

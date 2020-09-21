@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> instead.]
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> instead.]
 
 Allocates memory from the Shell's heap.
 
@@ -70,5 +70,4 @@ A pointer to the allocated memory.
 
 ## -remarks
 
-You can free this memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shfree">SHFree</a>.
-
+You can free this memory by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfree">SHFree</a>.

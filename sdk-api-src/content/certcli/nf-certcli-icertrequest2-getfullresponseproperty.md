@@ -437,7 +437,7 @@ The data returned.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and  <i>pvarPropertyValue</i> contains the returned data.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> that contains the returned data.
@@ -455,14 +455,13 @@ The following <i>PropId</i> values return binary data, which means that the <i>F
 <li>FR_PROP_ENCRYPTEDKYEHASH</li>
 <li>FR_PROP_FULLRESPONSENOPKCS7</li>
 </ul>
-This method is called after the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">ICertRequest3::RetrievePending</a> methods have been called. These methods populate the cached data that is returned by <b>GetFullResponseProperty</b>.
+This method is called after the <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a> or <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">ICertRequest3::RetrievePending</a> methods have been called. These methods populate the cached data that is returned by <b>GetFullResponseProperty</b>.
 
 After the <b>ICertRequest3::GetFullResponseProperty</b> method returns its data, the following methods can be called:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll4-acceptresponse">ICEnroll4::AcceptResponse</a> can be called to install the returned certificate.</li>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll4-acceptresponse">ICEnroll4::AcceptResponse</a> can be called to install the returned certificate.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll4-getcertfromresponse">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll4-getcertfromresponse">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
 </ul>
-

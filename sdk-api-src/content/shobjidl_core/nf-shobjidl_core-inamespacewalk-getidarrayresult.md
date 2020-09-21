@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a list of objects found during a namespace walk initiated by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
+Gets a list of objects found during a namespace walk initiated by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
 
 ## -parameters
 
@@ -74,16 +74,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To use <b>INamespaceWalk::GetIDArrayResult</b>, <b>NSWF_DONT_ACCUMULATE_RESULT</b> cannot be specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
+To use <b>INamespaceWalk::GetIDArrayResult</b>, <b>NSWF_DONT_ACCUMULATE_RESULT</b> cannot be specified in the call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
 
-It is the responsibility of the calling application to free this array. Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> for each PIDL as well as once for the array itself.
+It is the responsibility of the calling application to free this array. Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> for each PIDL as well as once for the array itself.
 
 
 #### Examples
 
 
 
-The following example creates the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrived in the walk, and frees their array.
+The following example creates the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrived in the walk, and frees their array.
 
 
 ```cpp
@@ -135,4 +135,3 @@ void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
     return; 
 }
 ```
-

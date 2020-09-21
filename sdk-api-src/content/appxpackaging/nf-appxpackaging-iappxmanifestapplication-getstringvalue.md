@@ -56,7 +56,7 @@ Gets the string value of an element or attribute in the application metadata sec
 
 ### -param name [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the element or attribute value to get from the application metadata. Supported names include:
 
@@ -87,11 +87,11 @@ The name of the element or attribute value to get from the application metadata.
 * WideLogo
 * Wide310x150Logo
 
-Refer to the [schema](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/schema-root) to determine where these values are being read from in the manifest.
+Refer to the [schema](/uwp/schemas/appxpackage/uapmanifestschema/schema-root) to determine where these values are being read from in the manifest.
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The value of the requested element or attribute.
 
@@ -105,15 +105,14 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 If the *name* parameter is not a supported name of an element or attribute in the manifest, this method returns **E_INVALIDARG**. If the *name* parameter is supported but the element or attribute is not found in the manifest, this method returns **S_OK** and the return value of the *value* parameter is **NULL**.
 
-The caller must free the memory allocated for *value* using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller must free the memory allocated for *value* using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>

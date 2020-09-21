@@ -56,7 +56,7 @@ The <b>EcEnumNextSubscription</b> function continues the enumeration of the subs
 
 ### -param SubscriptionEnum [in]
 
-The handle to the enumerator object that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecopensubscriptionenum">EcOpenSubscriptionEnum</a> function.
+The handle to the enumerator object that is returned from the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecopensubscriptionenum">EcOpenSubscriptionEnum</a> function.
 
 ### -param SubscriptionNameBufferSize [in]
 
@@ -76,5 +76,4 @@ This function returns BOOL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

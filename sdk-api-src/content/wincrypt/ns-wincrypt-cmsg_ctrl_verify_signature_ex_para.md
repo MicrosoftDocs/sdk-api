@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</b> structure contains information used to verify a message signature. It contains the signer index and signer public key. The signer public key can be the signer's <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or chain context.
+The <b>CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</b> structure contains information used to verify a message signature. It contains the signer index and signer public key. The signer public key can be the signer's <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>, or chain context.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic provider</a> used to verify the signature. If <b>NULL</b>, the cryptographic provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a> is used. If the <i>hCryptProv</i> in <b>CryptMsgOpenToDecode</b> is also <b>NULL</b>, the default provider according to the signer's public key <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is used.This member's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic provider</a> used to verify the signature. If <b>NULL</b>, the cryptographic provider specified in <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a> is used. If the <i>hCryptProv</i> in <b>CryptMsgOpenToDecode</b> is also <b>NULL</b>, the default provider according to the signer's public key <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is used.This member's data type is <b>HCRYPTPROV</b>.
 
 ### -field dwSignerIndex
 
@@ -88,7 +88,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 </td>
@@ -100,7 +100,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 </td>
@@ -112,7 +112,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 </td>
@@ -131,9 +131,8 @@ The structure that contains the signer information. The following table shows th
 
 ### -field pvSigner
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, a chain context, or <b>NULL</b> depending on the value of <b>dwSignerType</b>.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>, a chain context, or <b>NULL</b> depending on the value of <b>dwSignerType</b>.
 
 ## -remarks
 
 If <b>dwSignerType</b> is CMSG_VERIFY_SIGNER_NULL, the signature is expected to contain only the unencrypted hash octets.
-

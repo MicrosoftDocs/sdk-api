@@ -55,7 +55,7 @@ Exposes methods so that an application can register with the synchronization man
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrRegister</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrRegister</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrRegister</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrRegister</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncMgrRegister</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-gethandlerregistrationinfo">GetHandlerRegistrationInfo</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-gethandlerregistrationinfo">GetHandlerRegistrationInfo</a>
 </td>
 <td align="left" width="63%">
 Called by the registered application's handler to get current registration information.
@@ -80,7 +80,7 @@ Called by the registered application's handler to get current registration infor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-registersyncmgrhandler">RegisterSyncMgrHandler</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-registersyncmgrhandler">RegisterSyncMgrHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a handler with the synchronization manager when the handler has items to synchronize.
@@ -90,7 +90,7 @@ Registers a handler with the synchronization manager when the handler has items 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-unregistersyncmgrhandler">UnregisterSyncMgrHandler</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-unregistersyncmgrhandler">UnregisterSyncMgrHandler</a>
 </td>
 <td align="left" width="63%">
 Removes a handler's CLSID from the registration. A handler should call this when it no longer has any items to synchronize.
@@ -102,4 +102,3 @@ Removes a handler's CLSID from the registration. A handler should call this when
 ## -remarks
 
 The handler must be a standard OLE server. It must register the standard OLE keys for an InProc OLE server in addition to the SyncMgr key.
-

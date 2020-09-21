@@ -257,7 +257,7 @@ Reserved; do not use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
@@ -265,14 +265,13 @@ Audio Mixers
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa">MIXERLINECONTROLS</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa">MIXERLINECONTROLS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
+<a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
 
 ## -remarks
 
 > [!NOTE]
 > The mmeapi.h header defines MIXERCONTROL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

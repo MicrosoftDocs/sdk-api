@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-Contains and receives display information for a toolbar item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code.
+Contains and receives display information for a toolbar item. This structure is used with the <a href="/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Set of flags that indicate which members of this structure are being requested. This can be one or more of the following values. 
 
@@ -103,7 +103,7 @@ Not currently implemented.
 </dl>
 </td>
 <td width="60%">
-Set this flag when processing <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
+Set this flag when processing <a href="/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Command identifier of the item for which display information is being requested.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
 Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code.
 
@@ -129,7 +129,7 @@ Image index for the item.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Pointer to a character buffer that receives the item's text.
 
@@ -144,4 +144,3 @@ Size of the
 
 > [!NOTE]
 > The commctrl.h header defines NMTBDISPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the characteristics of a drag-and-drop operation over an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
+Sets the characteristics of a drag-and-drop operation over an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
 
 ## -parameters
 
@@ -58,17 +58,16 @@ Sets the characteristics of a drag-and-drop operation over an <a href="https://d
 
 Type: <b>DWORD</b>
 
-The flags that determine the characteristics of a drag-and-drop operation over an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
+The flags that determine the characteristics of a drag-and-drop operation over an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
 
 
 
 #### DSH_ALLOWDROPDESCRIPTIONTEXT (0x0001)
 
-Allow text specified in <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription">DROPDESCRIPTION</a> to be displayed on the drag image. If you pass this flag into the <i>dwFlags</i> parameter of <b>IDragSourceHelper2::SetFlags</b>, then the text description is rendered on top of the supplied drag image. If you pass a drag image into an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object, then by default, the extra text description of the drag-and-drop operation is not displayed.
+Allow text specified in <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription">DROPDESCRIPTION</a> to be displayed on the drag image. If you pass this flag into the <i>dwFlags</i> parameter of <b>IDragSourceHelper2::SetFlags</b>, then the text description is rendered on top of the supplied drag image. If you pass a drag image into an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object, then by default, the extra text description of the drag-and-drop operation is not displayed.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

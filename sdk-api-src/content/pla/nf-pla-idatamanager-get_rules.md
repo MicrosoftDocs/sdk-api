@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-The rules modify  the contents of the report after it is generated. To specify the content that TraceRpt generates, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a>.
+The rules modify  the contents of the report after it is generated. To specify the content that TraceRpt generates, see <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a>.
 
 The following schema defines the rules that you can specify. The <b>Rules</b> element is the root node. You can specify one or more <b>Group</b> elements, and each <b>Group</b> element can contain one or more <b>Rule</b> elements. The <b>Help</b> element is an optional user-defined element. The <b>Step</b> element defines a set of conditions and associated actions that are taken if the conditions are met.
 
@@ -135,5 +135,4 @@ The following schema defines the rules that you can specify. The <b>Rules</b> el
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>

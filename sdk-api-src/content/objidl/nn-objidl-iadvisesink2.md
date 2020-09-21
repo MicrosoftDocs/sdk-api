@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAdviseSink2</b> interface is an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface, adding the method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a> to the contract to handle a change in the moniker of a linked object. This avoids overloading the implementation <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> to handle the renaming of both embedded objects and linked objects. In applications where different blocks of code might execute depending on which of these two similar events has occurred, using the same method for both events complicates testing and debugging.
+The <b>IAdviseSink2</b> interface is an extension of the <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface, adding the method <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a> to the contract to handle a change in the moniker of a linked object. This avoids overloading the implementation <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> to handle the renaming of both embedded objects and linked objects. In applications where different blocks of code might execute depending on which of these two similar events has occurred, using the same method for both events complicates testing and debugging.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IAdviseSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a>
 </td>
 <td align="left" width="63%">
 Advises that link source has changed.
@@ -77,4 +77,3 @@ Advises that link source has changed.
 </td>
 </tr>
 </table>
-

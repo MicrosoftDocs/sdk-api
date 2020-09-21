@@ -94,7 +94,7 @@ Flags that determine how data is sent on the channel. This parameter can be 0 or
 
 Type: <b>IRDPSRAPIVirtualChannel**</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a> interface pointer.
+An <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a> interface pointer.
 
 ## -returns
 
@@ -110,5 +110,4 @@ The binding between server and client channels is established based on the chann
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>

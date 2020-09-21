@@ -69,7 +69,7 @@ The suspend count for the thread. If the suspend count is greater than zero, the
 ### -field PriorityClass
 
 The priority class of the thread. See 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>.
+<a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>.
 
 ### -field Priority
 
@@ -96,4 +96,3 @@ A
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
-

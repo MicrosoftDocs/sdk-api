@@ -52,22 +52,22 @@ api_name:
 ## -description
 
 Describes the state of a cluster node. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-state">State</a> properties use this enumeration.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a> and 
+    <a href="/previous-versions/windows/desktop/mscs/clusnode-state">State</a> properties use this enumeration.
 
 ## -enum-fields
 
 ### -field ClusterNodeStateUnknown
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ### -field ClusterNodeUp
 
 The node is physically plugged in, turned on, booted, and capable of executing programs. This value is also 
        used by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
-       function and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-resume">Resume</a> method.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
+       function and <a href="/previous-versions/windows/desktop/mscs/clusnode-resume">Resume</a> method.
 
 ### -field ClusterNodeDown
 
@@ -76,35 +76,34 @@ The node is turned off or not operational.
 ### -field ClusterNodePaused
 
 The node is running but not participating in cluster operations. This value is also used by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
-       functions. This value is also used <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-pause">Pause</a> method.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a> and 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
+       functions. This value is also used <a href="/previous-versions/windows/desktop/mscs/clusnode-pause">Pause</a> method.
 
 ### -field ClusterNodeJoining
 
-The node is in the process of joining a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+The node is in the process of joining a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-pause">Pause Method of the ClusNode Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusnode-pause">Pause Method of the ClusNode Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-state">State Property of the ClusNode Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusnode-state">State Property of the ClusNode Object</a>

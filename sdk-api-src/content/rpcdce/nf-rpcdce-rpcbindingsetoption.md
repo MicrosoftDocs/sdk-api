@@ -62,7 +62,7 @@ Server binding to modify.
 ### -param option
 
 Binding property to modify. For a list of binding options and their possible values, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-option-constants">Binding Option Constants</a>. See Remarks for information on the RPC Call time-out feature.
+<a href="/windows/desktop/Rpc/binding-option-constants">Binding Option Constants</a>. See Remarks for information on the RPC Call time-out feature.
 
 ### -param optionValue
 
@@ -102,7 +102,7 @@ The function is not supported for either the operating system or the transport. 
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -110,7 +110,7 @@ The function is not supported for either the operating system or the transport. 
 RPC client processes use 
 <b>RpcBindingSetOption</b> to control the delivery quality-of-service, call logging, and call lifetimes. Changing the binding-handle properties will affect all remote calls until the properties are changed by another call to 
 <b>RpcBindingSetOption</b>. You can also call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> to set security options for the binding handle.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> to set security options for the binding handle.
 
 <b>Windows XP:  </b>RPC Call Timeout feature:
 
@@ -123,22 +123,21 @@ The RPC call time-out feature is useful in many situations, such as user interfa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing">RPC Message
+<a href="/windows/desktop/Rpc/rpc-message-queuing">RPC Message
 		  Queuing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption">RpcBindingInqOption</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption">RpcBindingInqOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/message">message</a>
-
+<a href="/windows/desktop/Midl/message">message</a>

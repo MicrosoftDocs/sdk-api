@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemProviderInitSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemProviderInitSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemProviderInitSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemProviderInitSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemProviderInitSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemproviderinitsink-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemproviderinitsink-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Called by the provider to indicate success or failure of initialization.
@@ -78,4 +78,3 @@ Called by the provider to indicate success or failure of initialization.
 </td>
 </tr>
 </table>
-

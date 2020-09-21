@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods for building a query from user input, converting a query to <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-ovwofsearchquery">Windows Search SQL</a>, and obtaining a connection string to initialize a connection to the Window Search index.
+Provides methods for building a query from user input, converting a query to <a href="/windows/desktop/search/-search-sql-ovwofsearchquery">Windows Search SQL</a>, and obtaining a connection string to initialize a connection to the Window Search index.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchQueryHelper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchQueryHelper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchQueryHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchQueryHelper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchQueryHelper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery">GenerateSQLFromUserQuery</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery">GenerateSQLFromUserQuery</a>
 </td>
 <td align="left" width="63%">
 Generates a SQL query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
@@ -78,7 +78,7 @@ Generates a SQL query based on a client-supplied query string expressed in eithe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring">get_ConnectionString</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring">get_ConnectionString</a>
 </td>
 <td align="left" width="63%">
 Returns the OLE DB connection string for the Window Search index.
@@ -87,7 +87,7 @@ Returns the OLE DB connection string for the Window Search index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querycontentlocale">get_QueryContentLocale</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querycontentlocale">get_QueryContentLocale</a>
 </td>
 <td align="left" width="63%">
 Gets the LCID for the query.
@@ -96,7 +96,7 @@ Gets the LCID for the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querycontentproperties">get_QueryContentProperties</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querycontentproperties">get_QueryContentProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the list of properties included in the query when search terms do not explicitly specify a property.
@@ -105,7 +105,7 @@ Gets the list of properties included in the query when search terms do not expli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querykeywordlocale">get_QueryKeywordLocale</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querykeywordlocale">get_QueryKeywordLocale</a>
 </td>
 <td align="left" width="63%">
 Gets the LCID for the locale to use when parsing Advanced Query Syntax (AQS) keywords.
@@ -114,7 +114,7 @@ Gets the LCID for the locale to use when parsing Advanced Query Syntax (AQS) key
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querymaxresults">get_QueryMaxResults</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querymaxresults">get_QueryMaxResults</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum number of results to be returned by the query.
@@ -123,7 +123,7 @@ Gets the maximum number of results to be returned by the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_queryselectcolumns">get_QuerySelectColumns</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_queryselectcolumns">get_QuerySelectColumns</a>
 </td>
 <td align="left" width="63%">
 Gets the columns (or properties) requested in the SELECT statement of the query.
@@ -132,7 +132,7 @@ Gets the columns (or properties) requested in the SELECT statement of the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querysorting">get_QuerySorting</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querysorting">get_QuerySorting</a>
 </td>
 <td align="left" width="63%">
 Gets the sort order for the query result set.
@@ -141,7 +141,7 @@ Gets the sort order for the query result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querysyntax">get_QuerySyntax</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querysyntax">get_QuerySyntax</a>
 </td>
 <td align="left" width="63%">
 Gets the syntax of the query.
@@ -150,7 +150,7 @@ Gets the syntax of the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querytermexpansion">get_QueryTermExpansion</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querytermexpansion">get_QueryTermExpansion</a>
 </td>
 <td align="left" width="63%">
 Gets the value that specifies how query terms are to be expanded.
@@ -159,7 +159,7 @@ Gets the value that specifies how query terms are to be expanded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querywhererestrictions">get_QueryWhereRestrictions</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querywhererestrictions">get_QueryWhereRestrictions</a>
 </td>
 <td align="left" width="63%">
 Gets the restrictions appended to a query in WHERE clauses.
@@ -168,7 +168,7 @@ Gets the restrictions appended to a query in WHERE clauses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentlocale">put_QueryContentLocale</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentlocale">put_QueryContentLocale</a>
 </td>
 <td align="left" width="63%">
 Sets the LCID of the query.
@@ -177,7 +177,7 @@ Sets the LCID of the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">put_QueryContentProperties</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">put_QueryContentProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties to include in the query if search terms do not explicitly specify properties. 
@@ -186,7 +186,7 @@ Sets the properties to include in the query if search terms do not explicitly sp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querykeywordlocale">put_QueryKeywordLocale</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querykeywordlocale">put_QueryKeywordLocale</a>
 </td>
 <td align="left" width="63%">
 Sets the LCID for the locale to use when parsing Advanced Query Syntax (AQS) keywords.
@@ -195,7 +195,7 @@ Sets the LCID for the locale to use when parsing Advanced Query Syntax (AQS) key
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querymaxresults">put_QueryMaxResults</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querymaxresults">put_QueryMaxResults</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of results to be returned by a query.
@@ -204,7 +204,7 @@ Sets the maximum number of results to be returned by a query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_queryselectcolumns">put_QuerySelectColumns</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_queryselectcolumns">put_QuerySelectColumns</a>
 </td>
 <td align="left" width="63%">
 Sets the columns (or properties) requested in the select statement.
@@ -213,7 +213,7 @@ Sets the columns (or properties) requested in the select statement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysorting">put_QuerySorting</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysorting">put_QuerySorting</a>
 </td>
 <td align="left" width="63%">
 Sets the sort order for the query result set.
@@ -222,7 +222,7 @@ Sets the sort order for the query result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysyntax">put_QuerySyntax</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysyntax">put_QuerySyntax</a>
 </td>
 <td align="left" width="63%">
 Sets the syntax of the query.
@@ -231,7 +231,7 @@ Sets the syntax of the query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">put_QueryTermExpansion</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">put_QueryTermExpansion</a>
 </td>
 <td align="left" width="63%">
 Sets a value that specifies how query terms are to be expanded.
@@ -240,7 +240,7 @@ Sets a value that specifies how query terms are to be expanded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querywhererestrictions">put_QueryWhereRestrictions</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querywhererestrictions">put_QueryWhereRestrictions</a>
 </td>
 <td align="left" width="63%">
 Sets the restrictions appended to a query in WHERE clauses.
@@ -249,7 +249,7 @@ Sets the restrictions appended to a query in WHERE clauses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-writeproperties">WriteProperties</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-writeproperties">WriteProperties</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -260,20 +260,19 @@ Not implemented.
 
 ## -remarks
 
-This interface is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper">ISearchCatalogManager::GetQueryHelper</a>. Implement this interface as a helper class to <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a>.
+This interface is obtained by calling <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper">ISearchCatalogManager::GetQueryHelper</a>. Implement this interface as a helper class to <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a>.
 
 This interface facilitates the generation of SQL queries using Advanced Query Syntax (AQS) or Natural Query Syntax (NQS). Clients can submit the SQL query to the Window Search engine by using OLE DB or Microsoft ActiveX Data Objects (ADO).
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery">ISearchQueryHelper::GenerateSQLFromUserQuery</a> uses regional locale settings. However, <b>ISearchQueryHelper</b> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as date formats, for example.
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery">ISearchQueryHelper::GenerateSQLFromUserQuery</a> uses regional locale settings. However, <b>ISearchQueryHelper</b> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as date formats, for example.
 
 For a sample that demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <b>ISearchQueryHelper</b>, see the [DSearch](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/DSearch) sample.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
+<a href="/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
-
+<a href="/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>

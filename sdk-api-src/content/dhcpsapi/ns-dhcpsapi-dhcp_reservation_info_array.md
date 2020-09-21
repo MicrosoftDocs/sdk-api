@@ -64,7 +64,7 @@ Integer that specifies the number of IPv4 client reservations in <b>Elements</b>
 
 ### -field Elements
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_info">DHCP_IP_RESERVATION_INFO</a> structures that contain IPv4 client reservations.
+Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_info">DHCP_IP_RESERVATION_INFO</a> structures that contain IPv4 client reservations.
 
 ### -field Elements.size_is
 
@@ -72,5 +72,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumsubnetreservations">DhcpV4EnumSubnetReservations</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumsubnetreservations">DhcpV4EnumSubnetReservations</a>

@@ -62,25 +62,24 @@ A value of type <b>int</b> that contains the index of the image to replace.
 
 ### -param hbmImage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the image.
 
 ### -param hbmMask [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-<b>IImageList::Replace</b> copies the bitmap to an internal data structure. You must use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> to delete <i>hbmImage</i> and <i>hbmMask</i> after the method returns.
+<b>IImageList::Replace</b> copies the bitmap to an internal data structure. You must use <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> to delete <i>hbmImage</i> and <i>hbmMask</i> after the method returns.
 
-To use <b>IImageList::Replace</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>IImageList::Replace</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

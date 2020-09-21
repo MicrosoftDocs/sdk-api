@@ -52,8 +52,8 @@ api_name:
 
 <span>This topic lists the 
 			Intersect methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rect-methods">Rect Methods</a>. 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> class. For a complete list of methods for the 
+			<b>Rect</b> class, see <a href="/windows/desktop/gdiplus/-gdiplus-class-rect-methods">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -61,24 +61,23 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Intersect(Rect&)</a>
+<a href="/previous-versions/ms534981(v=vs.85)">Intersect(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="/previous-versions/ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)">Intersect(Rect&,Rect&,Rect&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)">Intersect(Rect&,Rect&,Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)">Rect::Intersect</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object.
+The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)">Rect::Intersect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object.
 
 </td>
 </tr>
 </table>
 
 ## -parameters
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves an item from the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> at the specified index.
+Retrieves an item from the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> at the specified index.
 
 ## -parameters
 
@@ -59,11 +59,11 @@ Retrieves an item from the <a href="https://docs.microsoft.com/windows/desktop/a
 
 Type: <b>UINT32</b>
 
-The zero-based index of <i>item</i> to retrieve from the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
+The zero-based index of <i>item</i> to retrieve from the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 
 ### -param item [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 When this method returns, contains the address of a pointer variable that receives the item.
 
@@ -75,9 +75,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
-
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>

@@ -89,9 +89,8 @@ The user does not have permission to stop the task, the task is disabled, or the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

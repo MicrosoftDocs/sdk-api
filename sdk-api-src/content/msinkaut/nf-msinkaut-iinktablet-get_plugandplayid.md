@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets a string representation of the Plug and Play identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object.
+Gets a string representation of the Plug and Play identifier of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object.
         
 
 This property is read-only.
@@ -62,20 +62,19 @@ This property is read-only.
 
 ## -remarks
 
-The property value is based upon the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/ns-hidsdi-_hidd_attributes">HIDD_ATTRIBUTES</a><b>ProductID</b> member. The manufacturer of the tablet device is responsible for adding this string. The property value is empty if the tablet device does not have an identifier.
+The property value is based upon the <a href="/windows-hardware/drivers/ddi/content/hidsdi/ns-hidsdi-_hidd_attributes">HIDD_ATTRIBUTES</a><b>ProductID</b> member. The manufacturer of the tablet device is responsible for adding this string. The property value is empty if the tablet device does not have an identifier.
 
 <div class="alert"><b>Note</b>  Accessing this property within certain message handlers can result in the underlying function being re-entered, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: WM_ACTIVATE, WM_ACTIVATEAPP, WMNCACTIVATE, WM_PAINT; WM_SYSCOMMAND if <b>wParam</b> is set to SC_HOTKEY or SC_TASKLIST; and WM_SYSKEYDOWN (when processing Alt-Tab or Alt-Esc key combinations). This is an issue with single-threaded apartment model applications. </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a>

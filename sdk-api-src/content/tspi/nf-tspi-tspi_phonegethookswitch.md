@@ -62,8 +62,8 @@ The service provider's opaque handle to the phone whose hookswitch mode is to be
 ### -param lpdwHookSwitchDevs
 
 A pointer to a <b>DWORD</b>-sized location into which the service provider writes the mode of the phone's hookswitch devices. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>. If a bit position is <b>FALSE</b>, the corresponding hookswitch device is onhook. If <b>TRUE</b>, the microphone and/or speaker part of the corresponding hookswitch device is offhook. To find out whether microphone and/or speaker are enabled, TAPI can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>. If a bit position is <b>FALSE</b>, the corresponding hookswitch device is onhook. If <b>TRUE</b>, the microphone and/or speaker part of the corresponding hookswitch device is offhook. To find out whether microphone and/or speaker are enabled, TAPI can use 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>.
 
 ## -returns
 
@@ -77,21 +77,20 @@ After the hookswitch state of a device changes, and if hookswitch monitoring is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesethookswitch">TSPI_phoneSetHookSwitch</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonesethookswitch">TSPI_phoneSetHookSwitch</a>

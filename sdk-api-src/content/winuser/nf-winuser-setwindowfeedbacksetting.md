@@ -67,7 +67,7 @@ The window to configure feedback on.
 
 ### -param feedback [in]
 
-One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-feedback_type">FEEDBACK_TYPE</a> enumeration.
+One of the values from the <a href="/windows/desktop/api/winuser/ne-winuser-feedback_type">FEEDBACK_TYPE</a> enumeration.
 
 ### -param dwFlags [in]
 
@@ -87,9 +87,8 @@ Returns TRUE if successful; otherwise, returns FALSE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/input_feedback/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

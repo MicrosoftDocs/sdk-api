@@ -56,7 +56,7 @@ The <b>DrvStartPage</b> function is called by GDI when it is ready to start send
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
 ## -returns
 
@@ -64,15 +64,14 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> must provide a <b>DrvStartPage</b> function. The function is called before each physical page of a print job is rendered. (A physical page can contain one or more document pages.)
+A <a href="/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> must provide a <b>DrvStartPage</b> function. The function is called before each physical page of a print job is rendered. (A physical page can contain one or more document pages.)
 
-Typically the function is used for sending control sequences to printer hardware, before a page is printed, by calling GDI's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> function. The function can also perform internal, page-specific initialization operations for the printer graphics DLL.
+Typically the function is used for sending control sequences to printer hardware, before a page is printed, by calling GDI's <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> function. The function can also perform internal, page-specific initialization operations for the printer graphics DLL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>

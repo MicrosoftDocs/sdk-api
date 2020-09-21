@@ -58,17 +58,17 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure contains both the old and new EAP crede
 
 ### -field curCreds
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the old EAP credentials.
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the old EAP credentials.
 
 ### -field newCreds
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the new EAP credentials.
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure that contains the new EAP credentials.
 
 ## -remarks
 
 The <b>EAP_CRED_EXPIRY_REQ</b> structure can be employed to support Single-Sign-On (SSO).
 
-The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb530539(v=vs.85)">EAP_CRED_EXPIRY_RESP</a> structure.
+The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="/previous-versions/windows/desktop/legacy/bb530539(v=vs.85)">EAP_CRED_EXPIRY_RESP</a> structure.
 
 ## -see-also
 
@@ -76,7 +76,7 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb530539(v=vs.85)">EAP_CRED_EXPIRY_RESP</a>
+<a href="/previous-versions/windows/desktop/legacy/bb530539(v=vs.85)">EAP_CRED_EXPIRY_RESP</a>
 
 
 
@@ -88,9 +88,8 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

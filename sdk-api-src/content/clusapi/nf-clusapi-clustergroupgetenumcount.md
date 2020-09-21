@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Returns the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
+Returns the number of <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a 
+    <a href="/previous-versions/windows/desktop/mscs/groups">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ Handle to a group enumeration. This handle is obtained from
 
 <b>ClusterGroupGetEnumCount</b> returns the 
        number of objects associated with the enumeration handle.
-

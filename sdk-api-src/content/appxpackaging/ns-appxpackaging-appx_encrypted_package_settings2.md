@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Encrypted Windows app package settings. This structure expands on <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_encrypted_package_settings">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
+Encrypted Windows app package settings. This structure expands on <a href="/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_encrypted_package_settings">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The Uri of the block map hash algorithm.
 
 ### -field options
 
-Additional options for encrypted packages. Options come from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_encrypted_package_options">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.
-
+Additional options for encrypted packages. Options come from the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_encrypted_package_options">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.

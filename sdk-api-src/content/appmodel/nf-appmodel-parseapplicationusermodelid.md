@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Deconstructs an <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> to its <i>package family name</i> and <i>package relative application ID</i> (PRAID).
+Deconstructs an <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> to its <i>package family name</i> and <i>package relative application ID</i> (PRAID).
 
 ## -parameters
 
@@ -125,4 +125,3 @@ The buffer specified by <i>packageFamilyName</i> or <i>packageRelativeApplicatio
 </td>
 </tr>
 </table>
-

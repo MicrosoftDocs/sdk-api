@@ -60,7 +60,7 @@ Closes an installable driver.
 
 ### -param hDriver [in]
 
-Handle of an installable driver instance. The handle must have been previously created by using the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
+Handle of an installable driver instance. The handle must have been previously created by using the <a href="/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
 ### -param lParam1 [in]
 
@@ -76,13 +76,12 @@ Returns nonzero if successful or zero otherwise.
 
 ## -remarks
 
-The function passes the <i>lParam1</i> and <i>lParam2</i> parameters to the <a href="https://docs.microsoft.com/previous-versions/dd797918(v=vs.85)">DriverProc</a> function of the installable driver.
+The function passes the <i>lParam1</i> and <i>lParam2</i> parameters to the <a href="/previous-versions/dd797918(v=vs.85)">DriverProc</a> function of the installable driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
+<a href="/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
-
+<a href="/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>

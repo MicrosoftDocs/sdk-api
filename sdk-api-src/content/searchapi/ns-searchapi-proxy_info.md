@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Stores information about a proxy. Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>.
+Stores information about a proxy. Used by <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-proxy_access">PROXY_ACCESS</a></b>
+Type: <b><a href="/windows/desktop/api/searchapi/ne-searchapi-proxy_access">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 
@@ -97,4 +97,3 @@ A pointer to a Unicode string buffer that contains the name of the proxy server.
 Type: <b>LPCWSTR</b>
 
 The list of sites that will bypass the proxy.
-

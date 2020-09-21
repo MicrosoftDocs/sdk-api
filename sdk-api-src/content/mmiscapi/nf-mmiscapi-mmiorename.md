@@ -69,7 +69,7 @@ Pointer to a string containing the new file name.
 
 ### -param pmmioinfo
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure containing extra parameters used by <b>mmioRename</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
+Pointer to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure containing extra parameters used by <b>mmioRename</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
 
 ### -param fdwRename
 
@@ -78,4 +78,3 @@ Flags for the rename operation. This parameter should be set to zero.
 ## -returns
 
 Returns zero if the file was renamed. Otherwise, returns an error code returned from <b>mmioRename</b> or from the I/O procedure.
-

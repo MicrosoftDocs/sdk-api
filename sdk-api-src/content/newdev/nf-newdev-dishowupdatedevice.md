@@ -60,11 +60,11 @@ A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
 
 ### -param Flags [in]
 
@@ -76,7 +76,7 @@ A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicat
 
 ## -returns
 
-<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. Some of the more common error values that <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> might return are as follows:
+<b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some of the more common error values that <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> might return are as follows:
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicat
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the calling process have Administrator privileges to update a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the calling process have Administrator privileges to update a <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>. 
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The user canceled the Hardware Update wizard.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>. 
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>. 
 
 </td>
 </tr>
@@ -145,19 +145,18 @@ The application must perform required operations, other than calling <b>DiShowUp
 
 </li>
 </ul>
-To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>.
+To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>.
 
-To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
+To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
+<a href="/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>
+<a href="/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
-
+<a href="/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>

@@ -54,5 +54,4 @@ An administrator can specify criteria that starts transmission on an object of a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>

@@ -60,11 +60,11 @@ Pointer to a null-terminated Unicode string that contains the name of the object
 
 ### -param pcbEnum [in]
 
-Pointer to an application-supplied <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a> function that is called once for each enumerated attribute.
+Pointer to an application-supplied <a href="/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a> function that is called once for each enumerated attribute.
 
 ### -param lParam [in]
 
-Contains an application-defined  parameter passed as the <i>lParam</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a> function.
+Contains an application-defined  parameter passed as the <i>lParam</i> parameter in the <a href="/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a> function.
 
 ## -returns
 
@@ -72,13 +72,12 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a>
+<a href="/windows/desktop/api/dsclient/nc-dsclient-lpdsenumattributes">DSEnumAttributesCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
-
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>

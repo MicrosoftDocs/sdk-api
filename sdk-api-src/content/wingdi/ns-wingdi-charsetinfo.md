@@ -64,25 +64,24 @@ Character set value.
 
 ### -field ciACP
 
-Windows ANSI code page identifier. For a list of identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>.
+Windows ANSI code page identifier. For a list of identifiers, see <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>.
 
 ### -field fs
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure that identifies the Unicode subrange and the specific Windows ANSI character set/code page. Only one code page will be set when this structure is set by the function.
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure that identifies the Unicode subrange and the specific Windows ANSI character set/code page. Only one code page will be set when this structure is set by the function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/code-pages">Code Pages</a>
+<a href="/windows/desktop/Intl/code-pages">Code Pages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>

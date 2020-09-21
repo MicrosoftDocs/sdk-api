@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IVMRAspectRatioControl</code> interface controls whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video. This interface is available when the VMR-7 is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> interface.
+The <code>IVMRAspectRatioControl</code> interface controls whether the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video. This interface is available when the VMR-7 is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRAspectRatioControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRAspectRatioControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVMRAspectRatioControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-getaspectratiomode">GetAspectRatioMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-getaspectratiomode">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Queries whether the VMR will preserve the aspect ratio of the source video.
@@ -79,7 +79,7 @@ Queries whether the VMR will preserve the aspect ratio of the source video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-setaspectratiomode">SetAspectRatioMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-setaspectratiomode">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will preserve the aspect ratio of the source video.
@@ -90,5 +90,4 @@ Specifies whether the VMR will preserve the aspect ratio of the source video.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

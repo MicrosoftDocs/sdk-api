@@ -65,7 +65,7 @@ The number of elements in the <i>pUpdates</i> array.
 
 ### -param pUpdates [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mftoponode_attribute_update">MFTOPONODE_ATTRIBUTE_UPDATE</a> structures. Each element of the array updates one attribute on a node.
+Pointer to an array of <a href="/windows/desktop/api/mfidl/ns-mfidl-mftoponode_attribute_update">MFTOPONODE_ATTRIBUTE_UPDATE</a> structures. Each element of the array updates one attribute on a node.
 
 ## -returns
 
@@ -91,9 +91,8 @@ The method succeeded.
 
 ## -remarks
 
-Currently the only attribute that can be updated is the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-mediastop-attribute">MF_TOPONODE_MEDIASTOP</a> attribute. The method ignores any other attributes.
+Currently the only attribute that can be updated is the <a href="/windows/desktop/medfound/mf-toponode-mediastop-attribute">MF_TOPONODE_MEDIASTOP</a> attribute. The method ignores any other attributes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynodeattributeeditor">IMFTopologyNodeAttributeEditor</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynodeattributeeditor">IMFTopologyNodeAttributeEditor</a>

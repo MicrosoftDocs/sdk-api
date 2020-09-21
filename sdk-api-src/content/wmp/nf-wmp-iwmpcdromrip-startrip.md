@@ -84,13 +84,12 @@ Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip">IWMPCdromRip::stopRip</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip">IWMPCdromRip::stopRip</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
-
+<a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>

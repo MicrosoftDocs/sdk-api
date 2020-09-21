@@ -132,13 +132,12 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesectionnames">GetPrivateProfileSectionNames</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilesectionnames">GetPrivateProfileSectionNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>

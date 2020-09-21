@@ -52,24 +52,24 @@ api_name:
 
 Writes the specified text to the XML writer.
       
-        To write characters to an attribute value call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a>. Only whitespace characters may be written at the root of an xml document unless the
+        To write characters to an attribute value call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a>. Only whitespace characters may be written at the root of an xml document unless the
         <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the text is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the text is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param text [in]
 
-A pointer to the text to write.  <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> and its derived classes for more information on the text object.
+A pointer to the text to write.  <div class="alert"><b>Note</b>  See <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> and its derived classes for more information on the text object.
         </div>
 <div> </div>
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -106,7 +106,7 @@ The operation is not allowed due to the current state of the object.
 
 ## -remarks
 
-<b>WsWriteText</b> can be called only once between <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a> 
+<b>WsWriteText</b> can be called only once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a> 
         unless the text type is one of the following:
         <ul>
 <li><b>WS_XML_TEXT_TYPE_UTF8</b></li>
@@ -116,4 +116,3 @@ The operation is not allowed due to the current state of the object.
 <div class="alert"><b>Note</b>  If the text Type is set to either of the previous values WsWriteText can be called more than once.  However the text Type must be the same for all calls within an attribute.
       </div>
 <div> </div>
-

@@ -56,7 +56,7 @@ The <b>SetDisplay</b> method enables an authoring tool to obtain ICE status mess
 
 ### -param pDisplayFunction [in]
 
-		Specifies a callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nc-evalcom2-lpdisplayval">LPDISPLAYVAL</a> specification.
+		Specifies a callback function that conforms to the <a href="/windows/desktop/api/evalcom2/nc-evalcom2-lpdisplayval">LPDISPLAYVAL</a> specification.
 
 ### -param pContext [in]
 
@@ -97,13 +97,12 @@ The <i>pDisplayFunction</i> is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

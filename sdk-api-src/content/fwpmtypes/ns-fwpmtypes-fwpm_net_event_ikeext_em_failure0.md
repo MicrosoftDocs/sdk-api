@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> structure contains information that describes an IKE Extended Mode (EM) failure.
-[FWPM_NET_EVENT_IKEEXT_EM_FAILURE1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1) is available.</div><div> </div>
+[FWPM_NET_EVENT_IKEEXT_EM_FAILURE1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An [IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point) value that indicates the IPsec state when the failure occurred.
+An [IPSEC_FAILURE_POINT](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point) value that indicates the IPsec state when the failure occurred.
 
 ### -field flags
 
@@ -88,11 +88,11 @@ Indicates that multiple IKE EM failure events have been reported.
 
 ### -field emState
 
-An [IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state) value that indicates the EM state when the failure occurred.
+An [IKEEXT_EM_SA_STATE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state) value that indicates the EM state when the failure occurred.
 
 ### -field saRole
 
-An [IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role) value that specifies the SA role when the failure occurred.
+An [IKEEXT_SA_ROLE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role) value that specifies the SA role when the failure occurred.
 
 ### -field emAuthMethod
 
@@ -118,17 +118,16 @@ Quick Mode (QM) filter ID associated with this failure.
 
 
 
-[IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)
+[IKEEXT_EM_SA_STATE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)
 
 
 
-[IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)
+[IKEEXT_SA_ROLE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)
 
 
 
-[IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)
+[IPSEC_FAILURE_POINT](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

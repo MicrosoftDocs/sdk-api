@@ -56,7 +56,7 @@ Allows you to modify the parameters of  the process being created.
 
 ### -param pcpi [in]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs">ICreateProcessInputs</a> interface which allows you to set some parameters for the process that is being created.
+ A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs">ICreateProcessInputs</a> interface which allows you to set some parameters for the process that is being created.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Allows you to modify the parameters of  the process being created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a>

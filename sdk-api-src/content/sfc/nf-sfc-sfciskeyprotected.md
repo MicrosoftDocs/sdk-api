@@ -56,7 +56,7 @@ Determines whether the specified registry key is protected. Applications should 
 
 ### -param KeyHandle [in]
 
-A handle to the root registry key. This must be a handle to one of the following <a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>.
+A handle to the root registry key. This must be a handle to one of the following <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>.
 
 <p class="indent">HKEY_CLASSES_ROOT
 
@@ -68,12 +68,12 @@ A handle to the root registry key. This must be a handle to one of the following
 
 ### -param SubKeyName [in, optional]
 
-A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>. 
+A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>. 
 If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected.
 
 ### -param KeySam [in]
 
-A constant that specifies the alternate registry view that should be used by applications that run on 64-bit Windows.  This flag is ignored on the x86 platform. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg64/accessing-an-alternate-registry-view">Accessing an Alternate Registry View</a>.
+A constant that specifies the alternate registry view that should be used by applications that run on 64-bit Windows.  This flag is ignored on the x86 platform. For more information, see <a href="/windows/desktop/WinProg64/accessing-an-alternate-registry-view">Accessing an Alternate Registry View</a>.
 
 <table>
 <tr>
@@ -147,5 +147,4 @@ The <b>SfcIsKeyProtected</b> function returns a nonzero value for the following 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>
-
+<a href="/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>

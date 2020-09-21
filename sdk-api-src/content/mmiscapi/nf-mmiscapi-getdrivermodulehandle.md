@@ -60,7 +60,7 @@ Retrieves the instance handle of the module that contains the installable driver
 
 ### -param hDriver [in]
 
-Handle of the installable driver instance. The handle must have been previously created by using the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
+Handle of the installable driver instance. The handle must have been previously created by using the <a href="/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns an instance handle of the driver module if successful or <b>NULL</b> oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
+<a href="/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
-
+<a href="/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>

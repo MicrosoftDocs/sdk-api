@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>CERT_PHYSICAL_STORE_INFO</b> structure contains information on physical <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a>. Some members of these structures are passed directly to system calls of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open the physical store.
+The <b>CERT_PHYSICAL_STORE_INFO</b> structure contains information on physical <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a>. Some members of these structures are passed directly to system calls of 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open the physical store.
 
 ## -struct-fields
 
@@ -65,16 +65,16 @@ The size, in bytes, of this structure.
 
 ### -field pszOpenStoreProvider
 
-A pointer to a string that names a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> provider type. This string is passed in a system call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> and determines the provider type of a certificate store to be opened. For the names of predefined certificate store types, see 
+A pointer to a string that names a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> provider type. This string is passed in a system call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> and determines the provider type of a certificate store to be opened. For the names of predefined certificate store types, see 
 <b>CertOpenStore</b>. 
 
 
 
 
 In addition to predefined certificate store provider types, new store provider types can be installed and registered with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extending-certopenstore-functionality">CertOpenStore</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>. For more information, see 
+<a href="/windows/desktop/SecCrypto/extending-certopenstore-functionality">CertOpenStore</a>.
 
 ### -field dwOpenEncodingType
 
@@ -83,7 +83,7 @@ This member is applicable only when CERT_STORE_PROV_MSG, CERT_STORE_PROV_PKCS7, 
 
 
 
-It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -98,7 +98,7 @@ If a system store is opened with the SERVICES or USERS store location, the <b>dw
 
 ### -field OpenParameters
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains data to be passed to the <i>pvPara</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function. The data type depends on the provider specified. For detailed information about the type and content to be passed, see descriptions of available providers in 
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains data to be passed to the <i>pvPara</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function. The data type depends on the provider specified. For detailed information about the type and content to be passed, see descriptions of available providers in 
 <b>CertOpenStore</b>.
 
 ### -field dwFlags
@@ -116,7 +116,7 @@ The following <b>dwFlags</b> values for CERT_PHYSICAL_STORE_INFO are defined.
 </dl>
 </td>
 <td width="60%">
-Enables addition to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> to the store.
+Enables addition to a <a href="/windows/desktop/SecGloss/c-gly">context</a> to the store.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Enables addition to a <a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </td>
 <td width="60%">
 Set by 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a> function. By default, all system stores located in the registry have an implicit SystemRegistry physical store that is opened. To disable the opening of this store, the SystemRegistry physical store that corresponds to the System store must be registered by setting CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG or by registering a physical store named ".Default" with 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a> function. By default, all system stores located in the registry have an implicit SystemRegistry physical store that is opened. To disable the opening of this store, the SystemRegistry physical store that corresponds to the System store must be registered by setting CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG or by registering a physical store named ".Default" with 
 <b>CertRegisterPhysicalStore</b>.
 
 </td>
@@ -158,8 +158,8 @@ Places the string \\ComputerName in front of other provider types.
 </dl>
 </td>
 <td width="60%">
-Enables <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open a store relative to a user-specified HKEY instead of one of the predefined HKEY constants. For example, HKEY_CURRENT_USER can be replaced with a user-specified HKEY. When CERT_SYSTEM_STORE_RELOCATE_FLAG is set, the <i>pvPara</i> parameter passed to <b>CertOpenStore</b> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure instead of pointing to the store name as a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string.
+Enables <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open a store relative to a user-specified HKEY instead of one of the predefined HKEY constants. For example, HKEY_CURRENT_USER can be replaced with a user-specified HKEY. When CERT_SYSTEM_STORE_RELOCATE_FLAG is set, the <i>pvPara</i> parameter passed to <b>CertOpenStore</b> points to a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure instead of pointing to the store name as a null-terminated <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> or <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> string.
 
 </td>
 </tr>
@@ -168,25 +168,24 @@ Enables <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-winc
 ### -field dwPriority
 
 When a system store is opened, its physical stores are ordered according to their <b>dwPriority</b> settings. A higher <b>dwPriority</b> indicates higher priority. The <b>dwPriority</b> member is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>CALLINFO_STRING</b> enum is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> methods that set and get call information involving the use of strings.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> methods that set and get call information involving the use of strings.
 
 ## -enum-fields
 
@@ -114,9 +114,8 @@ The identifier of the calling party.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">ITCallInfo::get_CallInfoString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">ITCallInfo::get_CallInfoString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">ITCallInfo::put_CallInfoString</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">ITCallInfo::put_CallInfoString</a>

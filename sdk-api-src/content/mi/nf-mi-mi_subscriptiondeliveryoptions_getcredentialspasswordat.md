@@ -56,7 +56,7 @@ Gets a previously added credential password based on a specified index.
 
 ### -param self [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
+A <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
 ### -param index
 
@@ -64,11 +64,11 @@ Zero-based index of the credential password.
 
 ### -param optionName
 
-A pointer to a null-terminated string containing the returned name of the option. This name is owned by the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
+A pointer to a null-terminated string containing the returned name of the option. This name is owned by the <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
 ### -param password
 
-Returned password. This parameter is an in/out buffer that is passed in to be filled. This buffer should be cleared (using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function) as soon as the password is no longer needed for security reasons. If the input value is <b>NULL</b>, the <i>bufferLength</i> parameter should be zero, and the length needed will be passed back in the <i>passwordLength</i> parameter.
+Returned password. This parameter is an in/out buffer that is passed in to be filled. This buffer should be cleared (using the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function) as soon as the password is no longer needed for security reasons. If the input value is <b>NULL</b>, the <i>bufferLength</i> parameter should be zero, and the length needed will be passed back in the <i>passwordLength</i> parameter.
 
 ### -param bufferLength [in]
 
@@ -84,9 +84,8 @@ Returned credential flags.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>

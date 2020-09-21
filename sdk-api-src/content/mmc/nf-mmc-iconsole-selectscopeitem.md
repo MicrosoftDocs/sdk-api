@@ -68,17 +68,16 @@ Use this method to reselect the currently selected scope item or to select anoth
 
 You can have a single scope item with several different views available, for example, several OLE custom control (OCX) views and the default list view. When the user selects a different view from a menu, the snap-in receives the command and should then call 
 <b>SelectScopeItem</b> to reselect the item. 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> can then return the new view type.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> can then return the new view type.
 
 If 
-<b>SelectScopeItem</b> is called by the snap-in in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification handler, MMC will not select the specified scope item, even though 
+<b>SelectScopeItem</b> is called by the snap-in in its <a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification handler, MMC will not select the specified scope item, even though 
 <b>SelectScopeItem</b> may return <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>

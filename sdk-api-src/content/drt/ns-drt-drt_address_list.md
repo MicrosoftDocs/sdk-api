@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
+The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
 
 ## -struct-fields
 
@@ -64,13 +64,12 @@ The count of entries in <b>AddressList</b>.
 
 ### -field AddressList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
+An array of <a href="/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>

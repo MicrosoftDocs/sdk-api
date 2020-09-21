@@ -52,7 +52,7 @@ api_name:
 
 The
 				<b>NetAuditClear</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging">event logging</a>.
+<a href="/windows/desktop/EventLog/event-logging">event logging</a>.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ TBD
 ### -param service
 
 TBD
-

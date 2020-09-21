@@ -56,7 +56,7 @@ Retrieves the object context's transaction object.
 
 ### -param ppTx [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction object for the currently executing transaction.
+A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the transaction object for the currently executing transaction.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The object is not executing in a transaction. The <i>ppTx</i> parameter is <b>NU
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>

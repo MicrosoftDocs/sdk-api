@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to give the Sensor Adapter the chance 
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
 
@@ -87,4 +87,3 @@ This method is called when the last client using this biometric unit has closed 
 This method executes in the context of the same thread that activated the biometric unit and that processed all other requests for the unit.
 
 When this routine is called, the Engine and Storage adapters are still available.
-

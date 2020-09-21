@@ -47,13 +47,13 @@ api_name:
 
 ## -description
 
-The <b>PeerDistGetOverlappedResult</b> function retrieves the results of asynchronous operations. This function replaces the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function for Peer Distribution asynchronous operations.
+The <b>PeerDistGetOverlappedResult</b> function retrieves the results of asynchronous operations. This function replaces the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function for Peer Distribution asynchronous operations.
 
 ## -parameters
 
 ### -param lpOverlapped [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 ### -param lpNumberOfBytesTransferred [out]
 
@@ -68,4 +68,3 @@ If this parameter is `true`, the function does not return until the operation ha
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 `true` if the operation has completed. `false` if the *bWait* argument is `false` and the operation is still pending.
-

@@ -57,7 +57,7 @@ Retrieves the stream identifier for this stream sink.
 
 ### -param pdwIdentifier [out]
 
-Receives the stream identifier. If this stream sink was added by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a>, the stream identifier is in the <i>dwStreamSinkIdentifier</i> parameter of that method. Otherwise, the media sink defines the identifier.
+Receives the stream identifier. If this stream sink was added by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a>, the stream identifier is in the <i>dwStreamSinkIdentifier</i> parameter of that method. Otherwise, the media sink defines the identifier.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -105,9 +105,8 @@ This stream was removed from the media sink and is no longer valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

@@ -49,12 +49,9 @@ api_name:
  - ETW_TRACE_PARTITION_INFORMATION
 ---
 
-# ETW_TRACE_PARTITION_INFORMATION structure
-
-
 ## -description
 
-Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="https://docs.microsoft.com/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
+Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
 
 ## -struct-fields
 
@@ -64,9 +61,11 @@ GUID to identify the machine.
 
 ### -field ParentId
 
-GUID that identifies the partition instance that contains the traced partition.  If the traced partition is a host, then <b>ParentId</b> will be 0.
+GUID that identifies the partition instance that contains the traced partition. If the traced partition is a host, then <b>ParentId</b> will be 0.
 
 ### -field QpcOffsetFromRoot
+
+Reserved for future use.
 
 ### -field PartitionType
 
@@ -117,15 +116,8 @@ For events originating from a “Hyper-V Container” template virtual machine.
 </dl>
 </td>
 <td width="60%">
-For events originating from applications running with  <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
+For events originating from applications running with  <a href="/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-#### - Reserved
-
-Reserved for future use.
-

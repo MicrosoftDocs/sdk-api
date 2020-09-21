@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the currently selected date. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcursel">MCM_GETCURSEL</a> message explicitly.
+Retrieves the currently selected date. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-getcursel">MCM_GETCURSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -64,5 +64,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the currently selected date information. This parameter must be a valid address and cannot be <b>NULL</b>.
-
+Pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the currently selected date information. This parameter must be a valid address and cannot be <b>NULL</b>.

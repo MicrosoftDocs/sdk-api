@@ -69,9 +69,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-geometric">DirectXMath Library 3D Vector Geometric Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-geometric">DirectXMath Library 3D Vector Geometric Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector3reciprocallengthest">XMVector3ReciprocalLengthEst</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector3reciprocallengthest">XMVector3ReciprocalLengthEst</a>

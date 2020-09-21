@@ -74,26 +74,26 @@ The upper sixteen bits of <i>lParam</i> are used for flags that modify the sorti
 #### SHCIDS_ALLFIELDS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Compare all the information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface. For instance, if the two items are files, the folder should compare their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>lParam</i> must be zero.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Compare all the information contained in the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface. For instance, if the two items are files, the folder should compare their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>lParam</i> must be zero.
 
 
 
 #### SHCIDS_CANONICALONLY
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. When comparing by name, compare the system names but not the display names. When this flag is passed, the two items are compared by whatever criteria the Shell folder determines are most efficient, as long as it implements a consistent sort function. This flag is useful when comparing for equality or when the results of the sort are not displayed to the user. This flag cannot be combined with other flags.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. When comparing by name, compare the system names but not the display names. When this flag is passed, the two items are compared by whatever criteria the Shell folder determines are most efficient, as long as it implements a consistent sort function. This flag is useful when comparing for equality or when the results of the sort are not displayed to the user. This flag cannot be combined with other flags.
 
 ### -param pidl1 [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the first item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
+A pointer to the first item's <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
 
 ### -param pidl2 [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the second item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
+A pointer to the second item's <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
 
 ## -returns
 
@@ -144,9 +144,9 @@ A return value of zero indicates that the two items are the same (pidl1 = pidl2)
 ## -remarks
 
 <h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
-Do not set the <b>SHCIDS_ALLFIELDS</b> flag in <i>lParam</i> if the folder object does not support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>. Doing so might have unpredictable results. If you use the <b>SHCIDS_ALLFIELDS</b> flag, the lower sixteen bits of <i>lParam</i> must be set to zero.
+Do not set the <b>SHCIDS_ALLFIELDS</b> flag in <i>lParam</i> if the folder object does not support <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>. Doing so might have unpredictable results. If you use the <b>SHCIDS_ALLFIELDS</b> flag, the lower sixteen bits of <i>lParam</i> must be set to zero.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_code">HRESULT_CODE</a> macro to extract the CODE field from the <b>HRESULT</b>, then cast the result as a <b>short</b>.
+Use the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_code">HRESULT_CODE</a> macro to extract the CODE field from the <b>HRESULT</b>, then cast the result as a <b>short</b>.
 		
     			
 
@@ -166,7 +166,7 @@ else
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
 To extract the sorting rule, use a bitwise AND operator (&amp;) to combine <i>lParam</i> with SHCIDS_COLUMNMASK (0X0000FFFF). This operation masks off the upper sixteen bits of <i>lParam</i>, including the <b>SHCIDS_ALLFIELDS</b> value.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dmerror/nf-dmerror-make_hresult">MAKE_HRESULT</a> macro is useful for constructing the return value for
+The <a href="/windows/desktop/api/dmerror/nf-dmerror-make_hresult">MAKE_HRESULT</a> macro is useful for constructing the return value for
             an implementation of the CompareIDs method.  For example:
 			
     			
@@ -195,9 +195,8 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>

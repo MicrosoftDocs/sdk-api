@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>CloseDatabase</b> method closes the currently open Windows Installer database. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closedatabase">CloseDatabase</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge object</a>. 
+<a href="/windows/desktop/Msi/merge-closedatabase">CloseDatabase</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge object</a>. 
 
 <b>IMsmMerge2::CloseDatabase</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::CloseDatabase</b>      All Mergemod.dll versions.
 
@@ -80,8 +80,8 @@ The <b>CloseDatabase</b> function returns the following values.
 </td>
 <td width="60%">
 There was an error closing the database. The state of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge2">IMsmMerge2</a> interface is now in an undefined state.
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> or 
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmmerge2">IMsmMerge2</a> interface is now in an undefined state.
 
 </td>
 </tr>
@@ -126,5 +126,4 @@ This function closes the currently open database. Closing a database clears all 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

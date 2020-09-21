@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfCompartment</b> interface is implemented by the TSF manager and is used by clients (applications and text services) to obtain and set data in a TSF compartment.
 
-A client also uses this interface to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface that is used to install an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink</a> compartment change notification sink. The client calls <b>ITfCompartment::QueryInterface</b> with IID_ITfSource to obtain the <b>ITfSource</b> interface.
+A client also uses this interface to obtain an <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface that is used to install an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink</a> compartment change notification sink. The client calls <b>ITfCompartment::QueryInterface</b> with IID_ITfSource to obtain the <b>ITfSource</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartment</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfCompartment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">GetValue</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Obtains the data for a compartment.
@@ -80,7 +80,7 @@ Obtains the data for a compartment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">SetValue</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the data for a compartment.
@@ -91,9 +91,8 @@ Sets the data for a compartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>
+<a href="/windows/desktop/TSF/compartments">Compartments</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

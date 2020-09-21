@@ -131,9 +131,8 @@ This method is not yet implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-put_defaultobjectttl">ITDirectory::put_DefaultObjectTTL</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-put_defaultobjectttl">ITDirectory::put_DefaultObjectTTL</a>

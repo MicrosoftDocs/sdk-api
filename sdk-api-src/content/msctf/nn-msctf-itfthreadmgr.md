@@ -54,7 +54,7 @@ The <b>ITfThreadMgr</b> defines the primary object implemented by the TSF manage
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfThreadMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">Activate</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">Activate</a>
 </td>
 <td align="left" width="63%">
 Activates TSF for the calling thread.
@@ -78,7 +78,7 @@ Activates TSF for the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-associatefocus">AssociateFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-associatefocus">AssociateFocus</a>
 </td>
 <td align="left" width="63%">
 Associates the focus for a window with a document manager object.
@@ -87,7 +87,7 @@ Associates the focus for a window with a document manager object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-createdocumentmgr">CreateDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-createdocumentmgr">CreateDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Creates a document manager object.
@@ -96,7 +96,7 @@ Creates a document manager object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">Deactivate</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Deactivates TSF for the calling thread.
@@ -105,7 +105,7 @@ Deactivates TSF for the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumdocumentmgrs">EnumDocumentMgrs</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumdocumentmgrs">EnumDocumentMgrs</a>
 </td>
 <td align="left" width="63%">
 Returns an enumerator for all the document managers within the calling thread.
@@ -114,7 +114,7 @@ Returns an enumerator for all the document managers within the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumfunctionproviders">EnumFunctionProviders</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumfunctionproviders">EnumFunctionProviders</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator for all of the function providers registered for the calling thread.
@@ -123,7 +123,7 @@ Obtains an enumerator for all of the function providers registered for the calli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfocus">GetFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfocus">GetFocus</a>
 </td>
 <td align="left" width="63%">
 Returns the document manager that has the input focus.
@@ -132,7 +132,7 @@ Returns the document manager that has the input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">GetFunctionProvider</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">GetFunctionProvider</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified function provider object.
@@ -141,7 +141,7 @@ Obtains the specified function provider object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">GetGlobalCompartment</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">GetGlobalCompartment</a>
 </td>
 <td align="left" width="63%">
 Obtains the global compartment manager object.
@@ -150,7 +150,7 @@ Obtains the global compartment manager object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-isthreadfocus">IsThreadFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-isthreadfocus">IsThreadFocus</a>
 </td>
 <td align="left" width="63%">
 Determines if the calling thread has the TSF input focus.
@@ -159,7 +159,7 @@ Determines if the calling thread has the TSF input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">SetFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the input focus to the specified document manager.
@@ -170,9 +170,9 @@ Sets the input focus to the specified document manager.
 
 ## -remarks
 
-An application obtains a pointer to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
+An application obtains a pointer to this interface by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_ThreadMgr as demonstrated below.
 
-A text service receives a pointer to this interface in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
+A text service receives a pointer to this interface in its <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
 
 
 #### Examples
@@ -193,14 +193,13 @@ hr = CoCreateInstance(  CLSID_TF_ThreadMgr,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

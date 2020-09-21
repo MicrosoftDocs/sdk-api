@@ -57,7 +57,7 @@ Retrieves information about the specified combo box.
 
 ### -param hwndCombo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box.
 
@@ -65,19 +65,19 @@ A handle to the combo box.
 
 Type: <b>PCOMBOBOXINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-comboboxinfo">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-comboboxinfo">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
+The <a href="/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
 
 
 #### Examples
@@ -93,17 +93,16 @@ GetComboBoxInfo(hwnd, &info);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a>
+<a href="/windows/desktop/Controls/cb-getcomboboxinfo">CB_GETCOMBOBOXINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-comboboxinfo">COMBOBOXINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-comboboxinfo">COMBOBOXINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getlistboxinfo">GetListBoxInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getlistboxinfo">GetListBoxInfo</a>
 
 
 
 <b>Reference</b>
-

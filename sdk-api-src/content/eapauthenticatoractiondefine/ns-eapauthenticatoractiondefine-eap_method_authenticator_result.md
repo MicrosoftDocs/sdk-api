@@ -66,9 +66,8 @@ Contains a reason code if the supplicant could not be authenticated. Reason code
 
 ### -field pAuthAttribs
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> structure that contains the EAP attributes  returned by the authentication session.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> structure that contains the EAP attributes  returned by the authentication session.
 
 ## -see-also
 
 [EAPHost Authenticator Method Structures](/windows/win32/eaphost/eap-host-authenticator-method-structures)
-

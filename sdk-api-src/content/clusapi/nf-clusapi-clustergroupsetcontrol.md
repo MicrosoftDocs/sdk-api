@@ -53,7 +53,7 @@ api_name:
 Initiates an operation affecting a groupset.
 
 The 
-    operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
+    operation performed depends on the <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
 ## -parameters
@@ -65,40 +65,40 @@ Handle to the groupset to be affected.
 ### -param hHostNode [in, optional]
 
 If non-<b>NULL</b>, handle to the node to perform the operation represented by the control 
-       code. If <b>NULL</b>, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
+       code. If <b>NULL</b>, the <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
        groupset performs the operation. Specifying <i>hHostNode</i> is optional.
 
 ### -param dwControlCode [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/collection-control-codes-">Collection Control Code</a> specifying 
+A <a href="/previous-versions/windows/desktop/mscs/collection-control-codes-">Collection Control Code</a> specifying 
        the operation to be performed. For the syntax associated with a control code, refer to  
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
+       <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
        topics.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-common-properties">CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-get-common-properties">CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-groups">CLUSCTL_GROUPSET_GET_GROUPS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-get-groups">CLUSCTL_GROUPSET_GET_GROUPS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-groups">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-groups">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-collections">CLUSCTL_GROUPSET_GET_PROVIDER_COLLECTIONS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-get-provider-collections">CLUSCTL_GROUPSET_GET_PROVIDER_COLLECTIONS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-get-ro-common-properties">CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-get-ro-common-properties">CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-collection-set-common-properties">CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-collection-set-common-properties">CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-groups">CLUSCTL_GROUP_GET_PROVIDER_GROUPS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-groups">CLUSCTL_GROUP_GET_PROVIDER_GROUPS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-collections">CLUSCTL_GROUP_GET_PROVIDER_COLLECTIONS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-provider-collections">CLUSCTL_GROUP_GET_PROVIDER_COLLECTIONS</a>
 </li>
 </ul>
 
@@ -167,7 +167,7 @@ The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -178,4 +178,3 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
-

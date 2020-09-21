@@ -51,19 +51,18 @@ api_name:
 ## -description
 
 Retrieves a handle to the icon associated with a static control that has the SS_ICON style. 
- You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/stm-geticon">STM_GETICON</a> message explicitly.
+ You can use this macro or send the <a href="/windows/desktop/Controls/stm-geticon">STM_GETICON</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param hIcon
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 A handle to the icon.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DS_NAME_FORMAT</b> enumeration provides formats to use for input and output names for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function.
+The <b>DS_NAME_FORMAT</b> enumeration provides formats to use for input and output names for the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function.
 
 ## -enum-fields
 
@@ -79,7 +79,7 @@ Indicates a user-friendly display name, for example, Jeff Smith. The display nam
 
 ### -field DS_UNIQUE_ID_NAME
 
-Indicates a GUID string that the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns. For example:
+Indicates a GUID string that the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns. For example:
 
 {4fa050f0-f561-11cf-bdd9-00aa003a77b6}
 
@@ -112,7 +112,7 @@ www/www.fabrikam.com@fabrikam.com
 ### -field DS_SID_OR_SID_HISTORY_NAME
 
 Indicates a Security Identifier (SID) for the object. This can be either the current SID or a SID from the object SID history. The SID string can use either the standard string representation of a SID, or one of the string constants defined in Sddl.h. For more information about converting a binary SID into a SID string, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-strings">SID Strings</a>. The following is an example of a SID string:
+<a href="/windows/desktop/SecAuthZ/sid-strings">SID Strings</a>. The following is an example of a SID string:
 
 S-1-5-21-397955417-626881126-188441444-501
 
@@ -122,9 +122,8 @@ Not supported by the Directory Service (DS) APIs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

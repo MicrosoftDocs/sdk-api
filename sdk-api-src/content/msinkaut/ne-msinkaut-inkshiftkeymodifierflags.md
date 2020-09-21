@@ -72,25 +72,24 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-keydown">KeyDown Event [InkEdit Control]</a>
+<a href="/windows/desktop/tablet/inkedit-keydown">KeyDown Event [InkEdit Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-keyup">KeyUp Event [InkEdit Control]</a>
+<a href="/windows/desktop/tablet/inkedit-keyup">KeyUp Event [InkEdit Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousedown">MouseDown Event [InkPicture Control]</a>
+<a href="/windows/desktop/tablet/inkpicture-mousedown">MouseDown Event [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousemove">MouseMove Event [InkPicture Control]</a>
+<a href="/windows/desktop/tablet/inkpicture-mousemove">MouseMove Event [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-mouseup">MouseUp Event [InkOverlay Class]</a>
+<a href="/windows/desktop/tablet/inkoverlay-mouseup">MouseUp Event [InkOverlay Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel Event [InkPicture Control]</a>
-
+<a href="/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel Event [InkPicture Control]</a>

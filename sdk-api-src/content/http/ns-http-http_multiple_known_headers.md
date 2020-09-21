@@ -60,7 +60,7 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure specifies the headers that are 
 
 ### -field HeaderId
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
+A member of the <a href="/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
 
 ### -field Flags
 
@@ -89,25 +89,24 @@ The number of elements in  the array specified in the  <b>KnownHeaders</b> membe
 
 ### -field KnownHeaders
 
-A pointer to the first element in the array of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_known_header">HTTP_KNOWN_HEADER</a> structures.
+A pointer to the first element in the array of <a href="/windows/desktop/api/http/ns-http-http_known_header">HTTP_KNOWN_HEADER</a> structures.
 
 ## -remarks
 
 The HTTP version 1.0 API allows applications to send only one known response header with the response. Starting with the HTTP version 2.0 API, applications are enabled to send multiple known response headers.
 
-The <b>pInfo</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure points to this structure when the application provides multiple known headers on a response. The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> structure starting with HTTP version 2.0.
+The <b>pInfo</b>  member of the <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure points to this structure when the application provides multiple known headers on a response. The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a> structure starting with HTTP version 2.0.
 
 The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure enables server applications to send multiple authentication challenges to the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>

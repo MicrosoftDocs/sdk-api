@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets a temporary property for the specified item. A temporary property is kept in a read/write store that holds properties only for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object, instead of writing them back into the item.
+Sets a temporary property for the specified item. A temporary property is kept in a read/write store that holds properties only for the lifetime of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object, instead of writing them back into the item.
 
 ## -parameters
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the item on which the temporary property is to be set.
 
@@ -64,13 +64,13 @@ A pointer to the item on which the temporary property is to be set.
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the temporary property that is being set.
+Reference to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the temporary property that is being set.
 
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> that contains the value of the temporary property.
+Reference to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> that contains the value of the temporary property.
 
 ## -returns
 
@@ -80,5 +80,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-A temporary value can only be read with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgettemporarypropertyforitem">SHGetTemporaryPropertyForItem</a> or by passing GPS_TEMPORARY to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>.
-
+A temporary value can only be read with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgettemporarypropertyforitem">SHGetTemporaryPropertyForItem</a> or by passing GPS_TEMPORARY to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>.

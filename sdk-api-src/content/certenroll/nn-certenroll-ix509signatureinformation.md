@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IX509SignatureInformation</b> interface represents information used to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This includes signature, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithms</a>, and public key parameters. The signature process consists of digesting the certificate request by using a hash algorithm, encoding the digest and the hash algorithm identifier by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), and signing (encrypting) the result.
+The <b>IX509SignatureInformation</b> interface represents information used to sign a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This includes signature, <a href="/windows/desktop/SecGloss/h-gly">hash</a>, and <a href="/windows/desktop/SecGloss/p-gly">public key algorithms</a>, and public key parameters. The signature process consists of digesting the certificate request by using a hash algorithm, encoding the digest and the hash algorithm identifier by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), and signing (encrypting) the result.
 
-The algorithms used in this process can be either discrete or combined. Discrete algorithms are represented by separate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Discrete algorithms are used when signing a PKCS #7 or CMC request. Examples include the following values.<table>
+The algorithms used in this process can be either discrete or combined. Discrete algorithms are represented by separate <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Discrete algorithms are used when signing a PKCS #7 or CMC request. Examples include the following values.<table>
 <tr>
 <th>Discrete algorithm OID</th>
 <th>Description</th>
@@ -96,11 +96,11 @@ Combined algorithms, which can be used to sign PKCS #10 requests, are represente
 
 
 
-The object is automatically initialized when an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object is initialized.
+The object is automatically initialized when an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>, <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>, or <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object is initialized.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SignatureInformation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509SignatureInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SignatureInformation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509SignatureInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -116,16 +116,16 @@ The <b>IX509SignatureInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a>
 </td>
 <td align="left" width="63%">
-Retrieves the signing algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+Retrieves the signing algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-setdefaultvalues">SetDefaultValues</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-setdefaultvalues">SetDefaultValues</a>
 </td>
 <td align="left" width="63%">
 Specifies a default hashing algorithm used to create a digest of the certificate request prior to  signing.
@@ -142,43 +142,43 @@ Specifies a default hashing algorithm used to create a digest of the certificate
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies and retrieves a Boolean value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method should retrieve a discrete or combined algorithm OID for a PKCS #10 certificate request.
+Specifies and retrieves a Boolean value that specifies whether the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method should retrieve a discrete or combined algorithm OID for a PKCS #10 certificate request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithmset">AlternateSignatureAlgorithmSet</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithmset">AlternateSignatureAlgorithmSet</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a Boolean value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a> property has been explicitly set by a caller.
+Retrieves a Boolean value that specifies whether the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a> property has been explicitly set by a caller.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_hashalgorithm">HashAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_hashalgorithm">HashAlgorithm</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies and retrieves an OID for the hashing algorithm used in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
+Specifies and retrieves an OID for the hashing algorithm used in the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned">NullSigned</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned">NullSigned</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Specifies and retrieves a Boolean value that indicates whether the certificate r
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_parameters">Parameters</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_parameters">Parameters</a>
 
 
 </td>
@@ -202,12 +202,12 @@ Retrieves a byte array that contains the parameters associated with the signatur
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm">PublicKeyAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm">PublicKeyAlgorithm</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies and retrieves an OID for the public key algorithm used in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
+Specifies and retrieves an OID for the public key algorithm used in the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
 
 </td>
 </tr>
@@ -215,21 +215,20 @@ Specifies and retrieves an OID for the public key algorithm used in the <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
+<a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

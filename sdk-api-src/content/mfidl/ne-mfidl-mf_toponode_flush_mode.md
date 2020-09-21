@@ -70,9 +70,8 @@ The transform is never flushed during streaming. It is flushed only when the obj
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-flush-attribute">MF_TOPONODE_FLUSH</a>
+<a href="/windows/desktop/medfound/mf-toponode-flush-attribute">MF_TOPONODE_FLUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

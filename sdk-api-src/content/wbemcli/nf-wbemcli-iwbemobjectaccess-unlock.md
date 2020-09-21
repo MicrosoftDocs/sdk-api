@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>Unlock</b> method allows other threads to update the property values of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> object.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> object.
 
 ## -parameters
 
@@ -67,5 +67,4 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>

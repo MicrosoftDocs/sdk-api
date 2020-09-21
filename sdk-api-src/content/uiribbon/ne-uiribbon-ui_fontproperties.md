@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies values that identify the font property state of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>, such as <b>Strikethrough</b>.
+Specifies values that identify the font property state of a <a href="/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>, such as <b>Strikethrough</b>.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The property is set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>

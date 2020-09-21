@@ -70,5 +70,4 @@ Maximum value for testing purposes.
 
 ## -see-also
 
-[IPSEC_SA_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)
-
+[IPSEC_SA_CONTEXT_CHANGE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)

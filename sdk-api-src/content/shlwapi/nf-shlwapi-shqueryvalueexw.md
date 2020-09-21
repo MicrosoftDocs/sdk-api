@@ -107,7 +107,7 @@ Reserved. Must be <b>NULL</b>.
 
 Type: <b>LPDWORD</b>
 
-The address of the variable that receives the key's value type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>.
+The address of the variable that receives the key's value type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
 
 ### -param pvData [out, optional]
 
@@ -143,10 +143,9 @@ The address of the variable that specifies the size, in bytes, of the buffer poi
 
 Type: <b>DWORD</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines SHQueryValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

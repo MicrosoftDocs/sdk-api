@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IVMRSurfaceAllocator</code> interface is implemented by the default allocator-presenter for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in allocator-presenter that an application provides to the VMR-7. The VMR-7 uses the methods on this interface to allocate, prepare and free DirectDraw surfaces. Applications do not use this interface.
+The <code>IVMRSurfaceAllocator</code> interface is implemented by the default allocator-presenter for the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in allocator-presenter that an application provides to the VMR-7. The VMR-7 uses the methods on this interface to allocate, prepare and free DirectDraw surfaces. Applications do not use this interface.
 
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9">IVMRSurfaceAllocator9</a> interface.
+For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9">IVMRSurfaceAllocator9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVMRSurfaceAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-advisenotify">AdviseNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-advisenotify">AdviseNotify</a>
 </td>
 <td align="left" width="63%">
 Called by the VMR to provide the allocator-presenter with an interface pointer for notification callbacks.
@@ -81,7 +81,7 @@ Called by the VMR to provide the allocator-presenter with an interface pointer f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">AllocateSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">AllocateSurface</a>
 </td>
 <td align="left" width="63%">
 Allocates a DirectDraw surface.
@@ -90,7 +90,7 @@ Allocates a DirectDraw surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-freesurface">FreeSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-freesurface">FreeSurface</a>
 </td>
 <td align="left" width="63%">
 Frees the allocated DirectDraw surface.
@@ -99,7 +99,7 @@ Frees the allocated DirectDraw surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-preparesurface">PrepareSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-preparesurface">PrepareSurface</a>
 </td>
 <td align="left" width="63%">
 Prepares the DirectDraw surface to have the next video frame decoded into it.
@@ -110,5 +110,4 @@ Prepares the DirectDraw surface to have the next video frame decoded into it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

@@ -60,7 +60,7 @@ Specifies the peer graph to  listen  on.
 
 ### -param dwScope [in]
 
-Specifies the IPv6 scope to listen on.  Valid values are identified in the following table. For more information about scope, see <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">Link-Local and Site-Local Addresses</a>.
+Specifies the IPv6 scope to listen on.  Valid values are identified in the following table. For more information about scope, see <a href="/windows/desktop/P2PSdk/graphing-reference-links">Link-Local and Site-Local Addresses</a>.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ Specifies the IPv6 scope ID to listen on. Specify zero (0) to listen on all inte
 
 ### -param wPort [in]
 
-Specifies the port  to listen on. Specify zero (0) to use a dynamic port. If zero (0) is specified, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a> to retrieve data.
+Specifies the port  to listen on. Specify zero (0) to use a dynamic port. If zero (0) is specified, use <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a> to retrieve data.
 
 ## -returns
 
@@ -170,7 +170,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The graph must be initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
+The graph must be initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ The graph must be initialized with a call to <a href="https://docs.microsoft.com
 
 To be able to accept direct connections, a node must  subscribe to the  <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event.  
 
-Before this function can be called, the application must  call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>. 
+Before this function can be called, the application must  call <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>. 
 
 <div class="alert"><b>Note</b>  If this is the first time a peer graph is opened, all calls to <b>PeerGraphListen</b>  fail until the node  connects to and synchronizes with  the peer graph.</div>
 <div> </div>
@@ -211,17 +211,16 @@ The following code snippet shows how to use the <b>PeerGraphListen</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>

@@ -52,18 +52,18 @@ api_name:
 
 ## -description
 
-Describes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> that is a required 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> of another resource. This union is used as 
-    a value in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> returned from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a> or 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> operation.
+Describes a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> that is a required 
+    <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> of another resource. This union is used as 
+    a value in the <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> returned from a 
+    <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a> or 
+    <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>
+<a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> operation.
 
 ## -struct-fields
 
 ### -field Value
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing whether the data 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing whether the data 
        in the structure is a resource class or resource type name.
 
 ### -field ResClass
@@ -81,13 +81,13 @@ A resource has a dependency on a resource of an unknown class.
 #### CLUS_RESCLASS_STORAGE (1)
 
 A resource has a dependency on a storage device, such as a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
+         <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
 
 
 
 #### CLUS_RESCLASS_NETWORK (2)
 
-A resource has a dependency on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
+A resource has a dependency on a <a href="/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
 
 
 
@@ -99,20 +99,20 @@ A resource has a dependency on a resource belonging to a user-defined class.
 
 ### -field ResTypeName
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">Resource type</a> upon which a resource must depend, such 
-       as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>.
+<a href="/previous-versions/windows/desktop/mscs/resource-types">Resource type</a> upon which a resource must depend, such 
+       as <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>.
 
 ## -remarks
 
 The <b>CLUSPROP_REQUIRED_DEPENDENCY</b> 
      structure describes mandatory dependencies. For example, a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/print-spooler">Print Spooler</a> resource has required dependencies on a 
-     storage device and a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource. The first type of 
+     <a href="/previous-versions/windows/desktop/mscs/print-spooler">Print Spooler</a> resource has required dependencies on a 
+     storage device and a <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource. The first type of 
      dependency is described using a resource class; storage device resources belong to the 
      <b>CLUS_RESCLASS_STORAGE</b> resource class. The second type of dependency is described 
      using a resource type name, such as "Network Name". Therefore, when an application calls 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> with the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a> 
+     <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> with the 
+     <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a> 
      control code, a value list is returned with two entries: a 
      <b>CLUSPROP_REQUIRED_DEPENDENCY</b> structure 
      with the <b>ResClass</b> member set to <b>CLUS_RESCLASS_STORAGE</b>, and 
@@ -122,31 +122,30 @@ The <b>CLUSPROP_REQUIRED_DEPENDENCY</b>
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-value-lists">Creating Value Lists</a>.
+See <a href="/previous-versions/windows/desktop/mscs/creating-value-lists">Creating Value Lists</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

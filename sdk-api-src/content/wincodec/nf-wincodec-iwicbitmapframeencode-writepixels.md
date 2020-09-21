@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Copies scan-line data from a caller-supplied buffer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object.
+Copies scan-line data from a caller-supplied buffer to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object.
 
 ## -parameters
 
@@ -116,4 +116,3 @@ The value of <i>lineCount</i> is larger than the number of scan lines in the ima
 ## -remarks
 
 Successive <b>WritePixels</b> calls are assumed to be sequential scan-line access in the output image.
-

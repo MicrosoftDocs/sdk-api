@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IDDrawExclModeVideoCallback</code> interface is a callback interface for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo</a> interface.
+The <code>IDDrawExclModeVideoCallback</code> interface is a callback interface for the <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo</a> interface.
 
 This callback interface enables applications to get synchronous notification about changes to the overlay position, size, visibility, and so on, so that the application can adjust its video visibility, size, and position. This avoids any color key flash at the beginning, end, or during playback. The application must implement the interface. It is important that none of the methods block or slow down the video processing, because this will cause problems with playback.
 
@@ -59,7 +59,7 @@ Use this interface if you are writing a filter that supports <b>IDDrawExclModeVi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDDrawExclModeVideoCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDDrawExclModeVideoCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDDrawExclModeVideoCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDDrawExclModeVideoCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDDrawExclModeVideoCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatecolorkey">OnUpdateColorKey</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatecolorkey">OnUpdateColorKey</a>
 </td>
 <td align="left" width="63%">
 Informs the application that the color key has changed so that the application can use the new color key to overlay graphics on the video.
@@ -83,7 +83,7 @@ Informs the application that the color key has changed so that the application c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ede823ba-8340-4339-8e8a-e1d4f9ad1273">OnUpdateOverlay</a>
+<a href="/windows/win32/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdateoverlay">OnUpdateOverlay</a>
 </td>
 <td align="left" width="63%">
 Informs the application when the overlay surface for the video is about to change.
@@ -92,7 +92,7 @@ Informs the application when the overlay surface for the video is about to chang
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatesize">OnUpdateSize</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatesize">OnUpdateSize</a>
 </td>
 <td align="left" width="63%">
 Informs the application when the size of the video rectangle is about to change.
@@ -100,4 +100,3 @@ Informs the application when the size of the video rectangle is about to change.
 </td>
 </tr>
 </table>
-

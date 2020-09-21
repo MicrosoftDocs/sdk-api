@@ -58,7 +58,7 @@ Contains script state information.
 
 ### -field uBidiLevel
 
-Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
+Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
 
 ### -field fOverrideDirection
 
@@ -280,7 +280,7 @@ Do not consider prior strong characters to be Arabic for the purposes of rule P0
 
 ### -field fGcpClusters
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
+For <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
 
 <table>
 <tr>
@@ -293,7 +293,7 @@ For <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-get
 </dl>
 </td>
 <td width="60%">
-Generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
+Generate the array the same way as <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
@@ -303,7 +303,7 @@ Generate the array the same way as <a href="https://docs.microsoft.com/windows/d
 </dl>
 </td>
 <td width="60%">
-Do not generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
+Do not generate the array the same way as <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
@@ -319,21 +319,20 @@ Reserved; always initialize to 0.
 
 ## -remarks
 
-This structure is used to initialize the Unicode algorithm state as an input to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
+This structure is used to initialize the Unicode algorithm state as an input to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

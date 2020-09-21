@@ -56,7 +56,7 @@ A client or host is connected to the ad hoc network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-enumerations">Native Wifi Enumerations</a>
+<a href="/windows/desktop/NativeWiFi/native-wifi-enumerations">Native Wifi Enumerations</a>
 
 
 
@@ -64,5 +64,4 @@ A client or host is connected to the ad hoc network.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>

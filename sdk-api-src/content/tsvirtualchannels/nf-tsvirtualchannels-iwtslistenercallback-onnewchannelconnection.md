@@ -57,7 +57,7 @@ Allows the Remote Desktop Connection (RDC) client plug-in to accept or deny a co
 
 ### -param pChannel [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannel</a> object that 
+An <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannel</a> object that 
       represents the incoming connection. This object will only be connected if the connection is accepted by this 
       method.
 
@@ -73,7 +73,7 @@ Indicates whether the connection should be accepted. Receives <b>TRUE</b> if the
 ### -param ppCallback [out]
 
 Receives an 
-      <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a> object that 
+      <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a> object that 
       receives notifications for the connection. This object is created by the plug-in.
 
 ## -returns
@@ -82,17 +82,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-client-plug-in-example">DVC Client Plug-in Example</a>
+<a href="/windows/desktop/TermServ/dvc-client-plug-in-example">DVC Client Plug-in Example</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannel</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>

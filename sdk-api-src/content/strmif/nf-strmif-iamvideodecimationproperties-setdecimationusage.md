@@ -57,7 +57,7 @@ The <code>SetDecimationUsage</code> method sets the decimation strategy.
 
 ### -param Usage [in]
 
-Member of the [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) enumeration that specifies the decimation strategy.
+Member of the [DECIMATION_USAGE](/windows/desktop/api/strmif/ne-strmif-decimation_usage) enumeration that specifies the decimation strategy.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>

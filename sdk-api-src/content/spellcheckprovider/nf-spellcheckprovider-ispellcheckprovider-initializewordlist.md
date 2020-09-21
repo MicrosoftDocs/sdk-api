@@ -60,7 +60,7 @@ The type of word list.
 
 ### -param words [in]
 
-The set of words to be included in the word list, passed as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object..
+The set of words to be included in the word list, passed as an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object..
 
 ## -returns
 
@@ -89,7 +89,7 @@ Successful.
 </dl>
 </td>
 <td width="60%">
-<i>wordlistType</i> is not a valid member of the <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a> enumeration.
+<i>wordlistType</i> is not a valid member of the <a href="/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -97,21 +97,20 @@ Successful.
 
 ## -remarks
 
-This method is called by the system (for example, when the client calls <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>), which passes the words from the respective word list to the provider so that it can consider the word list when spell checking.
+This method is called by the system (for example, when the client calls <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>), which passes the words from the respective word list to the provider so that it can consider the word list when spell checking.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a>
-
+<a href="/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a>

@@ -54,7 +54,7 @@ Defines methods for storing per-file similarity data and performing similarity l
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTraitsTable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTraitsTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTraitsTable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTraitsTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISimilarityTraitsTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-append">Append</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-append">Append</a>
 </td>
 <td align="left" width="63%">
 Adds a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
@@ -78,7 +78,7 @@ Adds a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">BeginDump</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">BeginDump</a>
 </td>
 <td align="left" width="63%">
 Retrieves similarity data from the similarity traits table.
@@ -87,7 +87,7 @@ Retrieves similarity data from the similarity traits table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-closetable">CloseTable</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-closetable">CloseTable</a>
 </td>
 <td align="left" width="63%">
 Closes a similarity traits table.
@@ -96,7 +96,7 @@ Closes a similarity traits table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">CreateTable</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">CreateTable</a>
 </td>
 <td align="left" width="63%">
 Creates or opens a similarity traits table.
@@ -105,16 +105,16 @@ Creates or opens a similarity traits table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtableindirect">CreateTableIndirect</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtableindirect">CreateTableIndirect</a>
 </td>
 <td align="left" width="63%">
-Creates or opens a similarity traits table using the RDC application's implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a> interface.
+Creates or opens a similarity traits table using the RDC application's implementation of the <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">FindSimilarFileIndex</a>
+<a href="/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">FindSimilarFileIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a list of files that are similar to a given file.
@@ -123,7 +123,7 @@ Returns a list of files that are similar to a given file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-getlastindex">GetLastIndex</a>
+<a href="/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-getlastindex">GetLastIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index of the last entry that was stored in the similarity traits table.
@@ -134,5 +134,4 @@ Retrieves the index of the last entry that was stored in the similarity traits t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

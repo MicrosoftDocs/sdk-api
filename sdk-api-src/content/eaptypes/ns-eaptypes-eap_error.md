@@ -62,7 +62,7 @@ Error code from winerror.h.
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method that raised the error.
+An <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method that raised the error.
 
 ### -field dwReasonCode
 
@@ -549,4 +549,3 @@ A localized and readable string that describes the possible repair action.
 ## -see-also
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
-

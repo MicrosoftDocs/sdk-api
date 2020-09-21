@@ -53,21 +53,21 @@ api_name:
 ## -description
 
 Reads data from a handle opened by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 ## -parameters
 
 ### -param hFile [in]
 
 Handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 ### -param lpBuffersOut [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
 
 ### -param dwFlags [in]
 
@@ -85,7 +85,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Identical to  <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-fl
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-fla
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -131,12 +131,12 @@ A caller supplied context value used for asynchronous operations.
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -147,9 +147,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
+<a href="/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

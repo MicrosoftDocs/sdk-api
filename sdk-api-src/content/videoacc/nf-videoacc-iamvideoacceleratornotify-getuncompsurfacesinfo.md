@@ -61,9 +61,9 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pUncompBufferInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvauncompbufferinfo">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
+Pointer to a <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvauncompbufferinfo">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
 
-To get the list of supported pixel formats, the decoder should call <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getuncompformatssupported">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
+To get the list of supported pixel formats, the decoder should call <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getuncompformatssupported">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
 
 ## -returns
 
@@ -133,17 +133,16 @@ Success.
 
 ## -remarks
 
-After the video renderer allocates the uncompressed surfaces, it calls the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
+After the video renderer allocates the uncompressed surfaces, it calls the decoder's <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a vector element in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure with a value stored in another <b>PROPVARIANT</b>.
+Initializes a vector element in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure with a value stored in another <b>PROPVARIANT</b>.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Initializes a vector element in a <a href="https://docs.microsoft.com/windows/de
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value.
+Reference to the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value.
 
 ### -param ppropvarVector [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, contains the initialized <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -74,11 +74,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function is used to convert a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value into a vector value.
+This function is used to convert a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value into a vector value.
 
-For simple source types, this function initializes the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> as a vector of one element.
+For simple source types, this function initializes the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> as a vector of one element.
 
-For a source that contains a string, this function initializes the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> with zero or more substrings taken from the source string, treating semicolons as delimiters. See <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a> for more details.
+For a source that contains a string, this function initializes the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> with zero or more substrings taken from the source string, treating semicolons as delimiters. See <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a> for more details.
 
 The following input types are supported:
             
@@ -103,7 +103,7 @@ Additional types may be supported in the future.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantvectorfrompropvariant">InitPropVariantVectorFromPropVariant</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantvectorfrompropvariant">InitPropVariantVectorFromPropVariant</a>.
 
 
 ```cpp
@@ -125,13 +125,12 @@ if (PropVariantGetElementCount(propvarSource) == 1)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a>

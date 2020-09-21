@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in a 4-element <b>uint32_t</b> array.
+Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in a 4-element <b>uint32_t</b> array.
 
 ## -parameters
 
@@ -88,21 +88,20 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>
+<a href="/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoresint4">XMStoreSInt4</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmstoresint4">XMStoreSInt4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoreuint4">XMStoreUInt4</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmstoreuint4">XMStoreUInt4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
-
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>

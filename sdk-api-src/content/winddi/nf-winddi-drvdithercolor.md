@@ -95,7 +95,7 @@ Specifies the RGB color that is to be dithered.
 
 ### -param pul [in, out]
 
-Pointer to the memory location that receives the dithering information. Memory must have been allocated for a standard-format bitmap with dithered brush dimensions <b>cxDither</b> by <b>cyDither</b>. These dimensions are members of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure. The bitmap format is determined by the <b>iDitherFormat</b> member of the DEVINFO structure.
+Pointer to the memory location that receives the dithering information. Memory must have been allocated for a standard-format bitmap with dithered brush dimensions <b>cxDither</b> by <b>cyDither</b>. These dimensions are members of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure. The bitmap format is determined by the <b>iDitherFormat</b> member of the DEVINFO structure.
 
 ## -returns
 
@@ -109,9 +109,8 @@ The result of the dither is a set of device color indices stored in <i>pul</i>. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>

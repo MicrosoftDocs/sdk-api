@@ -54,7 +54,7 @@ Represents a  WDS transport server.  A WDS client can use an object of this inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportServer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportServer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWdsTransportServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-disconnectclient">DisconnectClient</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-disconnectclient">DisconnectClient</a>
 </td>
 <td align="left" width="63%">
 Disconnects a WDS client from a transport session and specifies what action the WDS client should take upon disconnection. 
@@ -88,7 +88,7 @@ Disconnects a WDS client from a transport session and specifies what action the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_configurationmanager">ConfigurationManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_configurationmanager">ConfigurationManager</a>
 
 
 </td>
@@ -97,14 +97,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Receives a pointer to the object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a> interface used to manage the configuration of this server.
+Receives a pointer to the object of an <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a> interface used to manage the configuration of this server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_name">Name</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_name">Name</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Receives the name of the server represented by this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_namespacemanager">NamespaceManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_namespacemanager">NamespaceManager</a>
 
 
 </td>
@@ -129,14 +129,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Receives a pointer to the object of an  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a> interface used to manage namespaces on this server.
+Receives a pointer to the object of an  <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a> interface used to manage namespaces on this server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_setupmanager">SetupManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportserver-get_setupmanager">SetupManager</a>
 
 
 </td>
@@ -145,9 +145,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Receives a pointer to the object of an  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a> interface used to manage setup functionality on this server.
+Receives a pointer to the object of an  <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a> interface used to manage setup functionality on this server.
 
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Associates the caller's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>.
+Associates the caller's <a href="/windows/desktop/SecGloss/p-gly">private key</a> with the specified <a href="/windows/desktop/SecGloss/c-gly">certificate</a>.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ The certificate with which to associate the private key.
 If the function succeeds, return <b>STATUS_SUCCESS</b>.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-

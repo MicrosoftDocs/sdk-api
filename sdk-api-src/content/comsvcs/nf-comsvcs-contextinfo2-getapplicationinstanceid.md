@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the GUID of the application instance of the current object context.
 
-This information is useful when using <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--application-recycling">COM+ Application Recycling</a>, for example.
+This information is useful when using <a href="/windows/desktop/cossdk/com--application-recycling">COM+ Application Recycling</a>, for example.
 
 ## -parameters
 
@@ -66,5 +66,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>

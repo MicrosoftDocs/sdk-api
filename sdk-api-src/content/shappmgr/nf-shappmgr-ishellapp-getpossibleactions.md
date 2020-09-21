@@ -58,7 +58,7 @@ Gets a bitmask of management actions allowed for an application.
 
 Type: <b>DWORD*</b>
 
-A pointer to a variable of type <b>DWORD</b> that returns the bitmask of supported actions. The bit flags are described in <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a>.
+A pointer to a variable of type <b>DWORD</b> that returns the bitmask of supported actions. The bit flags are described in <a href="/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a>.
 
 ## -returns
 
@@ -68,17 +68,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Of the set of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a> bitmasks, Add/Remove Programs only recognizes APPACTION_INSTALL and APPACTION_ADDLATER.
+Of the set of <a href="/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a> bitmasks, Add/Remove Programs only recognizes APPACTION_INSTALL and APPACTION_ADDLATER.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>

@@ -57,7 +57,7 @@ Adds a stream to the profile or reconfigures an existing stream.
 
 ### -param pIStream [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a> interface of a configured ASF stream configuration object.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a> interface of a configured ASF stream configuration object.
 
 ## -returns
 
@@ -87,29 +87,28 @@ If the stream number in the ASF stream configuration object is already included 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">IMFASFProfile::GetStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">IMFASFProfile::GetStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber">IMFASFProfile::GetStreamByNumber</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber">IMFASFProfile::GetStreamByNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount">IMFASFProfile::GetStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount">IMFASFProfile::GetStreamCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestream">IMFASFProfile::RemoveStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestream">IMFASFProfile::RemoveStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>

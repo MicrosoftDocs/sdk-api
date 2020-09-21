@@ -108,5 +108,4 @@ Invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>

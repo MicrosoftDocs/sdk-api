@@ -54,7 +54,7 @@ Defines a library of standard transitions for a specified dimension.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransitionLibrary2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationTransitionLibrary2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransitionLibrary2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationTransitionLibrary2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAnimationTransitionLibrary2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createacceleratedeceleratetransition">CreateAccelerateDecelerateTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createacceleratedeceleratetransition">CreateAccelerateDecelerateTransition</a>
 </td>
 <td align="left" width="63%">
 Creates an accelerate-decelerate scalar transition.
@@ -78,7 +78,7 @@ Creates an accelerate-decelerate scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createconstanttransition">CreateConstantTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createconstanttransition">CreateConstantTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a constant scalar transition.
@@ -87,7 +87,7 @@ Creates a constant scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlineartransition">CreateCubicBezierLinearTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlineartransition">CreateCubicBezierLinearTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a cubic Bézier linear scalar transition.
@@ -96,7 +96,7 @@ Creates a cubic Bézier linear scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlinearvectortransition">CreateCubicBezierLinearVectorTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlinearvectortransition">CreateCubicBezierLinearVectorTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a cubic Bézier linear vector transition for each specified dimension.
@@ -105,7 +105,7 @@ Creates a cubic Bézier linear vector transition for each specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubictransition">CreateCubicTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubictransition">CreateCubicTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a cubic scalar transition.
@@ -114,7 +114,7 @@ Creates a cubic scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicvectortransition">CreateCubicVectorTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicvectortransition">CreateCubicVectorTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a cubic vector transition for each specified dimension.
@@ -123,7 +123,7 @@ Creates a cubic vector transition for each specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretetransition">CreateDiscreteTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretetransition">CreateDiscreteTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a discrete scalar transition.
@@ -132,7 +132,7 @@ Creates a discrete scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretevectortransition">CreateDiscreteVectorTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretevectortransition">CreateDiscreteVectorTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a discrete vector transition for each specified dimension.
@@ -141,7 +141,7 @@ Creates a discrete vector transition for each specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneoustransition">CreateInstantaneousTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneoustransition">CreateInstantaneousTransition</a>
 </td>
 <td align="left" width="63%">
 Creates an instantaneous scalar transition.
@@ -150,7 +150,7 @@ Creates an instantaneous scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneousvectortransition">CreateInstantaneousVectorTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneousvectortransition">CreateInstantaneousVectorTransition</a>
 </td>
 <td align="left" width="63%">
 Creates an instantaneous vector transition for each specified dimension.
@@ -159,7 +159,7 @@ Creates an instantaneous vector transition for each specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransition">CreateLinearTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransition">CreateLinearTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a linear scalar transition.
@@ -168,7 +168,7 @@ Creates a linear scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransitionfromspeed">CreateLinearTransitionFromSpeed</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransitionfromspeed">CreateLinearTransitionFromSpeed</a>
 </td>
 <td align="left" width="63%">
 Creates a linear-speed scalar transition.
@@ -177,7 +177,7 @@ Creates a linear-speed scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransition">CreateLinearVectorTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransition">CreateLinearVectorTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a linear vector transition in the specified dimension.
@@ -186,7 +186,7 @@ Creates a linear vector transition in the specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransitionfromspeed">CreateLinearVectorTransitionFromSpeed</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransitionfromspeed">CreateLinearVectorTransitionFromSpeed</a>
 </td>
 <td align="left" width="63%">
 Creates a linear-speed vector transition in the specified dimension.
@@ -195,7 +195,7 @@ Creates a linear-speed vector transition in the specified dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createparabolictransitionfromacceleration">CreateParabolicTransitionFromAcceleration</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createparabolictransitionfromacceleration">CreateParabolicTransitionFromAcceleration</a>
 </td>
 <td align="left" width="63%">
 Creates a parabolic-acceleration scalar transition.
@@ -204,7 +204,7 @@ Creates a parabolic-acceleration scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createreversaltransition">CreateReversalTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createreversaltransition">CreateReversalTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a reversal scalar transition.
@@ -213,7 +213,7 @@ Creates a reversal scalar transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromrange">CreateSinusoidalTransitionFromRange</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromrange">CreateSinusoidalTransitionFromRange</a>
 </td>
 <td align="left" width="63%">
 Creates a sinusoidal-range scalar  transition with a specified range of oscillation.
@@ -222,7 +222,7 @@ Creates a sinusoidal-range scalar  transition with a specified range of oscillat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromvelocity">CreateSinusoidalTransitionFromVelocity</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromvelocity">CreateSinusoidalTransitionFromVelocity</a>
 </td>
 <td align="left" width="63%">
 Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.
@@ -231,7 +231,7 @@ Creates a sinusoidal scalar transition where amplitude is determined by initial 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsmoothstoptransition">CreateSmoothStopTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary2-createsmoothstoptransition">CreateSmoothStopTransition</a>
 </td>
 <td align="left" width="63%">
 Creates a smooth-stop scalar transition.
@@ -244,41 +244,40 @@ Creates a smooth-stop scalar transition.
 
 Windows Animation includes a library of common transitions that developers can apply to variables through a storyboard. The parameters for specifying a transition depend on the type of transition. For some transitions, the duration of the transition is an explicit parameter; for others, the duration is determined by other parameters, such as speed or acceleration when the transition begins. A transition's initial value or velocity can be overridden if a discontinuous jump is desired, and duration can be queried after the transition is added to a storyboard.
 
-If an application requires an effect that cannot be specified using the transition library, developers can implement custom transitions. A custom transition is created by first implementing the interpolator function for the transition, and then by using a factory object to generate transitions from interpolators. An interpolator must implement the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>interface; an implementation of the transition factory object is provided by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448667(v=vs.85)">UIAnimationTransitionFactory2</a> object.
+If an application requires an effect that cannot be specified using the transition library, developers can implement custom transitions. A custom transition is created by first implementing the interpolator function for the transition, and then by using a factory object to generate transitions from interpolators. An interpolator must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>interface; an implementation of the transition factory object is provided by the <a href="/previous-versions/windows/desktop/legacy/hh448667(v=vs.85)">UIAnimationTransitionFactory2</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-scheduletransition">IUIAnimationManager2::ScheduleTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-scheduletransition">IUIAnimationManager2::ScheduleTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransition">IUIAnimationStoryboard::AddTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransition">IUIAnimationStoryboard::AddTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
+<a href="/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>
-
+<a href="/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>

@@ -87,10 +87,10 @@ Returns a pointer to a pointer to a <b>null</b>-terminated string representation
 
 Specify a <b>NULL</b> value to prevent 
 <b>RpcStringBindingCompose</b> from returning the <i>StringBinding</i> parameter. In this case, the application does not call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>. See Note.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>. See Note.
 
 <div class="alert"><b>Note</b>  For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.</div>
+<a href="/windows/desktop/Rpc/string-binding">String Binding</a>.</div>
 <div> </div>
 
 ## -returns
@@ -126,7 +126,7 @@ The string representation of the UUID is not valid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -135,7 +135,7 @@ An application calls
 <b>RpcStringBindingCompose</b> routine to combine an object UUID, a protocol sequence, a network address, an endpoint and other network options into a string representation of a binding handle.
 
 The RPC run-time library allocates memory for the string returned in the <i>StringBinding</i> parameter. The application is responsible for calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
 
 Specify a <b>null</b> parameter value or provide an empty string (\0) for each input string that has no data.
 
@@ -143,17 +143,16 @@ Literal backslash characters within C-language strings must be quoted. The actua
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>

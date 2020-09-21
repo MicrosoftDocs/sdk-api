@@ -56,7 +56,7 @@ Allocates storage for a TraceLogging provider and creates a handle to the provid
 
 ### -param handleVariable [in]
 
-A handle to a TraceLogging provider (TraceLoggingHProvider) created using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider">TRACELOGGING_DECLARE_PROVIDER</a>.
+A handle to a TraceLogging provider (TraceLoggingHProvider) created using <a href="/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider">TRACELOGGING_DECLARE_PROVIDER</a>.
 
 ### -param providerName [in]
 
@@ -73,9 +73,9 @@ The GUID of the provider group that this provider is a member of.
 
 ## -remarks
 
-Before using this macro, you need to declare your TraceLogging provider using <a href="/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister">TraceLoggingRegister</a>.
+Before using this macro, you need to declare your TraceLogging provider using <a href="/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister">TraceLoggingRegister</a>.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
+Use the <a href="/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by
 the ETW controllers that subscribe a session to a group.
 
@@ -99,4 +99,3 @@ TRACELOGGING_DEFINE_PROVIDER(
     (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71),
     TraceLoggingOptionGroup(0xfaaf2f61, 0x9b26, 0x4591, 0x9b, 0xb1, 0xb9, 0xb8, 0xba, 0xe2, 0xd3, 0x4c));
 ```
-

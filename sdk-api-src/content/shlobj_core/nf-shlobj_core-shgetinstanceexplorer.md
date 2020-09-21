@@ -61,9 +61,9 @@ Retrieves an interface that allows hosted Shell extensions and other components 
 
 ### -param ppunk [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-When this function returns successfully, contains the address of the host process' <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. This is a free-threaded interface used to prevent the host process from terminating. If the function call fails, this value is set to <b>NULL</b>.
+When this function returns successfully, contains the address of the host process' <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. This is a free-threaded interface used to prevent the host process from terminating. If the function call fails, this value is set to <b>NULL</b>.
 
 ## -returns
 
@@ -75,9 +75,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 There are a number of components, such as Shell extension handlers, that are implemented as DLLs and run in a host process such as Windows Explorer (Explorer.exe) or Internet Explorer (Iexplore.exe). Typically, when the user closes the host process, the component is shut down immediately as well. Such an abrupt termination can create problems for some components. For example, if a component is using a background thread to download data or run user-interface functions, it might need additional time to safely shut itself down.
 
-<b>SHGetInstanceExplorer</b> allows components that run in a host process to hold a reference on the host process. <b>SHGetInstanceExplorer</b> increments the host's reference count and returns a pointer to the host's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*ppunk)->Release</a> to release the host's reference and allow the process to terminate.
+<b>SHGetInstanceExplorer</b> allows components that run in a host process to hold a reference on the host process. <b>SHGetInstanceExplorer</b> increments the host's reference count and returns a pointer to the host's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. By holding that reference, a component can prevent the host process from closing prematurely. After the component has completed its necessary processing, it should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">(*ppunk)->Release</a> to release the host's reference and allow the process to terminate.
 
-<div class="alert"><b>Note</b>  If <b>SHGetInstanceExplorer</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>ppunk</i> can only be used to release this reference. Components cannot use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*ppunk)->QueryInterface</a> to request other interface pointers.</div>
+<div class="alert"><b>Note</b>  If <b>SHGetInstanceExplorer</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>ppunk</i> can only be used to release this reference. Components cannot use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*ppunk)->QueryInterface</a> to request other interface pointers.</div>
 <div> </div>
-<b>SHGetInstanceExplorer</b> succeeds only if it is called from from an application which had previously called <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a> to set a process reference.
-
+<b>SHGetInstanceExplorer</b> succeeds only if it is called from from an application which had previously called <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetinstanceexplorer">SHSetInstanceExplorer</a> to set a process reference.

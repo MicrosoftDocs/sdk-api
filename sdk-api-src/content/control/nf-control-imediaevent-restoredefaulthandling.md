@@ -94,13 +94,12 @@ No default handling for this event.
 
 ## -remarks
 
-By default, the Filter Graph Manager handles some events (such as <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-repaint">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-canceldefaulthandling">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
+By default, the Filter Graph Manager handles some events (such as <a href="/windows/desktop/DirectShow/ec-repaint">EC_REPAINT</a>) without passing them to the application. If you call the <a href="/windows/desktop/api/control/nf-control-imediaevent-canceldefaulthandling">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>

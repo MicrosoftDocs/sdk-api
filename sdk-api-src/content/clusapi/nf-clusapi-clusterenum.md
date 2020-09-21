@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, returning the name of one object with each 
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> in a 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, returning the name of one object with each 
     call. The <b>PCLUSAPI_CLUSTER_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
@@ -63,7 +63,7 @@ Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/des
 ### -param hEnum [in]
 
 A cluster enumeration handle returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> function.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> function.
 
 ### -param dwIndex [in]
 
@@ -74,43 +74,43 @@ The index used to identify the next entry to be enumerated. This parameter shoul
 ### -param lpdwType [out]
 
 A pointer to the type of object returned. One of the following values of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_enum">CLUSTER_ENUM</a> enumeration is returned with each call.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_enum">CLUSTER_ENUM</a> enumeration is returned with each call.
 
 
 
 #### CLUSTER_ENUM_NODE (1 (0x1))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> in the cluster.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_RESTYPE (2 (0x2))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource types</a> in the cluster.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/resource-types">resource types</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_RESOURCE (4 (0x4))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in the cluster.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_GROUP (8 (0x8))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> in the cluster.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_NETWORK (16 (0x10))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> in the cluster.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_NETINTERFACE (32 (0x20))
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> in the 
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> in the 
          cluster.
 
 
@@ -131,7 +131,7 @@ Enumerates the cluster shared volumes used by the cluster.
 
 Enumerates the networks used by the cluster for internal communication. The networks are enumerated in 
          order of highest-to-lowest priority as established by 
-         the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a> 
+         the <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a> 
          function.
 
 <div class="alert"><b>Note</b>  Unlike most other enumeration bitmasks, this value must be used alone. Do not use the 
@@ -141,7 +141,7 @@ Enumerates the networks used by the cluster for internal communication. The netw
 
 #### CLUSTER_ENUM_ALL ((CLUSTER_ENUM_NODE | CLUSTER_ENUM_RESTYPE | CLUSTER_ENUM_RESOURCE | CLUSTER_ENUM_GROUP | CLUSTER_ENUM_NETWORK | CLUSTER_ENUM_NETINTERFACE))
 
-Enumerates all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>.
+Enumerates all <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>.
 
 ### -param lpszName [out]
 
@@ -208,13 +208,13 @@ More data is available. This value is returned if the buffer pointed to by
 ## -remarks
 
 The <b>ClusterEnum</b> function is typically used to iterate 
-     through a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> of one 
+     through a collection of <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> of one 
      or more types. If, for example, an application wants to enumerate all of the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> in a cluster, it calls 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> to open a cluster 
+     <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> in a cluster, it calls 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> to open a cluster 
      enumerator that can process nodes. The <i>dwType</i> parameter is set to 
      <b>CLUSTER_ENUM_NODE</b> to specify nodes as the object type to be enumerated. If the 
-     application enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> in addition to nodes, the 
+     application enumerates <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> in addition to nodes, the 
      <i>dwType</i> parameter is set to 
      <code>CLUSTER_ENUM_NODE | CLUSTER_ENUM_GROUP</code>. With the handle that 
      <b>ClusterOpenEnum</b> returns, the application calls 
@@ -224,24 +224,23 @@ The <b>ClusterEnum</b> function is typically used to iterate
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+     <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustercloseenum">ClusterCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clustercloseenum">ClusterCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a>

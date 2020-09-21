@@ -56,7 +56,7 @@ Registers the resource dispenser with the dispenser manager.
 
 ### -param __MIDL__IDispenserManager0000 [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
+The <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
 
 ### -param szDispenserName [in]
 
@@ -64,7 +64,7 @@ A friendly name of the Resource Dispenser for administrator display.
 
 ### -param __MIDL__IDispenserManager0001 [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a> interface that has been instantiated for the resource dispenser.
+The <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a> interface that has been instantiated for the resource dispenser.
 
 ## -returns
 
@@ -72,13 +72,12 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 ## -remarks
 
-The Resource Dispenser notifies the Dispenser Manager that it has started and is prepared to accept notifications on this <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface. Then the Dispenser Manager creates the Holder for this new Resource Dispenser and returns it to the Resource Dispenser.
+The Resource Dispenser notifies the Dispenser Manager that it has started and is prepared to accept notifications on this <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a> interface. Then the Dispenser Manager creates the Holder for this new Resource Dispenser and returns it to the Resource Dispenser.
 
 
 
-This method does not call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the <i>pDispenserDriver</i> object, but <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-close">IHolder::Close</a> does perform a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IDispenserManager::RegisterDispenser</b> must explicitly call <b>AddRef</b> on the <i>pDispenserDriver</i> object.
+This method does not call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the <i>pDispenserDriver</i> object, but <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-close">IHolder::Close</a> does perform a <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IDispenserManager::RegisterDispenser</b> must explicitly call <b>AddRef</b> on the <i>pDispenserDriver</i> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>

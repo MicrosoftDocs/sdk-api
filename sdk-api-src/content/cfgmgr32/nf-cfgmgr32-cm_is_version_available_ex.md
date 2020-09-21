@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Is_Version_Available_Ex</b> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local or a remote machine.
+The <b>CM_Is_Version_Available_Ex</b> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local or a remote machine.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Identifies a version of the configuration manager. The supported version of the 
 
 ### -param hMachine [in, optional]
 
-Supplies a machine handle that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Supplies a machine handle that is returned by <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -73,23 +73,22 @@ The function returns <b>TRUE</b> if the function can connect to the specified ma
 
 ## -remarks
 
-Use this function to determine whether a specified version of the configuration manager is supported by a local or a remote machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a> to determine if the local machine supports a specific version of the configuration manager. 
+Use this function to determine whether a specified version of the configuration manager is supported by a local or a remote machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a> to determine if the local machine supports a specific version of the configuration manager. 
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version">CM_Get_Version</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version">CM_Get_Version</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version_ex">CM_Get_Version_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version_ex">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a>

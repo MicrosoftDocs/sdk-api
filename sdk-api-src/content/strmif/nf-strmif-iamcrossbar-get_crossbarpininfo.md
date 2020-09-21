@@ -96,7 +96,7 @@ Pointer to a variable that receives the index of the related pin, or –1 if no 
 
 ### -param PhysicalType [out]
 
-Pointer to a variable that receives a member of the [PhysicalConnectorType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration, indicating the pin's physical type.
+Pointer to a variable that receives a member of the [PhysicalConnectorType](/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration, indicating the pin's physical type.
 
 ## -returns
 
@@ -144,17 +144,16 @@ Success.
 
 ## -remarks
 
-Output pins and input pins are both indexed from zero. To determine the number of output and input pins, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts">IAMCrossbar::get_PinCounts</a> method.
+Output pins and input pins are both indexed from zero. To determine the number of output and input pins, call the <a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts">IAMCrossbar::get_PinCounts</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
-
+<a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>

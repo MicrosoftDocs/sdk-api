@@ -54,7 +54,7 @@ Exposes methods that provide property and state information for a single sync it
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItemInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncItemInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItemInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncItemInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrSyncItemInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getcomment">GetComment</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getcomment">GetComment</a>
 </td>
 <td align="left" width="63%">
 Gets a string that contains commentary regarding the item.
@@ -78,7 +78,7 @@ Gets a string that contains commentary regarding the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getlastsynctime">GetLastSyncTime</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-getlastsynctime">GetLastSyncTime</a>
 </td>
 <td align="left" width="63%">
 Gets the date and time when the item was last synchronized.
@@ -87,7 +87,7 @@ Gets the date and time when the item was last synchronized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-gettypelabel">GetTypeLabel</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-gettypelabel">GetTypeLabel</a>
 </td>
 <td align="left" width="63%">
 Gets a label for the item type. This typically provides the model of the device or an equivalent item-specific identity string.
@@ -96,7 +96,7 @@ Gets a label for the item type. This typically provides the model of the device 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-isconnected">IsConnected</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-isconnected">IsConnected</a>
 </td>
 <td align="left" width="63%">
 Generates a value that indicates whether the item—typically some type of external device—is connected.
@@ -105,7 +105,7 @@ Generates a value that indicates whether the item—typically some type of exter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-isenabled">IsEnabled</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynciteminfo-isenabled">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Generates a value that indicates whether the item is enabled.
@@ -118,5 +118,4 @@ Generates a value that indicates whether the item is enabled.
 
 By representing these properties as an interface, the set of properties can be changed later without recompiling the handler. The interface also provides type-safe access to the properties.
 
-Items should always implement this interface, usually on the same object that implements <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>.
-
+Items should always implement this interface, usually on the same object that implements <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>.

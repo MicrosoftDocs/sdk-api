@@ -68,5 +68,4 @@ Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a>
-
+<a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a>

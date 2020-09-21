@@ -107,7 +107,7 @@ The actual count of units the insertion point or active end is moved left. This 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -153,7 +153,7 @@ Microsoft WordBasic move methods like
 <li>Return a Boolean stating if movement occurred. </li>
 </ul>
 The 
-				<i>Extend</i> argument of <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>  and <b>MoveRight</b> enables you to be consistent with the first three items above, and the 
+				<i>Extend</i> argument of <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>  and <b>MoveRight</b> enables you to be consistent with the first three items above, and the 
 				<i>pDelta</i> is a generalization of the fourth. For example, given a selection, s, consisting of a single range, you have the following correspondences (for left-to-right characters).
 
 <table class="clsStd">
@@ -184,7 +184,7 @@ Similar to WordBasic and the Right Arrow key UI behavior, calling <code>MoveRigh
 When 
 				<i>Extend</i> is <b>tomExtend</b> (or is nonzero), <b>MoveRight</b> moves only the active end of the selection, leaving the other end where it is. However, if 
 				<i>Extend</i> equals zero and the selection starts as a nondegenerate range, <code>MoveRight(Unit, Count)</code> where <code>Count</code> is greater than zero moves the active end <code>Count</code> - 1 units right, and then moves the other end to the active end. In other words, it makes an insertion point at the active end. Collapsing the range counts as one 
-				unit. Thus, <code>MoveRight(tomCharacter)</code> converts a nondegenerate selection into a degenerate one at the selection's right end. Here, <i>Count</i> has the default value of 1 and <i>Extend</i> has the default value of zero. This example corresponds to pressing the Right Arrow key. <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> and <b>MoveRight</b> are related to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
+				unit. Thus, <code>MoveRight(tomCharacter)</code> converts a nondegenerate selection into a degenerate one at the selection's right end. Here, <i>Count</i> has the default value of 1 and <i>Extend</i> has the default value of zero. This example corresponds to pressing the Right Arrow key. <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> and <b>MoveRight</b> are related to the <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
 ## -see-also
 
@@ -192,15 +192,15 @@ When
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
@@ -208,5 +208,4 @@ When
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

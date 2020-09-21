@@ -60,7 +60,7 @@ The view should determine the best option.
 
 ### -field FVM_FIRST
 
-The minimum constant value in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.
+The minimum constant value in <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.
 
 ### -field FVM_ICON
 
@@ -96,5 +96,4 @@ The view should display icons in a filmstrip format.
 
 ### -field FVM_LAST
 
-The maximum constant value in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.
-
+The maximum constant value in <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.

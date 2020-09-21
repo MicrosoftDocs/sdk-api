@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3DTexture9 interface to manipulate a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DTexture9</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DTexture9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DTexture9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DTexture9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect">AddDirtyRect</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect">AddDirtyRect</a>
 </td>
 <td align="left" width="63%">
 Adds a dirty region to a texture resource.
@@ -79,7 +79,7 @@ Adds a dirty region to a texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getleveldesc">GetLevelDesc</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getleveldesc">GetLevelDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a level description of a texture resource.
@@ -88,7 +88,7 @@ Retrieves a level description of a texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel">GetSurfaceLevel</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel">GetSurfaceLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified texture surface level.
@@ -97,7 +97,7 @@ Retrieves the specified texture surface level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-lockrect">LockRect</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-lockrect">LockRect</a>
 </td>
 <td align="left" width="63%">
 Locks a rectangle on a texture resource.
@@ -106,7 +106,7 @@ Locks a rectangle on a texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-unlockrect">UnlockRect</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-unlockrect">UnlockRect</a>
 </td>
 <td align="left" width="63%">
 Unlocks a rectangle on a texture resource.
@@ -117,11 +117,11 @@ Unlocks a rectangle on a texture resource.
 
 ## -remarks
 
-The <b>IDirect3DTexture9</b> interface can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a> method or one of the D3DXCreateTexture<i>xxx</i> functions.
+The <b>IDirect3DTexture9</b> interface can be obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a> method or one of the D3DXCreateTexture<i>xxx</i> functions.
 
-This interface inherits additional functionality from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface.
+This interface inherits additional functionality from the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface.
 
-This interface, like all COM interfaces, inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 The LPDIRECT3DTEXTURE9 and PDIRECT3DTEXTURE9 types are defined as pointers to the <b>IDirect3DTexture9</b> interface.
     
@@ -137,41 +137,40 @@ typedef struct IDirect3DTexture9 *LPDIRECT3DTEXTURE9, *PDIRECT3DTEXTURE9;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexture">D3DXCreateTexture</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexture">D3DXCreateTexture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfile">D3DXCreateTextureFromFile</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromfile">D3DXCreateTextureFromFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileex">D3DXCreateTextureFromFileEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromfileex">D3DXCreateTextureFromFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemory">D3DXCreateTextureFromFileInMemory</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemory">D3DXCreateTextureFromFileInMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemoryex">D3DXCreateTextureFromFileInMemoryEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromfileinmemoryex">D3DXCreateTextureFromFileInMemoryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromresource">D3DXCreateTextureFromResource</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromresource">D3DXCreateTextureFromResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxcreatetexturefromresourceex">D3DXCreateTextureFromResourceEx</a>
+<a href="/windows/desktop/direct3d9/d3dxcreatetexturefromresourceex">D3DXCreateTextureFromResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a>

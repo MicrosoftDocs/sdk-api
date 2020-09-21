@@ -125,9 +125,8 @@ When indirect strings in the form of "@C:\Program Files\Contoso Storefront\Store
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/rule-authoring">Rule Authoring</a>
-
+<a href="/previous-versions/windows/desktop/ics/rule-authoring">Rule Authoring</a>

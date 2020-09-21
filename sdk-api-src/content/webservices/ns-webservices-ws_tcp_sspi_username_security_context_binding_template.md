@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Security template information to be filled in by application.
-        Associated with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE</a>.
+        Associated with <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE</a>.
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ Application provided username binding information for the bootstrap channel that
 ### -field securityContextSecurityBinding
 
 Application provided security context message binding information for the service channel that cannot be represented in policy.
-

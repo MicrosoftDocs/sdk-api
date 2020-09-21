@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">cluster</a>.
+Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="/windows/desktop/Intl/uniscribe-glossary">cluster</a>.
 
 ## -parameters
 
@@ -118,13 +118,12 @@ For scripts in which the caret is conventionally snapped to the boundaries of cl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

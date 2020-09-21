@@ -57,14 +57,14 @@ api_name:
 
 ## -description
 
-Retrieves the current Windows ANSI code page identifier for the operating system.<div class="alert"><b>Caution</b>  The ANSI API functions, for example, the ANSI version of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, implicitly use <b>GetACP</b> to translate text to or from Unicode. For the Multilingual User Interface (MUI) edition of Windows, the system ACP might not cover all code points in the user's selected logon language identifier. For compatibility with this edition, your application should avoid calls that depend on <b>GetACP</b> either implicitly or explicitly, as this function can cause some locales to display text as question marks. Instead, the application should use the Unicode API functions directly, for example, the Unicode version of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>.</div>
+Retrieves the current Windows ANSI code page identifier for the operating system.<div class="alert"><b>Caution</b>  The ANSI API functions, for example, the ANSI version of <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, implicitly use <b>GetACP</b> to translate text to or from Unicode. For the Multilingual User Interface (MUI) edition of Windows, the system ACP might not cover all code points in the user's selected logon language identifier. For compatibility with this edition, your application should avoid calls that depend on <b>GetACP</b> either implicitly or explicitly, as this function can cause some locales to display text as question marks. Instead, the application should use the Unicode API functions directly, for example, the Unicode version of <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>.</div>
 <div> </div>
 
 ## -parameters
 
 ## -returns
 
-Returns the current Windows ANSI code page (ACP) identifier for the operating system. See <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a> for a list of identifiers for Windows ANSI code pages and other code pages.
+Returns the current Windows ANSI code page (ACP) identifier for the operating system. See <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a> for a list of identifiers for Windows ANSI code pages and other code pages.
 
 ## -remarks
 
@@ -72,21 +72,20 @@ The ANSI code pages can be different on different computers, or can be changed f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>
+<a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

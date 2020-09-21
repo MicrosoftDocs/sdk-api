@@ -74,5 +74,4 @@ The DNS section specified is additional DNS information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
-
+<a href="/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>

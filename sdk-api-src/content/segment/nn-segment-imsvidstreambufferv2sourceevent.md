@@ -69,26 +69,26 @@ The <b>IMSVidStreamBufferV2SourceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-broadcastevent">BroadcastEvent</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-broadcastevent">BroadcastEvent</a>
 </td>
 <td align="left" width="63%">
-Fired when the SBE2 source filter receives any event through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface, other than  the EVENTID_DTFilterRatingChange event.
+Fired when the SBE2 source filter receives any event through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface, other than  the EVENTID_DTFilterRatingChange event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-broadcasteventex">BroadcastEventEx</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-broadcasteventex">BroadcastEventEx</a>
 </td>
 <td align="left" width="63%">
-Fired when an SBE2 source filter receives any event fired by a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">IBroadcastEventEx::FireEx</a>.
+Fired when an SBE2 source filter receives any event fired by a call to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">IBroadcastEventEx::FireEx</a>.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-contentbecomingstale">ContentBecomingStale</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-contentbecomingstale">ContentBecomingStale</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a TREAMBUFFER_EC_CONTENT_BECOMING_STALE event, which indicates the stream buffer source lags behind the stream buffer sink by more than a preset number of files.
@@ -98,10 +98,10 @@ Fired when the SBE2 source filter receives a TREAMBUFFER_EC_CONTENT_BECOMING_STA
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-contentprimarilyaudio">ContentPrimarilyAudio</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-contentprimarilyaudio">ContentPrimarilyAudio</a>
 </td>
 <td align="left" width="63%">
-Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event that was fired through the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3</a> interface and indicates SBE is processing primarily audio data.
+Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event that was fired through the <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3</a> interface and indicates SBE is processing primarily audio data.
           
           
 
@@ -109,7 +109,7 @@ Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-ratechange">RateChange</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-ratechange">RateChange</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
@@ -119,27 +119,27 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-ratingschanged">RatingsChanged</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-ratingschanged">RatingsChanged</a>
 </td>
 <td align="left" width="63%">
-Fired when the SBE2 source filter receives an EVENTID_DTFilterRatingChange event that was fired through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface and  indicates  a rating has changed.
+Fired when the SBE2 source filter receives an EVENTID_DTFilterRatingChange event that was fired through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface and  indicates  a rating has changed.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-staledataread">StaleDataRead</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-staledataread">StaleDataRead</a>
 </td>
 <td align="left" width="63%">
-Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ event, which indicates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object has read from a temporary recording file that is marked for deletion.
+Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ event, which indicates an <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object has read from a temporary recording file that is marked for deletion.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-stalefiledeleted">StaleFileDeleted</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-stalefiledeleted">StaleFileDeleted</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED event, which indicates a temporary file has been deleted.
@@ -150,7 +150,7 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-timehole">TimeHole</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferv2sourceevent-timehole">TimeHole</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.
@@ -163,4 +163,3 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, whi
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidStreamBufferV2SourceEvent)</code>.
-

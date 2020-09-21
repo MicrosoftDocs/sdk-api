@@ -82,5 +82,4 @@ An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/a
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>
-
+<a href="/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>

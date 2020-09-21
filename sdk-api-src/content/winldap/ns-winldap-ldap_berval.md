@@ -72,5 +72,4 @@ Use a <b>berval</b> structure for attributes that contain raw binary data, such 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>

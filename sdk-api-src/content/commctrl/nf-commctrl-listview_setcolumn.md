@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the attributes of a list-view column. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumn">LVM_SETCOLUMN</a> message explicitly.
+Sets the attributes of a list-view column. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setcolumn">LVM_SETCOLUMN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -70,5 +70,4 @@ The index of the column.
 
 Type: <b>LPLVCOLUMN</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.
-
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICCompressGetFormatSize</b> macro requests the size of the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-get-format">ICM_COMPRESS_GET_FORMAT</a> message.
+The <b>ICCompressGetFormatSize</b> macro requests the size of the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-compress-get-format">ICM_COMPRESS_GET_FORMAT</a> message.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ Pointer to a <b>BITMAPINFO</b> structure containing the input format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

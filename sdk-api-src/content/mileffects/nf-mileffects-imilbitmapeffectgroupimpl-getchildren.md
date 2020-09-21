@@ -56,13 +56,12 @@ Gets the children of the effect group.
 
 ### -param pChildren [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a> group.
+A pointer that receives a pointer to the <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a> group.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

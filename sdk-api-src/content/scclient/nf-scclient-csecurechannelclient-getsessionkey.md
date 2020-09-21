@@ -57,7 +57,7 @@ The <b>GetSessionKey</b> method retrieves the current session key. This method i
 
 ### -param pbSPSessionKey [out]
 
-Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">EncryptParam</a> and <a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">DecryptParam</a> methods.
+Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="/previous-versions/bb231587(v=vs.85)">EncryptParam</a> and <a href="/previous-versions/bb231586(v=vs.85)">DecryptParam</a> methods.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -93,9 +93,8 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
 <a href="/previous-versions/ms868506(v=msdn.10)">CSecureChannelClient::SetSessionKey</a>
-

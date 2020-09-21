@@ -64,7 +64,7 @@ GUID value that uniquely identifies the registered software or software componen
 
 ### -field applicationData
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure that contains opaque data describing possible additional application-specific settings (for example, an address and port on which the activity will occur, or a specific video codec to use). This data is limited to 16K.
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure that contains opaque data describing possible additional application-specific settings (for example, an address and port on which the activity will occur, or a specific video codec to use). This data is limited to 16K.
 
 ### -field pwzMessage
 
@@ -72,13 +72,12 @@ Zero-terminated Unicode string that contains a specific request message to the i
 
 ## -remarks
 
-An invitation request is typically sent by a peer after a contact appears online within the peer collaboration network and a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumapplications">PeerCollabEnumApplications</a> returns a common software application (represented as a application GUID) available on the contact's endpoint.
+An invitation request is typically sent by a peer after a contact appears online within the peer collaboration network and a call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabenumapplications">PeerCollabEnumApplications</a> returns a common software application (represented as a application GUID) available on the contact's endpoint.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>

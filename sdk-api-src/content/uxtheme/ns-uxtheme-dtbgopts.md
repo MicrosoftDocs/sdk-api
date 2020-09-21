@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Defines the options for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a> function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the structure. Set this to sizeof(DTBGOPTS).
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that specify the selected options. This member can be one of the following:
 
@@ -165,5 +165,4 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>

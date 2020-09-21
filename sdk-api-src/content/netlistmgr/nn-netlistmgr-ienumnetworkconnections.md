@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The IEnumNetworkConnections interface provides  a standard enumerator for network connections. It enumerates active, disconnected, or all network connections within a network. This interface can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface.
+The IEnumNetworkConnections interface provides  a standard enumerator for network connections. It enumerates active, disconnected, or all network connections within a network. This interface can be obtained from the <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetworkConnections</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetworkConnections</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetworkConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetworkConnections</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IEnumNetworkConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-clone">Clone</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that contains the same enumeration state as the enumerator currently in use.
@@ -79,7 +79,7 @@ Creates an enumerator that contains the same enumeration state as the enumerator
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-next">Next</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -88,7 +88,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-reset">Reset</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -97,7 +97,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-skip">Skip</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -115,7 +115,7 @@ Skips over the next specified number of elements in the enumeration sequence.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-ienumnetworkconnections-get__newenum">get__NewEnum</a>
 
 
 </td>
@@ -132,5 +132,4 @@ Returns an automation enumerator object that you can use to iterate through the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>

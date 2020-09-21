@@ -74,7 +74,7 @@ The axis on which to apply normalization. You can use a default value of -1 to m
 
 ### -field Epsilon
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The epsilon value to use to avoid division by zero.
 
@@ -83,4 +83,3 @@ The epsilon value to use to avoid division by zero.
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The order of the normalization (either 1 or 2). You can use a default value of 2.
-

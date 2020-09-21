@@ -143,7 +143,7 @@ The shadow copy was created by a software provider and cannot be broken.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -157,16 +157,15 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 Shadow copies of volumes "broken" with 
 <b>BreakSnapshotSet</b> must be managed independently of VSS as stand-alone volumes. See 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a> for more information.
+<a href="/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a> for more information.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex">IVssBackupComponentsEx2::BreakSnapshotSetEx</a> is similar to the <b>BreakSnapshotSet</b> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex">IVssBackupComponentsEx2::BreakSnapshotSetEx</a> is similar to the <b>BreakSnapshotSet</b> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>

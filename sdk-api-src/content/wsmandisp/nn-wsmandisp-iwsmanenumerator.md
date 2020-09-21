@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WS-Enumeration</a>:Enumerate operation.
+Represents a stream of results returned from  operations such as a WS-Management protocol <a href="/windows/desktop/WinRM/windows-remote-management-glossary">WS-Enumeration</a>:Enumerate operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSManEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSManEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWSManEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">ReadItem</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">ReadItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the  resource and  returns an XML representation of the item.
@@ -88,7 +88,7 @@ Retrieves an item from the  resource and  returns an XML representation of the i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream">AtEndOfStream</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream">AtEndOfStream</a>
 
 
 </td>
@@ -97,14 +97,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates that the end of items in the <b>IWSManEnumerator</b> object has been reached by calls to <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a>.
+Indicates that the end of items in the <b>IWSManEnumerator</b> object has been reached by calls to <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_error">Error</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_error">Error</a>
 
 
 </td>
@@ -121,13 +121,12 @@ Gets an XML representation of additional error information.
 
 ## -remarks
 
-The corresponding scripting object is <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerator">Enumerator</a>.
+The corresponding scripting object is <a href="/windows/desktop/WinRM/enumerator">Enumerator</a>.
 
-To limit the number of items that are read, set the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get_batchitems">IWSManSession::BatchItems</a> property.
+To limit the number of items that are read, set the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get_batchitems">IWSManSession::BatchItems</a> property.
 
 Be aware that freeing the enumeration object clears pending enumeration requests.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-
+<a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>

@@ -56,11 +56,11 @@ Describes a resource to resolve to at the conclusion of a render pass.
 
 ### -field pSrcResource
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The source resource.
+A pointer to an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The source resource.
 
 ### -field pDstResource
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The destination resource.
+A pointer to an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The destination resource.
 
 ### -field SubresourceCount
 
@@ -68,18 +68,18 @@ A <b>UINT</b>. The number of subresources.
 
 ### -field pSubresourceParameters
 
-A pointer to a constant array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_subresource_parameters">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS</a>. These subresources can be a subset of the render target's array slices, but you can't target subresources that aren't part of the render target view (RTV) or the depth/stencil view (DSV).
+A pointer to a constant array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_pass_ending_access_resolve_subresource_parameters">D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS</a>. These subresources can be a subset of the render target's array slices, but you can't target subresources that aren't part of the render target view (RTV) or the depth/stencil view (DSV).
 
 > [!NOTE]
 > This pointer is directly referenced by the command list, and the memory for this array must remain alive and intact until [EndRenderPass](nf-d3d12-id3d12graphicscommandlist4-endrenderpass.md) is called.
 
 ### -field Format
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>. The data format of the resources.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>. The data format of the resources.
 
 ### -field ResolveMode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resolve_mode">D3D12_RESOLVE_MODE</a>. The resolve operation.
+A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resolve_mode">D3D12_RESOLVE_MODE</a>. The resolve operation.
 
 ### -field PreserveResolveSource
 
@@ -87,5 +87,4 @@ A <b>BOOL</b>. <b>TRUE</b> to preserve the resolve source, otherwise <b>FALSE</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
-
+<a href="/windows/desktop/direct3d12/rendering">Rendering</a>

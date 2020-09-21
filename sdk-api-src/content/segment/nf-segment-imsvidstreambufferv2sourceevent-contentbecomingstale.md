@@ -52,7 +52,7 @@ api_name:
 
 Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_CONTENT_BECOMING_STALE</b> event, which indicates  the stream buffer source lags behind the stream buffer sink by more than a preset number of files.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>.
+For more information, see <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>.
 
 ## -parameters
 
@@ -62,13 +62,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>

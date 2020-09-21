@@ -56,13 +56,12 @@ Requests a pointer to an interface that allows a client to enumerate the availab
 
 ### -param ppenum
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a>**</b>
 
-The address of a pointer to an enumerator object's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> interface.
+The address of a pointer to an enumerator object's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> interface.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM error value otherwise.
-

@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>lineGetQueueInfo</b> function returns a structure holding the ACD information associated with a particular queue. It generates a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETQUEUEINFO.
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETQUEUEINFO.
 
 ## -parameters
 
@@ -68,14 +68,14 @@ Identifier of the queue whose information is to be retrieved.
 ### -param lpLineQueueInfo
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>. Upon successful completion of the request, this structure is filled with the queue statistics. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>. Upon successful completion of the request, this structure is filled with the queue statistics. Prior to calling 
 <b>lineGetQueueInfo</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
 <div> </div>
 
 ## -returns
@@ -86,17 +86,16 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
-
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>

@@ -52,17 +52,17 @@ api_name:
 
 The <b>BCryptDeriveKeyCapi</b> function derives a key from a hash value.
 
-This function is  provided as a helper function to assist in migrating legacy Cryptography API (CAPI)–based applications to use Cryptography API: Next Generation (CNG).  The <b>BCryptDeriveKeyCapi</b> function performs the key derivation in a manner that is compatible with the CAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.
+This function is  provided as a helper function to assist in migrating legacy Cryptography API (CAPI)–based applications to use Cryptography API: Next Generation (CNG).  The <b>BCryptDeriveKeyCapi</b> function performs the key derivation in a manner that is compatible with the CAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.
 
 ## -parameters
 
 ### -param hHash [in]
 
-The handle of the hash object. The handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function. When you have finished using the handle, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a> function.
+The handle of the hash object. The handle is obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function. When you have finished using the handle, you must free it by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a> function.
 
 ### -param hTargetAlg [in, optional]
 
-The handle of the algorithm object.  This can be an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> value that is compatible with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.
+The handle of the algorithm object.  This can be an <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> value that is compatible with the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.
 
 <div class="alert"><b>Note</b>  Limitations in CAPI and key expansion prevent the use of any hash algorithm that generates an output that is larger than 512 bits.</div>
 <div> </div>
@@ -142,5 +142,4 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-This function does not support the PK salt functionality of the CAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.
-
+This function does not support the PK salt functionality of the CAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a> function.

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_REQUEST_INFO</b> structure contains information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. The subject, subject <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute BLOBs</a> are encoded.
+The <b>CERT_REQUEST_INFO</b> structure contains information for a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. The subject, subject <a href="/windows/desktop/SecGloss/p-gly">public key</a>, and <a href="/windows/desktop/SecGloss/a-gly">attribute BLOBs</a> are encoded.
 
 ## -struct-fields
 
@@ -81,11 +81,11 @@ version 1
 
 ### -field Subject
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure that contains the certificate subject's encoded name.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure that contains the certificate subject's encoded name.
 
 ### -field SubjectPublicKeyInfo
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure containing the encoded public key and its algorithm.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure containing the encoded public key and its algorithm.
 
 ### -field cAttribute
 
@@ -93,21 +93,20 @@ Number of elements in the <b>rgAttribute</b> array.
 
 ### -field rgAttribute
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding attribute information about the certificate.
+A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding attribute information about the certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencodecertificate">CryptSignAndEncodeCertificate</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencodecertificate">CryptSignAndEncodeCertificate</a>

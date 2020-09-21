@@ -63,7 +63,7 @@ Handle to the driver identifier of an installed ACM driver. Disabled drivers can
 
 ### -param padd
 
-Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
+Pointer to an [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
 
 ### -param fdwDetails
 
@@ -115,14 +115,13 @@ At least one parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msacm.h header defines ACMDRIVERDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

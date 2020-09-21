@@ -64,11 +64,10 @@ The Boolean value of the non-interactive flag. If <i>NonInteractive</i> is set t
 
 ## -remarks
 
-Installation applications and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-co-installer">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
+Installation applications and <a href="/windows-hardware/drivers/install/writing-a-co-installer">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
 
-An installation application or an installer can call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetnoninteractivemode">SetupGetNonInteractiveMode</a> to retrieve the current value of the non-interactive flag.
+An installation application or an installer can call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetnoninteractivemode">SetupGetNonInteractiveMode</a> to retrieve the current value of the non-interactive flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetnoninteractivemode">SetupGetNonInteractiveMode</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetnoninteractivemode">SetupGetNonInteractiveMode</a>

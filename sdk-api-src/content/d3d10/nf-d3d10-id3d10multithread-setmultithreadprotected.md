@@ -57,17 +57,16 @@ Turn multithreading on or off.
 
 ### -param bMTProtect [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 True to turn multithreading on, false to turn it off.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 True if multithreading was turned on prior to calling this method, false otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread Interface</a>

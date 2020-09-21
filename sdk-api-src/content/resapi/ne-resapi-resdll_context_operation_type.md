@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the various types of context operations for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-get_operation_context_params">GET_OPERATION_CONTEXT_PARAMS</a> structure.
+Specifies the various types of context operations for the <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-get_operation_context_params">GET_OPERATION_CONTEXT_PARAMS</a> structure.
 
 ## -enum-fields
 
@@ -90,5 +90,4 @@ A network connection was disconnected and it is being re-established.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

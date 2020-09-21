@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>NET_ADDRESS_FORMAT</b> enumeration specifies the format of a network address returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function.
+The <b>NET_ADDRESS_FORMAT</b> enumeration specifies the format of a network address returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function.
 
 ## -enum-fields
 
@@ -76,13 +76,12 @@ The format of the network address is a string in Internet standard hexadecimal e
 
 The <b>NET_ADDRESS_FORMAT</b> enumeration is defined on Windows Vista and later. 
 
-The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function.
+The [NET_ADDRESS_INFO](/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info) structure returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function.
 
 ## -see-also
 
-[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)
+[NET_ADDRESS_INFO](/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a>

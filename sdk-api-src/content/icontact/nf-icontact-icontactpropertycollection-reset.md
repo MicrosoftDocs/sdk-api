@@ -81,6 +81,5 @@ Reset is successful.
 ## -remarks
 
 <div class="alert"><b>Note</b>  Collection has been reset to the location before the first element (if any elements are present), 
-		so you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">IContactPropertyCollection::Next</a> to begin querying data.</div>
+		so you must call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">IContactPropertyCollection::Next</a> to begin querying data.</div>
 <div> </div>
-

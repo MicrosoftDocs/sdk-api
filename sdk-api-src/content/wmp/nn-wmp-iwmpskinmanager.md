@@ -54,7 +54,7 @@ The <b>IWMPSkinManager</b> interface provides a method used to synchronize the c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSkinManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPSkinManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSkinManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPSkinManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPSkinManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpskinmanager-setvisualstyle">SetVisualStyle</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpskinmanager-setvisualstyle">SetVisualStyle</a>
 </td>
 <td align="left" width="63%">
 Specifies the path to a theme file in Windows XP to which Windows Media Player synchronizes the skin.
@@ -82,5 +82,4 @@ Retrieve a pointer to an <b>IWMPSkinManager</b> interface by calling the COM <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

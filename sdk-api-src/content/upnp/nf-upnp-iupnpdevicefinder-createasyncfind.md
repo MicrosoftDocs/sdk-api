@@ -65,10 +65,10 @@ Specify zero. This parameter is reserved for future use.
 
 ### -param punkDeviceFinderCallback [in]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface object that specifies the callback that the UPnP framework must use to communicate the results of this asynchronous search.
+Reference to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface object that specifies the callback that the UPnP framework must use to communicate the results of this asynchronous search.
 
 The object referred to by <i>pUnkCallback</i> must support either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a> interface or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The object referred to by <i>pUnkCallback</i> might support the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface, in addition to the <b>IUPnPDeviceFinderCallback</b> interface.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The object referred to by <i>pUnkCallback</i> might support the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface, in addition to the <b>IUPnPDeviceFinderCallback</b> interface.
 
 ### -param plFindData [out]
 
@@ -80,9 +80,9 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -remarks
 
-This method returns immediately; the UPnP framework notifies the caller of any search results using the callback specified by <i>pUnkCallback</i>. This method returns a search identifier; the caller must use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a> to actually begin the search.
+This method returns immediately; the UPnP framework notifies the caller of any search results using the callback specified by <i>pUnkCallback</i>. This method returns a search identifier; the caller must use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a> to actually begin the search.
 
-In C++, the object referred to by <i>pUnkCallback</i> must support either the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a> interface or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. Optionally, the object referred to by <i>pUnkCallback</i>  might support the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface, in addition to the <b>IUPnPDeviceFinderCallback</b> interface. The UPnP framework first queries <i>pUnkCallback</i> for the <b>IUPnPDeviceFinderAddCallbackWithInterface</b> interface. If the interface is not supported, the UPnP framework next queries <i>pUnkCallback</i> for the <b>IUPnPDeviceFinderCallback</b> interface.  If it is not supported, the UPnP framework then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, the UPnP framework returns E_FAIL.
+In C++, the object referred to by <i>pUnkCallback</i> must support either the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. Optionally, the object referred to by <i>pUnkCallback</i>  might support the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface, in addition to the <b>IUPnPDeviceFinderCallback</b> interface. The UPnP framework first queries <i>pUnkCallback</i> for the <b>IUPnPDeviceFinderAddCallbackWithInterface</b> interface. If the interface is not supported, the UPnP framework next queries <i>pUnkCallback</i> for the <b>IUPnPDeviceFinderCallback</b> interface.  If it is not supported, the UPnP framework then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, the UPnP framework returns E_FAIL.
 
 In VBScript, the second argument must be <b>GetRef</b>(<i>funcname</i>), where <i>funcname</i> is the name of the callback subroutine.
 
@@ -105,9 +105,8 @@ In Visual Basic, the callback function must be declared with three parameters. T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>

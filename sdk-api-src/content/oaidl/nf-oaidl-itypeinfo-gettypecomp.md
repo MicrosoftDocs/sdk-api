@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
+Retrieves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
 
 ## -parameters
 
 ### -param ppTComp [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> of the containing type library.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> of the containing type library.
 
 ## -returns
 
@@ -107,9 +107,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-A client compiler can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface to bind to members of the type.
+A client compiler can use the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface to bind to members of the type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

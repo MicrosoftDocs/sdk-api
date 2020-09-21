@@ -60,7 +60,7 @@ This property is read-only.
 ## -remarks
 
 A provider for a fragment root should return a pointer to its own implementation of 
-			<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
+			<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
 
 
 #### Examples
@@ -82,5 +82,4 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProvider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>

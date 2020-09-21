@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
+Contains the output for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 ## -struct-fields
 
@@ -86,5 +86,4 @@ typedef struct _BOOT_AREA_INFO {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a>

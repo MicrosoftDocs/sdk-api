@@ -50,31 +50,31 @@ api_name:
 
 ## -description
 
-Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getcuebanner">EM_GETCUEBANNER</a> message explicitly.
+Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getcuebanner">EM_GETCUEBANNER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
 ### -param lpwText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A  pointer to a Unicode string that receives the text that is set as the cue banner.
 
 ### -param cchText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string referenced by <i>lpcwText</i>.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also
@@ -83,13 +83,12 @@ A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string reference
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-getcuebanner">EM_GETCUEBANNER</a>
+<a href="/windows/desktop/Controls/em-getcuebanner">EM_GETCUEBANNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">Edit Controls</a>
+<a href="/windows/desktop/Controls/edit-controls">Edit Controls</a>
 
 
 
 <b>Reference</b>
-

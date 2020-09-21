@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetHashAlgorithms</b> method gets a list of hash-algorithm names. The Online Certificate Status Protocol (OCSP) responder server uses these names to sign OCSP responses for a given <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
+The <b>GetHashAlgorithms</b> method gets a list of hash-algorithm names. The Online Certificate Status Protocol (OCSP) responder server uses these names to sign OCSP responses for a given <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A string that contains the responder-server name.
 
 ### -param bstrCAId [in]
 
-A string that contains an <b>OCSPCAConfiguration</b> <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_identifier">Identifier</a>.
+A string that contains an <b>OCSPCAConfiguration</b> <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_identifier">Identifier</a>.
 
 ### -param pVal [out]
 
@@ -71,12 +71,11 @@ The list of hash algorithms with which a responder server can sign responses.
 <h3>C++</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 A list of hash algorithms with which a responder server can sign responses.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetAt</b> method returns a single character specified by an index number.
@@ -63,9 +63,9 @@ The <b>GetAt</b> method returns a single character specified by an index number.
 
 ### -param nIndex
 
-Zero-based index of the character in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
+Zero-based index of the character in the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
-<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to zero (0), and less than the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>. The debug version of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
+<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to zero (0), and less than the value returned by <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>. The debug version of the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
 <div> </div>
 
 ## -returns
@@ -74,7 +74,7 @@ Returns a <b>WCHAR</b> that contains the character at the specified place in the
 
 ## -remarks
 
-The overloaded subscript (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">[]</a>) operator is a convenient alternative for <b>GetAt</b>.
+The overloaded subscript (<a href="/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">[]</a>) operator is a convenient alternative for <b>GetAt</b>.
 
 
 #### Examples
@@ -89,13 +89,12 @@ assert( s.GetAt(2) == 'c' );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getlength">CHString::GetLength</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">CHString::GetLength</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">CHString::operator[]</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">CHString::operator[]</a>

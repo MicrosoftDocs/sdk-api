@@ -53,13 +53,13 @@ api_name:
 
 The <code>IAMOpenProgress</code> interface reports the progress of a file-open operation and enables the application to cancel the operation.
 
-Filters that open files over a network can expose this interface. An application can use it to query the progress of the download, or to cancel the download. If the network is not responsive, a method such as <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> might block for an indefinite period. To prevent your application from blocking, create a worker thread that uses <code>IAMOpenProgress</code> to monitor the progress. The worker thread can cancel the operation if a predefined timeout occurs, or in response to a command from the user.
+Filters that open files over a network can expose this interface. An application can use it to query the progress of the download, or to cancel the download. If the network is not responsive, a method such as <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> might block for an indefinite period. To prevent your application from blocking, create a worker thread that uses <code>IAMOpenProgress</code> to monitor the progress. The worker thread can cancel the operation if a predefined timeout occurs, or in response to a command from the user.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter supports this interface.
+The <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter supports this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMOpenProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamopenprogress-abortoperation">AbortOperation</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamopenprogress-abortoperation">AbortOperation</a>
 </td>
 <td align="left" width="63%">
 Cancels the file-open operation.
@@ -83,7 +83,7 @@ Cancels the file-open operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamopenprogress-queryprogress">QueryProgress</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamopenprogress-queryprogress">QueryProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the progress of the file-open operation.
@@ -91,4 +91,3 @@ Retrieves the progress of the file-open operation.
 </td>
 </tr>
 </table>
-

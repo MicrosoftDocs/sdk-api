@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 
@@ -65,11 +65,11 @@ This property is read/write.
 
 ## -remarks
 
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection after it has been moved or resized, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a> method of the InkStrokes collection returned by this property.
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection after it has been moved or resized, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a> method of the InkStrokes collection returned by this property.
 
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was moved, handle the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-selectionmoved">InkOverlay</a> or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoved">InkPicture</a> event.
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was moved, handle the <a href="/windows/desktop/tablet/inkoverlay-selectionmoved">InkOverlay</a> or the <a href="/windows/desktop/tablet/inkpicture-selectionmoved">InkPicture</a> event.
 
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was resized, handle the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-selectionresized">InkOverlay</a> or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresized">InkPicture</a> event.
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was resized, handle the <a href="/windows/desktop/tablet/inkoverlay-selectionresized">InkOverlay</a> or the <a href="/windows/desktop/tablet/inkpicture-selectionresized">InkPicture</a> event.
 
 ## -see-also
 
@@ -77,17 +77,16 @@ To get the bounding rectangle of the <a href="https://docs.microsoft.com/previou
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved Event [InkPicture Control]</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved Event [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized Event [InkPicture Control]</a>
-
+<a href="/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized Event [InkPicture Control]</a>

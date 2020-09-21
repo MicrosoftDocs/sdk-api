@@ -56,7 +56,7 @@ Activates TSF for the calling thread.
 
 ### -param ptid [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
+Pointer to a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 ## -returns
 
@@ -104,19 +104,18 @@ This method was called while the thread was deactivating.
 
 ## -remarks
 
-This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate</a> from the same thread.
+This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate</a> from the same thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
+<a href="/windows/desktop/TSF/tfclientid">TfClientId
       </a>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases a TYPEATTR previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">ITypeInfo::GetTypeAttr</a>.
+Releases a TYPEATTR previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-gettypeattr">ITypeInfo::GetTypeAttr</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The TYPEATTR to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

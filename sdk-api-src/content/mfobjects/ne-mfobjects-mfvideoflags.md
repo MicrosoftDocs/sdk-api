@@ -54,7 +54,7 @@ api_name:
 
 Contains flags that describe a video stream.
 
-These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo">MFVideoInfo</a> structure, which is part of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
+These flags are used in the <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo">MFVideoInfo</a> structure, which is part of the <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 ## -enum-fields
 
@@ -140,7 +140,7 @@ Reserved. This member forces the enumeration type to compile as a <b>QWORD</b> v
 
 ## -remarks
 
-Developers are encouraged to use media type attributes instead of using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure. The following table lists the attributes that correspond to the flags defined in this enumeration.
+Developers are encouraged to use media type attributes instead of using the <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure. The following table lists the attributes that correspond to the flags defined in this enumeration.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ MFVideoFlag_PAD_TO_16x9
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-pad-control-flags-attribute">MF_MT_PAD_CONTROL_FLAGS</a>
+<a href="/windows/desktop/medfound/mf-mt-pad-control-flags-attribute">MF_MT_PAD_CONTROL_FLAGS</a>
 </td>
 </tr>
 <tr>
@@ -170,7 +170,7 @@ MFVideoFlag_SrcContentHint235_1
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-source-content-hint-attribute">MF_MT_SOURCE_CONTENT_HINT</a>
+<a href="/windows/desktop/medfound/mf-mt-source-content-hint-attribute">MF_MT_SOURCE_CONTENT_HINT</a>
 </td>
 </tr>
 <tr>
@@ -181,18 +181,18 @@ MFVideoFlag_DigitallyProtected
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-drm-flags-attribute">MF_MT_DRM_FLAGS</a>
+<a href="/windows/desktop/medfound/mf-mt-drm-flags-attribute">MF_MT_DRM_FLAGS</a>
 </td>
 </tr>
 <tr>
 <td>MFVideoFlag_PanScanEnabled</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-pan-scan-enabled-attribute">MF_MT_PAN_SCAN_ENABLED</a>
+<a href="/windows/desktop/medfound/mf-mt-pan-scan-enabled-attribute">MF_MT_PAN_SCAN_ENABLED</a>
 </td>
 </tr>
 <tr>
 <td>MFVideoFlag_BottomUpLinearRep</td>
-<td>Use the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-default-stride-attribute">MF_MT_DEFAULT_STRIDE</a> attribute to specify a negative stride.</td>
+<td>Use the <a href="/windows/desktop/medfound/mf-mt-default-stride-attribute">MF_MT_DEFAULT_STRIDE</a> attribute to specify a negative stride.</td>
 </tr>
 </table>
  
@@ -212,17 +212,16 @@ The following flags were defined to describe per-sample interlacing information,
             
           </li>
 </ul>
-Instead, components should use sample attributes to describe per-sample interlacing information, as described in the topic <a href="https://docs.microsoft.com/windows/desktop/medfound/video-interlacing">Video Interlacing</a>.
+Instead, components should use sample attributes to describe per-sample interlacing information, as described in the topic <a href="/windows/desktop/medfound/video-interlacing">Video Interlacing</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
+<a href="/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

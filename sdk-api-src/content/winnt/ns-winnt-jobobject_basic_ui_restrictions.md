@@ -75,8 +75,8 @@ The restriction class for the user interface. This member can be one or more of 
 </td>
 <td width="60%">
 Prevents processes associated with the job from creating desktops and switching desktops using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a> functions.
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
+<a href="/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a> functions.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Prevents processes associated with the job from creating desktops and switching 
 </td>
 <td width="60%">
 Prevents processes associated with the job from calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function.
 
 </td>
 </tr>
@@ -100,8 +100,8 @@ Prevents processes associated with the job from calling the
 </td>
 <td width="60%">
 Prevents processes associated with the job from calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a> or 
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Prevents processes associated with the job from reading data from the clipboard.
 </td>
 <td width="60%">
 Prevents processes associated with the job from changing system parameters by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
 
 </td>
 </tr>
@@ -168,29 +168,28 @@ Prevents processes associated with the job from writing data to the clipboard.
 If you specify the JOB_OBJECT_UILIMIT_HANDLES flag, when a process associated with the job broadcasts messages, they are only sent to top-level windows owned by processes associated with the same job. In addition, hooks can be installed only on threads belonging to processes associated with the job.
 
 To grant access to a User handle to a job that has a user-interface restriction, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a>

@@ -73,13 +73,12 @@ Images with larger z-values are always in front of images with smaller z-values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
+<a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">IMixerPinConfig::SetZOrder</a>
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">IMixerPinConfig::SetZOrder</a>

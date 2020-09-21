@@ -53,14 +53,14 @@ api_name:
 ## -description
 
 Contains the result of a call to an asynchronous function. This structure is used with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>.
+<a href="/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>.
 
 ## -struct-fields
 
 ### -field dwResult
 
 Result. This parameter can be an 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle, unsigned long integer, or Boolean return code from an asynchronous function.
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle, unsigned long integer, or Boolean return code from an asynchronous function.
 
 ### -field dwError
 
@@ -85,7 +85,7 @@ The value of
 <tr>
 <td>INTERNET_STATUS_HANDLE_CREATED</td>
 <td>Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle</td>
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle</td>
 </tr>
 <tr>
 <td>INTERNET_STATUS_REQUEST_COMPLETE</td>
@@ -94,10 +94,9 @@ The value of
 </table>
  
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/asynchronous-operation"> Asynchronous Operation</a>
-
+<a href="/windows/desktop/WinInet/asynchronous-operation"> Asynchronous Operation</a>

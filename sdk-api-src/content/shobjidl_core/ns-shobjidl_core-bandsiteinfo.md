@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a band site. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">IBandSite::GetBandSiteInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">IBandSite::SetBandSiteInfo</a> methods.
+Contains information about a band site. This structure is used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">IBandSite::GetBandSiteInfo</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">IBandSite::SetBandSiteInfo</a> methods.
 
 ## -struct-fields
 
@@ -144,7 +144,7 @@ Disables the band-specific context menu (typically "Close Toolbar").
 
 #### BSIS_NODROPTARGET
 
-Prevents wrapping of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface provided by the band.
+Prevents wrapping of the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface provided by the band.
 
 
 
@@ -175,4 +175,3 @@ Removes the "Close Toolbar" and "Show Title" choices from the menu.
 #### BSIS_FIXEDORDER (0x00000400)
 
 <b>Internet Explorer 7 and later</b>. Prevents items from being reordered.
-

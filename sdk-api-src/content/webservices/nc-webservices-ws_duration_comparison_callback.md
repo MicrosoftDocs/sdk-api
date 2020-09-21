@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> data structure.
+Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> data structure.
 
 ## -parameters
 
 ### -param *duration1 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the first duration to compare.
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the first duration to compare.
 
 ### -param *duration2 [in]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the second duration.
+A  pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the second duration.
 
 ### -param *result [out]
 
@@ -73,7 +73,7 @@ The relationship between the durations as one of the following values:
 
 ### -param *error [in, optional]
 
-A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> handle where additional error information should be stored if the function fails.
+A pointer to  a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> handle where additional error information should be stored if the function fails.
 
 ## -returns
 
@@ -82,5 +82,4 @@ This callback function does not return a value.
 ## -remarks
 
 If the function cannot compare the specified durations, it should return <b>WS_E_INVALID_FORMAT</b>. 
-            (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+            (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

@@ -55,7 +55,7 @@ A device-child interface accesses data used by a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceChild</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11DeviceChild</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceChild</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11DeviceChild</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D11DeviceChild</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the device that created this interface.
@@ -79,7 +79,7 @@ Get a pointer to the device that created this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-getprivatedata">GetPrivateData</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get application-defined data from a device child.
@@ -88,7 +88,7 @@ Get application-defined data from a device child.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedata">SetPrivateData</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Set application-defined data to a device child and associate that data with an application-defined guid.
@@ -97,7 +97,7 @@ Set application-defined data to a device child and associate that data with an a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedatainterface">SetPrivateDataInterface</a>
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedatainterface">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
 Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
@@ -115,9 +115,8 @@ There are several types of device child interfaces, all of which inherit this in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

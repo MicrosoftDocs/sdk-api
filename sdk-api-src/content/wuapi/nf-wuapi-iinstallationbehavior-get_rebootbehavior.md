@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-installationrebootbehavior">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-installationrebootbehavior">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>

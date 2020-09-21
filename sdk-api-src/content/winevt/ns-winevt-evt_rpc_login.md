@@ -74,15 +74,14 @@ The password for the user account.
 
 ### -field Flags
 
-The authentication method to use to authenticate the user when connecting to the remote computer. For possible authentication methods, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a> enumeration.
+The authentication method to use to authenticate the user when connecting to the remote computer. For possible authentication methods, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a> enumeration.
 
 ## -remarks
 
 You can set <b>User</b>, <b>Domain</b>, and <b>Password</b> to <b>NULL</b> to use the credentials of the current user.
 
-If you set <b>Password</b>, consider using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function to clear the password after calling <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>.
+If you set <b>Password</b>, consider using the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function to clear the password after calling <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Information about the choices within a union type.
-                This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
+                This is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
 
 ## -struct-fields
 
@@ -109,7 +109,7 @@ If non-<b>NULL</b>, the following must be true:
 <li>The fields array is required to be sorted by element, in ascending order.
                     When comparing an element the namespace should be compared first, then the local name.
                     Each of the names should be compared by performing a byte-wide comparison of the utf-8 string.
-                    The field that uses <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
+                    The field that uses <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
                     be last in the fields array.
                     </li>
 <li>The valueIndices array points to an array that has fieldCount items.  The valueIndices
@@ -217,7 +217,7 @@ structType.value.b = helloString;
 // Set "none" choice
 structType.choice = None;
 </code></pre>
-The following is the grammar describing the order of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
+The following is the grammar describing the order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
                 mapping field of the <b>WS_FIELD_DESCRIPTION</b>.
             
 
@@ -227,10 +227,10 @@ ElementContentFields := (ElementField | RepeatingElementField)*
 ElementField := WS_ELEMENT_FIELD_MAPPING
 RepeatingElementField := WS_REPEATING_ELEMENT_FIELD_MAPPING
 AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING</code></pre>
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
             
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
                 other elements matched.
             
 
@@ -239,11 +239,10 @@ The following restrictions apply to the field descriptions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
                 a wrapper element name and namespace has been specified.
                 </li>
 <li>
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
-

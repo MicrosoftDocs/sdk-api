@@ -60,11 +60,10 @@ The <b>SetupGetNonInteractiveMode</b> function returns the value of a SetupAPI n
 
 ## -remarks
 
-Installation applications and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-co-installer">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="https://docs.microsoft.com/windows-hardware/drivers/install/handling-dif-codes">DIF code</a> SetupAPI is processing.
+Installation applications and <a href="/windows-hardware/drivers/install/writing-a-co-installer">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="/windows-hardware/drivers/install/setupapi">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="/windows-hardware/drivers/install/handling-dif-codes">DIF code</a> SetupAPI is processing.
 
-An installation application can call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetnoninteractivemode">SetupSetNonInteractiveMode</a> to set the SetupAPI non-interactive flag that controls whether SetupAPI can display interactive user interface elements in the caller's context.
+An installation application can call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupsetnoninteractivemode">SetupSetNonInteractiveMode</a> to set the SetupAPI non-interactive flag that controls whether SetupAPI can display interactive user interface elements in the caller's context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetnoninteractivemode">SetupSetNonInteractiveMode</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupsetnoninteractivemode">SetupSetNonInteractiveMode</a>

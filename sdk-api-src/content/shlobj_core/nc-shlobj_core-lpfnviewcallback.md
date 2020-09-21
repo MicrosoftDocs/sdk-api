@@ -52,21 +52,21 @@ api_name:
 
 <p class="CCE_Message">[This interface is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.]
 
-Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb">IShellFolderViewCB</a>.
+Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb">IShellFolderViewCB</a>.
 
 ## -parameters
 
 ### -param *psvOuter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
-A pointer to the owning instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, if applicable. This parameter can be <b>NULL</b>.
+A pointer to the owning instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, if applicable. This parameter can be <b>NULL</b>.
 
 ### -param *psf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> the message applies to.
+A pointer to the instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> the message applies to.
 
 ### -param hwndMain [in]
 
@@ -150,7 +150,7 @@ Allows the callback object to specify the buttons to be added to the toolbar.
 
 #### SFVM_GETDETAILSOF
 
-Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">IShellFolder2::GetDetailsOf</a> fails and there is no <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a> method available to call.
+Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">IShellFolder2::GetDetailsOf</a> fails and there is no <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a> method available to call.
 
 
 
@@ -168,7 +168,7 @@ Allows the callback object to specify a Help file and topic.
 
 #### SFVM_GETNOTIFY
 
-Specifies which events will generate an <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-fsnotify">SFVM_FSNOTIFY</a> message for a given item.
+Specifies which events will generate an <a href="/windows/desktop/shell/sfvm-fsnotify">SFVM_FSNOTIFY</a> message for a given item.
 
 
 
@@ -186,7 +186,7 @@ Allows the callback object to specify default sorting parameters.
 
 #### SFVM_GETTOOLTIPTEXT
 
-Allows the callback object to specify a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449606(v=vs.85)">tooltip</a> text string for menu items or toolbar buttons.
+Allows the callback object to specify a <a href="/previous-versions/windows/desktop/legacy/hh449606(v=vs.85)">tooltip</a> text string for menu items or toolbar buttons.
 
 
 
@@ -222,7 +222,7 @@ Allows the callback object to register a folder so that changes to that folder's
 
 #### SFVM_SETISFV
 
-Notifies the callback object of the container site. This is used only when <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> is not supported and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> is used.
+Notifies the callback object of the container site. This is used only when <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> is not supported and <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> is used.
 
 
 
@@ -234,7 +234,7 @@ Notifies the callback object that the folder view has been resized.
 
 #### SFVM_THISIDLIST
 
-Allows the callback object to specify the view's PIDL. This is used only when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-setidlist">IPersistIDList::SetIDList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder2-getcurfolder">IPersistFolder2::GetCurFolder</a> have failed.
+Allows the callback object to specify the view's PIDL. This is used only when <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-setidlist">IPersistIDList::SetIDList</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder2-getcurfolder">IPersistFolder2::GetCurFolder</a> have failed.
 
 
 
@@ -274,5 +274,4 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb">IShellFolderViewCB</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb">IShellFolderViewCB</a>

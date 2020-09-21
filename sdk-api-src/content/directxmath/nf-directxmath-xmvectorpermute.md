@@ -85,13 +85,13 @@ Returns the permuted vector that resulted from combining the source vectors.
 ## -remarks
 
 If all 4 indices reference only a single vector (i.e. they are all in the range 0-3 or all in the range 4-7), 
-    use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorswizzle">XMVectorSwizzle</a> instead for better performance.
+    use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorswizzle">XMVectorSwizzle</a> instead for better performance.
 
-The <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-constants">XM_PERMUTE_</a> constants are provided to
+The <a href="/windows/desktop/dxmath/ovw-xnamath-reference-constants">XM_PERMUTE_</a> constants are provided to
     use as input values for <i>PermuteX</i>,<i>PermuteY</i>,<i>PermuteZ</i>, and <i>PermuteW</i>.
 
 For constant PermuteX/Y/Z/W parameters, it is much more efficent to use the template form of
-    <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvectorpermute-template">XMVectorPermute</a>:
+    <a href="/windows/desktop/dxmath/xmvectorpermute-template">XMVectorPermute</a>:
 
 
 ```
@@ -112,9 +112,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorswizzle">XMVectorSwizzle</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorswizzle">XMVectorSwizzle</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>RM_RECEIVER_STATS</b> structure provides statistical information for a Reliable Multicast receiver session. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">RM_RECEIVER_STATISTICS</a> socket option.
+The <b>RM_RECEIVER_STATS</b> structure provides statistical information for a Reliable Multicast receiver session. This structure is used with the <a href="/windows/desktop/WinSock/socket-options">RM_RECEIVER_STATISTICS</a> socket option.
 
 ## -struct-fields
 
@@ -166,14 +166,13 @@ The number of parity NAKs sent this session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsrm/ns-wsrm-rm_sender_stats">RM_SENDER_STATS</a>
+<a href="/windows/desktop/api/wsrm/ns-wsrm-rm_sender_stats">RM_SENDER_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
+<a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket
+<a href="/windows/desktop/WinSock/socket-options">Socket
   Options</a>
-

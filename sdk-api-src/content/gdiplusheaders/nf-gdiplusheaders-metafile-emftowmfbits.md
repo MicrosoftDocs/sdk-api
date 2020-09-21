@@ -77,13 +77,13 @@ Pointer to a buffer that receives the converted records. If <i>pData16</i> is <b
 
 Type: <b>INT</b>
 
-Optional. Specifies the mapping mode to use in the converted metafile. For a list of possible mapping modes, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>. The default value is MM_ANISOTROPIC.
+Optional. Specifies the mapping mode to use in the converted metafile. For a list of possible mapping modes, see <a href="/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>. The default value is MM_ANISOTROPIC.
 
 ### -param eFlags [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlags</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlags</a></b>
 
-Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlagsDefault</a>.
+Optional. Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlagsDefault</a>.
 
 ## -returns
 
@@ -95,11 +95,11 @@ If the method succeeds and the buffer pointer is <b>NULL</b>, the return value i
 
 When you call <b>Metafile::EmfToWmfBits</b> to determine the size of the required buffer, you must pass the same value for <i>eFlags</i> that you pass later when you call <b>Metafile::EmfToWmfBits</b> to perform the conversion. Otherwise, the size returned by the first call to <b>Metafile::EmfToWmfBits</b> will be incorrect.
 
-This method cannot convert metafiles of type <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
+This method cannot convert metafiles of type <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfTypeEmfPlusOnly</a>. If you use this method to convert a metafile of type <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfTypeEmfPlusDual</a>, the Enhanced Metafile (EMF) records in that metafile are converted, but the EMF+ records are not converted.
 
 This method converts an enhanced metafile into a WMF metafile so that its picture can be displayed in an application that recognizes the older format.
 
-The <b>Metafile::EmfToWmfBits</b> method does not invalidate the enhanced metafile handle. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to release the handle when it is no longer needed.
+The <b>Metafile::EmfToWmfBits</b> method does not invalidate the enhanced metafile handle. Call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to release the handle when it is no longer needed.
 
 To create a scalable WMF metafile, specify MM_ANISOTROPIC as the <i>iMapMode</i> parameter.
 
@@ -150,17 +150,16 @@ delete[] buffer;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>

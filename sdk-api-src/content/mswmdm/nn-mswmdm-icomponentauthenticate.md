@@ -52,13 +52,13 @@ api_name:
 
 The <b>IComponentAuthenticate</b> interface provides secure, encrypted communication between modules of Windows Media Device Manager. It is implemented by a service provider and created and used by an application or plug-in. To get this interface, the application calls <b>CoCreateInstance</b> (__uuidof(MediaDevMgr)).
 
-The application creates and passes this interface to <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
+The application creates and passes this interface to <a href="/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
 
-The service provider implements the methods in this interface, and calls them on a private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
+The service provider implements the methods in this interface, and calls them on a private <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentAuthenticate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentAuthenticate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentAuthenticate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentAuthenticate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IComponentAuthenticate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">SACAuth</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">SACAuth</a>
 </td>
 <td align="left" width="63%">
 Establishes a secure authenticated channel between components.
@@ -82,7 +82,7 @@ Establishes a secure authenticated channel between components.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">SACGetProtocols</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">SACGetProtocols</a>
 </td>
 <td align="left" width="63%">
 Discovers the authentication protocols supported by another component.
@@ -93,17 +93,16 @@ Discovers the authentication protocols supported by another component.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
+<a href="/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

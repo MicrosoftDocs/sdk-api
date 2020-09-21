@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_KEYINFO_PARAM</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> function to specify the members of the <b>KeyInfo</b> element to be encoded.
+The <b>CRYPT_XML_KEYINFO_PARAM</b> structure is used by the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> function to specify the members of the <b>KeyInfo</b> element to be encoded.
 
 ## -struct-fields
 
@@ -87,4 +87,3 @@ The number of elements in the array pointed to by the <b>rgCRL</b> member.
 ### -field rgCRL
 
 A pointer to an array of <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
-

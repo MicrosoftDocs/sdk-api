@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Operations</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperations">IAzOperations</a> object that is used to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects from the policy data.
+The <b>Operations</b> property retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazoperations">IAzOperations</a> object that is used to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects from the policy data.
 
 This property is read-only.
 
@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -remarks
 
-This property can be used only to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects that are direct child objects of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
-
+This property can be used only to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects that are direct child objects of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.

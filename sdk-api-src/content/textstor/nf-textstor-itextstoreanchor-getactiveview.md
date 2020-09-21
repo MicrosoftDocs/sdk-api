@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchor::GetActiveView</b> method returns a <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view. TSF supports only a single active view, so a given text store should always return the same <b>TsViewCookie</b> data type.
+The <b>ITextStoreAnchor::GetActiveView</b> method returns a <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view. TSF supports only a single active view, so a given text store should always return the same <b>TsViewCookie</b> data type.
 
 ## -parameters
 
@@ -93,10 +93,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

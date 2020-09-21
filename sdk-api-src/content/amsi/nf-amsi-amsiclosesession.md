@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Close a session that was opened by <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
+Close a session that was opened by <a href="/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
 
 ## -parameters
 
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
+The handle of type HAMSICONTEXT that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 ### -param amsiSession [in]
 
-The handle of type HAMSISESSION that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
+The handle of type HAMSISESSION that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>
-
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>

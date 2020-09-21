@@ -90,7 +90,7 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error 
-					information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+					information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -100,5 +100,4 @@ In order for the returned rectangle to be meaningful, the menu must be popped
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
-
+<a href="/windows/desktop/menurc/menus">Menus</a>

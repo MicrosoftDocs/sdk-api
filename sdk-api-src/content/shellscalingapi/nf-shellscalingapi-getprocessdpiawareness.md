@@ -62,7 +62,7 @@ Handle of the process that is being queried. If this parameter is NULL, the curr
 
 ### -param value [out]
 
-The DPI awareness of the specified process. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
+The DPI awareness of the specified process. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
 
 ## -returns
 
@@ -116,13 +116,12 @@ This function is identical to the following code:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext">GetThreadDpiAwarenessContext</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext">GetThreadDpiAwarenessContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
-
+<a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>

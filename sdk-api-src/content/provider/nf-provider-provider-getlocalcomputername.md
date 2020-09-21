@@ -51,17 +51,16 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetLocalComputerName</b> method returns a constant reference to the computer name in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> format.
+The <b>GetLocalComputerName</b> method returns a constant reference to the computer name in <a href="/windows/desktop/WmiSdk/chstring">CHString</a> format.
 
 ## -parameters
 
 ## -returns
 
 Returns a constant reference to the name of the computer.
-

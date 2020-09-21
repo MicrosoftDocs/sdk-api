@@ -60,7 +60,7 @@ Specifies a certificate used for S4U logon.
 
 ### -field MessageType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-pku2u_logon_submit_type">PKU2U_LOGON_SUBMIT_TYPE</a> enumeration that indicates the logon type.
+A value of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-pku2u_logon_submit_type">PKU2U_LOGON_SUBMIT_TYPE</a> enumeration that indicates the logon type.
 
 ### -field Flags
 
@@ -84,4 +84,3 @@ The certificate data.
 #### - UNICODE_STRING
 
 This member is reserved. Do not use it.
-

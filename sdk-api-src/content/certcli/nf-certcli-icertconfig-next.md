@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Next</b> method retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
+The <b>Next</b> method retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 ## -parameters
 
@@ -65,20 +65,19 @@ A pointer to a <b>Long</b> variable that will contain the index of the enumerate
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pIndex</i> parameter contains the index of the enumerated configuration.  If there are no more configurations to enumerate, the return value is S_FALSE, and the <i>pIndex</i> parameter points to a value of –1.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a value that specifies the index of the next available Certificate Services server configuration in the configuration point. If no more configurations are available, the method returns a value of –1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
-
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>

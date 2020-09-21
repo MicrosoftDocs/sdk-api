@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Provides status information while a synchronization is in progress. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a> method and corresponds to a single synchronization item.
+Provides status information while a synchronization is in progress. This structure is used with the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a> method and corresponds to a single synchronization item.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The size of the structure, in bytes.
 
 Type: <b>UINT</b>
 
-Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
+Flags from the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
 
 ### -field lpcStatusText
 
@@ -80,7 +80,7 @@ Status text.
 
 Type: <b>DWORD</b>
 
-One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration.
+One of the values from the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration.
 
 ### -field iProgValue
 
@@ -96,5 +96,4 @@ An integer that indicates the maximum progress value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a>
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a>

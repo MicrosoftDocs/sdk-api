@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMREXTTEXTOUTA</b> and <b>EMREXTTEXTOUTW</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> enhanced metafile records.
+The <b>EMREXTTEXTOUTA</b> and <b>EMREXTTEXTOUTW</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -84,9 +84,8 @@ Y-scaling factor from page units to .01mm units if the graphics mode is the GM_C
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

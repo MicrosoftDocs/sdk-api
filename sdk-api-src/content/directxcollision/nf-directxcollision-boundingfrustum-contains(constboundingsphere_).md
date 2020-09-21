@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Tests whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) contains the specified [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere).
+Tests whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) contains the specified [BoundingSphere](./ns-directxcollision-boundingsphere.md).
 
 ## -parameters
 
 ### -param sp [in, ref]
 
-The [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) to test against.
+The [BoundingSphere](./ns-directxcollision-boundingsphere.md) to test against.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) is contained in the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the [BoundingSphere](./ns-directxcollision-boundingsphere.md) is contained in the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

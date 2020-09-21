@@ -70,7 +70,7 @@ Pointer to a null-terminated string containing the name of the user whose config
 ### -param WTSConfigClass [in]
 
 Specifies the type of information to set for the user. This parameter can be one of the values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a> enumeration type. The 
+      <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a> enumeration type. The 
       documentation for <b>WTS_CONFIG_CLASS</b> describes 
       the format of the data specified in <i>ppBuffer</i> for each of the information types.
 
@@ -87,25 +87,25 @@ Size, in <b>TCHARs</b>, of the <i>pBuffer</i> buffer.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
+The <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
     <b>WTSSetUserConfig</b> functions are passed a server 
     name instead of a handle because user account information often resides on a domain controller. To set user 
     configuration information, use the primary domain controller. You can call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetdcname">NetGetDCName</a> function to get the name of the primary 
+    <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgetdcname">NetGetDCName</a> function to get the name of the primary 
     domain controller. To query user configuration information, you can use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetanydcname">NetGetAnyDCName</a> function to get the name of a 
+    <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgetanydcname">NetGetAnyDCName</a> function to get the name of a 
     primary or backup domain controller.
 
 Any domain controller can set or query user configuration information. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to retrieve the name of a domain 
+    <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to retrieve the name of a domain 
     controller.
 
 If the value of the  <i>WTSConfigClass</i> parameter corresponds to an integer value in the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a> enumeration, define the value 
+     <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a> enumeration, define the value 
      to be set as a <b>DWORD</b>.  Then cast the value to an <b>LPWSTR</b> 
      in the call to <b>WTSSetUserConfig</b>, as in the 
      following example:
@@ -129,9 +129,8 @@ WTSSetUserConfig( strServer.GetBuffer(0),
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a>
-
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a>

@@ -174,7 +174,7 @@ Sparse file. This corresponds to the NTFS $DATA stream type for a sparse file.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a> data stream. 
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a> data stream. 
          This corresponds to the NTFS $TXF_DATA stream type.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -231,13 +231,12 @@ Unicode string that specifies the name of the alternative data stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>

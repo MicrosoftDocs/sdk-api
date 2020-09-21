@@ -56,7 +56,7 @@ The <b>SetDescriptor</b> method associates a descriptor with the entry.
 
 ### -param pDescriptor [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that contains the descriptor.
+Pointer to a <a href="/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that contains the descriptor.
 
 ## -returns
 
@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptor">GetDescriptor</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptor">GetDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>

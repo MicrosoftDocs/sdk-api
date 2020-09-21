@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CreateApplication2</b> method creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object by using the specified name.
+The <b>CreateApplication2</b> method creates an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object by using the specified name.
 
 ## -parameters
 
 ### -param bstrApplicationName [in]
 
-The name for the new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
+The name for the new <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
 
 ### -param varReserved [in, optional]
 
@@ -64,17 +64,16 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
+A pointer to a pointer to the created <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">IAzApplication::Submit</a> method to persist any changes made by the returned object.
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">IAzApplication::Submit</a> method to persist any changes made by the returned object.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object is an immediate child object of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore2">IAzAuthorizationStore2</a> object.
-
+The returned <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object is an immediate child object of the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore2">IAzAuthorizationStore2</a> object.

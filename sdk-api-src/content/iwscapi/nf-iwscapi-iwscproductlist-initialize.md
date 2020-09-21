@@ -56,7 +56,7 @@ Gathers information on all of the providers of the specified type on the compute
 
 ### -param provider [in]
 
-A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration with the name of the provider as one of the following values. Note that the possible values can't be combined in a logical OR as they can when used with the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a> function.
+A value from the  <a href="/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration with the name of the provider as one of the following values. Note that the possible values can't be combined in a logical OR as they can when used with the <a href="/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a> function.
 
 <table>
 <tr>
@@ -103,9 +103,8 @@ If the method  fails, returns a Win32 error code.
 
 ## -remarks
 
-Once the client gets an <a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a> pointer, they must call <b>Initialize</b> with a provider type, which gathers information on all the providers of that type installed on the system. Only one type of provider can be specified when calling <b>Initialize</b>, and the <b>Initialize</b> method may only be called once for each instance of an <b>IWSCProductList</b> pointer.  After the list has been initialized, the user is free to call <a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_count">Count</a> to obtain the number of providers in the list and <a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_item">Item</a> to retrieve an individual provider.
+Once the client gets an <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a> pointer, they must call <b>Initialize</b> with a provider type, which gathers information on all the providers of that type installed on the system. Only one type of provider can be specified when calling <b>Initialize</b>, and the <b>Initialize</b> method may only be called once for each instance of an <b>IWSCProductList</b> pointer.  After the list has been initialized, the user is free to call <a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_count">Count</a> to obtain the number of providers in the list and <a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_item">Item</a> to retrieve an individual provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>
-
+<a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>

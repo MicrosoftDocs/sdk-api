@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a> method is enabled for the collection.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

@@ -106,18 +106,18 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the <i>bRepaint</i> parameter is <b>TRUE</b>, the system sends the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to the window procedure immediately after moving the window (that is, the <b>MoveWindow</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function). If <i>bRepaint</i> is <b>FALSE</b>, the application must explicitly invalidate or redraw any parts of the window and parent window that need redrawing.
+If the <i>bRepaint</i> parameter is <b>TRUE</b>, the system sends the <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to the window procedure immediately after moving the window (that is, the <b>MoveWindow</b> function calls the <a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function). If <i>bRepaint</i> is <b>FALSE</b>, the application must explicitly invalidate or redraw any parts of the window and parent window that need redrawing.
 
-<b>MoveWindow</b> sends the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-move">WM_MOVE</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a>, and <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> messages to the window. 
+<b>MoveWindow</b> sends the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>, <a href="/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a>, <a href="/windows/desktop/winmsg/wm-move">WM_MOVE</a>, <a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a>, and <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> messages to the window. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -135,21 +135,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a>
+<a href="/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
+<a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

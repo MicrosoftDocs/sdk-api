@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(constgraphics_)">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.
-
+The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(constgraphics_)">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.

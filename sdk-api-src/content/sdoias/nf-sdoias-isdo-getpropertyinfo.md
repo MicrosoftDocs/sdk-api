@@ -77,5 +77,4 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>

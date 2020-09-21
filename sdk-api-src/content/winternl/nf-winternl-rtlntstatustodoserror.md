@@ -60,7 +60,7 @@ The NTSTATUS code to be converted.
 
 ## -returns
 
-The function returns the corresponding <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+The function returns the corresponding <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
@@ -68,9 +68,8 @@ There is no function that provides the inverse functionality of <b>RtlNtStatusTo
 
 ERROR_MR_MID_NOT_FOUND is returned when the specified NTSTATUS code does not have a corresponding system error code.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
-
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>

@@ -115,7 +115,7 @@ A handle to the menu the mouse cursor is on.
 
 Type: <b>PVOID</b>
 
-The identifier of the requested interface. Currently it can only be <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>.
+The identifier of the requested interface. Currently it can only be <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>.
 
 ### -field pvObj
 
@@ -127,10 +127,10 @@ A pointer to the interface corresponding to the
 ## -remarks
 
 The <b>MENUGETOBJECTINFO</b> structure is used only in drag-and-drop menus. When the 
-				<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menugetobject">WM_MENUGETOBJECT</a>  message is sent, 
+				<a href="/windows/desktop/menurc/wm-menugetobject">WM_MENUGETOBJECT</a>  message is sent, 
 				<i>lParam</i> is a pointer to this structure. 
 
-To create a drag-and-drop menu, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a> with <b>MNS_DRAGDROP</b> set.
+To create a drag-and-drop menu, call <a href="/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a> with <b>MNS_DRAGDROP</b> set.
 
 ## -see-also
 
@@ -138,7 +138,7 @@ To create a drag-and-drop menu, call <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -146,5 +146,4 @@ To create a drag-and-drop menu, call <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a>

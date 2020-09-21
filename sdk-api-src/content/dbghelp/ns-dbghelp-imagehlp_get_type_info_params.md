@@ -113,7 +113,7 @@ The number of elements specified in the arrays specified in the <b>ReqKinds</b>,
 
 ### -field ReqKinds
 
-An array of information types to be requested. Each element is one of the enumeration values in the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type.
+An array of information types to be requested. Each element is one of the enumeration values in the <a href="/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type.
 
 ### -field ReqOffsets
 
@@ -121,7 +121,7 @@ An array of offsets that specify where to store the data for each request within
 
 ### -field ReqSizes
 
-The size of each data request, in bytes. The required sizes are described in <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>.
+The size of each data request, in bytes. The required sizes are described in <a href="/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>.
 
 ### -field ReqStride
 
@@ -161,9 +161,8 @@ A bitmask indexed by <b>Buffer</b> element index that indicates which request da
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>
+<a href="/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>

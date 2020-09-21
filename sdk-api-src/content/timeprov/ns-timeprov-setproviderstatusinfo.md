@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 A structure that is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a> function.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a> function.
 
 ## -struct-fields
 
@@ -88,7 +88,7 @@ The name of the provider.
 ### -field hWaitEvent
 
 A handle to an event to set to the signaled state when the operation has been completed. To create an event object, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. 
 
 
 
@@ -98,7 +98,7 @@ If notification is not needed, this member can be <b>NULL</b>.
 ### -field pfnFree
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusinfofreefunc">SetProviderStatusInfoFreeFunc</a> function which frees the structure on completion.
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusinfofreefunc">SetProviderStatusInfoFreeFunc</a> function which frees the structure on completion.
 
 ### -field pHr
 
@@ -110,9 +110,8 @@ On completion, this member contains the new system stratum. The system stratum i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusinfofreefunc">SetProviderStatusInfoFreeFunc</a>
-
+<a href="/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusinfofreefunc">SetProviderStatusInfoFreeFunc</a>

@@ -70,5 +70,4 @@ Identifies the session that created the subscription.
 
 ## -see-also
 
-[FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)
-
+[FWPM_CONNECTION_ENUM_TEMPLATE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)

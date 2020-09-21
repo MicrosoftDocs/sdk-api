@@ -55,11 +55,11 @@ The
 
 The 
 <b>IDisplayHelp</b> interface enables a snap-in to display a specific HTML Help topic within the merged MMC HTML Help file. If the snap-in implemented 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>, MMC merges the snap-in's compiled HTML Help file (.chm) into the MMC HTML Help collection file.
+<a href="/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>, MMC merges the snap-in's compiled HTML Help file (.chm) into the MMC HTML Help collection file.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDisplayHelp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDisplayHelp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDisplayHelp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDisplayHelp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDisplayHelp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">ShowTopic</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">ShowTopic</a>
 </td>
 <td align="left" width="63%">
 Displays the specified HTML Help topic in the merged MMC HTML Help file.
@@ -82,4 +82,3 @@ Displays the specified HTML Help topic in the merged MMC HTML Help file.
 </td>
 </tr>
 </table>
-

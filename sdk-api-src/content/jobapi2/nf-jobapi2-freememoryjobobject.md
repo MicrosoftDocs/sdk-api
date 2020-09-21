@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>.
+Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ A pointer to the buffer of allocated memory that you want to free.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a>

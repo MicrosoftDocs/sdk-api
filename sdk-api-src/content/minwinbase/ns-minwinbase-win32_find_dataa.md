@@ -58,9 +58,9 @@ api_name:
 ## -description
 
 Contains information about the file  that is found by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
 
 ## -struct-fields
 
@@ -69,21 +69,21 @@ Contains information about the file  that is found by the
 The file attributes of a file.
 
 For possible values and their descriptions, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
+       <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 The <b>FILE_ATTRIBUTE_SPARSE_FILE</b> attribute on the file is set if any of the streams 
        of the file have ever been sparse.
 
 ### -field ftCreationTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when a file or 
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when a file or 
        directory was created.
 
 If the underlying file system does not support creation time, this member is zero.
 
 ### -field ftLastAccessTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 For a file, the structure specifies when the file was last read from, written to, or for executable files, 
        run.
@@ -96,11 +96,11 @@ On the FAT file system, the specified date for both files and directories is cor
 
 ### -field ftLastWriteTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 For a file, the structure specifies when the file was last written to, truncated, or overwritten, for 
-       example, when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> are used. The date and time are not 
+       example, when <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> or 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> are used. The date and time are not 
        updated when file attributes or security descriptors are changed.
 
 For a directory, the structure specifies when the directory is created. If the underlying file system does 
@@ -127,7 +127,7 @@ If the <b>dwFileAttributes</b> member includes the
 
 Otherwise, this value is undefined and should not be used.
 
-For more information see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
+For more information see <a href="/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 
 
@@ -198,20 +198,20 @@ This name is in the classic 8.3 file name format.
 If a file has a long file name, the complete name appears in the <b>cFileName</b> member, 
     and the 8.3 format truncated version of the name appears in the <b>cAlternateFileName</b> 
     member. Otherwise, <b>cAlternateFileName</b> is empty. If the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function was called with a value of 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function was called with a value of 
     <b>FindExInfoBasic</b> in the <i>fInfoLevelId</i> parameter, the 
     <b>cAlternateFileName</b> member will always contain a <b>NULL</b> string 
     value. This remains true for all subsequent calls to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function. As an alternative method of 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function. As an alternative method of 
     retrieving the 8.3 format version of a file name, you can use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> function. For more information about 
-    file names, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> function. For more information about 
+    file names, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 Not all file systems can record creation and last access times, and not all file systems record them in the 
     same manner. For example, on the FAT file system, create time has a resolution of 10 milliseconds, write time has 
     a resolution of 2 seconds, and access time has a resolution of 1 day. The 
     NTFS file system delays updates to the last access time for a file by up to 1 hour after the last access. For 
-    more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
+    more information, see <a href="/windows/desktop/SysInfo/file-times">File Times</a>.
 
 
 
@@ -222,41 +222,40 @@ Not all file systems can record creation and last access times, and not all file
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>
+<a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>
+<a href="/windows/desktop/SysInfo/file-times">File Times</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime">FileTimeToLocalFileTime</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime">FileTimeToLocalFileTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a>
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>

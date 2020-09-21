@@ -54,7 +54,7 @@ Enables playback of web audio.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineWebSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineWebSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineWebSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-connectwebaudio">ConnectWebAudio</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-connectwebaudio">ConnectWebAudio</a>
 </td>
 <td align="left" width="63%">
 Connects web audio to Media Engine using the specified sample rate.
@@ -78,7 +78,7 @@ Connects web audio to Media Engine using the specified sample rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-disconnectwebaudio">DisconnectWebAudio</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-disconnectwebaudio">DisconnectWebAudio</a>
 </td>
 <td align="left" width="63%">
 Disconnects web audio from the Media Engine 
@@ -87,7 +87,7 @@ Disconnects web audio from the Media Engine
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-shoulddelaytheloadevent">ShouldDelayTheLoadEvent</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-shoulddelaytheloadevent">ShouldDelayTheLoadEvent</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating if the connecting to Web audio should delay the page's load event.
@@ -95,4 +95,3 @@ Gets a value indicating if the connecting to Web audio should delay the page's l
 </td>
 </tr>
 </table>
-

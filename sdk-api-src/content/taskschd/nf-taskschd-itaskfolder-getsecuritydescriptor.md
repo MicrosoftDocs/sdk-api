@@ -56,7 +56,7 @@ Gets the security descriptor for the folder.
 
 ### -param securityInformation [in]
 
-The security information from <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>.
+The security information from <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>.
 
 ### -param pSddl [out]
 
@@ -68,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor">IRegisteredTask::SetSecurityDescriptor</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor">IRegisteredTask::SetSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor">ITaskFolder::SetSecurityDescriptor</a>
-
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor">ITaskFolder::SetSecurityDescriptor</a>

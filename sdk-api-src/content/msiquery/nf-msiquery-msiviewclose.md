@@ -67,10 +67,9 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 The 
 <b>MsiViewClose</b> function must be called before the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewexecute">MsiViewExecute</a> function is called again on the view, unless all rows of the result set have been obtained with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> function.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewexecute">MsiViewExecute</a> function is called again on the view, unless all rows of the result set have been obtained with the 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

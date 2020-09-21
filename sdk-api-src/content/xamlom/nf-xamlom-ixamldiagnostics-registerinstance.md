@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> to the XAML Diagnostics cache and returns the newly created
+Adds an <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> to the XAML Diagnostics cache and returns the newly created
     <b>InstanceHandle</b> for the object.
 
 ## -parameters
@@ -69,5 +69,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>

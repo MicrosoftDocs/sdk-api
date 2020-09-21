@@ -58,7 +58,7 @@ Use the
 ### -param riid [in]
 
 Identifies the task scheduler interface to return in <i>ppTask</i>. For a list of identifiers, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> method.
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> method.
 
 ### -param ppUnk [out]
 
@@ -71,17 +71,16 @@ This method returns <b>S_OK</b> for success. Otherwise, the method returns <b>S_
 ## -remarks
 
 When you create a virtual directory and 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">enable</a> it for BITS uploads, BITS adds a work item in the 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>. The work item cleans up the virtual directory once every 12 hours by deleting jobs that have not been modified within the time-out period. To specify the time-out period, set the 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSSessionTimeout</a> IIS extension property.
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">enable</a> it for BITS uploads, BITS adds a work item in the 
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>. The work item cleans up the virtual directory once every 12 hours by deleting jobs that have not been modified within the time-out period. To specify the time-out period, set the 
+<a href="/windows/desktop/Bits/bits-iis-extension-properties">BITSSessionTimeout</a> IIS extension property.
 
-To change the cleanup schedule, see the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSCleanupUseDefault</a> BITS IIS extension property.
+To change the cleanup schedule, see the <a href="/windows/desktop/Bits/bits-iis-extension-properties">BITSCleanupUseDefault</a> BITS IIS extension property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">IBITSExtensionSetup::EnableBITSUploads</a>
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">IBITSExtensionSetup::EnableBITSUploads</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">IBITSExtensionSetup::GetCleanupTaskName</a>
-
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">IBITSExtensionSetup::GetCleanupTaskName</a>

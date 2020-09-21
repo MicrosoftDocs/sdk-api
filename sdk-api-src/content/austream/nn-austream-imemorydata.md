@@ -52,17 +52,17 @@ api_name:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-getinfo">GetInfo</a> method can be used to retrieve audio memory data.
+The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="/windows/desktop/api/austream/nf-austream-imemorydata-getinfo">GetInfo</a> method can be used to retrieve audio memory data.
 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 
-Typically these methods are called by the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
+Typically these methods are called by the <a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IMemoryData</code> interface exposes the following methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemoryData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemoryData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemoryData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemoryData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMemoryData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/austream/nf-austream-imemorydata-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information describing an audio data object.
@@ -86,7 +86,7 @@ Retrieves information describing an audio data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>
+<a href="/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of audio data currently in the object, in bytes.
@@ -95,7 +95,7 @@ Sets the amount of audio data currently in the object, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-setbuffer">SetBuffer</a>
+<a href="/windows/desktop/api/austream/nf-austream-imemorydata-setbuffer">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a memory buffer with a pointer to memory and length.
@@ -103,4 +103,3 @@ Initializes a memory buffer with a pointer to memory and length.
 </td>
 </tr>
 </table>
-

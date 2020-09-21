@@ -56,9 +56,9 @@ Determines whether this range has the same character positions and story as thos
 
 ### -param pRange
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object that is compared to this range.
+The <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object that is compared to this range.
 
 ### -param pValue
 
@@ -75,13 +75,12 @@ The method returns an <b>HRESULT</b> value. If the ranges have the same characte
 ## -remarks
 
 The 
-				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
+				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="/windows/desktop/Controls/about-text-object-model">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

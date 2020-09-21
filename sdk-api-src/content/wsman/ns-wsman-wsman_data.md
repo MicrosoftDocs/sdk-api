@@ -79,17 +79,16 @@ Contains the data.
 
 #### text
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data_text">WSMAN_DATA_TEXT</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data_text">WSMAN_DATA_TEXT</a> structure.
 
 
 
 #### binaryData
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data_binary">WSMAN_DATA_BINARY</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data_binary">WSMAN_DATA_BINARY</a> structure.
 
 
 
 #### number
 
 If <b>type</b> is <b>WSMAN_DATA_TYPE_DWORD</b>, <b>number</b> is a DWORD integer.
-

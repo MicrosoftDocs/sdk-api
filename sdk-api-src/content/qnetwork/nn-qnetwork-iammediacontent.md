@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAMMediaContent</b> interface retrieves metadata from a stream. Applications can use this interface to retrieve information encoded into a stream, such as the author, title, and copyright. This interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter.
+The <b>IAMMediaContent</b> interface retrieves metadata from a stream. Applications can use this interface to retrieve information encoded into a stream, such as the author, title, and copyright. This interface is exposed by the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter.
 
 Depending on the stream type, a filter might support a subset of the methods on this interface. For example, the AVI Splitter retrieves the copyright, author name, and title from INFO chunks in the AVI file. The remaining methods return <b> E_NOTIMPL</b>.
 
@@ -59,7 +59,7 @@ Depending on the stream type, a filter might support a subset of the methods on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMMediaContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_authorname">get_AuthorName</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_authorname">get_AuthorName</a>
 </td>
 <td align="left" width="63%">
 Gets the author name.
@@ -83,7 +83,7 @@ Gets the author name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_baseurl">get_BaseURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_baseurl">get_BaseURL</a>
 </td>
 <td align="left" width="63%">
 Gets a base URL for the related web content.
@@ -92,7 +92,7 @@ Gets a base URL for the related web content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_copyright">get_Copyright</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_copyright">get_Copyright</a>
 </td>
 <td align="left" width="63%">
 Gets copyright information.
@@ -101,7 +101,7 @@ Gets copyright information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_description">get_Description</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Gets a description of the content.
@@ -110,7 +110,7 @@ Gets a description of the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_logoiconurl">get_LogoIconURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_logoiconurl">get_LogoIconURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the logo icon.
@@ -119,7 +119,7 @@ Gets a URL for the logo icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_logourl">get_LogoURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_logourl">get_LogoURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the logo.
@@ -128,7 +128,7 @@ Gets a URL for the logo.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfobannerimage">get_MoreInfoBannerImage</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfobannerimage">get_MoreInfoBannerImage</a>
 </td>
 <td align="left" width="63%">
 Gets an image for a related-information banner.
@@ -137,7 +137,7 @@ Gets an image for a related-information banner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfobannerurl">get_MoreInfoBannerURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfobannerurl">get_MoreInfoBannerURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for a related-information banner.
@@ -146,7 +146,7 @@ Gets a URL for a related-information banner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfotext">get_MoreInfoText</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfotext">get_MoreInfoText</a>
 </td>
 <td align="left" width="63%">
 Gets additional information as text.
@@ -155,7 +155,7 @@ Gets additional information as text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfourl">get_MoreInfoURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_moreinfourl">get_MoreInfoURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for additional information about the content.
@@ -164,7 +164,7 @@ Gets a URL for additional information about the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_rating">get_Rating</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_rating">get_Rating</a>
 </td>
 <td align="left" width="63%">
 Gets the rating.
@@ -173,7 +173,7 @@ Gets the rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_title">get_Title</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_title">get_Title</a>
 </td>
 <td align="left" width="63%">
 Gets the title.
@@ -182,7 +182,7 @@ Gets the title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_watermarkurl">get_WatermarkURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent-get_watermarkurl">get_WatermarkURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the watermark.
@@ -204,5 +204,4 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

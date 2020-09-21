@@ -57,7 +57,7 @@ The <code>ProcessOutput</code> method generates output from the current input da
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_process_output_flags">DMO_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise combination of zero or more flags from the <a href="/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_process_output_flags">DMO_PROCESS_OUTPUT_FLAGS</a> enumeration.
 
 ### -param cOutputBufferCount
 
@@ -65,7 +65,7 @@ Number of output buffers.
 
 ### -param pOutputBuffers [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
 
 ### -param pdwStatus [out]
 
@@ -139,11 +139,11 @@ Success
 
 ## -remarks
 
-The <i>pOutputBuffers</i> parameter points to an array of <b>DMO_OUTPUT_DATA_BUFFER</b> structures. The application must allocate one structure for each output stream. To determine the number of output streams, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getstreamcount">IMediaObject::GetStreamCount</a> method. Set the <i>cOutputBufferCount</i> parameter to this number.
+The <i>pOutputBuffers</i> parameter points to an array of <b>DMO_OUTPUT_DATA_BUFFER</b> structures. The application must allocate one structure for each output stream. To determine the number of output streams, call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getstreamcount">IMediaObject::GetStreamCount</a> method. Set the <i>cOutputBufferCount</i> parameter to this number.
 
-Each <b>DMO_OUTPUT_DATA_BUFFER</b> structure contains a pointer to a buffer's <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> interface. The application allocates these buffers. The other members of the structure are status fields. The DMO sets these fields if the method succeeds. If the method fails, their values are undefined.
+Each <b>DMO_OUTPUT_DATA_BUFFER</b> structure contains a pointer to a buffer's <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> interface. The application allocates these buffers. The other members of the structure are status fields. The DMO sets these fields if the method succeeds. If the method fails, their values are undefined.
 
-When the application calls <code>ProcessOutput</code>, the DMO processes as much input data as possible. It writes the output data to the output buffers, starting from the end of the data in each buffer. (To find the end of the data, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getbufferandlength">IMediaBuffer::GetBufferAndLength</a> method.) The DMO never holds a reference count on an output buffer.
+When the application calls <code>ProcessOutput</code>, the DMO processes as much input data as possible. It writes the output data to the output buffers, starting from the end of the data in each buffer. (To find the end of the data, call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getbufferandlength">IMediaBuffer::GetBufferAndLength</a> method.) The DMO never holds a reference count on an output buffer.
 
 If the DMO fills an entire output buffer and still has input data to process, the DMO returns the DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE flag in the <b>DMO_OUTPUT_DATA_BUFFER</b> structure. The application should check for this flag by testing the <b>dwStatus</b> member of each structure.
 
@@ -160,9 +160,8 @@ For each stream in which <b>pBuffer</b> is <b>NULL</b>:
 <li>If the flag is set but the stream is neither discardable nor optional, the DMO discards the data if possible. It is not guaranteed to discard the data.</li>
 <li>If the flag is not set, the DMO does not produce output data for that stream, but does not discard the data.</li>
 </ul>
-To check whether a stream is discardable or optional, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputstreaminfo">IMediaObject::GetOutputStreamInfo</a> method.
+To check whether a stream is discardable or optional, call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputstreaminfo">IMediaObject::GetOutputStreamInfo</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

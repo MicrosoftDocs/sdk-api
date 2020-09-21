@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_KEY_ECDSA_KEY_VALUE</b> structure defines an Elliptic Curve Digital Signature Algorithm (ECDSA) key value.  The <b>CRYPT_XML_KEY_ECDSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
+The <b>CRYPT_XML_KEY_ECDSA_KEY_VALUE</b> structure defines an Elliptic Curve Digital Signature Algorithm (ECDSA) key value.  The <b>CRYPT_XML_KEY_ECDSA_KEY_VALUE</b> structure is used as an element of the key value union  in the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
 
 ## -struct-fields
 
 ### -field wszNamedCurve
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the named curve.
+A pointer to a null-terminated Unicode string that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the named curve.
 
 ### -field X
 
@@ -71,4 +71,3 @@ Defines the Y value of an ECDSA curve.
 ### -field ExplicitPara
 
 A   <b>CRYPT_XML_BLOB</b> value that defines the encoded parameters of an ECDSA curve.
-

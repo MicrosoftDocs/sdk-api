@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://www.microsoft.com/en-us/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://www.microsoft.com/en-us/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
-The <b>DBID</b> structure encapsulates various ways of identifying a database object. It is used by nodes that must represent a column name, such as column_name, index_name, table_name, schema_name, catalog_name, and so forth. (For more information on these nodes, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/catalog-of-dml-nodes">Catalog of DML Nodes</a>.) This structure is also used to define bindings.
+The <b>DBID</b> structure encapsulates various ways of identifying a database object. It is used by nodes that must represent a column name, such as column_name, index_name, table_name, schema_name, catalog_name, and so forth. (For more information on these nodes, see <a href="/previous-versions/windows/desktop/indexsrv/catalog-of-dml-nodes">Catalog of DML Nodes</a>.) This structure is also used to define bindings.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ The <b>DBID</b> structure encapsulates various ways of identifying a database ob
 ## -remarks
 
 The <b>DBID</b> structure identifies the requested columns for a query. Each unique column is represented by a unique combination of GUID and number or GUID and name.
-

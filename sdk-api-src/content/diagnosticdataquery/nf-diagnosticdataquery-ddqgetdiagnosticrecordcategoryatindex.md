@@ -59,7 +59,7 @@ The index of the category to be fetched.
 
 ### -param categoryDescription
 
-Type: **[DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description)**
+Type: **[DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description.md)**
 This outpoint parameter is a pointer to the category and its description that was fetched.
 
 ## -returns
@@ -69,7 +69,6 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-See **[DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description)** for documentation on how a category is defined.
+See **[DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description.md)** for documentation on how a category is defined.
 
 ## -see-also
-

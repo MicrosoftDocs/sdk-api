@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Calculate a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> index for a texture.
+Calculate a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> index for a texture.
 
 ## -parameters
 
 ### -param MipSlice [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index into an array of subtextures; 0 indicates the first, most detailed subtexture (or mipmap level).
 
 ### -param ArraySlice [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The zero-based index of the first texture to use (in an array of textures).
 
 ### -param MipLevels [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of mipmap levels (or subtextures) to use.
 
@@ -84,9 +84,8 @@ A buffer is an unstructured resource and is therefore defined as containing a si
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-functions">Resource Functions</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-functions">Resource Functions</a>

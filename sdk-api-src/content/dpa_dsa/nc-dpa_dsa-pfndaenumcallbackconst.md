@@ -64,7 +64,7 @@ A pointer to the constant structure to be enumerated.
 
 Type: <b>void*</b>
 
-A value that was passed in the <i>pData</i> parameter to function <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_enumcallback">DSA_EnumCallback</a> or function <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_enumcallback">DPA_EnumCallback</a>.
+A value that was passed in the <i>pData</i> parameter to function <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dsa_enumcallback">DSA_EnumCallback</a> or function <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_enumcallback">DPA_EnumCallback</a>.
 
 ## -returns
 
@@ -75,4 +75,3 @@ The return value is used to determine whether to terminate or continue the itera
 ## -remarks
 
 Alternate names for this callback are <b>PFNDPAENUMCALLBACKCONST</b> and <b>PFNDSAENUMCALLBACKCONST</b>.
-

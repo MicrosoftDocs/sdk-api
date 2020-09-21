@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions/bb761347(v=vs.85)">SetProgressFeedback</a> method during reconciliation.
+Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="/previous-versions/bb761347(v=vs.85)">SetProgressFeedback</a> method during reconciliation.
 
 ## -parameters
 
@@ -97,5 +97,4 @@ Unspecified error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>
-
+<a href="/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>

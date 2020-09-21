@@ -65,9 +65,8 @@ The application has monitor privileges for the current phone session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_privilege">ITPhone::get_Privilege</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_privilege">ITPhone::get_Privilege</a>

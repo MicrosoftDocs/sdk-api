@@ -95,10 +95,9 @@ See
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-service-discovery">Bluetooth and WSALookupServiceBegin for Service
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-service-discovery">Bluetooth and WSALookupServiceBegin for Service
 		  Discovery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">Bluetooth and WSAQUERYSET for Service Inquiry</a>
-
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">Bluetooth and WSAQUERYSET for Service Inquiry</a>

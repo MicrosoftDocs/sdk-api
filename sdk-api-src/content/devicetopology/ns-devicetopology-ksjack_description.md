@@ -321,17 +321,16 @@ The type of port represented by the jack. The value of this member is one of the
 
 ### -field IsConnected
 
-If the audio adapter supports jack-presence detection on the jack, the value of <b>IsConnected</b> indicates whether an endpoint device is plugged into the jack. If <b>IsConnected</b> is <b>TRUE</b>, a device is plugged in. If it is <b>FALSE</b>, the jack is empty. For devices that do not support jack-presence detection, this member is always <b>TRUE</b>. For more information about jack-presence detection, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">Audio Endpoint Devices</a>.
+If the audio adapter supports jack-presence detection on the jack, the value of <b>IsConnected</b> indicates whether an endpoint device is plugged into the jack. If <b>IsConnected</b> is <b>TRUE</b>, a device is plugged in. If it is <b>FALSE</b>, the jack is empty. For devices that do not support jack-presence detection, this member is always <b>TRUE</b>. For more information about jack-presence detection, see <a href="/windows/desktop/CoreAudio/audio-endpoint-devices">Audio Endpoint Devices</a>.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a> method in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>. It describes an audio jack that is part of a connection between an endpoint device and a hardware device in an audio adapter. When a user needs to plug an endpoint device into a jack or unplug it from a jack, an audio application can use the descriptive information in the structure to help the user to find the jack.
+This structure is used by the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a> method in the <a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>. It describes an audio jack that is part of a connection between an endpoint device and a hardware device in an audio adapter. When a user needs to plug an endpoint device into a jack or unplug it from a jack, an audio application can use the descriptive information in the structure to help the user to find the jack.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>

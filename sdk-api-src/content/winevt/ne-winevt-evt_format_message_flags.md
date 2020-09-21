@@ -90,9 +90,8 @@ Format the message string associated with a resource identifier. The provider's 
 
 ### -field EvtFormatMessageXml
 
-Format all the message strings in the event. The formatted message is an XML string that contains the event details and the message strings. The message strings are included in the <a href="https://docs.microsoft.com/windows/desktop/WES/eventschema-renderingtype-complextype">RenderingInfo</a> section of the event details.
+Format all the message strings in the event. The formatted message is an XML string that contains the event details and the message strings. The message strings are included in the <a href="/windows/desktop/WES/eventschema-renderingtype-complextype">RenderingInfo</a> section of the event details.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtformatmessage">EvtFormatMessage</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtformatmessage">EvtFormatMessage</a>

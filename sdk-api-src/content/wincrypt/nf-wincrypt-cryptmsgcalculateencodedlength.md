@@ -56,7 +56,7 @@ The <b>CryptMsgCalculateEncodedLength</b> function calculates the maximum number
 
 ### -param dwMsgEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -93,7 +93,7 @@ Indicates that streamed output will not have an outer ContentInfo wrapper (as de
 </td>
 <td width="60%">
 Indicates that there is detached data being supplied for the subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Indicates that there is detached data being supplied for the subsequent calls to
 </dl>
 </td>
 <td width="60%">
-Used to calculate the size of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DER</a> encoding of a message to be nested inside an enveloped message. This is particularly useful when streaming is being performed.
+Used to calculate the size of a <a href="/windows/desktop/SecGloss/d-gly">DER</a> encoding of a message to be nested inside an enveloped message. This is particularly useful when streaming is being performed.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Used to calculate the size of a <a href="https://docs.microsoft.com/windows/desk
 </dl>
 </td>
 <td width="60%">
-Non-Data type <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> is encapsulated within an OCTET STRING. This flag is applicable for both Signed and Enveloped messages.
+Non-Data type <a href="/windows/desktop/SecGloss/i-gly">inner content</a> is encapsulated within an OCTET STRING. This flag is applicable for both Signed and Enveloped messages.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ An octet (BYTE) string.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a>
 
 
 </td>
@@ -157,7 +157,7 @@ An octet (BYTE) string.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Not implemented.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
 
 
 </td>
@@ -203,7 +203,7 @@ A pointer to the data to be encoded. The type of data pointed to depends on the 
 ### -param pszInnerContentObjID [in, optional]
 
 When calling <b>CryptMsgCalculateEncodedLength</b> with data provided to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> already encoded, the appropriate object identifier is passed in <i>pszInnerContentObjID</i>. If <i>pszInnerContentObjID</i> is <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> type is assumed not to have been previously encoded, and is encoded as an octet string and given the type CMSG_DATA. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> already encoded, the appropriate object identifier is passed in <i>pszInnerContentObjID</i>. If <i>pszInnerContentObjID</i> is <b>NULL</b>, the <a href="/windows/desktop/SecGloss/i-gly">inner content</a> type is assumed not to have been previously encoded, and is encoded as an octet string and given the type CMSG_DATA. 
 
 
 
@@ -221,7 +221,7 @@ The following algorithm object identifiers are commonly used:
 <li>szOID_RSA_encryptedData</li>
 <li>SPC_INDIRECT_DATA_OBJID</li>
 </ul>
-A user can define new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> usage. The user must ensure that the sender and receiver of the message agree upon the semantics associated with the object identifier.
+A user can define new <a href="/windows/desktop/SecGloss/i-gly">inner content</a> usage. The user must ensure that the sender and receiver of the message agree upon the semantics associated with the object identifier.
 
 ### -param cbData [in]
 
@@ -231,7 +231,7 @@ The size, in bytes, of the content.
 
 Returns the required length for an encoded cryptographic message. This length might not be the exact length but it will not be less than the required length. Zero is returned if the function fails.
 
-To retrieve extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table lists the error codes most commonly returned.
+To retrieve extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table lists the error codes most commonly returned.
 
 <table>
 <tr>
@@ -275,13 +275,12 @@ One or more arguments are not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

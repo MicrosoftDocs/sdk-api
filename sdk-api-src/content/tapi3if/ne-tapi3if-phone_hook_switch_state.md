@@ -73,13 +73,12 @@ Indicates that the phone is offhook.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_hookswitchstate">ITPhone::get_HookSwitchState</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_hookswitchstate">ITPhone::get_HookSwitchState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_hookswitchstate">ITPhone::put_HookSwitchState</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_hookswitchstate">ITPhone::put_HookSwitchState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_hookswitchstate">ITPhoneEvent::get_HookSwitchState</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_hookswitchstate">ITPhoneEvent::get_HookSwitchState</a>

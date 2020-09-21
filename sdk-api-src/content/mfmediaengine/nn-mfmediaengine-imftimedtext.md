@@ -54,7 +54,7 @@ A timed-text object represents a component of timed text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedText</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimedText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-adddatasource">AddDataSource</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-adddatasource">AddDataSource</a>
 </td>
 <td align="left" width="63%">
 Adds a timed-text data source.
@@ -78,7 +78,7 @@ Adds a timed-text data source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-adddatasourcefromurl">AddDataSourceFromUrl</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-adddatasourcefromurl">AddDataSourceFromUrl</a>
 </td>
 <td align="left" width="63%">
 Adds a timed-text data source from the specified URL.
@@ -87,7 +87,7 @@ Adds a timed-text data source from the specified URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getactivetracks">GetActiveTracks</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getactivetracks">GetActiveTracks</a>
 </td>
 <td align="left" width="63%">
 Gets the list of active timed-text tracks in the timed-text component.
@@ -96,7 +96,7 @@ Gets the list of active timed-text tracks in the timed-text component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getcuetimeoffset">GetCueTimeOffset</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getcuetimeoffset">GetCueTimeOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset to the cue time.
@@ -105,7 +105,7 @@ Gets the offset to the cue time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getmetadatatracks">GetMetadataTracks</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-getmetadatatracks">GetMetadataTracks</a>
 </td>
 <td align="left" width="63%">
 Gets the list of the timed-metadata tracks in the timed-text component.
@@ -114,7 +114,7 @@ Gets the list of the timed-metadata tracks in the timed-text component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-gettexttracks">GetTextTracks</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-gettexttracks">GetTextTracks</a>
 </td>
 <td align="left" width="63%">
 Gets the list of all the timed-text tracks in the timed-text component.
@@ -123,7 +123,7 @@ Gets the list of all the timed-text tracks in the timed-text component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-gettracks">GetTracks</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-gettracks">GetTracks</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all timed-text tracks registered with the <b>IMFTimedText</b>.
@@ -132,7 +132,7 @@ Retrieves a list of all timed-text tracks registered with the <b>IMFTimedText</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-isinbandenabled">IsInBandEnabled</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-isinbandenabled">IsInBandEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether inband mode is enabled.
@@ -141,7 +141,7 @@ Determines whether inband mode is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-registernotifications">RegisterNotifications</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-registernotifications">RegisterNotifications</a>
 </td>
 <td align="left" width="63%">
 Registers a timed-text notify object.
@@ -150,7 +150,7 @@ Registers a timed-text notify object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-removetrack">RemoveTrack</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-removetrack">RemoveTrack</a>
 </td>
 <td align="left" width="63%">
 Removes the timed-text track with the specified identifier.
@@ -159,7 +159,7 @@ Removes the timed-text track with the specified identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-selecttrack">SelectTrack</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-selecttrack">SelectTrack</a>
 </td>
 <td align="left" width="63%">
 Selects or deselects a track of text in the timed-text component.
@@ -168,7 +168,7 @@ Selects or deselects a track of text in the timed-text component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-setcuetimeoffset">SetCueTimeOffset</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-setcuetimeoffset">SetCueTimeOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset to the cue time.
@@ -177,7 +177,7 @@ Sets the offset to the cue time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-setinbandenabled">SetInBandEnabled</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtext-setinbandenabled">SetInBandEnabled</a>
 </td>
 <td align="left" width="63%">
 Enables or disables inband mode.
@@ -188,5 +188,4 @@ Enables or disables inband mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

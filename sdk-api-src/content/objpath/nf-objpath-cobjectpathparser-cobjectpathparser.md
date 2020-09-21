@@ -53,21 +53,20 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-Constructs and initializes an instance of a <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> object that requires a full object path. Use of  this object is not recommended. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> COM interface.
+Constructs and initializes an instance of a <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> object that requires a full object path. Use of  this object is not recommended. Instead, use the <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> COM interface.
 
 ## -parameters
 
 ### -param eFlags [in]
 
-One of the flags from the <a href="https://docs.microsoft.com/windows/desktop/api/objpath/ne-objpath-objectparserflags">ObjectParserFlags</a> enumeration.
+One of the flags from the <a href="/windows/desktop/api/objpath/ne-objpath-objectparserflags">ObjectParserFlags</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
-
+<a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>

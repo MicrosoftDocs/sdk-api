@@ -60,7 +60,7 @@ On input, specifies the size, in array elements, of the <i>pbPidListBuffer</i> a
 
 ### -param pbPidListBuffer [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mux-pidlistitem">BDA_MUX_PIDLISTITEM</a> structures. The method fills in the array with the list of PIDs.
+Pointer to an array of <a href="/previous-versions/windows/desktop/mstv/bda-mux-pidlistitem">BDA_MUX_PIDLISTITEM</a> structures. The method fills in the array with the list of PIDs.
 
 ## -returns
 
@@ -101,5 +101,4 @@ If the <i>pbPidListBuffer</i> array is too small, the method returns <b>E_NOT_SU
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_mux">IBDA_MUX</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_mux">IBDA_MUX</a>

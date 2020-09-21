@@ -56,12 +56,12 @@ These methods provide support for users to filter list views based on filters se
 
 The 
 <b>IHeaderCtrl</b> interface can be queried from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface passed into 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component's creation.
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface passed into 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component's creation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IHeaderCtrl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-deletecolumn">DeleteColumn</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-deletecolumn">DeleteColumn</a>
 </td>
 <td align="left" width="63%">
 Removes a column.
@@ -85,7 +85,7 @@ Removes a column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumntext">GetColumnText</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumntext">GetColumnText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text from a specified column.
@@ -94,7 +94,7 @@ Retrieves the text from a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumnwidth">GetColumnWidth</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumnwidth">GetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width of a specified column.
@@ -103,7 +103,7 @@ Retrieves the width of a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-insertcolumn">InsertColumn</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-insertcolumn">InsertColumn</a>
 </td>
 <td align="left" width="63%">
 Adds a column to a default result view.
@@ -112,7 +112,7 @@ Adds a column to a default result view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumntext">SetColumnText</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumntext">SetColumnText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in a specified column.
@@ -121,7 +121,7 @@ Sets the text in a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumnwidth">SetColumnWidth</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumnwidth">SetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Sets the width of a specified column.
@@ -132,5 +132,4 @@ Sets the width of a specified column.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>

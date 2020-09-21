@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfDisplayAttributeMgr</b> interface is implemented by the TSF manager and used by an application to obtain and enumerate display attributes. Individual display attributes are accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface.
+The <b>ITfDisplayAttributeMgr</b> interface is implemented by the TSF manager and used by an application to obtain and enumerate display attributes. Individual display attributes are accessed through the <a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfDisplayAttributeMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-enumdisplayattributeinfo">EnumDisplayAttributeInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-enumdisplayattributeinfo">EnumDisplayAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains a display attribute enumerator object.
@@ -78,7 +78,7 @@ Obtains a display attribute enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">GetDisplayAttributeInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">GetDisplayAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains a display attribute data object.
@@ -87,7 +87,7 @@ Obtains a display attribute data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo">OnUpdateInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo">OnUpdateInfo</a>
 </td>
 <td align="left" width="63%">
 Called when a display attribute is changed.
@@ -98,10 +98,9 @@ Called when a display attribute is changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

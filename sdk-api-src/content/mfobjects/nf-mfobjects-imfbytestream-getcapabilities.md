@@ -161,7 +161,7 @@ If the <b>MFBYTESTREAM_HAS_SLOW_SEEK</b> flag is also set, it means the byte str
 Another thread or process can open this byte stream for writing. If this flag is present, the length of the
 byte stream could change while it is being read. 
 
-This flag can affect the behavior of byte-stream handlers. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-bytestreamhandler-accepts-share-write">MF_BYTESTREAMHANDLER_ACCEPTS_SHARE_WRITE</a>.
+This flag can affect the behavior of byte-stream handlers. For more information, see <a href="/windows/desktop/medfound/mf-bytestreamhandler-accepts-share-write">MF_BYTESTREAMHANDLER_ACCEPTS_SHARE_WRITE</a>.
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -199,5 +199,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>

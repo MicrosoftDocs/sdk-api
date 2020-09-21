@@ -58,7 +58,7 @@ For more information about RELAY-REPL and RELAY-FORW messages, developers should
 
 ### -param pRelayMessages [in]
 
-An array of <b>PXE_DHCPV6_NESTED_RELAY_FORW</b> structures which together specify the sequence of nested RELAY-FORW packets.  This value can be obtained from the <i>pRelayMessages</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6parserelayforw">PxeDhcpv6ParseRelayForw</a>.
+An array of <b>PXE_DHCPV6_NESTED_RELAY_FORW</b> structures which together specify the sequence of nested RELAY-FORW packets.  This value can be obtained from the <i>pRelayMessages</i> parameter of <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxedhcpv6parserelayforw">PxeDhcpv6ParseRelayForw</a>.
 
 ### -param nRelayMessages [in]
 
@@ -87,4 +87,3 @@ On success, this is set to the actual size of the RELAY-REPL packet in the buffe
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
-

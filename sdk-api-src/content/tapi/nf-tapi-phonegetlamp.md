@@ -66,7 +66,7 @@ Identifier of the lamp to be queried.
 ### -param lpdwLampMode
 
 Pointer to a memory location that holds the lamp mode status of the given lamp. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>.
 
 ## -returns
 
@@ -80,9 +80,8 @@ Phone sets that have multiple lamps per button should be modeled using multiple 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

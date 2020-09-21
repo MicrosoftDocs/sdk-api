@@ -54,7 +54,7 @@ Exposes methods that allow a synchronization process to report progress and even
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrSyncCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-additemtosession">AddItemToSession</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-additemtosession">AddItemToSession</a>
 </td>
 <td align="left" width="63%">
 Adds a specified item to the set of items currently being synchronized.
@@ -78,7 +78,7 @@ Adds a specified item to the set of items currently being synchronized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-cancontinue">CanContinue</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-cancontinue">CanContinue</a>
 </td>
 <td align="left" width="63%">
 Determines whether the synchronization has been canceled.
@@ -87,7 +87,7 @@ Determines whether the synchronization has been canceled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">CommitItem</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">CommitItem</a>
 </td>
 <td align="left" width="63%">
 Confirms a specified item as a member of the handler's sync set and confirms that it should be shown in the UI.
@@ -96,7 +96,7 @@ Confirms a specified item as a member of the handler's sync set and confirms tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-proposeitem">ProposeItem</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-proposeitem">ProposeItem</a>
 </td>
 <td align="left" width="63%">
 Proposes the addition of a new item to the set of items previously enumerated.
@@ -105,7 +105,7 @@ Proposes the addition of a new item to the set of items previously enumerated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-queryforadditionalitems">QueryForAdditionalItems</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-queryforadditionalitems">QueryForAdditionalItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator of the set of items that have a pending request to be synchronized. This is the set of items that will be synchronized once the current synchronization is finished.
@@ -114,7 +114,7 @@ Retrieves an enumerator of the set of items that have a pending request to be sy
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a>
 </td>
 <td align="left" width="63%">
 Provides an event to add to the Sync Results folder for an item being synchronized.
@@ -123,7 +123,7 @@ Provides an event to add to the Sync Results folder for an item being synchroniz
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportmanualsync">ReportManualSync</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportmanualsync">ReportManualSync</a>
 </td>
 <td align="left" width="63%">
 Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
@@ -132,7 +132,7 @@ Reports that a synchronization operation is being performed that was requested m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ReportProgress</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ReportProgress</a>
 </td>
 <td align="left" width="63%">
 Reports the progress of the synchronization of a single sync item to Sync Center.
@@ -141,7 +141,7 @@ Reports the progress of the synchronization of a single sync item to Sync Center
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-sethandlerprogresstext">SetHandlerProgressText</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-sethandlerprogresstext">SetHandlerProgressText</a>
 </td>
 <td align="left" width="63%">
 Sets the content of an information field for the handler while that handler is performing a synchronization.
@@ -152,9 +152,8 @@ Sets the content of an information field for the handler while that handler is p
 
 ## -remarks
 
-This interface is passed to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsessioncreator-createsession">ISyncMgrSessionCreator::CreateSession</a>, which in turn is referenced in the call to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">ISyncMgrHandler::Synchronize</a>.
+This interface is passed to <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsessioncreator-createsession">ISyncMgrSessionCreator::CreateSession</a>, which in turn is referenced in the call to <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">ISyncMgrHandler::Synchronize</a>.
 
 The handler is expected to call this interface to update the folder's progress UI  for each item and to notify Sync Center when it has completed the synchronization of each item.
 
-<b>ISyncMgrSyncCallback</b> is a replacement for <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>.
-
+<b>ISyncMgrSyncCallback</b> is a replacement for <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>.

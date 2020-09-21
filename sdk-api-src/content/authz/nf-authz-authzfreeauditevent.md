@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>AuthzFreeAuditEvent</b> function frees the  structure allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a> function.
+<a href="/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a> function.
 
 ## -parameters
 
@@ -65,13 +65,12 @@ A pointer to the <b>AUTHZ_AUDIT_EVENT_HANDLE</b> structure to be freed.
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

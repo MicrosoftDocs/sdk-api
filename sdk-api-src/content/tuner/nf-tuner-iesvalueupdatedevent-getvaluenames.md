@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated. PBDA Media Sink Devices (MSDs) get this name from <b>ValueUpdated</b> events fired by Media Transform Devices (MTDs) that implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesvalueupdatedevent">IESValueUpdatedEvent</a> interface.
+For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated. PBDA Media Sink Devices (MSDs) get this name from <b>ValueUpdated</b> events fired by Media Transform Devices (MTDs) that implement the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesvalueupdatedevent">IESValueUpdatedEvent</a> interface.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesvalueupdatedevent">IESValueUpdatedEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesvalueupdatedevent">IESValueUpdatedEvent</a>

@@ -89,11 +89,11 @@ The following table lists the values for the <i>pulFlags</i> output parameter.
 <tr>
 <td><b>TWF_WANTPALM</b></td>
 <td>
-Clearing this flag disables palm rejection which reduces delays for getting <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages. 
+Clearing this flag disables palm rejection which reduces delays for getting <a href="/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages. 
 						     This is useful if you want as quick of a response as possible when a user touches your application.
 						  
 
-Setting this flag enables palm detection and will prevent some <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages from being sent 
+Setting this flag enables palm detection and will prevent some <a href="/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages from being sent 
 						     to your application.  This is useful if you do not want to receive <b>WM_TOUCH</b> messages that are from palm contact.
                     
 
@@ -103,5 +103,4 @@ Setting this flag enables palm detection and will prevent some <a href="https://
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
-
+<a href="/windows/desktop/wintouch/mtfunctions">Functions</a>

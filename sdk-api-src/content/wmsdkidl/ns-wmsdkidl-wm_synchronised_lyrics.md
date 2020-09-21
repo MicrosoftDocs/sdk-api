@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-lyrics-synchronised">WM/Lyrics_Synchronised</a> complex metadata attribute.
+The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wm-lyrics-synchronised">WM/Lyrics_Synchronised</a> complex metadata attribute.
 
 ## -struct-fields
 
@@ -136,5 +136,4 @@ The objects of the Windows Media Format SDK do not validate the values of time s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

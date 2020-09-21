@@ -54,7 +54,7 @@ The <b>IWMPControls3</b> interface provides methods that supplement the <b>IWMPC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPControls3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_audiolanguagecount">get_audioLanguageCount</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_audiolanguagecount">get_audioLanguageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of supported audio languages.
@@ -78,7 +78,7 @@ Retrieves the count of supported audio languages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage">get_currentAudioLanguage</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage">get_currentAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) of the audio language for playback.
@@ -87,7 +87,7 @@ Retrieves the locale identifier (LCID) of the audio language for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex">get_currentAudioLanguageIndex</a>
+<a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex">get_currentAudioLanguageIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the one-based index that corresponds to the audio language for playback.
@@ -96,7 +96,7 @@ Retrieves the one-based index that corresponds to the audio language for playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentpositiontimecode">get_currentPositionTimecode</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentpositiontimecode">get_currentPositionTimecode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the current media using a time code format. This property supports SMPTE time code.
@@ -105,7 +105,7 @@ Retrieves the current position in the current media using a time code format. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription">getAudioLanguageDescription</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription">getAudioLanguageDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description for the audio language corresponding to the specified one-based index.
@@ -114,7 +114,7 @@ Retrieves the description for the audio language corresponding to the specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid">getAudioLanguageID</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid">getAudioLanguageID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LCID for a specified audio language index.
@@ -123,7 +123,7 @@ Retrieves the LCID for a specified audio language index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename">getLanguageName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename">getLanguageName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the audio language with the specified LCID.
@@ -132,7 +132,7 @@ Retrieves the name of the audio language with the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage">put_currentAudioLanguage</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage">put_currentAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Specifies the LCID of the audio language for playback.
@@ -141,7 +141,7 @@ Specifies the LCID of the audio language for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/aa388723(v=vs.85)">put_currentAudioLanguageIndex</a>
+<a href="/previous-versions/aa388723(v=vs.85)">put_currentAudioLanguageIndex</a>
 </td>
 <td align="left" width="63%">
 Specifies the one-based index that corresponds to the audio language for playback.
@@ -150,7 +150,7 @@ Specifies the one-based index that corresponds to the audio language for playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode">put_currentPositionTimecode</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode">put_currentPositionTimecode</a>
 </td>
 <td align="left" width="63%">
 Specifies the current position in the current media using SMPTE time code format.
@@ -159,17 +159,16 @@ Specifies the current position in the current media using SMPTE time code format
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a> interface.
+Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

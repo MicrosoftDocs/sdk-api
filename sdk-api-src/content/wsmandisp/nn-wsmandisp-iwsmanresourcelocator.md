@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
- Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-get">IWSManSession.Get</a>, <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-put">IWSManSession.Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-enumerate">IWSManSession.Enumerate</a>.
+ Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="/windows/desktop/WinRM/session-get">IWSManSession.Get</a>, <a href="/windows/desktop/WinRM/session-put">IWSManSession.Put</a>, or <a href="/windows/desktop/WinRM/session-enumerate">IWSManSession.Enumerate</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManResourceLocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSManResourceLocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManResourceLocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSManResourceLocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,37 +70,37 @@ The <b>IWSManResourceLocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addoption">AddOption</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addoption">AddOption</a>
 </td>
 <td align="left" width="63%">
-Adds additional data required to process the request. For example, some WMI providers may require an <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> or <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalueset">SWbemNamedValueSet</a> object with provider-specific information.
+Adds additional data required to process the request. For example, some WMI providers may require an <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> or <a href="/windows/desktop/WmiSdk/swbemnamedvalueset">SWbemNamedValueSet</a> object with provider-specific information.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">AddSelector</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">AddSelector</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">selector</a> to the <b>IWSManResourceLocator</b> object. The selector specifies a particular instance of a <i>resource</i>.
+Adds a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">selector</a> to the <b>IWSManResourceLocator</b> object. The selector specifies a particular instance of a <i>resource</i>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions">ClearOptions</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions">ClearOptions</a>
 </td>
 <td align="left" width="63%">
-Removes any <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">options</a> from the <b>IWSManResourceLocator</b> object.
+Removes any <a href="/windows/desktop/WinRM/windows-remote-management-glossary">options</a> from the <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors">ClearSelectors</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors">ClearSelectors</a>
 </td>
 <td align="left" width="63%">
-Removes all the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a> from an <b>IWSManResourceLocator</b> object.
+Removes all the <a href="/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a> from an <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Removes all the <a href="https://docs.microsoft.com/windows/desktop/WinRM/window
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_error">Error</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_error">Error</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Gets an XML representation of additional error information.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect">FragmentDialect</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect">FragmentDialect</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the language dialect for a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object methods such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
+Gets or sets the language dialect for a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object methods such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentpath">FragmentPath Property</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentpath">FragmentPath Property</a>
 
 
 </td>
@@ -156,14 +156,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the path for a <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> methods such as <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
+Gets or sets the path for a <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource</a> <a href="/windows/desktop/WinRM/windows-remote-management-glossary">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> methods such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_mustunderstandoptions">MustUnderstandOptions Property</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_mustunderstandoptions">MustUnderstandOptions Property</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Gets or sets the <b>MustUnderstandOptions</b> value for the <b>IWSManResourceLoc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri">ResourceURI Property</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri">ResourceURI Property</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 </td>
 </tr>
@@ -196,13 +196,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-man
 
 ## -remarks
 
-The corresponding scripting object is <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a>.
+The corresponding scripting object is <a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a>
+<a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-
+<a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>

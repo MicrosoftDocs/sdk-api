@@ -55,5 +55,4 @@ Represents the download content of an update.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information that identifies a particular file. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a> when requesting data for a particular file.
+Contains information that identifies a particular file. It is used by <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a> when requesting data for a particular file.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Flags used to specify the nature of the request.
 
 #### SHCDF_UPDATEITEM
 
-The file specified by <b>wszFile</b> is a new file or a file that has changed since the last call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a>. Any cached data should be flushed and recalculated. Column handlers that do not cache data, or that display data that is stored separately from the file, can ignore this flag.
+The file specified by <b>wszFile</b> is a new file or a file that has changed since the last call to <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a>. Any cached data should be flushed and recalculated. Column handlers that do not cache data, or that display data that is stored separately from the file, can ignore this flag.
 
 ### -field dwFileAttributes
 
@@ -166,5 +166,4 @@ A null-terminated Unicode string containing a fully qualified file path.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>

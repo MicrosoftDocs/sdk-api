@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>GetFriendlyNameOfCert</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa">CertGetNameString</a> function with the CERT_NAME_FRIENDLY_DISPLAY_TYPE flag.]
+<p class="CCE_Message">[The <b>GetFriendlyNameOfCert</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa">CertGetNameString</a> function with the CERT_NAME_FRIENDLY_DISPLAY_TYPE flag.]
 
 The <b>GetFriendlyNameOfCert</b> function retrieves the display name for a certificate.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
 
 ## -parameters
 
@@ -79,4 +79,3 @@ The return value is the number of characters, including the terminating <b>NULL<
 
 > [!NOTE]
 > The cryptdlg.h header defines GetFriendlyNameOfCert as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

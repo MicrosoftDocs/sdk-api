@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Stores an authentication <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+Stores an authentication <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that was retrieved by the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 ## -struct-fields
 
 ### -field pBuffer
 
-A pointer to a buffer that receives the authentication <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+A pointer to a buffer that receives the authentication <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 ### -field ulSize
 
@@ -90,15 +90,14 @@ PCCERT_CONTEXT
 
 ## -remarks
 
-This structure is included as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
+This structure is included as a member in the <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function should free only the buffer that the <b>pBuffer</b> member points to, not the entire structure.
+The <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function should free only the buffer that the <b>pBuffer</b> member points to, not the entire structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
+<a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
-
+<a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>

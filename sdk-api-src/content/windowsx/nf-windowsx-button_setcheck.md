@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the check state of a radio button or check box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message explicitly.
+Sets the check state of a radio button or check box. You can use this macro or send the <a href="/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -87,7 +87,7 @@ Sets the button state to checked.
 </dl>
 </td>
 <td width="60%">
-Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style.
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style.
 
 </td>
 </tr>
@@ -106,4 +106,3 @@ Sets the button state to cleared.
 ## -remarks
 
 The macro has no effect on push buttons.
-

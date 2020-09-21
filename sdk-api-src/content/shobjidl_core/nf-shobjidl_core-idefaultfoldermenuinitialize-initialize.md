@@ -92,7 +92,7 @@ A pointer to an array of PIDL structures, each of which is an item to be operate
 
 Type: <b>IUnknown*</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object that specifies where to load extensions from.
+The address of an <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object that specifies where to load extensions from.
 
 ### -param cKeys [in]
 
@@ -112,5 +112,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize">IDefaultFolderMenuInitialize</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize">IDefaultFolderMenuInitialize</a>

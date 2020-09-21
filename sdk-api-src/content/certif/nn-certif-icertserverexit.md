@@ -60,7 +60,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerExit</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertServerExit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertServerExit</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertServerExit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ICertServerExit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">EnumerateAttributes</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">EnumerateAttributes</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the next request attribute to be enumerated.
@@ -84,7 +84,7 @@ Returns the name of the next request attribute to be enumerated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributesclose">EnumerateAttributesClose</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributesclose">EnumerateAttributesClose</a>
 </td>
 <td align="left" width="63%">
 Frees any resources connected with attribute enumeration.
@@ -93,7 +93,7 @@ Frees any resources connected with attribute enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">EnumerateAttributesSetup</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">EnumerateAttributesSetup</a>
 </td>
 <td align="left" width="63%">
 Initializes the internal enumeration pointer to the first attribute associated with the current context.
@@ -102,16 +102,16 @@ Initializes the internal enumeration pointer to the first attribute associated w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensions">EnumerateExtensions</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensions">EnumerateExtensions</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the next certificate extension to be enumerated.
+Returns the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the next certificate extension to be enumerated.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">EnumerateExtensionsClose</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">EnumerateExtensionsClose</a>
 </td>
 <td align="left" width="63%">
 Frees any resources connected with extension enumeration.
@@ -120,7 +120,7 @@ Frees any resources connected with extension enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">EnumerateExtensionsSetup</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">EnumerateExtensionsSetup</a>
 </td>
 <td align="left" width="63%">
 Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
@@ -129,7 +129,7 @@ Initializes the internal enumeration pointer to the first certificate extension 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">GetCertificateExtension</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">GetCertificateExtension</a>
 </td>
 <td align="left" width="63%">
 Gets a specified certificate extension.
@@ -138,17 +138,17 @@ Gets a specified certificate extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">GetCertificateExtensionFlags</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">GetCertificateExtensionFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags from the extension acquired by the most recent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">GetCertificateExtension</a>.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">GetCertificateExtension</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateproperty">GetCertificateProperty</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateproperty">GetCertificateProperty</a>
 </td>
 <td align="left" width="63%">
 Returns a named certificate property.
@@ -157,7 +157,7 @@ Returns a named certificate property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getrequestattribute">GetRequestAttribute</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getrequestattribute">GetRequestAttribute</a>
 </td>
 <td align="left" width="63%">
 Returns a named request attribute.
@@ -166,7 +166,7 @@ Returns a named request attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getrequestproperty">GetRequestProperty</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getrequestproperty">GetRequestProperty</a>
 </td>
 <td align="left" width="63%">
 Returns a named request property.
@@ -175,7 +175,7 @@ Returns a named request property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">SetContext</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the current instantiation of the interface to operate on the specified request context.
@@ -183,4 +183,3 @@ Sets the current instantiation of the interface to operate on the specified requ
 </td>
 </tr>
 </table>
-

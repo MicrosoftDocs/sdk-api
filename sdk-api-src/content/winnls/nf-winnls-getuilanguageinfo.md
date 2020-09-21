@@ -87,7 +87,7 @@ Flags defining the format of the specified language. The flags are mutually excl
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Retrieve the language strings in <a href="https://docs.microsoft.com/windows/des
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ The language is appropriately licensed for the current user.
 
 ## -returns
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>.</li>
@@ -200,11 +200,11 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 <li>ERROR_OBJECT_NAME_NOT_FOUND. The specified object name was not found, or it was not valid, or the first language in the input list is not an installed language. For more information, see Remarks.
 </li>
 </ul>
-If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns any other error code, the parameters <i>pcchFallbackLanguages</i> and <i>pdwAttributes</i> are undefined.
+If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns any other error code, the parameters <i>pcchFallbackLanguages</i> and <i>pdwAttributes</i> are undefined.
 
 ## -remarks
 
-MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because it allows the function to do a better job of handling LIP languages that do not correspond to predefined locales, but instead correspond to a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>. LIP languages that correspond to predefined locales are handled just like non-LIP languages.
+MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because it allows the function to do a better job of handling LIP languages that do not correspond to predefined locales, but instead correspond to a <a href="/windows/desktop/Intl/custom-locales">supplemental locale</a>. LIP languages that correspond to predefined locales are handled just like non-LIP languages.
 
 If the MUI_LANGUAGE_ID flag is specified, the supplied language strings must 
 
@@ -214,7 +214,7 @@ For example, en-US should be passed as "0409" and en as "0009". The returned lan
 
 same format.
 
-When MUI_LANGUAGE_ID is specified, and if there is such a language in the user preferred UI languages list, there can be only one such language in the list. That language can be specified in <i>pwmszLanguage</i> as "1400", which corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>. No other such language can be specified using MUI_LANGUAGE_ID. Using "1000", which corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>, in the string indicated by <i>pwmszLanguage</i> will result in an ERROR_INVALID_PARAMETER code.
+When MUI_LANGUAGE_ID is specified, and if there is such a language in the user preferred UI languages list, there can be only one such language in the list. That language can be specified in <i>pwmszLanguage</i> as "1400", which corresponds to the hexadecimal value of <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>. No other such language can be specified using MUI_LANGUAGE_ID. Using "1000", which corresponds to the hexadecimal value of <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>, in the string indicated by <i>pwmszLanguage</i> will result in an ERROR_INVALID_PARAMETER code.
 
 A partially localized language can have a fallback language that is partially localized, requiring repeated calls to <b>GetUILanguageInfo</b> to obtain full information. Consider the case of a partially localized language Lang1 that offers a choice of three fallback languages. The Lang3 fallback language is partially localized, and offers a choice of two fallback languages. The dependencies are as follows, with the default fallback listed first:
 
@@ -261,17 +261,16 @@ The ERROR_OBJECT_NAME_NOT_FOUND error code occurs if <i>pwmszLanguage</i> can be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>

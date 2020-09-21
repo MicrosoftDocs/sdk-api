@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerNameToPeerHostName</b> function encodes the supplied peer name as a format that can be used with a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> Windows Sockets function.
+The <b>PeerNameToPeerHostName</b> function encodes the supplied peer name as a format that can be used with a subsequent call to the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> Windows Sockets function.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Pointer to a zero-terminated Unicode string that contains the peer name to encod
 
 ### -param ppwzHostName [out]
 
-Pointer to the address of the zero-terminated Unicode string that contains the encoded host name. This string can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo_v2</a> to obtain network information about the peer.
+Pointer to the address of the zero-terminated Unicode string that contains the encoded host name. This string can be passed to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo_v2</a> to obtain network information about the peer.
 
 ## -returns
 
@@ -97,5 +97,4 @@ There is not enough memory to perform the specified operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerhostnametopeername">PeerHostNameToPeerName</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerhostnametopeername">PeerHostNameToPeerName</a>

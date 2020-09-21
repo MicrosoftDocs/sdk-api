@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the parent <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of a stroke.
+Gets the parent <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of a stroke.
 
 
 
@@ -63,13 +63,12 @@ This property is read-only.
 
 ## -remarks
 
-The stroke must be contained in one and only one <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The stroke must be contained in one and only one <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

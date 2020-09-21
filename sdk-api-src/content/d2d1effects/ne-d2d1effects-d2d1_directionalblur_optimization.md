@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the optimization mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/directional-blur">Directional blur effect</a>.
+Specifies the optimization mode for the <a href="/windows/desktop/Direct2D/directional-blur">Directional blur effect</a>.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Uses the same optimization thresholds as Speed mode, but uses trilinear filterin
 Only uses internal optimizations with large blur radii, where approximations are less likely to be visible. Uses trilinear filtering.
 
 ### -field D2D1_DIRECTIONALBLUR_OPTIMIZATION_FORCE_DWORD
-

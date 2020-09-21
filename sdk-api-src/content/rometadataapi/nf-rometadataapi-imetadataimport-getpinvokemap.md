@@ -60,7 +60,7 @@ A FieldDef or MethodDef token to get the PInvoke mapping metadata for.
 
 ### -param pdwMappingFlags [out]
 
-A pointer to flags used for mapping. This value is a bitmask from the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corpinvokemap-enumeration">CorPinvokeMap</a> enumeration.
+A pointer to flags used for mapping. This value is a bitmask from the <a href="/dotnet/framework/unmanaged-api/metadata/corpinvokemap-enumeration">CorPinvokeMap</a> enumeration.
 
 ### -param szImportName [out]
 
@@ -84,5 +84,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>HTTP_LESS_EQUAL_VERSION</b> macro returns a non-zero value if an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is less than or equal to a specified major/minor version combination, or zero otherwise.
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is less than or equal to a specified major/minor version combination, or zero otherwise.
 
 ## -parameters
 
 ### -param version
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
 
 ### -param major
 
@@ -71,5 +71,4 @@ The minor portion of the version to be compared.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
-
+<a href="/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>

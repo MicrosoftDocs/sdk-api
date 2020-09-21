@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Combines two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures.
+Combines two <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures.
 
 ## -parameters
 
@@ -62,17 +62,16 @@ Combines two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to the first <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param pidl2 [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the second <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. This structure is appended to the structure pointed to by <i>pidl1</i>.
+A pointer to the second <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. This structure is appended to the structure pointed to by <i>pidl1</i>.
 
 ## -returns
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> containing the combined structures. If you set either <i>pidl1</i> or <i>pidl2</i> to <b>NULL</b>, the returned <b>ITEMIDLIST</b> structure is a clone of the non-<b>NULL</b> parameter. Returns <b>NULL</b> if <i>pidl1</i> and <i>pidl2</i> are both set to <b>NULL</b>.
-
+Returns an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> containing the combined structures. If you set either <i>pidl1</i> or <i>pidl2</i> to <b>NULL</b>, the returned <b>ITEMIDLIST</b> structure is a clone of the non-<b>NULL</b> parameter. Returns <b>NULL</b> if <i>pidl1</i> and <i>pidl2</i> are both set to <b>NULL</b>.

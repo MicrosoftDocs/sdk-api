@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Creates a new file or directory, or opens an existing file, device, directory, or 
-    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="https://docs.microsoft.com/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
+    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
 <div> </div>
 
 
@@ -344,7 +344,7 @@ Points to a buffered Unicode string that names the file to be created or opened.
         fully qualified file specification or the name of a device object, unless it is the name of a file relative to 
         the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat 
         or \??\B:\myfile.dat could be the fully qualified file specification, provided that the floppy driver and 
-        overlying file system are already loaded. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+        overlying file system are already loaded. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 </td>
 </tr>
@@ -915,8 +915,7 @@ For more information on oplocks, see <a href="https://msdn.microsoft.com/library
 
 Note that the WDK header file NtDef.h is necessary for many constant definitions 
     as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
-    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk">Download kits for Windows hardware development</a>. You can also use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
+    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="/windows-hardware/drivers/download-the-wdk">Download kits for Windows hardware development</a>. You can also use the 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     NtDll.dll.
-

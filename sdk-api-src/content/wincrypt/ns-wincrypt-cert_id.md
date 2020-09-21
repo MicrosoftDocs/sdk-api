@@ -104,14 +104,13 @@ HashId
 ### -field DUMMYUNIONNAME.IssuerSerialNumber
 
 A 
-							<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
+							<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
 
 ### -field DUMMYUNIONNAME.KeyId
 
 A 
-							<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains a certificate key identifier.
+							<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains a certificate key identifier.
 
 ### -field DUMMYUNIONNAME.HashId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate to be used as a unique identifier of the certificate.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate to be used as a unique identifier of the certificate.

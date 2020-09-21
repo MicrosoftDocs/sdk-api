@@ -45,9 +45,6 @@ api_name:
  - MFCreateVideoPresenter
 ---
 
-# MFCreateVideoPresenter callback function
-
-
 ## -description
 
 Creates the default video presenter for the enhanced video renderer (EVR).
@@ -64,11 +61,9 @@ Interface identifier (IID) of the video device interface that will be used for p
 
 ### -param riid [in]
 
-IID of the requested interface on the video presenter. The video presenter exposes the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface.
+IID of the requested interface on the video presenter. The video presenter exposes the <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface.
 
 ### -param ppVideoPresenter
-
-#### - ppvVideoPresenter [out]
 
 Receives a pointer to the requested interface on the video presenter. The caller must release the interface.
 
@@ -97,9 +92,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

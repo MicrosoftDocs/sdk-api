@@ -58,7 +58,7 @@ The <b>Export</b> method copies the private key to a byte array. The byte array 
 
 A <b>BSTR</b> value that specifies how the private key is exported. 
 
-If the key was created by using a CNG KSP (Key Storage Provider), you can specify one of the values allowed by the <i>pszBlobType</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function.
+If the key was created by using a CNG KSP (Key Storage Provider), you can specify one of the values allowed by the <i>pszBlobType</i> parameter in the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function.
 
 If the key was created by using a CryptoAPI CSP (Cryptographic Service Provider), you can specify one of the following values from the Bcrypt.h header file included with Wincrypt.h.
 
@@ -93,7 +93,7 @@ Exports the entire private key.
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding to be applied to the string contained in the <i>pstrEncodedKey</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding to be applied to the string contained in the <i>pstrEncodedKey</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
 
 ### -param pstrEncodedKey [out]
 
@@ -103,7 +103,7 @@ Pointer to a <b>BSTR</b> variable that contains the private key.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -125,5 +125,4 @@ The key was created by a CryptoAPI CSP and you specified a value other than BCRY
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

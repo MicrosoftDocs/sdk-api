@@ -70,9 +70,8 @@ A <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-displaymodes">DisplayModes</a>
+<a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-displaymodes">DisplayModes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>

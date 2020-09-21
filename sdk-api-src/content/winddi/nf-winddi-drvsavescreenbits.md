@@ -56,7 +56,7 @@ The <b>DrvSaveScreenBits</b> function causes a display driver to save or restore
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface.
 
 ### -param iMode
 
@@ -68,7 +68,7 @@ Specifies the operation to perform. This parameter can be one of the following v
 
 #### SS_SAVE
 
-The driver should save the data from the rectangle defined by <i>prcl</i>. The driver is responsible for managing this data in its <a href="https://docs.microsoft.com/windows-hardware/drivers/">off-screen memory</a>. The <i>ident</i> parameter is ignored.
+The driver should save the data from the rectangle defined by <i>prcl</i>. The driver is responsible for managing this data in its <a href="/windows-hardware/drivers/">off-screen memory</a>. The <i>ident</i> parameter is ignored.
 
 Upon success, <b>DrvSaveScreenBits</b> should return an identifier for the saved data. The driver can return a handle or even a pointer to its off-screen memory. This function returns zero if it fails.
 
@@ -94,7 +94,7 @@ Pointer to a driver-defined value  that was returned by a previous call to <b>Dr
 
 ### -param prcl
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the portion of the screen to be saved or restored.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the portion of the screen to be saved or restored.
 
 ## -returns
 
@@ -108,5 +108,4 @@ Some display drivers might be able to move data to or from off-screen device mem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

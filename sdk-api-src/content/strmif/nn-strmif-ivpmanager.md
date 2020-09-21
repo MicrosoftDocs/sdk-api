@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IVPManager</code> interface is implemented on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-port-manager">Video Port Manager</a> (VPM). The interface provides methods for applications to specify and retrieve indexes for ports when there are multiple video ports on a system, and to specify and retrieve the rectangle used by the video port. Currently, only the two index-related methods are implemented.
+The <code>IVPManager</code> interface is implemented on the <a href="/windows/desktop/DirectShow/video-port-manager">Video Port Manager</a> (VPM). The interface provides methods for applications to specify and retrieve indexes for ports when there are multiple video ports on a system, and to specify and retrieve the rectangle used by the video port. Currently, only the two index-related methods are implemented.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVPManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-getvideoportindex">GetVideoPortIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-getvideoportindex">GetVideoPortIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the current video port index being used by the Video Port Manager.
@@ -79,7 +79,7 @@ Returns the current video port index being used by the Video Port Manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex">SetVideoPortIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex">SetVideoPortIndex</a>
 </td>
 <td align="left" width="63%">
 Instructs the Video Port Manager to connect to the specified video port.
@@ -87,4 +87,3 @@ Instructs the Video Port Manager to connect to the specified video port.
 </td>
 </tr>
 </table>
-

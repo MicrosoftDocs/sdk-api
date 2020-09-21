@@ -60,7 +60,7 @@ Creates a multiple-document interface (MDI) child window.
 
 Type: <b>LPCTSTR</b>
 
-The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function.
+The window class of the MDI child window. The class name must have been registered by a call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function.
 
 ### -param lpWindowName [in]
 
@@ -72,7 +72,7 @@ The window name. The system displays the name in the title bar of the child wind
 
 Type: <b>DWORD</b>
 
-The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
+The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="/windows/desktop/winmsg/window-styles">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
 
 <table>
 <tr>
@@ -173,7 +173,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the created window.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -181,11 +181,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
+<a href="/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
 
 
 
@@ -193,14 +193,13 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a>
+<a href="/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines CreateMDIWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

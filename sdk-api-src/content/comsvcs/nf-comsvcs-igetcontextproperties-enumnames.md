@@ -56,7 +56,7 @@ Retrieves a list of the names of the current context properties.
 
 ### -param ppenum [out, retval]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a> interface providing access to a list of the names of the current context properties.
+An <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a> interface providing access to a list of the names of the current context properties.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetcontextproperties">IGetContextProperties</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetcontextproperties">IGetContextProperties</a>

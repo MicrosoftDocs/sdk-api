@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DescribePixelFormat</b> function obtains information about the pixel format identified by <i>iPixelFormat</i> of the device associated with <i>hdc</i>. The function sets the members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure pointed to by <i>ppfd</i> with that pixel format data.
+The <b>DescribePixelFormat</b> function obtains information about the pixel format identified by <i>iPixelFormat</i> of the device associated with <i>hdc</i>. The function sets the members of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure pointed to by <i>ppfd</i> with that pixel format data.
 
 ## -parameters
 
@@ -76,25 +76,24 @@ Pointer to a <b>PIXELFORMATDESCRIPTOR</b> structure whose members the function s
 
 If the function succeeds, the return value is the maximum pixel format index of the device context. In addition, the function sets the members of the <b>PIXELFORMATDESCRIPTOR</b> structure pointed to by <i>ppfd</i> according to the specified pixel format.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
-
+<a href="/windows/desktop/OpenGL/win32-functions">Windows Functions</a>

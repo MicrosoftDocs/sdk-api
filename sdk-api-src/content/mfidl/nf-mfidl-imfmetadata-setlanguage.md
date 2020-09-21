@@ -69,9 +69,8 @@ For more information about language tags, see RFC 1766, "Tags for the Identifica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
-
+<a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>

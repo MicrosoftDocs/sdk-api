@@ -54,7 +54,7 @@ An application must use the IDCompositionDesktopDevice interface in order to use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionDesktopDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhandle">CreateSurfaceFromHandle</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhandle">CreateSurfaceFromHandle</a>
 </td>
 <td align="left" width="63%">
 Creates a new composition surface object that wraps an existing composition surface.
@@ -78,7 +78,7 @@ Creates a new composition surface object that wraps an existing composition surf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhwnd">CreateSurfaceFromHwnd</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhwnd">CreateSurfaceFromHwnd</a>
 </td>
 <td align="left" width="63%">
 Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
@@ -87,7 +87,7 @@ Creates a wrapper object that represents the rasterization of a layered window, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createtargetforhwnd">CreateTargetForHwnd</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createtargetforhwnd">CreateTargetForHwnd</a>
 </td>
 <td align="left" width="63%">
 Creates a composition target object that is bound to the window that is represented by the specified window handle.
@@ -98,5 +98,4 @@ Creates a composition target object that is bound to the window that is represen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>

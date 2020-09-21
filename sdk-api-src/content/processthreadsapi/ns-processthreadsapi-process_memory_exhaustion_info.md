@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a> class.
+Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the <a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a> class.
 
 ## -struct-fields
 
@@ -95,9 +95,8 @@ Used to turn the feature on or off.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS </a>
+<a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS </a>
 
 
 
 <a href="/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
-

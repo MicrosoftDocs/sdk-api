@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Unregisters a callback function that was previously registered with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a> function.
+Unregisters a callback function that was previously registered with the <a href="/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a> function.
 
 ## -parameters
 
 ### -param pfnCallBack [in]
 
-A pointer to the application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a> function to remove.
+A pointer to the application-defined <a href="/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a> function to remove.
 
 ## -returns
 
@@ -66,13 +66,12 @@ If the function fails, it returns <b>FALSE</b>.
 
 ## -remarks
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>
-
+<a href="/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>

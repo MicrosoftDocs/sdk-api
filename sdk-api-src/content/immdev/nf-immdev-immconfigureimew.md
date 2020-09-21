@@ -107,7 +107,7 @@ Display dictionary selection dialog box.
 
 ### -param LPVOID [in]
 
-Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
+Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
 
 ## -returns
 
@@ -115,18 +115,17 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a>
+<a href="/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a>
 
 ## -remarks
 
 > [!NOTE]
 > The immdev.h header defines ImmConfigureIME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -100,5 +100,4 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa">RtlEthernetStringToAddress</a>
-
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa">RtlEthernetStringToAddress</a>

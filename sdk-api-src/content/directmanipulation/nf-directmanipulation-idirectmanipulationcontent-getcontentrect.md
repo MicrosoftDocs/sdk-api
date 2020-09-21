@@ -64,9 +64,8 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 ## -remarks
 
-If the bounding rectangle  has not been set using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect">SetContentRect</a>, then <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">UI_E_VALUE_NOT_SET</a> is returned. However, the actual content rectangle is (-<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, -<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>).
+If the bounding rectangle  has not been set using <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect">SetContentRect</a>, then <a href="/windows/desktop/UIAnimation/uianimation-error-codes">UI_E_VALUE_NOT_SET</a> is returned. However, the actual content rectangle is (-<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, -<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>

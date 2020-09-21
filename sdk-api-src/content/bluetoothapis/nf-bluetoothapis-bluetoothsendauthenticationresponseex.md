@@ -101,11 +101,10 @@ The device returned a failure code during authentication.
 
 ## -remarks
 
-Callers can only use this function to respond to a pending authentication request.  Applications should register with <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthentication">BluetoothRegisterForAuthenticationEx</a> in order to be notified of incoming authentication requests.  
+Callers can only use this function to respond to a pending authentication request.  Applications should register with <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthentication">BluetoothRegisterForAuthenticationEx</a> in order to be notified of incoming authentication requests.  
 
 Only the <b>BLUETOOTH_AUTHENTICATION_METHOD_LEGACY</b>, <b>BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON</b> and <b>BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION</b> response types are valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponse">BluetoothSendAuthenticationResponse</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponse">BluetoothSendAuthenticationResponse</a>

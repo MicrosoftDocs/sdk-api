@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Records the result for an update. The result is specified by an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
+Records the result for an update. The result is specified by an <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The identifier of the result.
 
 ### -param extendedReportingData [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
 
 ## -returns
 
@@ -72,5 +72,4 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>

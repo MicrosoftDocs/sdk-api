@@ -65,7 +65,7 @@ Four-character code identifying the I/O procedure to install, remove, or locate.
 
 ### -param pIOProc
 
-Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="https://docs.microsoft.com/previous-versions/dd757332(v=vs.85)">MMIOProc</a>.
+Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="/previous-versions/dd757332(v=vs.85)">MMIOProc</a>.
 
 ### -param dwFlags
 
@@ -104,4 +104,3 @@ Returns the address of the I/O procedure installed, removed, or located. Returns
 
 > [!NOTE]
 > The mmiscapi.h header defines mmioInstallIOProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

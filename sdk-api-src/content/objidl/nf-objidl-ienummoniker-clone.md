@@ -58,7 +58,7 @@ This method makes it possible to record a particular point in the enumeration se
 
 ### -param ppenum [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined.
+Address of an <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined.
 
 ## -returns
 
@@ -106,5 +106,4 @@ Insufficient memory available for this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Option flags controlling primary conversion performed by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">CreateImageSourceFromDxgi</a>, if any.
+Option flags controlling primary conversion performed by <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">CreateImageSourceFromDxgi</a>, if any.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ No primary conversion is performed.
 Low quality primary conversion is performed.
 
 ### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_FORCE_DWORD
-

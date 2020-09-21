@@ -104,10 +104,9 @@ The byte stream does not support time-based seeking, or no data is available.
 This method returns the server response from a previous time-based seek. 
 
 <div class="alert"><b>Note</b>  This method normally cannot be invoked until some data
-    is read from the byte stream, because the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-timeseek">IMFByteStreamTimeSeek::TimeSeek</a>       method does not send a server request immediately.</div>
+    is read from the byte stream, because the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-timeseek">IMFByteStreamTimeSeek::TimeSeek</a>       method does not send a server request immediately.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>

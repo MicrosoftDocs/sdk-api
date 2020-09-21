@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-In <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">Per Monitor v2 contexts</a>, dialogs will automatically respond to DPI changes by resizing themselves and re-computing the positions of their child windows (here referred to as re-layouting). This enum works in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a> in order to override the default DPI scaling behavior for dialogs.
+In <a href="/windows/desktop/hidpi/dpi-awareness-context">Per Monitor v2 contexts</a>, dialogs will automatically respond to DPI changes by resizing themselves and re-computing the positions of their child windows (here referred to as re-layouting). This enum works in conjunction with <a href="/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a> in order to override the default DPI scaling behavior for dialogs.
 
-This does not affect DPI scaling behavior for the child windows of dialogs (beyond re-layouting), which is controlled by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>.
+This does not affect DPI scaling behavior for the child windows of dialogs (beyond re-layouting), which is controlled by <a href="/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ The default behavior of the dialog manager. In response to a DPI change, the dia
 
 ### -field DDC_DISABLE_ALL
 
-Prevents the dialog manager from responding to <a href="https://docs.microsoft.com/windows/desktop/hidpi/wm-getdpiscaledsize">WM_GETDPISCALEDSIZE</a> and <a href="https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged">WM_DPICHANGED</a>, disabling all default DPI scaling behavior.
+Prevents the dialog manager from responding to <a href="/windows/desktop/hidpi/wm-getdpiscaledsize">WM_GETDPISCALEDSIZE</a> and <a href="/windows/desktop/hidpi/wm-dpichanged">WM_DPICHANGED</a>, disabling all default DPI scaling behavior.
 
 ### -field DDC_DISABLE_RESIZE
 
@@ -74,13 +74,12 @@ Prevents the dialog manager from re-layouting all of the dialogue's immediate ch
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
+<a href="/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdialogdpichangebehavior">GetDialogDpiChangeBehavior</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdialogdpichangebehavior">GetDialogDpiChangeBehavior</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior">SetDialogDpiChangeBehavior</a>

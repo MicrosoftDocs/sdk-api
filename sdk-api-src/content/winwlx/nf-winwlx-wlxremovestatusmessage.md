@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxRemoveStatusMessage function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxRemoveStatusMessage</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to tell the GINA DLL to stop displaying the status message.
+The <b>WlxRemoveStatusMessage</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to tell the GINA DLL to stop displaying the status message.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>WlxRemoveStatusMessage</b> function must be implemented by a replacement 
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 ## -returns
 
@@ -95,13 +95,12 @@ Return <b>FALSE</b> if the message was not removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaystatusmessage">WlxDisplayStatusMessage</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaystatusmessage">WlxDisplayStatusMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxgetstatusmessage">WlxGetStatusMessage</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxgetstatusmessage">WlxGetStatusMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

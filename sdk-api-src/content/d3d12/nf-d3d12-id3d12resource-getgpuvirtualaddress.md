@@ -65,13 +65,13 @@ This method returns the GPU virtual address.
 
 This method is only useful for buffer resources, it will return zero for all texture resources.
 
-For more information on the use of GPU virtual addresses, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a>. 
+For more information on the use of GPU virtual addresses, refer to <a href="/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a>. 
         
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D1211on12</a> sample uses <b>ID3D12Resource::GetGPUVirtualAddress</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D1211on12</a> sample uses <b>ID3D12Resource::GetGPUVirtualAddress</b> as follows:
         
 
 
@@ -84,11 +84,10 @@ m_vertexBufferView.SizeInBytes = vertexBufferSize;
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>

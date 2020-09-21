@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="https://www.ietf.org/rfc/rfc2898.txt">RFC 2898</a>.
+The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="https://www.ietf.org/rfc/rfc2898.txt">RFC 2898</a>.
 
 ## -parameters
 
 ### -param hPrf [in]
 
-The handle of an algorithm provider that provides the pseudo-random function. This should be an algorithm provider that performs a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> computation. When you use the default Microsoft algorithm provider, any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> opened by using the  <b>BCRYPT_ALG_HANDLE_HMAC_FLAG</b> flag can be used.
+The handle of an algorithm provider that provides the pseudo-random function. This should be an algorithm provider that performs a <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> computation. When you use the default Microsoft algorithm provider, any <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a> opened by using the  <b>BCRYPT_ALG_HANDLE_HMAC_FLAG</b> flag can be used.
 
 <div class="alert"><b>Note</b>  Only algorithms that implement the BCRYPT_IS_KEYED_HASH  property can be used to populate this parameter.</div>
 <div> </div>
@@ -157,4 +157,3 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
-

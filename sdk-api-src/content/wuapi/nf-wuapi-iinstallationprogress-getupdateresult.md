@@ -60,7 +60,7 @@ A zero-based index value that specifies an update.
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface that contains information about a specified update.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface that contains information about a specified update.
 
 ## -returns
 
@@ -69,9 +69,8 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 ## -remarks
 
 You must make repeated calls to the <b>GetUpdateResult</b> method to track the progress of a download. You must do this because  
-the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface is not automatically updated during a download.
+the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface is not automatically updated during a download.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a>

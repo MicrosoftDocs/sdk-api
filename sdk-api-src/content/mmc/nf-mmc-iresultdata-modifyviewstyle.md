@@ -78,12 +78,12 @@ Always show the selection, if any, even if the control does not have the focus.
 A value that specifies that column headers do not work like buttons. This style is useful if clicking on a column header in report view does not perform an operation, such as sorting.
 
 These values are from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
 
 ### -param remove [in]
 
 A value that specifies the view style (or styles) to be removed from the result view pane. This value can be a valid combination of the preceding flags shown for the add parameter. As described there, these values are from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
 
 ## -returns
 
@@ -95,9 +95,8 @@ This method provides the same functionality for both result view panes and virtu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>

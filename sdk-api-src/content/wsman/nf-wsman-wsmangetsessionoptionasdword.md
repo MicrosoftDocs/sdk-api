@@ -56,11 +56,11 @@ Gets the value of a session option.
 
 ### -param session [in]
 
-Specifies the handle returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
+Specifies the handle returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
 
 ### -param option
 
-Specifies the option to get. Not all session options can be retrieved. The options are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
+Specifies the option to get. Not all session options can be retrieved. The options are defined in the <a href="/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
 
 ### -param value [in, out]
 
@@ -69,4 +69,3 @@ Specifies the value of specified session option.
 ## -returns
 
 This method returns zero on success. Otherwise, this method returns an error code.
-

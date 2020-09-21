@@ -52,13 +52,13 @@ api_name:
 
 Provides a simple way to support communication between an object and its site in the container.
 
-Often an object needs to communicate directly with a container site object and, in effect, manage the site object itself. Outside of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a>, there is no generic means through which an object becomes aware of its site. <b>IObjectWithSite</b> provides simple objects with a simple siting mechanism (lighter than <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>) This interface should only be used when <b>IOleObject</b> is not already in use.
+Often an object needs to communicate directly with a container site object and, in effect, manage the site object itself. Outside of <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a>, there is no generic means through which an object becomes aware of its site. <b>IObjectWithSite</b> provides simple objects with a simple siting mechanism (lighter than <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>) This interface should only be used when <b>IOleObject</b> is not already in use.
 
-Through <b>IObjectWithSite</b>, a container can pass the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of its site to the object through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a>. Callers can also retrieve the latest site passed to <b>SetSite</b> through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a>. This latter method is included as a hooking mechanism, allowing a third party to intercept calls from the object to the site.
+Through <b>IObjectWithSite</b>, a container can pass the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of its site to the object through <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a>. Callers can also retrieve the latest site passed to <b>SetSite</b> through <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">IObjectWithSite::GetSite</a>. This latter method is included as a hooking mechanism, allowing a third party to intercept calls from the object to the site.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,16 +73,16 @@ The <b>IObjectWithSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">GetSite</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">GetSite</a>
 </td>
 <td align="left" width="63%">
-Retrieves the latest site passed using <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>.
+Retrieves the latest site passed using <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>
 </td>
 <td align="left" width="63%">
 Enables a container to pass an object a pointer to the interface for its site.
@@ -90,4 +90,3 @@ Enables a container to pass an object a pointer to the interface for its site.
 </td>
 </tr>
 </table>
-

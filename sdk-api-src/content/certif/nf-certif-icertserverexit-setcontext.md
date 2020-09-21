@@ -54,8 +54,8 @@ api_name:
 The <b>SetContext</b> method causes the current instantiation of the interface to operate on the request referenced by <i>Context</i>.
 
 This must be identical to a value given by the <i>Context</i> parameter in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>. This method must be called before calling any of the other 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> methods, in order that the interface reference a valid request.
+<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>. This method must be called before calling any of the other 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> methods, in order that the interface reference a valid request.
 
 ## -parameters
 
@@ -68,17 +68,16 @@ Specifies the request and associated certificate under construction.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>
+<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit::Notify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">ICertPolicy::VerifyRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
-
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>

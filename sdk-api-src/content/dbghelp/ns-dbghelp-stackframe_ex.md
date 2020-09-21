@@ -60,7 +60,7 @@ Represents an extended stack frame.
 
 ### -field AddrPC
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program 
       counter.
       
 
@@ -72,12 +72,12 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-ad
 
 ### -field AddrReturn
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the return address.
 
 ### -field AddrFrame
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the frame pointer.
       
 
@@ -89,7 +89,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-ad
 
 ### -field AddrStack
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the stack pointer.
       
 
@@ -101,12 +101,12 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-ad
 
 ### -field AddrBStore
 
-<b>Intel Itanium:  </b>An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+<b>Intel Itanium:  </b>An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
         the backing store (RsBSP).
 
 ### -field FuncTableEntry
 
-On x86 computers, this member is an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> 
+On x86 computers, this member is an <a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> 
       structure. If there is no function table entry, this member is <b>NULL</b>.
 
 ### -field Params
@@ -123,12 +123,12 @@ This member is <b>TRUE</b> if this is a virtual frame.
 
 ### -field Reserved
 
-This member is used internally by the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalkex">StackWalkEx</a> 
+This member is used internally by the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalkex">StackWalkEx</a> 
       function.
 
 ### -field KdHelp
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for 
+A <a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for 
       walking kernel callback frames.
 
 ### -field StackFrameSize
@@ -146,4 +146,3 @@ Specifies the type of the inline frame context.
 
 
 #### INLINE_FRAME_CONTEXT_IGNORE (0xffffffff)
-

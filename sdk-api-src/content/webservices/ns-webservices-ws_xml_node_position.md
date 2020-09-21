@@ -53,12 +53,12 @@ api_name:
 ## -description
 
 Represents a position within an XML buffer.  The current position within
-         a reader or writer may be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or
-         <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.  The current position within a reader or writer
-        may be set by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.
+         a reader or writer may be obtained by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or
+         <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.  The current position within a reader or writer
+        may be set by calling <a href="/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.
       
 
-Using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovenode">WsRemoveNode</a> to remove a node that corresponds to or contains a 
+Using <a href="/windows/desktop/api/webservices/nf-webservices-wsremovenode">WsRemoveNode</a> to remove a node that corresponds to or contains a 
         position will cause subsequent use of the position to fail.  The position itself 
         remains valid, but operations that depend on that position will fail.
       
@@ -75,4 +75,3 @@ The xml buffer to which the position refers.
 ### -field node
 
 An internal handle to the node.
-

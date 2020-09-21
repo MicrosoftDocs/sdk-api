@@ -70,9 +70,8 @@ Flip the image vertically.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">IMFVideoProcessorControl::SetMirror</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">IMFVideoProcessorControl::SetMirror</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

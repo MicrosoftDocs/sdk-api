@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Font::IsAvailable</b> method determines whether this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object was created successfully.
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object was created successfully.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ If the font was constructed successfully, this method returns <b>TRUE</b>; other
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getlaststatus">Font::GetLastStatus</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getlaststatus">Font::GetLastStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

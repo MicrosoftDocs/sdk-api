@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CERT_RDN_ATTR</b> structure contains a single attribute of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN). A whole RDN is expressed in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains an array of <b>CERT_RDN_ATTR</b> structures.
+The <b>CERT_RDN_ATTR</b> structure contains a single attribute of a <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN). A whole RDN is expressed in a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains an array of <b>CERT_RDN_ATTR</b> structures.
 
 ## -struct-fields
 
 ### -field pszObjId
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">Object identifier</a> (OID) for the type of the attribute defined in this structure. This member can be one of the following OIDs.
+<a href="/windows/desktop/SecGloss/o-gly">Object identifier</a> (OID) for the type of the attribute defined in this structure. This member can be one of the following OIDs.
 
 <table>
 <tr>
@@ -599,7 +599,7 @@ Currently not used.
 </dl>
 </td>
 <td width="60%">
-An arbitrary string of IA5 (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a>) characters.
+An arbitrary string of IA5 (<a href="/windows/desktop/SecGloss/a-gly">ASCII</a>) characters.
 
 </td>
 </tr>
@@ -812,7 +812,7 @@ the RDN string value is converted to its Unicode equivalent.
 
 ### -field Value
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> that contains the attribute value. The <b>cbData</b> member of <b>Value</b> is the length, in bytes, of the <b>pbData</b> member. It is not the number of elements in the <b>pbData</b> string. 
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> that contains the attribute value. The <b>cbData</b> member of <b>Value</b> is the length, in bytes, of the <b>pbData</b> member. It is not the number of elements in the <b>pbData</b> string. 
 
 
 
@@ -823,13 +823,12 @@ The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisrdnattrsincertificatename">CertIsRDNAttrsInCertificateName</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certisrdnattrsincertificatename">CertIsRDNAttrsInCertificateName</a>

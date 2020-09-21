@@ -56,7 +56,7 @@ api_name:
 
 Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 
-Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS2</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS2</b> structure directly in your code; using <a href="/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 ## -struct-fields
 
@@ -150,4 +150,3 @@ RRAS requires maximum strength encryption to be negotiated.
 ### -field customPolicy
 
 A value that specifies the custom IKEv2 configurations to be used during  the SA negotiation. If <b>customPolicy</b> is set to <b>NULL</b>, no custom IKEv2 configuration is available.
-

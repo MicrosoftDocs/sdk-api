@@ -52,7 +52,7 @@ api_name:
 
 Ignores the provided word for the rest of this session.
 
-Until this <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
+Until this <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
 
 ## -parameters
 
@@ -106,5 +106,4 @@ Successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>

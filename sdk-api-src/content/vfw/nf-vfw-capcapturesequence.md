@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capCaptureSequence</b> macro initiates streaming video and audio capture to a file. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-sequence">WM_CAP_SEQUENCE</a> message.
+The <b>capCaptureSequence</b> macro initiates streaming video and audio capture to a file. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-sequence">WM_CAP_SEQUENCE</a> message.
 
 ## -parameters
 
@@ -60,35 +60,34 @@ Handle to a capture window.
 
 ## -remarks
 
-If you want to alter the parameters controlling streaming capture, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro prior to starting the capture.
+If you want to alter the parameters controlling streaming capture, use the <a href="/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro prior to starting the capture.
 
-By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
+By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
 
 During streaming capture, the capture window can optionally issue notifications to your application of specific types of conditions. To install callback procedures for these notifications, use the following macros:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonstatus">capSetCallbackOnStatus</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonstatus">capSetCallbackOnStatus</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonwavestream">capSetCallbackOnWaveStream</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonwavestream">capSetCallbackOnWaveStream</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonyield">capSetCallbackOnYield</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonyield">capSetCallbackOnYield</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Input structure for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The
+Input structure for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The
 
 ## -struct-fields
 
@@ -88,13 +88,12 @@ The zero-based copy numbers of the copies that will be repaired.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-repair_copies_output">REPAIR_COPIES_OUTPUT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-repair_copies_output">REPAIR_COPIES_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

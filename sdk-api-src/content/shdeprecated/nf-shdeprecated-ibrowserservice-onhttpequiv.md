@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Deprecated. Called when the document object responds to an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTTP-EQUIV</a> metatag by issuing either the <b>OLECMDID_HTTPEQUIV</b> or <b>OLECMDID_HTTPEQUIV_DONE</b> command through <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
+Deprecated. Called when the document object responds to an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTTP-EQUIV</a> metatag by issuing either the <b>OLECMDID_HTTPEQUIV</b> or <b>OLECMDID_HTTPEQUIV_DONE</b> command through <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
 
 ## -parameters
 
 ### -param psv
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> that indicates the browser's view. The view must be either the browser's current view or the pending view.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> that indicates the browser's view. The view must be either the browser's current view or the pending view.
 
 ### -param fDone
 
@@ -83,17 +83,16 @@ A value of type <b>BOOL</b> that indicates which command to issue.
 
 Type: <b>VARIANT*</b>
 
-=A pointer to an object of type <b>VARIANT</b>. This is the equivalent of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> parameter <i>pvaIn</i>.
+=A pointer to an object of type <b>VARIANT</b>. This is the equivalent of the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> parameter <i>pvaIn</i>.
 
 ### -param pvarargOut [out]
 
 Type: <b>VARIANT*</b>
 
-A pointer to an object of type <b>VARIANT</b>. This is the equivalent of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> parameter <i>pvaOut</i>.
+A pointer to an object of type <b>VARIANT</b>. This is the equivalent of the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> parameter <i>pvaOut</i>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

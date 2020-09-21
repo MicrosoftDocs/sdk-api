@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines values that indicate the current state of the write operation when using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a> interface.
+Defines values that indicate the current state of the write operation when using the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a> interface.
 
 ## -enum-fields
 
@@ -92,5 +92,4 @@ Verifying the integrity of the burned media.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">IDiscFormat2DataEventArgs::get_CurrentAction</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">IDiscFormat2DataEventArgs::get_CurrentAction</a>

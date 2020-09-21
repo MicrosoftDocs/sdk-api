@@ -56,7 +56,7 @@ Describes the multi-sampling image quality levels for a given format and sample 
 
 ### -field Format
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the format to return info about.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the format to return info about.
 
 ### -field SampleCount
 
@@ -64,7 +64,7 @@ The number of multi-samples per pixel to return info about.
 
 ### -field Flags
 
-Flags to control quality levels, as a bitwise-OR'd combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_multisample_quality_level_flags">D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS</a> enumeration constants.
+Flags to control quality levels, as a bitwise-OR'd combination of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_multisample_quality_level_flags">D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS</a> enumeration constants.
             The resulting value specifies options for determining quality levels.
 
 ### -field NumQualityLevels
@@ -73,13 +73,12 @@ The number of quality levels.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>.
+See <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

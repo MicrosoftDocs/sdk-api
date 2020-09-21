@@ -102,20 +102,20 @@ OriginatorPublicKeyInfo
 
 ### -field DUMMYUNIONNAME.OriginatorCertId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>  that identifies the public key of the message originator.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>  that identifies the public key of the message originator.
 
 ### -field DUMMYUNIONNAME.OriginatorPublicKeyInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
 
 ### -field UserKeyingMaterial
 
- A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that indicates that a different key is generated each time the same two parties generate a pair of keys. The sender provides the bits of this <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> with some key agreement algorithms. This member can be <b>NULL</b>.
+ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that indicates that a different key is generated each time the same two parties generate a pair of keys. The sender provides the bits of this <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> with some key agreement algorithms. This member can be <b>NULL</b>.
 
 ### -field KeyEncryptionAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
+						<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
 
 ### -field cRecipientEncryptedKeys
 
@@ -124,4 +124,3 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 ### -field rgpRecipientEncryptedKeys
 
 The address of an array of <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
-

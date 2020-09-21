@@ -64,9 +64,9 @@ Size of the structure, in bytes.
 
 ### -field atAuthenticationType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a></b>
 
-Flag to describe the type of authentication. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a> enumerated type.
+Flag to describe the type of authentication. For a list of possible values, see the <a href="/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a> enumerated type.
 
 ### -field pcwszUser
 
@@ -79,4 +79,3 @@ Pointer to a null-terminated Unicode string containing the user name.
 Type: <b>LPCWSTR</b>
 
 Pointer to a null-terminated Unicode string containing the password for <b> pcwszUser</b>.
-

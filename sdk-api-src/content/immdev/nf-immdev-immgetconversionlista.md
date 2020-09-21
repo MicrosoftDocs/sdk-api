@@ -70,7 +70,7 @@ Pointer to a null-terminated character string specifying the source of the list.
 
 ### -param lpDst [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> structure in which the function retrieves the list.
+Pointer to a <a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> structure in which the function retrieves the list.
 
 ### -param dwBufLen [in]
 
@@ -123,18 +123,17 @@ Returns the number of bytes copied to the output buffer. If the application sets
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
+<a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The immdev.h header defines ImmGetConversionList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

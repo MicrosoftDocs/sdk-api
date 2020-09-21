@@ -58,26 +58,26 @@ The
 <b>GetTraceEnableFlags</b> function retrieves the enable flags passed by the controller to indicate which category of events to trace.
 
 Providers can only call this function from their 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
+<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 ## -parameters
 
 ### -param TraceHandle [in]
 
 Handle to an event tracing session, obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
 
 ## -returns
 
 Returns the value the controller specified in the <i>EnableFlag</i> parameter when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
 						
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:<ul>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
+<li>Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
 <li>Call the <b>GetTraceEnableFlags</b> function to retrieve the enable flags.</li>
 <li>If the enable flags value is 0, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the last known error.</li>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the last known error.</li>
 <li>If the last known error is <b>ERROR_SUCCESS</b>, the controller set the enable flags to 0; otherwise, the <b>GetTraceEnableFlags</b> function failed with the last known error. </li>
 </ul>
 
@@ -90,15 +90,14 @@ Providers can use this value to control which events that it generates. For exam
 
 For an example that uses 
 <b>GetTraceEnableFlags</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+<a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
+<a href="/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
-
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>

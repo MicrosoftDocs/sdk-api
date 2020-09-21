@@ -45,14 +45,11 @@ api_name:
  - EMI_METADATA_V2
 ---
 
-# EMI_METADATA_V2 structure
-
-
 ## -description
 
 The EMI_METADATA_V2 structure provides metadata about a device that supports the
-        EMI_VERSION_V2 interface. This metadata contains information about the hardware
-        device and what EMI channels are exposed by this device.
+EMI_VERSION_V2 interface. This metadata contains information about the hardware
+device and what EMI channels are exposed by this device.
 
 ## -struct-fields
 
@@ -66,17 +63,12 @@ A null-terminated, Unicode string that specifies the device model.
 
 ### -field HardwareRevision
 
+A value that specifies the current revision of the device.
+
 ### -field ChannelCount
 
-A value that specifies the number of EMI channels that are exposed
-                       by this device.
+A value that specifies the number of EMI channels that are exposed by this device.
 
 ### -field Channels
 
-An array of EMI_CHANNEL_V2 instances that describe the channels exposed
-                   by this device.
-
-### -field HardwareRevision;
-
-A value that specifies the current revision of the device.
-
+An array of EMI_CHANNEL_V2 instances that describe the channels exposed by this device.

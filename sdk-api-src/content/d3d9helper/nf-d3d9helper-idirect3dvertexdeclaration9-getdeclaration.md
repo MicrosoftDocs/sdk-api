@@ -54,13 +54,13 @@ Gets the vertex shader declaration.
 
 ### -param pElement
 
-Type: [in, out] <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>*</b>
+Type: [in, out] <b><a href="/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>*</b>
 
-Array of vertex elements (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro.
+Array of vertex elements (see <a href="/windows/desktop/direct3d9/d3dvertexelement9">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro.
 
 ### -param pNumElements
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: [out] <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Number of elements in the array. The application needs to allocate enough room for this.
 
@@ -72,7 +72,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-The number of elements, pNumElements, includes the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
+The number of elements, pNumElements, includes the <a href="/windows/desktop/direct3d9/d3ddecl-end">D3DDECL_END</a> macro, which ends the declaration. So the element count is actually one higher than the number of valid vertex elements.
 
 Here's an example that will return the vertex declaration array of up to 256 elements:
 
@@ -86,5 +86,4 @@ Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>

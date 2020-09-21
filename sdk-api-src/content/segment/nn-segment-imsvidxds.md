@@ -54,11 +54,11 @@ api_name:
 <div> </div>
 
 
-The <b>IMSVidXDS</b> interface provides access to the extended data services. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> feature exposes this interface.
+The <b>IMSVidXDS</b> interface provides access to the extended data services. The <a href="/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> feature exposes this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDS</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDS</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMSVidXDS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidxds-get_channelchangeinterface">get_ChannelChangeInterface</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidxds-get_channelchangeinterface">get_ChannelChangeInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the channel change interface.
@@ -88,9 +88,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

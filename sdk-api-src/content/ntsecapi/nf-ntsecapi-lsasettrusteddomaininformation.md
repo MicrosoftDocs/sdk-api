@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>LsaSetTrustedDomainInformation</b> function modifies a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object's information about a trusted domain.
+The <b>LsaSetTrustedDomainInformation</b> function modifies a <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object's information about a trusted domain.
 
 ## -parameters
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object of a domain controller. The required user rights for this handle depend on the value of the <i>InformationClass</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
+A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object of a domain controller. The required user rights for this handle depend on the value of the <i>InformationClass</i> parameter. For more information, see 
+<a href="/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 ### -param TrustedDomainSid [in]
 
@@ -66,7 +66,7 @@ Pointer to the SID of the trusted domain whose information is modified. If the <
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being set. 
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being set. 
 
 
 
@@ -86,7 +86,7 @@ Specifies one of the following values from the
 <td width="60%">
 If the specified domain is not in the list of trusted domains, the 
 <b>LsaSetTrustedDomainInformation</b> function adds it. The <i>TrustedDomainSid</i> parameter must be the SID of the domain to add. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure containing the name of the domain to add.  
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure containing the name of the domain to add.  
 
 
 
@@ -102,7 +102,7 @@ If the specified domain is already in the list of trusted domains, the function 
 </td>
 <td width="60%">
 Sets the value used to generate Posix user and group identifiers. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Sets the value used to generate Posix user and group identifiers. The <i>Buffer<
 </td>
 <td width="60%">
 Sets the password for the trusted domain. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a> structure containing the old and new passwords for the specified domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_CREATE_SECRET access right. The old password string can be <b>NULL</b>.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a> structure containing the old and new passwords for the specified domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_CREATE_SECRET access right. The old password string can be <b>NULL</b>.
 
 </td>
 </tr>
@@ -128,32 +128,31 @@ Pointer to a structure containing the information to set. The type of structure 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsadeletetrusteddomain">LsaDeleteTrustedDomain</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsadeletetrusteddomain">LsaDeleteTrustedDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>

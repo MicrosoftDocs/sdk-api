@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-showinfotip">TVM_SHOWINFOTIP</a> message explicitly.
+Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="/windows/desktop/Controls/tvm-showinfotip">TVM_SHOWINFOTIP</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -68,5 +68,4 @@ Handle to the item.
 
 ## -remarks
 
-Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-controls">About Tree-View Controls</a> overview.
-
+Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="/windows/desktop/Controls/tree-view-controls">About Tree-View Controls</a> overview.

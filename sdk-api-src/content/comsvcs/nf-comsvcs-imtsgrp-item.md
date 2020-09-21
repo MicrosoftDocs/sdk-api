@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the specified package.
+Retrieves the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the specified package.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The index containing running packages.
 
 ### -param ppUnkDispatcher [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer, which can be used to access <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer, which can be used to access <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>

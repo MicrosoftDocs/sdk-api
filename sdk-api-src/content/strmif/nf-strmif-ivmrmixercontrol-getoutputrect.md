@@ -61,7 +61,7 @@ Specifies the input stream.
 
 ### -param pRect [out]
 
-Pointer to a [NORMALIZEDRECT](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that receives the destination rectangle in composition space.
+Pointer to a [NORMALIZEDRECT](/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that receives the destination rectangle in composition space.
 
 ## -returns
 
@@ -102,17 +102,16 @@ Because this rectangle exists in compositional space, there is no such thing as 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setmixingprefs">IVMRMixerControl::SetOutputRect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setmixingprefs">IVMRMixerControl::SetOutputRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

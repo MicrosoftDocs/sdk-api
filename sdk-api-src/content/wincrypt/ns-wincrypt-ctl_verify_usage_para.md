@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CTL_VERIFY_USAGE_PARA</b> structure contains parameters used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a> to establish the validity of a CTL's usage.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a> to establish the validity of a CTL's usage.
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Size of this structure in bytes.
 
 ### -field ListIdentifier
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that specifies a <b>ListIdentifier</b> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> to be found or verified. Normally the <b>cbData</b> member of the <b>ListIdentifier</b> BLOB will be zero, indicating that a CTL with any <b>ListIdentifier</b> can be a match.
+<a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that specifies a <b>ListIdentifier</b> of a <a href="/windows/desktop/SecGloss/c-gly">CTL</a> to be found or verified. Normally the <b>cbData</b> member of the <b>ListIdentifier</b> BLOB will be zero, indicating that a CTL with any <b>ListIdentifier</b> can be a match.
 
 To match only CTLs with no <b>ListIdentifier</b>, the <b>cbData</b> member of the <b>ListIdentifier</b> BLOB is set to CTL_FIND_NO_LIST_ID_CBDATA.
 
@@ -89,5 +89,4 @@ Array of handles of stores to be searched for acceptable CTL signers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>

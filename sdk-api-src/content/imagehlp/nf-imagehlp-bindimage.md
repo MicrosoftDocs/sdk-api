@@ -53,7 +53,7 @@ api_name:
 Computes the virtual address of each imported function.
 
 This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. Use 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. Use 
 <b>BindImageEx</b> to provide a status routine or flags to control the image binding.
 
 ## -parameters
@@ -75,7 +75,7 @@ The root of the path to search for the file's corresponding symbol file.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,9 +86,8 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

@@ -56,7 +56,7 @@ api_name:
 
 Indicates the OEM's preferred power management profile. These values are read from the 
     Preferred_PM_Profile field of the Fixed ACPI Description Table (FADT). These values are returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> or <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx </a>       function.
+    <a href="/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> or <a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx </a>       function.
 
 ## -enum-fields
 
@@ -104,9 +104,8 @@ Values equal to or greater than this value indicate an out of range value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
+<a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>

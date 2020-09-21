@@ -54,7 +54,7 @@ Defines methods for performing application-specific restore tasks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWsbApplicationRestoreSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWsbApplicationRestoreSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWsbApplicationRestoreSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWsbApplicationRestoreSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWsbApplicationRestoreSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-isrollforwardsupported">IsRollForwardSupported</a>
+<a href="/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-isrollforwardsupported">IsRollForwardSupported</a>
 </td>
 <td align="left" width="63%">
 Reports whether the application supports roll-forward restore.
@@ -78,7 +78,7 @@ Reports whether the application supports roll-forward restore.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-ordercomponents">OrderComponents</a>
+<a href="/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-ordercomponents">OrderComponents</a>
 </td>
 <td align="left" width="63%">
 Specifies the order in which application components are to be restored.
@@ -87,21 +87,20 @@ Specifies the order in which application components are to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-postrestore">PostRestore</a>
+<a href="/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-postrestore">PostRestore</a>
 </td>
 <td align="left" width="63%">
-Performs application-specific <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostRestore</a> operations.
+Performs application-specific <a href="/windows/desktop/VSS/vssgloss-p">PostRestore</a> operations.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-prerestore">PreRestore</a>
+<a href="/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationrestoresupport-prerestore">PreRestore</a>
 </td>
 <td align="left" width="63%">
-Performs application-specific <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a> operations.
+Performs application-specific <a href="/windows/desktop/VSS/vssgloss-p">PreRestore</a> operations.
 
 </td>
 </tr>
 </table>
-

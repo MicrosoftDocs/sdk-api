@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AUTHZ_SID_OPERATION</b> enumeration indicates the type of SID operations that can be made by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysids">AuthzModifySids</a> function.
+The <b>AUTHZ_SID_OPERATION</b> enumeration indicates the type of SID operations that can be made by a call to the <a href="/windows/desktop/api/authz/nf-authz-authzmodifysids">AuthzModifySids</a> function.
 
 ## -enum-fields
 
@@ -75,4 +75,3 @@ Deletes the specified SID. If no matching SID is found, no modifications are don
 ### -field AUTHZ_SID_OPERATION_REPLACE
 
 Replaces the existing SID with the specified SID. If the SID does not already exist, then adds the SID.
-

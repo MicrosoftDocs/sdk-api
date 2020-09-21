@@ -54,31 +54,30 @@ api_name:
 
 ## -description
 
-Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-keydown">TVN_KEYDOWN</a> notification code. The structure is identical to the 
+Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvn-keydown">TVN_KEYDOWN</a> notification code. The structure is identical to the 
 			<b>TV_KEYDOWN</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
 
 ### -field wVKey
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Virtual key code.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Always zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
-
+<a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>

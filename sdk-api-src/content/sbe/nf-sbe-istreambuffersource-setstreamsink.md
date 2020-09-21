@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>SetStreamSink</b> method sets a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter, so that the Stream Buffer Source filter can stream data from the sink filter.
+The <b>SetStreamSink</b> method sets a pointer to the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter, so that the Stream Buffer Source filter can stream data from the sink filter.
 
 ## -parameters
 
 ### -param pIStreamBufferSink [in]
 
-Pointer to the Stream Buffer Sink filter's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a> interface.
+Pointer to the Stream Buffer Sink filter's <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a> interface.
 
 ## -returns
 
@@ -82,11 +82,10 @@ The method succeeded.
 
 ## -remarks
 
-The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesourcefilter-load">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> method.
+The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="/windows/desktop/api/strmif/nf-strmif-ifilesourcefilter-load">IFileSourceFilter::Load</a> with the same file name used in the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> method.
 
 Several Stream Buffer Source filters can stream from the same sink filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersource">IStreamBufferSource Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersource">IStreamBufferSource Interface</a>

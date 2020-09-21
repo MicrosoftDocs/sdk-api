@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains information used to increase the size of a partition.This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a> control code.
+Contains information used to increase the size of a partition.This structure is used by the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a> control code.
 
 ## -struct-fields
 
@@ -67,9 +67,8 @@ The number of bytes by which the partition is to be enlarged (positive value) or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
-

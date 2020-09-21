@@ -180,7 +180,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo">GetTitleBarInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo">GetTitleBarInfo</a>
 
 
 
@@ -188,5 +188,4 @@ The element is in the pressed state.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

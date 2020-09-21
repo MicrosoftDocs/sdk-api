@@ -60,11 +60,11 @@ No special behaviors. This is the default value used to set or revert to default
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE
 
-At the end of an interaction, the viewport transitions to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_READY</a> and then immediately to <b>DIRECTMANIPULATION_DISABLED</b>. The viewport must be explicitly enabled through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a> method before the next interaction can be processed.
+At the end of an interaction, the viewport transitions to <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_READY</a> and then immediately to <b>DIRECTMANIPULATION_DISABLED</b>. The viewport must be explicitly enabled through the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a> method before the next interaction can be processed.
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update">Update</a> must be called to redraw the content within the viewport. The content is not updated automatically during an input event.
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update">Update</a> must be called to redraw the content within the viewport. The content is not updated automatically during an input event.
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT
 
@@ -72,9 +72,9 @@ All input from a contact associated with the viewport is passed to the UI thread
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST
 
-If set, all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages are passed to the application for hit testing. Otherwise, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> will process the messages for hit testing against the existing list of running viewports, and the application will not see the input.
+If set, all <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages are passed to the application for hit testing. Otherwise, <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> will process the messages for hit testing against the existing list of running viewports, and the application will not see the input.
 
-Applies only when viewport state is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_RUNNING</a> or <b>DIRECTMANIPULATION_INERTIA</b>.
+Applies only when viewport state is <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_RUNNING</a> or <b>DIRECTMANIPULATION_INERTIA</b>.
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING
 
@@ -84,9 +84,8 @@ Anti-aliasing can create irregular edge rendering. Artifacts, commonly seen as b
 
 ## -remarks
 
-<b>DIRECTMANIPULATION_VIEWPORT_OPTIONS</b> is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions">SetViewportOptions</a> method. These flags can be combined to set the input behavior for a viewport.
+<b>DIRECTMANIPULATION_VIEWPORT_OPTIONS</b> is used in the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions">SetViewportOptions</a> method. These flags can be combined to set the input behavior for a viewport.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

@@ -84,5 +84,4 @@ The highest possible value for an EAP packet type code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a>
-
+<a href="/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a>

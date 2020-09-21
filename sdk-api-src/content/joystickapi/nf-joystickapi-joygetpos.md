@@ -62,7 +62,7 @@ Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range f
 
 ### -param pji
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757110(v=vs.85)">JOYINFO</a> structure that contains the position and button status of the joystick.
+Pointer to a <a href="/previous-versions/dd757110(v=vs.85)">JOYINFO</a> structure that contains the position and button status of the joystick.
 
 ## -returns
 
@@ -110,13 +110,12 @@ The specified joystick is not connected to the system.
 
 ## -remarks
 
-For devices that have four to six axes of movement, a point-of-view control, or more than four buttons, use the <a href="https://docs.microsoft.com/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a> function.
+For devices that have four to six axes of movement, a point-of-view control, or more than four buttons, use the <a href="/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
+<a href="/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>

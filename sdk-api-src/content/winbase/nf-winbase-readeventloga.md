@@ -62,7 +62,7 @@ Reads the specified number of entries from the specified event log. The function
 ### -param hEventLog [in]
 
 A handle to the event log to be read. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> function returns this handle.
 
 ### -param dwReadFlags [in]
 
@@ -154,7 +154,7 @@ The record number of the log-entry at which the read operation should start. Thi
 
 ### -param lpBuffer [out]
 
-An application-allocated buffer that will receive one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a> structures. This parameter cannot be <b>NULL</b>, even if the <i>nNumberOfBytesToRead</i> parameter is zero. 
+An application-allocated buffer that will receive one or more <a href="/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a> structures. This parameter cannot be <b>NULL</b>, even if the <i>nNumberOfBytesToRead</i> parameter is zero. 
 
 
 
@@ -172,7 +172,7 @@ A pointer to a variable that receives the number of bytes read by the function.
 ### -param pnMinNumberOfBytesNeeded [out]
 
 A pointer to a variable that receives the required size of the <i>lpBuffer</i> buffer. This value is valid only if this function returns zero and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 ## -returns
 
@@ -180,7 +180,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -192,7 +192,7 @@ When this function returns successfully, the read position in the event  log is 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
+<a href="/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
 
 <div class="code"></div>
 
@@ -204,25 +204,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>

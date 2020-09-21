@@ -58,7 +58,7 @@ Gets the text in this range according to the specified conversion flags.
 
 Type: <b>long</b>
 
-The flags controlling how the text is retrieved. The flags can include a combination of the following values. Specifying a <i>Flags</i> value of 0 is the same as calling the  <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a> method.  
+The flags controlling how the text is retrieved. The flags can include a combination of the following values. Specifying a <i>Flags</i> value of 0 is the same as calling the  <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a> method.  
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>
@@ -138,9 +138,9 @@ The text in the range.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -184,13 +184,12 @@ Insufficient memory.
 
 ## -remarks
 
-This method includes the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag which may be preferable to the language code identifier (LCID) obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">ITextFont::GetLanguageID</a>.
+This method includes the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag which may be preferable to the language code identifier (LCID) obtained by calling <a href="/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">ITextFont::GetLanguageID</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-settext2">ITextRange2::SetText2</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-settext2">ITextRange2::SetText2</a>

@@ -101,27 +101,26 @@ This function draws lines by using the current pen. The figure is not filled.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-pie-chart">Drawing a Pie Chart</a>.
+For an example, see <a href="/windows/desktop/gdi/drawing-a-pie-chart">Drawing a Pie Chart</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>

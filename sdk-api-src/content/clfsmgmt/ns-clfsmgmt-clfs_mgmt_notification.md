@@ -78,7 +78,7 @@ The type of notification to receive.  The following  values are valid.
 </td>
 <td width="60%">
  The notification to advance the log tail. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_tail_advance_callback">LOG_TAIL_ADVANCE_CALLBACK</a>.
+        <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_tail_advance_callback">LOG_TAIL_ADVANCE_CALLBACK</a>.
 
 </td>
 </tr>
@@ -89,9 +89,9 @@ The type of notification to receive.  The following  values are valid.
 </dl>
 </td>
 <td width="60%">
-The notification that a  call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-handlelogfull">HandleLogFull</a> is 
+The notification that a  call to <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-handlelogfull">HandleLogFull</a> is 
         complete. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_full_handler_callback">LOG_FULL_HANDLER_CALLBACK</a>.
+        <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_full_handler_callback">LOG_FULL_HANDLER_CALLBACK</a>.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ The notification that a  call to <a href="https://docs.microsoft.com/windows/des
 </td>
 <td width="60%">
 The notification that the log is unpinned. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_unpinned_callback">LOG_UNPINNED_CALLBACK</a>.
+        <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_unpinned_callback">LOG_UNPINNED_CALLBACK</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The notification that the log is unpinned. For more information, see
 </td>
 <td width="60%">
 The notification that a nonzero number of bytes has been written to the log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-registerforlogwritenotification">RegisterForLogWriteNotification</a>.
+        <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-registerforlogwritenotification">RegisterForLogWriteNotification</a>.
         
 
 <b>Windows Server 2003 R2 and Windows Vista before SP1:  </b>This value is not supported.
@@ -138,9 +138,8 @@ If <b>Notification</b> is <b>ClfsMgmtLogUnpinnedNotification</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-management-structures">CLFS Management Structures</a>
+<a href="/previous-versions/windows/desktop/clfs/clfs-management-structures">CLFS Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-readlognotification">ReadLogNotification</a>
-
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-readlognotification">ReadLogNotification</a>

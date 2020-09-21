@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IEnumBackgroundCopyJobs1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IEnumBackgroundCopyJobs1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
-Use the <b>IEnumBackgroundCopyJobs1</b> interface to enumerate the list of jobs in a group. To get an <b>IEnumBackgroundCopyJobs1</b> interface pointer, call the <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-enumjobs">IBackgroundCopyGroup::EnumJobs</a> method.
+Use the <b>IEnumBackgroundCopyJobs1</b> interface to enumerate the list of jobs in a group. To get an <b>IEnumBackgroundCopyJobs1</b> interface pointer, call the <a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-enumjobs">IBackgroundCopyGroup::EnumJobs</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyJobs1</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyJobs1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEnumBackgroundCopyJobs1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-clone">Clone</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -80,7 +80,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-getcount">GetCount</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of items in the enumeration.
@@ -89,7 +89,7 @@ Returns the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-next">Next</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -98,7 +98,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-reset">Reset</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -107,7 +107,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-skip">Skip</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ienumbackgroundcopyjobs1-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.
@@ -115,4 +115,3 @@ Skips a specified number of items in the enumeration sequence.
 </td>
 </tr>
 </table>
-

@@ -54,7 +54,7 @@ The <b>IAudioEndpointOffloadStreamVolume</b> interface allows the client applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamVolume</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamVolume</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamVolume</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioEndpointOffloadStreamVolume</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getchannelvolumes">GetChannelVolumes</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getchannelvolumes">GetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume levels for the various audio channels in the offloaded stream.
@@ -78,7 +78,7 @@ Retrieves the volume levels for the various audio channels in the offloaded stre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getvolumechannelcount">GetVolumeChannelCount</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getvolumechannelcount">GetVolumeChannelCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of available audio channels in the offloaded stream for which the volume levels can be manipulated by the client.
@@ -87,7 +87,7 @@ Returns the number of available audio channels in the offloaded stream for which
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-setchannelvolumes">SetChannelVolumes</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-setchannelvolumes">SetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Sets the volume levels for the various audio channels in the offloaded stream.
@@ -98,5 +98,4 @@ Sets the volume levels for the various audio channels in the offloaded stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
-
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

@@ -90,5 +90,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_table">MIB_IPMCAST_IF_TABLE</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_table">MIB_IPMCAST_IF_TABLE</a>

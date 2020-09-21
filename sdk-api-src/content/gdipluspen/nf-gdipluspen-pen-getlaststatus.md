@@ -52,29 +52,29 @@ api_name:
 ## -description
 
 The <b>Pen::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object's most recent method failure.
+			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object's most recent method failure.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-The <b>Pen::GetLastStatus</b> method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+The <b>Pen::GetLastStatus</b> method returns an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object have failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns <b>Ok</b>.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object have failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns <b>Ok</b>.
 
 If at least one method invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object has failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object has failed since the previous call to <b>Pen::GetLastStatus</b>, then <b>Pen::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 ## -remarks
 
 You can call <b>Pen::GetLastStatus</b> immediately after constructing a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to determine whether the constructor succeeded.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Pen::GetLastStatus</b> method of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
 				<b>Pen</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -83,7 +83,7 @@ The first time you call the <b>Pen::GetLastStatus</b> method of a
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the dash style, and draws a dashed line. The code then checks the status of the method that sets the dash style for the pen.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the dash style, and draws a dashed line. The code then checks the status of the method that sets the dash style for the pen.
 
 
 ```cpp
@@ -114,9 +114,8 @@ VOID Example_GetLastStatus(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

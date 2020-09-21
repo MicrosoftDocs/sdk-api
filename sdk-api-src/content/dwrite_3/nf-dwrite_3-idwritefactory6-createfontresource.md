@@ -52,7 +52,7 @@ Creates a font resource, given a font file and a face index.
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 A user-provided font file representing the font face.
 
@@ -64,9 +64,9 @@ The zero-based index of a font face in cases when the font file contains a colle
 
 ### -param fontResource
 
-Type: **[IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
+Type: **[IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md)\*\***
 
-The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md) interface. On successful completion, the function sets the pointer to a newly created font resource object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -77,4 +77,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

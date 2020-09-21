@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawQuery</b> macro queries a rendering driver to determine if it can render data in a specific format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-query">ICM_DRAW_QUERY</a> message.
+The <b>ICDrawQuery</b> macro queries a rendering driver to determine if it can render data in a specific format. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-query">ICM_DRAW_QUERY</a> message.
 
 ## -parameters
 
@@ -60,17 +60,16 @@ Handle to a driver.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
 
 ## -remarks
 
-This macro differs from the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdrawbegin">ICDrawBegin</a> macro in that it queries the driver in a general sense. <b>ICDrawBegin</b> determines if the driver can draw the data using the specified format under specific conditions, such as stretching the image.
+This macro differs from the <a href="/windows/desktop/api/vfw/nf-vfw-icdrawbegin">ICDrawBegin</a> macro in that it queries the driver in a general sense. <b>ICDrawBegin</b> determines if the driver can draw the data using the specified format under specific conditions, such as stretching the image.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

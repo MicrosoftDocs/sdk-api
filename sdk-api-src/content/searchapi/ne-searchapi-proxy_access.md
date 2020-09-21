@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a> to state proxy use.
+Used by <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a> to state proxy use.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Do not use a proxy.
 ### -field PROXY_ACCESS_PROXY
 
 Use the specified proxy.
-

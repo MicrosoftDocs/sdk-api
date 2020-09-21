@@ -52,11 +52,11 @@ api_name:
 
 The <b>IWMWriterPostViewCallback</b> interface manages the receiving of uncompressed samples from the writer. Postview can be used only for video streams.
 
-This interface must be implemented by the application and passed to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewcallback">IWMWriterPostView::SetPostViewCallback</a>.
+This interface must be implemented by the application and passed to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewcallback">IWMWriterPostView::SetPostViewCallback</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostViewCallback</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a>. <b>IWMWriterPostViewCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostViewCallback</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a>. <b>IWMWriterPostViewCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMWriterPostViewCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostviewcallback-allocateforpostview">AllocateForPostView</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostviewcallback-allocateforpostview">AllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Allocates a buffer for use in postviewing operations.
@@ -80,7 +80,7 @@ Allocates a buffer for use in postviewing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostviewcallback-onpostviewsample">OnPostViewSample</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostviewcallback-onpostviewsample">OnPostViewSample</a>
 </td>
 <td align="left" width="63%">
 Called when new postview data is available.
@@ -91,17 +91,16 @@ Called when new postview data is available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-writer-postview">To Use Writer Postview</a>
+<a href="/windows/desktop/wmformat/to-use-writer-postview">To Use Writer Postview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

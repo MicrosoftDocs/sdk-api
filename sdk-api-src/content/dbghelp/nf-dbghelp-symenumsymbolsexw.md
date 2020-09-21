@@ -59,14 +59,14 @@ Enumerates all symbols in a process.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param BaseOfDll [in]
 
 The base address of the module. If this value is zero and <i>Mask</i> contains an 
       exclamation point (!), the function looks across modules. If this value is zero and 
       <i>Mask</i> does not contain an exclamation point, the function uses the scope established by 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+      the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 ### -param Mask [in, optional]
 
@@ -88,13 +88,13 @@ To specify a specific module or set of modules, begin the text with a wildcard s
 </td>
 <td width="60%">
 If <i>BaseOfDll</i> is not zero, then 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a global symbol named 
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a global symbol named 
          "foo".
 
 If <i>BaseOfDll</i> is zero, then 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a local symbol named 
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a local symbol named 
          "foo" within the scope established by the most recent call to the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 </td>
 </tr>
@@ -105,15 +105,15 @@ If <i>BaseOfDll</i> is zero, then
 </td>
 <td width="60%">
 If <i>BaseOfDll</i> is not zero, then 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a global symbol that 
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a global symbol that 
          starts with "foo" and contains one extra character afterwards, such as 
          "fool" and "foot".
 
 If <i>BaseOfDll</i> is zero, then 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a symbol that starts 
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look for a symbol that starts 
          with "foo" and contains one extra character afterwards, such as "fool" and 
          "foot". The search would be within the scope established by the most recent call to the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ If <i>BaseOfDll</i> is zero, then
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look in every loaded module 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will look in every loaded module 
          that starts with the text "foo" for a symbol called "bar".  It could find 
          matches such as these, "foot!bar", "footlocker!bar", and 
          "fool!bar".
@@ -138,7 +138,7 @@ If <i>BaseOfDll</i> is zero, then
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will enumerate every symbol in 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> will enumerate every symbol in 
          every loaded module.
 
 </td>
@@ -147,7 +147,7 @@ If <i>BaseOfDll</i> is zero, then
 
 ### -param EnumSymbolsCallback [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
+A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
       receives the symbol information.
 
 ### -param UserContext [in, optional]
@@ -194,10 +194,9 @@ Enumerate inline symbols.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 > [!NOTE]
 > The dbghelp.h header defines SymEnumSymbolsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

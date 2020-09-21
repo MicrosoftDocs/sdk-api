@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>Activate</b> method returns an active interface for a specified <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+<b>Activate</b> method returns an active interface for a specified <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A null-terminated string that specifies the name of the work item to activate.
 ### -param riid [in]
 
 An identifier that identifies the interface being requested. The only interface supported at this time, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>, has the identifier IID_ITask.
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>, has the identifier IID_ITask.
 
 ### -param ppUnk [out]
 
@@ -130,9 +130,8 @@ The task object version is either unsupported or invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> for indexed pixel formats.
+Sets the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> for indexed pixel formats.
 
 ## -parameters
 
 ### -param pIPalette [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to use for indexed pixel formats.
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to use for indexed pixel formats.
 
 The encoder may change the palette to reflect the pixel formats the encoder supports.
 
@@ -72,7 +72,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method doesn't fail if called on a frame whose pixel format is set to a non-indexed pixel format. If the target pixel format is a non-indexed format, the palette will be ignored.
 
-If you already called <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">IWICBitmapEncoder::SetPalette</a> to set a global palette, this method overrides that palette for the current frame.
+If you already called <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">IWICBitmapEncoder::SetPalette</a> to set a global palette, this method overrides that palette for the current frame.
 
-The palette must be specified before your first call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels">WritePixels</a>/<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>. Doing so will cause <b>WriteSource</b> to use the specified palette when converting the source image to the encoder pixel format. If no palette is specified, a palette will be generated on the first call to <b>WriteSource</b>.
-
+The palette must be specified before your first call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels">WritePixels</a>/<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>. Doing so will cause <b>WriteSource</b> to use the specified palette when converting the source image to the encoder pixel format. If no palette is specified, a palette will be generated on the first call to <b>WriteSource</b>.

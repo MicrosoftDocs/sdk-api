@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if a resource is created, allocated, tracked, or destroyed. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a resource is created, allocated, tracked, or destroyed. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComResourceEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComResourceEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComResourceEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComResourceEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComResourceEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourceallocate">OnResourceAllocate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourceallocate">OnResourceAllocate</a>
 </td>
 <td align="left" width="63%">
 Generated when an existing resource is allocated.
@@ -78,7 +78,7 @@ Generated when an existing resource is allocated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcecreate">OnResourceCreate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcecreate">OnResourceCreate</a>
 </td>
 <td align="left" width="63%">
 Generated when a new resource is created and allocated.
@@ -87,7 +87,7 @@ Generated when a new resource is created and allocated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcedestroy">OnResourceDestroy</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcedestroy">OnResourceDestroy</a>
 </td>
 <td align="left" width="63%">
 Generated when a resource is destroyed.
@@ -96,7 +96,7 @@ Generated when a resource is destroyed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcerecycle">OnResourceRecycle</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcerecycle">OnResourceRecycle</a>
 </td>
 <td align="left" width="63%">
 Generated when an object is finished with a resource.
@@ -105,7 +105,7 @@ Generated when an object is finished with a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcetrack">OnResourceTrack</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomresourceevents-onresourcetrack">OnResourceTrack</a>
 </td>
 <td align="left" width="63%">
 Generated when a resource is tracked.
@@ -116,9 +116,8 @@ Generated when a resource is tracked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

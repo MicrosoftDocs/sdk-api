@@ -58,7 +58,7 @@ Contains format data for an AAC or HE-AAC stream that includes AudioSpecificConf
 
 ### -field wfInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo">HEAACWAVEINFO</a> structure.
+A <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo">HEAACWAVEINFO</a> structure.
 
 ### -field pbAudioSpecificConfig
 
@@ -66,5 +66,4 @@ A byte array that contains the value of AudioSpecificConfig(), as defined by ISO
 
 ## -remarks
 
-Use this structure to access the AudioSpecificConfig() data that follows an <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo">HEAACWAVEINFO</a> structure. This data is present only when the <b>wStructType</b> member of the <b>HEAACWAVEFORMAT</b> structure is zero.
-
+Use this structure to access the AudioSpecificConfig() data that follows an <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo">HEAACWAVEINFO</a> structure. This data is present only when the <b>wStructType</b> member of the <b>HEAACWAVEFORMAT</b> structure is zero.

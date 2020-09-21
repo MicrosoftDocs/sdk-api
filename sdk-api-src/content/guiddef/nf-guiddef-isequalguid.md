@@ -64,13 +64,12 @@ The second GUID.
 
 ## -remarks
 
-<b>IsEqualGUID</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a> and <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a> functions.
+<b>IsEqualGUID</b> is used by the <a href="/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a> and <a href="/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a>
+<a href="/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a>
-
+<a href="/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a>

@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-The name property of a collection is identified in the documentation for each specific collection of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
+The name property of a collection is identified in the documentation for each specific collection of the <a href="/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>

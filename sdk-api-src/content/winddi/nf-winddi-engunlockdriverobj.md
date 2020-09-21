@@ -64,9 +64,8 @@ The return value is <b>TRUE</b> if the function is successful; otherwise, it is 
 
 ## -remarks
 
-The specified driver object must have been previously locked by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>. The object is not unlockable by another thread while it is locked down.
+The specified driver object must have been previously locked by a call to <a href="/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>. The object is not unlockable by another thread while it is locked down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>

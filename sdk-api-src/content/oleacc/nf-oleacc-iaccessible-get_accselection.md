@@ -58,7 +58,7 @@ The <b>IAccessible::get_accSelection</b> method retrieves the selected children 
 
 Type: <b>VARIANT*</b>
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a> that receives information about which children are selected. The following table describes the information returned in <i>pvarChildren</i>.
+Address of a <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a> that receives information about which children are selected. The following table describes the information returned in <i>pvarChildren</i>.
 
 <table>
 <tr>
@@ -81,7 +81,7 @@ No children are selected.
 </dl>
 </td>
 <td width="60%">
-One child object is selected, and the address of its <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface is set in the <b>pdispVal</b> member.
+One child object is selected, and the address of its <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface is set in the <b>pdispVal</b> member.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ One child object is selected, and the address of its <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The client queries this interface for the <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
+Multiple child objects are selected, and the <b>punkVal</b> member contains the address of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The client queries this interface for the <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface, which it uses to enumerate the selected objects.
 
 </td>
 </tr>
@@ -109,11 +109,11 @@ Multiple child objects are selected, and the <b>punkVal</b> member contains the 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -135,11 +135,11 @@ The object does not support this property.
 
 ## -remarks
 
-This method must support the <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
+This method must support the <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
 
-This method returns either an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer or a child ID for the <i>pvarChildren</i> parameter. For more information about how to use the <b>IDispatch</b> interface pointer or child ID, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
+This method returns either an <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer or a child ID for the <i>pvarChildren</i> parameter. For more information about how to use the <b>IDispatch</b> interface pointer or child ID, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
+As with other <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
 
 <b>Note:  </b>This method retrieves a selected item, not selected text.
             
@@ -174,25 +174,24 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accSelection(VARIANT *pvarChildren)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accselect">IAccessible::accSelect</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accselect">IAccessible::accSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accfocus">IAccessible::get_accFocus</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accfocus">IAccessible::get_accFocus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
+<a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/selection-and-focus-properties-and-methods">Selection and Focus Properties and Methods</a>
+<a href="/windows/desktop/WinAuto/selection-and-focus-properties-and-methods">Selection and Focus Properties and Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

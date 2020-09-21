@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>MCI_DGV_RESTORE_PARMS</b> structure contains information for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-restore">MCI_RESTORE</a> command for digital-video devices.
+The <b>MCI_DGV_RESTORE_PARMS</b> structure contains information for the <a href="/windows/desktop/Multimedia/mci-restore">MCI_RESTORE</a> command for digital-video devices.
 
 ## -struct-fields
 
@@ -69,11 +69,11 @@ Pointer to a null-terminated string containing the filename from which the frame
 
 ### -field rc
 
-Rectangle containing positioning information. <a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
+Rectangle containing positioning information. <a href="/previous-versions//ms536136(v=vs.85)">RECT</a> structures are handled differently in MCI than in other parts of Windows; in MCI, <b>rc.right</b> contains the width of the rectangle and <b>rc.bottom</b> contains its height.
 
 ## -remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -84,21 +84,20 @@ When assigning data to the members of this structure, set the corresponding flag
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
+<a href="/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
+<a href="/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-restore">MCI_RESTORE</a>
+<a href="/windows/desktop/Multimedia/mci-restore">MCI_RESTORE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536136.aspx">RECT</a>
+<a href="/previous-versions//ms536136(v=vs.85)">RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

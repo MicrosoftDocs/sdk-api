@@ -71,16 +71,16 @@ The message headers have been initialized, and
 The body of the message is being read, for example
                     when a message is received.
                     In this state, the headers can be accessed, and the body can
-                    be read (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> or
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a>).
+                    be read (see <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> or
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a>).
 
 ### -field WS_MESSAGE_STATE_WRITING
 
 The body of the message is being written, for example
                     when a message is being sent.
                     In this state, the headers can be accessed, and the body can
-                    be written (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
+                    be written (see <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
 
 ### -field WS_MESSAGE_STATE_DONE
 
@@ -103,4 +103,3 @@ The following are the state transitions while reading or receiving:
 <img alt="" src="./images/MessageReceiveStates.png"/>
 Note that in the above diagrams, only valid transitions are
                 shown.
-

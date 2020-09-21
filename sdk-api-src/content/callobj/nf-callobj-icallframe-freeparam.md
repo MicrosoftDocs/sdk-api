@@ -60,15 +60,15 @@ The number of the parameter to be freed.
 
 ### -param freeFlags [in]
 
-Represents flags from the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ne-callobj-callframe_free">CALLFRAME_FREE</a> enumeration.
+Represents flags from the <a href="/windows/desktop/api/callobj/ne-callobj-callframe_free">CALLFRAME_FREE</a> enumeration.
 
 ### -param pWalkerFree [in]
 
-A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. When specified, a callback is made for each interface pointer encountered while freeing occurs. If this parameter is not specified, then the interface pointers are freed by the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
+A pointer to an instance of the <a href="/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a> interface. When specified, a callback is made for each interface pointer encountered while freeing occurs. If this parameter is not specified, then the interface pointers are freed by the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
 
 ### -param nullFlags [in]
 
-Represents flags from the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ne-callobj-callframe_null">CALLFRAME_NULL</a> enumeration.
+Represents flags from the <a href="/windows/desktop/api/callobj/ne-callobj-callframe_null">CALLFRAME_NULL</a> enumeration.
 
 ## -returns
 
@@ -105,5 +105,4 @@ An unexpected error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

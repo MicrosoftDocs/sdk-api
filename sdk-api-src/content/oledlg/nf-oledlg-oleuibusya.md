@@ -58,7 +58,7 @@ Invokes the standard <b>Busy</b> dialog box, allowing the user to manage concurr
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
 
 ## -returns
 
@@ -125,7 +125,7 @@ The user has pressed the <b>Cancel</b> button and that the caller should cancel 
 </dl>
 </td>
 <td width="60%">
-The user has pressed <b>Switch To</b> and <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set. 
+The user has pressed <b>Switch To</b> and <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set. 
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The user has pressed <b>Switch To</b> and <a href="https://docs.microsoft.com/wi
 </dl>
 </td>
 <td width="60%">
-The user has pressed <b>Switch To</b> and <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set.
+The user has pressed <b>Switch To</b> and <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ The user has pressed <b>Switch To</b> and <a href="https://docs.microsoft.com/wi
 </dl>
 </td>
 <td width="60%">
-The user has pressed <b>Switch To</b> and <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set. 
+The user has pressed <b>Switch To</b> and <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a> was unable to determine how to switch to the blocking application. In this case, the caller should either take measures to attempt to resolve the conflict itself, if possible, or retry the operation. <b>OleUIBusy</b> will only return OLEUI_BZ_SWITCHTOSELECTED if the user has pressed the <b>Switch To</b> button, <i>hTask</i> is <b>NULL</b> and the BZ_NOTRESPONDING flag is set. 
 
 </td>
 </tr>
@@ -351,7 +351,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -362,7 +362,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -373,7 +373,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a> for the localized resources from the library.
+Unable to call <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a> for the localized resources from the library.
 
 </td>
 </tr>
@@ -384,7 +384,7 @@ Unable to call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </dl>
 </td>
 <td width="60%">
-The hTask specified in the <i>hTask</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure is invalid.
+The hTask specified in the <i>hTask</i> member of the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure is invalid.
 
 </td>
 </tr>
@@ -439,5 +439,4 @@ The standard OLE Server <b>Busy</b> dialog box notifies the user that the server
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a>
-
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a>

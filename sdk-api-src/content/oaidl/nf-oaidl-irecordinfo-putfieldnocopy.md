@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Passes ownership of the data to the assigned field by placing the actual data into the field.<b>PutFieldNoCopy</b> is useful for saving resources because it allows you to place your data directly into a record field. <b>PutFieldNoCopy</b> differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a> because it does not copy the data referenced by the variant.
+ Passes ownership of the data to the assigned field by placing the actual data into the field.<b>PutFieldNoCopy</b> is useful for saving resources because it allows you to place your data directly into a record field. <b>PutFieldNoCopy</b> differs from <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a> because it does not copy the data referenced by the variant.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The only legal values for the wFlags parameter is INVOKE_PROPERTYPUT or INVOKE_P
 
 ### -param pvData [in, out]
 
-An instance of the record described by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
+An instance of the record described by <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 ### -param szFieldName [in]
 
@@ -107,5 +107,4 @@ One or more of the arguments is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

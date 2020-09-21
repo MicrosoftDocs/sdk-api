@@ -74,9 +74,9 @@ The number of item IDs contained in the buffer referenced in <i>ppszItemIDs</i>.
 
 ### -param ppCallback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynccallback">ISyncMgrSyncCallback</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynccallback">ISyncMgrSyncCallback</a>**</b>
 
-The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynccallback">ISyncMgrSyncCallback</a> used to report progress and events. This value can be <b>NULL</b> if no callback is needed.
+The address of a pointer to an instance of <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynccallback">ISyncMgrSyncCallback</a> used to report progress and events. This value can be <b>NULL</b> if no callback is needed.
 
 ## -returns
 
@@ -112,4 +112,3 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

@@ -56,13 +56,13 @@ Establishes a new cursor shape (I-beam) in the text host's window.
 
 ### -param hcur [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
 
 Handle to the cursor.
 
 ### -param fText [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, indicates the caller is trying to set the text cursor. See the Remarks section for more information.
 
@@ -74,9 +74,8 @@ This method may be called at any time, whether the control is active or inactive
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_DatabaseKeys</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasekeys">DatabaseKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.
+<a href="/windows/desktop/Msi/error-databasekeys">DatabaseKeys</a> property of the <a href="/windows/desktop/Msi/error-object">Error</a> object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.
 
 ## -parameters
 
@@ -97,9 +97,8 @@ The function succeeded.
 
 The client is responsible for releasing the string collection when it is no longer required.
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error using <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error using <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

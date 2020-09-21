@@ -58,17 +58,16 @@ api_name:
 
 ### -field count
 
-The number of result codes as a number between 0 and <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxDwordCountPerSoHAttribute</a>.
+The number of result codes as a number between 0 and <a href="/windows/desktop/NAP/nap-type-constants">maxDwordCountPerSoHAttribute</a>.
 
 ### -field results
 
-A pointer to either a list of application defined 4-octet HRESULTs that specify whether the client machine is compliant, or a list of <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-error-constants">NAP error constants</a> that specify the cause of <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoH</a> construction or processing errors. The values must be in the byte ordering of the host system.
+A pointer to either a list of application defined 4-octet HRESULTs that specify whether the client machine is compliant, or a list of <a href="/windows/desktop/NAP/nap-error-constants">NAP error constants</a> that specify the cause of <a href="/windows/desktop/api/naptypes/ns-naptypes-soh">SoH</a> construction or processing errors. The values must be in the byte ordering of the host system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

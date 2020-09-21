@@ -57,7 +57,7 @@ The <b>IExtendPropertySheet2::GetWatermarks</b> method gets the watermark bitmap
 ### -param lpIDataObject [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
 ### -param lphWatermark [out]
 
@@ -85,13 +85,13 @@ MMC calls this method only when:
 
 <ol>
 <li>The type parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a> is set to <b>FALSE</b> (for wizard sheet) and that the <i>dwOptions</i> parameter is set to <b>MMC_PSO_NEWWIZARDTYPE</b> (for Wizard 97 style).</li>
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a> is set to <b>FALSE</b> (for wizard sheet) and that the <i>dwOptions</i> parameter is set to <b>MMC_PSO_NEWWIZARDTYPE</b> (for Wizard 97 style).</li>
 <li>The snap-in passes a pointer to its 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface as the first parameter in calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> method.</li>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> or 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface as the first parameter in calls to the 
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> method.</li>
 </ol>
-If the snap-in's implementation of this method returns a failure value (such as <b>E_NOTIMPL</b>), MMC reverts the wizard sheet requested by the snap-in in the call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a> to the non-Wizard 97 style. This is to maintain compatibility with MMC 1.1.
+If the snap-in's implementation of this method returns a failure value (such as <b>E_NOTIMPL</b>), MMC reverts the wizard sheet requested by the snap-in in the call to <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-createpropertysheet">IPropertySheetProvider::CreatePropertySheet</a> to the non-Wizard 97 style. This is to maintain compatibility with MMC 1.1.
 
 To prevent distortion of the image, it is recommended that the watermark and header bitmaps have the following dimensions (in pixels) with <i>bStretch</i> set to <b>FALSE</b>.
 
@@ -112,13 +112,12 @@ To prevent distortion of the image, it is recommended that the watermark and hea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
+<a href="/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-wizard-pages-implementation-details">Adding Wizard Pages: Implementation Details</a>
+<a href="/previous-versions/windows/desktop/mmc/adding-wizard-pages-implementation-details">Adding Wizard Pages: Implementation Details</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>

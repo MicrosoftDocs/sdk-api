@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-Receives DLL-specific version information. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> function.
+Receives DLL-specific version information. It is used with the <a href="/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> function.
 
             
-<div class="alert"><b>Note</b>  In place of this structure, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure.</div><div> </div>
+<div class="alert"><b>Note</b>  In place of this structure, you can use the <a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -103,9 +103,8 @@ The DLL was built for platforms such as Windows 2000, Windows Vista, or Window
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a>
+<a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>
-
+<a href="/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>

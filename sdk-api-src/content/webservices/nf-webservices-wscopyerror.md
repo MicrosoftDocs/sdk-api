@@ -56,11 +56,11 @@ Copies an error object from a specified source  to a specifed destination.
 
 ### -param source [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object to copy.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object to copy.
 
 ### -param destination [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives the copied error object.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives the copied error object.
 
 ## -returns
 
@@ -117,4 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

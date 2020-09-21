@@ -127,7 +127,7 @@ A graph is not synchronized. Records cannot be added until the peer graph is syn
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a> has been called.
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a> has been called.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ The record exceeds the maximum size allowed by a peer graph.
 </dl>
 </td>
 <td width="60%">
-The graph must be initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
+The graph must be initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
 
 </td>
 </tr>
@@ -179,12 +179,12 @@ The graph must be initialized with a call to <a href="https://docs.microsoft.com
 
 ## -remarks
 
-The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure must contain valid values:
+The following members of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure must contain valid values:
 
 <ul>
 <li><b>dwSize</b>.</li>
 <li><b>type</b>.</li>
-<li><b>ftExpiration</b> - Must be later than the current graph time, and must be specified in peer time by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphuniversaltimetopeertime">PeerGraphUniversalTimeToPeerTime</a>.</li>
+<li><b>ftExpiration</b> - Must be later than the current graph time, and must be specified in peer time by using <a href="/windows/desktop/api/p2p/nf-p2p-peergraphuniversaltimetopeertime">PeerGraphUniversalTimeToPeerTime</a>.</li>
 </ul>
 The following members of the <b>PEER_RECORD</b> structure are optional. Set them to <b>NULL</b> if they are not used by your application:
 
@@ -197,7 +197,7 @@ The following members of the <b>PEER_RECORD</b> structure are optional. Set them
 If any of the following members are <b>NULL</b>, the Peer Graphing API performs the specified default behavior:
 
 <ul>
-<li><b>pwzCreatorId</b> - Uses the peer ID passed to either <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.</li>
+<li><b>pwzCreatorId</b> - Uses the peer ID passed to either <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.</li>
 <li><b>pwzModifiedById</b> - Uses the  <b>pwzCreatorId</b>.</li>
 </ul>
 The following members cannot be specified; any value used is overwritten by the Peer Graphing infrastructure:
@@ -210,17 +210,16 @@ The following members cannot be specified; any value used is overwritten by the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphdelete">PeerGraphDelete</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphdelete">PeerGraphDelete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphUpdate</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphUpdate</a>

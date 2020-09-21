@@ -56,7 +56,7 @@ Separates the part of a network resource accessed through the WNet API from the 
 
 ### -param lpNetResource [in]
 
-Specifies the network resource for which information is required. The <b>lpRemoteName</b> field specifies the remote name of the resource. The calling program should fill in the values for the <b>lpProvider</b> and <b>dwType</b> fields if it knows these values; otherwise, it should set these fields to <b>NULL</b>. All other fields in the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> are ignored and are not initialized. 
+Specifies the network resource for which information is required. The <b>lpRemoteName</b> field specifies the remote name of the resource. The calling program should fill in the values for the <b>lpProvider</b> and <b>dwType</b> fields if it knows these values; otherwise, it should set these fields to <b>NULL</b>. All other fields in the <a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> are ignored and are not initialized. 
 
 
 
@@ -68,13 +68,13 @@ For example, if the resource is "\\server\share\dir1\dir2", where "\\server\shar
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the result. The first field in the result is a single 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure, and associated strings, representing that portion of the input resource that is accessed through the WNet API, rather than system APIs specific to the resource type. For example, if the input remote resource name was "\\server\share\dir1\dir2", then the output <b>NETRESOURCE</b> contains information about the resource "\\server\share". The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned containing values, all other fields being set to <b>NULL</b>. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure, and associated strings, representing that portion of the input resource that is accessed through the WNet API, rather than system APIs specific to the resource type. For example, if the input remote resource name was "\\server\share\dir1\dir2", then the output <b>NETRESOURCE</b> contains information about the resource "\\server\share". The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned containing values, all other fields being set to <b>NULL</b>. 
 
 
 
 
 The <b>lpRemoteName</b> field should be returned in the same format as that returned from an enumeration by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function, so that the caller can perform a case-sensitive string comparison. This is necessary to determine whether the output network resource is the same as one returned by <b>NPEnumResource</b>.
+<a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function, so that the caller can perform a case-sensitive string comparison. This is necessary to determine whether the output network resource is the same as one returned by <b>NPEnumResource</b>.
 
 The provider should not do purely syntactic checking to determine whether it owns the resource. This could produce incorrect results when two networks are running on the client and the provider doing syntactic checking is called first.
 
@@ -166,8 +166,7 @@ The caller has been authenticated to the network but does not have sufficient pe
 ## -remarks
 
 The enumeration tree can be navigated down from a named network resource by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> and its related functions. To navigate up from a named resource, the <b>NPGetResourceInformation</b> function can be called to obtain information about the resource, followed by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetresourceparent">NPGetResourceParent</a> function to obtain the name and type of the parent resource.
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> and its related functions. To navigate up from a named resource, the <b>NPGetResourceInformation</b> function can be called to obtain information about the resource, followed by the 
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetresourceparent">NPGetResourceParent</a> function to obtain the name and type of the parent resource.
 
 <b>NPGetResourceInformation</b> determines whether the specified provider is the right provider to respond to a request for a specified network resource. It then returns information about the resource's type.
-

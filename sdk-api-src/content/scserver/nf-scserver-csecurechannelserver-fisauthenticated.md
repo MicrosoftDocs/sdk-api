@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>fIsAuthenticated</b> method verifies that a <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Secure Authenticated Channel</a> has been successfully established.
+The <b>fIsAuthenticated</b> method verifies that a <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Secure Authenticated Channel</a> has been successfully established.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -75,7 +75,7 @@ Applications do not need to call the <b>fIsAuthenticated</b> method, but service
 
 #### Examples
 
-The following code shows a service provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getversion">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
+The following code shows a service provider's implementation of <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getversion">IMDSPDevice::GetVersion</a>. This method verifies that a secure authenticated channel has been established before returning the version.
 
 
 ```cpp
@@ -104,5 +104,4 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
-
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>

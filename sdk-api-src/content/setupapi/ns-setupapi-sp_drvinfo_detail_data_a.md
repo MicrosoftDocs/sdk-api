@@ -71,7 +71,7 @@ Date of the INF file for this driver.
 
 The offset, in characters, from the beginning of the <b>HardwareID</b> buffer where the CompatIDs list begins.
 
-This value can also be used to determine whether there is a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> that precedes the CompatIDs list. If this value is greater than 1, the first string in the <b>HardwareID</b> buffer is the hardware ID. If this value is less than or equal to 1, there is no hardware ID.
+This value can also be used to determine whether there is a <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> that precedes the CompatIDs list. If this value is greater than 1, the first string in the <b>HardwareID</b> buffer is the hardware ID. If this value is less than or equal to 1, there is no hardware ID.
 
 ### -field CompatIDsLength
 
@@ -87,7 +87,7 @@ Reserved. For internal use only.
 
 ### -field SectionName
 
-A NULL-terminated string that contains the name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> for this driver. This must be the basic <i>DDInstall</i> section name, such as <b>InstallSec</b>, without any OS/architecture-specific extensions.
+A NULL-terminated string that contains the name of the <a href="/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> for this driver. This must be the basic <i>DDInstall</i> section name, such as <b>InstallSec</b>, without any OS/architecture-specific extensions.
 
 ### -field InfFileName
 
@@ -99,7 +99,7 @@ A NULL-terminated string that describes the driver.
 
 ### -field HardwareID
 
-A buffer that contains a list of IDs (a single <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> followed by a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible IDs</a>). These IDs correspond to the hardware ID and compatible IDs in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a>. 
+A buffer that contains a list of IDs (a single <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> followed by a list of <a href="/windows-hardware/drivers/install/compatible-ids">compatible IDs</a>). These IDs correspond to the hardware ID and compatible IDs in the <a href="/windows-hardware/drivers/install/inf-models-section">INF Models section</a>. 
 
 Each ID in the list is a NULL-terminated string.
 
@@ -109,7 +109,7 @@ If the CompatIDs list is not empty (that is, if <b>CompatIDsLength</b> is not ze
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible IDs</a> for a device are specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a> in the following order:
+The <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="/windows-hardware/drivers/install/compatible-ids">compatible IDs</a> for a device are specified in the <a href="/windows-hardware/drivers/install/inf-models-section">INF Models section</a> in the following order:
 
 <ul>
 <li>
@@ -123,7 +123,7 @@ The remaining IDs (if specified) are compatible IDs for the device.
 </ul>
 When you parse the <b>HardwareID</b> buffer, you must ensure that you correctly determine the end of the data in the buffer. Be aware that the buffer is not necessarily double NULL terminated.
 
-For example, depending on how the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible IDs</a> are specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a>, the <b>HardwareID</b> buffer can resemble any of the following:
+For example, depending on how the list of <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="/windows-hardware/drivers/install/compatible-ids">compatible IDs</a> are specified in the <a href="/windows-hardware/drivers/install/inf-models-section">INF Models section</a>, the <b>HardwareID</b> buffer can resemble any of the following:
 
 <ul>
 <li>
@@ -143,7 +143,7 @@ For example, depending on how the list of <a href="https://docs.microsoft.com/wi
 
 </li>
 </ul>
-An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible IDs</a>, as shown in the following code example:
+An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="/windows-hardware/drivers/install/compatible-ids">compatible IDs</a>, as shown in the following code example:
 
 
 ```
@@ -171,21 +171,20 @@ if (CompatIDsLength > 0)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">Compatible IDs</a>
+<a href="/windows-hardware/drivers/install/compatible-ids">Compatible IDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">Hardware ID</a>
+<a href="/windows-hardware/drivers/install/hardware-ids">Hardware ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
+<a href="/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models Section</a>
+<a href="/windows-hardware/drivers/install/inf-models-section">INF Models Section</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a>

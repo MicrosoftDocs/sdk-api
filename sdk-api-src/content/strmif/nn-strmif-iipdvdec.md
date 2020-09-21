@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IIPDVDec</code> interface provides methods for setting and retrieving properties on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter.
+The <code>IIPDVDec</code> interface provides methods for setting and retrieving properties on the <a href="/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIPDVDec</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIPDVDec</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIPDVDec</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIPDVDec</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IIPDVDec</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iipdvdec-get_ipdisplay">get_IPDisplay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iipdvdec-get_ipdisplay">get_IPDisplay</a>
 </td>
 <td align="left" width="63%">
 Gets the decoding resolution.
@@ -79,7 +79,7 @@ Gets the decoding resolution.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iipdvdec-put_ipdisplay">put_IPDisplay</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iipdvdec-put_ipdisplay">put_IPDisplay</a>
 </td>
 <td align="left" width="63%">
 Sets the decoding resolution.
@@ -87,4 +87,3 @@ Sets the decoding resolution.
 </td>
 </tr>
 </table>
-

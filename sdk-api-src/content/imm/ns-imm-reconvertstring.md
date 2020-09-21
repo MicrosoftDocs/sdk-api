@@ -94,25 +94,24 @@ Offset of the target string.
 
 The <b>dwCompStrOffset</b> and <b>dwTargetOffset</b> members are the relative positions in <b>dwStrOffset</b>. For a Unicode IME, <b>dwStrLen</b>, <b>dwCompStrLen</b>, and <b>dwTargetStrLen</b> are TCHAR values, that is, character counts. The members <b>dwStrOffset</b>, <b>dwCompStrOffset</b>, and <b>dwTargetStrOffset</b> specify byte counts.
 
-If an application starts the reconversion process by calling <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> with SCS_SETRECONVERTSTRING and SCS_QUERYRECONVERTSTRING, the application must allocate the necessary memory for the <b>RECONVERTSTRING</b> structure as well as the composition string buffer. IME should not use this memory later. If IME starts the process, IME should allocate necessary memory for the structure and the composition string buffer.
+If an application starts the reconversion process by calling <a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> with SCS_SETRECONVERTSTRING and SCS_QUERYRECONVERTSTRING, the application must allocate the necessary memory for the <b>RECONVERTSTRING</b> structure as well as the composition string buffer. IME should not use this memory later. If IME starts the process, IME should allocate necessary memory for the structure and the composition string buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imr-confirmreconvertstring">IMR_CONFIRMRECONVERTSTRING</a>
+<a href="/windows/desktop/Intl/imr-confirmreconvertstring">IMR_CONFIRMRECONVERTSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imr-reconvertstring">IMR_RECONVERTSTRING</a>
+<a href="/windows/desktop/Intl/imr-reconvertstring">IMR_RECONVERTSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
+<a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>

@@ -52,10 +52,10 @@ api_name:
 
 The 
 <b>Close</b> method closes this phone device. The phone device remains closed until the application calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method. For more information, see the following Remarks section.
 
 This method is analogous to the TAPI 2.<i>x</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
 
 ## -parameters
 
@@ -68,12 +68,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 While a phone is closed, the application does not receive events pertaining to the phone.
 
 A phone must be open with owner privilege for the application to set the state of the phone. Querying the state of the phone can typically be done even if the phone is not open; for more details, see the individual methods of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface.
 
 After the phone device has been successfully closed, any 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a> interface pointer obtained for this phone object is no longer valid.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a> interface pointer obtained for this phone object is no longer valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>

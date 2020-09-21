@@ -65,7 +65,7 @@ The default tab width.
 Type: <b>HRESULT</b>
 
 If the method succeeds, it returns <b>S_OK</b>. If 
-						<i>pValue</i> is <b>NULL</b>, the method fails and it returns <b>E_INVALIDARG</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<i>pValue</i> is <b>NULL</b>, the method fails and it returns <b>E_INVALIDARG</b>. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
@@ -73,11 +73,11 @@ The default tab width is used whenever no tab exists beyond the current display 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -85,23 +85,23 @@ The default tab width is used whenever no tab exists beyond the current display 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -109,9 +109,8 @@ The default tab width is used whenever no tab exists beyond the current display 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

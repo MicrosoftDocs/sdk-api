@@ -56,17 +56,16 @@ Get a shader-variable description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>*</b>
 
-A pointer to a shader-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>).
+A pointer to a shader-variable description (see <a href="/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>).
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionvariable">ID3D10ShaderReflectionVariable Interface</a>
-
+<a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionvariable">ID3D10ShaderReflectionVariable Interface</a>

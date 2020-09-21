@@ -68,13 +68,12 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-put_volume">IBasicAudio::put_Volume</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-put_volume">IBasicAudio::put_Volume</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">IMSVidAudioRenderer::get_Volume</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">IMSVidAudioRenderer::get_Volume</a>

@@ -85,9 +85,8 @@ Method completed successfully.
 
 This method can be used to terminate the transfer of an incoming attachment while the transfer is in progress. 
 
-Usually, <b>Close</b> must be called before calling <b>Release()</b> on the <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>  interface. The only time a <b>Close</b> call is not required is when <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdinboundattachment-read">Read</a> returns S_FALSE, which indicates that the end of the attachment stream has been reached. In that case, simply call  <b>Release()</b> on the <b>IWSDInboundAttachment</b>  interface.
+Usually, <b>Close</b> must be called before calling <b>Release()</b> on the <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>  interface. The only time a <b>Close</b> call is not required is when <a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdinboundattachment-read">Read</a> returns S_FALSE, which indicates that the end of the attachment stream has been reached. In that case, simply call  <b>Release()</b> on the <b>IWSDInboundAttachment</b>  interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
-
+<a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>

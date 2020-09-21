@@ -53,7 +53,7 @@ A generic container for a DirectML tensor description.
 
 ### -field Type
 
-Type: [**DML_TENSOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_type)
+Type: [**DML_TENSOR_TYPE**](./ne-directml-dml_tensor_type.md)
 
 The type of the tensor description. See <a href="/windows/win32/api/directml/ne-directml-dml_tensor_type">DML_TENSOR_TYPE</a> for the available types.
 
@@ -62,4 +62,3 @@ The type of the tensor description. See <a href="/windows/win32/api/directml/ne-
 Type: <b>const void*</b>
 
 A pointer to the tensor description. The type of the pointed-to struct must match the value specified in <i>Type</i>.
-

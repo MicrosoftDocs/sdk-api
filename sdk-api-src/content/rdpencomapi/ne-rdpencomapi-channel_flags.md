@@ -66,5 +66,4 @@ Data sent on the channel is not compressed. Use this option if the data is alrea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannelmanager-createvirtualchannel">IRDPSRAPIVirtualChannelManager::CreateVirtualChannel</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannelmanager-createvirtualchannel">IRDPSRAPIVirtualChannelManager::CreateVirtualChannel</a>

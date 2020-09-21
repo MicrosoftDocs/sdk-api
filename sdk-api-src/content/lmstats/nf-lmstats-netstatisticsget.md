@@ -81,7 +81,7 @@ Specifies the information level of the data. This parameter can be the following
 <td width="60%">
 Return statistics about a workstation or a server. The <i>bufptr</i> parameter points to a 
 <a href="/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a> structure.
+<a href="/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a> structure.
 
 </td>
 </tr>
@@ -94,16 +94,16 @@ This parameter must be zero.
 ### -param Buffer [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -112,21 +112,21 @@ No special group membership is required to obtain workstation statistics. Only m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a>
+<a href="/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a>
 
 
 
@@ -134,6 +134,5 @@ No special group membership is required to obtain workstation statistics. Only m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/statistics-functions">Statistics
+<a href="/windows/desktop/NetShare/statistics-functions">Statistics
 		  Functions</a>
-

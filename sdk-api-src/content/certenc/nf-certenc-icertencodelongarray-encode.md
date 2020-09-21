@@ -53,41 +53,40 @@ api_name:
 
 The <b>Encode</b> method returns an ASN.1-encoded string of the <b>LONG</b> array stored in this object.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeLongArray</b> object.
+Use the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">Decode</a> method to decode the encoded string into an <b>CertEncodeLongArray</b> object.
 
 Before calling the <b>Encode</b> method, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">Reset</a> method to size the array and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">SetValue</a> method to set each <b>LONG</b> value in the array.
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">Reset</a> method to size the array and the 
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">SetValue</a> method to set each <b>LONG</b> value in the array.
 
 ## -parameters
 
 ### -param pstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded <b>LONG</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded <b>LONG</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is the ASN.1-encoded <b>LONG</b> array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">ICertEncodeLongArray::Decode</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">ICertEncodeLongArray::Decode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>

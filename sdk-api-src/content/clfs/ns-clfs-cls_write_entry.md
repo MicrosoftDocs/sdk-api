@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains  a user buffer, which is to become part of a log record, and its length.  The <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a> function uses <b>CLFS_WRITE_ENTRY</b> structures  in  the  routine that appends log records to logs. This routine requires the client to specify a set of structures.  <b>ReserveAndAppendLog</b> gathers these structures and  formats them into a log record in a marshaling buffer,  which is eventually flushed to the log.
+Contains  a user buffer, which is to become part of a log record, and its length.  The <a href="/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a> function uses <b>CLFS_WRITE_ENTRY</b> structures  in  the  routine that appends log records to logs. This routine requires the client to specify a set of structures.  <b>ReserveAndAppendLog</b> gathers these structures and  formats them into a log record in a marshaling buffer,  which is eventually flushed to the log.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The length of the log record data buffer, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>

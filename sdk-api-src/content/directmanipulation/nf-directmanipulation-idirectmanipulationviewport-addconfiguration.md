@@ -56,7 +56,7 @@ Adds an interaction configuration for the viewport.
 
 ### -param configuration [in]
 
-One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration">DIRECTMANIPULATION_CONFIGURATION</a> that specifies the interaction configuration for the viewport.
+One of the values from <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration">DIRECTMANIPULATION_CONFIGURATION</a> that specifies the interaction configuration for the viewport.
 
 ## -returns
 
@@ -66,23 +66,22 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 An interaction configuration specifies how the manipulation engine responds to input and which manipulations are supported. Any number of possible configurations can be added to the viewport using <b>AddConfiguration</b> before processing input. 
 
-Configurations can be switched by the application at runtime using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>.  
+Configurations can be switched by the application at runtime using <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>.  
 
-When a configuration is no longer required (and is not currently active), it can be removed using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration">RemoveConfiguration</a>. 
+When a configuration is no longer required (and is not currently active), it can be removed using <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration">RemoveConfiguration</a>. 
 
-If a configuration has not been added using <b>AddConfiguration</b>, it can be automatically added and then activated by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>. 
+If a configuration has not been added using <b>AddConfiguration</b>, it can be automatically added and then activated by calling <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>. 
 
 <div class="alert"><b>Note</b>  If input processing is occurring, this call will fail.</div>
 <div> </div>
-This method fails if a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior has been specified. 
+This method fails if a <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior has been specified. 
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior object cannot be attached after successfully calling this method.
+A <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior object cannot be attached after successfully calling this method.
 
-You cannot add another <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior after an existing one has already been added.
+You cannot add another <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-guids">drag and drop</a> behavior after an existing one has already been added.
 
-This method is designed to allow an application to switch pre-added configurations, as a configuration cannot be changed while a manipulation is occurring. Under most circumstances it is better to update the configuration using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>.
+This method is designed to allow an application to switch pre-added configurations, as a configuration cannot be changed while a manipulation is occurring. Under most circumstances it is better to update the configuration using <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">ActivateConfiguration</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>

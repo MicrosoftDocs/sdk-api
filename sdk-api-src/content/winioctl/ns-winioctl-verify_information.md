@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains information used to verify a disk extent. It is the output buffer for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a> control code.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The length of the disk extent, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a>

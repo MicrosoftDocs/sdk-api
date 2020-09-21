@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> object for this entity as requested by name.
+Retrieves the <a href="/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> object for this entity as requested by name.
 
 ## -parameters
 
@@ -62,13 +62,12 @@ The name of the relationship to find.
 
 ### -param pRelationship [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a>**</b>
 
-Receives the address of a pointer to the requested <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
+Receives the address of a pointer to the requested <a href="/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, S_FALSE if there is no matching relationship, or an error value otherwise.
-

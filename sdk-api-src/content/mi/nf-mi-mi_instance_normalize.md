@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Parses an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceexft">MI_Instance_ExFT</a> structure and 
-    then retrieves  the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function 
+Parses an <a href="/windows/desktop/api/mi/ns-mi-mi_instanceexft">MI_Instance_ExFT</a> structure and 
+    then retrieves  the <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function 
     table.
 
 ## -parameters
@@ -62,18 +62,17 @@ A pointer to the object that receives the function table.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-interfaces">MI Interfaces</a>
+<a href="/previous-versions/windows/desktop/wmi_v2/mi-interfaces">MI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a>

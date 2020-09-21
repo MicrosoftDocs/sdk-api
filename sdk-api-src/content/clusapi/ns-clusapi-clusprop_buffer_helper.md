@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-Used to build or parse a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> or, a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a>.
+Used to build or parse a <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> or, a 
+    <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a>.
 
 ## -struct-fields
 
@@ -79,124 +79,124 @@ Pointer to a buffer containing a <b>NULL</b>-terminated Unicode string value.
 
 ### -field pList
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_list">CLUSPROP_LIST</a> structure describing the 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_list">CLUSPROP_LIST</a> structure describing the 
        beginning of a property list.
 
 ### -field pSyntax
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a> structure describing 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a> structure describing 
        the format and type of a value.
 
 ### -field pName
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a> 
        structure containing a property name value.
 
 ### -field pValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing the 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing the 
        format, type, and length of a data value.
 
 ### -field pBinaryValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure containing a 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> structure containing a 
        binary data value.
 
 ### -field pWordValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_word">CLUSPROP_WORD</a> structure containing a 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_word">CLUSPROP_WORD</a> structure containing a 
        numeric value.
 
 ### -field pDwordValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure containing a 
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a> structure containing a 
        numeric value.
 
 ### -field pLongValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_long">CLUSPROP_LONG</a> structure containing a 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_long">CLUSPROP_LONG</a> structure containing a 
        signed long value.
 
 ### -field pULargeIntegerValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ularge_integer">CLUSPROP_ULARGE_INTEGER</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ularge_integer">CLUSPROP_ULARGE_INTEGER</a> 
        structure containing an unsigned large integer value.
 
 ### -field pLargeIntegerValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_large_integer">CLUSPROP_LARGE_INTEGER</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_large_integer">CLUSPROP_LARGE_INTEGER</a> 
        structure containing a large integer value.
 
 ### -field pStringValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure containing a 
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure containing a 
        <b>NULL</b>-terminated Unicode string value.
 
 ### -field pMultiSzValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_sz">CLUSPROP_MULTI_SZ</a> structure 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_sz">CLUSPROP_MULTI_SZ</a> structure 
        containing multiple null-terminated Unicode string values.
 
 ### -field pSecurityDescriptor
 
 Pointer to a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_security_descriptor">CLUSPROP_SECURITY_DESCRIPTOR</a> structure 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_security_descriptor">CLUSPROP_SECURITY_DESCRIPTOR</a> structure 
        containing a security descriptor.
 
 ### -field pResourceClassValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class">CLUSPROP_RESOURCE_CLASS</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class">CLUSPROP_RESOURCE_CLASS</a> 
        structure containing a resource class value.
 
 ### -field pResourceClassInfoValue
 
 Pointer to a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a> structure 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a> structure 
        containing a resource class information value.
 
 ### -field pDiskSignatureValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368374(v=vs.85)">CLUSPROP_DISK_SIGNATURE</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/aa368374(v=vs.85)">CLUSPROP_DISK_SIGNATURE</a> 
        structure containing a disk signature value.
 
 ### -field pScsiAddressValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a> 
-       structure containing an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a> 
+       structure containing an <a href="/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> 
        address value.
 
 ### -field pDiskNumberValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_dword">CLUSPROP_DISK_NUMBER</a> structure 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_dword">CLUSPROP_DISK_NUMBER</a> structure 
        containing a disk number value.
 
 ### -field pPartitionInfoValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> 
        structure containing a partition information value.
 
 ### -field pRequiredDependencyValue
 
 Pointer to a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_required_dependency">CLUSPROP_REQUIRED_DEPENDENCY</a> structure 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_required_dependency">CLUSPROP_REQUIRED_DEPENDENCY</a> structure 
        containing a resource dependency value.
 
 ### -field pPartitionInfoValueEx
 
 Pointer to a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a> structure 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a> structure 
        containing a partition information value.
 
 ### -field pPartitionInfoValueEx2
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex2">CLUSPROP_PARTITION_INFO_EX2</a> structure 
+A pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex2">CLUSPROP_PARTITION_INFO_EX2</a> structure 
        that contains a partition information value.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This member is not available before Windows Server 2016.
 
 ### -field pFileTimeValue
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_filetime">CLUSPROP_FILETIME</a> structure 
+Pointer to a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_filetime">CLUSPROP_FILETIME</a> structure 
        containing a date/time value.
 
 ## -remarks
@@ -207,12 +207,12 @@ The <b>CLUSPROP_BUFFER_HELPER</b> structure is useful
      offsets through the entries of a property list or value list, retrieving or setting values without having to cast 
      to the appropriate data type.
 
-An alternate structure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>, 
+An alternate structure, <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>, 
      can also be used to work with multiple properties.
 
 Use caution when referencing large integer values in <b>DWORD</b>-aligned structures 
      such as value lists, property lists, and 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter blocks</a>. For Windows Server for Itanium-based 
+     <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter blocks</a>. For Windows Server for Itanium-based 
      systems, a naturally-aligned large integer value always begins on an address ending in 0 or 8h. 
      <b>DWORD</b> alignment can cause large values to begin on unaligned boundaries (addresses 
      ending in 4h or C), which will cause an alignment fault when the data is read or written. You can avoid alignment 
@@ -223,10 +223,10 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 #### Examples
 
 In addition to the following example, see 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-property-lists">Creating Property Lists</a>, 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parsing-property-lists">Parsing Property Lists</a>, 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-value-lists">Creating Value Lists</a>, and 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parsing-a-value-list">Parsing a Value List</a>.
+      <a href="/previous-versions/windows/desktop/mscs/creating-property-lists">Creating Property Lists</a>, 
+      <a href="/previous-versions/windows/desktop/mscs/parsing-property-lists">Parsing Property Lists</a>, 
+      <a href="/previous-versions/windows/desktop/mscs/creating-value-lists">Creating Value Lists</a>, and 
+      <a href="/previous-versions/windows/desktop/mscs/parsing-a-value-list">Parsing a Value List</a>.
 
 
 ```cpp
@@ -358,65 +358,64 @@ void ClusDocEx_UsingCBH()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_dword">CLUSPROP_DISK_NUMBER</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_dword">CLUSPROP_DISK_NUMBER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368374(v=vs.85)">CLUSPROP_DISK_SIGNATURE</a>
+<a href="/previous-versions/windows/desktop/legacy/aa368374(v=vs.85)">CLUSPROP_DISK_SIGNATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a>
+<a href="/previous-versions/windows/desktop/legacy/aa368375(v=vs.85)">CLUSPROP_DWORD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_list">CLUSPROP_LIST</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_list">CLUSPROP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_sz">CLUSPROP_MULTI_SZ</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_sz">CLUSPROP_MULTI_SZ</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a>
+<a href="/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_required_dependency">CLUSPROP_REQUIRED_DEPENDENCY</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_required_dependency">CLUSPROP_REQUIRED_DEPENDENCY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class">CLUSPROP_RESOURCE_CLASS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class">CLUSPROP_RESOURCE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>
+<a href="/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ularge_integer">CLUSPROP_ULARGE_INTEGER</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ularge_integer">CLUSPROP_ULARGE_INTEGER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>

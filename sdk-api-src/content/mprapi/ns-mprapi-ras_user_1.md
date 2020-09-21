@@ -57,7 +57,7 @@ api_name:
 The 
 <b>RAS_USER_1</b> structure contains information for a particular Remote Access Service user. The 
 <b>RAS_USER_1</b> structure is similar to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> structure, except that 
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> structure, except that 
 <b>RAS_USER_1</b> supports an additional member, <b>bfPrivilege2</b>.
 
 ## -struct-fields
@@ -103,7 +103,7 @@ The RAS server will not call back the user to establish a connection.
 </td>
 <td width="60%">
 When the user calls, the RAS server hangs up and calls a preset call-back phone number stored in the user account database. The <b>wszPhoneNumber</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-user-0-str">RAS_USER_0</a> structure contains the user's call-back phone number.
+<a href="/windows/desktop/RRAS/ras-user-0-str">RAS_USER_0</a> structure contains the user's call-back phone number.
 
 </td>
 </tr>
@@ -160,22 +160,21 @@ Remote access policies determine whether the user is allowed dial-in access.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusergetinfo">MprAdminUserGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminusergetinfo">MprAdminUserGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS
 		  Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

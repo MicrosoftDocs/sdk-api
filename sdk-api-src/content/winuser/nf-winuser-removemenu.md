@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu.
+Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu.
 
 ## -parameters
 
@@ -111,11 +111,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
+The application must call the <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
 ## -see-also
 
@@ -123,25 +123,24 @@ The application must call the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
+The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ Number of elements in the <b>Params</b> array.
 
 ### -field Params
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures.
+Array of <a href="/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a>
-
+<a href="/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a>

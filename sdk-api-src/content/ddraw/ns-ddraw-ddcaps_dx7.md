@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
+The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
 
 
 
@@ -251,7 +251,7 @@ Supports the use of z-buffers with bitblt operations.
 
 #### DDCAPS_ZOVERLAYS
 
-Supports the use of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder">IDirectDrawSurface7::UpdateOverlayZOrder</a> method as a z-value for overlays to control their layering.
+Supports the use of the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder">IDirectDrawSurface7::UpdateOverlayZOrder</a> method as a z-value for overlays to control their layering.
 
 ### -field dwCaps2
 
@@ -285,7 +285,7 @@ The overlay hardware can display each field of an interlaced video stream indivi
 
 #### DDCAPS2_CANCALIBRATEGAMMA
 
-The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the DDSGR_CALIBRATE flag when calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> method. Calibrating gamma ramps incurs some processing overhead and should not be used frequently.
+The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the DDSGR_CALIBRATE flag when calling the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> method. Calibrating gamma ramps incurs some processing overhead and should not be used frequently.
 
 
 
@@ -297,7 +297,7 @@ Sixteen-bit RGBZ values can be converted into 16-bit RGB values. (The system doe
 
 #### DDCAPS2_CANFLIPODDEVEN
 
-The driver is capable of performing odd and even flip operations, as specified by the DDFLIP_ODD and DDFLIP_EVEN flags that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a> method.
+The driver is capable of performing odd and even flip operations, as specified by the DDFLIP_ODD and DDFLIP_EVEN flags that are used with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a> method.
 
 
 
@@ -339,20 +339,20 @@ The driver supports blitting any FOURCC surface to another surface of the same F
 
 #### DDCAPS2_FLIPINTERVAL
 
-The driver responds to the DDFLIP_INTERVAL* flags. (For more information about these flags, see <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>). 
+The driver responds to the DDFLIP_INTERVAL* flags. (For more information about these flags, see <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>). 
 
 
 
 
 #### DDCAPS2_FLIPNOVSYNC
 
-The driver responds to the DDFLIP_NOVSYNC flag (For more information about this flag, see <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>).
+The driver responds to the DDFLIP_NOVSYNC flag (For more information about this flag, see <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>).
 
 
 
 #### DDCAPS2_NO2DDURING3DSCENE
 
-Two-dimensional operations such as <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">BeginScene</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">EndScene</a> methods.
+Two-dimensional operations such as <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> and <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">BeginScene</a> and <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">EndScene</a> methods.
 
 
 
@@ -382,7 +382,7 @@ Supports dynamic gamma ramps for the primary surface.
 
 #### DDCAPS2_STEREO
 
-New for DirectX 7.0. Turns on the <b>dwSVCaps</b> bit to support stereo mode. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
+New for DirectX 7.0. Turns on the <b>dwSVCaps</b> bit to support stereo mode. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
 
 
 
@@ -648,7 +648,7 @@ Uses arithmetic operations, rather than pixel-doubling techniques, to stretch an
 
 #### DDFXCAPS_OVERLAYFILTER
 
-Supports surface-reconstruction filtering for warped overlay sprites. Filtering is not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
+Supports surface-reconstruction filtering for warped overlay sprites. Filtering is not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
 
 
 
@@ -714,7 +714,7 @@ Supports integer stretching (×1, ×2, and so on) of a surface along the y-axis 
 
 #### DDFXCAPS_OVERLAYTRANSFORM
 
-Supports geometric transformations (or warps) for overlay sprites. Transformations are not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
+Supports geometric transformations (or warps) for overlay sprites. Transformations are not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
 
 ### -field dwFXAlphaCaps
 
@@ -818,7 +818,7 @@ Specifies an index to an 8-bit color index. This field is valid only when used w
 
 #### DDPCAPS_ALPHA
 
-Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
+Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
 
 
 
@@ -858,7 +858,7 @@ Reserved flags.
 
 #### DDSVCAPS_STEREOSEQUENTIAL
 
-New for DirectX 7.0. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
+New for DirectX 7.0. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
 
 ### -field dwAlphaBltConstBitDepths
 
@@ -890,11 +890,11 @@ DDBD_8, DDBD_16, DDBD_24, or DDBD_32. (Indicate 8, 16, 24, or 32 bits per pixel.
 
 ### -field dwVidMemTotal
 
-Total amount of display memory on the device, in bytes, minus memory reserved for the primary surface and any private data structures reserved by the driver. (This value is the same as the total video memory reported by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method.)
+Total amount of display memory on the device, in bytes, minus memory reserved for the primary surface and any private data structures reserved by the driver. (This value is the same as the total video memory reported by the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method.)
 
 ### -field dwVidMemFree
 
-Free display memory. This value equals the value in <b>dwVidMemTotal</b>, minus any memory currently allocated by the application for surfaces. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method, which reports the memory available for a particular type of surface (such as a texture), this value reflects the memory available for any type of surface.
+Free display memory. This value equals the value in <b>dwVidMemTotal</b>, minus any memory currently allocated by the application for surfaces. Unlike the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method, which reports the memory available for a particular type of surface (such as a texture), this value reflects the memory available for any type of surface.
 
 ### -field dwMaxVisibleOverlays
 
@@ -934,7 +934,7 @@ Raster operations supported.
 
 ### -field ddsOldCaps
 
-Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure).
+Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure).
 
 ### -field dwMinOverlayStretch
 
@@ -1054,7 +1054,7 @@ Raster operations supported for bitblts from nonlocal to local video memory.
 
 ### -field ddsCaps
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that contains general surface capabilities.
+A <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that contains general surface capabilities.
 
 ## -remarks
 

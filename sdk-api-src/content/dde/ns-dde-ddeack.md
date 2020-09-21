@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains status flags that a DDE application passes to its partner as part of the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a> message. The flags provide details about the application's response to the messages <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-execute">WM_DDE_EXECUTE</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>, and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>.
+Contains status flags that a DDE application passes to its partner as part of the <a href="/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a> message. The flags provide details about the application's response to the messages <a href="/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>, <a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>, <a href="/windows/desktop/dataxchg/wm-dde-execute">WM_DDE_EXECUTE</a>, <a href="/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>, <a href="/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>, and <a href="/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>.
 
 ## -struct-fields
 
@@ -82,7 +82,7 @@ Indicates whether the application accepted the message from its partner. A nonze
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -94,29 +94,28 @@ Indicates whether the application accepted the message from its partner. A nonze
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a>
+<a href="/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
+<a href="/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
+<a href="/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-execute">WM_DDE_EXECUTE</a>
+<a href="/windows/desktop/dataxchg/wm-dde-execute">WM_DDE_EXECUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
+<a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
+<a href="/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>
-
+<a href="/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>

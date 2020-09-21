@@ -56,7 +56,7 @@ The <b>Notify</b> method is called by the pin for each buffer that is delivered 
 
 ### -param pNSSBuffer3 [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a> interface exposed on the media sample.
+Pointer to the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a> interface exposed on the media sample.
 
 ### -param pPin [in]
 
@@ -76,17 +76,16 @@ No particular return value is specified. The calling pin ignores the <b>HRESULT<
 
 ## -remarks
 
-This method enables an application to examine and act on information in the media buffer before the buffer contents are processed. The application is responsible for knowing the media type on the pin. This information can be obtained by first getting the stream information from the profile and then calling <a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-streamnumfrompin">IConfigAsfWriter2::StreamNumFromPin</a> method to determine which pin is associated with each stream.
+This method enables an application to examine and act on information in the media buffer before the buffer contents are processed. The application is responsible for knowing the media type on the pin. This information can be obtained by first getting the stream information from the profile and then calling <a href="/windows/desktop/wmformat/iconfigasfwriter2-streamnumfrompin">IConfigAsfWriter2::StreamNumFromPin</a> method to determine which pin is associated with each stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
+<a href="/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback Interface</a>
+<a href="/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
-
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>

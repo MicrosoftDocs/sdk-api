@@ -54,15 +54,15 @@ api_name:
 
 ## -description
 
-Contains information for the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification code.
+Contains information for the <a href="/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field iField
 
@@ -75,5 +75,4 @@ The zero-based number of the field that was changed.
 Type: <b>int</b>
 
 The new value of the field specified in the 
-					<b>iField</b> member. While processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field.
-
+					<b>iField</b> member. While processing the <a href="/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field.

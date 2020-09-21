@@ -74,5 +74,4 @@ A serialized property store in the format defined by SERIALIZEDPROPSTORAGE.
 
 ## -remarks
 
- EXP_PROPERTYSTORAGE is used to store information serialized by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> object.  It is named with the tag value EXP_PROPERTYSTORAGE_SIG and can be accessed via <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>, including operations for add, remove, and copy. This block can be used to inspect the Shell link state.
-
+ EXP_PROPERTYSTORAGE is used to store information serialized by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> object.  It is named with the tag value EXP_PROPERTYSTORAGE_SIG and can be accessed via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>, including operations for add, remove, and copy. This block can be used to inspect the Shell link state.

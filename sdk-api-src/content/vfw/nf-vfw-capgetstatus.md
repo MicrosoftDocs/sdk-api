@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capGetStatus</b> macro retrieves the status of the capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a> message.
+The <b>capGetStatus</b> macro retrieves the status of the capture window. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure.
 
 ### -param wSize
 
@@ -68,13 +68,12 @@ Size, in bytes, of the structure referenced by <i>s</i>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capdlgvideoformat">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
+The <a href="/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="/windows/desktop/api/vfw/nf-vfw-capdlgvideoformat">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

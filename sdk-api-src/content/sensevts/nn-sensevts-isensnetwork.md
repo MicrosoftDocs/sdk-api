@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensNetwork</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensNetwork</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensNetwork</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensNetwork</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISensNetwork</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionlost">ConnectionLost</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionlost">ConnectionLost</a>
 </td>
 <td align="left" width="63%">
 Specified connection has been dropped.
@@ -79,7 +79,7 @@ Specified connection has been dropped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ConnectionMade</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ConnectionMade</a>
 </td>
 <td align="left" width="63%">
 Specified connection has been established.
@@ -88,7 +88,7 @@ Specified connection has been established.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo">ConnectionMadeNoQOCInfo</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo">ConnectionMadeNoQOCInfo</a>
 </td>
 <td align="left" width="63%">
 Specified connection has been established with no Quality of Connection information available.
@@ -99,13 +99,12 @@ Specified connection has been established with no Quality of Connection informat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
-
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>

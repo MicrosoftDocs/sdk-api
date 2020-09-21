@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWN</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a> message explicitly.
+Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWN</a> or <a href="/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Zero to use the default UI, or nonzero to use the extended UI.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a>.
-
+For more information, see <a href="/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a>.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the view options returned by the <a href="https://docs.microsoft.com/windows/desktop/shell/shellfolderview-viewoptions">ViewOptions</a> property.
+Specifies the view options returned by the <a href="/windows/desktop/shell/shellfolderview-viewoptions">ViewOptions</a> property.
 
 ## -enum-fields
 
@@ -81,4 +81,3 @@ Specifies the view options returned by the <a href="https://docs.microsoft.com/w
 ### -field SFVVO_DESKTOPHTML
 
 0x0200. The <b>Active Desktop – View as Web Page</b> option is enabled.
-

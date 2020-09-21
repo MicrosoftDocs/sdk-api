@@ -53,7 +53,7 @@ api_name:
 
 Contains information defining the boundaries for and starting place of an enumeration of update 
     sequence number (USN) change journal records for ReFS volumes. It is used as the input buffer for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> control code.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> control code.
 
 ## -struct-fields
 
@@ -61,7 +61,7 @@ Contains information defining the boundaries for and starting place of an enumer
 
 The ordinal position within the files on the current volume at which the enumeration is to begin.
 
-The first call to <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> during an 
+The first call to <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> during an 
        enumeration must have the <b>StartFileReferenceNumber</b> member set to 
        <code>(DWORDLONG)0</code>. Each call to 
        <b>FSCTL_ENUM_USN_DATA</b> retrieves the starting point for 
@@ -99,8 +99,8 @@ Indicates the maximum supported major version for the USN change journal.
 </dl>
 </td>
 <td width="60%">
-The data returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> 
-        control code will contain <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> 
+The data returned from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> 
+        control code will contain <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> 
         structures.
 
 </td>
@@ -112,8 +112,8 @@ The data returned from the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-The data returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> 
-        control code will contain <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structures.
+The data returned from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> 
+        control code will contain <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structures.
 
 </td>
 </tr>
@@ -121,9 +121,8 @@ The data returned from the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

@@ -74,7 +74,7 @@ The number of elements in the command group.
 ### -field dwFlags
 
 Flags. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>.
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>.
 
 ### -field pCmdGroup
 
@@ -83,7 +83,7 @@ An array of CMD_ENTRY structures.
 ### -field pOsVersionCheck
 
 An operating system version check function. This is the function used to determine whether the command can be run on the operating system running on the local and/or remote context before invoking or displaying commands. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
 
 ## -remarks
 
@@ -128,13 +128,12 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
-
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>

@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-The <b>IDigitalLocator</b> interface serves as the base interface for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695081(v=vs.85)">Locator</a> objects that contain tuning information about the tuning space for a digital network. This interface is used only through derived interfaces such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>.
+The <b>IDigitalLocator</b> interface serves as the base interface for <a href="/previous-versions/windows/desktop/legacy/dd695081(v=vs.85)">Locator</a> objects that contain tuning information about the tuning space for a digital network. This interface is used only through derived interfaces such as <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>.
 
 ## -inheritance
 
@@ -58,9 +58,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

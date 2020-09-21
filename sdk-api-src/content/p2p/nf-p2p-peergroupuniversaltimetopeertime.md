@@ -56,15 +56,15 @@ The <b>PeerGroupUniversalTimeToPeerTime</b> function converts a local time value
 
 ### -param hGroup [in]
 
-Handle to the  peer group a peer participates in. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to the  peer group a peer participates in. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param pftUniversalTime [in]
 
-Pointer to the universal time value, represented as a <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure. This parameter is required.
+Pointer to the universal time value, represented as a <a href="/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure. This parameter is required.
 
 ### -param pftPeerTime [out]
 
-Pointer to the returned peer time—Greenwich Mean Time (GMT) value that is represented as a <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure. This parameter is <b>NULL</b> if an error occurs.
+Pointer to the returned peer time—Greenwich Mean Time (GMT) value that is represented as a <a href="/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure. This parameter is <b>NULL</b> if an error occurs.
 
 ## -returns
 
@@ -93,7 +93,7 @@ One of the parameters is not valid.
 </dl>
 </td>
 <td width="60%">
-The peer group is not in a state where peer time can be accurately calculated. For example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> has been called, but synchronization with the peer group database has not completed.
+The peer group is not in a state where peer time can be accurately calculated. For example, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> has been called, but synchronization with the peer group database has not completed.
 
 </td>
 </tr>
@@ -104,14 +104,14 @@ The peer group is not in a state where peer time can be accurately calculated. F
 </dl>
 </td>
 <td width="60%">
-The group must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> before using this function.
+The group must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> before using this function.
 
 </td>
 </tr>
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
@@ -119,9 +119,8 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 <i>Peer time</i> is a common reference time maintained by a peer group, expressed as Coordinated Universal Time (UTC). It is often offset from the universal time value, and is used to correct latency issues.
 
-Peer time can be converted to universal time by calling the converse function <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppeertimetouniversaltime">PeerGroupPeerTimeToUniversalTime</a>.
+Peer time can be converted to universal time by calling the converse function <a href="/windows/desktop/api/p2p/nf-p2p-peergrouppeertimetouniversaltime">PeerGroupPeerTimeToUniversalTime</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppeertimetouniversaltime">PeerGroupPeerTimeToUniversalTime</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergrouppeertimetouniversaltime">PeerGroupPeerTimeToUniversalTime</a>

@@ -52,20 +52,20 @@ api_name:
 
 ## -description
 
-Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-calcsize">PGN_CALCSIZE</a> notification.
+Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="/windows/desktop/Controls/pgn-calcsize">PGN_CALCSIZE</a> notification.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field dwFlag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value that indicates which dimension is being requested. This will be one of the following values: 
 
@@ -109,4 +109,3 @@ Receives the desired width of the scrollable area, in pixels.
 Type: <b>int</b>
 
 Receives the desired height of the scrollable area, in pixels.
-

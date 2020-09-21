@@ -58,7 +58,7 @@ Enables or disables transactions for a specific conversation or for all conversa
 
 Type: <b>DWORD</b>
 
-The application-instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
+The application-instance identifier obtained by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ### -param hConv [in]
 
@@ -112,29 +112,29 @@ A server application can disable the following transactions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
+<a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
+<a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>
+<a href="/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>
 </li>
 </ul>
 A client application can disable the following transactions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advdata">XTYP_ADVDATA</a>
+<a href="/windows/desktop/dataxchg/xtyp-advdata">XTYP_ADVDATA</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a>
+<a href="/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a>
 </li>
 </ul>
 </td>
@@ -163,7 +163,7 @@ If the function fails, the return value is zero.
 If the 
 						<i>wCmd</i> parameter is <b>EC_QUERYWAITING</b>, and the application transaction queue contains one or more unprocessed transactions that are not being processed, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
 
@@ -179,25 +179,24 @@ If <b>DdeEnableCallback</b> is called with <b>EC_QUERYWAITING</b> and the functi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
-

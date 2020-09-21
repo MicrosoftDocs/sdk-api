@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-set-hdcp-srm">OPM_SET_HDCP_SRM</a> command.  This command updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
+Contains parameters for the <a href="/windows/desktop/medfound/opm-set-hdcp-srm">OPM_SET_HDCP_SRM</a> command.  This command updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
 
 ## -struct-fields
 
@@ -62,9 +62,8 @@ Contains the SRM version number in little-endian format. This number is containe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

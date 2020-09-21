@@ -60,21 +60,20 @@ Contains information for the drawing of buttons in a toolbar or rebar.
 
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size of this structure, in bytes.
 
 ### -field clrBtnHighlight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that represents the highlight color of the buttons. Use 
+The <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that represents the highlight color of the buttons. Use 
 					<b>CLR_DEFAULT</b> for the default highlight color.
 
 ### -field clrBtnShadow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that represents the shadow color of the buttons. Use 
+The <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that represents the shadow color of the buttons. Use 
 					<b>CLR_DEFAULT</b> for the default shadow color.
-

@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> object into a FILETIME object.
+Converts a <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> object into a FILETIME object.
        A reference to the FILETIME object is returned by output parameter.
 
 ## -parameters
 
 ### -param dateTime [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure to convert.
+A pointer to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure to convert.
 
 ### -param fileTime [out]
 
@@ -65,7 +65,7 @@ A pointer to the new FILETIME object that contains the converted time.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -102,6 +102,5 @@ The input data was not in the expected format or did not have the expected value
 
 ## -remarks
 
-A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

@@ -139,7 +139,7 @@ If the menu item is not set to the specified highlight state, the return value i
 
 ## -remarks
 
-The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a> function.
+The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a> function.
 
 ## -see-also
 
@@ -147,13 +147,12 @@ The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>H
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
 
 
 
 <b>Reference</b>
-

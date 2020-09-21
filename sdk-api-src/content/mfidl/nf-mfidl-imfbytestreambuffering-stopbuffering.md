@@ -90,9 +90,8 @@ No buffering was in progress.
 
 ## -remarks
 
-If the byte stream is currently buffering data, it stops and sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a> event. If the byte stream is not currently buffering, this method has no effect.
+If the byte stream is currently buffering data, it stops and sends an <a href="/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a> event. If the byte stream is not currently buffering, this method has no effect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>

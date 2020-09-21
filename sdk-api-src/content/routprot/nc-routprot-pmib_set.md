@@ -104,21 +104,20 @@ The size or content of the data is inappropriate for the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

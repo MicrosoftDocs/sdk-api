@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface for head-related transfer function (HRTF) processing.
+Creates an instance of the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface for head-related transfer function (HRTF) processing.
 
 ## -parameters
 
 ### -param init [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
+Pointer to an <a href="/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
 
 ### -param xApo [out]
 
-The new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
+The new instance of the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
 
 ## -returns
 
@@ -105,16 +105,15 @@ Format requirements:
 <li>Input: mono, 48 kHz, 32-bit float PCM.</li>
 <li>Output: stereo, 48 kHz, 32-bit float PCM.</li>
 </ul>
-The source and environment parameters of the HRTF XAPO are controlled through the <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a> interface.
+The source and environment parameters of the HRTF XAPO are controlled through the <a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a> interface.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">Functions</a>
+<a href="/windows/desktop/xaudio2/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

@@ -55,7 +55,7 @@ Provides information about the result of an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFAsyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getobject">GetObject</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Returns an object associated with the asynchronous operation.
@@ -79,7 +79,7 @@ Returns an object associated with the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstate">GetState</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method.
@@ -88,7 +88,7 @@ Returns the state object specified by the caller in the asynchronous <b>Begin</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatenoaddref">GetStateNoAddRef</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatenoaddref">GetStateNoAddRef</a>
 </td>
 <td align="left" width="63%">
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method, without incrementing the object's reference count.
@@ -97,7 +97,7 @@ Returns the state object specified by the caller in the asynchronous <b>Begin</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the status of the asynchronous operation.
@@ -106,7 +106,7 @@ Returns the status of the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the status of the asynchronous operation.
@@ -117,11 +117,11 @@ Sets the status of the asynchronous operation.
 
 ## -remarks
 
-Use this interface to complete an asynchronous operation. You get a pointer to this interface when your callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. To complete the operation, pass the <b>IMFAsyncResult</b> pointer to the <b>End...</b> method that corresponds to the <b>Begin...</b> method that starts the operation. For example, if the asynchronous method is named <b>BeginRead</b>, call the <b>EndRead</b> method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>.
+Use this interface to complete an asynchronous operation. You get a pointer to this interface when your callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. To complete the operation, pass the <b>IMFAsyncResult</b> pointer to the <b>End...</b> method that corresponds to the <b>Begin...</b> method that starts the operation. For example, if the asynchronous method is named <b>BeginRead</b>, call the <b>EndRead</b> method. For more information, see <a href="/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>.
 
-If you are implementing an asynchronous method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> to create an instance of this object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/writing-an-asynchronous-method">Writing an Asynchronous Method</a>.
+If you are implementing an asynchronous method, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> to create an instance of this object. For more information, see <a href="/windows/desktop/medfound/writing-an-asynchronous-method">Writing an Asynchronous Method</a>.
 
-Any custom implementation of this interface must inherit the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-mfasyncresult">MFASYNCRESULT</a> structure.
+Any custom implementation of this interface must inherit the <a href="/windows/desktop/api/mfapi/ns-mfapi-mfasyncresult">MFASYNCRESULT</a> structure.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -132,9 +132,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

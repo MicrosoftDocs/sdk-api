@@ -57,7 +57,7 @@ Gets a value that indicates whether a property is canonical according to the def
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
+A reference to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
 ## -returns
 
@@ -93,4 +93,3 @@ The value is not canonical.
 </td>
 </tr>
 </table>
-

@@ -78,5 +78,4 @@ Optional.  The XML encoded element.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
-
+<a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>

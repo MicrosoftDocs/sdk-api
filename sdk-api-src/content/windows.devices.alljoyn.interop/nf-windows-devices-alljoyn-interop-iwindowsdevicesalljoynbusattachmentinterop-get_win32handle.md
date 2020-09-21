@@ -65,9 +65,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop">IWindowsDevicesAllJoynBusAttachmentInterop</a>
-
+<a href="/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop">IWindowsDevicesAllJoynBusAttachmentInterop</a>

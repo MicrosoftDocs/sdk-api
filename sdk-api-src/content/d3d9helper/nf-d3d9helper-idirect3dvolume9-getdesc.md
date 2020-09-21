@@ -57,9 +57,9 @@ Retrieves a description of the volume.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvolume-desc">D3DVOLUME_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dvolume-desc">D3DVOLUME_DESC</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvolume-desc">D3DVOLUME_DESC</a> structure, describing the volume.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dvolume-desc">D3DVOLUME_DESC</a> structure, describing the volume.
 
 ## -returns
 
@@ -69,5 +69,4 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>

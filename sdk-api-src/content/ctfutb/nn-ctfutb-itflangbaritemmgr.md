@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfLangBarItemMgr</b> interface is implemented by the language bar and used by a text service to manage items in the language bar.
 
-A text service obtains an instance of this interface by calling ITfThreadMgr::QueryInterface with IID_ITfLangBarItemMgr. An instance of this interface can also be created by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_LangBarItemMgr.
+A text service obtains an instance of this interface by calling ITfThreadMgr::QueryInterface with IID_ITfLangBarItemMgr. An instance of this interface can also be created by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_LangBarItemMgr.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfLangBarItemMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">AddItem</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">AddItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the language bar.
@@ -80,7 +80,7 @@ Adds an item to the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">AdviseItemSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">AdviseItemSink</a>
 </td>
 <td align="left" width="63%">
 Installs a language bar item event sink for a language bar item.
@@ -89,7 +89,7 @@ Installs a language bar item event sink for a language bar item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">AdviseItemsSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">AdviseItemsSink</a>
 </td>
 <td align="left" width="63%">
 Installs one or more language bar item event sinks for one or more language bar items.
@@ -98,7 +98,7 @@ Installs one or more language bar item event sinks for one or more language bar 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-enumitems">EnumItems</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-enumitems">EnumItems</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains the items in the language bar.
@@ -107,7 +107,7 @@ Obtains an enumerator that contains the items in the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem">GetItem</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Obtains the ITfLangBarItem interface for an item in the language bar.
@@ -116,7 +116,7 @@ Obtains the ITfLangBarItem interface for an item in the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemfloatingrect">GetItemFloatingRect</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemfloatingrect">GetItemFloatingRect</a>
 </td>
 <td align="left" width="63%">
 Obtains the bounding rectangle of an item on the language bar.
@@ -125,7 +125,7 @@ Obtains the bounding rectangle of an item on the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemnum">GetItemNum</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemnum">GetItemNum</a>
 </td>
 <td align="left" width="63%">
 Obtains the number of items in the language bar.
@@ -134,7 +134,7 @@ Obtains the number of items in the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitems">GetItems</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitems">GetItems</a>
 </td>
 <td align="left" width="63%">
 Obtains the interface, information and status for one or more items in the language bar.
@@ -143,7 +143,7 @@ Obtains the interface, information and status for one or more items in the langu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemsstatus">GetItemsStatus</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitemsstatus">GetItemsStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains the status of one or more items on the language bar.
@@ -152,7 +152,7 @@ Obtains the status of one or more items on the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-removeitem">RemoveItem</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-removeitem">RemoveItem</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the language bar.
@@ -161,7 +161,7 @@ Removes an item from the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemsink">UnadviseItemSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemsink">UnadviseItemSink</a>
 </td>
 <td align="left" width="63%">
 Removes a language bar item event sink.
@@ -170,7 +170,7 @@ Removes a language bar item event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemssink">UnadviseItemsSink</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemssink">UnadviseItemsSink</a>
 </td>
 <td align="left" width="63%">
 Removes one or more language bar item event sinks.
@@ -181,13 +181,12 @@ Removes one or more language bar item event sinks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

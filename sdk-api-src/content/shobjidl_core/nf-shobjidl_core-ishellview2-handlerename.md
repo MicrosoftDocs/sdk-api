@@ -58,11 +58,10 @@ Used to change an item's identifier.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. The current identifier is passed in and is replaced by the new one.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. The current identifier is passed in and is replaced by the new one.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Return S_OK if successful, or a COM-defined error code otherwise.
-

@@ -62,9 +62,9 @@ The <a href="/windows/win32/shell/assocf_str">ASSOCF</a> value that can be used 
 
 ### -param key [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="/windows/desktop/api/shlwapi/ne-shlwapi-assockey">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 ### -param pszExtra [in, optional]
 
@@ -86,5 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>
-
+<a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>

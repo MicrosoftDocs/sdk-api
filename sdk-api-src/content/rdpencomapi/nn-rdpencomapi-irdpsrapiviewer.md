@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[The <b>IRDPSRAPIViewer</b> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop Apps.]
 
-The ActiveX interface that is used on the viewer side.  The <b>IRDPSRAPIViewer</b> interface is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a> interface on the sharer side.
+The ActiveX interface that is used on the viewer side.  The <b>IRDPSRAPIViewer</b> interface is equivalent to the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a> interface on the sharer side.
 
 This interface can be used to connect or  disconnect viewers and to get or set various properties on the viewer ActiveX control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIViewer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIViewer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIViewer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIViewer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IRDPSRAPIViewer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect">Connect</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Initiates a connection from the viewer to the sharer.
@@ -83,7 +83,7 @@ Initiates a connection from the viewer to the sharer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Initiates a disconnect of the viewer.
@@ -92,7 +92,7 @@ Initiates a disconnect of the viewer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-requestcolordepthchange">RequestColorDepthChange</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-requestcolordepthchange">RequestColorDepthChange</a>
 </td>
 <td align="left" width="63%">
 Requests a change of color depth on the sharer Winlogon session.
@@ -101,7 +101,7 @@ Requests a change of color depth on the sharer Winlogon session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-requestcontrol">RequestControl</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-requestcontrol">RequestControl</a>
 </td>
 <td align="left" width="63%">
 Requests a control level change.
@@ -110,7 +110,7 @@ Requests a control level change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-startreverseconnectlistener">StartReverseConnectListener</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-startreverseconnectlistener">StartReverseConnectListener</a>
 </td>
 <td align="left" width="63%">
 Initiates a reverse connection listener for listening connections from the sharer.
@@ -128,7 +128,7 @@ Initiates a reverse connection listener for listening connections from the share
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_applicationfilter">ApplicationFilter</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_applicationfilter">ApplicationFilter</a>
 
 
 </td>
@@ -144,7 +144,7 @@ An application filter object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_attendees">Attendees</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_attendees">Attendees</a>
 
 
 </td>
@@ -160,7 +160,7 @@ An attendee list object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_disconnectedtext">DisconnectedText</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_disconnectedtext">DisconnectedText</a>
 
 
 </td>
@@ -176,7 +176,7 @@ The text that will be displayed in the control in disconnected mode.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_invitations">Invitations</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_invitations">Invitations</a>
 
 
 </td>
@@ -192,7 +192,7 @@ An invitation list object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties</a>
 
 
 </td>
@@ -208,7 +208,7 @@ A property list object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_smartsizing">SmartSizing</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_smartsizing">SmartSizing</a>
 
 
 </td>
@@ -224,7 +224,7 @@ The smart sizing property of the ActiveX control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_virtualchannelmanager">VirtualChannelManager</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_virtualchannelmanager">VirtualChannelManager</a>
 
 
 </td>
@@ -241,5 +241,4 @@ A virtual channel manager object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

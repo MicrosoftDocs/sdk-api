@@ -56,7 +56,7 @@ Sets the policy for which media sources and transforms are enumerated.
 
 ### -param policy [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_control_policy">MF_PLUGIN_CONTROL_POLICY</a> enumeration that specifies the policy.
+A value from the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_control_policy">MF_PLUGIN_CONTROL_POLICY</a> enumeration that specifies the policy.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>

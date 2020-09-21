@@ -52,13 +52,13 @@ api_name:
 
 The <b>IBDA_DeviceControl</b> interface is implemented on all BDA device filters. 
 
-The methods provided by this interface are called by a Network Provider to control a BDA device. Each instance of a device has one transaction list. A Network Provider first calls the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a> method. This deletes any previous uncommitted changes that were still pending. Then a Network Provider modifies whatever properties on the filter are required for the particular tuning operation. Then it calls the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-checkchanges">CheckChanges</a> method to determine whether the modifications will be successful, without instructing the filter to actually make the changes. If this call succeeds, then a Network Provider calls <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-commitchanges">CommitChanges</a> to cause the filter to actually modify the specified properties. For more information, see "Changing BDA Filter Properties" in the Windows DDK.
+The methods provided by this interface are called by a Network Provider to control a BDA device. Each instance of a device has one transaction list. A Network Provider first calls the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a> method. This deletes any previous uncommitted changes that were still pending. Then a Network Provider modifies whatever properties on the filter are required for the particular tuning operation. Then it calls the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-checkchanges">CheckChanges</a> method to determine whether the modifications will be successful, without instructing the filter to actually make the changes. If this call succeeds, then a Network Provider calls <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-commitchanges">CommitChanges</a> to cause the filter to actually modify the specified properties. For more information, see "Changing BDA Filter Properties" in the Windows DDK.
 
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DeviceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DeviceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DeviceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DeviceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IBDA_DeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-checkchanges">CheckChanges</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-checkchanges">CheckChanges</a>
 </td>
 <td align="left" width="63%">
 Queries the device filter as to whether the changes that are pending would succeed if they were committed.
@@ -82,16 +82,16 @@ Queries the device filter as to whether the changes that are pending would succe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-commitchanges">CommitChanges</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-commitchanges">CommitChanges</a>
 </td>
 <td align="left" width="63%">
-Instructs the device to perform the changes specified in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>.
+Instructs the device to perform the changes specified in the previous call to <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-getchangestate">GetChangeState</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-getchangestate">GetChangeState</a>
 </td>
 <td align="left" width="63%">
 Returns a value indicating whether any uncommitted changes are currently pending in the filter.
@@ -100,7 +100,7 @@ Returns a value indicating whether any uncommitted changes are currently pending
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>
 </td>
 <td align="left" width="63%">
 Called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
@@ -115,5 +115,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

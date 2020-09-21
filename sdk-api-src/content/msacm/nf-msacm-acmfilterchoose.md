@@ -59,7 +59,7 @@ The <b>acmFilterChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafltrc
 
-Pointer to an [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose) structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
+Pointer to an [ACMFILTERCHOOSE]() structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
 
 The <b>pwfltr</b> member of this structure must contain a valid pointer to a memory location that will contain the returned filter header structure. The <b>cbwfltr</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -90,7 +90,7 @@ The user chose the Cancel button or the Close command on the System menu to clos
 </dl>
 </td>
 <td width="60%">
-The buffer identified by the [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose) structure is too small to contain the selected filter.
+The buffer identified by the [ACMFILTERCHOOSE]() structure is too small to contain the selected filter.
 
 </td>
 </tr>
@@ -142,9 +142,8 @@ A suitable driver is not available to provide valid filter selections.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

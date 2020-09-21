@@ -57,7 +57,7 @@ Queries the console-provided scope pane image list.
 ### -param ppImageList [out]
 
 The address of a variable that receives the scope pane 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a> interface pointer.
+<a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a> interface pointer.
 
 ## -returns
 
@@ -65,9 +65,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>

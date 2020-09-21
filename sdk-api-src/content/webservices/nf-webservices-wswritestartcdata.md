@@ -54,17 +54,17 @@ This operation starts a CDATA section in the writer.
       CDATA sections cannot be nested and cannot appear at the root of the document.  <div class="alert"><b>Note</b>  Some encodings do not support CDATA
         and will generate text instead.
       </div>
-<div> </div>The CDATA section is completed by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendcdata">WsWriteEndCData</a>.
+<div> </div>The CDATA section is completed by calling <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendcdata">WsWriteEndCData</a>.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -98,4 +98,3 @@ The operation is not allowed due to the current state of the object.
 </td>
 </tr>
 </table>
-

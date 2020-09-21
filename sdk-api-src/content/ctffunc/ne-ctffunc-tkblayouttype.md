@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
+Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a> to specify the type of layout.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ The touch keyboard is to use a touch-optimized layout.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
-
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>

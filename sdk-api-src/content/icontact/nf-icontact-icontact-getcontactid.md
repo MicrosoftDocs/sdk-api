@@ -109,9 +109,8 @@ Macro HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) returned when <i>pszContactI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>
+<a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">Load</a>
-
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">Load</a>

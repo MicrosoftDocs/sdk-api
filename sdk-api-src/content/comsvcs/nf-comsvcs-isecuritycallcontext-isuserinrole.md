@@ -101,15 +101,14 @@ The role specified in the <i>bstrRole</i> parameter does not exist.
 
 ## -remarks
 
-Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>.
+Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>.
 
-Because <b>IsUserInRole</b> is <b>TRUE</b> when role-based security is not enabled, it is a good idea to call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled">IsSecurityEnabled</a> before calling <b>IsUserInRole</b> to ensure that <b>IsUserInRole</b> returns useful information.
+Because <b>IsUserInRole</b> is <b>TRUE</b> when role-based security is not enabled, it is a good idea to call <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled">IsSecurityEnabled</a> before calling <b>IsUserInRole</b> to ensure that <b>IsUserInRole</b> returns useful information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
-
+<a href="/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>

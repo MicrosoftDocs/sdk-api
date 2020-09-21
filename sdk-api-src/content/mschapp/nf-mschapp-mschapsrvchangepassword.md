@@ -69,19 +69,19 @@ A <b>BOOLEAN</b> that specifies whether the password designated by <i>LmOldOwfPa
 
 ### -param LmOldOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
+A pointer to a <a href="/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
 
 ### -param LmNewOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
+A pointer to a <a href="/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
 
 ### -param NtOldOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's current NT password.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's current NT password.
 
 ### -param NtNewOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's new NT password.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's new NT password.
 
 ## -returns
 
@@ -196,15 +196,14 @@ The value of the <i>LmOldPresent</i> parameter is not correct for the contents o
 
 The value specified by <i>LmNewOwfPassword</i> must always contain a valid OWF. If the new password is greater than 128-bits long, and therefore cannot be represented by a LAN Manager (LM) password, then <i>LmNewOwfPassword</i> should be the LM OWF of a <b>NULL</b> password.
 
-This function allows users to change their own passwords only if they have the access: <a href="https://msdn.microsoft.com/library/ms684413.aspx">USER_CHANGE_PASSWORD</a>.
+This function allows users to change their own passwords only if they have the access: <a href="/windows/win32/adschema/r-user-change-password">USER_CHANGE_PASSWORD</a>.
 
 This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to change the password conflicts with an administrative password restriction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
+<a href="/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>
-
+<a href="/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>

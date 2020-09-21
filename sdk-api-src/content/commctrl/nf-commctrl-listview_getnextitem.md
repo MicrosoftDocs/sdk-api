@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a> message explicitly.
+Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,8 +68,7 @@ The index of the item with which to begin the search, or -1 to find the first it
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The geometric relation of the requested item to the specified item and, if specified, the state of the requested item. For a list of possible values, see the description of the 
-					<i>lParam</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a> message. If an item does not have all of the specified state flags set, the search continues with the next item.
-
+					<i>lParam</i> parameter in the <a href="/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a> message. If an item does not have all of the specified state flags set, the search continues with the next item.

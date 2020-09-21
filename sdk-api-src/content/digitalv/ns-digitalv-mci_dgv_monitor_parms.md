@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCI_DGV_MONITOR_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command.
+The <b>MCI_DGV_MONITOR_PARMS</b> structure contains parameters for the <a href="/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command.
 
 ## -struct-fields
 
@@ -73,7 +73,7 @@ One of the following flags for the monitor source:
 </dl>
 </td>
 <td width="60%">
-The workspace is the presentation source. (This is the default source.) If this flag is used during recording, the recording pauses. If the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command changes the presentation source, recording or playing stops and the current position is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-status">MCI_STATUS</a> command for the start position.
+The workspace is the presentation source. (This is the default source.) If this flag is used during recording, the recording pauses. If the <a href="/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command changes the presentation source, recording or playing stops and the current position is the value returned by the <a href="/windows/desktop/Multimedia/mci-status">MCI_STATUS</a> command for the start position.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ The workspace is the presentation source. (This is the default source.) If this 
 </dl>
 </td>
 <td width="60%">
-The external input is the presentation source. Playback is paused before the input is selected. If the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a> command has been enabled using the MCI_SET_ON flag, this flag displays a default hidden window. Device drivers might limit what other device instances can do while monitoring input.
+The external input is the presentation source. Playback is paused before the input is selected. If the <a href="/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a> command has been enabled using the MCI_SET_ON flag, this flag displays a default hidden window. Device drivers might limit what other device instances can do while monitoring input.
 
 </td>
 </tr>
@@ -132,29 +132,28 @@ The device should show the external input prior to compression.
 
 ## -remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
+<a href="/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
+<a href="/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a>
+<a href="/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a>
+<a href="/windows/desktop/Multimedia/mci-setvideo">MCI_SETVIDEO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-status">MCI_STATUS</a>
+<a href="/windows/desktop/Multimedia/mci-status">MCI_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

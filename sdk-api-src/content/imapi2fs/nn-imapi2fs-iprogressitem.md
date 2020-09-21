@@ -52,11 +52,11 @@ api_name:
 
 Use this interface to retrieve block information for one segment of the result file image. This can be used to determine the LBA ranges of files in the resulting image. This information can then be used to display to the user which file is currently being written to the media or used for other advanced burning functionality.
 
-To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next">IEnumProgressItems::Next</a> or <a href="https://docs.microsoft.com/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a> method.
+To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next">IEnumProgressItems::Next</a> or <a href="/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProgressItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">get_BlockCount</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">get_BlockCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of blocks in the progress item.
@@ -80,7 +80,7 @@ Retrieves the number of blocks in the progress item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_description">get_Description</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description in the progress item.
@@ -89,7 +89,7 @@ Retrieves the description in the progress item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock">get_FirstBlock</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock">get_FirstBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first block number in this segment of the result image.
@@ -98,7 +98,7 @@ Retrieves the first block number in this segment of the result image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">get_LastBlock</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">get_LastBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last block in this segment of the result image.
@@ -113,13 +113,12 @@ This is a <b>ProgressItem</b> object in script.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>

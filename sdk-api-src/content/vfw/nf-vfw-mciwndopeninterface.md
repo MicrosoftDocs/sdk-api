@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndOpenInterface</b> macro attaches the data stream or file associated with the specified interface to an MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-openinterface">MCIWNDM_OPENINTERFACE</a> message.
+The <b>MCIWndOpenInterface</b> macro attaches the data stream or file associated with the specified interface to an MCIWnd window. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-openinterface">MCIWNDM_OPENINTERFACE</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param pUnk
 
 Pointer to an IAVI interface that points to a file or a data stream in a file.
-

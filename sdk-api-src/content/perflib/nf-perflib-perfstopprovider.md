@@ -66,15 +66,14 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/countercleanup">CounterCleanup</a> function calls this function; do not call this function directly.
+The <a href="/windows/desktop/PerfCtrs/countercleanup">CounterCleanup</a> function calls this function; do not call this function directly.
 
 <b>Windows Vista:  </b>The <b>PerfAutoCleanup</b> function calls this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a>

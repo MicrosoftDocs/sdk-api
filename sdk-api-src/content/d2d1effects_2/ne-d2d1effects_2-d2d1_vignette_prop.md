@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/vignette-effect">Vignette effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/vignette-effect">Vignette effect</a>.
 
 ## -enum-fields
 
@@ -70,4 +70,3 @@ The D2D1_VIGNETTE_PROP_STRENGTH property is a float value that specifies how muc
           The allowed range is 0.0 to 1.0.  The default value is 0.5.
 
 ### -field D2D1_VIGNETTE_PROP_FORCE_DWORD
-

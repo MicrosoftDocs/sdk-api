@@ -61,8 +61,8 @@ api_name:
 
 The 
 <b>IWbemClassObject::BeginEnumeration</b> method resets an enumeration back to the beginning of the enumeration. The caller must call this method prior to the first call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">IWbemClassObject::Next</a> to enumerate all of the properties on an object. The order in which properties are enumerated is guaranteed to be invariant for a given instance of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">IWbemClassObject::Next</a> to enumerate all of the properties on an object. The order in which properties are enumerated is guaranteed to be invariant for a given instance of 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Combination of flags described in Remarks.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -86,17 +86,16 @@ GROUP 2
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-endenumeration">IWbemClassObject::EndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">IWbemClassObject::Next</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-next">IWbemClassObject::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>

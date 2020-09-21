@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <code>GetFormat</code> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> representation of a custom format.
+The <code>GetFormat</code> method retrieves an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> representation of a custom format.
 
 ## -parameters
 
 ### -param nFormat [in]
 
-Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
+Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
 
 ### -param ppFormat [out, optional]
 
@@ -108,17 +108,16 @@ nFormat is out of range
 
 ## -remarks
 
-When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a> utility function to create the audio media type object.
+When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a> utility function to create the audio media type object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a>
+<a href="/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
-
+<a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the decoded video stream is interlaced. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoinputscantype-property">AVDecVideoInputScanType</a> property.
+Specifies how the decoded video stream is interlaced. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecvideoinputscantype-property">AVDecVideoInputScanType</a> property.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Decoded frames are interlaced, with the lower field appearing first.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

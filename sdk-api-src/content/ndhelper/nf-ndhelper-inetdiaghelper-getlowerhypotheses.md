@@ -60,7 +60,7 @@ A pointer to a count of elements in the <b>HYPOTHESIS</b> array.
 
 ### -param pprgHypotheses [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> array.
+A pointer to a <a href="/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> array.
 
 ## -returns
 
@@ -146,5 +146,4 @@ This method is not required when building a Helper Class Extension.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

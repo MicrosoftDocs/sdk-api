@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CATALOG_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CATALOG_INFO</b> structure contains the name of a catalog file. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a> function.
+The <b>CATALOG_INFO</b> structure contains the name of a catalog file. This structure is used by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a> function.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ Name of the catalog file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a>
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a>

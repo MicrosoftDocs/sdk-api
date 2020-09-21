@@ -66,15 +66,14 @@ Decrement the font size.
 
 When you highlight a run of heterogeneously sized text, the Ribbon framework sets the <b>Font size</b> control to blank.  When you click the <b>Font grow</b> button or the <b>Font shrink</b> button, the highlighted text is resized, and the relative size variations in the text run are maintained.
 
-The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> buttons on the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>.
+The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> buttons on the <a href="/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>.
 
 <img alt="Screen shot of the Font grow and Font shrink buttons on the FontControl." src="./images/FontControl_IncDec.png"/>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-deltasize">UI_PKEY_FontProperties_DeltaSize</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-deltasize">UI_PKEY_FontProperties_DeltaSize</a>

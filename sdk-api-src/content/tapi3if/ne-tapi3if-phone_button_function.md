@@ -206,7 +206,7 @@ Places the phone in the mode it is configured for during night hours.
 ### -field PBF_SENDCALLS
 
 Sends all calls to another phone used for coverage; same as the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_COVER constant</a>.
+<a href="/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_COVER constant</a>.
 
 ### -field PBF_MSGINDICATOR
 
@@ -250,9 +250,8 @@ Sends a request for a communications session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">ITPhone::get_ButtonFunction</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">ITPhone::get_ButtonFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonfunction">ITPhone::put_ButtonFunction</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonfunction">ITPhone::put_ButtonFunction</a>

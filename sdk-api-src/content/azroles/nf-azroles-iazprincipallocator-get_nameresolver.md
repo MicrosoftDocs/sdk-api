@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>NameResolver</b> method gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaznameresolver">IAzNameResolver</a> interface associated with this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazprincipallocator">IAzPrincipalLocator</a> object.
+The <b>NameResolver</b> method gets a pointer to the <a href="/windows/desktop/api/azroles/nn-azroles-iaznameresolver">IAzNameResolver</a> interface associated with this <a href="/windows/desktop/api/azroles/nn-azroles-iazprincipallocator">IAzPrincipalLocator</a> object.
 
 This property is read-only.
 
 ## -parameters
-

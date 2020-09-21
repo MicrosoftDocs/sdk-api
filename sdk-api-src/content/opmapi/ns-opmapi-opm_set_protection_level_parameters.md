@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains data for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-set-protection-level">OPM_SET_PROTECTION_LEVEL</a> command in <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
+Contains data for the <a href="/windows/desktop/medfound/opm-set-protection-level">OPM_SET_PROTECTION_LEVEL</a> command in <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
 
 ## -struct-fields
 
 ### -field ulProtectionType
 
-Identifies the protection mechanism. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-protection-type-flags">OPM Protection Type Flags</a>.
+Identifies the protection mechanism. For a list of possible values, see <a href="/windows/desktop/medfound/opm-protection-type-flags">OPM Protection Type Flags</a>.
 
 ### -field ulProtectionLevel
 
@@ -74,25 +74,25 @@ Specifies the protection level. The meaning of this value depends on the protect
 <tr>
 <td>ACP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_acp_protection_level">OPM_ACP_PROTECTION_LEVEL</a>
+<a href="/windows/desktop/api/opmapi/ne-opmapi-opm_acp_protection_level">OPM_ACP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 <tr>
 <td>CGMS-A</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/cgms-a-protection-flags">CGMS-A Protection Flags</a>
+<a href="/windows/desktop/medfound/cgms-a-protection-flags">CGMS-A Protection Flags</a>
 </td>
 </tr>
 <tr>
 <td>DPCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_dpcp_protection_level">OPM_DPCP_PROTECTION_LEVEL</a>
+<a href="/windows/desktop/api/opmapi/ne-opmapi-opm_dpcp_protection_level">OPM_DPCP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 <tr>
 <td>HDCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_hdcp_protection_level">OPM_HDCP_PROTECTION_LEVEL</a>
+<a href="/windows/desktop/api/opmapi/ne-opmapi-opm_hdcp_protection_level">OPM_HDCP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 </table>
@@ -111,9 +111,8 @@ The layout of this structure is identical to the <a href="/windows/win32/api/dxv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

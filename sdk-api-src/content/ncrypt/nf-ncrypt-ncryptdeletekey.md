@@ -56,9 +56,9 @@ The <b>NCryptDeleteKey</b> function deletes a CNG key.
 
 ### -param hKey [in]
 
-The handle of the key to delete. This handle is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
+The handle of the key to delete. This handle is obtained by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
-<div class="alert"><b>Note</b>  The <b>NCryptDeleteKey</b> function frees the handle. Applications must not use the handle or attempt to call the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function on it after calling the <b>NCryptDeleteKey</b> function.</div>
+<div class="alert"><b>Note</b>  The <b>NCryptDeleteKey</b> function frees the handle. Applications must not use the handle or attempt to call the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function on it after calling the <b>NCryptDeleteKey</b> function.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -133,9 +133,8 @@ The <i>hKey</i> parameter is not valid.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a>

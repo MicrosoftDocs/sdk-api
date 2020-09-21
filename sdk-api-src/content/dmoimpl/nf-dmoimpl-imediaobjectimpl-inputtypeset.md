@@ -67,5 +67,4 @@ Returns <b>TRUE</b> if the media type was set on this stream, or <b>FALSE</b> ot
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
-
+<a href="/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>

@@ -57,7 +57,7 @@ Provides flags to control flag-based filtering of items.
 
 ### -param pullFlags [out]
 
-Receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-filter-flags">Offline Files Filter Flags</a> 
+Receives the <a href="/previous-versions/windows/desktop/offlinefiles/offline-files-filter-flags">Offline Files Filter Flags</a> 
        bit values to be used in the filter evaluation.
 
 A bit value of 1 means that the corresponding data condition in the item must be 
@@ -66,7 +66,7 @@ A bit value of 1 means that the corresponding data condition in the item must be
 
 ### -param pullMask [out]
 
-Receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-filter-flags">Offline Files Filter Flags</a> 
+Receives the <a href="/previous-versions/windows/desktop/offlinefiles/offline-files-filter-flags">Offline Files Filter Flags</a> 
        bit values identifying which flags are to be evaluated.
 
 A bit value of 1 means "evaluate the corresponding data" while a bit value of 0 means 
@@ -95,5 +95,4 @@ This method can be implemented in any filter type (inclusion or exclusion) or fi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>

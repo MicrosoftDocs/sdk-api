@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyname">IWMRegisteredDevice::GetAttributeByName</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyname">IWMRegisteredDevice::GetAttributeByName</a>

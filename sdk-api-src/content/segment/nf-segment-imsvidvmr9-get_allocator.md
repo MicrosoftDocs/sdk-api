@@ -98,9 +98,8 @@ The application did not set a custom allocator-presenter.
 
 ## -remarks
 
-To set a custom allocator-presenter, call <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">IMSVidVMR9::SetAllocator</a>.
+To set a custom allocator-presenter, call <a href="/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">IMSVidVMR9::SetAllocator</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>

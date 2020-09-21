@@ -60,7 +60,7 @@ Specifies the number of items to retrieve.
 
 ### -param ppprop [out]
 
-Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty</a> interface pointers.
+Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty</a> interface pointers.
 
 ### -param pcelt [out]
 
@@ -112,9 +112,8 @@ NULL pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumguidedataproperties">IEnumGuideDataProperties Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumguidedataproperties">IEnumGuideDataProperties Interface</a>

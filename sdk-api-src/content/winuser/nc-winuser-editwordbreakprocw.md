@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> message. A multiline edit control or a rich edit control calls an <i>EditWordBreakProc</i> function to break a line of text.
+An application-defined callback function used with the <a href="/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> message. A multiline edit control or a rich edit control calls an <i>EditWordBreakProc</i> function to break a line of text.
 
 The <b>EDITWORDBREAKPROC</b> type defines a pointer to this callback function. <i>EditWordBreakProc</i> is a placeholder for the application-defined function name.
 
@@ -60,7 +60,7 @@ The <b>EDITWORDBREAKPROC</b> type defines a pointer to this callback function. <
 
 ### -param lpch [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to the text of the edit control.
 
@@ -182,11 +182,11 @@ If the
 
 A carriage return followed by a line feed must be treated as a single word by the callback function. Two carriage returns followed by a line feed also must be treated as a single word. 
 
-An application must install the callback function by specifying the address of the callback function in an <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> message. 
+An application must install the callback function by specifying the address of the callback function in an <a href="/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> message. 
 
-<b>Rich Edit 1.0:</b>Microsoft Rich Edit 1.0 only passes back ANSI characters to <i>EditWordBreakProc</i>. For rich edit controls, you can alternately use the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a> message to replace the default extended word break procedure with an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/nc-richedit-editwordbreakprocex">EditWordBreakProcEx</a> callback function. This function provides additional information about the text, such as the character set. 
+<b>Rich Edit 1.0:</b>Microsoft Rich Edit 1.0 only passes back ANSI characters to <i>EditWordBreakProc</i>. For rich edit controls, you can alternately use the <a href="/windows/desktop/Controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a> message to replace the default extended word break procedure with an <a href="/windows/desktop/api/richedit/nc-richedit-editwordbreakprocex">EditWordBreakProcEx</a> callback function. This function provides additional information about the text, such as the character set. 
 
-<b>Rich Edit 2.0 and later:</b>Microsoft Rich Edit 2.0 and later only pass back Unicode characters to <i>EditWordBreakProc</i>. Thus, an ANSI application would convert the Rich Edit-supplied Unicode string using <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>, and then translate the indices appropriately. 
+<b>Rich Edit 2.0 and later:</b>Microsoft Rich Edit 2.0 and later only pass back Unicode characters to <i>EditWordBreakProc</i>. Thus, an ANSI application would convert the Rich Edit-supplied Unicode string using <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>, and then translate the indices appropriately. 
 
 
 
@@ -197,19 +197,19 @@ An application must install the callback function by specifying the address of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-findwordbreak">EM_FINDWORDBREAK</a>
+<a href="/windows/desktop/Controls/em-findwordbreak">EM_FINDWORDBREAK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a>
+<a href="/windows/desktop/Controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a>
+<a href="/windows/desktop/Controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/nc-richedit-editwordbreakprocex">EditWordBreakProcEx</a>
+<a href="/windows/desktop/api/richedit/nc-richedit-editwordbreakprocex">EditWordBreakProcEx</a>
 
 
 
@@ -221,5 +221,4 @@ An application must install the callback function by specifying the address of t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>

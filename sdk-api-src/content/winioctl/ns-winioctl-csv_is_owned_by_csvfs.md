@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the output for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a> control code 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a> control code 
     that determines whether a volume is owned by CSVFS.
 
 ## -struct-fields
@@ -66,9 +66,8 @@ Contains the output for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_volume_owned_bycsvfs">FSCTL_IS_VOLUME_OWNED_BYCSVFS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

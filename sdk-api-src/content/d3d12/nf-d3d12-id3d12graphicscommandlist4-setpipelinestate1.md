@@ -56,15 +56,14 @@ Sets a state object on the command list.
 
 ### -param pStateObject
 
-The state object to set on the command list. In the current release, this can only be of type <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_type">D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE</a>.
+The state object to set on the command list. In the current release, this can only be of type <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_type">D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE</a>.
 
 ## -remarks
 
 This method can be called from graphics or compute command lists and bundles.
 
-This method is an alternative to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate">ID3D12GraphicsCommandList::SetPipelineState</a>, which is only defined for graphics and compute shaders.  There is only one pipeline state active on a command list at a time, so either call sets the current pipeline state.  The distinction between the calls is that each sets particular types of pipeline state only.  In the current release, <b>SetPipelineState1</b> is only used for setting raytracing pipeline state.
+This method is an alternative to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate">ID3D12GraphicsCommandList::SetPipelineState</a>, which is only defined for graphics and compute shaders.  There is only one pipeline state active on a command list at a time, so either call sets the current pipeline state.  The distinction between the calls is that each sets particular types of pipeline state only.  In the current release, <b>SetPipelineState1</b> is only used for setting raytracing pipeline state.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
-

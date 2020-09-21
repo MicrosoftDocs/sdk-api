@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDVIDEOPORTDESC structure describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object being created.
+The DDVIDEOPORTDESC structure describes the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object being created.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Specifies the width in pixels of the incoming video stream.
 
 ### -field dwVBIWidth
 
-Specifies the width, in number of samples, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data in the incoming video stream.
+Specifies the width, in number of samples, of the <a href="/windows-hardware/drivers/">VBI</a> data in the incoming video stream.
 
 ### -field dwFieldHeight
 
@@ -84,7 +84,7 @@ Specifies the maximum pixel rate per second.
 
 ### -field dwVideoPortID
 
-Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.
+Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.
 
 ### -field dwReserved1
 
@@ -92,7 +92,7 @@ Reserved for system use and should be ignored by the driver.
 
 ### -field VideoPortType
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a> structure describing the connection characteristics of the hardware video port.
+Specifies a <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a> structure describing the connection characteristics of the hardware video port.
 
 ### -field dwReserved2
 
@@ -104,9 +104,8 @@ Reserved for future use and should be ignored by the driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
+<a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>
-
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>

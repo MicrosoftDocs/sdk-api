@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist2">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
+Retrieves a pointer to an <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> or <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist2">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
 
 ## -parameters
 
@@ -74,7 +74,6 @@ When this method returns, contains the address of the interface pointer requeste
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

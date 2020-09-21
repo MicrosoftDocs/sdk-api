@@ -57,7 +57,7 @@ The
 
 ### -field errs_errnode
 
-IP address of the node responsible for the error, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
+IP address of the node responsible for the error, in the form of an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
 
 ### -field errs_flags
 
@@ -86,9 +86,8 @@ Error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>

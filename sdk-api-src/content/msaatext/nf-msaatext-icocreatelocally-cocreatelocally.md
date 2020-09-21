@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Clients call <b>ICoCreateLocally::CoCreateLocally</b> to create a helper object in the same context as the server object. This allows clients to increase performance because they are running in the server application.<div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		</div>
 <div> </div>
 
@@ -65,7 +65,7 @@ Class identifier of the object to be created locally.
 
 ### -param dwClsContext [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Context in which the helper object should run. This is usually CLSCTX_INPROC_SERVER.
 
@@ -101,7 +101,7 @@ An optional interface parameter that is passed to the new helper object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -124,4 +124,3 @@ The client does not have sufficient permissions to create this object in the ser
 </td>
 </tr>
 </table>
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMDServiceProvider2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider</a> interface by providing a way of obtaining <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> object(s) for a given device path name. The device path name comes from the Plug and Play (PnP) subsystem.
+The <b>IMDServiceProvider2</b> interface extends the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider</a> interface by providing a way of obtaining <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> object(s) for a given device path name. The device path name comes from the Plug and Play (PnP) subsystem.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider</a>. <b>IMDServiceProvider2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider</a>. <b>IMDServiceProvider2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDServiceProvider2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice">CreateDevice</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
 Creates devices by using the device path.
@@ -80,9 +80,8 @@ Creates devices by using the device path.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

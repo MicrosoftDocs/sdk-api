@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a Windows Runtime property value. Note that in some cases more than one <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> type maps to a single Windows Runtime property type.
+Extracts data from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a Windows Runtime property value. Note that in some cases more than one <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> type maps to a single Windows Runtime property type.
 
 ## -parameters
 
 ### -param propvar [in]
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 ### -param ppv [out]
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://msdn.microsoft.com/library/windows/apps/windows.foundation.ipropertyvalue.aspx">IPropertyValue</a> pointer. If the call fails, this value is <b>NULL</b>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="/uwp/api/Windows.Foundation.IPropertyValue">IPropertyValue</a> pointer. If the call fails, this value is <b>NULL</b>.
 
 ## -returns
 
@@ -72,9 +72,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
+We recommend that you use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/apps/windows.foundation.propertyvalue.aspx">PropertyValue class</a>
-
+<a href="/uwp/api/Windows.Foundation.PropertyValue">PropertyValue class</a>

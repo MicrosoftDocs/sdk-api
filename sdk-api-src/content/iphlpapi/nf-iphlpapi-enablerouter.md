@@ -63,14 +63,14 @@ A pointer to a handle. This parameter is currently unused.
 ### -param pOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure should be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure should be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
 
 ## -returns
 
 If the <b>EnableRouter</b> function succeeds, the return value is ERROR_IO_PENDING.
 
-If the function fails, use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+If the function fails, use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ One of the parameters is invalid. This error is returned if the <i>pOverlapped</
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -106,26 +106,25 @@ Use
 
 The <b>EnableRouter</b> function is specific to IPv4 forwarding. If the process that calls 
 <b>EnableRouter</b> terminates without calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>, the system  decrements the reference count that tracks the number of requests to enable IPv4 forwarding as though the process had called 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>, the system  decrements the reference count that tracks the number of requests to enable IPv4 forwarding as though the process had called 
 <b>UnenableRouter</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>

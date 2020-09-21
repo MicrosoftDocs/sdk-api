@@ -52,18 +52,18 @@ api_name:
 
 Use the 
 <b>IBITSExtensionSetupFactory</b> interface to get a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface. Only use this interface if you use the 
-<b>IBITSExtensionSetup</b> interface in a setup program that also installs the BITS server. Because the IIS cache does not contain the BITS extensions added during setup, the extensions are not available using the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function. The 
+<a href="/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface. Only use this interface if you use the 
+<b>IBITSExtensionSetup</b> interface in a setup program that also installs the BITS server. Because the IIS cache does not contain the BITS extensions added during setup, the extensions are not available using the <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function. The 
 <b>IBITSExtensionSetupFactory</b> interface provides a 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">GetObject</a> method, which accesses the BITS extensions and performs the same binding as the <b>ADsGetObject</b> function.
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">GetObject</a> method, which accesses the BITS extensions and performs the same binding as the <b>ADsGetObject</b> function.
 
 To get a pointer to the 
 <b>IBITSExtensionSetupFactory</b> interface, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetupFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetupFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetupFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetupFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,11 +78,11 @@ The <b>IBITSExtensionSetupFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">GetObject</a>
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface.
+<a href="/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ On Windows Server 2003, use the <b>Windows Components Wizard</b> to install the
 
 The following example shows how to use the 
 <b>IBITSExtensionSetupFactory</b> interface to get a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface.
+<a href="/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a> interface.
 
 
 ```cpp
@@ -143,5 +143,4 @@ HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a>
-
+<a href="/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetup">IBITSExtensionSetup</a>

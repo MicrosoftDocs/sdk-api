@@ -56,11 +56,11 @@ The <b>OnDeviceStateChanged</b> method indicates that the state of an audio endp
 
 ### -param pwstrDeviceId [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call.
+Pointer to the <a href="/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call.
 
 ### -param dwNewState [in]
 
-Specifies the new state of the endpoint device. The value of this parameter is one of the following <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX</a> constants:
+Specifies the new state of the endpoint device. The value of this parameter is one of the following <a href="/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX</a> constants:
 
 DEVICE_STATE_ACTIVE
 
@@ -76,9 +76,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-For a code example that implements the <b>OnDeviceStateChanged</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
+For a code example that implements the <b>OnDeviceStateChanged</b> method, see <a href="/windows/desktop/CoreAudio/device-events">Device Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>

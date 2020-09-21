@@ -97,9 +97,8 @@ The method succeeded.
 
 ## -remarks
 
-The license server sends the signed license revocation blob after receiving a response to its initial challenge message. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-getlrbchallenge">GetLRBChallenge</a>.
+The license server sends the signed license revocation blob after receiving a response to its initial challenge message. For more information, see <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-getlrbchallenge">GetLRBChallenge</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent Interface</a>

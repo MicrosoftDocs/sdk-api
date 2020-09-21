@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 ## -parameters
 
@@ -74,9 +74,9 @@ Receives the associated Unicode string value, or <b>NULL</b> if not available.
 
 ### -param pValue [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Receives the associated <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
+Receives the associated <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -90,5 +90,4 @@ Prior to Windows 7, this was declared in structuredquery.idl and structuredquer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>
-
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>

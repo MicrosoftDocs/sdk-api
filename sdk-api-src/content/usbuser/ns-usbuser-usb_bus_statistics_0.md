@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve bus statistics.
+The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve bus statistics.
 
 ## -struct-fields
 
@@ -171,15 +171,14 @@ The index that is used to generate a symbolic link name for the hub PDO. This fo
 
 ## -remarks
 
-The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_bus_statistics_0_request">USBUSER_BUS_STATISTICS_0</a> user-mode request. For a description of this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="/windows/desktop/api/usbuser/ns-usbuser-usbuser_bus_statistics_0_request">USBUSER_BUS_STATISTICS_0</a> user-mode request. For a description of this request, see <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 In Windows 8, this request completes successfully. However, the values retrieved from the underlying USB 3.0 driver stack do not reflect actual  bus statistics.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+<a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSeek</b> macro moves the playback position to the specified location in the content. You can use this macro or explicitly use the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a> command.
+The <b>MCIWndSeek</b> macro moves the playback position to the specified location in the content. You can use this macro or explicitly use the <a href="/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a> command.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param lPos
 
 Position to seek. You can specify a position using the current time format, the MCIWND_START constant to designate the beginning of the content, or the MCIWND_END constant to designate the end of the content.
-

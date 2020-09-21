@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used in the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a> structure to declare animation options.
+Used in the <a href="/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a> structure to declare animation options.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ Cubic fade animation. Not implemented in Windows Vista.
 ### -field BPAS_SINE
 
 Sinusoid fade animation. Not implemented in Windows Vista.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves context information that was stored by a plug-in by using the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a> method.
+Retrieves context information that was stored by a plug-in by using the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a> method.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a>
-
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a>

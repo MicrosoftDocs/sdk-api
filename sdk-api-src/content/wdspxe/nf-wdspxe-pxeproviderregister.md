@@ -108,7 +108,7 @@ Indicates whether the provider is critical. If a critical provider fails, the WD
 
 Address of a <b>HKEY</b> where the configuration should be stored. The provider will 
       receive a handle to this same key as the <i>hProviderKey</i> parameter to its 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> callback.
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> callback.
 
 ## -returns
 
@@ -116,13 +116,12 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderunregister">PxeProviderUnRegister</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderunregister">PxeProviderUnRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

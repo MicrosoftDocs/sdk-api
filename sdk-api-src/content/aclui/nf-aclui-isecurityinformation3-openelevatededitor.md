@@ -60,19 +60,18 @@ The parent window of the access control editor.
 
 ### -param uPage [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
+A value of the <a href="/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename">GetFullResourceName</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename">GetFullResourceName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>

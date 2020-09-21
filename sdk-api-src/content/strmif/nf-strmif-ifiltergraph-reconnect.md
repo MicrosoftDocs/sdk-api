@@ -61,7 +61,7 @@ Applications should not call this method. It is called by filters during the gra
 
 ### -param ppin [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the pin to reconnect.
+Pointer to <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the pin to reconnect.
 
 ## -returns
 
@@ -131,19 +131,18 @@ Filter is not stopped.
 
 ## -remarks
 
-This method is obsolete; use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-reconnectex">IFilterGraph2::ReconnectEx</a> method instead.
+This method is obsolete; use the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-reconnectex">IFilterGraph2::ReconnectEx</a> method instead.
 
-Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>Reconnect</code> method succeeds, leaving the filter graph in an inconsistent state.
+Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>Reconnect</code> method succeeds, leaving the filter graph in an inconsistent state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>
-
+<a href="/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>

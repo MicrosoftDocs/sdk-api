@@ -62,12 +62,12 @@ Enumerates the memory blocks in the specified heap.
 ### -param hHeap [in]
 
 A handle to the heap. This handle is returned by either the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param lpEntry [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure 
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure 
        that maintains state information for a particular heap enumeration.
 
 If the <b>HeapWalk</b> function succeeds, returning the value 
@@ -75,7 +75,7 @@ If the <b>HeapWalk</b> function succeeds, returning the value
        heap.
 
 To initiate a heap enumeration, set the <b>lpData</b> field of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure to 
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure to 
        <b>NULL</b>. To continue a particular heap enumeration, call the 
        <b>HeapWalk</b> function repeatedly, with no changes to 
        <i>hHeap</i>, <i>lpEntry</i>, or any of the members of the 
@@ -86,10 +86,10 @@ To initiate a heap enumeration, set the <b>lpData</b> field of the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the heap enumeration terminates successfully by reaching the end of the heap, the function returns 
-       <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+       <b>FALSE</b>, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        returns the error code <b>ERROR_NO_MORE_ITEMS</b>.
 
 ## -remarks
@@ -98,27 +98,27 @@ The <b>HeapWalk</b> function is primarily useful for debugging
     because enumerating a heap is a potentially time-consuming operation. Locking the heap during enumeration blocks 
     other threads from accessing the heap and can degrade performance, especially on symmetric multiprocessing (SMP) 
     computers. The side effects can last until the heap is unlocked. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions to control heap locking during heap 
+    <a href="/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and 
+    <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions to control heap locking during heap 
     enumeration.
 
 To initiate a heap enumeration, call <b>HeapWalk</b> with the 
     <b>lpData</b> field of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure pointed to by 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure pointed to by 
     <i>lpEntry</i> set to <b>NULL</b>.
 
 To continue a heap enumeration, call <b>HeapWalk</b> with the same 
     <i>hHeap</i> and <i>lpEntry</i> values, and with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure unchanged from the 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure unchanged from the 
     preceding call to <b>HeapWalk</b>. Repeat this process until you 
     have no need for further enumeration, or until the function returns <b>FALSE</b> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
     <b>ERROR_NO_MORE_ITEMS</b>, indicating that all of the heap's memory blocks have been 
     enumerated.
 
 No special call of <b>HeapWalk</b> is needed to terminate the 
     heap enumeration, since no enumeration state data is maintained outside the contents of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure.
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure.
 
 <b>HeapWalk</b> can fail in a multithreaded application if the 
     heap is not locked during the heap enumeration.
@@ -127,36 +127,35 @@ No special call of <b>HeapWalk</b> is needed to terminate the
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
+<a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a>

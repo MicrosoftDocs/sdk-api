@@ -80,7 +80,7 @@ Array of WCHAR characters, of length <b>MAX_STRING_LENGTH</b>, that specifies th
 ### -field pFlow
 
 Pointer to the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> structure. This structure is placed immediately after the array of TC_GEN_FILTERS and is included in <b>Length</b>.
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> structure. This structure is placed immediately after the array of TC_GEN_FILTERS and is included in <b>Length</b>.
 
 ### -field NumberOfFilters
 
@@ -89,7 +89,7 @@ Specifies the number of filters associated with the flow.
 ### -field GenericFilter
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structures. The number of elements in the array corresponds to the number of filters attached to the specified flow. Note that in order to enumerate through the array of 
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structures. The number of elements in the array corresponds to the number of filters attached to the specified flow. Note that in order to enumerate through the array of 
 <b>TC_GEN_FILTER</b> structures, you need to increment the pointer to the current 
 <b>TC_GEN_FILTER</b> by using the following: 
 
@@ -97,17 +97,16 @@ Array of
 
 
 sizeof(TC_GEN_FILTER) + 2 * [the pattern size of the current 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structure].
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structure].
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a>
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
-
+<a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>

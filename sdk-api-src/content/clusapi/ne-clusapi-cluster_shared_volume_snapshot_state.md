@@ -71,9 +71,8 @@ TBD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustersharedvolumesetsnapshotstate">ClusterSharedVolumeSetSnapshotState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clustersharedvolumesetsnapshotstate">ClusterSharedVolumeSetSnapshotState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

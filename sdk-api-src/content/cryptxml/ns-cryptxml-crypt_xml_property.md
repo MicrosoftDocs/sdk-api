@@ -60,7 +60,7 @@ The <b>CRYPT_XML_PROPERTY</b> structure contains information about a CryptXML pr
 
 ### -field dwPropId
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_property_id">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
+A value of the <a href="/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_property_id">CRYPT_XML_PROPERTY_ID</a> enumeration that specifies the property type.
 
 ### -field pvValue
 
@@ -69,4 +69,3 @@ A pointer to a buffer that contains the property value.
 ### -field cbValue
 
 The size, in bytes, of the property value buffer pointed to by the <b>pvValue</b> member.
-

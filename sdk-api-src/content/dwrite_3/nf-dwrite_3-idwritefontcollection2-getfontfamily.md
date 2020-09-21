@@ -58,9 +58,9 @@ Zero-based index of the font family.
 
 ### -param fontFamily [out]
 
-Type: **[IDWriteFontFamily2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2)\*\***
+Type: **[IDWriteFontFamily2](./nn-dwrite_3-idwritefontfamily2.md)\*\***
 
-The address of a pointer to an [IDWriteFontFamily2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2) interface. On successful completion, the function sets the pointer to a newly created font family object.
+The address of a pointer to an [IDWriteFontFamily2](./nn-dwrite_3-idwritefontfamily2.md) interface. On successful completion, the function sets the pointer to a newly created font family object.
 
 ## -returns
 
@@ -71,4 +71,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

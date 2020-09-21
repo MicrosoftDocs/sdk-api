@@ -68,7 +68,7 @@ Pointer to a <b>DWORD</b>-sized memory location where the address identifier is 
 ### -param dwAddressMode
 
 Address mode of the address contained in <i>lpsAddress</i>. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ Constants</a>. You must specify LINEADDRESSMODE_DIALABLEADDR.
+<a href="/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ Constants</a>. You must specify LINEADDRESSMODE_DIALABLEADDR.
 
 ### -param lpsAddress
 
@@ -88,7 +88,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSMODE, LIN
 
 The 
 <b>lineGetAddressID</b> function is used to map a phone number (address) assigned to a line device back to its <i>dwAddressID</i> in the range zero to the number of addresses minus one returned in the line's device capabilities. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> function allows the application to make a call by specifying a line handle and an address on the line. The address can be specified as a <i>dwAddressID</i>, as a phone number, or as a device-specific name or identifier. Using a phone number can be practical in environments where a single line is assigned multiple addresses.
+<a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> function allows the application to make a call by specifying a line handle and an address on the line. The address can be specified as a <i>dwAddressID</i>, as a phone number, or as a device-specific name or identifier. Using a phone number can be practical in environments where a single line is assigned multiple addresses.
 
 <div class="alert"><b>Note</b>  LINEADDRESSMODE_ADDRESSID may not be used with 
 <b>lineGetAddressID</b>.</div>
@@ -102,13 +102,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>

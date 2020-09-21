@@ -60,19 +60,19 @@ Defines basic pen information common to all pointer types.
 
 Type: <b>POINTER_INFO</b>
 
-An embedded <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
+An embedded <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
 
 ### -field penFlags
 
 Type: <b>PEN_FLAGS</b>
 
-The pen flag. This member can be zero or any reasonable combination of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pen-flags-constants">Pen Flags</a> constants.
+The pen flag. This member can be zero or any reasonable combination of the values from the <a href="/previous-versions/windows/desktop/inputmsg/pen-flags-constants">Pen Flags</a> constants.
 
 ### -field penMask
 
 Type: <b>PEN_MASK</b>
 
-The pen mask. This member can be zero or any reasonable combination of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pen-mask-constants">Pen Mask</a> constants.
+The pen mask. This member can be zero or any reasonable combination of the values from the <a href="/previous-versions/windows/desktop/inputmsg/pen-mask-constants">Pen Mask</a> constants.
 
 ### -field pressure
 
@@ -102,9 +102,8 @@ The angle of tilt of the pointer along the y-axis in a range of -90 to +90, with
 
 ## -remarks
 
-Applications can retrieve this information using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfohistory">GetPointerFramePenInfoHistory</a> API functions.
+Applications can retrieve this information using the <a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a> and <a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfohistory">GetPointerFramePenInfoHistory</a> API functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>

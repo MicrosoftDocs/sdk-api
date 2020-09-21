@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>RM_SEND_WINDOW</b> structure specifies the Reliable Multicast send window. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-rm-socket-options">RM_RATE_WINDOW_SIZE</a> socket option.
+The <b>RM_SEND_WINDOW</b> structure specifies the Reliable Multicast send window. This structure is used with the <a href="/windows/desktop/WinSock/ipproto-rm-socket-options">RM_RATE_WINDOW_SIZE</a> socket option.
 
 ## -struct-fields
 
@@ -70,23 +70,22 @@ Window size for the session, in bytes.
 
 ## -remarks
 
-Any combination of the three available members may be set for a given socket option call. For example, one, any two, or all three members may be specified during a <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function call. Regardless of settings, Windows enforces the following ratio: <b>TransmissionRate</b> == (<b>WindowSizeBytes</b>/<b>WindowSizeMSecs</b>) * 8. As such, setting any two parameters effectively sets the third to ensure optimum performance. 
+Any combination of the three available members may be set for a given socket option call. For example, one, any two, or all three members may be specified during a <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function call. Regardless of settings, Windows enforces the following ratio: <b>TransmissionRate</b> == (<b>WindowSizeBytes</b>/<b>WindowSizeMSecs</b>) * 8. As such, setting any two parameters effectively sets the third to ensure optimum performance. 
 
 The combination of these members can affect the resources used on a PGM sender's computer. For example, a large transmission rate value combined with a large window size results in more required buffer space.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-rm-socket-options">IPPROTO_RM Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-rm-socket-options">IPPROTO_RM Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
+<a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>
+<a href="/windows/desktop/WinSock/socket-options">Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>

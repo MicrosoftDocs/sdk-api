@@ -57,7 +57,7 @@ The <b>SaferiIsExecutableFileType</b> function determines whether a specified fi
 
 ### -param szFullPathname [in]
 
-Pointer to a <b>null</b>-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
+Pointer to a <b>null</b>-terminated <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> character string for the name of the file. The path is optional because only the file name extension is evaluated. The evaluation of the file name extension is not case-sensitive. This parameter cannot be <b>NULL</b> or an empty string, and the specified file must include a file name extension.
 
 ### -param bFromShellExecute [in]
 
@@ -96,4 +96,3 @@ The security policy Microsoft Management Console (MMC) snap-in (Secpol.msc) cont
 </ol>
 <div class="alert"><b>Note</b>  To view the <b>Designated File Types</b> property page, you may need to create  the <b>Software Restriction Policies</b> node. To create  the <b>Software Restriction Policies</b> node, follow the instructions that appear when you expand <b>Software Restriction Policies</b>.</div>
 <div> </div>
-

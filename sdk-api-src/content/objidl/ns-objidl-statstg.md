@@ -54,23 +54,23 @@ api_name:
 
 The 
 <b>STATSTG</b> structure contains statistical data about an open storage, stream, or byte-array object. This structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interfaces.
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>, 
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>, 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>, and 
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interfaces.
 
 ## -struct-fields
 
 ### -field pwcsName
 
 A pointer to a <b>NULL</b>-terminated Unicode string that contains the name. Space for this string is allocated by the method called and freed by the caller (for more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>). To  not return this member, specify the STATFLAG_NONAME value when you call a method that returns a 
-<b>STATSTG</b> structure, except for calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG::Next</a>, which provides no way to specify this value.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>). To  not return this member, specify the STATFLAG_NONAME value when you call a method that returns a 
+<b>STATSTG</b> structure, except for calls to <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG::Next</a>, which provides no way to specify this value.
 
 ### -field type
 
 Indicates the type of storage object. This is one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-stgty">STGTY</a> enumeration.
+<a href="/windows/desktop/api/objidl/ne-objidl-stgty">STGTY</a> enumeration.
 
 ### -field cbSize
 
@@ -96,7 +96,7 @@ Indicates the access mode specified when the object was opened. This member is o
 ### -field grfLocksSupported
 
 Indicates the types of region locking supported by the stream or byte array. For more information about the values available, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration. This member is not used for storage objects.
+<a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration. This member is not used for storage objects.
 
 ### -field clsid
 
@@ -105,7 +105,7 @@ Indicates the class identifier for the storage object; set to CLSID_NULL for new
 ### -field grfStateBits
 
 Indicates the current state bits of the storage object; that is, the value most recently set by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setstatebits">IStorage::SetStateBits</a> method. This member is not valid for streams or byte arrays.
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-setstatebits">IStorage::SetStateBits</a> method. This member is not valid for streams or byte arrays.
 
 ### -field reserved
 
@@ -113,5 +113,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setelementtimes">IStorage::SetElementTimes</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-setelementtimes">IStorage::SetElementTimes</a>

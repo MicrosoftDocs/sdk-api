@@ -55,7 +55,7 @@ api_name:
 
 <p class="CCE_Message">[This function has been deprecated and should not be used.]
 
-The <b>CM_Get_HW_Prof_Flags_Ex</b> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.
+The <b>CM_Get_HW_Prof_Flags_Ex</b> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.
 
 ## -parameters
 
@@ -103,7 +103,7 @@ Reserved for internal use. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A machine handle that is returned by call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a> or <b>NULL</b>. If this parameter is set to <b>NULL</b>, <b>CM_Get_HW_Prof_Flags_Ex</b> retrieves the configuration flags on the local machine.
+A machine handle that is returned by call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a> or <b>NULL</b>. If this parameter is set to <b>NULL</b>, <b>CM_Get_HW_Prof_Flags_Ex</b> retrieves the configuration flags on the local machine.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -133,7 +133,7 @@ If the operation succeeds, <b>CM_Get_HW_Prof_Flags</b> returns CR_SUCCESS. Other
 
 ## -remarks
 
-To retrieve a list of the hardware profile IDs that are currently defined on a remote machine, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>.
+To retrieve a list of the hardware profile IDs that are currently defined on a remote machine, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -146,13 +146,12 @@ To retrieve a list of the hardware profile IDs that are currently defined on a r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa">CM_Get_HW_Prof_Flags</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa">CM_Get_HW_Prof_Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynameexa">SetupDiGetHwProfileFriendlyNameEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynameexa">SetupDiGetHwProfileFriendlyNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>

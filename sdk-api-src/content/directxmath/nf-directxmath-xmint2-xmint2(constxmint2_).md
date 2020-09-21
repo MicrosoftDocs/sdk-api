@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMINT2</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>.
+A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>

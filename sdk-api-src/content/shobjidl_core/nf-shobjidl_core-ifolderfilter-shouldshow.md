@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Specifies whether an individual item should be allowed through the filter and which should be blocked. When used with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a>, specifies which items should be shown in the dialog box tree view and which should not. The determination to show or not show an item is up to the application.
+Specifies whether an individual item should be allowed through the filter and which should be blocked. When used with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a>, specifies which items should be shown in the dialog box tree view and which should not. The determination to show or not show an item is up to the application.
 
 ## -parameters
 
 ### -param psf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the folder's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface.
+A pointer to the folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface.
 
 ### -param pidlFolder [in]
 
@@ -82,7 +82,7 @@ Returns S_OK if the item should be shown, S_FALSE if it should not be shown, or 
 
 The host calls this method for each item in the folder referred to by <i>psf</i> or <i>pidlFolder</i>.
 
-It is recommended that your implementation convert the <i>psf</i> and <i>pidlItem</i> information into an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>, which is easier to consume. The following example shows this:
+It is recommended that your implementation convert the <i>psf</i> and <i>pidlItem</i> information into an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>, which is easier to consume. The following example shows this:
 
                 
 
@@ -109,5 +109,4 @@ STDMETHODIMP ShouldShow(IShellFolder *psf,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter">IFolderFilter</a>

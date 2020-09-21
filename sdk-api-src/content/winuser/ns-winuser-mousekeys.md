@@ -60,13 +60,13 @@ Contains information about the MouseKeys accessibility feature. When the MouseKe
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit-flags that specify properties of the FilterKeys feature. The following bit-flag values are defined:
@@ -225,7 +225,7 @@ If this flag is set, the MouseKeys feature is on.
 
 ### -field iMaxSpeed
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the maximum speed the mouse cursor attains when an arrow key is held down.
 
@@ -235,33 +235,33 @@ Specifies the maximum speed the mouse cursor attains when an arrow key is held d
 
 ### -field iTimeToMaxSpeed
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that it takes for the mouse cursor to reach maximum speed when an arrow key is held down. Valid values are from 1000 to 5000.
 
 ### -field iCtrlSpeed
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the multiplier to apply to the mouse cursor speed when the user holds down the CTRL key while using the arrow keys to move the cursor. this value is ignored if MKF_MODIFIERS is not set.
 
 ### -field dwReserved1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 This member is reserved for future use. It must be set to zero.
 
 ### -field dwReserved2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 This member is reserved for future use. It must be set to zero.
 
 ## -remarks
 
-An application uses a <b>MOUSEKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETMOUSEKEYS</b> or <b>SPI_SETMOUSEKEYS</b> value. When using <b>SPI_GETMOUSEKEYS</b>, an application must specify the <b>cbSize</b> member of the <b>MOUSEKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETMOUSEKEYS</b> value.
+An application uses a <b>MOUSEKEYS</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETMOUSEKEYS</b> or <b>SPI_SETMOUSEKEYS</b> value. When using <b>SPI_GETMOUSEKEYS</b>, an application must specify the <b>cbSize</b> member of the <b>MOUSEKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETMOUSEKEYS</b> value.
 
-If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETMOUSEKEYS</b> value, the following flags are ignored:
+If you call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETMOUSEKEYS</b> value, the following flags are ignored:
 
 <ul>
 <li><b>MKF_LEFTBUTTONDOWN</b></li>
@@ -273,9 +273,8 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

@@ -56,7 +56,7 @@ Retrieves a pointer to an interface on an object that is usable by the calling a
 
 ### -param dwCookie [in]
 
-Identifies the interface (and its object), and is retrieved through a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">IGlobalInterfaceTable::RegisterInterfaceInGlobal</a>.
+Identifies the interface (and its object), and is retrieved through a call to <a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">IGlobalInterfaceTable::RegisterInterfaceInGlobal</a>.
 
 ### -param riid [in]
 
@@ -103,11 +103,10 @@ One or more parameters are invalid.
 
 After an interface has been registered in the global interface table, an apartment can get a pointer to this interface by calling the <b>GetInterfaceFromGlobal</b> method with the supplied cookie. This pointer to the interface can be used in the calling apartment but not by other apartments in the process.
 
-The application is responsible for coordinating access to the global variable during calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">IGlobalInterfaceTable::RevokeInterfaceFromGlobal</a>. That is, the application should ensure that one thread does not call <b>RevokeInterfaceFromGlobal</b> while another thread is calling <b>GetInterfaceFromGlobal</b> with the same cookie. Multiple calls to <b>GetInterfaceFromGlobal</b> for the same cookie are permitted.
+The application is responsible for coordinating access to the global variable during calls to <a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">IGlobalInterfaceTable::RevokeInterfaceFromGlobal</a>. That is, the application should ensure that one thread does not call <b>RevokeInterfaceFromGlobal</b> while another thread is calling <b>GetInterfaceFromGlobal</b> with the same cookie. Multiple calls to <b>GetInterfaceFromGlobal</b> for the same cookie are permitted.
 
-The <b>GetInterfaceFromGlobal</b> method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer obtained in the <i>ppv</i> parameter. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer.
+The <b>GetInterfaceFromGlobal</b> method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer obtained in the <i>ppv</i> parameter. It is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>

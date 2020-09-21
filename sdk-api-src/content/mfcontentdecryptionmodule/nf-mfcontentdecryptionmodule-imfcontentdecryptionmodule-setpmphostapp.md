@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Allows the caller to specify the [IMFPMPHostApp](/windows/win32/api/mfidl/nn-mfidl-imfpmphostapp) interface, which represents a protected process. The **IMFPMPHostApp** interface is used by the Content Decryption Module (CDM) to create the IMFTrustedInput object.
+Allows the caller to specify the [IMFPMPHostApp](../mfidl/nn-mfidl-imfpmphostapp.md) interface, which represents a protected process. The **IMFPMPHostApp** interface is used by the Content Decryption Module (CDM) to create the IMFTrustedInput object.
 
 ## -parameters
 
@@ -57,4 +57,3 @@ Returns S_OK on success.
 ## -remarks
 
 ## -see-also
-

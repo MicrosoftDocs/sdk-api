@@ -56,11 +56,11 @@ Retrieves an enumerator for the component categories registered on the system.
 
 ### -param lcid [in]
 
-The requested locale for any return szDescription of the enumerated categories. Typically, the caller specifies the value returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a> function.
+The requested locale for any return szDescription of the enumerated categories. Typically, the caller specifies the value returned from the <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a> function.
 
 ### -param ppenumCategoryInfo [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-ienumcategoryinfo">IEnumCATEGORYINFO</a> interface. This can be used to enumerate the CATIDs and localized description strings of the component categories registered with the system.
+A pointer to a pointer to an <a href="/windows/desktop/api/comcat/nn-comcat-ienumcategoryinfo">IEnumCATEGORYINFO</a> interface. This can be used to enumerate the CATIDs and localized description strings of the component categories registered with the system.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>

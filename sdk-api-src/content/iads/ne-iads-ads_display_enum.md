@@ -66,16 +66,15 @@ The path is displayed with values only. For example, Jeff Smith.
 
 ## -remarks
 
-This enumeration is used in  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-setdisplaytype">IADsPathname::SetDisplayType</a> method to specify how a path  is to be displayed.
+This enumeration is used in  <a href="/windows/desktop/api/iads/nf-iads-iadspathname-setdisplaytype">IADsPathname::SetDisplayType</a> method to specify how a path  is to be displayed.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not understand the symbolic constants as defined above. You should use the numeric constants instead to set the appropriate flags in your VBScript applications. If you want to use the symbolic constants as a good programming practice, you should create explicit declarations of such constants, as done here, in your VBScript applications.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-setdisplaytype">IADsPathname::SetDisplayType</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspathname-setdisplaytype">IADsPathname::SetDisplayType</a>

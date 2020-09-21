@@ -54,7 +54,7 @@ Use this interface to receive a success or failure notification when a Windows C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCNConnectNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCNConnectNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCNConnectNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCNConnectNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,19 +69,19 @@ The <b>IWCNConnectNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectfailed">ConnectFailed</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectfailed">ConnectFailed</a>
 </td>
 <td align="left" width="63%">
-A callback method that indicates a <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation failure.
+A callback method that indicates a <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation failure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectsucceeded">ConnectSucceeded</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectsucceeded">ConnectSucceeded</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectsucceeded">IWCNConnectNotify::ConnectSucceeded</a> callback method that indicates a successful <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
+The <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcnconnectnotify-connectsucceeded">IWCNConnectNotify::ConnectSucceeded</a> callback method that indicates a successful <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
 </td>
 </tr>
@@ -89,5 +89,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice:Connect</a>
-
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice:Connect</a>

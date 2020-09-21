@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code.
+Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
 
 ### -field fChanged
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A value indicating whether the contents of the control's edit box have changed. This value is nonzero if the contents have been modified, or zero otherwise.
 
@@ -78,7 +78,7 @@ The zero-based index of the item that will be selected after completing the edit
 
 ### -field szText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
 A zero-terminated string that contains the text from within the control's edit box.
 
@@ -86,7 +86,7 @@ A zero-terminated string that contains the text from within the control's edit b
 
 Type: <b>int</b>
 
-A value that specifies the action that generated the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
+A value that specifies the action that generated the <a href="/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
 
 <table>
 <tr>
@@ -139,4 +139,3 @@ The user completed the edit operation by pressing ENTER.
 
 > [!NOTE]
 > The commctrl.h header defines NMCBEENDEDIT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

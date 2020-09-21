@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>RoleAssignments</b> property retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects that represent the role assignments associated with this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object.
+The <b>RoleAssignments</b> property retrieves a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects that represent the role assignments associated with this <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object.
 
 This property is read-only.
 
 ## -parameters
-

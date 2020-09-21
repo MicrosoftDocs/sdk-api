@@ -72,5 +72,4 @@ If the values returned in the <i>pbActive</i> and <i>pbEnabled</i> parameters ar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>
-
+<a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>

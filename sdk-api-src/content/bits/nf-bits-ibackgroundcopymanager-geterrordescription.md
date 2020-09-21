@@ -61,7 +61,7 @@ Error code from a previous call to a BITS method.
 ### -param LanguageId [in]
 
 Identifies the language identifier to use to generate the description. To create the language identifier, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -75,7 +75,7 @@ To retrieve the system's default user language identifier, use the following cal
 ### -param pErrorDescription [out]
 
 Null-terminated string that contains a description of the error. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
 
 ## -returns
 
@@ -120,9 +120,9 @@ Descriptions for HTTP errors are  localized.
 #### Examples
 
 The following example shows how to retrieve the description associated with an error code. The g_XferManager variable in the example is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a> interface pointer. For details on creating the 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a> interface pointer. For details on creating the 
 <b>IBackgroundCopyManager</b> interface pointer, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
+<a href="/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
 
 
 ```cpp
@@ -145,13 +145,12 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/handling-errors">Handling Errors</a>
+<a href="/windows/desktop/Bits/handling-errors">Handling Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>

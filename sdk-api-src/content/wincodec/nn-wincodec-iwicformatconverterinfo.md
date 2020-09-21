@@ -54,7 +54,7 @@ Exposes methods that provide information about a pixel format converter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverterInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICFormatConverterInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverterInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICFormatConverterInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICFormatConverterInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverterinfo-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverterinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter">IWICFormatConverter</a> instance.
+Creates a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter">IWICFormatConverter</a> instance.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverterinfo-getpixelformats">GetPixelFormats</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverterinfo-getpixelformats">GetPixelFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of GUIDs that signify which pixel formats the converter supports.
@@ -86,4 +86,3 @@ Retrieves a list of GUIDs that signify which pixel formats the converter support
 </td>
 </tr>
 </table>
-

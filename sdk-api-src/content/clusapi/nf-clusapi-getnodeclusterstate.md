@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-Determines whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> is installed and 
-    running on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>. The <b>PCLUSAPI_GET_NODE_CLUSTER_STATE</b> type defines a pointer to this function.
+Determines whether the <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> is installed and 
+    running on a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>. The <b>PCLUSAPI_GET_NODE_CLUSTER_STATE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Pointer to a null-terminated Unicode string containing the name of the node to q
 ### -param pdwClusterState [out]
 
 Pointer to a value describing the state of the Cluster service on the node. A node will be described by one 
-       of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-node_cluster_state">NODE_CLUSTER_STATE</a> enumeration 
+       of the following <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-node_cluster_state">NODE_CLUSTER_STATE</a> enumeration 
        values.
 
 
@@ -97,19 +97,18 @@ The Cluster service is installed, configured, and running on the node.
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0). If the operation 
-       fails, the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       fails, the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 <b>Note</b>  The <b>GetNodeClusterState</b> function does not 
-     support a 64-bit Windows-based <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> if the calling application is 
+     support a 64-bit Windows-based <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> if the calling application is 
      32-bit Windows-based.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-node_cluster_state">NODE_CLUSTER_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-node_cluster_state">NODE_CLUSTER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

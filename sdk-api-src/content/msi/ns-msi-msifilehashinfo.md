@@ -56,15 +56,15 @@ api_name:
 
 The 
 <b>MSIFILEHASHINFO</b> structure contains the file hash information returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> and used in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> and used in the 
+<a href="/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>.
 
 ## -struct-fields
 
 ### -field dwFileHashInfoSize
 
 Specifies the size, in bytes, of this data structure. Set this member to <code>sizeof(MSIFILEHASHINFO)</code> before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> function.
+<a href="/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> function.
 
 ### -field dwData
 
@@ -73,18 +73,17 @@ The entire 128-bit file hash is contained in four 32-bit fields. The first field
 ## -remarks
 
 The file hash entered into the fields of the MsiFileHash table must be obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-filehash">FileHash method</a>. Do not use other methods to generate a file hash.
+<a href="/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a> or the 
+<a href="/windows/desktop/Msi/installer-filehash">FileHash method</a>. Do not use other methods to generate a file hash.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/default-file-versioning">Default File Versioning</a>
+<a href="/windows/desktop/Msi/default-file-versioning">Default File Versioning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>
+<a href="/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a>
-
+<a href="/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a>

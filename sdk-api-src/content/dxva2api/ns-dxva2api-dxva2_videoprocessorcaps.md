@@ -226,11 +226,11 @@ The device can undo the 3:2 pulldown process used in telecine.
 
 ### -field ProcAmpControlCaps
 
-Specifies the available video processor (ProcAmp) operations. The value is a bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/medfound/procamp-settings">ProcAmp Settings</a> constants.
+Specifies the available video processor (ProcAmp) operations. The value is a bitwise OR of <a href="/windows/desktop/medfound/procamp-settings">ProcAmp Settings</a> constants.
 
 ### -field VideoProcessorOperations
 
-Specifies operations that the device can perform concurrently with the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> operation. The value is a bitwise <b>OR</b> of the following flags.
+Specifies operations that the device can perform concurrently with the <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> operation. The value is a bitwise <b>OR</b> of the following flags.
 
 <table>
 <tr>
@@ -303,7 +303,7 @@ The device can accept substreams in addition to the primary video stream, and ca
 </dl>
 </td>
 <td width="60%">
-The device can perform color adjustments on the primary video stream and substreams, at the same time that it deinterlaces the video and composites the substreams. The destination color space is defined in the <b>DestFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure. The source color space for each stream is defined in the SampleFormat member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a> structure.
+The device can perform color adjustments on the primary video stream and substreams, at the same time that it deinterlaces the video and composites the substreams. The destination color space is defined in the <b>DestFormat</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure. The source color space for each stream is defined in the SampleFormat member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a> structure.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ The device can perform an alpha blend operation with the destination surface whe
 </dl>
 </td>
 <td width="60%">
-The device can downsample the output frame, as specified by the <b>ConstrictionSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure.
+The device can downsample the output frame, as specified by the <b>ConstrictionSize</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure.
 
 </td>
 </tr>
@@ -529,17 +529,16 @@ Sharpen filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">IDirectXVideoProcessor::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">IDirectXVideoProcessor::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -54,7 +54,7 @@ Exposes methods that perform operations with streams.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRDPSRAPITransportStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-allocbuffer">AllocBuffer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-allocbuffer">AllocBuffer</a>
 </td>
 <td align="left" width="63%">
 Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
@@ -78,7 +78,7 @@ Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-close">Close</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-close">Close</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to close the stream.
@@ -87,7 +87,7 @@ Called by the RDP stack to close the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-freebuffer">FreeBuffer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-freebuffer">FreeBuffer</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to return a stream buffer to the stream.
@@ -96,7 +96,7 @@ Called by the RDP stack to return a stream buffer to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-open">Open</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-open">Open</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to start the stream and indicate that the RDP stack is ready to receive notifications of events.
@@ -105,7 +105,7 @@ Called by the RDP stack to start the stream and indicate that the RDP stack is r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-readbuffer">ReadBuffer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-readbuffer">ReadBuffer</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to read the contents of a stream buffer.
@@ -114,7 +114,7 @@ Called by the RDP stack to read the contents of a stream buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-writebuffer">WriteBuffer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-writebuffer">WriteBuffer</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to write the contents of a stream buffer to the network.
@@ -125,9 +125,8 @@ Called by the RDP stack to write the contents of a stream buffer to the network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>

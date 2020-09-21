@@ -82,7 +82,7 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -90,5 +90,4 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-nextmenu">WM_NEXTMENU</a>
-
+<a href="/windows/desktop/menurc/wm-nextmenu">WM_NEXTMENU</a>

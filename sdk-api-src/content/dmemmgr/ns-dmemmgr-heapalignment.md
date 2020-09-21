@@ -64,7 +64,7 @@ Specifies the size in bytes of this HEAPALIGNMENT structure.
 
 ### -field ddsCaps
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that indicates what alignment fields are valid.
+Specifies a <a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that indicates what alignment fields are valid.
 
 ### -field dwReserved
 
@@ -72,7 +72,7 @@ Reserved for system use.
 
 ### -field ExecuteBuffer
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER.
+Specifies a <a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER.
 
 ### -field Overlay
 
@@ -84,7 +84,7 @@ Specifies a SURFACEALIGNMENT structure that contains heap alignment requirements
 
 ### -field ZBuffer
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER.
+Specifies a <a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER.
 
 ### -field AlphaBuffer
 
@@ -104,9 +104,8 @@ The driver should verify that the <b>dwSize</b> member is at least as large as <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
-
+<a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>

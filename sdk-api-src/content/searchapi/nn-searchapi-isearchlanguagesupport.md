@@ -54,7 +54,7 @@ Provides methods for accessing thesaurus information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchLanguageSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchLanguageSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchLanguageSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchLanguageSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchLanguageSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266438(v=vs.85)">EnumerateExpandedTerms</a>
+<a href="/previous-versions/windows/desktop/legacy/bb266438(v=vs.85)">EnumerateExpandedTerms</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration of thesaurus terms for a specified word.
@@ -78,7 +78,7 @@ Gets an enumeration of thesaurus terms for a specified word.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-getdiacriticsensitivity">GetDiacriticSensitivity</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-getdiacriticsensitivity">GetDiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Gets the sensitivity of an implemented <b>ISearchLanguageSupport</b> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
@@ -87,7 +87,7 @@ Gets the sensitivity of an implemented <b>ISearchLanguageSupport</b> interface t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266441(v=vs.85)">IsNoiseWord</a>
+<a href="/previous-versions/windows/desktop/legacy/bb266441(v=vs.85)">IsNoiseWord</a>
 </td>
 <td align="left" width="63%">
 Checks a word against a list of words that have been excluded from indexing.
@@ -96,7 +96,7 @@ Checks a word against a list of words that have been excluded from indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-isprefixnormalized">IsPrefixNormalized</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-isprefixnormalized">IsPrefixNormalized</a>
 </td>
 <td align="left" width="63%">
 Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
@@ -105,7 +105,7 @@ Determines whether the query token is a prefix of the document token, disregardi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-loadstemmer">LoadStemmer</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-loadstemmer">LoadStemmer</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface to the word stemmer registered for the specified LCID.
@@ -114,7 +114,7 @@ Retrieves an interface to the word stemmer registered for the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-loadwordbreaker">LoadWordBreaker</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-loadwordbreaker">LoadWordBreaker</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface to the word breaker registered for the specified LCID.
@@ -123,7 +123,7 @@ Retrieves an interface to the word breaker registered for the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-setdiacriticsensitivity">SetDiacriticSensitivity</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchlanguagesupport-setdiacriticsensitivity">SetDiacriticSensitivity</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether an implemented <b>ISearchLanguageSupport</b> interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation. 
@@ -135,4 +135,3 @@ Sets a value that indicates whether an implemented <b>ISearchLanguageSupport</b>
 ## -remarks
 
 A thesaurus file contains a word and a list of words to substitute when querying. It is specific to a catalog and can be defined in more than one file.
-

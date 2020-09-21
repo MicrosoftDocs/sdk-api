@@ -61,13 +61,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>  helper function is equivalent to calling this method.
+The <a href="/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>  helper function is equivalent to calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>
-
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>

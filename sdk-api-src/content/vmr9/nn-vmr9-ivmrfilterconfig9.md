@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IVMRFilterConfig9</code> interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>. Applications use this interface to configure the VMR's operating mode and video rendering mechanisms. Applications must add the VMR to the graph and configure it before it is connected to any upstream filters (for example, in a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a>). Once a filter has been connected to the VMR, the VMR's configuration is locked and all future attempts to alter it fail.
+The <code>IVMRFilterConfig9</code> interface is implemented by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>. Applications use this interface to configure the VMR's operating mode and video rendering mechanisms. Applications must add the VMR to the graph and configure it before it is connected to any upstream filters (for example, in a call to <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a>). Once a filter has been connected to the VMR, the VMR's configuration is locked and all future attempts to alter it fail.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRFilterConfig9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRFilterConfig9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRFilterConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRFilterConfig9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVMRFilterConfig9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getnumberofstreams">GetNumberOfStreams</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getnumberofstreams">GetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input streams being mixed.
@@ -79,7 +79,7 @@ Retrieves the number of input streams being mixed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingmode">GetRenderingMode</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingmode">GetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rendering mode currently being used by the VMR.
@@ -88,7 +88,7 @@ Retrieves the rendering mode currently being used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">GetRenderingPrefs</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">GetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current set of rendering preferences being used by the VMR.
@@ -97,7 +97,7 @@ Retrieves the current set of rendering preferences being used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setimagecompositor">SetImageCompositor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setimagecompositor">SetImageCompositor</a>
 </td>
 <td align="left" width="63%">
 Installs an application-provided image compositor object.
@@ -106,7 +106,7 @@ Installs an application-provided image compositor object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">SetNumberOfStreams</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">SetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
@@ -115,7 +115,7 @@ Sets the number of streams to be mixed and instructs the VMR to go into mixer mo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">SetRenderingMode</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">SetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Sets the rendering mode used by the VMR.
@@ -124,7 +124,7 @@ Sets the rendering mode used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">SetRenderingPrefs</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">SetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets various application preferences related to video rendering.
@@ -135,5 +135,4 @@ Sets various application preferences related to video rendering.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

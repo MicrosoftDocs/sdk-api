@@ -56,25 +56,24 @@ api_name:
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_KEY</b> structure is used to specify a particular reservation record in the URL namespace reservation store. It is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structures.
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> and 
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structures.
 
 ## -struct-fields
 
 ### -field pUrlPrefix
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that defines the portion of the URL namespace to which this reservation pertains.
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that defines the portion of the URL namespace to which this reservation pertains.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>
-
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>

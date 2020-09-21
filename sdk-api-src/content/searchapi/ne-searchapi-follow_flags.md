@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-Used to help define behavior when crawling or indexing.  These flags are used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule">ISearchCrawlScopeManager::AddUserScopeRule</a> methods.
+Used to help define behavior when crawling or indexing.  These flags are used by the <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule">ISearchCrawlScopeManager::AddUserScopeRule</a> methods.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ Specifies whether complex URLs (those containing a '?') should be indexed.
 ### -field FF_SUPPRESSINDEXING
 
 Follow but do not index this URL.
-

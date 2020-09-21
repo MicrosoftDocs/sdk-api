@@ -206,13 +206,12 @@ The cell clip threshold. Clipping bounds the elements of a tensor in the range o
 
 ### -field UseClipThreshold
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if <i>ClipThreshold</i> should be used. Otherwise, <b>FALSE</b>.
 
 ### -field CoupleInputForget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the input and forget gates should be coupled. Otherwise, <b>FALSE</b>.
-

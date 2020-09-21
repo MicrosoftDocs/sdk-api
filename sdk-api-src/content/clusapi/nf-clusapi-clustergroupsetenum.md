@@ -57,7 +57,7 @@ Returns the next enumerable object.
 ### -param hGroupSetEnum [in]
 
 A handle to an open cluster node enumeration
-    returned by <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
+    returned by <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
 
 ### -param dwIndex [in]
 
@@ -82,5 +82,4 @@ Points to a variable that specifies the size, in characters,
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

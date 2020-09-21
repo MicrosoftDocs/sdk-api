@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The <b>IUIContextualUI</b> interface is implemented by the 
-				Ribbon framework and provides the core functionality for the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> View.
+				Ribbon framework and provides the core functionality for the <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> View.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIContextualUI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIContextualUI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIContextualUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIContextualUI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IUIContextualUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation">ShowAtLocation</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation">ShowAtLocation</a>
 </td>
 <td align="left" width="63%">
-Displays a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+Displays a <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 		
 
 </td>
@@ -82,32 +82,31 @@ Displays a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/win
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is composed of two components: the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> elements.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is composed of two components: the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> elements.
 			
 				
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> acts solely as a logical container for the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a>. It does not
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> acts solely as a logical container for the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a>. It does not
 				support scrolling, moving, or resizing. 
 			</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is typically displayed by right-clicking the mouse (or through the keyboard shortcut  SHIFT+F10) on an object of interest. The steps required to display the Context Popup are defined by the application.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is typically displayed by right-clicking the mouse (or through the keyboard shortcut  SHIFT+F10) on an object of interest. The steps required to display the Context Popup are defined by the application.
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> is a list of menu items that is contextual and based on  
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> is a list of menu items that is contextual and based on  
 				the control clicked or the control with focus (when using the keyboard).
 			
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> is a floating toolbar that incorporates various Commands, galleries, and complex controls such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a> and the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> is a floating toolbar that incorporates various Commands, galleries, and complex controls such as the <a href="/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a> and the <a href="/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>.
 			
 
-The following screen shot shows the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> with a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a>.
+The following screen shot shows the <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> with a <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a>.
 
 <img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="./images/IUIContextualUI_Concepts.png"/>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-contextpopupsample">ContextPopup Sample</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-contextpopupsample">ContextPopup Sample</a>

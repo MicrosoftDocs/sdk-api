@@ -61,9 +61,9 @@ Each document that is added to the metadata object may contain references to
                 being returned cannot be verified as being one of the host names expected.
                 The expected host names are a union of the following:
             <ul>
-<li>The host name of any URL previously passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>.
+<li>The host name of any URL previously passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>.
                 </li>
-<li>The list of host names specified using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
+<li>The list of host names specified using the <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
             </li>
 </ul>
 </div><div> </div>
@@ -90,7 +90,7 @@ On success this parameter is populated with either a pointer to the
 
 ### -param error [in, optional]
 
-This parameter is a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
+This parameter is a  <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> pointer to where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -145,4 +145,3 @@ Whether or not this function will verify host names of URLs returned can be
 The purpose of the host name verification is to ensure that an application
                 does not use the address without knowing that it is from a host that it 
                 is willing to accept metadata from.
-

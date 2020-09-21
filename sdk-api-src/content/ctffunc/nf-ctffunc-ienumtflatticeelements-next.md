@@ -60,9 +60,9 @@ Specifies the number of elements to obtain.
 
 ### -param rgsElements [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ns-ctffunc-tf_lmlattelement">TF_LMLATTELEMENT</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="/windows/desktop/api/ctffunc/ns-ctffunc-tf_lmlattelement">TF_LMLATTELEMENT</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
 
-The caller must free the <b>bstrText</b> member of every structure obtained using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+The caller must free the <b>bstrText</b> member of every structure obtained using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ### -param pcFetched [out]
 
@@ -114,10 +114,9 @@ The method reached the end of the enumeration before the specified number of ele
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ns-ctffunc-tf_lmlattelement">TF_LMLATTELEMENT
+<a href="/windows/desktop/api/ctffunc/ns-ctffunc-tf_lmlattelement">TF_LMLATTELEMENT
       </a>
-

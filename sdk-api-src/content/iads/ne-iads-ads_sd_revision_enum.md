@@ -68,5 +68,4 @@ Because VBScript cannot read data from a type library, VBScript applications can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
-
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>

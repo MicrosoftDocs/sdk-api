@@ -80,7 +80,7 @@ A pointer to a null-terminated string that contains the title of the message box
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.
@@ -234,4 +234,3 @@ The default button displayed by the message box should agree with your <i>iDefau
 
 > [!NOTE]
 > The shlwapi.h header defines SHMessageBoxCheck as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

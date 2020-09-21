@@ -86,9 +86,8 @@ Because of the recursive nature of <b>IOleObject::IsUpToDate</b>, determining wh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>

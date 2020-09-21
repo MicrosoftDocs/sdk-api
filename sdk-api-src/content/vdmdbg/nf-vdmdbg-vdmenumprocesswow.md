@@ -58,7 +58,7 @@ Enumerates all virtual DOS machines running 16-bit Windows tasks.
 
 ### -param fp [in]
 
-A pointer to a callback function. The function is called for each enumerated VDM. For details, see the <a href="https://docs.microsoft.com/previous-versions/bb963829(v=vs.85)">ProcessVDMs</a> callback function.
+A pointer to a callback function. The function is called for each enumerated VDM. For details, see the <a href="/previous-versions/bb963829(v=vs.85)">ProcessVDMs</a> callback function.
 
 ### -param lparam [in]
 
@@ -132,4 +132,3 @@ The following example shows how to enumerate virtual DOS machines running 16-bit
 
 
 ```
-

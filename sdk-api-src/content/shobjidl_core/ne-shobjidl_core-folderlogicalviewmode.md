@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getviewmode">IFolderViewSettings::GetViewMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfolderlogicalviewmode">ISearchFolderItemFactory::SetFolderLogicalViewMode</a> to describe the view mode.
+Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getviewmode">IFolderViewSettings::GetViewMode</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfolderlogicalviewmode">ISearchFolderItemFactory::SetFolderLogicalViewMode</a> to describe the view mode.
 
 ## -enum-fields
 
@@ -85,4 +85,3 @@ Icons view.
 ### -field FLVM_LAST
 
 The maximum valid enumeration value. Used for validation purposes only.
-

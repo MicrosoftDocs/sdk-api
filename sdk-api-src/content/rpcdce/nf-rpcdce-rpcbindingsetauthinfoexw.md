@@ -65,13 +65,13 @@ Server binding handle into which authentication and authorization information is
 
 Pointer to the expected principal name of the server referenced by <i>Binding</i>. The content of the name and its syntax are defined by the authentication service in use.
 
-<div class="alert"><b>Note</b>  For the set of allowable target names for SSPs, please refer to the comments in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> documentation.</div>
+<div class="alert"><b>Note</b>  For the set of allowable target names for SSPs, please refer to the comments in the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> documentation.</div>
 <div> </div>
 
 ### -param AuthnLevel
 
 Level of authentication to be performed on remote procedure calls made using <i>Binding</i>. For a list of the RPC-supported authentication levels, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
 ### -param AuthnSvc
 
@@ -88,8 +88,8 @@ Handle for the structure that contains the client's authentication and authoriza
 
 
 
-When using the <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a>authentication service <i>AuthIdentity</i> should be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
+When using the <a href="/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a>authentication service <i>AuthIdentity</i> should be a pointer to a 
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
 <b>SEC_WINNT_AUTH_IDENTITY</b> structure.
 
 Specify a null value to use the security login context for the current address space. Pass the value RPC_C_NO_CREDENTIALS to use an anonymous log-in context. Note that RPC_C_NO_CREDENTIALS is only valid if RPC_C_AUTHN_GSS_SCHANNEL is selected as the authentication service.
@@ -101,13 +101,13 @@ Authorization service implemented by the server for the interface of interest. T
 ### -param SecurityQOS
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 
 
 
 
 
 <div class="alert"><b>Note</b>  For a list of the RPC-supported authentication services, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
+<a href="/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
 <div> </div>
 
 ## -returns
@@ -165,14 +165,14 @@ Unknown authentication service.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 A client application calls the 
 <b>RpcBindingSetAuthInfoEx</b> function to set up a server binding handle for making authenticated remote procedure calls. This function provides the capability to set security quality-of-service information on the binding handle. It is otherwise identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>.
 
 Unless a client calls 
 <b>RpcBindingSetAuthInfoEx</b>, all remote procedure calls on <i>Binding</i> are unauthenticated. A client is not required to call this function.
@@ -181,11 +181,11 @@ The
 <b>RpcBindingSetAuthInfoEx</b> function takes a snapshot of the credentials. Therefore, the memory dedicated to the <i>AuthIdentity</i> parameter can be freed before the binding handle. The exception to this is when your application uses 
 <b>RpcBindingSetAuthInfoEx</b> with RPC_C_QOS_IDENTITY_DYNAMIC and also specifies a non-<b>NULL</b> value for <i>AuthIdentity</i>.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> function must not be called on a binding handle while an RPC call on the same handle is in progress. Doing so produces undefined results.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> function must not be called on a binding handle while an RPC call on the same handle is in progress. Doing so produces undefined results.</div>
 <div> </div>
 Due to the varying requirements of different versions of Microsoft RPC, Microsoft recommends that an application maintain a pointer to the <i>AuthIdentity</i> parameter for as long as the binding handle exists. Doing so increases the applications portability.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>For Windows XP SP2 and Windows Server 2003 SP1, the pointer to the <i>AuthIdentity</i> parameter need not be maintained for the life of the binding handle. This pointer must only be maintained if subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo">RpcBindingInqAuthInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> are made.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>For Windows XP SP2 and Windows Server 2003 SP1, the pointer to the <i>AuthIdentity</i> parameter need not be maintained for the life of the binding handle. This pointer must only be maintained if subsequent calls to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo">RpcBindingInqAuthInfo</a> or <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> are made.
 
 <div class="alert"><b>Note</b>  The <b>ncalrpc</b> protocol sequence supports only RPC_C_AUTHN_WINNT, but does support mutual authentication; supply an SPN and request mutual authentication through the <i>SecurityQOS</i> parameter to achieve this.</div>
 <div> </div>
@@ -198,13 +198,12 @@ Due to the varying requirements of different versions of Microsoft RPC, Microsof
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>

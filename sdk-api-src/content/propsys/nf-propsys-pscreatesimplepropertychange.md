@@ -56,22 +56,22 @@ Creates a simple property change.
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> flags.
+<a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> flags.
 
 ### -param key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
+Reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param riid [in]
 
@@ -83,7 +83,7 @@ Reference to a specified IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interface pointer.
+The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interface pointer.
 
 ## -returns
 
@@ -93,5 +93,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Property changes can be placed into an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> which can then be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> to modify the properties on an item.
-
+Property changes can be placed into an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> which can then be used with <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> to modify the properties on an item.

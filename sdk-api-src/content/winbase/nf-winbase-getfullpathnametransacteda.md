@@ -60,15 +60,15 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Retrieves the full path and file name of the specified file as a transacted operation.
 
 To perform this operation without transactions, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> function.
 
 For more information about file and path names, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 ## -parameters
 
@@ -102,7 +102,7 @@ If <i>lpBuffer</i> points to a directory and not a file,
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
+      <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
 
@@ -114,7 +114,7 @@ If the <i>lpBuffer</i> buffer is too small to contain the path, the return value
        terminating null character.
 
 If the function fails for any other reason, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -136,9 +136,9 @@ Share and volume names are valid input for <i>lpFileName</i>. For example, the f
 </ul>
 <b>GetFullPathNameTransacted</b> does not convert 
     the specified file name, <i>lpFileName</i>. If the specified file name exists, you can use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a>, or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> to convert to long or short path 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a>, 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a>, or 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> to convert to long or short path 
     names, respectively.
 
 If the return value is greater than the value specified in <i>nBufferLength</i>, you can 
@@ -219,29 +219,28 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getlongpathnametransacteda">GetLongPathNameTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
+<a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

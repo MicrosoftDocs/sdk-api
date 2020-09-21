@@ -57,14 +57,14 @@ api_name:
 ## -description
 
 Contains information about a registry value. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a> function uses this structure.
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a> function uses this structure.
 
 ## -struct-fields
 
 ### -field ve_valuename
 
 The name of the value to be retrieved. Be sure to set this member before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 ### -field ve_valuelen
 
@@ -73,19 +73,18 @@ The size of the data pointed to by <b>ve_valueptr</b>, in bytes.
 ### -field ve_valueptr
 
 A pointer to the data for the value entry. This is a pointer to the value's data returned in the <b>lpValueBuf</b> buffer filled in by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 ### -field ve_type
 
 The type of data pointed to by <b>ve_valueptr</b>. For a list of the possible types, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winreg.h header defines VALENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TUISPI_phoneConfigDialog</b> function causes the provider of the specified phone device to display a modal dialog box as a child window of <i>hwndOwner</i> to allow the user to configure parameters related to the phone device. This function makes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 
 Implementation is optional.
 
@@ -83,15 +83,14 @@ PHONEERR_BADDEVICEID, PHONEERR_NOMEM, PHONEERR_INUSE, PHONEERR_OPERATIONFAILED, 
 ## -remarks
 
 The <i>lpszDeviceClass</i> parameter allows the application to select a specific subscreen of configuration information applicable to the device class in which the user is interested. The permitted strings are the same as for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>.
 
 For example, if the phone supports the Comm API, passing comm/datamodem as <i>lpszDeviceClass</i> causes the provider to display the parameters related specifically to Comm (or, at least, to start at the corresponding point in a multilevel configuration dialog box chain, so that the user doesn't have to search to find the desired parameters). The <i>szDeviceClass</i> parameter should be "tapi/phone", "", or <b>NULL</b> to cause the provider to display the highest level configuration for the phone.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid">TSPI_phoneGetID</a>

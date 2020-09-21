@@ -54,21 +54,21 @@ api_name:
 ## -description
 
 Creates and starts a cluster. The cluster consists of the set of nodes specified, with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>, and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resources</a> if specified. The <b>PCLUSAPI_CREATE_CLUSTER</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
+    <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>, and 
+    <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resources</a> if specified. The <b>PCLUSAPI_CREATE_CLUSTER</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param pConfig [in]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> 
+Address of a <a href="/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> 
       structure containing configuration information about the cluster to be created.
 
 ### -param pfnProgressCallback [in, optional]
 
 Address of callback function that matches the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+      <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
       function pointer that will be called periodically to provide progress on the cluster creation.
 
 ### -param pvCallbackArg [in, optional]
@@ -79,8 +79,8 @@ Argument for the callback function.
 
 Handle to the newly created cluster or <b>NULL</b>. A non <b>NULL</b> 
       value does not indicate complete success (all nodes will have been added, but not all 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resources may have been created. The parameters 
+      <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
+      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resources may have been created. The parameters 
       passed to the function pointed to by the <i>pfnProgressCallback</i> parameter should be 
       checked.
 
@@ -97,7 +97,7 @@ Handle to the newly created cluster or <b>NULL</b>. A non <b>NULL</b>
 </td>
 <td width="60%">
 Less than a majority of nodes were successfully created. For more information about the error, call the 
-        function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        function <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -106,12 +106,12 @@ Less than a majority of nodes were successfully created. For more information ab
 ## -remarks
 
 The <b>PCLUSAPI_CREATE_CLUSTER</b> type defines a pointer to this function and can be 
-    used with the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to call this 
+    used with the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to call this 
     function.
 
 After the <b>CreateCluster</b> function successfully 
     completes, at least 30 seconds should be allowed before the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a> function is called to add additional 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a> function is called to add additional 
     nodes.
 
 The <b>CreateCluster</b> function successfully completes 
@@ -120,7 +120,7 @@ The <b>CreateCluster</b> function successfully completes
     seconds.
 
 Before calling the <b>CreateCluster</b> function, 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function must be called specifying 
+    the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function must be called specifying 
     both <b>COINIT_MULTITHREADED</b> and <b>COINIT_DISABLE_OLE1DDE</b> for 
     the <i>dwCoInit</i> parameter, as shown in the following code.
 
@@ -128,21 +128,20 @@ Before calling the <b>CreateCluster</b> function,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
-
+<a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>

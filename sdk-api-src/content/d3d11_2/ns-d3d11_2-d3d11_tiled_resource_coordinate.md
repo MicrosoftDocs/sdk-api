@@ -56,25 +56,25 @@ Describes the coordinates of a tiled resource.
 
 ### -field X
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The x position of a tiled resource. Used for buffer and 1D, 2D, and 3D textures.
 
 ### -field Y
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The y position of a tiled resource. Used for 2D and 3D textures.
 
 ### -field Z
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The z position of a tiled resource. Used for 3D textures.
 
 ### -field Subresource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A subresource index value into mipmaps and arrays. Used for 1D, 2D, and 3D textures. 
 
@@ -82,5 +82,4 @@ For mipmaps that use nonstandard tiling, or are packed, or both use nonstandard 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>

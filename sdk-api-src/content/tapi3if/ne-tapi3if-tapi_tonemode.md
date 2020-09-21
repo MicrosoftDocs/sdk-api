@@ -72,5 +72,4 @@ The tone is a billing information tone, such as a credit card prompt tone. Exact
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatetone">ITLegacyCallMediaControl2::GenerateTone</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatetone">ITLegacyCallMediaControl2::GenerateTone</a>

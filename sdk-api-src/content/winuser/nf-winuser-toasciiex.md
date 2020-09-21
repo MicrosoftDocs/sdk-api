@@ -62,7 +62,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
 ### -param uScanCode [in]
 
@@ -94,7 +94,7 @@ This parameter must be 1 if a menu is active, zero otherwise.
 
 Type: <b>HKL</b>
 
-Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
+Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
 
 ## -returns
 
@@ -161,15 +161,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a>
 
 
 
@@ -177,9 +177,8 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>

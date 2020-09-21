@@ -56,7 +56,7 @@ The <b>DrawDibProfileDisplay</b> function determines settings for the display sy
 
 ### -param lpbi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains bitmap information. You can also specify <b>NULL</b> to verify that the profile information is current. If the profile information is not current, DrawDib will rerun the profile tests to obtain a current set of information. When you call <b>DrawDibProfileDisplay</b> with this parameter set to <b>NULL</b>, the return value is meaningless.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains bitmap information. You can also specify <b>NULL</b> to verify that the profile information is current. If the profile information is not current, DrawDib will rerun the profile tests to obtain a current set of information. When you call <b>DrawDibProfileDisplay</b> with this parameter set to <b>NULL</b>, the return value is meaningless.
 
 ## -returns
 
@@ -98,7 +98,7 @@ DrawDib can stretch and draw images using this format.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws unstretched images using this format faster than an alternative method.
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws unstretched images using this format faster than an alternative method.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ DrawDib can stretch and draw images using this format.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws stretched images (in a 1:2 ratio) using this format faster than an alternative method.
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws stretched images (in a 1:2 ratio) using this format faster than an alternative method.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ DrawDib can stretch and draw images using this format.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws stretched images (in a 1:N ratio) using this format faster than an alternative method.
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> draws stretched images (in a 1:N ratio) using this format faster than an alternative method.
 
 </td>
 </tr>
@@ -130,5 +130,4 @@ DrawDib can stretch and draw images using this format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>

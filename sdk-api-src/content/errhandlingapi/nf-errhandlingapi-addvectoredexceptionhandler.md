@@ -51,8 +51,6 @@ api_name:
  - AddVectoredExceptionHandler
 ---
 
-# AddVectoredExceptionHandler function
-
 ## -description
 
 Registers a vectored exception handler.

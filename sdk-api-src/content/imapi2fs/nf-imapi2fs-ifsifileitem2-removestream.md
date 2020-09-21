@@ -123,7 +123,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 </dl>
 </td>
 <td width="60%">
-The referenced <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
+The referenced <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
 
 </td>
 </tr>
@@ -211,9 +211,8 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">IFsiFileItem2::AddStream</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">IFsiFileItem2::AddStream</a>

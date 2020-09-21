@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The  structure defines an unordered set of keying modules that will be tried for IPsec.[IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0) is available.</div>
+The  structure defines an unordered set of keying modules that will be tried for IPsec.[IPSEC_KEYING_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0) is available.</div>
 <div> </div>
 
 ## -struct-fields
@@ -94,5 +94,4 @@ Forces the use of a Kerberos proxy server when acting as initiator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

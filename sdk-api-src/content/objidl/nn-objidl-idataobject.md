@@ -52,11 +52,11 @@ api_name:
 
 Enables data transfer and notification of changes in data. Data transfer methods specify the format of the transferred data along with the medium through which the data is to be transferred. Optionally, the data can be rendered for a specific target device. In addition to methods for retrieving and storing data, the <b>IDataObject</b> interface specifies methods for enumerating available formats and managing connections to advisory sinks for handling change notifications.
 
-The term <i>data object</i> is used to mean any object that supports an implementation of the <b>IDataObject</b> interface. Implementations vary, depending on what the data object is required to do; in some data objects, the implementation of certain methods not supported by the object could simply be the return of E_NOTIMPL. For example, some data objects do not allow callers to send them data. Other data objects do not support advisory connections and change notifications. However, for those data objects that do support change notifications, OLE provides an object called a data advise holder. An interface pointer to this holder is available through a call to the helper function <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>. A data object can have multiple connections, each with its own set of attributes. The OLE data advise holder simplifies the task of managing these connections and sending the appropriate notifications.
+The term <i>data object</i> is used to mean any object that supports an implementation of the <b>IDataObject</b> interface. Implementations vary, depending on what the data object is required to do; in some data objects, the implementation of certain methods not supported by the object could simply be the return of E_NOTIMPL. For example, some data objects do not allow callers to send them data. Other data objects do not support advisory connections and change notifications. However, for those data objects that do support change notifications, OLE provides an object called a data advise holder. An interface pointer to this holder is available through a call to the helper function <a href="/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>. A data object can have multiple connections, each with its own set of attributes. The OLE data advise holder simplifies the task of managing these connections and sending the appropriate notifications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDataObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">DAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">DAdvise</a>
 </td>
 <td align="left" width="63%">
 Creates a connection between a data object and an advise sink so the advise sink can receive notifications of changes in the data object.
@@ -80,16 +80,16 @@ Creates a connection between a data object and an advise sink so the advise sink
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">DUnadvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">DUnadvise</a>
 </td>
 <td align="left" width="63%">
-Destroys a notification previously set up with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">DAdvise</a> method.
+Destroys a notification previously set up with the <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">DAdvise</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">EnumDAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumdadvise">EnumDAdvise</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a pointer to an object to enumerate the current advisory connections.
@@ -98,7 +98,7 @@ Creates and returns a pointer to an object to enumerate the current advisory con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">EnumFormatEtc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">EnumFormatEtc</a>
 </td>
 <td align="left" width="63%">
 Creates an object to enumerate the formats supported by a data object.
@@ -107,16 +107,16 @@ Creates an object to enumerate the formats supported by a data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getcanonicalformatetc">GetCanonicalFormatEtc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getcanonicalformatetc">GetCanonicalFormatEtc</a>
 </td>
 <td align="left" width="63%">
-Provides a potentially different but logically equivalent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure.
+Provides a potentially different but logically equivalent <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Called by a data consumer to obtain data from a source data object.
@@ -125,7 +125,7 @@ Called by a data consumer to obtain data from a source data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdatahere">GetDataHere</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdatahere">GetDataHere</a>
 </td>
 <td align="left" width="63%">
 Called by a data consumer to obtain data from a source data object. This method differs from the GetData method in that the caller must allocate and free the specified storage medium.
@@ -134,7 +134,7 @@ Called by a data consumer to obtain data from a source data object. This method 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-querygetdata">QueryGetData</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-querygetdata">QueryGetData</a>
 </td>
 <td align="left" width="63%">
 Determines whether the data object is capable of rendering the data as specified.
@@ -143,7 +143,7 @@ Determines whether the data object is capable of rendering the data as specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">SetData</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">SetData</a>
 </td>
 <td align="left" width="63%">
 Called by an object containing a data source to transfer data to the object that implements this method.
@@ -151,4 +151,3 @@ Called by an object containing a data source to transfer data to the object that
 </td>
 </tr>
 </table>
-

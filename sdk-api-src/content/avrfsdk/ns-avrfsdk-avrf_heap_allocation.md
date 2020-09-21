@@ -80,11 +80,11 @@ The size, in bytes, of the heap allocation as seen by the operating system.
 
 ### -field UserAllocationState
 
-One of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-euserallocationstate">eUserAllocationState</a> enumerated type.
+One of the values in the <a href="/windows/desktop/api/avrfsdk/ne-avrfsdk-euserallocationstate">eUserAllocationState</a> enumerated type.
 
 ### -field HeapState
 
-The state of the heap allocation. The user can extract one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapallocationstate">eHeapAllocationState</a> enum after AND-ing the <b>HeapStateMask</b> value.
+The state of the heap allocation. The user can extract one of the values in the <a href="/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapallocationstate">eHeapAllocationState</a> enum after AND-ing the <b>HeapStateMask</b> value.
 
 ### -field HeapContext
 
@@ -92,15 +92,14 @@ The context of the heap currently allocated.
 
 ### -field BackTraceInformation
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
+A pointer to an <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
 
 When available, it can be the stack backtrace of the place where the address specified in the <b>UserAllocation</b> member of the structure was allocated (if <b>UserAllocationState</b> is <b>AllocationstateBusy</b>) or where the address specified in the <b>UserAllocation</b> member was freed (if <b>UserAllocationState</b> is <b>AllocationStateFree</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

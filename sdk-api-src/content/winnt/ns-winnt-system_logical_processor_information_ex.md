@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains information about the relationships of logical processors and related hardware. The <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function uses this structure.
+Contains information about the relationships of logical processors and related hardware. The <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function uses this structure.
 
 ## -struct-fields
 
 ### -field Relationship
 
-The type of relationship between the logical processors. This parameter can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
+The type of relationship between the logical processors. This parameter can be one of the following <a href="/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
 
 <table>
 <tr>
@@ -132,33 +132,32 @@ The size of the structure.
 
 ### -field DUMMYUNIONNAME.Processor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a> structure that describes processor affinity. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationProcessorCore</b> or <b>RelationProcessorPackage</b>.
+A <a href="/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a> structure that describes processor affinity. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationProcessorCore</b> or <b>RelationProcessorPackage</b>.
 
 ### -field DUMMYUNIONNAME.NumaNode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a> structure that describes a NUMA node. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationNumaNode</b>.
+A <a href="/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a> structure that describes a NUMA node. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationNumaNode</b>.
 
 ### -field DUMMYUNIONNAME.Cache
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a> structure that describes cache attributes. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationCache</b>.
+A <a href="/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a> structure that describes cache attributes. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationCache</b>.
 
 ### -field DUMMYUNIONNAME.Group
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a> structure that contains information about the processor groups. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationGroup</b>.
+A <a href="/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a> structure that contains information about the processor groups. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationGroup</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>

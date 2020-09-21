@@ -63,7 +63,7 @@ A null-terminated string that represents the list of patches to remove.  Each pa
 
 ### -param szProductCode [in]
 
-A null-terminated string that is the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> (GUID) of the product from which the patches are removed.  This parameter cannot be <b>NULL</b>.
+A null-terminated string that is the <a href="/windows/desktop/Msi/productcode">ProductCode</a> (GUID) of the product from which the patches are removed.  This parameter cannot be <b>NULL</b>.
 
 ### -param eUninstallType [in]
 
@@ -89,8 +89,8 @@ The patch is uninstalled for only the product specified by <i>szProduct</i>.
 ### -param szPropertyList [in, optional]
 
 A null-terminated string that specifies command-line property settings. For more information see  
-<a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. This parameter can be <b>NULL</b>.
+<a href="/windows/desktop/Msi/about-properties">About Properties</a> and 
+<a href="/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -141,7 +141,7 @@ The patch was successfully removed.
 </dl>
 </td>
 <td width="60%">
-The product specified by <i>szProductList</i> is not installed either per-machine or per-user for the caller of <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiremovepatchesa">MsiRemovePatches</a>.
+The product specified by <i>szProductList</i> is not installed either per-machine or per-user for the caller of <a href="/windows/desktop/api/msi/nf-msi-msiremovepatchesa">MsiRemovePatches</a>.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Patch removal was disallowed by policy.
 
 ## -remarks
 
-See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a> for an example that demonstrates how an application can remove a patch from all products that are available to the user. 
+See  <a href="/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a> for an example that demonstrates how an application can remove a patch from all products that are available to the user. 
 
 
 
@@ -226,33 +226,32 @@ See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patche
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>
+<a href="/windows/desktop/Msi/about-properties">About Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiapplypatcha">MsiApplyPatch</a>
+<a href="/windows/desktop/api/msi/nf-msi-msiapplypatcha">MsiApplyPatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
+<a href="/windows/desktop/Msi/removing-patches">Removing Patches</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>
+<a href="/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a>
-
+<a href="/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a>

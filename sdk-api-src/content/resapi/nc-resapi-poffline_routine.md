@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
+Marks a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
     processing is complete. The <b>POFFLINE_ROUTINE</b> type defines a pointer to 
     this function.
 
@@ -96,30 +96,29 @@ The request is still pending, and a thread has been activated to process the off
 
 If the operation was not successful for other reasons, 
        <i>Offline</i> should return one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
 If <i>Offline</i> returns an error code other than 
      <b>ERROR_IO_PENDING</b>, the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> logs an event and calls 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>.
+     <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> logs an event and calls 
+     <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>.
 
 For effective implementation strategies of the <i>Offline</i> 
-     entry-point function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-offline">Implementing Offline</a>.
+     entry-point function, see <a href="/previous-versions/windows/desktop/mscs/implementing-offline">Implementing Offline</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>

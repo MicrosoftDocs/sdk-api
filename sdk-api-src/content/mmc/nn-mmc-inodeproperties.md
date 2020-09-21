@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>INodeProperties</b> interface retrieves text-only properties for a node. This interface is implemented by snap-ins and its methods are called by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Extended View</a> extension that ships with MMC 2.0. Other view extensions and the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a> (particularly the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-object">Node</a>) can also use the 
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Extended View</a> extension that ships with MMC 2.0. Other view extensions and the 
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a> (particularly the 
+<a href="/previous-versions/windows/desktop/mmc/node-object">Node</a>) can also use the 
 <b>INodeProperties</b> interface.
 
 The 
 <b>INodeProperties</b> interface is queried (using 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>) from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface for scope nodes, and from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface for result items.
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>) from the 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface for scope nodes, and from the 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface for result items.
 
 The Extended View extension queries two properties, CCF_DESCRIPTION and CCF_HTML_DETAILS. Instead of implementing 
 <b>INodeProperties</b>, a snap-in can return values for these properties through data-object clipboard formats. The 
@@ -69,7 +69,7 @@ The Extended View extension queries two properties, CCF_DESCRIPTION and CCF_HTML
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INodeProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INodeProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INodeProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INodeProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,11 +84,11 @@ The <b>INodeProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-inodeproperties-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-inodeproperties-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves text-only properties for a node. Text-only properties are exposed in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-object">Node object</a>.
+<a href="/previous-versions/windows/desktop/mmc/node-object">Node object</a>.
 
 </td>
 </tr>
@@ -96,25 +96,24 @@ Retrieves text-only properties for a node. Text-only properties are exposed in t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION clipboard format</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION clipboard format</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS clipboard format</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS clipboard format</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-object">Node object</a>
+<a href="/previous-versions/windows/desktop/mmc/node-object">Node object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-property">Node.Property</a>
+<a href="/previous-versions/windows/desktop/mmc/node-property">Node.Property</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Using the Extended View Extension</a>
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Using the Extended View Extension</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>

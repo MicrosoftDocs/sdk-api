@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to specify the next 
+Used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to specify the next 
                 function to invoke in a series of async operations.
 
 ## -parameters
@@ -62,11 +62,11 @@ The result of the previous async operation.
 ### -param callbackModel [in]
 
 Whether the callback is being invoked long or short.
-                    For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a>.
+                    For more information, see <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a>.
 
 ### -param *callbackState [in]
 
-This user supplied value that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a>/
+This user supplied value that was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a>/
 
 ### -param *next
 
@@ -77,7 +77,7 @@ Set the function field to <b>NULL</b> to indicate that there are no more functio
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> will set the function field to <b>NULL</b> before each function is called.
+<a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> will set the function field to <b>NULL</b> before each function is called.
 
 ### -param *asyncContext [in, optional]
 
@@ -90,4 +90,3 @@ Specifies where additional error information should be stored if the function fa
 ## -returns
 
 This callback function does not return a value.
-

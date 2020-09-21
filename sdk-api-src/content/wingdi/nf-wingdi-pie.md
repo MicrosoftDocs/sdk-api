@@ -106,29 +106,28 @@ The current position is neither used nor updated by the <b>Pie</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc
+<a href="/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-chord">Chord
+<a href="/windows/desktop/api/wingdi/nf-wingdi-chord">Chord
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
-
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>

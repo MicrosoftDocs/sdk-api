@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Determines whether a path is on a cluster shared volume (CSV). This is used to determine whether <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clustergetvolumenameforvolumemountpoint">ClusterGetVolumeNameForVolumeMountPoint</a> or <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clustergetvolumepathname">ClusterGetVolumePathName</a> should be called instead of <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>. The <b>PCLUSTER_IS_PATH_ON_SHARED_VOLUME</b> type defines a pointer to this function.
+Determines whether a path is on a cluster shared volume (CSV). This is used to determine whether <a href="/windows/desktop/api/resapi/nf-resapi-clustergetvolumenameforvolumemountpoint">ClusterGetVolumeNameForVolumeMountPoint</a> or <a href="/windows/desktop/api/resapi/nf-resapi-clustergetvolumepathname">ClusterGetVolumePathName</a> should be called instead of <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> or <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>. The <b>PCLUSTER_IS_PATH_ON_SHARED_VOLUME</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -95,13 +95,12 @@ The following table explains the possible return values based on the type of clu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+<a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>

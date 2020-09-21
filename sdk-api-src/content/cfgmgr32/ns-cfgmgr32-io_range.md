@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ The highest-numbered of a range of contiguous I/O port addresses that can be all
 
 ### -field IOR_RangeFlags
 
-One bit flag from [IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure. For more information, see the following <b>Remarks</b> section.
+One bit flag from [IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure. For more information, see the following <b>Remarks</b> section.
 
 ### -field IOR_Alias
 
@@ -138,5 +138,4 @@ The flags specified for <b>IOR_Alias</b> have the same interpretation as the add
 
 ## -see-also
 
-[IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)
-
+[IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)

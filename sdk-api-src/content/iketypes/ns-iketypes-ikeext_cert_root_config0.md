@@ -60,7 +60,7 @@ The <b>IKEEXT_CERT_ROOT_CONFIG0</b> structure stores the IKE, AuthIP, or IKEv2 c
 
 X509/ASN.1 encoded name of the certificate root.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
+See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 ### -field flags
 
@@ -179,13 +179,12 @@ Available only on Windows 8 and Windows Server 2012.
 
 ## -remarks
 
-<b>IKEEXT_CERT_ROOT_CONFIG0</b> is a specific implementation of IKEEXT_CERT_ROOT_CONFIG. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_CERT_ROOT_CONFIG0</b> is a specific implementation of IKEEXT_CERT_ROOT_CONFIG. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

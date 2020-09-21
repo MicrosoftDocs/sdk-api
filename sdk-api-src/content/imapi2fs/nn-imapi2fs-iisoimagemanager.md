@@ -54,7 +54,7 @@ Use this interface to verify if an existing .iso file contains a valid file syst
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsoImageManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">get_Path</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">get_Path</a>
 </td>
 <td align="left" width="63%">
 Retrieves the logical path to an .iso image.
@@ -78,7 +78,7 @@ Retrieves the logical path to an .iso image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">get_Stream</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">get_Stream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>IStream</b> object associated with the .iso image.
@@ -87,25 +87,25 @@ Retrieves the <b>IStream</b> object associated with the .iso image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">Path</a> property with a logical path to an .iso image.
+Sets the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">Path</a> property with a logical path to an .iso image.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">Stream</a> property with an <b>IStream</b> object associated with the .iso image.
+Sets the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">Stream</a> property with an <b>IStream</b> object associated with the .iso image.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate">Validate</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate">Validate</a>
 </td>
 <td align="left" width="63%">
 Determines if the provided .iso image is valid.
@@ -116,8 +116,7 @@ Determines if the provided .iso image is valid.
 
 ## -remarks
 
-If a valid path is provided via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>, an <b>IStream</b> object will be created from the supplied image file and the <b>Stream</b> property will be populated.
-If a valid <b>IStream</b> is provided via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>, it will be used directly for image validation and the <b>Path</b> property will not be populated.
+If a valid path is provided via <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>, an <b>IStream</b> object will be created from the supplied image file and the <b>Stream</b> property will be populated.
+If a valid <b>IStream</b> is provided via <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>, it will be used directly for image validation and the <b>Path</b> property will not be populated.
 
 This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
-

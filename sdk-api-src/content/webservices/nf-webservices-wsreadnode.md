@@ -50,20 +50,20 @@ api_name:
 
 ## -description
 
-This operation advances the Reader to the next <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> in the input stream.
+This operation advances the Reader to the next <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> in the input stream.
       If there is an error parsing the input the function will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> object to advance.
-          The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> and it may not be <b>NULL</b>.
+          The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> and it may not be <b>NULL</b>.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -104,8 +104,7 @@ Other exception conditions include: <ul>
 <li>If an XML declaration is found and <b>WS_XML_READER_PROPERTY_READ_DECLARATION</b> is <b>FALSE</b>,
         <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
-<li>If the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
+<li>If the Reader is using <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
         <b>WS_E_QUOTA_EXCEEDED</b>.
       </li>
 </ul>
-

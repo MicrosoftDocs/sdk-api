@@ -51,21 +51,21 @@ api_name:
 
 ## -description
 
-The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-interface_info">INTERFACE_INFO</a> structure.
+The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-interface_info">INTERFACE_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field Address
 
-IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
+IP address information expressed in a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
 ### -field AddressIn
 
-IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure.
+IP address information expressed in a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure.
 
 ### -field AddressIn6
 
-IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a> structure.
+IP address information expressed in a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a> structure.
 
 ## -remarks
 
@@ -73,13 +73,12 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a>
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a>

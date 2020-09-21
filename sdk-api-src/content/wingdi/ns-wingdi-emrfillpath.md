@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRFILLPATH</b>, <b>EMRSTROKEANDFILLPATH</b>,  and <b>EMRSTROKEPATH</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillpath">FillPath</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a> enhanced metafile records.
+The <b>EMRFILLPATH</b>, <b>EMRSTROKEANDFILLPATH</b>,  and <b>EMRSTROKEPATH</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-fillpath">FillPath</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ Bounding rectangle, in device units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

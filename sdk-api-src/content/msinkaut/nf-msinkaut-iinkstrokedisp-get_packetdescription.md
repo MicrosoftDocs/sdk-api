@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
+Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 
 
@@ -63,9 +63,8 @@ This property is read-only.
 
 ## -remarks
 
-For a complete list of available packet properties, see the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants.
+For a complete list of available packet properties, see the <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>

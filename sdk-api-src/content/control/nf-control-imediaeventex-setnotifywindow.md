@@ -75,13 +75,12 @@ Returns S_OK if successful or E_INVALIDARG if the <i>hwnd</i> parameter is not a
 
 This method designates a window that will process event notifications. Whenever the Filter Graph Manager puts an event in the event queue, it will also post a message to the designated window. The <i>hwnd</i> parameter specifies the window, and the <i>lMsg</i> parameter specifies the message. The application should define a private window message for this purpose. The message's <i>lParam</i> parameter is set to the value of <b>lInstanceData</b>, and the <i>wParam</i> parameter is set to zero.
 
-When the window receives the message, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve the event. Events are asynchronous, so the queue might contain several events (or none). Call <b>GetEvent</b> repeatedly, until it returns an error code.
+When the window receives the message, it should call the <a href="/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve the event. Events are asynchronous, so the queue might contain several events (or none). Call <b>GetEvent</b> repeatedly, until it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>

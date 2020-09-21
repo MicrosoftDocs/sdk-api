@@ -107,9 +107,8 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-Recursion call of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
+Recursion call of <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
 
 </td>
 </tr>
 </table>
-

@@ -54,7 +54,7 @@ The <b>IWMPMetadataText</b> interface provides methods for retrieving informatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataText</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPMetadataText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataText</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPMetadataText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPMetadataText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_description">get_description</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_description">get_description</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the metadata text.
@@ -78,7 +78,7 @@ Retrieves a description of the metadata text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_text">get_text</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_text">get_text</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata text.
@@ -89,5 +89,4 @@ Retrieves the metadata text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

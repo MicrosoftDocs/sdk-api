@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains image list statistics. Used by <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>.
+Contains image list statistics. Used by <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The image list size.
 
@@ -79,4 +79,3 @@ The number of images in use.
 Type: <b>int</b>
 
 The number of standby images.
-

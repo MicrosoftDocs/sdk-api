@@ -56,7 +56,7 @@ The <b>FDITruncateCabinet</b> function truncates a cabinet file starting at the 
 
 ### -param hfdi [in]
 
-A valid FDI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
+A valid FDI context handle returned by the <a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
 
 ### -param pszCabinetName [in]
 
@@ -70,9 +70,8 @@ The index of the first folder to delete.
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Represents a buffer for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure.
+Represents a buffer for a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure.
 
 ## -struct-fields
 
@@ -63,9 +63,8 @@ The version of this structure. Set this parameter to <b>GROUP_FAILURE_INFO_VERSI
 
 ### -field Info
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
+The <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

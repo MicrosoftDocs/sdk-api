@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the cache options used by the <a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a> interface.
+Defines the cache options used by the <a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a> interface.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ Can return a cached thumbnail that is smaller than the requested size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>
-
+<a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>

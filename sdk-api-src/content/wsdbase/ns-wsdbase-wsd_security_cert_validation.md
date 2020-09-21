@@ -54,13 +54,13 @@ api_name:
 
 Represents the criteria for matching client certificates against those of an HTTPS server.
 
-Do not use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)">WSD_SECURITY_CERT_VALIDATION_V1</a> directly in your code; using <b>WSD_SECURITY_CERT_VALIDATION</b> instead ensures that the proper version, based on the Windows version.
+Do not use <a href="/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)">WSD_SECURITY_CERT_VALIDATION_V1</a> directly in your code; using <b>WSD_SECURITY_CERT_VALIDATION</b> instead ensures that the proper version, based on the Windows version.
 
 ## -struct-fields
 
 ### -field certMatchArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
+An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
 
 ### -field dwCertMatchArrayCount
 
@@ -159,19 +159,18 @@ Ignore invalid common name certificate errors.
 
 ## -remarks
 
-This structure is used in the <b>pConfigData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure. 
+This structure is used in the <b>pConfigData</b> member of the <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure. 
 
-When the <b>configParamType</b> of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> is <b>WSD_SECURITY_SSL_SERVER_CERT_VALIDATION</b>, this structure can be used to validate SSL server certificates presented by an SSL server.
+When the <b>configParamType</b> of <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> is <b>WSD_SECURITY_SSL_SERVER_CERT_VALIDATION</b>, this structure can be used to validate SSL server certificates presented by an SSL server.
 
 
 
-When the <b>configParamType</b> of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> is <b>WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION</b>, this structure can be used to validate SSL client certificates presented by an SSL client.
+When the <b>configParamType</b> of <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> is <b>WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION</b>, this structure can be used to validate SSL client certificates presented by an SSL client.
 
 <b>WSD_SECURITY_CERT_VALIDATION</b> defines 3 certificate matching mechanisms.  To obtain a match, at least one such mechanism must be satisfied.
 
 If the application is built using Windows 8 SDK targeted for Windows 8 OS, <b>WSD_SECURITY_CERT_VALIDATION</b> resolves into the new structure. However, as a result, the application can then only run on Windows 8 machines.
 
-If the application is built using Windows 8 SDK targeted for Windows 7 OS, <b>WSD_SECURITY_CERT_VALIDATION</b> will resolve into the old structure (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)">WSD_SECURITY_CERT_VALIDATION_V1</a>). While it's a given that the application will be supported for Windows 7, it also  on Windows 8 since <b>wsdapi.dll</b> on Windows 8 will handle both the old and the newer versions of this structure.
+If the application is built using Windows 8 SDK targeted for Windows 7 OS, <b>WSD_SECURITY_CERT_VALIDATION</b> will resolve into the old structure (<a href="/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)">WSD_SECURITY_CERT_VALIDATION_V1</a>). While it's a given that the application will be supported for Windows 7, it also  on Windows 8 since <b>wsdapi.dll</b> on Windows 8 will handle both the old and the newer versions of this structure.
 
 An application already built using Windows 7 SDK will use the old version of this structure. It will run fine on Windows 8 since <b>wsdapi.dll</b> on Windows 8 can handle both versions.
-

@@ -55,8 +55,8 @@ api_name:
 
 Call the 
 <b>IWbemQualifierSet::EndEnumeration</b> method when you plan to terminate enumerations initiated with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>. This call is recommended, but not required. It immediately releases resources associated with the enumeration.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a> and 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>. This call is recommended, but not required. It immediately releases resources associated with the enumeration.
 
 ## -parameters
 
@@ -66,13 +66,12 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>

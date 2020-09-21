@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-The <code>IDvdInfo2</code> interface reports attributes of a DVD disc or the current state of DVD playback and navigation. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter implements this interface. <code>IDvdInfo2</code> is the companion interface to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> interface. <code>IDvdInfo2</code> groups the DVD Navigator's "get" methods and <b>IDvdControl2</b> groups the "set" methods. Together they provide DVD navigation and playback functionality beyond the DVD Annex J specification.
+The <code>IDvdInfo2</code> interface reports attributes of a DVD disc or the current state of DVD playback and navigation. The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter implements this interface. <code>IDvdInfo2</code> is the companion interface to <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> interface. <code>IDvdInfo2</code> groups the DVD Navigator's "get" methods and <b>IDvdControl2</b> groups the "set" methods. Together they provide DVD navigation and playback functionality beyond the DVD Annex J specification.
 
-<div class="alert"><b>Note</b>  The information provided by some of these methods can also be obtained through event notifications sent from the DVD Navigator to the application's message loop. For example, to get the current DVD domain, you can call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentdomain">IDvdInfo2::GetCurrentDomain</a> or you can handle the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-domain-change">EC_DVD_DOMAIN_CHANGE</a> event in your application's message loop and extract the new domain from the event's <i>lParam1</i> parameter.</div>
+<div class="alert"><b>Note</b>  The information provided by some of these methods can also be obtained through event notifications sent from the DVD Navigator to the application's message loop. For example, to get the current DVD domain, you can call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentdomain">IDvdInfo2::GetCurrentDomain</a> or you can handle the <a href="/windows/desktop/DirectShow/ec-dvd-domain-change">EC_DVD_DOMAIN_CHANGE</a> event in your application's message loop and extract the new domain from the event's <i>lParam1</i> parameter.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdInfo2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdInfo2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDvdInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getallgprms">GetAllGPRMs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getallgprms">GetAllGPRMs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current contents of all general parameter registers (GPRMs).
@@ -82,7 +82,7 @@ Retrieves the current contents of all general parameter registers (GPRMs).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getallsprms">GetAllSPRMs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getallsprms">GetAllSPRMs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current contents of all system parameter registers (SPRMs).
@@ -91,7 +91,7 @@ Retrieves the current contents of all system parameter registers (SPRMs).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">GetAudioAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">GetAudioAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of the specified audio stream in the current title or menu.
@@ -100,7 +100,7 @@ Retrieves the attributes of the specified audio stream in the current title or m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudiolanguage">GetAudioLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudiolanguage">GetAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language of the specified audio stream within the current title.
@@ -109,7 +109,7 @@ Retrieves the language of the specified audio stream within the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getbuttonatposition">GetButtonAtPosition</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getbuttonatposition">GetButtonAtPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the button located at the specified point within the display window.
@@ -118,7 +118,7 @@ Retrieves the button located at the specified point within the display window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getbuttonrect">GetButtonRect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getbuttonrect">GetButtonRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rectangle coordinates of the specified button.
@@ -127,16 +127,16 @@ Retrieves the rectangle coordinates of the specified button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcmdfromevent">GetCmdFromEvent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcmdfromevent">GetCmdFromEvent</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object from an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a>, <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a>, or VFW_E_DVD_CMD_CANCELLED event.
+Retrieves an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object from an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a>, <a href="/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a>, or VFW_E_DVD_CMD_CANCELLED event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentangle">GetCurrentAngle</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentangle">GetCurrentAngle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available angles in the current angle block and the currently selected angle number.
@@ -145,7 +145,7 @@ Retrieves the number of available angles in the current angle block and the curr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentaudio">GetCurrentAudio</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentaudio">GetCurrentAudio</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available audio streams and the number of the currently selected audio stream.
@@ -154,7 +154,7 @@ Retrieves the number of available audio streams and the number of the currently 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentbutton">GetCurrentButton</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentbutton">GetCurrentButton</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available buttons and the number of the currently selected button.
@@ -163,7 +163,7 @@ Retrieves the number of available buttons and the number of the currently select
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentdomain">GetCurrentDomain</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentdomain">GetCurrentDomain</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DVD domain in which the DVD Navigator is currently located.
@@ -172,7 +172,7 @@ Retrieves the DVD domain in which the DVD Navigator is currently located.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentlocation">GetCurrentLocation</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentlocation">GetCurrentLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playback location.
@@ -181,7 +181,7 @@ Retrieves the current playback location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentsubpicture">GetCurrentSubpicture</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentsubpicture">GetCurrentSubpicture</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
@@ -190,7 +190,7 @@ Retrieves the number of available subpicture streams in the current title, the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentuops">GetCurrentUOPS</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentuops">GetCurrentUOPS</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of flags indicating which navigation commands, if any, the content authors have explicitly disabled for the current disc location.
@@ -199,7 +199,7 @@ Retrieves a set of flags indicating which navigation commands, if any, the conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">GetCurrentVideoAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">GetCurrentVideoAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video attributes of the current title or menu.
@@ -208,7 +208,7 @@ Retrieves the video attributes of the current title or menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdecodercaps">GetDecoderCaps</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdecodercaps">GetDecoderCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (Dolby AC-3, MPEG-2, DTS, SDDS, LPCM).
@@ -217,7 +217,7 @@ Retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultaudiolanguage">GetDefaultAudioLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultaudiolanguage">GetDefaultAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default audio language.
@@ -226,7 +226,7 @@ Retrieves the default audio language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultmenulanguage">GetDefaultMenuLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultmenulanguage">GetDefaultMenuLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default menu language.
@@ -235,7 +235,7 @@ Retrieves the default menu language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultsubpicturelanguage">GetDefaultSubpictureLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultsubpicturelanguage">GetDefaultSubpictureLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default subpicture language.
@@ -244,7 +244,7 @@ Retrieves the default subpicture language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdiscid">GetDiscID</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdiscid">GetDiscID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a system-generated 64-bit "unique" identification number for the specified DVD.
@@ -253,7 +253,7 @@ Retrieves a system-generated 64-bit "unique" identification number for the speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvddirectory">GetDVDDirectory</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvddirectory">GetDVDDirectory</a>
 </td>
 <td align="left" width="63%">
 Retrieves the root directory that is set in the DVD Navigator.
@@ -262,7 +262,7 @@ Retrieves the root directory that is set in the DVD Navigator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextlanguageinfo">GetDVDTextLanguageInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextlanguageinfo">GetDVDTextLanguageInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the information for the specified text string language block.
@@ -271,7 +271,7 @@ Retrieves the information for the specified text string language block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">GetDVDTextNumberOfLanguages</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">GetDVDTextNumberOfLanguages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of text languages for the current DVD or disc side.
@@ -280,7 +280,7 @@ Retrieves the number of text languages for the current DVD or disc side.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">GetDVDTextStringAsNative</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">GetDVDTextStringAsNative</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text string for the specified language as an array of bytes.
@@ -289,7 +289,7 @@ Retrieves the text string for the specified language as an array of bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">GetDVDTextStringAsUnicode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">GetDVDTextStringAsUnicode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text string for the specified language in Unicode™.
@@ -298,7 +298,7 @@ Retrieves the text string for the specified language in Unicode™.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">GetDVDVolumeInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">GetDVDVolumeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current DVD volume information.
@@ -307,7 +307,7 @@ Retrieves the current DVD volume information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">GetKaraokeAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">GetKaraokeAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the karaoke attributes of the specified audio stream in the current title or menu.
@@ -316,7 +316,7 @@ Retrieves the karaoke attributes of the specified audio stream in the current ti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getmenulanguages">GetMenuLanguages</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getmenulanguages">GetMenuLanguages</a>
 </td>
 <td align="left" width="63%">
 Retrieves all the languages available for all menus on the disc.
@@ -325,7 +325,7 @@ Retrieves all the languages available for all menus on the disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getnumberofchapters">GetNumberOfChapters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getnumberofchapters">GetNumberOfChapters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of chapters in a given title.
@@ -334,7 +334,7 @@ Retrieves the number of chapters in a given title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getplayerparentallevel">GetPlayerParentalLevel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getplayerparentallevel">GetPlayerParentalLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.
@@ -343,7 +343,7 @@ Retrieves the current parental level and ISO 3166 country/region code settings f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getstate">GetState</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bookmark containing the disc location and DVD Navigator state information.
@@ -352,7 +352,7 @@ Retrieves a bookmark containing the disc location and DVD Navigator state inform
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpictureattributes">GetSubpictureAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpictureattributes">GetSubpictureAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of the specified subpicture stream in the current title or menu.
@@ -361,7 +361,7 @@ Retrieves the attributes of the specified subpicture stream in the current title
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpicturelanguage">GetSubpictureLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpicturelanguage">GetSubpictureLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language of the specified subpicture stream within the current title.
@@ -370,7 +370,7 @@ Retrieves the language of the specified subpicture stream within the current tit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">GetTitleAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">GetTitleAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.
@@ -379,7 +379,7 @@ Retrieves attributes of all video, audio, and subpicture streams for the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleparentallevels">GetTitleParentalLevels</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleparentallevels">GetTitleParentalLevels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parental levels that are defined for a particular title.
@@ -388,7 +388,7 @@ Retrieves the parental levels that are defined for a particular title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettotaltitletime">GetTotalTitleTime</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettotaltitletime">GetTotalTitleTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total playback time for the current title.
@@ -397,7 +397,7 @@ Retrieves the total playback time for the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getvmgattributes">GetVMGAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getvmgattributes">GetVMGAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves attributes of all video, audio, and subpicture streams for the video manager menu.
@@ -406,7 +406,7 @@ Retrieves attributes of all video, audio, and subpicture streams for the video m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-isaudiostreamenabled">IsAudioStreamEnabled</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-isaudiostreamenabled">IsAudioStreamEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified audio stream is enabled in the current title.
@@ -415,7 +415,7 @@ Determines if the specified audio stream is enabled in the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-issubpicturestreamenabled">IsSubpictureStreamEnabled</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-issubpicturestreamenabled">IsSubpictureStreamEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified subpicture stream is enabled in the current title.
@@ -426,5 +426,4 @@ Determines if the specified subpicture stream is enabled in the current title.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
-
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>

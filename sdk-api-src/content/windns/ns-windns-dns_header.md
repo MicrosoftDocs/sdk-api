@@ -200,7 +200,7 @@ The DNS message is a response.
 
 ### -field ResponseCode
 
-The <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Response Code</a> of the message.
+The <a href="/windows/desktop/DNS/dns-constants">DNS Response Code</a> of the message.
 
 ### -field CheckingDisabled
 
@@ -324,4 +324,3 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

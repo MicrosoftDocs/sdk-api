@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure.
+Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ The type of structure is not defined.
 
 ### -field WRDS_LISTENER_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
-
+The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.

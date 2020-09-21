@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHDestroyPropSheetExtArray</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Frees property sheet handlers that are pointed to an array created by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
+Frees property sheet handlers that are pointed to an array created by <a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ The handle of the array that contains pointers to the property sheet handlers to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray">SHAddFromPropSheetExtArray</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray">SHAddFromPropSheetExtArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray">SHReplaceFromPropSheetExtArray</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray">SHReplaceFromPropSheetExtArray</a>

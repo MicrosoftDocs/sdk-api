@@ -83,15 +83,14 @@ The method succeeded.
 
 ## -remarks
 
-The input streams may or may not be connected to output streams on other nodes. To get the node that is connected to a specified input stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput">IMFTopologyNode::GetInput</a>.
+The input streams may or may not be connected to output streams on other nodes. To get the node that is connected to a specified input stream, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput">IMFTopologyNode::GetInput</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">IMFTopologyNode::ConnectOutput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setinputpreftype">IMFTopologyNode::SetInputPrefType</a> methods add new input streams as needed.
+The <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">IMFTopologyNode::ConnectOutput</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setinputpreftype">IMFTopologyNode::SetInputPrefType</a> methods add new input streams as needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

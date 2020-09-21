@@ -94,9 +94,8 @@ Get a stream of multi-protocol encapsulation (MPE) packets.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
+<a href="/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initialize">ISectionList::Initialize</a>
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initialize">ISectionList::Initialize</a>

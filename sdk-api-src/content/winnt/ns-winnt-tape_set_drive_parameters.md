@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<b>TAPE_SET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>function.
+<b>TAPE_SET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>function.
 
 ## -struct-fields
 
@@ -81,5 +81,4 @@ Number of bytes between the end-of-tape warning and the physical end of the tape
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>

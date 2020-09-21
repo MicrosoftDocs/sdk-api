@@ -54,7 +54,7 @@ Provides a single method that enables an application to determine whether its ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommandApplicationHostEnvironment</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandApplicationHostEnvironment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommandApplicationHostEnvironment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandApplicationHostEnvironment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExecuteCommandApplicationHostEnvironment</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommandapplicationhostenvironment-getvalue">GetValue</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommandapplicationhostenvironment-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current application host environment is in the desktop or immersive mode.
@@ -81,5 +81,4 @@ Determines whether the current application host environment is in the desktop or
 ## -remarks
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
-An application must implement this interface together with the DelegateExecute handler (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a>).
-
+An application must implement this interface together with the DelegateExecute handler (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a>).

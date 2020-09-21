@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>put_SuppressEffects</b> method specifies whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a> configures the system for optimal video playback.
+The <b>put_SuppressEffects</b> method specifies whether the <a href="/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a> configures the system for optimal video playback.
 
 ## -parameters
 
@@ -81,5 +81,4 @@ The default value for this property is VARIANT_TRUE. Set this property to VARIAN
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>

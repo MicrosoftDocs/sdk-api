@@ -59,7 +59,7 @@ This API enables your apps to access and use the data contained in the Microsoft
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFEDictionary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFEDictionary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFEDictionary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFEDictionary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IFEDictionary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-close">Close</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a dictionary file.
@@ -83,7 +83,7 @@ Closes a dictionary file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-create">Create</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates a new dictionary file.
@@ -92,7 +92,7 @@ Creates a new dictionary file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-displayproperty">DisplayProperty</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-displayproperty">DisplayProperty</a>
 </td>
 <td align="left" width="63%">
 This method is obsolete starting with Windows 8, and is no longer supported.
@@ -101,7 +101,7 @@ This method is obsolete starting with Windows 8, and is no longer supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-existword">ExistWord</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-existword">ExistWord</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified word exists in <b>IFEDictionary</b>.
@@ -110,7 +110,7 @@ Determines if the specified word exists in <b>IFEDictionary</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getheader">GetHeader</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getheader">GetHeader</a>
 </td>
 <td align="left" width="63%">
 Gets a dictionary header from a dictionary file without opening the dictionary.
@@ -119,7 +119,7 @@ Gets a dictionary header from a dictionary file without opening the dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">GetPosTable</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">GetPosTable</a>
 </td>
 <td align="left" width="63%">
 Obtains the public POS (Part of Speech) table.
@@ -128,7 +128,7 @@ Obtains the public POS (Part of Speech) table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a>
 </td>
 <td align="left" width="63%">
 Gets word entries from a dictionary.
@@ -137,7 +137,7 @@ Gets word entries from a dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>
 </td>
 <td align="left" width="63%">
 Gets the next word entry from a dictionary.
@@ -146,7 +146,7 @@ Gets the next word entry from a dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-open">Open</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a dictionary file.
@@ -155,7 +155,7 @@ Opens a dictionary file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-registerword">RegisterWord</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-registerword">RegisterWord</a>
 </td>
 <td align="left" width="63%">
 Registers a new word or deletes an existing word in the <b>IFEDictionary</b>.
@@ -164,7 +164,7 @@ Registers a new word or deletes an existing word in the <b>IFEDictionary</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">SetHeader</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">SetHeader</a>
 </td>
 <td align="left" width="63%">
 Sets a dictionary header in a dictionary file.
@@ -175,5 +175,4 @@ Sets a dictionary header in a dictionary file.
 
 ## -remarks
 
-Create an instance of this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-createifedictionaryinstance">CreateIFEDictionaryInstance</a> function.
-
+Create an instance of this interface with the <a href="/windows/desktop/api/msime/nf-msime-createifedictionaryinstance">CreateIFEDictionaryInstance</a> function.

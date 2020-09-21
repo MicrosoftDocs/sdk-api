@@ -77,5 +77,4 @@ All members of the IN6_ADDR structure must be specified in network-byte-order (b
 
 ## -see-also
 
-[SOCKADDR_IN6](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_lh)
-
+[SOCKADDR_IN6](../ws2ipdef/ns-ws2ipdef-sockaddr_in6_lh.md)

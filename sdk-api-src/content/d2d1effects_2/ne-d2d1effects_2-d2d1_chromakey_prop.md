@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/chromakey-effect">Chroma-key effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/chromakey-effect">Chroma-key effect</a>.
 
 ## -enum-fields
 
@@ -74,4 +74,3 @@ The D2D1_CHROMAKEY_PROP_FEATHER property is a boolean value whether the edges of
           The default value is False.
 
 ### -field D2D1_CHROMAKEY_PROP_FORCE_DWORD
-

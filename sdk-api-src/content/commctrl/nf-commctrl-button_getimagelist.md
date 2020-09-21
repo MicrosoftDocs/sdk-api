@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a> message explicitly.
+Gets the <a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -64,22 +64,21 @@ A handle to the button control.
 
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains image list information.
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains image list information.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a>
+<a href="/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a>
 
 
 
 <b>Reference</b>
-

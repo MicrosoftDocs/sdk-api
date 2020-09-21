@@ -60,7 +60,7 @@ The <b>KERB_CERTIFICATE_S4U_LOGON</b> structure contains information about the c
 
 ### -field MessageType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>.
+A value of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>.
 
 ### -field Flags
 
@@ -78,7 +78,7 @@ Flags that provide more information about the certificate logon.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/key-distribution-center">Key Distribution Center</a> (KDC) checks for account mapping conflicts for the same certificate.
+The <a href="/windows/desktop/SecAuthN/key-distribution-center">Key Distribution Center</a> (KDC) checks for account mapping conflicts for the same certificate.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The KDC checks to see if an authentication policy is set.
 </dl>
 </td>
 <td width="60%">
-The KDC checks for identity only tokens instead of impersonation tokens. The request for the identity token must have the same value as the <b>KERB_S4U_LOGON_FLAG_IDENTIFY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a> structure.
+The KDC checks for identity only tokens instead of impersonation tokens. The request for the identity token must have the same value as the <b>KERB_S4U_LOGON_FLAG_IDENTIFY</b> flag in the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a> structure.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista with SP2:  </b>This flag is not available.
 
@@ -121,11 +121,11 @@ The KDC checks for identity only tokens instead of impersonation tokens. The req
 
 ### -field UserPrincipalName
 
-The user principal name of the client to authenticate. The value of this member can be <b>NULL</b>.   If the value is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the user name.
+The user principal name of the client to authenticate. The value of this member can be <b>NULL</b>.   If the value is not <b>NULL</b>, the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the user name.
 
 ### -field DomainName
 
-The domain name of the user to authenticate. The value of this member can be <b>NULL</b>. If the value is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the KDC. If the value is <b>NULL</b>, the <b>LsaLogonUser</b> function attempts to authenticate against the domain to which the computer is joined.
+The domain name of the user to authenticate. The value of this member can be <b>NULL</b>. If the value is not <b>NULL</b>, the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the KDC. If the value is <b>NULL</b>, the <b>LsaLogonUser</b> function attempts to authenticate against the domain to which the computer is joined.
 
 ### -field CertificateLength
 
@@ -134,4 +134,3 @@ The length, in bytes, of the client certificate.
 ### -field Certificate
 
 The certificate of the S4U logon.
-

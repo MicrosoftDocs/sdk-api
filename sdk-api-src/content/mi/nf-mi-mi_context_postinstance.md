@@ -70,17 +70,16 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 There will be posting functions automatically generated for the indication class (for example, className_Post), and they should be called here.
 
-The server is responsible for copying the instance so the provider is free to dispose of the instance afterwards using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
+The server is responsible for copying the instance so the provider is free to dispose of the instance afterwards using the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>

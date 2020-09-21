@@ -46,13 +46,9 @@ api_name:
  - pevent_trace_buffer_callbacka
 ---
 
-# PEVENT_TRACE_BUFFER_CALLBACKA callback function
-
-
 ## -description
 
 Consumers implement this function to  receive statistics about each buffer of events that ETW delivers to an event trace consumer. ETW calls this function after the events for each buffer are delivered.
-			
 
 The <b>PEVENT_TRACE_BUFFER_CALLBACK</b> type defines a pointer to this callback function. <b>BufferCallback</b> is a placeholder for the application-defined function name.
 
@@ -60,43 +56,33 @@ The <b>PEVENT_TRACE_BUFFER_CALLBACK</b> type defines a pointer to this callback 
 
 ### -param Logfile
 
-#### - Buffer [in]
-
-Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer.
+Pointer to an <a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer.
 
 ## -returns
 
 To continue processing events, return <b>TRUE</b>. Otherwise, return <b>FALSE</b>.
-					Returning <b>FALSE</b> will terminate the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function.
+Returning <b>FALSE</b> will terminate the <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function.
 
 ## -remarks
 
 To specify the function that ETW calls to deliver the buffer statistics, set the 
 <b>BufferCallback</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function.
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function.
 
-
-#### Examples
+## Examples
 
 For an example implementation of a 
 <b>BufferCallback</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+<a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
-
-
-
 
 > [!NOTE]
 > The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

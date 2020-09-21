@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Servers use <b>SetPropServer</b> to specify a callback object to be used to annotate an array of properties for the accessible element. You can also specify whether the annotation is to be applied to this accessible element or to the element and its children. This method is used for <a href="https://docs.microsoft.com/windows/desktop/WinAuto/server-annotation">server annotation</a>.
+Servers use <b>SetPropServer</b> to specify a callback object to be used to annotate an array of properties for the accessible element. You can also specify whether the annotation is to be applied to this accessible element or to the element and its children. This method is used for <a href="/windows/desktop/WinAuto/server-annotation">server annotation</a>.
 
-If server developers know the <b>HWND</b> of the accessible element they want to annotate, they can use <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">IAccPropServices::SetHwndPropServer</a>.
+If server developers know the <b>HWND</b> of the accessible element they want to annotate, they can use <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">IAccPropServices::SetHwndPropServer</a>.
 
 ## -parameters
 
 ### -param pIDString [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 Identifies the accessible element that is to be annotated.
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of the string identified by the <i>pIDString</i> parameter.
 
@@ -94,7 +94,7 @@ May be ANNO_THIS, indicating that the annotation affects the indicated accessibl
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -106,5 +106,4 @@ May return other error codes under exceptional error conditions such as low memo
 
 See the support section for a list of supported properties and their expected types.
 
-The annotation run time will use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to increment the reference counter for the <i>pServer</i> callback object appropriately. The caller is free to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> it after calling this method. The annotation run time will automatically release the callback object after the accessible element being annotated is no longer being used.
-
+The annotation run time will use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to increment the reference counter for the <i>pServer</i> callback object appropriately. The caller is free to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> it after calling this method. The annotation run time will automatically release the callback object after the accessible element being annotated is no longer being used.

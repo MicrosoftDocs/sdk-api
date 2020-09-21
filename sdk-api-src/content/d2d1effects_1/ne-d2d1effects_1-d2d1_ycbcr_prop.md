@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 Specifies the chroma subsampling of the input chroma image.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_chroma_subsampling">D2D1_YCBCR_CHROMA_SUBSAMPLING</a>.
+The type is <a href="/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_chroma_subsampling">D2D1_YCBCR_CHROMA_SUBSAMPLING</a>.
 
 The default value is D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO.
 
@@ -68,7 +68,7 @@ The default value is D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO.
 A 3x2 Matrix specifying the axis-aligned affine transform of the image. Axis aligned transforms include Scale, Flips, and 90 degree rotations.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>.
+The type is <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>.
 
 The default value is Matrix3x2F::Identity().
 
@@ -77,7 +77,6 @@ The default value is Matrix3x2F::Identity().
 The interpolation mode.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode">D2D1_YCBCR_INTERPOLATION_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode">D2D1_YCBCR_INTERPOLATION_MODE</a>.
 
 ### -field D2D1_YCBCR_PROP_FORCE_DWORD
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptQueryObject</b> function retrieves information about the contents of a cryptography API object, such as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a>, or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a>. The object can either reside in a structure in memory or be contained in a file.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptQueryObject</b> function retrieves information about the contents of a cryptography API object, such as a <a href="/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a>, or a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a>. The object can either reside in a structure in memory or be contained in a file.
 
 ## -parameters
 
@@ -101,7 +101,7 @@ A pointer to the object to be queried.
 </dl>
 </td>
 <td width="60%">
-This parameter is a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a>, or similar, structure that contains the object to query.
+This parameter is a pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a>, or similar, structure that contains the object to query.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The content is a single certificate.
 </dl>
 </td>
 <td width="60%">
-The content is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded X509_CERT_PAIR (an encoded certificate pair that contains either forward, reverse, or forward and reverse cross certificates).
+The content is an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded X509_CERT_PAIR (an encoded certificate pair that contains either forward, reverse, or forward and reverse cross certificates).
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ The content is a single CTL.
 </dl>
 </td>
 <td width="60%">
-The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet, but it will not be loaded by this function. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore">PFXImportCertStore</a> function to load this into a store.
+The content is a PFX (<a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet, but it will not be loaded by this function. You can use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore">PFXImportCertStore</a> function to load this into a store.
 
 </td>
 </tr>
@@ -194,9 +194,9 @@ The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </dl>
 </td>
 <td width="60%">
-The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet and will be loaded by this function subject to the conditions specified in the following note.
+The content is a PFX (<a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet and will be loaded by this function subject to the conditions specified in the following note.
 
-<div class="alert"><b>Note</b>  <p class="note">If the PFX packet contains an embedded password that is not an empty string or <b>NULL</b>, and the password was not protected to an Active Directory (AD) principal that includes the calling user, this function will not be able to decrypt the PFX packet. The packet can be decrypted, however, if the password used when the PFX packet was created was encrypted to an AD principal and the user, as part of that principal, has permission to decrypt the password. For more information, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
+<div class="alert"><b>Note</b>  <p class="note">If the PFX packet contains an embedded password that is not an empty string or <b>NULL</b>, and the password was not protected to an Active Directory (AD) principal that includes the calling user, this function will not be able to decrypt the PFX packet. The packet can be decrypted, however, if the password used when the PFX packet was created was encrypted to an AD principal and the user, as part of that principal, has permission to decrypt the password. For more information, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
 
 <p class="note">You can protect PFX passwords to an AD principal beginning in Windows 8 and Windows Server 2012.
 
@@ -317,7 +317,7 @@ The content can be returned in any format.
 </dl>
 </td>
 <td width="60%">
-The content should be returned in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with a "{ASN}" prefix.
+The content should be returned in <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with a "{ASN}" prefix.
 
 </td>
 </tr>
@@ -440,7 +440,7 @@ The content is a single CTL.
 </dl>
 </td>
 <td width="60%">
-The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet. This function only verifies that the object is a PKCS #12 packet. The PKCS #12 packet is not loaded into a certificate store.
+The content is a PFX (<a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet. This function only verifies that the object is a PKCS #12 packet. The PKCS #12 packet is not loaded into a certificate store.
 
 </td>
 </tr>
@@ -450,7 +450,7 @@ The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </dl>
 </td>
 <td width="60%">
-The content is a PFX (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet, and it has been loaded into a certificate store.
+The content is a PFX (<a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a>) packet, and it has been loaded into a certificate store.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -557,7 +557,7 @@ A pointer to a <b>DWORD</b> value that receives the actual format type of the co
 </dl>
 </td>
 <td width="60%">
-The content is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with an "{ASN}" prefix.
+The content is in <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with an "{ASN}" prefix.
 
 </td>
 </tr>
@@ -652,7 +652,7 @@ This parameter only receives a certificate store handle when the <i>dwContentTyp
 
 #### CERT_QUERY_CONTENT_SERIALIZED_STORE
 
-When you have finished using the handle, free it by passing the handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+When you have finished using the handle, free it by passing the handle to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 If this information is not needed, set this parameter to <b>NULL</b>.
 
@@ -683,7 +683,7 @@ This parameter only receives a message handle when the <i>dwContentType</i> para
 
 #### CERT_QUERY_CONTENT_PKCS7_UNSIGNED
 
-When you have finished using the handle, free it by passing the handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
+When you have finished using the handle, free it by passing the handle to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
 
 If this information is not needed, set this parameter to <b>NULL</b>.
 
@@ -707,7 +707,7 @@ The format of this data depends on the value received by the <i>dwContentType</i
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 </td>
 </tr>
@@ -717,7 +717,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
 </td>
 </tr>
@@ -727,7 +727,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 </td>
 </tr>
@@ -737,7 +737,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 </td>
 </tr>
@@ -747,7 +747,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
 </td>
 </tr>
@@ -757,7 +757,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
+This parameter receives a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 </td>
 </tr>
@@ -771,9 +771,8 @@ If this information is not needed, set this parameter to <b>NULL</b>.
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

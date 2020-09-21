@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a> interface with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">IUrlAccessor3::GetImpersonationSidBlobs</a> method to identify user security identifiers (SIDs) for a specified URL.
+Extends the functionality of the <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a> interface with the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">IUrlAccessor3::GetImpersonationSidBlobs</a> method to identify user security identifiers (SIDs) for a specified URL.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>. <b>IUrlAccessor3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor3</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>. <b>IUrlAccessor3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUrlAccessor3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">GetImpersonationSidBlobs</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">GetImpersonationSidBlobs</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of user SIDs for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
@@ -85,11 +85,11 @@ Retrieves an array of user SIDs for a specified URL. This method enables protoco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
 
 
 
@@ -97,9 +97,8 @@ Retrieves an array of user SIDs for a specified URL. This method enables protoco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
+<a href="/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

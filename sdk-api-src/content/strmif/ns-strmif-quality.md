@@ -58,7 +58,7 @@ The <code>Quality</code> structure describes a quality message by indicating Flo
 
 ### -field Type
 
-Value from the [QualityMessageType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-qualitymessagetype) enumeration, indicating whether the downstream filter needs more or less data.
+Value from the [QualityMessageType](/windows/desktop/api/strmif/ne-strmif-qualitymessagetype) enumeration, indicating whether the downstream filter needs more or less data.
 
 ### -field Proportion
 
@@ -74,5 +74,4 @@ Value that specifies the time when DirectShow created this structure, which is u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

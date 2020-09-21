@@ -58,7 +58,7 @@ Re-indexes all URLs from a specified root.
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addroot">ISearchCrawlScopeManager::AddRoot</a>.
+Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-addroot">ISearchCrawlScopeManager::AddRoot</a>.
 
 ## -returns
 
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The indexer begins an incremental crawl of all start pages under <i>pszRootURL</i> upon successful return of method.
 
 Old information remains in the catalog until replaced by new information during the re-indexing.
-

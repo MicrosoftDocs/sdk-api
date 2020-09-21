@@ -52,23 +52,22 @@ api_name:
 
 ## -description
 
-Associates command flags from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration with a command identifier through a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
+Associates command flags from the <a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration with a command identifier through a call to <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
 
 ## -struct-fields
 
 ### -field cmdID
 
-A command identifier; taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a> enumeration.
+A command identifier; taken from the <a href="/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a> enumeration.
 
 ### -field cmdf
 
-Flags associated with <b>cmdID</b>; taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
+Flags associated with <b>cmdID</b>; taken from the <a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
-
+<a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>

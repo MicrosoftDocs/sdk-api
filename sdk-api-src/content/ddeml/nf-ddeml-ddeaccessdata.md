@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides access to the data in the specified Dynamic Data Exchange (DDE) object. An application must call the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeunaccessdata">DdeUnaccessData</a> function when it has finished accessing the data in the object.
+Provides access to the data in the specified Dynamic Data Exchange (DDE) object. An application must call the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeunaccessdata">DdeUnaccessData</a> function when it has finished accessing the data in the object.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ If the function succeeds, the return value is a pointer to the first byte of dat
 
 If the function fails, the return value is <b>NULL</b>. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
 
@@ -89,25 +89,24 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeadddata">DdeAddData</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeadddata">DdeAddData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeunaccessdata">DdeUnaccessData</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeunaccessdata">DdeUnaccessData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
-

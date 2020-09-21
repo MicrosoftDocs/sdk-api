@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>DATA_OBJECT_TYPES</b> enumeration is used by the <i>type</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">IComponentData::QueryDataObject</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> to obtain context information about a specified cookie.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">IComponentData::QueryDataObject</a> and 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> to obtain context information about a specified cookie.
 
 ## -enum-fields
 
@@ -74,4 +74,3 @@ Data object for Snap-in Manager context.
 ### -field CCT_UNINITIALIZED
 
 Data object has an invalid type.
-

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Converts a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure to a print ticket inside an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a>.
+Converts a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure to a print ticket inside an <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream</a>.
 
 ## -parameters
 
 ### -param hProvider [in]
 
-A handle to an open print ticket provider. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
+A handle to an open print ticket provider. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param cbDevmode
 
@@ -73,7 +73,7 @@ A value that specifies the scope of <i>pPrintTicket</i>. This value can specify 
 
 ### -param pPrintTicket
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> with its seek position at the beginning of the print ticket.
+A pointer to an <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> with its seek position at the beginning of the print ticket.
 
 ## -returns
 
@@ -81,7 +81,7 @@ If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -94,17 +94,16 @@ If the <i>pDevmode</i> points to a different printer, its settings may be lost a
 
 Settings in <i>pDevmode</i> that are outside the <i>scope</i> are not included in <i>pPrintTicket</i>. For example, if the scope is a single page, then job-wide settings and document-wide settings are not included. A job scope includes document scope and page scope. A document scope includes page scope.
 
-<b>PTConvertDevModeToPrintTicket</b> writes the print ticket to the <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> referenced by <i>pPrintTicket</i> starting at the stream's current seek point. After <b>PTConvertDevModeToPrintTicket</b> returns, the caller must reset the seek point to the initial seek point to read the print ticket returned by the function.
+<b>PTConvertDevModeToPrintTicket</b> writes the print ticket to the <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> referenced by <i>pPrintTicket</i> starting at the stream's current seek point. After <b>PTConvertDevModeToPrintTicket</b> returns, the caller must reset the seek point to the initial seek point to read the print ticket returned by the function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

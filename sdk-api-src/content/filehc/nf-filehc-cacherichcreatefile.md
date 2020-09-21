@@ -60,29 +60,28 @@ A pointer to the name of the file to be created in the cache.
 
 ### -param pfnCallBack [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a> function that was used to create the file.
+A pointer to the <a href="/previous-versions/bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a> function that was used to create the file.
 
 ### -param lpv [in]
 
- If the file is not in the cache, the call calls <i>pfnCallBack</i> with <i>lpv</i> to do the actual work of calling <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+ If the file is not in the cache, the call calls <i>pfnCallBack</i> with <i>lpv</i> to do the actual work of calling <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ### -param fAsyncContext [in]
 
-Specifies whether the context can be used for asynchronous I/O. If <b>TRUE</b>, the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> returned is asynchronous.
+Specifies whether the context can be used for asynchronous I/O. If <b>TRUE</b>, the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> returned is asynchronous.
 
 ## -returns
 
-Returns the address of the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that was obtained.
+Returns the address of the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that was obtained.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a>
+<a href="/previous-versions/bb432263(v=vs.85)">FCACHE_RICHCREATE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the environment variables for the specified user. This block can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function.
+Retrieves the environment variables for the specified user. This block can then be passed to the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function.
 
 ## -parameters
 
@@ -65,8 +65,8 @@ When this function returns, receives a pointer to the new environment block. The
 Type: <b>HANDLE</b>
 
 Token for the user, returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. If this is a primary token, the token must have <b>TOKEN_QUERY</b> and <b>TOKEN_DUPLICATE</b> access. If the token is an impersonation token, it must have <b>TOKEN_QUERY</b> access. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>. 
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. If this is a primary token, the token must have <b>TOKEN_QUERY</b> and <b>TOKEN_DUPLICATE</b> access. If the token is an impersonation token, it must have <b>TOKEN_QUERY</b> access. For more information, see 
+<a href="/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>. 
 
                     
 
@@ -82,36 +82,35 @@ Specifies whether to inherit from the current process' environment. If this valu
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To free the buffer when you have finished with the environment block, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a> function.
+<a href="/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a> function.
 
 If the environment block is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>, you must also specify the <b>CREATE_UNICODE_ENVIRONMENT</b> flag. After <b>CreateProcessAsUser</b> has returned, the new process has a copy of the environment block, and <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a> can be safely called.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>, you must also specify the <b>CREATE_UNICODE_ENVIRONMENT</b> flag. After <b>CreateProcessAsUser</b> has returned, the new process has a copy of the environment block, and <a href="/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a> can be safely called.
 
 User-specific environment variables such as %USERPROFILE% are set only when the user's profile is loaded. To load a user's profile, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function.
+<a href="/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
+<a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>

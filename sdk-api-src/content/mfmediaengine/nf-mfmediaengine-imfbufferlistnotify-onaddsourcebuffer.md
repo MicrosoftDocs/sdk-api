@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been added.
+Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been added.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>

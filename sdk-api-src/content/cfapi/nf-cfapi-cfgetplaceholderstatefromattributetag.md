@@ -64,9 +64,8 @@ The reparse tag information from a file.
 
 ## -returns
 
-Can include <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
+Can include <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
 
 ## -remarks
 
 The <i>FileAttributes</i> and <i>ReparseTag</i> can be obtained by listing the directory containing the file or by directly querying <i>FileAttributeTagInfo</i> on the file.
-

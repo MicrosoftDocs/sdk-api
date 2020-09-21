@@ -126,9 +126,8 @@ The candidate strings immediately follow the last offset in the <b>dwOffset</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>

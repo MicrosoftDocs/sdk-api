@@ -66,7 +66,7 @@ Must be 0. Reserved for future use.
 
 ### -param DestinationAddressList [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structures that contain a list of potential IPv6 destination addresses.
+A pointer to an array of <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structures that contain a list of potential IPv6 destination addresses.
         Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node.
 
 ### -param DestinationAddressCount [in]
@@ -79,7 +79,7 @@ Reserved for future use.
 
 ### -param SortedAddressPairList [out]
 
-A pointer to store an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain a list of pairs of IPv6 addresses
+A pointer to store an array of <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain a list of pairs of IPv6 addresses
         sorted in the preferred order of communication, if the function call is successful.
 
 ### -param SortedAddressPairCount [out]
@@ -138,7 +138,7 @@ The request is not supported. This error is returned if no IPv6 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -155,27 +155,26 @@ The <b>CreateSortedAddressPairs</b> function takes a list of source and destinat
 The list of source addresses pointed to by the <i>SourceAddressList</i> is currently reserved for future and must be a <b>NULL</b> pointer. The <i>SourceAddressCount</i> is currently reserved for future and must be zero. The <b>CreateSortedAddressPairs</b> function currently  uses all of the host machine's local addresses for the source address list.
 
 
-The list of destination addresses is pointed to by the <i>DestinationAddressList</i> parameter. The list of destination addresses is an array of <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structures.  Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>. The <i>DestinationAddressCount</i> parameter contains the number of destination addresses pointed to by the <i>DestinationAddressList</i> parameter. The <b>CreateSortedAddressPairs</b> function supports a maximum of 500 destination addresses.
+The list of destination addresses is pointed to by the <i>DestinationAddressList</i> parameter. The list of destination addresses is an array of <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structures.  Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>. The <i>DestinationAddressCount</i> parameter contains the number of destination addresses pointed to by the <i>DestinationAddressList</i> parameter. The <b>CreateSortedAddressPairs</b> function supports a maximum of 500 destination addresses.
 
-If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddressPairList</i> parameter points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain the sorted address pairs. When this returned list is no longer required, free the memory used by the list by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function.
+If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddressPairList</i> parameter points to an array of <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain the sorted address pairs. When this returned list is no longer required, free the memory used by the list by calling the <a href="/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>
+<a href="/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/using-sio-address-list-sort">Using SIO_ADDRESS_LIST_SORT</a>
+<a href="/windows/desktop/WinSock/using-sio-address-list-sort">Using SIO_ADDRESS_LIST_SORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>

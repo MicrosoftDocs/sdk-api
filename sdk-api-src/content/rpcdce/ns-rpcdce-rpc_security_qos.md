@@ -61,7 +61,7 @@ The
 
 ### -field Version
 
-Version of the <b>RPC_SECURITY_QOS</b> structure being used. This topic documents version 1 of the <b>RPC_SECURITY_QOS</b> structure. See <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> for other versions.
+Version of the <b>RPC_SECURITY_QOS</b> structure being used. This topic documents version 1 of the <b>RPC_SECURITY_QOS</b> structure. See <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>, <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a> and <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> for other versions.
 
 ### -field Capabilities
 
@@ -132,7 +132,7 @@ When specified, this flag directs the RPC runtime on the client to ignore an err
 </dl>
 </td>
 <td width="60%">
-This flag specifies to RPC that the server is local to the machine making the RPC call. In this situation RPC instructs the endpoint mapper to pick up only endpoints registered by the principal specified in the <b>ServerPrincName</b> or <b>Sid</b> members (these members are available in <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> only). See Remarks for more information.
+This flag specifies to RPC that the server is local to the machine making the RPC call. In this situation RPC instructs the endpoint mapper to pick up only endpoints registered by the principal specified in the <b>ServerPrincName</b> or <b>Sid</b> members (these members are available in <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a>, and <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> only). See Remarks for more information.
 
 <div class="alert"><b>Note</b>  Unsupported on Windows XP and earlier client editions, unsupported on Windows 2000 and earlier server editions.</div>
 <div> </div>
@@ -146,16 +146,16 @@ This flag specifies to RPC that the server is local to the machine making the RP
 <td width="60%">
 If set, the RPC runtime  uses the SChannel SSP to perform smartcard-based authentication without displaying a PIN prompt dialog box by the cryptographic services provider (CSP).
 
-In  the call to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>, the <i>AuthIdentity</i> parameter must be a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure whose members contain the following:
+In  the call to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>, the <i>AuthIdentity</i> parameter must be a <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure whose members contain the following:
 
 <ul>
-<li><b>User</b> must be a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure</li>
+<li><b>User</b> must be a pointer to an <a href="/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure</li>
 <li><b>UserLength</b> must be 0</li>
 <li><b>Domain</b> must  be NULL</li>
 <li><b>DomainLength</b> must be 0</li>
 <li><b>Password</b> may be the certificate PIN or NULL. If <b>Password</b> is the PIN, <b>PasswordLength</b> must be the correct length for the PIN,  and if <b>Password</b> is NULL, <b>PasswordLength</b> must be 0</li>
 </ul>
-If the <b>RPC_C_QOS_CAPABILITIES_SCHANNEL_FULL_AUTH_IDENTITY</b> flag is used for any SSP other than SChannel, or if the members of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> do not conform to the above, <b>RPC_S_INVALID_ARG</b> will be returned by <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>.
+If the <b>RPC_C_QOS_CAPABILITIES_SCHANNEL_FULL_AUTH_IDENTITY</b> flag is used for any SSP other than SChannel, or if the members of <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> do not conform to the above, <b>RPC_S_INVALID_ARG</b> will be returned by <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>.
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Security context is created only once and is never revised during the entire com
 <td width="60%">
 Context is revised whenever the ModifiedId in the client's token is changed. All protocols use the ModifiedId (see note).
 
-<b>Windows 2000:  </b>All remote protocols (all protocols other than <a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a>) use the AuthenticationID, also known as the LogonId, to track changes in the client's identity. The <b>ncalrpc</b> protocol uses  ModifiedId.
+<b>Windows 2000:  </b>All remote protocols (all protocols other than <a href="/windows/desktop/Midl/ncalrpc">ncalrpc</a>) use the AuthenticationID, also known as the LogonId, to track changes in the client's identity. The <b>ncalrpc</b> protocol uses  ModifiedId.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Client does not provide identification information to the server. The server can
 </dl>
 </td>
 <td width="60%">
-Server can obtain the client's identity, and impersonate the client to perform Access Control List (ACL) checks, but cannot impersonate the client.  See <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a> for more information.
+Server can obtain the client's identity, and impersonate the client to perform Access Control List (ACL) checks, but cannot impersonate the client.  See <a href="/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a> for more information.
 
 <div class="alert"><b>Note</b>  Some security providers may treat this impersonation type as equivalent to RPC_C_IMP_LEVEL_IMPERSONATE. From the Windows security providers, this is done by RPC_C_AUTHN_WINNT only when used with protocol sequences other than ncalrpc. It is also done by RPC_C_AUTHN_GSS_NEGOTIATE, RPC_C_AUTHN_GSS_SCHANNEL and RPC_C_AUTHN_GSS_KERBEROS.</div>
 <div> </div>
@@ -275,11 +275,11 @@ The following listing defines the availability of QOS versions on various Window
 Windows editions support downlevel versions as well. For example, Windows Server 2003 supports version 3, but also supports versions 1 and 2. 
 
 The client-side security functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> use the 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a> and 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> use the 
 <b>RPC_SECURITY_QOS</b> structure to inquire about, or to set, the security quality of service for a binding handle.
 
-RPC supports the RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT hint. This hint is used only when dynamic endpoints and mutual authentication are used. Furthermore, it is not supported for the <b>ncadg_*</b> protocol sequences. If this flag is used for a <b>ncadg_*</b> protocol sequence, or without using mutual authentication, RPC_S_INVALID_ARG is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function call.
+RPC supports the RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT hint. This hint is used only when dynamic endpoints and mutual authentication are used. Furthermore, it is not supported for the <b>ncadg_*</b> protocol sequences. If this flag is used for a <b>ncadg_*</b> protocol sequence, or without using mutual authentication, RPC_S_INVALID_ARG is returned from the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function call.
 This flag is designed to prevent a Denial of Service Attack. Using this flag forces the RPC Runtime to ask the endpoint mapper only for endpoints registered by the principal specified in the <b>ServerPrincName</b> or <b>Sid</b> members. This prevents an attacker on the local machine from trying to trick your RPC client to connect to a spoof endpoint it has registered in the endpoint mapper. Note that since the attack is local only (such as from a terminal server machine with many users), the flag also works only for RPC calls made locally.
 
 <div class="alert"><b>Note</b>  Some security providers, such as Kerberos, support delegation-impersonation type. On Windows editions that support delegation-impersonation type, if the client has asked for delegation but the security provider is unable to provide it, the call fails with PRC_S_SEC_PKG_ERROR unless the RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE flag is specified.</div>
@@ -287,25 +287,24 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa">RpcBindingInqAuthInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>

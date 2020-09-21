@@ -60,7 +60,7 @@ A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of
 
 ### -param arg2 [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
+A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
 
 ### -param arg3 [in]
 
@@ -86,7 +86,7 @@ Obsolete.
 
 #### DDOVER_ALPHADESTCONSTOVERRIDE
 
-Uses the <b>dwAlphaDestConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the destination alpha channel for this overlay.
+Uses the <b>dwAlphaDestConst</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the destination alpha channel for this overlay.
 
 
 
@@ -98,13 +98,13 @@ Indicates that the destination surface becomes more transparent as the alpha val
 
 #### DDOVER_ALPHADESTSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaDest</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel destination for this overlay.
+Uses the <b>lpDDSAlphaDest</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel destination for this overlay.
 
 
 
 #### DDOVER_ALPHAEDGEBLEND
 
-Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
+Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
 
 
 
@@ -116,7 +116,7 @@ Uses either the alpha information in pixel format or the alpha channel surface a
 
 #### DDOVER_ALPHASRCCONSTOVERRIDE
 
-Uses the <b>dwAlphaSrcConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the source alpha channel for this overlay.
+Uses the <b>dwAlphaSrcConst</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the source alpha channel for this overlay.
 
 
 
@@ -129,13 +129,13 @@ Indicates that the source surface becomes more transparent as the alpha value in
 
 #### DDOVER_ALPHASRCSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel source for this overlay.
+Uses the <b>lpDDSAlphaSrc</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel source for this overlay.
 
 
 
 #### DDOVER_ARGBSCALEFACTORS
 
-New for DirectX 7.0. Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure contains valid ARGB scaling factors.
+New for DirectX 7.0. Indicates that the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure contains valid ARGB scaling factors.
 
 
 
@@ -189,7 +189,7 @@ Uses the color key associated with the destination surface.
 
 #### DDOVER_KEYDESTOVERRIDE
 
-Uses the <b>dckDestColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the destination surface.
+Uses the <b>dckDestColorkey</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the destination surface.
 
 
 
@@ -201,7 +201,7 @@ Uses the color key associated with the source surface.
 
 #### DDOVER_KEYSRCOVERRIDE
 
-Uses the <b>dckSrcColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the source surface.
+Uses the <b>dckSrcColorkey</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the source surface.
 
 
 
@@ -229,7 +229,7 @@ Turns on this overlay.
 
 ### -param arg5 [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
+A pointer to the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
 
 ## -returns
 
@@ -257,9 +257,8 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>UpdateOverlay</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>UpdateOverlay</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

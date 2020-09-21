@@ -56,7 +56,7 @@ Notifies the cache that the data source object has entered the running state so 
 
 ### -param pDataObject [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that is entering the running state.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that is entering the running state.
 
 ## -returns
 
@@ -104,21 +104,20 @@ Insufficient memory is available for this operation.
 
 ## -remarks
 
-When <b>OnRun</b> is called, the cache sets up advisory connections as necessary with the source data object so it can receive notifications. The advisory connection created between the running object and the cache is destroyed when <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">IOleCacheControl::OnStop</a> is called.
+When <b>OnRun</b> is called, the cache sets up advisory connections as necessary with the source data object so it can receive notifications. The advisory connection created between the running object and the cache is destroyed when <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">IOleCacheControl::OnStop</a> is called.
 
-Some object handlers or in-process servers might use the cache passively, and not call <b>OnRun</b>. These applications must call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">IOleCache2::UpdateCache</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-initcache">IOleCache::InitCache</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a> to fill the cache when necessary to ensure that the cache gets updated.
+Some object handlers or in-process servers might use the cache passively, and not call <b>OnRun</b>. These applications must call <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">IOleCache2::UpdateCache</a>, <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-initcache">IOleCache::InitCache</a>, or <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a> to fill the cache when necessary to ensure that the cache gets updated.
 
-<b>OnRun</b> does not add a reference count on the pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> passed in <i>pDataObject</i>. Because it is the responsibility of the caller of <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> to ensure that the lifetime of the <i>pDataObject</i> pointer lasts until <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">OnStop</a> is called, the caller must be holding a pointer to <b>IDataObject</b> on the data object of interest.
+<b>OnRun</b> does not add a reference count on the pointer to <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> passed in <i>pDataObject</i>. Because it is the responsibility of the caller of <a href="/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> to ensure that the lifetime of the <i>pDataObject</i> pointer lasts until <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">OnStop</a> is called, the caller must be holding a pointer to <b>IDataObject</b> on the data object of interest.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">IOleCache2::UpdateCache</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">IOleCache2::UpdateCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">IOleCacheControl::OnStop</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">IOleCacheControl::OnStop</a>

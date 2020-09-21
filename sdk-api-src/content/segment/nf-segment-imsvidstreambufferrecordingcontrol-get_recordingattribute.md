@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>get_RecordingAttribute</b> method retrieves the stream buffer <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object that is controlled by this interface.
+The <b>get_RecordingAttribute</b> method retrieves the stream buffer <a href="/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object that is controlled by this interface.
 
 ## -parameters
 
 ### -param pRecordingAttribute [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object's <b>IUnknown</b> interface.
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object's <b>IUnknown</b> interface.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The caller must release the returned <b>IUnknown</b> pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>

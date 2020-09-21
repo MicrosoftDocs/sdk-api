@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the digital audio copy  "Allowed" bit to one of three values on the resulting media.  Please see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a> enumeration for additional information on each possible value.
+Sets the digital audio copy  "Allowed" bit to one of three values on the resulting media.  Please see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a> enumeration for additional information on each possible value.
 
 ## -parameters
 
@@ -70,9 +70,8 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a>
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_track_digital_copy_setting">IMAPI_CD_TRACK_DIGITAL_COPY_SETTING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo">IRawCDImageTrackInfo</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo">IRawCDImageTrackInfo</a>

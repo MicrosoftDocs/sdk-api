@@ -54,19 +54,18 @@ api_name:
 
 ## -description
 
-Contains information used by the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-createmappedbitmap">CreateMappedBitmap</a> function to map the colors of the bitmap.
+Contains information used by the <a href="/windows/desktop/api/commctrl/nf-commctrl-createmappedbitmap">CreateMappedBitmap</a> function to map the colors of the bitmap.
 
 ## -struct-fields
 
 ### -field from
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Color to map from.
 
 ### -field to
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Color to map to.
-

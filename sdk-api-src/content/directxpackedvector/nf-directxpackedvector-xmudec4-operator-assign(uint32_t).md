@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Assigns the vector component data packed in an instance of **uint32_t** to the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>.
+Assigns the vector component data packed in an instance of **uint32_t** to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>.
 
 This operator assigns the vector component data packed in an instance of **uint32_t** to the current instance of **XMUDEC4**.
 
@@ -74,5 +74,4 @@ The format of Packed is:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
-
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>

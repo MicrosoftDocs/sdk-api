@@ -64,7 +64,7 @@ A <b>VT_BSTR</b> value that contains the template display name.
 
 ### -field TemplatePropEKUs
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of extended key usage object identifiers. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of extended key usage object identifiers. This value applies to version 2 and later templates.
 
 ### -field TemplatePropCryptoProviders
 
@@ -100,7 +100,7 @@ A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies 
 
 ### -field TemplatePropOID
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that contains an object identifier for this template. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that contains an object identifier for this template. This value applies to version 2 and later templates.
 
 ### -field TemplatePropSupersede
 
@@ -108,19 +108,19 @@ A <b>VT_ARRAY|VT_BSTR</b> collection that contains the common names of all versi
 
 ### -field TemplatePropRACertificatePolicies
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of certificate policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of certificate policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
 ### -field TemplatePropRAEKUs
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of application policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of application policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
 ### -field TemplatePropCertificatePolicies
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate policy extension.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate policy extension.
 
 ### -field TemplatePropV1ApplicationPolicy
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate application policy extension.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate application policy extension.
 
 ### -field TemplatePropAsymmetricAlgorithm
 
@@ -146,19 +146,19 @@ A <b>VT_BSTR</b> value that specifies the name of the hashing algorithm that an 
 
 ### -field TemplatePropEnrollmentFlags
 
-A <b>VT_I4</b> value that contains a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateenrollmentflag">X509CertificateTemplateEnrollmentFlag</a> values.
+A <b>VT_I4</b> value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateenrollmentflag">X509CertificateTemplateEnrollmentFlag</a> values.
 
 ### -field TemplatePropSubjectNameFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplatesubjectnameflag">X509CertificateTemplateSubjectNameFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplatesubjectnameflag">X509CertificateTemplateSubjectNameFlag</a> values.
 
 ### -field TemplatePropPrivateKeyFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateprivatekeyflag">X509CertificateTemplatePrivateKeyFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateprivatekeyflag">X509CertificateTemplatePrivateKeyFlag</a> values.
 
 ### -field TemplatePropGeneralFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplategeneralflag">X509CertificateTemplateGeneralFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplategeneralflag">X509CertificateTemplateGeneralFlag</a> values.
 
 ### -field TemplatePropSecurityDescriptor
 
@@ -166,7 +166,7 @@ A <b>VT_BSTR</b> value that specifies the security descriptor.
 
 ### -field TemplatePropExtensions
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> interface that contains the certificate extensions to be added to the certificate request when generating requests based on this template.
+A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> interface that contains the certificate extensions to be added to the certificate request when generating requests based on this template.
 
 ### -field TemplatePropValidityPeriod
 
@@ -175,4 +175,3 @@ A <b>VT_UI8 FILETIME</b> value that contains the maximum validity period, in sec
 ### -field TemplatePropRenewalPeriod
 
 A <b>VT_UI8 FILETIME</b> value that specifies the amount of time before expiration that automatic enrollment has to  attempt certificate renewal.
-

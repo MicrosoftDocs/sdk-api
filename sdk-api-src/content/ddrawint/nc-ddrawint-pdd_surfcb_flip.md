@@ -53,7 +53,7 @@ The <b>DdFlip</b> callback function causes the surface memory associated with th
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a> structure that contains the information required to perform the flip.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a> structure that contains the information required to perform the flip.
 
 ## -returns
 
@@ -69,5 +69,4 @@ If the driver's hardware supports overlays or textures, <b>DdFlip</b> should mak
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a>

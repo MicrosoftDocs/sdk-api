@@ -93,5 +93,4 @@ The object is not executing within a transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>

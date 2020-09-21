@@ -58,7 +58,7 @@ Retrieves the type and name of the physical pin.
 
 ### -param pType [out]
 
-Pointer to a variable that receives a value indicating the pin's type. The [PhysicalConnectorType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration defines the pin type values.
+Pointer to a variable that receives a value indicating the pin's type. The [PhysicalConnectorType](/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration defines the pin type values.
 
 ### -param ppszType [out]
 
@@ -70,9 +70,8 @@ Returns S_OK if a valid physical pin value is found. Otherwise, returns VFW_E_NO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamphysicalpininfo">IAMPhysicalPinInfo Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamphysicalpininfo">IAMPhysicalPinInfo Interface</a>

@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-gethovertime">LVM_GETHOVERTIME</a> message explicitly.
+Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-gethovertime">LVM_GETHOVERTIME</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
 ## -remarks
 
-The hover time only affects list-view controls that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TRACKSELECT</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style.
-
+The hover time only affects list-view controls that have the <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TRACKSELECT</a>, <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_ONECLICKACTIVATE</a>, or <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style.

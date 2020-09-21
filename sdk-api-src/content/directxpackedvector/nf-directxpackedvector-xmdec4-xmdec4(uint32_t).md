@@ -106,9 +106,8 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>

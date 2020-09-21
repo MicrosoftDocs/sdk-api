@@ -56,7 +56,7 @@ The <code>IBPCSatelliteTuner</code> interface supports satellite television tuni
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBPCSatelliteTuner</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>. <b>IBPCSatelliteTuner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBPCSatelliteTuner</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>. <b>IBPCSatelliteTuner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBPCSatelliteTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-get_defaultsubchanneltypes">get_DefaultSubChannelTypes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-get_defaultsubchanneltypes">get_DefaultSubChannelTypes</a>
 </td>
 <td align="left" width="63%">
 Gets the default sub-channel types.
@@ -80,7 +80,7 @@ Gets the default sub-channel types.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-istapingpermitted">IsTapingPermitted</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-istapingpermitted">IsTapingPermitted</a>
 </td>
 <td align="left" width="63%">
 Queries whether taping is permitted.
@@ -89,7 +89,7 @@ Queries whether taping is permitted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-put_defaultsubchanneltypes">put_DefaultSubChannelTypes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ibpcsatellitetuner-put_defaultsubchanneltypes">put_DefaultSubChannelTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the default sub-channel types.
@@ -100,9 +100,8 @@ Sets the default sub-channel types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>

@@ -137,7 +137,7 @@ An implementation of a backup type defined by a
 This is particularly true in the case of incremental (<b>VSS_BT_INCREMENTAL</b>) and 
     differential (<b>VSS_BT_DIFFERENTIAL</b>) backups. In these cases, requesters and writers 
     work together using the file backup specification masks 
-    (<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>), and designations of 
+    (<a href="/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>), and designations of 
     files as being part of partial and differenced file operations to select which files must be backed up.
 
 A requester may also use other more traditional techniques to implement an incremental or differential 
@@ -148,17 +148,16 @@ If a requester, when processing a given backup type, encounters a writer that do
     was <b>VSS_BT_FULL</b>.
 
 Requesters set the backup type with a call to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>.
 
 Writers use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a> to determine the 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a> to determine the 
     backup type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>

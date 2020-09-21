@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> callback function.
+This structure is used by the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> callback function.
 
 ## -struct-fields
 
@@ -74,4 +74,3 @@ An open handle to the registry key where this provider should
 ### -field hProvider
 
 A handle that the provider can use to uniquely identify itself in calls to the multicast server.
-

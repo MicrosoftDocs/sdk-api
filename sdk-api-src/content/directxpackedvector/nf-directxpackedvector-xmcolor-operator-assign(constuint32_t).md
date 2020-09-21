@@ -54,7 +54,7 @@ Assigns the vector component data packed in an instance of <code>uint32_t</code>
   <code>XMCOLOR</code>.
 
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of
-  <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>.
+  <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -102,9 +102,8 @@ The fourth 8 bits (bits 24-31) of <b>Color</b> assigned, as an unsigned integer,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
-

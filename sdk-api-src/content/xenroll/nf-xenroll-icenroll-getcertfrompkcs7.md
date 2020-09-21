@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>getCertFromPKCS7</b> method retrieves the certificate, contained in a PKCS #7 message, that was  issued in response to a PKCS #10 certificate request. This method was first defined by the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>getCertFromPKCS7</b> method retrieves the certificate, contained in a PKCS #7 message, that was  issued in response to a PKCS #10 certificate request. This method was first defined by the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This method retrieves the single certificate that was issued even though a PKCS #7 message may contain many certificates that specify the certification chain of authority that issued the certificate.
 
@@ -68,15 +68,14 @@ Specifies the PKCS #7 from which the issued certificate is being retrieved.
 
 ### -param pbstrCert [out]
 
-A pointer to a <b>BSTR</b> variable to receive the issued certificate. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable to receive the issued certificate. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The string that contains the issued certificate.
-

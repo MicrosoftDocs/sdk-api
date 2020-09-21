@@ -60,7 +60,7 @@ A pointer to a count of elements in the <b>HELPER_ATTRIBUTE</b> array.
 
 ### -param pprgAttributes [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> structures.
 
 ## -returns
 
@@ -146,5 +146,4 @@ This method is not required when building a Helper Class Extension.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

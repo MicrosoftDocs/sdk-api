@@ -123,9 +123,8 @@ This attribute cannot be expressed as a string. For example, if it is an integer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
-

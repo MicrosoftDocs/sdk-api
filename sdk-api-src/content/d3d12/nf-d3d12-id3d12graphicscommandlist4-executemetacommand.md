@@ -52,7 +52,7 @@ api_name:
 
 Records the execution (or invocation) of the specified meta command into a graphics command list.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">ID3D12GraphicsCommandList4::InitializeMetaCommand</a> before executing a meta command. During invocation, you can specify overrides for values of any of the runtime parameters. You can execute multiple meta commands on the same graphics command list. And you can execute the same meta command multiple times on the same command list.
+Call <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">ID3D12GraphicsCommandList4::InitializeMetaCommand</a> before executing a meta command. During invocation, you can specify overrides for values of any of the runtime parameters. You can execute multiple meta commands on the same graphics command list. And you can execute the same meta command multiple times on the same command list.
 
 With a PIX capture taken with the use of meta commands, you can play that back on the same hardware configuration. But, by design, it's not portable to other GPUs.
 
@@ -68,7 +68,7 @@ An optional pointer to a constant structure containing the values of the paramet
 
 ### -param ExecutionParametersDataSizeInBytes [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a> containing the size of the structure pointed to by <i>pExecutionParametersData</i>, if set, otherwise 0.
+A <a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a> containing the size of the structure pointed to by <i>pExecutionParametersData</i>, if set, otherwise 0.
 
 ## -returns
 
@@ -84,4 +84,3 @@ During an algorithm invocation, the driver may insert as many UAV barriers to ou
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
-

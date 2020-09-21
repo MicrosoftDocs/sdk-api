@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
+The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
 
 This filter will only be applied to events that are otherwise enabled
 on the logging session, via level/keyword in the enable call.
@@ -89,4 +89,3 @@ An <b>NameCount</b> long array of null-terminated, UTF-8
 event names.
 
 ## -remarks
-

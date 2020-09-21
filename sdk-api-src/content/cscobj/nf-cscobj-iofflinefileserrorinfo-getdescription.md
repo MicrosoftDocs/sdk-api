@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Retrieves a text string describing the error. In most cases, this is the system error string reported for the sync result using the Win32 function <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
+Retrieves a text string describing the error. In most cases, this is the system error string reported for the sync result using the Win32 function <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
 
 ## -parameters
 
 ### -param ppszDescription [out]
 
-Receives the address of a text string describing the error.  The caller must free this memory block by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+Receives the address of a text string describing the error.  The caller must free this memory block by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>

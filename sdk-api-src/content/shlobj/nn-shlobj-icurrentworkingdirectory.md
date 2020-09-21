@@ -54,7 +54,7 @@ Exposes methods that enable a client to retrieve or set an object's current work
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICurrentWorkingDirectory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICurrentWorkingDirectory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICurrentWorkingDirectory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory">GetDirectory</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory">GetDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the current working directory.
@@ -78,7 +78,7 @@ Gets the current working directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory">SetDirectory</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory">SetDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the current working directory.
@@ -92,4 +92,3 @@ Sets the current working directory.
 Implement this interface if your object allows clients to retrieve or set the current working directory.
 
 Use this interface to retrieve or set the working directory of the object that exports it.
-

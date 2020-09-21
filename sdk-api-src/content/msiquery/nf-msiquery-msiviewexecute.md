@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>MsiViewExecute</b> function executes a SQL view query and supplies any required parameters. The query uses the question mark token to represent parameters as described in 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/sql-syntax">SQL Syntax</a>. The values of these parameters are passed in as the corresponding fields of a parameter record.
+<a href="/windows/desktop/Msi/sql-syntax">SQL Syntax</a>. The values of these parameters are passed in as the corresponding fields of a parameter record.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Handle to the view upon which to execute the query.
 ### -param hRecord [in]
 
 Handle to a record that supplies the parameters. This parameter contains values to replace the parameter tokens in the SQL query. It is optional, so <i>hRecord</i> can be zero. For a reference on syntax, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/sql-syntax">SQL Syntax</a>.
+<a href="/windows/desktop/Msi/sql-syntax">SQL Syntax</a>.
 
 ## -returns
 
@@ -74,7 +74,7 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 The 
 <b>MsiViewExecute</b> function must be called before any calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a>.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewfetch">MsiViewFetch</a>.
 
 If the SQL query specifies values with parameter markers (?), a record must be supplied that contains all of the replacement values in the exact order and of compatible data types. When used with INSERT and UPDATE queries all the parameterized values must precede all nonparameterized values.
 
@@ -90,9 +90,8 @@ UPDATE {table-list} SET {column}= {constant}, {column}=?
 
 INSERT INTO {table} ({column-list}) VALUES ({constant-list}, ? )
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

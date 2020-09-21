@@ -54,7 +54,7 @@ Enables a pull-mode source filter to support larger file sizes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAsyncReaderTimestampScaling</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAsyncReaderTimestampScaling</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAsyncReaderTimestampScaling</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAsyncReaderTimestampScaling</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAMAsyncReaderTimestampScaling</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-gettimestampmode">GetTimestampMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-gettimestampmode">GetTimestampMode</a>
 </td>
 <td align="left" width="63%">
 Gets the filter's time-stamping mode.
@@ -78,7 +78,7 @@ Gets the filter's time-stamping mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-settimestampmode">SetTimestampMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-settimestampmode">SetTimestampMode</a>
 </td>
 <td align="left" width="63%">
 Sets the filter's time-stamping mode.
@@ -89,11 +89,10 @@ Sets the filter's time-stamping mode.
 
 ## -remarks
 
-In the pull model, the parser filter requests data from the source filter by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a>. The input to this method is a media sample. The time stamp on the sample specifies the location to read in the stream, as a byte offset.
+In the pull model, the parser filter requests data from the source filter by calling <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a>. The input to this method is a media sample. The time stamp on the sample specifies the location to read in the stream, as a byte offset.
 
-By default, the time stamp uses the following formula: Time = byte offset × 10000000. This scaling factor limits the effective file size to about 860 GB. To support larger file sizes, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-settimestampmode">SetTimestampMode</a> with the value <b>TRUE</b>. This call sets the scaling factor to 1, so the formula becomes: Time = byte offset.
+By default, the time stamp uses the following formula: Time = byte offset × 10000000. This scaling factor limits the effective file size to about 860 GB. To support larger file sizes, call <a href="/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-settimestampmode">SetTimestampMode</a> with the value <b>TRUE</b>. This call sets the scaling factor to 1, so the formula becomes: Time = byte offset.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/pull-model">Pull Model</a>
-
+<a href="/windows/desktop/DirectShow/pull-model">Pull Model</a>

@@ -213,16 +213,16 @@ Specifies the data query qualifier applied to this column. This parameter, along
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
 
 Before the <b>SetRestriction</b> method is called, it is necessary to establish a connection with the Certificate Service server by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a> method.
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a> method.
 
 
 #### Examples
@@ -279,25 +279,24 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">ICertView::SetResultColumn</a>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">ICertView::SetResultColumn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCertViewColumn::IsIndexed</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCertViewColumn::IsIndexed</a>

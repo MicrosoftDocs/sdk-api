@@ -66,7 +66,7 @@ Identifier of the MIDI input device to be opened.
 
 ### -param dwCallback
 
-Pointer to a callback function, a thread identifier, or a handle of a window called with information about incoming MIDI messages. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions/dd798460(v=vs.85)">MidiInProc</a>.
+Pointer to a callback function, a thread identifier, or a handle of a window called with information about incoming MIDI messages. For more information on the callback function, see <a href="/previous-versions/dd798460(v=vs.85)">MidiInProc</a>.
 
 ### -param dwInstance
 
@@ -101,7 +101,7 @@ Callback flag for opening the device and, optionally, a status flag that helps r
 </tr>
 <tr>
 <td>MIDI_IO_STATUS</td>
-<td>When this parameter also specifies CALLBACK_FUNCTION, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-moredata">MIM_MOREDATA</a> messages are sent to the callback function as well as <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-data">MIM_DATA</a> messages. Or, if this parameter also specifies CALLBACK_WINDOW, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-moredata">MM_MIM_MOREDATA</a> messages are sent to the window as well as <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-data">MM_MIM_DATA</a> messages. This flag does not affect event or thread callbacks.</td>
+<td>When this parameter also specifies CALLBACK_FUNCTION, <a href="/windows/desktop/Multimedia/mim-moredata">MIM_MOREDATA</a> messages are sent to the callback function as well as <a href="/windows/desktop/Multimedia/mim-data">MIM_DATA</a> messages. Or, if this parameter also specifies CALLBACK_WINDOW, <a href="/windows/desktop/Multimedia/mm-mim-moredata">MM_MIM_MOREDATA</a> messages are sent to the window as well as <a href="/windows/desktop/Multimedia/mm-mim-data">MM_MIM_DATA</a> messages. This flag does not affect event or thread callbacks.</td>
 </tr>
 </table>
  
@@ -176,13 +176,12 @@ The system is unable to allocate or lock memory.
 
 ## -remarks
 
-To determine the number of MIDI input devices present in the system, use the <a href="https://docs.microsoft.com/previous-versions/dd798456(v=vs.85)">midiInGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present.
+To determine the number of MIDI input devices present in the system, use the <a href="/previous-versions/dd798456(v=vs.85)">midiInGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present.
 
-If a window or thread is chosen to receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of MIDI input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-open">MM_MIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-close">MM_MIM_CLOSE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-data">MM_MIM_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-longdata">MM_MIM_LONGDATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-error">MM_MIM_ERROR</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-longerror">MM_MIM_LONGERROR</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-moredata">MM_MIM_MOREDATA</a>.
+If a window or thread is chosen to receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of MIDI input: <a href="/windows/desktop/Multimedia/mm-mim-open">MM_MIM_OPEN</a>, <a href="/windows/desktop/Multimedia/mm-mim-close">MM_MIM_CLOSE</a>, <a href="/windows/desktop/Multimedia/mm-mim-data">MM_MIM_DATA</a>, <a href="/windows/desktop/Multimedia/mm-mim-longdata">MM_MIM_LONGDATA</a>, <a href="/windows/desktop/Multimedia/mm-mim-error">MM_MIM_ERROR</a>, <a href="/windows/desktop/Multimedia/mm-mim-longerror">MM_MIM_LONGERROR</a>, and <a href="/windows/desktop/Multimedia/mm-mim-moredata">MM_MIM_MOREDATA</a>.
 
-If a function is chosen to receive callback information, the following messages are sent to the function to indicate the progress of MIDI input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-open">MIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-close">MIM_CLOSE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-data">MIM_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-longdata">MIM_LONGDATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-error">MIM_ERROR</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-longerror">MIM_LONGERROR</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mim-moredata">MIM_MOREDATA</a>.
+If a function is chosen to receive callback information, the following messages are sent to the function to indicate the progress of MIDI input: <a href="/windows/desktop/Multimedia/mim-open">MIM_OPEN</a>, <a href="/windows/desktop/Multimedia/mim-close">MIM_CLOSE</a>, <a href="/windows/desktop/Multimedia/mim-data">MIM_DATA</a>, <a href="/windows/desktop/Multimedia/mim-longdata">MIM_LONGDATA</a>, <a href="/windows/desktop/Multimedia/mim-error">MIM_ERROR</a>, <a href="/windows/desktop/Multimedia/mim-longerror">MIM_LONGERROR</a>, and <a href="/windows/desktop/Multimedia/mim-moredata">MIM_MOREDATA</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

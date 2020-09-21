@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the attributes of a list-view control's column. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getcolumn">LVM_GETCOLUMN</a> message explicitly.
+Gets the attributes of a list-view control's column. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getcolumn">LVM_GETCOLUMN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -70,6 +70,5 @@ The index of the column.
 
 Type: <b>LPLVCOLUMN</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">LVCOLUMN</a> structure that specifies the information to retrieve and receives information about the column. The 
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">LVCOLUMN</a> structure that specifies the information to retrieve and receives information about the column. The 
 <b>mask</b> member specifies which column attributes to retrieve. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member must contain the address of the buffer that receives the item text, and the <b>cchTextMax</b> member must specify the size of the buffer.
-

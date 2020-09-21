@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Frees the memory allocated for the specified <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a> function.
+Frees the memory allocated for the specified <a href="/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a> function.
 
 ## -parameters
 
 ### -param pJoinInfo [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure for which you want to free the memory.
+Pointer to the <a href="/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure for which you want to free the memory.
 
 ## -returns
 
@@ -64,9 +64,8 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a>
+<a href="/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a>
-
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a>

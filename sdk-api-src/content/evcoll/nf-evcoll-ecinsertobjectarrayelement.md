@@ -56,7 +56,7 @@ The <b>EcInsertObjectArrayElement</b> function inserts an empty object into an a
 
 ### -param ObjectArray [in]
 
-A  handle to the array in which the object is inserted into. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
+A  handle to the array in which the object is inserted into. The array contains property values for the event sources of a subscription. The array handle is returned by the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>Subscription</i> parameter.
 
 ### -param ArrayIndex [in]
 
@@ -70,16 +70,15 @@ This function returns BOOL.
 
 Arrays are zero-based, so the index for the first item in the array is 0.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecsetobjectarrayproperty">EcSetObjectArrayProperty</a> to set individual properties of an empty object inserted into the array specified in the <i>ObjectArray</i> parameter.
+Use the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecsetobjectarrayproperty">EcSetObjectArrayProperty</a> to set individual properties of an empty object inserted into the array specified in the <i>ObjectArray</i> parameter.
 
 
 #### Examples
 
-For example code using the <b>EcInsertObjectArrayElement</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/adding-an-event-source-to-an-event-collector-subscription">Adding an Event Source to a Collector Initiated Subscription</a>.
+For example code using the <b>EcInsertObjectArrayElement</b> function, see <a href="/windows/desktop/WEC/adding-an-event-source-to-an-event-collector-subscription">Adding an Event Source to a Collector Initiated Subscription</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

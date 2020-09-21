@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>GetPhotoAcquireSettings</code> method obtains an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings</a> object for working with acquisition settings.
+The <code>GetPhotoAcquireSettings</code> method obtains an <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings</a> object for working with acquisition settings.
 
 ## -parameters
 
@@ -94,5 +94,4 @@ Null value passed where non-null is expected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>

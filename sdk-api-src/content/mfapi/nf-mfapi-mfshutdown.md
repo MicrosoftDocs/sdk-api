@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Shuts down the Microsoft Media Foundation platform. Call this function once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>. Do not call this function from work queue threads.
+Shuts down the Microsoft Media Foundation platform. Call this function once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>. Do not call this function from work queue threads.
 
 ## -parameters
 
@@ -69,9 +69,8 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
+<a href="/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

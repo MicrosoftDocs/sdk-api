@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Adds item data to the list box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a> message explicitly.
+Adds item data to the list box at the specified location. You can use this macro or send the <a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param data
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 A pointer to the item data to add.
 
 ## -remarks
 
-Use this macro for a list box with an owner-drawn style but without the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_HASSTRINGS</a> style. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>.
-
+Use this macro for a list box with an owner-drawn style but without the <a href="/windows/desktop/Controls/list-box-styles">LBS_HASSTRINGS</a> style. For more information, see <a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>.

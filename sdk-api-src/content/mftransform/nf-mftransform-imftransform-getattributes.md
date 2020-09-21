@@ -57,7 +57,7 @@ Gets the global attribute store for this Media Foundation transform (MFT).
 
 ### -param pAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -97,20 +97,19 @@ The MFT does not support attributes.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreamattributes">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreamattributes">IMFTransform::GetOutputStreamAttributes</a>.
+Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer retrieved by this method to get or set attributes that apply to the entire MFT. To get the attribute store for an input stream, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreamattributes">IMFTransform::GetInputStreamAttributes</a>. To get the attribute store for an output stream, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreamattributes">IMFTransform::GetOutputStreamAttributes</a>.
       
 
-Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="https://docs.microsoft.com/windows/desktop/medfound/hardware-mfts">Hardware MFTs</a>.
+Implementation of this method is optional unless the MFT needs to support a particular set of attributes. Exception: Hardware-based MFTs must implement this method. See <a href="/windows/desktop/medfound/hardware-mfts">Hardware MFTs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
-
+<a href="/windows/desktop/medfound/transform-attributes">Transform Attributes</a>

@@ -79,7 +79,7 @@ Specifies that an alternate font is used for characters that are not supported i
 ### -field StringFormatFlagsMeasureTrailingSpaces
 
 Specifies that the space at the end of each line is included in a string measurement. By default, the boundary rectangle returned by the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurestring(inconstwchar_inint_inconstfont_inconstpointf__inconststringformat_outrectf)">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement.
+				<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurestring(inconstwchar_inint_inconstfont_inconstpointf__inconststringformat_outrectf)">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement.
 
 ### -field StringFormatFlagsNoWrap
 
@@ -108,29 +108,28 @@ The <b><b>StringFormatFlagsDirectionVertical</b></b> and <b><b>StringFormatFlags
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush)">DrawString Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush)">DrawString Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-formatting-text-use">Formatting Text</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-formatting-text-use">Formatting Text</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurestring(inconstwchar_inint_inconstfont_inconstpointf__inconststringformat_outrectf)">MeasureString Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurestring(inconstwchar_inint_inconstfont_inconstpointf__inconststringformat_outrectf)">MeasureString Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setformatflags">StringFormat::SetFormatFlags</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setformatflags">StringFormat::SetFormatFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a>

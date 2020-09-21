@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMMATRIX</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
+A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>

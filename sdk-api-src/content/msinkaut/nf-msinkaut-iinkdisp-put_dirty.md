@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the value that specifies whether the strokes of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object have been modified since the last time the ink was saved.
+Gets or sets the value that specifies whether the strokes of an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object have been modified since the last time the ink was saved.
 
 
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-After ink is saved, the dirty flag is automatically cleared and the value of this property is <b>VARIANT_FALSE</b>. To save ink, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a> method.
+After ink is saved, the dirty flag is automatically cleared and the value of this property is <b>VARIANT_FALSE</b>. To save ink, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a> method.
 
 ## -see-also
 
@@ -73,9 +73,8 @@ After ink is saved, the dirty flag is automatically cleared and the value of thi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>

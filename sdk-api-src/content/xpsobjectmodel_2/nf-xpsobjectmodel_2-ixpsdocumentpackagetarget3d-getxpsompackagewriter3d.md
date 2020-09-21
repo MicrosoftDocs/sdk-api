@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a> object for the document package.
+Gets a new <a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a> object for the document package.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Name of the part which will hold the 3D model. The part’s content type is “a
 
 ### -param modelData [in]
 
-A readable stream which holds 3D model description. The model description may be UTF16 encoding of XML document, but for XPS OM and XpsPrint, this is a BLOB passing through. The <b>GetXpsOMPackageWriter3D</b> method attempts to move the provided stream’s read pointer to the beginning of the stream, but the method call will not fail if the stream does not support the <a href="https://msdn.microsoft.com/library/windows/desktop/aa380043(v=vs.85).aspx">Seek</a> method.
+A readable stream which holds 3D model description. The model description may be UTF16 encoding of XML document, but for XPS OM and XpsPrint, this is a BLOB passing through. The <b>GetXpsOMPackageWriter3D</b> method attempts to move the provided stream’s read pointer to the beginning of the stream, but the method call will not fail if the stream does not support the <a href="/windows/win32/api/objidl/nf-objidl-istream-seek">Seek</a> method.
 
 ### -param packageWriter [out]
 
@@ -80,5 +80,4 @@ Returns the appropriate HRESULT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>
-
+<a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Battery miniclass drivers fill in this structure before calling the battery class driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a> routine.
+Battery miniclass drivers fill in this structure before calling the battery class driver's <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a> routine.
 
 ## -struct-fields
 
@@ -70,27 +70,27 @@ Pointer to the context area allocated by the miniclass driver.
 
 ### -field QueryTag
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_tag_callback">BatteryMiniQueryTag</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_tag_callback">BatteryMiniQueryTag</a> routine.
 
 ### -field QueryInformation
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> routine.
 
 ### -field SetInformation
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_information_callback">BatteryMiniSetInformation</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_information_callback">BatteryMiniSetInformation</a> routine.
 
 ### -field QueryStatus
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a> routine.
 
 ### -field SetStatusNotify
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> routine.
 
 ### -field DisableStatusNotify
 
-Specifies the entry point of the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a> routine.
+Specifies the entry point of the miniclass driver's <a href="/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a> routine.
 
 ### -field Pdo
 
@@ -102,5 +102,4 @@ Pointer to a Unicode string; should be NULL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>
-
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>

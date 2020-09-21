@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory object in the specified format. The distinguished name must have been set in the appropriate format by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
+The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory object in the specified format. The distinguished name must have been set in the appropriate format by the  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ This method supports the standard <b>HRESULT</b> return values, including:
 
 ## -remarks
 
-This method lets you retrieve the name of a single directory object. To retrieve names of multiple objects use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
+This method lets you retrieve the name of a single directory object. To retrieve names of multiple objects use  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
 
 When referral chasing is on, this method will attempt to chase and resolve the path of a specified object that is not residing on the connected server.
 
@@ -156,13 +156,12 @@ The following VBScript/ASP code example shows how to translate a distinguished n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>

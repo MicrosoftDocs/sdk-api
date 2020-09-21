@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> objects enumerated from the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
+Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> objects enumerated from the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
 
-This interface can be obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
+This interface can be obtained through a <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> off the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceEnumProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceEnumProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceEnumProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceEnumProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IUPnPServiceEnumProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceenumproperty-setserviceenumproperty">SetServiceEnumProperty</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceenumproperty-setserviceenumproperty">SetServiceEnumProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the flag that indicates  opt-in to the delayed SCPD download and event subscription. 
@@ -82,5 +82,4 @@ Sets the flag that indicates  opt-in to the delayed SCPD download and event subs
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>

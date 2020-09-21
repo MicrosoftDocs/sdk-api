@@ -64,11 +64,11 @@ The type of access to test for.
 
 ### -field PrincipalSelfSid
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to use for the principal self SID in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to use for the principal self SID in the <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ### -field ObjectTypeList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures in the object tree for the object. Set to <b>NULL</b> unless the application checks access at the property level.
+An array of <a href="/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures in the object tree for the object. Set to <b>NULL</b> unless the application checks access at the property level.
 
 ### -field ObjectTypeListLength
 
@@ -76,9 +76,8 @@ The number of elements in the <i>ObjectTypeList</i> array. This member is necess
 
 ### -field OptionalArguments
 
-A pointer to memory to pass to <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> when checking callback <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
+A pointer to memory to pass to <a href="/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> when checking callback <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a>
-
+<a href="/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a>

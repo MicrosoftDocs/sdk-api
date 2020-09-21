@@ -193,17 +193,16 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -remarks
 
-For more information on ED_TCG_TIMECODE_TYPE, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method.
+For more information on ED_TCG_TIMECODE_TYPE, see the <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>

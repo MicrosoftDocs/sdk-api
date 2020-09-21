@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a window that denied a request from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>.
+Contains information about a window that denied a request from <a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>.
 
 ## -struct-fields
 
@@ -67,13 +67,13 @@ The size, in bytes, of this structure.
 Type: <b>HDESK</b>
 
 A desktop handle to the window specified by 
-					<b>hwnd</b>. This value is returned only if <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>.
+					<b>hwnd</b>. This value is returned only if <a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>.
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
-A handle to the window that denied the request. This value is returned if <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>.
+A handle to the window that denied the request. This value is returned if <a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>.
 
 ### -field luid
 
@@ -83,7 +83,7 @@ A locally unique identifier (LUID) for the window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
 
 
 
@@ -91,9 +91,8 @@ A locally unique identifier (LUID) for the window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
 <b>Reference</b>
-

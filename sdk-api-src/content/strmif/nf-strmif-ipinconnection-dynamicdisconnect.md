@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>DynamicDisconnect</code> method disconnects the pin when the filter is active (paused or running). Call this method instead of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">IPin::Disconnect</a> to disconnect a pin when the graph is running or paused.
+The <code>DynamicDisconnect</code> method disconnects the pin when the filter is active (paused or running). Call this method instead of <a href="/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">IPin::Disconnect</a> to disconnect a pin when the graph is running or paused.
 
 
 
-The caller must ensure that no data is flowing to the pin when it calls this method. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method on an upstream pin to block the data flow, or use some other mechanism to make sure that no samples are delivered until this pin is reconnected.
+The caller must ensure that no data is flowing to the pin when it calls this method. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method on an upstream pin to block the data flow, or use some other mechanism to make sure that no samples are delivered until this pin is reconnected.
 
 ## -parameters
 
@@ -94,13 +94,12 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>

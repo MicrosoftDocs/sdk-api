@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_module">MI_Module</a> structures.
+A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> and <a href="/windows/desktop/api/mi/ns-mi-mi_module">MI_Module</a> structures.
 
 ## -struct-fields
 
@@ -126,57 +126,56 @@ The server calls this function to carry out a CIM extrinsic method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759647(v=vs.85)">MI_ProviderFT_AssociatorInstances</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759647(v=vs.85)">MI_ProviderFT_AssociatorInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759648(v=vs.85)">MI_ProviderFT_CreateInstance</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759648(v=vs.85)">MI_ProviderFT_CreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759649(v=vs.85)">MI_ProviderFT_DeleteInstance</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759649(v=vs.85)">MI_ProviderFT_DeleteInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759650(v=vs.85)">MI_ProviderFT_DisableIndications</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759650(v=vs.85)">MI_ProviderFT_DisableIndications</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759651(v=vs.85)">MI_ProviderFT_EnableIndications</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759651(v=vs.85)">MI_ProviderFT_EnableIndications</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759652(v=vs.85)">MI_ProviderFT_EnumerateInstances</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759652(v=vs.85)">MI_ProviderFT_EnumerateInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759653(v=vs.85)">MI_ProviderFT_GetInstance</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759653(v=vs.85)">MI_ProviderFT_GetInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759654(v=vs.85)">MI_ProviderFT_Invoke</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759654(v=vs.85)">MI_ProviderFT_Invoke</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759655(v=vs.85)">MI_ProviderFT_Load</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759655(v=vs.85)">MI_ProviderFT_Load</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759656(v=vs.85)">MI_ProviderFT_ModifyInstance</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759656(v=vs.85)">MI_ProviderFT_ModifyInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759657(v=vs.85)">MI_ProviderFT_ReferenceInstances</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759657(v=vs.85)">MI_ProviderFT_ReferenceInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759658(v=vs.85)">MI_ProviderFT_Subscribe</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759658(v=vs.85)">MI_ProviderFT_Subscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759659(v=vs.85)">MI_ProviderFT_Unload</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759659(v=vs.85)">MI_ProviderFT_Unload</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759660(v=vs.85)">MI_ProviderFT_Unsubscribe</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dn759660(v=vs.85)">MI_ProviderFT_Unsubscribe</a>

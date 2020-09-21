@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Each process receives the <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.coreapplication.resuming">Resuming</a> event, which is useful for stepping through your apps as they respond to this event.
+Each process receives the <a href="/uwp/api/windows.applicationmodel.core.coreapplication.resuming">Resuming</a> event, which is useful for stepping through your apps as they respond to this event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-suspend">Suspend</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-suspend">Suspend</a>

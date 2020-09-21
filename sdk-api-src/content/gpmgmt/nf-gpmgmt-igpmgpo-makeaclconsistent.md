@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Makes <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
+Makes <a href="/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 
 ## -parameters
 
@@ -65,13 +65,12 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 ## -remarks
 
-For more information about ACLs and the security model for controlling access to Windows objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
+For more information about ACLs and the security model for controlling access to Windows objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IGPMGPO::IsACLConsistent</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IGPMGPO::IsACLConsistent</a>

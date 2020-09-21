@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Ensures that the specified item in a list box is visible. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-settopindex">LB_SETTOPINDEX</a> message explicitly.
+Ensures that the specified item in a list box is visible. You can use this macro or send the <a href="/windows/desktop/controls/lb-settopindex">LB_SETTOPINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -69,4 +69,3 @@ The zero-based index of the item to put at the top of the visible part of the li
 ## -remarks
 
 The list box contents are scrolled so that either the specified item appears at the top of the list box or the maximum scroll range has been reached.
-

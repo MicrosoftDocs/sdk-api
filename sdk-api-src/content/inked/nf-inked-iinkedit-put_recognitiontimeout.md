@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the length of time, in milliseconds, between the last <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object collected and the beginning of text recognition.
+Gets or sets the length of time, in milliseconds, between the last <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object collected and the beginning of text recognition.
 
 
 
@@ -73,5 +73,4 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

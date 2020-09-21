@@ -59,12 +59,12 @@ Returns information about a specified virtual
 ### -param hChannelHandle [in]
 
 Handle to a virtual channel opened by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
 
 ### -param WTS_VIRTUAL_CLASS [in]
 
 Specifies the type of information returned in the <i>ppBuffer</i> parameter. This parameter 
-      can be a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_virtual_class">WTS_VIRTUAL_CLASS</a> 
+      can be a value from the <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_virtual_class">WTS_VIRTUAL_CLASS</a> 
       enumeration type.
 
 ### -param ppBuffer [out]
@@ -79,19 +79,19 @@ Pointer to a variable that receives the number of bytes returned in the <i>ppBuf
 ## -returns
 
 If the function succeeds, the return value is a nonzero value. Call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function with the value returned in 
+       <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function with the value returned in 
        the <i>ppBuffer</i> parameter to free the temporary memory allocated by 
        <b>WTSVirtualChannelQuery</b>.
       
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The following example shows how to gain access to a virtual channel file handle that can be used for 
     asynchronous I/O. First the code opens a virtual channel by using a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
     Then the code calls the 
     <b>WTSVirtualChannelQuery</b> function, specifying 
     the WTSVirtualFileHandle virtual class type. 
@@ -99,13 +99,13 @@ The following example shows how to gain access to a virtual channel file handle 
     handle that you can use to perform asynchronous (overlapped) read and write operations. Finally, the code frees 
     the memory allocated by 
     <b>WTSVirtualChannelQuery</b> with a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function, and closes the 
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function, and closes the 
     virtual channel with a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> function.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> function.
 
 Note that you should not explicitly close the file handle obtained by calling 
     <b>WTSVirtualChannelQuery</b>. This is because 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> closes the file handle.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> closes the file handle.
 
 
 ```cpp
@@ -177,14 +177,13 @@ Note that you should not explicitly close the file handle obtained by calling
 
 
 For more information about overlapped mode, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and 
+    <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and 
     Output</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_virtual_class">WTS_VIRTUAL_CLASS</a>
-
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_virtual_class">WTS_VIRTUAL_CLASS</a>

@@ -77,11 +77,11 @@ This method can return one of these values.
 ## -remarks
 
 The <b>CopyTo</b> method copies the specified bytes from one stream to another. It can also be used to copy a stream to itself. The seek pointer in each stream instance is adjusted for the number of bytes read or written. This method is equivalent to reading <i>cb</i> bytes into memory using 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> and then immediately writing them to the destination stream using 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>, although <b>IStream::CopyTo</b> will be more efficient.
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> and then immediately writing them to the destination stream using 
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>, although <b>IStream::CopyTo</b> will be more efficient.
 
 The destination stream can be a clone of the source stream created by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a> method.
 
 If <b>IStream::CopyTo</b> returns an error, you cannot assume that the seek pointers are valid for either the source or destination. Additionally, the values of <i>pcbRead</i> and <i>pcbWritten</i> are not meaningful even though they are returned.
 
@@ -91,17 +91,16 @@ To copy the remainder of the source from the current seek pointer, specify the m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a>

@@ -58,25 +58,24 @@ Used to request the creation of a new Shell view window. It can be either the ri
 
 Type: <b>LPSV2CVW2_PARAMS</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-sv2cvw2_params">SV2CVW2_PARAMS</a> structure that defines the new view window.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-sv2cvw2_params">SV2CVW2_PARAMS</a> structure that defines the new view window.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-Returns a success code if successful, or a COM error code otherwise. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to determine whether the operation succeeded or failed.
+Returns a success code if successful, or a COM error code otherwise. Use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to determine whether the operation succeeded or failed.
 
 ## -remarks
 
-This method supersedes <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-createviewwindow">CreateViewWindow</a>. With <b>CreateViewWindow2</b>, developers are not restricted to the standard view modes provided by <b>CreateViewWindow</b>, but may also create their own. All view modes are now identified by their GUID.
+This method supersedes <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-createviewwindow">CreateViewWindow</a>. With <b>CreateViewWindow2</b>, developers are not restricted to the standard view modes provided by <b>CreateViewWindow</b>, but may also create their own. All view modes are now identified by their GUID.
 
-The size of the structure, previous view window, folder settings, parent Shell browser, and view rectangle are passed into <b>IShellView2::CreateViewWindow2</b> in the first five members of <i>lpParams</i>. The method is responsible for creating the new window and passing back its window handle and the GUID of the view mode in the last two parameters. <b>IShellView2::CreateViewWindow2</b> should call the parent browser's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IShellBrowser::AddRef</a> method and store the interface pointer. It can be used for communication with the Windows Explorer window.
+The size of the structure, previous view window, folder settings, parent Shell browser, and view rectangle are passed into <b>IShellView2::CreateViewWindow2</b> in the first five members of <i>lpParams</i>. The method is responsible for creating the new window and passing back its window handle and the GUID of the view mode in the last two parameters. <b>IShellView2::CreateViewWindow2</b> should call the parent browser's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IShellBrowser::AddRef</a> method and store the interface pointer. It can be used for communication with the Windows Explorer window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">IShellView2::GetView</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">IShellView2::GetView</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the type of descriptive text being provided to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a> interface.
+Specifies the type of descriptive text being provided to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a> interface.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The text is a detailed description.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>

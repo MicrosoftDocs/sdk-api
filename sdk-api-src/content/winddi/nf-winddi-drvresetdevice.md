@@ -56,7 +56,7 @@ The <b>DrvResetDevice</b> function resets a device that is inoperable or unrespo
 
 ### -param dhpdev
 
-Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param Reserved
 
@@ -99,13 +99,12 @@ The device is currently in working order.
 
 This function is available in Windows XP and later.
 
-<b>DrvResetDevice</b> is usually called in response to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
+<b>DrvResetDevice</b> is usually called in response to <a href="/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>

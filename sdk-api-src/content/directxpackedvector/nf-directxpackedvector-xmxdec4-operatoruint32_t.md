@@ -99,9 +99,8 @@ The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmxdec4-operators">XMXDEC4 Operators</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmxdec4-operators">XMXDEC4 Operators</a>

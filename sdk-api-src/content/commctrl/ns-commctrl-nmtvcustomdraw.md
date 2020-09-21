@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw-tree-view">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control.
+Contains information specific to an <a href="/windows/desktop/Controls/nm-customdraw-tree-view">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control.
 
 ## -struct-fields
 
@@ -67,22 +67,21 @@ Type: <b><a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOM
 
 ### -field clrText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text foreground in the tree-view control.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text foreground in the tree-view control.
 
 ### -field clrTextBk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text background in the tree-view control.
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> value representing the color that will be used to display text background in the tree-view control.
 
 ### -field iLevel
 
 Type: <b>int</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Zero-based level of the item being drawn. The root item is at level zero, a child of the root item is at level one, and so on.
-
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Zero-based level of the item being drawn. The root item is at level zero, a child of the root item is at level one, and so on.

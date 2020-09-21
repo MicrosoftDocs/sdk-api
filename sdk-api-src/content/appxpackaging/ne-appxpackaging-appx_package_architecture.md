@@ -76,5 +76,4 @@ The 64-bit ARM processor architecture.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getarchitecture">IAppxManifestPackageId::GetArchitecture</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getarchitecture">IAppxManifestPackageId::GetArchitecture</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure that is initialized with a **CD3D11_BLEND_DESC** structure.
+Instantiates a new instance of a <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure that is initialized with a **CD3D11_BLEND_DESC** structure.
 
 ## -parameters
 
@@ -63,5 +63,4 @@ Address of the **CD3D11_BLEND_DESC** structure that initializes the **CD3D11_BLE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>
-
+<a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>

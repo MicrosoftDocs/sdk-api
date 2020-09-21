@@ -123,25 +123,24 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile Functions</a>
+<a href="/windows/desktop/NetShare/netfile-functions">NetFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

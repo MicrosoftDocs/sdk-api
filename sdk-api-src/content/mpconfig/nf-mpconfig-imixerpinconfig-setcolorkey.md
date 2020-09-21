@@ -57,7 +57,7 @@ The <code>SetColorKey</code> method sets the color key being used by a video str
 
 ### -param pColorKey [in]
 
-Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey) structure.
+Pointer to a [COLORKEY](../strmif/ns-strmif-colorkey.md) structure.
 
 ## -returns
 
@@ -80,13 +80,12 @@ Valid arguments for the <i>pColorKey</i> parameter include CK_INDEX when video d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
+<a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">IMixerPinConfig::GetColorKey</a>
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">IMixerPinConfig::GetColorKey</a>

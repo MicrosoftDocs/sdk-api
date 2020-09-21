@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getsubitemrect">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_REPORT</a> style.
+Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="/windows/desktop/Controls/lvm-getsubitemrect">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_REPORT</a> style.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
@@ -120,4 +120,3 @@ Returns the bounding rectangle of the entire item, including the icon and label.
 Type: <b>LPRECT</b>
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the subitem bounding rectangle information.
-

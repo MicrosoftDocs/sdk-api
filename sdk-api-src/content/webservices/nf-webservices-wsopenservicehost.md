@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Opens a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">Service Host</a> for communication and starts the Listeners on all the endpoints. 
+Opens a <a href="/windows/desktop/wsw/service-host">Service Host</a> for communication and starts the Listeners on all the endpoints. 
             Client applications cannot connect to Service endpoints until <b>WsOpenSerivceHost</b> is called.
 
 ## -parameters
 
 ### -param serviceHost [in]
 
-A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
+A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
 
 ### -param asyncContext [in, optional]
 
@@ -66,7 +66,7 @@ A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -205,4 +205,3 @@ This function may return other errors not listed above.
 
 Note that all the endpoints listeners have to successfully open before any channel is accepted by service host for communicating 
                 with the client.
-

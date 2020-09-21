@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LOGPEN</b> structure defines the style, width, and color of a pen. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a> function uses the <b>LOGPEN</b> structure.
+The <b>LOGPEN</b> structure defines the style, width, and color of a pen. The <a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a> function uses the <b>LOGPEN</b> structure.
 
 ## -struct-fields
 
@@ -99,11 +99,11 @@ The pen style, which can be one of the following values.
 
 ### -field lopnWidth
 
-The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the pen width, in logical units. If the <b>pointer</b> member is <b>NULL</b>, the pen is one pixel wide on raster devices. The <b>y</b> member in the <b>POINT</b> structure for <b>lopnWidth</b> is not used.
+The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the pen width, in logical units. If the <b>pointer</b> member is <b>NULL</b>, the pen is one pixel wide on raster devices. The <b>y</b> member in the <b>POINT</b> structure for <b>lopnWidth</b> is not used.
 
 ### -field lopnColor
 
-The pen color. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+The pen color. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -remarks
 
@@ -111,25 +111,24 @@ If the width of the pen is greater than 1 and the pen style is PS_INSIDEFRAME, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-structures">Pen Structures</a>
+<a href="/windows/desktop/gdi/pen-structures">Pen Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

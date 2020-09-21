@@ -59,7 +59,7 @@ Finds a particular standard header in the message and deserializes it.
 The message containing the header.
                 
 
-The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
 ### -param headerType [in]
 
@@ -67,14 +67,14 @@ The type of header to deserialize.
 
 ### -param valueType [in]
 
-The type of value to deserialize.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> for
+The type of value to deserialize.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> for
                     the set of types which correspond to each type of header.
 
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value. 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_NILLABLE_VALUE</a> and <b>WS_READ_NILLABLE_POINTER</b> 
-                    read options cannot be specified since the header types in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> 
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_NILLABLE_VALUE</a> and <b>WS_READ_NILLABLE_POINTER</b> 
+                    read options cannot be specified since the header types in <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> 
                     are not allowed to be nillable in the respective standards specifications.
                     See <b>WS_READ_OPTION</b> for more information.
 
@@ -85,11 +85,11 @@ The heap to store the deserialized header data in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param error [in, optional]
 
@@ -173,11 +173,10 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-This API provides access to a set of standard header types (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a>).
-                For application defined header types, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
+This API provides access to a set of standard header types (see <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a>).
+                For application defined header types, use <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
             
 
 This API is designed handle types of headers that appear once in the
                 message and are targeted at the ultimate receiver.  Headers targeted
                 with a role/actor other than ultimate receiver are ignored by this API.
-

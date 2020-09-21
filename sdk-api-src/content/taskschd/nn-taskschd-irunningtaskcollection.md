@@ -54,21 +54,20 @@ Provides a collection that is used to control running tasks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances">IRegisteredTask::GetInstances</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances">IRegisteredTask::GetInstances</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks">ITaskService::GetRunningTasks</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks">ITaskService::GetRunningTasks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

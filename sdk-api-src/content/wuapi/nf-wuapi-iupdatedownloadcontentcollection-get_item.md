@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the download content for  an update from an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a> interface.
+Gets the download content for  an update from an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a> interface.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontentcollection">IUpdateDownloadContentCollection</a>

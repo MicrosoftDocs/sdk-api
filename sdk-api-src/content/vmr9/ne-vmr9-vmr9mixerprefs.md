@@ -66,11 +66,11 @@ Decimate output by 2 in the x and y directions.
 
 ### -field MixerPref9_ARAdjustXorY
 
-Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
+Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. Requires Windows XP Service Pack 2. For more information, see <a href="/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
 
 ### -field MixerPref9_NonSquareMixing
 
-Do not perform aspect ratio correction on the composited stream if the input video streams have the same aspect ratio. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/non-square-mixing">Non-Square Mixing</a>.
+Do not perform aspect ratio correction on the composited stream if the input video streams have the same aspect ratio. Requires Windows XP Service Pack 2. For more information, see <a href="/windows/desktop/DirectShow/non-square-mixing">Non-Square Mixing</a>.
 
 ### -field MixerPref9_DecimateMask
 
@@ -110,7 +110,7 @@ Use an RGB render target.
 
 ### -field MixerPref9_RenderTargetYUV
 
-Indicates that the target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
+Indicates that the target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
 
 ### -field MixerPref9_RenderTargetReserved
 
@@ -138,13 +138,12 @@ Bitmask to isolate the MixerPref9_DynamicSwitchToBOB and MixerPref9_DynamicDecim
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getmixingprefs">IVMRMixerControl9::GetMixingPrefs</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getmixingprefs">IVMRMixerControl9::GetMixingPrefs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs">IVMRMixerControl9::SetMixingPrefs</a>
-
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs">IVMRMixerControl9::SetMixingPrefs</a>

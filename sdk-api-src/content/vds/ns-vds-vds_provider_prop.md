@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
-   properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/provider-object">provider object</a>.
+   properties of a <a href="/windows/desktop/VDS/provider-object">provider object</a>.
 
 ## -struct-fields
 
@@ -79,12 +79,12 @@ A string representing the version of the provider.
 ### -field type
 
 The provider types enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>.
 
 ### -field ulFlags
 
 The provider flags enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>.
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>.
 
 ### -field ulStripeSizeFlags
 
@@ -109,22 +109,21 @@ This member does not apply to the basic provider and is zero for the dynamic pro
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a> method 
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a> method 
     returns this structure to report the property details of a provider object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>

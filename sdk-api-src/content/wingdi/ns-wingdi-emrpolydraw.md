@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRPOLYDRAW</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a> enhanced metafile record.
+The <b>EMRPOLYDRAW</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ The number of points.
 
 ### -field aptl
 
-An array of <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structures, representing the data points in logical units.
+An array of <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structures, representing the data points in logical units.
 
 ### -field abTypes
 
@@ -80,25 +80,24 @@ An array of values that specifies how each point in the <b>aptl</b> array is use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a>
+<a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polydraw">PolyDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
-
+<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>

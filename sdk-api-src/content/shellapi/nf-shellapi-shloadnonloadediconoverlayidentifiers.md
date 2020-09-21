@@ -64,5 +64,4 @@ Always returns S_OK.
 
 A call to <b>SHLoadNonloadedIconOverlayIdentifiers</b> does not result in the immediate loading of a Shell extension, nor does it cause an icon overlay handler to be loaded. A call to <b>SHLoadNonloadedIconOverlayIdentifiers</b> results in a situation such that the next code to ask for icon overlay information triggers a comparison of icon overlays in the registry to those that are already loaded. If an icon overlay is newly registered and the system has not already reached its upper limit of fifteen icon overlays, the new overlay is loaded. <b>SHLoadNonloadedIconOverlayIdentifiers</b> alone does not load a new icon overlay; you also need to trigger an action that uses the overlay, such as a refresh of a Windows Explorer view.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/how-to-implement-icon-overlay-handlers">How to Implement Icon Overlay Handlers</a>.
-
+For more information, see <a href="/windows/desktop/shell/how-to-implement-icon-overlay-handlers">How to Implement Icon Overlay Handlers</a>.

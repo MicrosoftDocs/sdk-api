@@ -56,7 +56,7 @@ The <b>IEnumTfInputProcessorProfiles::Clone</b> method creates a copy of the enu
 
 ### -param ppEnum [out]
 
-[out] A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
+[out] A pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
 
 ## -returns
 
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

@@ -60,21 +60,20 @@ A value that specifies the structure version. This value must be 1.
 
 ### -field proxyInformationType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_proxy_information_type">DNS_PROXY_INFORMATION_TYPE</a> enumeration that contains the proxy information type.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_proxy_information_type">DNS_PROXY_INFORMATION_TYPE</a> enumeration that contains the proxy information type.
 
 ### -field proxyName
 
 A pointer to a string that contains the proxy server name if <b>proxyInformationType</b> is <b>DNS_PROXY_INFORMATION_PROXY_NAME</b>. Otherwise, this member is ignored.
 
 <div class="alert"><b>Note</b>  To free this string, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsfreeproxyname">DnsFreeProxyName</a> function.</div>
+<a href="/windows/desktop/api/windns/nf-windns-dnsfreeproxyname">DnsFreeProxyName</a> function.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
+<a href="/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsgetproxyinformation">DnsGetProxyInformation</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsgetproxyinformation">DnsGetProxyInformation</a>

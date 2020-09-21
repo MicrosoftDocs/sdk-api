@@ -71,14 +71,14 @@ The return value specifies the new display counter.
 
 ## -remarks
 
-<b>Windows 8</b>: Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a> to determine the cursor visibility.
+<b>Windows 8</b>: Call <a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a> to determine the cursor visibility.
 
 This function sets an internal display counter that determines whether the cursor should be displayed. The cursor is displayed only if the display count is greater than or equal to 0. If a mouse is installed, the initial display count is 0. If no mouse is installed, the display count is 
 				–1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -86,11 +86,11 @@ This function sets an internal display counter that determines whether the curso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -98,9 +98,8 @@ This function sets an internal display counter that determines whether the curso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>

@@ -52,13 +52,12 @@ api_name:
 
 Contains information about the reason an attendee disconnected.
 
-Applications obtain access to this object through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/onattendeedisconnected">_IRDPSessionEvents::OnAttendeeDisconnected</a>.
+Applications obtain access to this object through <a href="/previous-versions/windows/desktop/rdp/onattendeedisconnected">_IRDPSessionEvents::OnAttendeeDisconnected</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>

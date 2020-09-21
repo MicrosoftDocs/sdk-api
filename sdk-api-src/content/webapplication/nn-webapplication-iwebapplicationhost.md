@@ -54,7 +54,7 @@ Exposes methods and properties that are implemented by the WWAHost.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWebApplicationHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-advise">Advise</a>
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Establishes a connection to allow a client to receive events.
@@ -79,7 +79,7 @@ Establishes a connection to allow a client to receive events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-refresh">Refresh</a>
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the current document without sending a 'Pragma:no-cache' HTTP header to the server.
@@ -88,7 +88,7 @@ Refreshes the current document without sending a 'Pragma:no-cache' HTTP header t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-unadvise">Unadvise</a>
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Removes a previously established connection.
@@ -106,7 +106,7 @@ Removes a previously established connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-document">Document</a>
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-document">Document</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Gets the HTML document object model of the current top-level document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-hwnd">HWND</a>
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-hwnd">HWND</a>
 
 
 </td>
@@ -136,4 +136,3 @@ Gets the handle of the current WWAHost window.
 </td>
 </tr>
 </table>
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Adjusts the shear of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> by the specified horizontal and vertical factors.
+Adjusts the shear of the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> by the specified horizontal and vertical factors.
 
 ## -parameters
 
@@ -109,5 +109,4 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

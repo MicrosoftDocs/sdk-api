@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
+The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

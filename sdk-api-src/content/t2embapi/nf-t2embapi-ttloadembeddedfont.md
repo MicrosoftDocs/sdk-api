@@ -240,7 +240,7 @@ A pointer to the new 8-bit-character Macintosh family name of the font. Set to <
 
 ### -param pTTLoadInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure, the font will not load successfully.
+A pointer to a <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure, the font will not load successfully.
 
 ## -returns
 
@@ -248,7 +248,7 @@ If successful, returns E_NONE.
 
 If font loading is successful, a font indicated by <i>phFontReference</i> is created from the font structure with the names referenced in <i>szWinFamilyName</i> and <i>szMacFamilyName</i>. <i>pulPrivStatus</i> is set indicating the embedding privileges of the font; and <i>pulStatus</i> may be set indicating status information about the font loading operation.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
 
 ## -remarks
 
@@ -264,21 +264,20 @@ To use the existing name of the embedded font, the name string parameters need t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttdeleteembeddedfont">TTDeleteEmbeddedFont</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttdeleteembeddedfont">TTDeleteEmbeddedFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>

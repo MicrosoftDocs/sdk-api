@@ -45,13 +45,9 @@ api_name:
  - PENABLECALLBACK
 ---
 
-# PENABLECALLBACK callback function
-
-
 ## -description
 
 Providers implement this function to receive enable or disable notification requests. 
-			
 
 The <b>PENABLECALLBACK</b> type defines a pointer to this callback function. <b>EnableCallback</b> is a placeholder for the application-defined function name.
 
@@ -59,7 +55,7 @@ The <b>PENABLECALLBACK</b> type defines a pointer to this callback function. <b>
 
 ### -param SourceId [in]
 
-GUID that identifies the session that enabled the provider. The value is GUID_NULL if <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> did not specify a source identifier.
+GUID that identifies the session that enabled the provider. The value is GUID_NULL if <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> did not specify a source identifier.
 
 ### -param IsEnabled [in]
 
@@ -113,16 +109,21 @@ If you receive a value (for example,  EVENT_CONTROL_CODE_CAPTURE_STATE) that you
 Provider-defined value that specifies the verboseness of the events that the provider writes. The provider must write the event if this value is less than or equal to the level value that the event defines. 
 
 This value is passed in the <i>Level</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>.
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a>.
 
 ### -param MatchAnyKeyword [in]
 
 Bitmask of keywords that the provider uses to determine the category of events that it writes. 
 
 This value is passed in the <i>MatchAnyKeyword</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>.
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a>.
 
 ### -param MatchAllKeyword
+
+This bitmask is optional. This mask further restricts the category of  events that the provider writes. 
+
+This value is passed in the <i>MatchAllKeywords</i> parameter of the 
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ### -param FilterData [in, optional]
 
@@ -132,33 +133,24 @@ The filter data is valid only within the callback, so providers should make a lo
 
 ### -param CallbackContext [in, optional]
 
-Context of the callback defined when the provider called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself.
-
-
-#### - MatchAllKeywords [in]
-
-This bitmask is optional. This mask further restricts the category of  events that the provider writes. 
-
-This value is passed in the <i>MatchAllKeywords</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+Context of the callback defined when the provider called <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself.
 
 ## -remarks
 
-To specify that you want to receive notification when a session enables or disables your provider, set the <i>EnableCallback</i> parameter when calling the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> function.
+To specify that you want to receive notification when a session enables or disables your provider, set the <i>EnableCallback</i> parameter when calling the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> function.
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">Classic</a> providers needed to specify and implement a callback because it used the information that was passed to the callback to determine the types of events to log and the level of verboseness to use when logging the events. However, with <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">manifest-based</a> providers, the callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider unless your provider supports filtering. Providers can now just write events and ETW will determine if the event is logged to the session. If you want to verify that the event should be written before writing the event, you can call either the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a> function.
+<a href="/windows/desktop/ETW/about-event-tracing">Classic</a> providers needed to specify and implement a callback because it used the information that was passed to the callback to determine the types of events to log and the level of verboseness to use when logging the events. However, with <a href="/windows/desktop/ETW/about-event-tracing">manifest-based</a> providers, the callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider unless your provider supports filtering. Providers can now just write events and ETW will determine if the event is logged to the session. If you want to verify that the event should be written before writing the event, you can call either the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> or  <a href="/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a> function.
 
 Each time a new session enables the provider or a current session updates the provider, ETW calls the provider's callback function, if implemented. The level value that ETW passes to the callback is the highest level value specified amongst all the sessions. For example, if session A enabled the provider for warning (3) events and then session B enabled the provider for critical (1) events, the level value for the second callback is also 3, not 1.
 
-The MatchAnyKeyword value that ETW passes to the callback is a composite value of all MatchAnyKeyword values specified for all sessions that enabled the provider. The same is true for the MatchAllKeywords value. The SourceId and FilterData values are those values passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> call.
+The MatchAnyKeyword value that ETW passes to the callback is a composite value of all MatchAnyKeyword values specified for all sessions that enabled the provider. The same is true for the MatchAllKeywords value. The SourceId and FilterData values are those values passed to the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> call.
 
 Your callback function must not call anything that may incur LoadLibrary (more specifically, anything that requires a loader lock).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>

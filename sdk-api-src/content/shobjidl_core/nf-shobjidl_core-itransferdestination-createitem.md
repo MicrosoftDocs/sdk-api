@@ -64,7 +64,7 @@ A pointer to a null-terminated buffer that contains the name of the file relativ
 
 Type: <b>DWORD</b>
 
-One or more of the FILE_ATTRIBUTE flags defined in the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
+One or more of the FILE_ATTRIBUTE flags defined in the <a href="/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
 
 ### -param ullSize [in]
 
@@ -88,7 +88,7 @@ A reference to the IID of the interface to retrieve through <i>ppvItem</i>, typi
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riidItem</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or a derived interface.
+When this method returns, contains the interface pointer requested in <i>riidItem</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or a derived interface.
 
 ### -param riidResources [in]
 
@@ -100,7 +100,7 @@ A reference to the IID of the interface to retrieve through <i>ppvResources</i>,
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riidResources</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or a derived interface.
+When this method returns, contains the interface pointer requested in <i>riidResources</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or a derived interface.
 
 ## -returns
 
@@ -117,9 +117,8 @@ Returns a success code if successful, or an error value otherwise. Success codes
 
 ## -remarks
 
-This method may be used to create a Shell item object representing the destination folder for a copy or move operation. The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> interface provides methods to actually move objects of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to the destination.
+This method may be used to create a Shell item object representing the destination folder for a copy or move operation. The <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> interface provides methods to actually move objects of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to the destination.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> before calling any other <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback on any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation.
+Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> before calling any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback on any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation.
 
 It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riidResources</i> and <i>ppvResources</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppvResources</i>, which eliminates the possibility of a coding error.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates the object that's used to access a device. The instantiated object implements  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a> interfaces.
+Creates the object that's used to access a device. The instantiated object implements  the <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> and <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a> interfaces.
 
 Conditions (FYI):
 
@@ -83,13 +83,12 @@ The requested level of access to the device, which can be summarized as read, wr
  
 
 
-The most commonly used values are <b>GENERIC_READ</b>, <b>GENERIC_WRITE</b>, or both (<b>GENERIC_READ</b> | <b>GENERIC_WRITE</b>). For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-access-rights-constants">File Access Rights Constants</a>, <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
+The most commonly used values are <b>GENERIC_READ</b>, <b>GENERIC_WRITE</b>, or both (<b>GENERIC_READ</b> | <b>GENERIC_WRITE</b>). For more information, see <a href="/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>, <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>, <a href="/windows/desktop/FileIO/file-access-rights-constants">File Access Rights Constants</a>, <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>, and <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
 
 ### -param createAsync
 
-Asynchronous interface to control binding for this instance.  For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>.
+Asynchronous interface to control binding for this instance.  For more information, see <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>.
 
 ## -returns
 
 <b>S_OK</b> if the underlying object and asynchronous operation are created successfully; an appropriate error otherwise.  Note that this function doesn't perform the actual binding.That happens as part of the asynchronous operation.
-

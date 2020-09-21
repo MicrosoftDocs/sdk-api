@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>WINTRUST_CATALOG_INFO</b> structure is used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a member of a Microsoft catalog.
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a member of a Microsoft catalog.
 
 ## -struct-fields
 
@@ -93,9 +93,8 @@ The size, in bytes, of the value passed in the <b>pbCalculatedFileHash</b> membe
 
 ### -field pcCatalogContext
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
 
 ### -field hCatAdmin
 
 Handle to the catalog administrator context that was used when calculating the hash of the file. This value can be zero only for a SHA1 file hash.<b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
-

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Modifies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
+Modifies the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 
 
-An <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 3×3 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3×3 matrix because all 3×3 matrices that represent affine transformations have the same third column (0, 0, 1).
+An <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object represents a 3×3 matrix that, in turn, represents an affine transformation. The object stores only six of the nine numbers in a 3×3 matrix because all 3×3 matrices that represent affine transformations have the same third column (0, 0, 1).
 
 ## -parameters
 
@@ -118,7 +118,7 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform">GetTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform">GetTransform Method</a>
 
 
 
@@ -126,5 +126,4 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

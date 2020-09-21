@@ -57,7 +57,7 @@ The <b>CreateComparator</b> method
 
 ### -param iSeedSignaturesFile [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a> interface pointer initialized to 
+An <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a> interface pointer initialized to 
       read the seed signatures.
 
 ### -param comparatorBufferSize [in]
@@ -88,7 +88,7 @@ Maximum size of a comparator buffer. (1&lt;&lt;30)
 ### -param iComparator [out]
 
 Pointer to a location that will receive an 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a> interface pointer. On a successful return 
+      <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a> interface pointer. On a successful return 
       the interface will be initialized on return. Callers must release the interface.
 
 ## -returns
@@ -102,13 +102,12 @@ The caller must create a separate signature comparator for each
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>

@@ -62,7 +62,7 @@ Handle to the call to be dropped. The application must be an owner of the call. 
 ### -param lpsUserUserInfo
 
 Pointer to a string containing user-user information to be sent to the remote party as part of the call disconnect. This pointer can be left <b>NULL</b> if no user-user information is to be sent. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>). The protocol discriminator field for the user-user information, if required, should appear as the first byte of the buffer pointed to by <i>lpsUserUserInfo</i>, and must be accounted for in <i>dwSize</i>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>). The protocol discriminator field for the user-user information, if required, should appear as the first byte of the buffer pointed to by <i>lpsUserUserInfo</i>, and must be accounted for in <i>dwSize</i>.
 
 ### -param dwSize
 
@@ -71,7 +71,7 @@ Size of the user-user information in <i>lpsUserUserInfo</i>, in bytes. If <i>lps
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_NOTOWNER, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_USERUSERINFOTOOBIG, LINEERR_INVALCALLSTATE, LINEERR_UNINITIALIZED.
 
@@ -79,7 +79,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_NOMEM, LINEERR_OPERAT
 
 When invoking 
 <b>lineDrop</b>, related calls can sometimes be affected as well. For example, dropping a conference call can drop all individual participating calls. 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> messages are sent to the application for all calls whose call state is affected. A dropped call typically transitions to the <i>idle</i> state. Invoking 
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> messages are sent to the application for all calls whose call state is affected. A dropped call typically transitions to the <i>idle</i> state. Invoking 
 <b>lineDrop</b> on a call in the <i>offering</i> state rejects the call. Not all telephone networks provide this capability.
 
 A call in the <i>onholdpending</i> state typically reverts to the <i>connected</i> state. When dropping the consultation call to the third party for a conference call or when removing the third party in a previously established conference call, the provider (and switch) can release the conference bridge and revert the call back to a normal two-party call. If this is the case, <i>hConfCall</i> transitions to the <i>idle</i> state, and the only remaining participating call transitions to the <i>connected</i> state. Some switches automatically "unhold" the other call.
@@ -92,17 +92,16 @@ In various bridged or party-line configurations when multiple parties are on the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/drop-ovr">Drop overview</a>
+<a href="/windows/desktop/Tapi/drop-ovr">Drop overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session overview</a>
-
+<a href="/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session overview</a>

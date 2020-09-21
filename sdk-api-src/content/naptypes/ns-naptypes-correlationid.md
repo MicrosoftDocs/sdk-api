@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
+<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
 
 ## -struct-fields
 
@@ -62,24 +62,23 @@ A globally unique identifier (GUID) that identifies a SoH  exchange.
 
 ### -field timeStamp
 
-A  unique <a href="https://msdn.microsoft.com/library/ms724284.aspx">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated.
+A  unique <a href="/windows/win32/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value that contains the system time at which the <a href="/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated.
 
 ## -remarks
 
 The
-   string version, <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">StringCorrelationId</a>, is used primarily for logging purposes,
+   string version, <a href="/windows/desktop/NAP/nap-datatypes">StringCorrelationId</a>, is used primarily for logging purposes,
    whereas this byte version is used by SHA/SHVs to
-   match <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> to <b>SoHResponses</b>.
+   match <a href="/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> to <b>SoHResponses</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">NAP Datatypes</a>
+<a href="/windows/desktop/NAP/nap-datatypes">NAP Datatypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

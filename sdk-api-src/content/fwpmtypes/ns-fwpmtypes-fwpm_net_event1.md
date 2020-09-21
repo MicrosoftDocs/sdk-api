@@ -53,17 +53,17 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT1</b> structure contains information about all event types.
-[FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
+[FWPM_NET_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field header
 
-An [FWPM_NET_EVENT_HEADER1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1) structure that contains information common to all events.
+An [FWPM_NET_EVENT_HEADER1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1) structure that contains information common to all events.
 
 ### -field type
 
-An [FWPM_NET_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) value that specifies the type of event.
+An [FWPM_NET_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) value that specifies the type of event.
 
 ### -field ikeMmFailure
 
@@ -85,7 +85,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
 
 ### -field classifyDrop
 
-Address of an [FWPM_NET_EVENT_CLASSIFY_DROP1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) structure that contains information about  a drop event.
+Address of an [FWPM_NET_EVENT_CLASSIFY_DROP1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) structure that contains information about  a drop event.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 
@@ -103,5 +103,4 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -87,13 +87,13 @@ Optionally points to a caller allocated buffer. On successful return, this buffe
 <tr>
 <td>WOF_PROVIDER_WIM</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
+<a href="/windows/desktop/api/wofapi/ns-wofapi-wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>WOF_PROVIDER_FILE</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO</a>
+<a href="/windows/desktop/api/wofapi/ns-wofapi-wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO</a>
 </td>
 </tr>
 </table>
@@ -120,5 +120,4 @@ This function returns an HRESULT indicating success or the reason for failure. I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a>

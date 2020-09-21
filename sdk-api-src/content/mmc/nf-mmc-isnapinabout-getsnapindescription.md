@@ -67,9 +67,8 @@ This method can return one of these values.
 The description should be limited to four lines of text to fit the description windows on the Snap-in Manager property pages.
 
 Memory for out parameters must be allocated using the COM API function 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>

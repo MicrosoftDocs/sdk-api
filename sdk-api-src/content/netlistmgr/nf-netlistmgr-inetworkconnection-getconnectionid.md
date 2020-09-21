@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetConnectionID</a> method returns the Connection ID associated with this network connection.
+The <a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetConnectionID</a> method returns the Connection ID associated with this network connection.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>

@@ -175,7 +175,6 @@ The direction of the operator—forward, backwards, or bidirectional.
 
 ### -field LinearBeforeReset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to specify that, when computing the output of the hidden gate, the linear transformation should be applied before multiplying by the output of the reset gate. Otherwise, <b>FALSE</b>.
-

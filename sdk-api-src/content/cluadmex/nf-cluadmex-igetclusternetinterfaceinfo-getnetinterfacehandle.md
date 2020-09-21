@@ -53,7 +53,7 @@ api_name:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Retrieves a handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>.
+Retrieves a handle to a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Retrieves a handle to a <a href="https://docs.microsoft.com/previous-versions/wi
 
 A number representing the zero-based index of the target network interface. 
        <i>lObjIndex</i> is restricted to the number that can be retrieved by calling 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 ## -returns
 
@@ -73,7 +73,7 @@ If
 If 
        <b>GetNetInterfaceHandle</b> 
        is not successful, it returns <b>NULL</b>. For more information about the error, call the 
-       function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       function <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,9 +81,8 @@ Do not close the handle obtained through this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusternetinterfaceinfo">IGetClusterNetInterfaceInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusternetinterfaceinfo">IGetClusterNetInterfaceInfo</a>

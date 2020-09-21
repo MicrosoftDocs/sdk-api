@@ -68,7 +68,7 @@ The print job finished without an error.
 
 ### -field XPS_JOB_CANCELLED
 
-The print job was cancelled by a call to <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-cancel">IXpsPrintJob::Cancel</a>, or cancelled while it was being processed by the  print spooler.
+The print job was cancelled by a call to <a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-cancel">IXpsPrintJob::Cancel</a>, or cancelled while it was being processed by the  print spooler.
 
 ### -field XPS_JOB_FAILED
 
@@ -76,11 +76,11 @@ The print job failed. The <b>jobStatus</b> member of <a href="/windows/win32/api
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>
 
 
 
@@ -89,4 +89,3 @@ The print job failed. The <b>jobStatus</b> member of <a href="/windows/win32/api
 
 
 <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
-

@@ -60,7 +60,7 @@ The <b>PFAX_LINECALLBACK</b> data type is a pointer to a <i>FaxLineCallback</i> 
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function.
 
 ### -param hDevice [in]
 
@@ -84,7 +84,7 @@ Reserved; should not be used by the FSP.
 
 Type: <b>DWORD_PTR</b>
 
-Specifies a parameter for the message. For information about parameter values passed in this structure, see <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-device-messages">Line Device Messages</a> in the TAPI documentation.
+Specifies a parameter for the message. For information about parameter values passed in this structure, see <a href="/windows/desktop/Tapi/line-device-messages">Line Device Messages</a> in the TAPI documentation.
 
 ### -param dwParam2 [in]
 
@@ -100,25 +100,24 @@ Specifies a parameter for the message.
 
 ## -remarks
 
-The FSP must register the <i>FaxLineCallback</i> callback function by passing its address when the fax service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a> function.
+The FSP must register the <i>FaxLineCallback</i> callback function by passing its address when the fax service calls the <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
+<a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
+<a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>

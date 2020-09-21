@@ -56,7 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBootOptions</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBootOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBootOptions</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBootOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBootOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-assignbootimage">AssignBootImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-assignbootimage">AssignBootImage</a>
 </td>
 <td align="left" width="63%">
 Sets the data stream that contains the boot image.
@@ -80,7 +80,7 @@ Sets the data stream that contains the boot image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage">get_BootImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage">get_BootImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the boot image data stream.
@@ -89,7 +89,7 @@ Retrieves a pointer to the boot image data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">get_Emulation</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">get_Emulation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type that the boot image is intended to emulate.
@@ -98,7 +98,7 @@ Retrieves the media type that the boot image is intended to emulate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_imagesize">get_ImageSize</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_imagesize">get_ImageSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the boot image.
@@ -107,7 +107,7 @@ Retrieves the size of the boot image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">get_Manufacturer</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">get_Manufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the manufacturer of the CD.
@@ -116,7 +116,7 @@ Retrieves the identifier of the manufacturer of the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">get_PlatformId</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">get_PlatformId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
@@ -125,7 +125,7 @@ Retrieves the platform identifier that identifies the operating system architect
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">put_Emulation</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">put_Emulation</a>
 </td>
 <td align="left" width="63%">
 Sets the media type that the boot image is intended to emulate.
@@ -134,7 +134,7 @@ Sets the media type that the boot image is intended to emulate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_manufacturer">put_Manufacturer</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_manufacturer">put_Manufacturer</a>
 </td>
 <td align="left" width="63%">
 Sets an identifier that identifies the manufacturer of the CD.
@@ -143,7 +143,7 @@ Sets an identifier that identifies the manufacturer of the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">put_PlatformId</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">put_PlatformId</a>
 </td>
 <td align="left" width="63%">
 Sets the platform identifier that identifies the operating system architecture that the boot image supports.
@@ -156,9 +156,8 @@ Sets the platform identifier that identifies the operating system architecture t
 
 This interface supports the "El Torito" Bootable CD-ROM format specification. 
 
-To add the boot image to a file system image, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a> method. 
+To add the boot image to a file system image, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a> method. 
 
-To get the boot image associated with a file system image, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a> method.
+To get the boot image associated with a file system image, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a> method.
 
 To create the <b>BootOptions</b> object in a script, use IMAPI2.BootOptions as the program identifier when calling <b>CreateObject</b>.
-

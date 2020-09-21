@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagusenoauthentication">WSMan.SessionFlagUseNoAuthentication</a> 
+    <a href="/windows/desktop/WinRM/wsman-sessionflagusenoauthentication">WSMan.SessionFlagUseNoAuthentication</a> 
     method returns the value of the authentication flag 
     <b>WSManFlagUseNoAuthentication</b> for use in the <i>flags</i> parameter of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+    <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
 <b>WSManFlagUseNoAuthentication</b> is a constant in the 
     <b>__WSManSessionFlags</b> enumeration. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-constants">Authentication Constants</a>.
+    <a href="/windows/desktop/WinRM/authentication-constants">Authentication Constants</a>.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-sessionflagusenoauthentication">WSMan.SessionFlagUseNoAuthentication</a>
-
+<a href="/windows/desktop/WinRM/wsman-sessionflagusenoauthentication">WSMan.SessionFlagUseNoAuthentication</a>

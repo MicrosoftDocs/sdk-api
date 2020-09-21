@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT_CLASSIFY_DROP0</b> structure contains information that describes a layer drop  failure.
-[FWPM_NET_EVENT_CLASSIFY_DROP1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2) is available. </div><div> </div>
+[FWPM_NET_EVENT_CLASSIFY_DROP1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2) is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -63,9 +63,8 @@ A LUID identifying the filter where the failure occurred.
 
 ### -field layerId
 
-Indicates the identifier of the filtering layer where the failure occurred.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
+Indicates the identifier of the filtering layer where the failure occurred.  For more information, see <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

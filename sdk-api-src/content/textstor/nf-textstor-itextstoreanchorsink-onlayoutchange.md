@@ -60,7 +60,7 @@ Contains a <a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayo
 
 ### -param vcView [in]
 
-Contains an application-defined cookie that identifies the document. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView</a>.
+Contains an application-defined cookie that identifies the document. For more information, see <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView</a>.
 
 ## -returns
 
@@ -88,29 +88,28 @@ The method was successful.
 
 A layout change can be in response to a change to the text, font size, window movement, window resizing, or other change that affects the displayed text.
 
-If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreAnchorSink::OnLayoutChange</b> when the layout is available.
+If a call to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt</a> or <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreAnchorSink::OnLayoutChange</b> when the layout is available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
       </a>
-

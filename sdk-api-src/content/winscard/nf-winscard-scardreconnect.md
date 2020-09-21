@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
+The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="/windows/desktop/SecGloss/s-gly">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
 
 ## -parameters
 
 ### -param hCard [in]
 
 Reference value obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param dwShareMode [in]
 
@@ -110,7 +110,7 @@ The value of this parameter should include the current protocol. Attempting to r
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The value of this parameter should include the current protocol. Attempting to r
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -234,8 +234,8 @@ An error code. For more information, see
 
 ## -remarks
 
-<b>SCardReconnect</b> is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
+<b>SCardReconnect</b> is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
@@ -261,9 +261,8 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>

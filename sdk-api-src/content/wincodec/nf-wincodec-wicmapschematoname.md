@@ -57,7 +57,7 @@ Obtains the name associated with a given schema.
 
 ### -param guidMetadataFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">REFGUID</a></b>
+Type: <b><a href="/windows/desktop/wic/-wic-guids-clsids">REFGUID</a></b>
 
 The metadata format GUID.
 
@@ -106,5 +106,4 @@ You can extend the schema name mapping by adding to the following registry key:
                <b>...</b></pre>
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.
-
+For more information, see <a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.

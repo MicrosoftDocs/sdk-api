@@ -59,7 +59,7 @@ The <b>SetClientInfo</b> method sets client-side information used for logging. U
 
 ### -param pClientInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_clientinfo">WM_READER_CLIENTINFO</a> structure allocated by the caller, which contains information about the client.
+Pointer to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_clientinfo">WM_READER_CLIENTINFO</a> structure allocated by the caller, which contains information about the client.
 
 ## -returns
 
@@ -113,9 +113,8 @@ hr = pReaderAdvanced->SetClientInfo( &info );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>

@@ -145,9 +145,8 @@ An error is found in one of the words in the list. Possible errors include unsup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>

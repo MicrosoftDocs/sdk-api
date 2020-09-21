@@ -154,5 +154,4 @@ The type library could not be opened.
 
 ## -remarks
 
-<b>RegisterTypeLibForUser</b> has functionality identical to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity.
-
+<b>RegisterTypeLibForUser</b> has functionality identical to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity.

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The [IKEEXT_AUTHENTICATION_METHOD0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0) is available.</div>
+The [IKEEXT_AUTHENTICATION_METHOD0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0) is available.</div>
 <div> </div>
 
 ## -struct-fields
@@ -77,13 +77,13 @@ See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authenti
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_KERBEROS</b>.
 
-See [IKEEXT_KERBEROS_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) for more information.
+See [IKEEXT_KERBEROS_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) for more information.
 
 ### -field ntlmV2Authentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
 
-See [IKEEXT_NTLM_V2_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) for more information.
+See [IKEEXT_NTLM_V2_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) for more information.
 
 ### -field sslAuthentication
 
@@ -95,15 +95,14 @@ See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authenti
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_IPV6_CGA</b>.
 
-See [IKEEXT_IPV6_CGA_AUTHENTICATION0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0) for more information.
+See [IKEEXT_IPV6_CGA_AUTHENTICATION0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0) for more information.
 
 ### -field eapAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_EAP</b>.
 
-See [IKEEXT_EAP_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) for more information.
+See [IKEEXT_EAP_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TERMINAL_STATE</b> enum describes the current state of a terminal device. This enum is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a> method.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The terminal is not currently in use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a>

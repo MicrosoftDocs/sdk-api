@@ -104,7 +104,7 @@ The method did not succeed.
 </dl>
 </td>
 <td width="60%">
-The method did not succeed. The <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a> method was called after the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize">Finalize</a> method.
+The method did not succeed. The <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a> method was called after the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize">Finalize</a> method.
 
 </td>
 </tr>
@@ -112,5 +112,4 @@ The method did not succeed. The <a href="https://docs.microsoft.com/windows/desk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>

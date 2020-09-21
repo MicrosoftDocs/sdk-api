@@ -87,14 +87,14 @@ The return value is the number of
 
 ## -remarks
 
-Note that <b>CharLowerBuff</b> always maps uppercase I to lowercase I  ("i"), even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapSting</a>.
+Note that <b>CharLowerBuff</b> always maps uppercase I to lowercase I  ("i"), even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapSting</a>.
 
 Conversion to Unicode in the ANSI version of the function is done with the system default locale in all cases.
 
 
 #### Examples
 
-For an example, see "Creating a Spell Dialog Box" in <a href="https://docs.microsoft.com/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>. 
+For an example, see "Creating a Spell Dialog Box" in <a href="/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>. 
 
 
 
@@ -108,15 +108,15 @@ For an example, see "Creating a Spell Dialog Box" in <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charlowera">CharLower</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charlowera">CharLower</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charuppera">CharUpper</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charuppera">CharUpper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charupperbuffa">CharUpperBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charupperbuffa">CharUpperBuff</a>
 
 
 
@@ -128,5 +128,4 @@ For an example, see "Creating a Spell Dialog Box" in <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

@@ -79,7 +79,7 @@ Returns <b>TRUE</b> if the compared record sets are equivalent, <b>FALSE</b> if 
 
 When comparing record sets, DNS resource records that are stored using different character encoding are treated by the 
 <b>DnsRecordSetCompare</b> function as equivalent. Contrast this to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a> function, in which equivalent records with different encoding are not returned as equivalent records.
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a> function, in which equivalent records with different encoding are not returned as equivalent records.
 
 ## -see-also
 
@@ -87,5 +87,4 @@ When comparing record sets, DNS resource records that are stored using different
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>

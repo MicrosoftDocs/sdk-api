@@ -64,5 +64,4 @@ The enumerator provides a snapshot of the collection. If an application is destr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationlist">IRDPSRAPIApplicationList</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationlist">IRDPSRAPIApplicationList</a>

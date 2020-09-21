@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>EnumerateAttributesClose</b> method frees any resources connected with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> enumeration.
+The <b>EnumerateAttributesClose</b> method frees any resources connected with <a href="/windows/desktop/SecGloss/a-gly">attribute</a> enumeration.
 
 All applications that use 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">ICertServerExit::EnumerateAttributesSetup</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a> should call <b>EnumerateAttributesClose</b> when finished enumerating.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">ICertServerExit::EnumerateAttributesSetup</a> or 
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a> should call <b>EnumerateAttributesClose</b> when finished enumerating.
 
 ## -parameters
 
@@ -64,17 +64,16 @@ All applications that use
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">ICertServerExit::EnumerateAttributesSetup</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">ICertServerExit::EnumerateAttributesSetup</a>

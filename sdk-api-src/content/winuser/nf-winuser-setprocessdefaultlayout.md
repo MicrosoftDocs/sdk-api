@@ -89,7 +89,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -133,7 +133,7 @@ After the <b>LAYOUT_RTL</b> flag is selected, flags normally specifying right or
 </table>
  
 
-If using this function with a mirrored window, note that the <b>SetProcessDefaultLayout</b> function does not mirror the whole process and all the device contexts (DCs) created in it. It mirrors only the mirrored window's DCs. To mirror any DC, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> function.
+If using this function with a mirrored window, note that the <b>SetProcessDefaultLayout</b> function does not mirror the whole process and all the device contexts (DCs) created in it. It mirrors only the mirrored window's DCs. To mirror any DC, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> function.
 
 ## -see-also
 
@@ -141,7 +141,7 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout">GetProcessDefaultLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout">GetProcessDefaultLayout</a>
 
 
 
@@ -153,9 +153,8 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

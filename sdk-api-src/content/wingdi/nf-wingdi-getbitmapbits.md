@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 The <b>GetBitmapBits</b> function copies the bitmap bits of a specified device-dependent bitmap into a buffer.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -80,9 +80,8 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
-
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>

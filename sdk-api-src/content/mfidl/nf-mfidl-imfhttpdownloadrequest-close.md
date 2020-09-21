@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to allow <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
+Invoked by Microsoft Media Foundation to allow <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
 
 ## -parameters
 
@@ -82,9 +82,8 @@ Successfully closed the request object.
 
 ## -remarks
 
-Microsoft Media Foundation will not invoke any other methods on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
+Microsoft Media Foundation will not invoke any other methods on the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

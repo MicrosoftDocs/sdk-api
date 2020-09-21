@@ -58,7 +58,7 @@ The
 ### -param pCallState [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">CALL_STATE</a> constant.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">CALL_STATE</a> constant.
 
 ## -returns
 
@@ -106,13 +106,12 @@ The <i>pCallState</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">CALL_STATE</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">CALL_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>

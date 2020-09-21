@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Identifies the data type returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a> method.
+Identifies the data type returned by the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a> method.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ A 2-dimensional array.  Each row is a <i>name,value</i> pair. Used to represent 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a>

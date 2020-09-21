@@ -56,7 +56,7 @@ Gets the ready state, which indicates whether the current media resource can be 
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_ready">MF_MEDIA_ENGINE_READY</a> enumeration value.
+Returns an <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_ready">MF_MEDIA_ENGINE_READY</a> enumeration value.
 
 ## -remarks
 
@@ -64,5 +64,4 @@ This method corresponds to the <b>readyState</b> attribute of the <b>HTMLMediaEl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

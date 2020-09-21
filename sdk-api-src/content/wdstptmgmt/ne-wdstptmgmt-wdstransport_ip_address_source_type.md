@@ -64,9 +64,8 @@ Default value that indicates that the IP address source is not known.
 
 ### -field WdsTptIpAddressSourceDhcp
 
-Indicates that the server should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/madcap/madcap-start-page">Multicast Address Dynamic Client Allocation Protocol</a> (MADCAP) to obtain a multicast IP address. MADCAP is a protocol that enables applications to obtain, renew, and release multicast addresses, and its functionality is often included in DHCP servers, such as the Microsoft DHCP Server role.
+Indicates that the server should use the <a href="/previous-versions/windows/desktop/madcap/madcap-start-page">Multicast Address Dynamic Client Allocation Protocol</a> (MADCAP) to obtain a multicast IP address. MADCAP is a protocol that enables applications to obtain, renew, and release multicast addresses, and its functionality is often included in DHCP servers, such as the Microsoft DHCP Server role.
 
 ### -field WdsTptIpAddressSourceRange
 
 Indicates that the server should automatically select an available address from a multicast address range manually configured by the administrator.
-

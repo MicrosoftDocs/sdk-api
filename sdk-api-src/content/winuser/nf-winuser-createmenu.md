@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> functions.
+Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="/windows/desktop/menurc/u">AppendMenu</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> functions.
 
 ## -parameters
 
@@ -62,15 +62,15 @@ Type: <b>HMENU</b>
 
 If the function succeeds, the return value is a handle to the newly created menu.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function.
+Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
+<a href="/windows/desktop/menurc/u">AppendMenu</a>
 
 
 
@@ -78,23 +78,23 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -102,5 +102,4 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>

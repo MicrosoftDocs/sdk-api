@@ -68,13 +68,12 @@ The views are packed top-to-bottom in a single frame.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3dframepackingmode">IMFMediaEngineEx::GetStereo3DFramePackingMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3dframepackingmode">IMFMediaEngineEx::GetStereo3DFramePackingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3dframepackingmode">IMFMediaEngineEx::SetStereo3DFramePackingMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3dframepackingmode">IMFMediaEngineEx::SetStereo3DFramePackingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

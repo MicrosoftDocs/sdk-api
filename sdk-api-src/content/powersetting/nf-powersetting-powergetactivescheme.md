@@ -63,7 +63,7 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 ### -param ActivePolicyGuid [out]
 
 A pointer that receives a pointer to a <b>GUID</b> structure. 
-      Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free this memory.
+      Use the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free this memory.
 
 ## -returns
 
@@ -72,5 +72,4 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

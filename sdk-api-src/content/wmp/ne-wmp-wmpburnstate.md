@@ -72,7 +72,7 @@ Waiting for the disc to become available.
 
 ### -field wmpbsRefreshStatusPending
 
-The burn playlist has changed. Call <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus">IWMPCdromBurn::refreshStatus</a>.
+The burn playlist has changed. Call <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus">IWMPCdromBurn::refreshStatus</a>.
 
 ### -field wmpbsPreparingToBurn
 
@@ -98,9 +98,8 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>

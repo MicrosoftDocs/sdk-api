@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
+Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 
 ## -parameters
 
@@ -64,10 +64,10 @@ This method can return the standard return values E_INVALIDARG and S_OK.
 
 ## -remarks
 
-This method undoes the effect of a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>, removing both the moniker and the pointer to the object identified by that moniker.
+This method undoes the effect of a call to <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>, removing both the moniker and the pointer to the object identified by that moniker.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>Revoke</b> method to revoke the registration of its objects when it stops running. It must have previously called <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>Revoke</b>.
+A moniker provider (hands out monikers identifying its objects to make them accessible to others) must call the <b>Revoke</b> method to revoke the registration of its objects when it stops running. It must have previously called <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> and stored the identifier returned by that method; it uses that identifier when calling <b>Revoke</b>.
 
 The most common type of moniker provider is a compound-document link source. This includes server applications that support linking to their documents (or portions of a document) and container applications that support linking to embeddings within their documents. Server applications that do not support linking can also use the ROT to cooperate with container applications that support linking to embeddings.
 
@@ -75,9 +75,8 @@ If you are writing a container application, you must revoke a document's registr
 
 
 
-If you are writing a server application, you must revoke an object's registration when the object is closed. You must also revoke an object's registration before re-registering it when its container document is renamed (see <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>).
+If you are writing a server application, you must revoke an object's registration when the object is closed. You must also revoke an object's registration before re-registering it when its container document is renamed (see <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>

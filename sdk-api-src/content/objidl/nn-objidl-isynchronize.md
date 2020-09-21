@@ -54,7 +54,7 @@ Provides asynchronous communication between objects about the occurrence of an e
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISynchronize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-reset">Reset</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the synchronization object to the nonsignaled state.
@@ -78,7 +78,7 @@ Sets the synchronization object to the nonsignaled state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">Signal</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">Signal</a>
 </td>
 <td align="left" width="63%">
 Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
@@ -87,7 +87,7 @@ Sets the synchronization object to the signaled state and causes pending wait op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">Wait</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">Wait</a>
 </td>
 <td align="left" width="63%">
 Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
@@ -98,5 +98,4 @@ Waits for the synchronization object to be signaled or for a specified timeout p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>

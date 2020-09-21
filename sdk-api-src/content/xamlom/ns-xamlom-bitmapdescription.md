@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents information about the bitmap stored in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>.
+Represents information about the bitmap stored in <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The format of the bitmap.
 ### -field AlphaMode
 
 The alpha mode of the bitmap.
-

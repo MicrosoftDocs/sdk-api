@@ -148,11 +148,11 @@ HS_DIAGCROSS
 
 <div class="alert"><b>Note</b>    The number of default hatch patterns that require driver support was reduced in a previous version of the Driver Development Kit (DDK). Consequently, HS_DDI_MAX, typically used by drivers to declare the size of the pattern array, was reduced.</div>
 <div> </div>
-GDI calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> with one of these surfaces to realize a brush with a standard pattern.
+GDI calls <a href="/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> with one of these surfaces to realize a brush with a standard pattern.
 
 Each of these surfaces must be a monochrome (1 bit per pixel) GDI bitmap for raster devices. The device driver should choose patterns that will look most like standard patterns when written on the device surface.
 
-GDI is never required to use these brushes in support routines for a vector device. Therefore, surfaces can be device-supported surfaces that <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> recognizes as standard patterns.
+GDI is never required to use these brushes in support routines for a vector device. Therefore, surfaces can be device-supported surfaces that <a href="/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> recognizes as standard patterns.
 
 ### -param cjCaps
 
@@ -160,7 +160,7 @@ Specifies the size of the buffer pointed to by <i>pdevcaps</i>. The driver must 
 
 ### -param pdevcaps [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure that will be used to describe device capabilities. GDI zero-initializes this structure calling <b>DrvEnablePDEV</b>.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure that will be used to describe device capabilities. GDI zero-initializes this structure calling <b>DrvEnablePDEV</b>.
 
 ### -param cjDevInfo
 
@@ -168,11 +168,11 @@ Specifies the number of bytes in the DEVINFO structure pointed to by <i>pdi</i>.
 
 ### -param pdi [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure, which describes the driver and the physical device. The driver should only alter the members it understands. GDI fills this structure with zeros before a call to <b>DrvEnablePDEV</b>.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure, which describes the driver and the physical device. The driver should only alter the members it understands. GDI fills this structure with zeros before a call to <b>DrvEnablePDEV</b>.
 
 ### -param hdev
 
-GDI-supplied handle to the device. This handle must be used as input to some GDI callbacks, such as <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetdrivername">EngGetDriverName</a>.
+GDI-supplied handle to the device. This handle must be used as input to some GDI callbacks, such as <a href="/windows/desktop/api/winddi/nf-winddi-enggetdrivername">EngGetDriverName</a>.
 
 ### -param pwszDeviceName [in]
 
@@ -184,7 +184,7 @@ Handle to an output device. For a display driver, this is the display device han
 
 ## -returns
 
-The return value is a handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that identifies the enabled device if the function is successful. That is, <b>DrvEnablePDEV</b> returns a handle to the private, driver-defined device instance information upon success. Otherwise, it returns <b>NULL</b>.
+The return value is a handle to the <a href="/windows-hardware/drivers/">PDEV</a> that identifies the enabled device if the function is successful. That is, <b>DrvEnablePDEV</b> returns a handle to the private, driver-defined device instance information upon success. Otherwise, it returns <b>NULL</b>.
 
 ## -remarks
 
@@ -220,7 +220,7 @@ Surfaces -- A printer driver can process two print jobs simultaneously. The two 
 
 </li>
 </ol>
-When receiving a call to this function, the driver must allocate the memory to support the PDEV. However, the actual surface need not be supported until GDI calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
+When receiving a call to this function, the driver must allocate the memory to support the PDEV. However, the actual surface need not be supported until GDI calls <a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
 
 If a device surface requires a bitmap to be allocated, these allocations need not be made until needed. Although applications often request device information long before actually writing to the device, waiting to allocate resources, such as large bitmaps, can conserve memory.
 
@@ -230,7 +230,7 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 
@@ -238,17 +238,16 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>

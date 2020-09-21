@@ -62,7 +62,7 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
@@ -70,5 +70,4 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

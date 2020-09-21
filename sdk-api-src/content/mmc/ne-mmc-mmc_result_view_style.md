@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MMC_RESULT_VIEW_STYLE</b> enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the <i>add</i> and <i>remove</i> parameters of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">IResultData::ModifyViewStyle</a> method.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">IResultData::ModifyViewStyle</a> method.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ Always show the selection, if any, even if the control does not have the focus.
 A value that specifies that column headers do not work like buttons. This style is useful if clicking a column header in report view does not carry out an action, such as sorting.
 
 ### -field MMC_ENSUREFOCUSVISIBLE
-

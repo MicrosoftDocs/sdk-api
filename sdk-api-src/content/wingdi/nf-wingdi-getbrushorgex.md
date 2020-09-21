@@ -63,7 +63,7 @@ A handle to the device context.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the brush origin, in device coordinates.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the brush origin, in device coordinates.
 
 ## -returns
 
@@ -83,25 +83,24 @@ The system automatically tracks the origin of all window-managed device contexts
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
+<a href="/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-unrealizeobject">UnrealizeObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-unrealizeobject">UnrealizeObject</a>

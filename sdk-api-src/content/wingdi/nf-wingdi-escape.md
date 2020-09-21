@@ -61,7 +61,7 @@ A handle to the device context.
 
 ### -param iEscape [in]
 
-The escape function to be performed. This parameter must be one of the predefined escape values listed in Remarks. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a> function if your application defines a private escape value.
+The escape function to be performed. This parameter must be one of the predefined escape values listed in Remarks. Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a> function if your application defines a private escape value.
 
 ### -param cjIn [in]
 
@@ -77,7 +77,7 @@ A pointer to the structure that receives output from this escape. This parameter
 
 ## -returns
 
-If the function succeeds, the return value is greater than zero, except with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff686811(v=vs.85)">QUERYESCSUPPORT</a> printer escape, which checks for implementation only. If the escape is not implemented, the return value is zero.
+If the function succeeds, the return value is greater than zero, except with the <a href="/previous-versions/windows/desktop/legacy/ff686811(v=vs.85)">QUERYESCSUPPORT</a> printer escape, which checks for implementation only. If the escape is not implemented, the return value is zero.
 
 If the function fails, the return value is a system error code.
 
@@ -117,59 +117,58 @@ Allows the application to send data directly to a printer.
 </table>
  
 
-For information about printer escapes, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a>.
+For information about printer escapes, see <a href="/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a>.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a> function to prepare the printer driver to receive data.
+Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a> function to prepare the printer driver to receive data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extescape">ExtEscape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printerproperties">PrinterProperties</a>
+<a href="/windows/desktop/printdocs/printerproperties">PrinterProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setabortproc">SetAbortProc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setabortproc">SetAbortProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a>

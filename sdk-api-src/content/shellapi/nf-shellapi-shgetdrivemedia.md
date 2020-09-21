@@ -64,11 +64,10 @@ The drive in which to check the media type.
 
 Type: <b>DWORD*</b>
 
-A pointer to the type of media in the given drive. A combination of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iquerycancelautoplay-allowautoplay">ARCONTENT</a> flags.
+A pointer to the type of media in the given drive. A combination of <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iquerycancelautoplay-allowautoplay">ARCONTENT</a> flags.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

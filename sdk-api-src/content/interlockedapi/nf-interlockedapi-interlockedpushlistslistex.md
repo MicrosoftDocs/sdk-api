@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://docs.microsoft.com/previous-versions/6xa169sk(v=vs.85)">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="/previous-versions/6xa169sk(v=vs.85)">__fastcall</a> calling convention.
 
 ## -parameters
 
@@ -85,19 +85,19 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
+<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
 
 
 
@@ -105,5 +105,4 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>
-
+<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>

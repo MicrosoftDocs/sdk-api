@@ -57,16 +57,16 @@ The <b>LookupSids</b> method returns the common names corresponding to each of t
 ### -param cSids [in]
 
 The number of 
-pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures pointed to by <i>rgpSids</i>.
+pointers to  <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures pointed to by <i>rgpSids</i>.
 
 ### -param rgpSids [in]
 
-A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures.
+A pointer to an array of pointers to <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures.
 
 ### -param ppdo [out]
 
 A pointer to a pointer to a returned data transfer object that contains the common names of the SIDs. Optionally, this parameter also returns the user principal name (UPN) of the SIDs in the <i>rgpSids</i> parameter. The data transfer object is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structure.
+<a href="/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structure.
 
 ## -returns
 
@@ -110,25 +110,24 @@ typedef struct _SID_INFO_LIST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a>
+<a href="/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info_list">SID_INFO_LIST</a>
-
+<a href="/windows/desktop/api/aclui/ns-aclui-sid_info_list">SID_INFO_LIST</a>

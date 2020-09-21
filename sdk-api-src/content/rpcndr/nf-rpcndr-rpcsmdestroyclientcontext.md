@@ -92,7 +92,7 @@ The handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -101,15 +101,14 @@ Client applications use
 <b>RpcSmDestroyClientContext</b> to reclaim resources from an inactive context handle. Applications can call 
 <b>RpcSmDestroyClientContext</b> after a communications error makes the context handle unusable. The 
 <b>RpcSmDestroyClientContext</b> function provides the same functionality as the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext">RpcSsDestroyClientContext</a> function.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext">RpcSsDestroyClientContext</a> function.
 
 This function does not invoke the server's context handle run-down process.
 
 When 
 <b>RpcSmDestroyClientContext</b> reclaims the memory resources, it also makes the context handle <b>NULL</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/using-context-handles">Using Context Handles</a>.
+<a href="/windows/desktop/Rpc/using-context-handles">Using Context Handles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext">RpcSsDestroyClientContext</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext">RpcSsDestroyClientContext</a>

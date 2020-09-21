@@ -54,7 +54,7 @@ The <b>ITfSource</b> interface is implemented by the TSF manager. It is used by 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">AdviseSink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">AdviseSink</a>
 </td>
 <td align="left" width="63%">
 Installs an advise sink.
@@ -78,7 +78,7 @@ Installs an advise sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">UnadviseSink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">UnadviseSink</a>
 </td>
 <td align="left" width="63%">
 Uninstalls an advise sink.
@@ -93,27 +93,27 @@ The TSF manager has different implementations of <b>ITfSource</b>, depending upo
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
             </a>
 </li>
 </ul>
-For more information about advise sinks that can be installed by each implementation, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a>.
+For more information about advise sinks that can be installed by each implementation, see <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a>.
 
 
 #### Examples
@@ -216,4 +216,3 @@ if(SUCCEEDED(hr))
 }
 
 ```
-

@@ -122,5 +122,4 @@ FNOPEN(fnFileOpen)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

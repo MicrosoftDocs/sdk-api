@@ -61,7 +61,7 @@ Type: <b>VARIANT*</b>
 
 The cut text. 
 					<i>pVar</i>-&gt;ppunkVal is the out parameter for an 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object, provided that the following conditions exist: 
+					<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object, provided that the following conditions exist: 
 				
 
 <ul>
@@ -76,7 +76,7 @@ Otherwise, the clipboard is used.
 Type: <b>HRESULT</b>
 
 This method returns an 
-						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise it returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise it returns one of the following values. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -121,5 +121,4 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

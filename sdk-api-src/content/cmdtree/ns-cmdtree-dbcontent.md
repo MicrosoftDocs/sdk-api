@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBCONTENT</b> structure represents specific information required by the DBOP_content operator.
 
@@ -76,7 +76,6 @@ locale
 
 ## -remarks
 
-For valid values of the <b>dwGenerateMethod</b> member, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/generate-method-constants">Generate Method Constants</a>.
+For valid values of the <b>dwGenerateMethod</b> member, see <a href="/previous-versions/windows/desktop/indexsrv/generate-method-constants">Generate Method Constants</a>.
 
-For more information on the DBOP_content operator, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.
-
+For more information on the DBOP_content operator, see <a href="/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.

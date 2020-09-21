@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The APO_REG_PROPERTIES structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a> for returning the registration properties of  an audio processing object (APO).
+The APO_REG_PROPERTIES structure is used by <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a> for returning the registration properties of  an audio processing object (APO).
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ The class ID for this APO.
 
 ### -field Flags
 
-The flags for this APO. This parameter is an enumerated constant of type <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ne-audioenginebaseapo-apo_flag">APO_FLAG</a>.
+The flags for this APO. This parameter is an enumerated constant of type <a href="/windows/desktop/api/audioenginebaseapo/ne-audioenginebaseapo-apo_flag">APO_FLAG</a>.
 
 ### -field szFriendlyName
 
@@ -108,5 +108,4 @@ The number of interfaces for this APO.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a>

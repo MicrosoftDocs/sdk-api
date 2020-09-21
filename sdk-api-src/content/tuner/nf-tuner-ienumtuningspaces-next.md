@@ -60,7 +60,7 @@ The number of elements to retrieve.
 
 ### -param rgelt [out]
 
-Address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface pointers that will receive the retrieved Tuning Space objects.
+Address of an array of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface pointers that will receive the retrieved Tuning Space objects.
 
 ### -param pceltFetched [out]
 
@@ -72,5 +72,4 @@ Returns S_OK if successful. This method will succeed even if <i>celt</i> is zero
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces Interface</a>

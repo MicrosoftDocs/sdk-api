@@ -69,7 +69,7 @@ The highest pixels per em value to query.
 
 ### -param glyphImageFormats
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a> specifying the supported formats for the requested glyph.
+An array of <a href="/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a> specifying the supported formats for the requested glyph.
 
 ## -returns
 
@@ -80,4 +80,3 @@ Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_forma
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
-

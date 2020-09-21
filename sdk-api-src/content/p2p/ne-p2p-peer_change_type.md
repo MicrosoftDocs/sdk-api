@@ -70,5 +70,4 @@ The peer object, endpoint, or application has been updated with new information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>

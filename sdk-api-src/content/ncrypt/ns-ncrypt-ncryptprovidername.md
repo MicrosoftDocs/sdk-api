@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NCryptProviderName</b> structure is used to contain the name of a CNG key storage provider. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a> function to return the names of the registered CNG key storage providers.
+The <b>NCryptProviderName</b> structure is used to contain the name of a CNG key storage provider. This structure is used with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a> function to return the names of the registered CNG key storage providers.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ A pointer to a null-terminated Unicode string that contains optional text for th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumstorageproviders">NCryptEnumStorageProviders</a>

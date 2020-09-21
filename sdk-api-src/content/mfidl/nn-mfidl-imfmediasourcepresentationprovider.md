@@ -53,11 +53,11 @@ api_name:
 
 Provides notifications to the sequencer source. This interface is exposed by the sequencer source. Applications do not use this interface.
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_SOURCE_PRESENTATION_PROVIDER_SERVICE.
+To get a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_SOURCE_PRESENTATION_PROVIDER_SERVICE.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourcePresentationProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourcePresentationProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourcePresentationProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourcePresentationProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMediaSourcePresentationProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourcepresentationprovider-forceendofpresentation">ForceEndOfPresentation</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourcepresentationprovider-forceendofpresentation">ForceEndOfPresentation</a>
 </td>
 <td align="left" width="63%">
 Notifies the source when playback has reached the end of a segment.
@@ -83,5 +83,4 @@ Notifies the source when playback has reached the end of a segment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

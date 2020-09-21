@@ -52,18 +52,18 @@ api_name:
 
 ## -description
 
-The <b>DHPUBKEY</b> structure contains information specific to the particular Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
+The <b>DHPUBKEY</b> structure contains information specific to the particular Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public key</a> contained in the <a href="/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 ## -struct-fields
 
 ### -field magic
 
-This must always be set to DH1 (0x31484400) when used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOBs</a> and to DH2 (0x32484400) when used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOBs</a>. 
+This must always be set to DH1 (0x31484400) when used for <a href="/windows/desktop/SecGloss/p-gly">public key BLOBs</a> and to DH2 (0x32484400) when used for <a href="/windows/desktop/SecGloss/p-gly">private key BLOBs</a>. 
 
 
 
 
-Notice that the hexadecimal values are simply an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of DH1 and DH2.
+Notice that the hexadecimal values are simply an <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of DH1 and DH2.
 
 ### -field bitlen
 
@@ -75,5 +75,4 @@ Number of bits in the prime modulus, P.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>

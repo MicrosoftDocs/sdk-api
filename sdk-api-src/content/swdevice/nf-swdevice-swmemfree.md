@@ -62,5 +62,4 @@ A pointer to the block of memory to free.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a>
-
+<a href="/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a>

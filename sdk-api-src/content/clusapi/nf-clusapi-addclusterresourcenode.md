@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> to the list of possible nodes that a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> can run on. The 
+Adds a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> to the list of possible nodes that a 
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> can run on. The 
     <b>PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE</b> type defines a pointer to this function.
 
 ## -parameters
@@ -71,24 +71,23 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <b>AddClusterResourceNode</b> returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+    <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-removeclusterresourcenode">RemoveClusterResourceNode</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-removeclusterresourcenode">RemoveClusterResourceNode</a>

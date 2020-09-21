@@ -56,7 +56,7 @@ Gets a read-only stream that contains the uncompressed content of the file.
 
 ### -param stream [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 A read-only stream that contains the uncompressed content of the file.
 
@@ -66,7 +66,7 @@ Type: <b>HRESULT</b>
 
 If the method succeeds, it returns <b>S_OK</b>. 
 
-[Fatal] OPC error codes (0x8051xxxx) if the file’s local file header or data descriptor in the zip archive is invalid.  This failure causes the entire OPC zip consumer to enter an invalid state, no other file can be accessed from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a> object after this error occurs.
+[Fatal] OPC error codes (0x8051xxxx) if the file’s local file header or data descriptor in the zip archive is invalid.  This failure causes the entire OPC zip consumer to enter an invalid state, no other file can be accessed from the <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a> object after this error occurs.
 
 HRESULT_FROM_WIN32(ERROR_CRC) (0x80070017) if the stream has been previously read and its CRC was invalid.
 
@@ -88,13 +88,12 @@ The <i>stream</i> returned is read-only and cloneable.
 Validation of payload files is "lazy."  On the first call to the file’s <b>GetStream</b> method, the corresponding zip file item’s local file header and data descriptor is validated and might cause <b>GetStream</b> to fail.  Subsequent calls to <b>GetStream</b> on the same file don't repeat these validations.  The zip file item’s CRC checksum is only validated if the stream is read in its entirety in sequential order.
 
 
-Instances of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that are returned for payload files are optimized for sequential access.  While random access to the stream is supported, that random access might be slower and more CPU-intensive.  We recommend a single sequential read of these streams whenever possible.  Reading the same range multiple times is supported but not recommended for performance; consider caching such ranges if their usage scenario demands it.
+Instances of <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that are returned for payload files are optimized for sequential access.  While random access to the stream is supported, that random access might be slower and more CPU-intensive.  We recommend a single sequential read of these streams whenever possible.  Reading the same range multiple times is supported but not recommended for performance; consider caching such ranges if their usage scenario demands it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>

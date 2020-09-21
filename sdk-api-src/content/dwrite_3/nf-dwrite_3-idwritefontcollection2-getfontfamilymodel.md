@@ -50,11 +50,10 @@ Retrieves the font family model used by the font collection to group families.
 
 ## -returns
 
-Type: **[DWRITE_FONT_FAMILY_MODEL](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model)**
+Type: **[DWRITE_FONT_FAMILY_MODEL](./ne-dwrite_3-dwrite_font_family_model.md)**
 
 How families are grouped in the collection.
 
 ## -remarks
 
 ## -see-also
-

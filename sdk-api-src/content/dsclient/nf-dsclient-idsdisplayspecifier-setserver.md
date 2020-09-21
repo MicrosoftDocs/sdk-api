@@ -74,19 +74,19 @@ Contains a set of flags used to bind to the directory service. This can be zero 
 
 #### DSSSF_SIMPLEAUTHENTICATE (1 (0x1))
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object uses simple authentication instead of secure authentication.
+The <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object uses simple authentication instead of secure authentication.
 
 
 
 #### DSSSF_DONTSIGNSEAL (2 (0x2))
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object does not use signing and sealing when opening objects.
+The <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object does not use signing and sealing when opening objects.
 
 
 
 #### DSSSF_DSAVAILABLE (2147483648 (0x80000000))
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object will not check whether the directory server is available.
+The <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object will not check whether the directory server is available.
 
 ## -returns
 
@@ -94,17 +94,16 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -remarks
 
-The server data is cached by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object. The <b>IDsDisplaySpecifier</b> object does not actually bind to the server until a specific method, such as <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>,  is called.
+The server data is cached by the <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object. The <b>IDsDisplaySpecifier</b> object does not actually bind to the server until a specific method, such as <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>,  is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>

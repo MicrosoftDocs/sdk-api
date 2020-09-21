@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_credinfo">SecPkgContext_CredInfo</a> structure.
+Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_credinfo">SecPkgContext_CredInfo</a> structure.
 
 ## -enum-fields
 
@@ -77,4 +77,3 @@ Indicates saved credentials that are target specific.
 ### -field SecPkgCredClass_Explicit = 40
 
 Indicates credentials explicitly supplied by the user.
-

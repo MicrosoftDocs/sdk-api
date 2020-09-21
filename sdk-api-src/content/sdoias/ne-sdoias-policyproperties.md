@@ -115,5 +115,4 @@ To create a new policy, you must specify a unique name for the policy, a profile
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-conditionproperties">CONDITIONPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-conditionproperties">CONDITIONPROPERTIES</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Receives item data in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista">SHGetDataFromIDList</a>.
+Receives item data in response to a call to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista">SHGetDataFromIDList</a>.
 
 ## -struct-fields
 
@@ -195,4 +195,3 @@ The item is an unidentified network resource.
 Type: <b>CLSID</b>
 
 Receives the CLSID of the object to which the item belongs.
-

@@ -88,13 +88,12 @@ The following are the manifest constants associated with the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_address">ATM_ADDRESS</a>
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-atm_address">ATM_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_blli">ATM_BLLI</a>
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-atm_blli">ATM_BLLI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
-
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>

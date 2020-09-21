@@ -76,9 +76,8 @@ For network shares, the <i>TargetUrl</i> parameter contains the full path of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
+<a href="/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
-
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>

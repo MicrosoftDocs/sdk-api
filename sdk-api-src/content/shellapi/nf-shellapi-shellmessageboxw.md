@@ -59,7 +59,7 @@ api_name:
 
 <p class="CCE_Message">[<b>ShellMessageBox</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-<b>ShellMessageBox</b> is a special instance of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
+<b>ShellMessageBox</b> is a special instance of <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
 
 ## -parameters
 
@@ -85,13 +85,13 @@ A pointer to a null-terminated string that contains either the message to be dis
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
+A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
 
 ### -param fuStyle [in]
 
 Type: <b>UINT</b>
 
-Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
+Specifies the contents and behavior of the dialog box. For possible values, see <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
 
 ### -param arg6 [in]
 
@@ -101,22 +101,21 @@ A variable argument list that is combined with <i>pszMsg</i> to form the full te
 
 Type: <b>int</b>
 
-An integer value indicating a button that was pressed in the message box. For specific values, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
+An integer value indicating a button that was pressed in the message box. For specific values, see <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
 
 					
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
 ## -remarks
 
 > [!NOTE]
 > The shellapi.h header defines ShellMessageBox as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

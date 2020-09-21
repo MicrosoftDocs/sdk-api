@@ -60,7 +60,7 @@ Specifies the type of credentials used to create a client context.
 
 ### -field CredClass
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-secpkg_cred_class">SECPKG_CRED_CLASS</a> enumeration that indicates the type of credentials.
+A value of the <a href="/windows/desktop/api/sspi/ne-sspi-secpkg_cred_class">SECPKG_CRED_CLASS</a> enumeration that indicates the type of credentials.
 
 ### -field IsPromptingNeeded
 
@@ -68,5 +68,4 @@ A nonzero value indicates that the application must prompt the user for credenti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spquerycontextattributesfn">SpQueryContextAttributes</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spquerycontextattributesfn">SpQueryContextAttributes</a>

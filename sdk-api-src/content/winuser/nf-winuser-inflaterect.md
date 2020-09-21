@@ -81,11 +81,11 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-intersectrect">IntersectRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-intersectrect">IntersectRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-offsetrect">OffsetRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-offsetrect">OffsetRect</a>
 
 
 
@@ -93,13 +93,12 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
+<a href="/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unionrect">UnionRect</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unionrect">UnionRect</a>

@@ -53,7 +53,7 @@ api_name:
 
 Represents the pinned status of an item in the Offline Files cache.
 
-When an item is pinned into the Offline Files cache by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a> method, it may be pinned for one of the following reasons:
+When an item is pinned into the Offline Files cache by using the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a> method, it may be pinned for one of the following reasons:
 <table>
 <tr>
 <th>Flag Value</th>
@@ -81,7 +81,7 @@ Each of the various <i>IsPinnedForUserXxxxxx</i> methods expresses one of these 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -96,7 +96,7 @@ The <b>IOfflineFilesPinInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinned">IsPinned</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinned">IsPinned</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item is pinned.
@@ -105,7 +105,7 @@ Determines whether the item is pinned.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforcomputer">IsPinnedForComputer</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforcomputer">IsPinnedForComputer</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item was pinned for all users on the computer by Group Policy.
@@ -114,7 +114,7 @@ Determines whether the item was pinned for all users on the computer by Group Po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforfolderredirection">IsPinnedForFolderRedirection</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforfolderredirection">IsPinnedForFolderRedirection</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item was pinned by Folder Redirection.
@@ -123,7 +123,7 @@ Determines whether the item was pinned by Folder Redirection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuser">IsPinnedForUser</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuser">IsPinnedForUser</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item was pinned by a user.
@@ -132,7 +132,7 @@ Determines whether the item was pinned by a user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuserbypolicy">IsPinnedForUserByPolicy</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuserbypolicy">IsPinnedForUserByPolicy</a>
 </td>
 <td align="left" width="63%">
 Determines whether the item was pinned for users by Group Policy.
@@ -143,5 +143,4 @@ Determines whether the item was pinned for users by Group Policy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

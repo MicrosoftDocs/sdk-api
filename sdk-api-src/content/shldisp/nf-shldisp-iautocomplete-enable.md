@@ -72,5 +72,4 @@ Autocompletion is enabled by default. Applications need only to call this method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>
-
+<a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>

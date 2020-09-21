@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getselrange">MCM_GETSELRANGE</a> message explicitly.
+Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-getselrange">MCM_GETSELRANGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -64,5 +64,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in <i>lprgSysTimeArray</i>[0] and <i>lprgSysTimeArray</i>[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.
-
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in <i>lprgSysTimeArray</i>[0] and <i>lprgSysTimeArray</i>[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.

@@ -65,10 +65,10 @@ Retrieves information about the specified window station or desktop object.
 ### -param hObj [in]
 
 A handle to the window station or desktop object. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, or 
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> function.
 
 ### -param nIndex [in]
 
@@ -87,7 +87,7 @@ The information to be retrieved. The parameter can be one of the following value
 </td>
 <td width="60%">
 The handle flags. The <i>pvInfo</i> parameter must point to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a> structure.
+<a href="/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a> structure.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ The type name of the object, as a string.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
 <b>GetUserObjectInformation</b> to determine the length of the <b>SID</b> before retrieving its value.
 
 </td>
@@ -171,50 +171,49 @@ A pointer to a variable receiving the number of bytes required to store the requ
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines GetUserObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

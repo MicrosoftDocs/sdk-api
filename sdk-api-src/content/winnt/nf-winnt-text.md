@@ -64,9 +64,8 @@ This macro interprets an ANSI string at runtime according to the current Windows
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-macros">Unicode and Character Set Macros</a>
+<a href="/windows/desktop/Intl/unicode-and-character-set-macros">Unicode and Character Set Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

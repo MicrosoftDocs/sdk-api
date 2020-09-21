@@ -62,7 +62,7 @@ The handle to the line to have media monitoring set.
 ### -param dwMediaModes
 
 The media type(s) of interest to TAPI. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ constants</a>:
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ constants</a>:
 
 ## -returns
 
@@ -73,23 +73,22 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEER
 ## -remarks
 
 TAPI typically calls this function to update the set of detected media types for the line to the union of all modes selected by all outstanding lineOpens whenever a line is Opened or Closed at the TAPI level. A 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> call attempt is rejected if media detection is rejected. A single call to this procedure is typically the result of a 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> call attempt is rejected if media detection is rejected. A single call to this procedure is typically the result of a 
 <b>lineOpen</b> call that does not specify the device identifier LINEMAPPER. The device identifier LINEMAPPER is never used at the TSPI level.
 
 TAPI must compute the union of media types desired by all clients and pass the result to this function. The service provider uses the set passed to this function by TAPI. TAPI ensures that the <i>dwMediaModes</i> parameter has at least one bit set and that no reserved bits are set. The service provider must perform any further validity checks on the media types, such as checking whether any media types are indeed supported by the service provider. The union of all media types can be the value 0 if the applications that have the line open are all either monitors or not interested in handling incoming calls.
 
 There is no directly corresponding function at the TAPI level. This procedure corresponds to the "request media types" implied for the specific line by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> procedure when it is called with the specific device identifier (other than LINEMAPPER).
+<a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> procedure when it is called with the specific device identifier (other than LINEMAPPER).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclose">TSPI_lineClose</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineclose">TSPI_lineClose</a>

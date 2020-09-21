@@ -57,7 +57,7 @@ The <b>MACInit</b> method acquires a message authentication code (MAC) channel.
 
 ### -param phMAC [out]
 
-Pointer to the MAC handle for the parameter data. The handle is acquired by <b>MACInit</b> to be used for subsequent <a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">MACUpdate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">MACFinal</a> calls. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
+Pointer to the MAC handle for the parameter data. The handle is acquired by <b>MACInit</b> to be used for subsequent <a href="/previous-versions/bb231593(v=vs.85)">MACUpdate</a> and <a href="/previous-versions/bb231591(v=vs.85)">MACFinal</a> calls. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -93,12 +93,12 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-<b>MACInit</b> begins a message authentication code (MAC) session. For example, <b>MACInit</b> should be called before content is transferred when writing to a storage device to verify the MAC returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getrights">IMDSPStorage::GetRights</a> call on the service provider.
+<b>MACInit</b> begins a message authentication code (MAC) session. For example, <b>MACInit</b> should be called before content is transferred when writing to a storage device to verify the MAC returned by the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getrights">IMDSPStorage::GetRights</a> call on the service provider.
 
 
 #### Examples
 
-The following example code checks the MAC received by a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
+The following example code checks the MAC received by a call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
 
 ```cpp
@@ -126,17 +126,16 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">CSecureChannelClient::MACFinal</a>
+<a href="/previous-versions/bb231591(v=vs.85)">CSecureChannelClient::MACFinal</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
+<a href="/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

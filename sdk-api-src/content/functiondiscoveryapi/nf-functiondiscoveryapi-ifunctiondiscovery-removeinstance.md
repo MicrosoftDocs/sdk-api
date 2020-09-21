@@ -62,15 +62,15 @@ A <a href="/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-syste
 
 ### -param pszCategory [in]
 
-The category of the function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
+The category of the function instance. See <a href="/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
 ### -param pszSubCategory [in]
 
-The subcategory of the function instance to be removed.  See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
+The subcategory of the function instance to be removed.  See <a href="/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
 
 ### -param pszCategoryIdentity [in]
 
-The provider instance identifier string. This string is returned from <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid">GetProviderInstanceID</a>.
+The provider instance identifier string. This string is returned from <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid">GetProviderInstanceID</a>.
 
 ## -returns
 
@@ -148,5 +148,4 @@ Access permission to change HKEY_LOCAL_MACHINE\SYSTEM registry keys is required 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>

@@ -60,7 +60,7 @@ The <b>HTTP_SERVICE_BINDING_W</b> structure provides  Service Principle Name (SP
 
 ### -field Base
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> value,  the <b>Type</b> member of which must be set to <b>HttpServiceBindingTypeW</b>.
+An <a href="/windows/desktop/api/http/ns-http-http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> value,  the <b>Type</b> member of which must be set to <b>HttpServiceBindingTypeW</b>.
 
 ### -field Buffer
 
@@ -69,4 +69,3 @@ A pointer to a buffer that represents the SPN.
 ### -field BufferSize
 
 The length, in bytes, of the string in <b>Buffer</b>.
-

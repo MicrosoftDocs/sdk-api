@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Closes an AVI clip. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-open">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters.
+Closes an AVI clip. You can use this macro or send the <a href="/windows/desktop/Controls/acm-open">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the animation control.
 
@@ -66,5 +66,4 @@ You can use <b>Animate_Close</b> to close an AVI file or AVI resource that was p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-animate_open">Animate_Open</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-animate_open">Animate_Open</a>

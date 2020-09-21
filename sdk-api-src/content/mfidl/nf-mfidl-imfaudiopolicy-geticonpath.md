@@ -57,7 +57,7 @@ Retrieves the icon resource for the audio session. The Windows volume control di
 
 ### -param pszPath [out]
 
-Receives a pointer to a wide-character string that specifies a shell resource. The format of the string is described in the topic <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-seticonpath">IMFAudioPolicy::SetIconPath</a>. The caller must free the memory allocated for the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to a wide-character string that specifies a shell resource. The format of the string is described in the topic <a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-seticonpath">IMFAudioPolicy::SetIconPath</a>. The caller must free the memory allocated for the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -89,9 +89,8 @@ For more information, see <b>IAudioSessionControl::GetIconPath</b> in the core a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

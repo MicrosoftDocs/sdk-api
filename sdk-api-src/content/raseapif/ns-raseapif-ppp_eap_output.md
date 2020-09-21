@@ -56,7 +56,7 @@ api_name:
 
 The authentication protocol uses the 
 <b>PPP_EAP_OUTPUT</b> structure to communicate requests and status information to the Connection Manager on return from calls to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ Specifies the size of this structure.
 ### -field Action
 
 Specifies a 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ne-raseapif-ppp_eap_action">PPP_EAP_ACTION</a> value. The Connection Manager carries out this action on behalf of the authentication protocol.
+<a href="/windows/desktop/api/raseapif/ne-raseapif-ppp_eap_action">PPP_EAP_ACTION</a> value. The Connection Manager carries out this action on behalf of the authentication protocol.
 
 ### -field dwAuthResultCode
 
@@ -76,7 +76,7 @@ Specifies whether authentication was successful. Any nonzero value for <b>dwAuth
 ### -field pUserAttributes
 
 Pointer to an optional array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
 <a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). 
 
 
@@ -89,23 +89,23 @@ When <b>Action</b> is <b>EAPACTION_Authenticate</b>, the array may contain addit
 When <b>Action</b> is <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>, and <b>dwAuthResultCode</b> is zero, the array may contain additional attributes to assign to the user. These attributes overwrite any attributes of the same type returned by the authentication provider.
 
 The authentication protocol frees this memory in its 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a> function.
+<a href="/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a> function.
 
 ### -field fInvokeInteractiveUI
 
 Specifies whether RAS should invoke the authentication protocol's interactive UI. If the authentication protocol sets this member to <b>TRUE</b>, RAS invokes the interactive UI, by calling the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a> function provided by the authentication protocol.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a> function provided by the authentication protocol.
 
 ### -field pUIContextData
 
 Pointer to context data that RAS should pass in the call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>. The authentication protocol should free this memory in its implementation of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>. The authentication protocol should free this memory in its implementation of 
+<a href="/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
 ### -field dwSizeOfUIContextData
 
 Specifies the size of the context data that RAS should pass in the call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
 
 ### -field fSaveConnectionData
 
@@ -114,7 +114,7 @@ Specifies whether RAS should save the information pointed to by the <b>pConnecti
 ### -field pConnectionData
 
 Identifies data specific to the connection, that is, data not specific to any particular user. If the <b>fSaveConnectionData</b> member is <b>TRUE</b>, RAS saves the connection data in the phone book. The authentication protocol should free the memory occupied by this data during the call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
 ### -field dwSizeOfConnectionData
 
@@ -127,7 +127,7 @@ Specifies whether RAS should save the user data pointed to by the <b>pUserData</
 ### -field pUserData
 
 Pointer to user data that RAS should save in the registry. RAS saves this data in the registry under <b>HKEY_CURRENT_USER</b>. The authentication protocol should free this memory during the call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
 ### -field dwSizeOfUserData
 
@@ -140,14 +140,14 @@ Specifies the size in bytes of the data pointed to by <b>pUserData</b>.
 ## -remarks
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function to pass the 
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function to pass the 
 <b>PPP_EAP_OUTPUT</b> structure between the authentication protocol and the Connection Manager.
 
 The authentication protocol can use the 
 <b>PPP_EAP_OUTPUT</b> structure to return the Microsoft Point-to-Point Encryption (MPPE) session keys. The authentication protocol  must place the session keys in the value field of a sub-attribute contained within the value field of an attribute of type <b>raatVendorSpecific</b> (see 
 <a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). The sub-attribute should have a Vendor-ID of 311 (Microsoft) and Vendor-Type of MS-MPPE-Recv-Keys (17) and MS-MPPE-Send-Keys (16). The authentication protocol must set the <b>pUserAttributes</b> member to point to the <b>raatVendorSpecific</b> attribute, and set the <b>Action</b> member to <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>. For more information about the format of the MPPE sub-attribute see 
 <a href="https://www.ietf.org/rfc/rfc2548.txt">Microsoft Vendor-specific RADIUS Attributes</a>. For more information about attribute formats see 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>, 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>, 
 <a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>, and 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
@@ -164,17 +164,16 @@ The authentication protocol can use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ne-raseapif-ppp_eap_action">PPP_EAP_ACTION</a>
+<a href="/windows/desktop/api/raseapif/ne-raseapif-ppp_eap_action">PPP_EAP_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>

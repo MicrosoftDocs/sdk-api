@@ -55,7 +55,7 @@ Sends a message to the specified recipients. The recipients can be applications,
 
 			
 
-To receive additional information if the request is defined, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> function.
+To receive additional information if the request is defined, use the <a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> function.
 
 ## -parameters
 
@@ -165,7 +165,7 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </dl>
 </td>
 <td width="60%">
- Sends the message using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
+ Sends the message using <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Broadcast to all system components.
 </dl>
 </td>
 <td width="60%">
- Broadcast to all desktops. Requires the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SE_TCB_NAME</a> privilege.
+ Broadcast to all desktops. Requires the <a href="/windows/desktop/SecAuthZ/authorization-constants">SE_TCB_NAME</a> privilege.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Type: <b>UINT</b>
 
 The message to be sent. 
 
-For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 ### -param wParam [in]
 
@@ -252,24 +252,24 @@ If the function succeeds, the return value is a positive value.
 
 If the function is unable to broadcast the message, the return value is –1. 
 
-If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If <b>BSF_QUERY</b> is not specified, the function sends the specified message to all requested recipients, ignoring values returned by those recipients.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>.
+For an example, see <a href="/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
 
 
 
@@ -277,7 +277,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -285,5 +285,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>

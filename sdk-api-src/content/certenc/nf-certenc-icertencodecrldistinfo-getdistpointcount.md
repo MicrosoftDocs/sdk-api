@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetDistPointCount</b> method returns the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
+The <b>GetDistPointCount</b> method returns the number of <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
 
 ## -parameters
 
@@ -64,20 +64,19 @@ A pointer to a <b>LONG</b> that will represent the number of CRL distribution po
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of CRL distribution points in the array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getnamecount">ICertEncodeCRLDistInfo::GetNameCount</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getnamecount">ICertEncodeCRLDistInfo::GetNameCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-reset">ICertEncodeCRLDistInfo::Reset</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-reset">ICertEncodeCRLDistInfo::Reset</a>

@@ -54,11 +54,11 @@ api_name:
 
 Removes the trailing backslash from the end of a path string.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
+This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function, or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchremovebackslash">PathCchRemoveBackslash</a>, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremovebackslasha">PathRemoveBackslash</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -85,4 +85,3 @@ This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b>
 ## -remarks
 
 This function will not remove the backslash from a root path string, such as "C:\".
-

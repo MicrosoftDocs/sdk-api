@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioSetInfo</b> function updates the information retrieved by the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function about a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
+The <b>mmioSetInfo</b> function updates the information retrieved by the <a href="/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function about a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ File handle of the file.
 
 ### -param pmmioinfo
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure filled with information by the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
+Pointer to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure filled with information by the <a href="/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
 
 ### -param fuInfo
 
@@ -75,5 +75,4 @@ Returns zero if successful or an error otherwise.
 
 ## -remarks
 
-If you have written to the file I/O buffer, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure before calling <b>mmioSetInfo</b> to terminate direct buffer access. Otherwise, the buffer will not get flushed to disk.
-
+If you have written to the file I/O buffer, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure before calling <b>mmioSetInfo</b> to terminate direct buffer access. Otherwise, the buffer will not get flushed to disk.

@@ -114,13 +114,12 @@ An error occurred writing the CLSID to the registry. See Remarks below.
 
 ## -remarks
 
-Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the registry. If the ProgID cannot be found in the registry, <b>CLSIDFromProgID</b> creates an OLE 1 CLSID for the ProgID and a CLSID entry in the registry. Because of the restrictions placed on OLE 1 CLSID values, <b>CLSIDFromProgID</b> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a> are the only two functions that can be used to generate a CLSID for an OLE 1 object.
+Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the registry. If the ProgID cannot be found in the registry, <b>CLSIDFromProgID</b> creates an OLE 1 CLSID for the ProgID and a CLSID entry in the registry. Because of the restrictions placed on OLE 1 CLSID values, <b>CLSIDFromProgID</b> and <a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a> are the only two functions that can be used to generate a CLSID for an OLE 1 object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogidex">CLSIDFromProgIDEx</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogidex">CLSIDFromProgIDEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid">ProgIDFromCLSID</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid">ProgIDFromCLSID</a>

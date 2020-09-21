@@ -57,7 +57,7 @@ Assigns the priority of a resource for scheduling purposes.
 
 ### -param PriorityNew [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Priority to assign to a resource.
         
@@ -68,7 +68,7 @@ Priority to assign to a resource.
 <td>
 Differences between Direct3D 9 and Direct3D 9 for Windows Vista
 
-The priority can be any DWORD value; Direct3D 9 for Windows Vista also supports any of these pre-defined values <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3d9-resource-priority">D3D9_RESOURCE_PRIORITY</a>.
+The priority can be any DWORD value; Direct3D 9 for Windows Vista also supports any of these pre-defined values <a href="/windows/desktop/direct3d9/d3d9-resource-priority">D3D9_RESOURCE_PRIORITY</a>.
 
 </td>
 </tr>
@@ -76,19 +76,18 @@ The priority can be any DWORD value; Direct3D 9 for Windows Vista also supports 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Returns the previous priority value for the resource.
 
 ## -remarks
 
-This method is used to change the priority of managed resources (resources created with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL_MANAGED</a> flag). This method returns 0 on non-managed resources.
+This method is used to change the priority of managed resources (resources created with the <a href="/windows/desktop/direct3d9/d3dpool">D3DPOOL_MANAGED</a> flag). This method returns 0 on non-managed resources.
 
 Priorities are used to determine when managed resources are to be removed from memory. A resource assigned a low priority is removed before a resource with a high priority. If two resources have the same priority, the resource that was used more recently is kept in memory; the other resource is removed. Managed resources have a default priority of 0.
 
-Windows Vista only - When this method is called using an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a> interface, only resources created with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL_DEFAULT</a> flag will be affected.
+Windows Vista only - When this method is called using an <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a> interface, only resources created with the <a href="/windows/desktop/direct3d9/d3dpool">D3DPOOL_DEFAULT</a> flag will be affected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>

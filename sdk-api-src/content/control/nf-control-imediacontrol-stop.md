@@ -63,19 +63,18 @@ Returns S_OK if successful, or an <b>HRESULT</b> value that indicates the cause 
 
 If the graph is running, this method pauses the graph before stopping it. While paused, video renderers can copy the current frame to display as a poster frame.
 
-This method does not seek to the beginning of the stream. If you call this method and then call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a> method, playback resumes from the stopped position. To seek, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> interface.
+This method does not seek to the beginning of the stream. If you call this method and then call the <a href="/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a> method, playback resumes from the stopped position. To seek, use the <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> interface.
 
-The Filter Graph Manager pauses all the filters in the graph, and then calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">IMediaFilter::Stop</a> method on all filters, without waiting for the pause operations to complete. Therefore, some filters might have their <code>Stop</code> method called before they complete their pause operation. If you develop a custom rendering filter, you might need to handle this case by pausing the filter if it receives a stop command while in a running state. However, most filters do not need to take any special action in this regard.
+The Filter Graph Manager pauses all the filters in the graph, and then calls the <a href="/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">IMediaFilter::Stop</a> method on all filters, without waiting for the pause operations to complete. Therefore, some filters might have their <code>Stop</code> method called before they complete their pause operation. If you develop a custom rendering filter, you might need to handle this case by pausing the filter if it receives a stop command while in a running state. However, most filters do not need to take any special action in this regard.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
+<a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">StopWhenReady</a>
-
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">StopWhenReady</a>

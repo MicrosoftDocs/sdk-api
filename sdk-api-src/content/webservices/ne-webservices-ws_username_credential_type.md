@@ -51,11 +51,10 @@ api_name:
 ## -description
 
 The type of the username/password credential, used as a selector for
-subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_credential">WS_USERNAME_CREDENTIAL</a>.
+subtypes of <a href="/windows/desktop/api/webservices/ns-webservices-ws_username_credential">WS_USERNAME_CREDENTIAL</a>.
 
 ## -enum-fields
 
 ### -field WS_STRING_USERNAME_CREDENTIAL_TYPE
 
 Type ID for the username/password credential <a href="/windows/win32/api/webservices/ns-webservices-ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.
-

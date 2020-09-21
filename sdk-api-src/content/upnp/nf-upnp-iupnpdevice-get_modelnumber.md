@@ -57,7 +57,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the model number. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required. If the device does not specify a model number, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains the model number. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required. If the device does not specify a model number, this parameter is set to <b>NULL</b>.
 
 ## -returns
 
@@ -69,13 +69,12 @@ This property is optional and <i>pbstr</i> can return <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname">IUPnPDevice::ModelName</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname">IUPnPDevice::ModelName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">IUPnPDevice::ModelURL</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">IUPnPDevice::ModelURL</a>

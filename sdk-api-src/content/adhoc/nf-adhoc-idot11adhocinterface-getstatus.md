@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the connection status of the active network associated with this NIC. You can determine the active network by calling <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>.
+Gets the connection status of the active network associated with this NIC. You can determine the active network by calling <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>.
 
 ## -parameters
 
@@ -126,9 +126,8 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>

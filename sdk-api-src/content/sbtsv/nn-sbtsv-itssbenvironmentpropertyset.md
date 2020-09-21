@@ -54,9 +54,8 @@ Can be used to define custom properties of an environment that hosts target comp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpropertyset">ITsSbPropertySet</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpropertyset">ITsSbPropertySet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function uses this structure.
+Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function uses this structure.
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ A bitfield that specifies a UMS worker thread. If <b>IsUmsWorkerThread</b>  is s
 ## -remarks
 
 If both <b>IsUmsSchedulerThread</b>  and <b>IsUmsWorkerThread</b> are clear, the structure specifies a non-UMS thread.
-

@@ -56,11 +56,10 @@ The node mask. For single GPU operation, set this to zero. If there are multiple
 
 ### -field Flags
 
-Type: **[D3D12_PROTECTED_RESOURCE_SESSION_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_flags)**
+Type: **[D3D12_PROTECTED_RESOURCE_SESSION_FLAGS](./ne-d3d12-d3d12_protected_resource_session_flags.md)**
 
 Specifies the supported crypto sessions options.
 
 ## -remarks
 
 ## -see-also
-

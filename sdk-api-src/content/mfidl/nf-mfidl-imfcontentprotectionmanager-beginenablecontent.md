@@ -59,15 +59,15 @@ This method requests the application to perform a specific step needed to acquir
 
 ### -param pEnablerActivate [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of a content enabler object. To create the content enabler, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> and request the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface. The application should use the methods in <b>IMFContentEnabler</b> to complete the content enabling action.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of a content enabler object. To create the content enabler, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> and request the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface. The application should use the methods in <b>IMFContentEnabler</b> to complete the content enabling action.
 
 ### -param pTopo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the pending topology.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the pending topology.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. When the operation is complete, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> on the callback.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. When the operation is complete, the application should call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> on the callback.
 
 ### -param punkState [in]
 
@@ -100,17 +100,16 @@ The method succeeded.
 
 Do not block within this callback method. Instead, perform the content enabling action asynchronously on another thread. When the operation is finished, notify the protected media path (PMP) through the <i>pCallback</i> parameter.
 
-If you return a success code from this method, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> on the callback. Conversely, if you return an error code from this method, you must not call <b>Invoke</b>. If the operation fails after the method returns a success code, use status code on the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> object to report the error.
+If you return a success code from this method, you must call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> on the callback. Conversely, if you return an error code from this method, you must not call <b>Invoke</b>. If the operation fails after the method returns a success code, use status code on the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> object to report the error.
 
-After the callback is invoked, the PMP will call the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">IMFContentProtectionManager::EndEnableContent</a> method to complete the asynchronous call.
+After the callback is invoked, the PMP will call the application's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">IMFContentProtectionManager::EndEnableContent</a> method to complete the asynchronous call.
 
-This method is not necessarily called every time the application plays protected content. Generally, the method will not be called if the user has a valid, up-to-date license for the content. Internally, the input trust authority (ITA) determines whether <b>BeginEnableContent</b> is called, based on the content provider's DRM policy. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>.
+This method is not necessarily called every time the application plays protected content. Generally, the method will not be called if the user has a valid, up-to-date license for the content. Internally, the input trust authority (ITA) determines whether <b>BeginEnableContent</b> is called, based on the content provider's DRM policy. For more information, see <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a>

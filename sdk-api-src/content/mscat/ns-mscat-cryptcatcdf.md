@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTCATCDF</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTCATCDF</b> structure contains information used to create a signed catalog file (.cat) from a  catalog definition file (CDF). This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a> tool.
+The <b>CRYPTCATCDF</b> structure contains information used to create a signed catalog file (.cat) from a  catalog definition file (CDF). This structure is used by the <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a> tool.
 
 ## -struct-fields
 
@@ -92,25 +92,24 @@ A parser can update <i>dwCurFilePos</i> and <i>dwLastMemberOffset</i> as it read
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptcatcdfenumattributeswithcdftag">CryptCATCDFEnumAttributesWithCDFTag</a>
+<a href="/windows/desktop/SecCrypto/cryptcatcdfenumattributeswithcdftag">CryptCATCDFEnumAttributesWithCDFTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfenumcatattributes">CryptCATCDFEnumCatAttributes</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcdfenumcatattributes">CryptCATCDFEnumCatAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptcatcdfenummembersbycdftagex">CryptCATCDFEnumMembersByCDFTagEx</a>
+<a href="/windows/desktop/SecCrypto/cryptcatcdfenummembersbycdftagex">CryptCATCDFEnumMembersByCDFTagEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfopen">CryptCATCDFOpen</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcdfopen">CryptCATCDFOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
-
+<a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>

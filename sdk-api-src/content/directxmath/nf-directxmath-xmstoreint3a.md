@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in a 16-byte aligned 3 element <b>uint32_t</b> array.
+Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in a 16-byte aligned 3 element <b>uint32_t</b> array.
 
 ## -parameters
 
@@ -88,5 +88,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>

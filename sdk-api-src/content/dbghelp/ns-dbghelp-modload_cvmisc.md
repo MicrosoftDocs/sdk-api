@@ -84,5 +84,4 @@ The size of the image.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>

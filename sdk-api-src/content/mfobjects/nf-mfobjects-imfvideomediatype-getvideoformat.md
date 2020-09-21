@@ -53,25 +53,24 @@ api_name:
 
 <p class="CCE_Message">[<b>GetVideoFormat</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the video format.]
 
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format.
+Returns a pointer to an <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format.
 
 ## -parameters
 
 ## -returns
 
-This method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
+This method returns a pointer to an <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 ## -remarks
 
-If you need to convert the media type into an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype">MFCreateMFVideoFormatFromMFMediaType</a>.
+If you need to convert the media type into an <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype">MFCreateMFVideoFormatFromMFMediaType</a>.
 
 There are no guarantees about how long the returned pointer is valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfvideomediatype">IMFVideoMediaType</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfvideomediatype">IMFVideoMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

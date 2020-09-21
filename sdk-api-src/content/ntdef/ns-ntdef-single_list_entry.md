@@ -68,21 +68,20 @@ If a <b>SINGLE_LIST_ENTRY</b> structure is used as a list head, initialize the <
 
 A driver can access the <b>Next</b> member of a <b>SINGLE_LIST_ENTRY</b>, but (other than initializing a list head) <b>Next</b> must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/339e688f-64ec-402f-bd28-9fa487acb984">ExInterlockedPopEntryList</a>
+<a href="/previous-versions/ff545408(v=vs.85)">ExInterlockedPopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a932f69-c5dd-4844-b461-b986c00a08c7">ExInterlockedPushEntryList</a>
+<a href="/previous-versions/ff545418(v=vs.85)">ExInterlockedPushEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-popentrylist">PopEntryList</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-popentrylist">PopEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>

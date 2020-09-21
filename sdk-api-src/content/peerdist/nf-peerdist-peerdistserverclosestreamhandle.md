@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerDistServerCloseStreamHandle</b> function  closes a handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
+The <b>PeerDistServerCloseStreamHandle</b> function  closes a handle returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A PEERDIST_INSTANCE_HANDLE returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hStream [in]
 
-A PEERDIST_STREAM_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
+A PEERDIST_STREAM_HANDLE returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 ## -returns
 
@@ -97,19 +97,18 @@ The <i>hPeerDist</i> or <i>hStream</i> handle is invalid
 
 ## -remarks
 
-The <b>PeerDistServerCloseStreamHandle</b> function call cancels all pending operations associated with <i>hStream</i>. To prevent unintended cancellation of publication and closure of the stream handle, this function should be called after the completion of <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a>.
+The <b>PeerDistServerCloseStreamHandle</b> function call cancels all pending operations associated with <i>hStream</i>. To prevent unintended cancellation of publication and closure of the stream handle, this function should be called after the completion of <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a>.
 
-<b>PeerDistServerCloseStreamHandle</b> does not remove the publication. In order to remove the publication, call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>.
+<b>PeerDistServerCloseStreamHandle</b> does not remove the publication. In order to remove the publication, call <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishcompletestream">PeerDistServerPublishCompleteStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverunpublish">PeerDistServerUnpublish</a>

@@ -79,7 +79,6 @@ The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) 
 
 ## -see-also
 
-* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)
-

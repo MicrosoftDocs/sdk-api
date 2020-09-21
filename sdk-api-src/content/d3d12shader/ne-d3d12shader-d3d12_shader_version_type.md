@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Enumerates the types of shaders that Direct3D recognizes.  
-          Used to encode the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc">D3D12_SHADER_DESC</a> structure.
+          Used to encode the <b>Version</b> member of the <a href="/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc">D3D12_SHADER_DESC</a> structure.
 
 ## -enum-fields
 
@@ -85,5 +85,4 @@ Indicates the end of the enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-enums">Shader Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-enums">Shader Enumerations</a>

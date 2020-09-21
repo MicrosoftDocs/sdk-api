@@ -90,5 +90,4 @@ If <i>riid</i> is set to IID_ICallbackWithNoReentrancyToApplicationSTA, the func
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
-
+<a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>

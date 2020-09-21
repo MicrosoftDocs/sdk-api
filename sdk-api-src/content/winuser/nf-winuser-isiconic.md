@@ -79,7 +79,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iszoomed">IsZoomed</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iszoomed">IsZoomed</a>
 
 
 
@@ -87,5 +87,4 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

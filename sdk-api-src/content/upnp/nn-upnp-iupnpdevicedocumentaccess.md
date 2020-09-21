@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccess</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccess</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccess</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccess</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IUPnPDeviceDocumentAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl">GetDocumentURL</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl">GetDocumentURL</a>
 </td>
 <td align="left" width="63%">
 Returns the URL from which the device description document can be loaded.
@@ -79,4 +79,3 @@ Returns the URL from which the device description document can be loaded.
 </td>
 </tr>
 </table>
-

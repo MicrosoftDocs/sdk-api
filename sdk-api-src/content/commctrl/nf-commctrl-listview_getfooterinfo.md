@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooterinfo">LVM_GETFOOTERINFO</a> message explicitly.
+Gets information on the footer of a specified list-view control. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getfooterinfo">LVM_GETFOOTERINFO</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -64,5 +64,4 @@ A handle to the list-view control.
 
 Type: <b>LPLVFOOTERINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfooterinfo">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.
-
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-lvfooterinfo">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.

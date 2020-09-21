@@ -58,13 +58,13 @@ Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
 
 ### -field WICHeifHdrCustomVideoPrimaries
 
-[VT_BLOB] Specifies custom color primaries for a video media type. The value of this property is a [MT_CUSTOM_VIDEO_PRIMARIES](https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-mt_custom_video_primaries)structure, returned as an array of bytes (VT_BLOB).
+[VT_BLOB] Specifies custom color primaries for a video media type. The value of this property is a [MT_CUSTOM_VIDEO_PRIMARIES](/windows/desktop/api/mfapi/ns-mfapi-mt_custom_video_primaries)structure, returned as an array of bytes (VT_BLOB).
 
 ### -field WICHeifHdrProperties_FORCE_DWORD
 
 ## -remarks
 
-Use [IWicMetadataReader::GetValue](https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue) to retrieve the value of the properties specified with this enumeration. Instantiate the **IWicMetadataReader** instance using the GUID **CLSID_WICMetadataReader**. Call [IWicMetadataReader::GetMetadataFormat](https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat) and confirm that the value is **GUID_MetadataFormatHeifHDR** to verify that the metadata format is HEIF HDR metadata. 
+Use [IWicMetadataReader::GetValue](/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue) to retrieve the value of the properties specified with this enumeration. Instantiate the **IWicMetadataReader** instance using the GUID **CLSID_WICMetadataReader**. Call [IWicMetadataReader::GetMetadataFormat](/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat) and confirm that the value is **GUID_MetadataFormatHeifHDR** to verify that the metadata format is HEIF HDR metadata. 
 
 Not all HEIF HDR images will have all of these properties present in the file, so only those properties that are available will be exposed by the metadata reader. 
 
@@ -104,4 +104,3 @@ std::optional<uint32_t> GetMaximumLuminanceLevelFromMetadataReader(_In_ IWICMeta
 ```
 
 ## -see-also
-

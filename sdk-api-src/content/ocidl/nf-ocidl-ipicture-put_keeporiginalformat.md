@@ -64,9 +64,8 @@ This method returns S_OK on success and E_FAIL otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">IPicture::get_KeepOriginalFormat</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">IPicture::get_KeepOriginalFormat</a>

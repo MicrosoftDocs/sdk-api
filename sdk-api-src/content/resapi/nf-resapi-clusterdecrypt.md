@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Decrypts <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data for a Cryptographic Service Provider (CSP).
+Decrypts <a href="/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data for a Cryptographic Service Provider (CSP).
 
 ## -parameters
 
 ### -param hClusCryptProvider [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure that contains a handle to the CSP.
+A <a href="/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure that contains a handle to the CSP.
 
 ### -param pCryptInput [in]
 
@@ -80,5 +80,4 @@ If the operation completes successfully, this function returns <b>ERROR_SUCCESS<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>

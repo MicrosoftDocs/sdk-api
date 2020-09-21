@@ -66,21 +66,20 @@ The first element is used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData Method [IInkStrokeDisp Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty Method [IInkStrokeDisp Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints Method [IInkStrokeDisp Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method [IInkStrokeDisp Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints">SetPoints Method [IInkStrokeDisp Interface]</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints">SetPoints Method [IInkStrokeDisp Interface]</a>

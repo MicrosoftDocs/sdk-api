@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetPosition</b> macro retrieves the numerical value of the current position within the content of the MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a> message.
+The <b>MCIWndGetPosition</b> macro retrieves the numerical value of the current position within the content of the MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getposition">MCIWNDM_GETPOSITION</a>

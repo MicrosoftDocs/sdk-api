@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-The minimum value applies to the folder specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> property. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_checkbeforerunning">IDataManager::CheckBeforeRunning</a> property checks this limit. The data manager also checks the limit when it runs.
+The minimum value applies to the folder specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> property. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_checkbeforerunning">IDataManager::CheckBeforeRunning</a> property checks this limit. The data manager also checks the limit when it runs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>

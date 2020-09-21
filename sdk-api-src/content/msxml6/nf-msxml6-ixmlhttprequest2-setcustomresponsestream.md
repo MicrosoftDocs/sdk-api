@@ -56,7 +56,7 @@ Provides a custom stream to replace the standard stream for receiving an HTTP re
 
 ### -param pSequentialStream
 
-Custom stream that will receive the HTTP response. <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
+Custom stream that will receive the HTTP response. <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
 
 ## -returns
 
@@ -64,13 +64,12 @@ Returns <b>S_OK</b> on success.
 
 ## -remarks
 
-After this method is called, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> will call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method when it receives response data from the server. You can begin processing the data at that time, but avoid heavy processing because the call is made inline to receiving further data from the server. Because this <b>IXMLHTTPRequest2</b> never calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, it is safe to return <b>E_NOTIMPL</b> if the application does not need to use <b>ISequentialStream::Read</b>.
+After this method is called, <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> will call the <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method when it receives response data from the server. You can begin processing the data at that time, but avoid heavy processing because the call is made inline to receiving further data from the server. Because this <b>IXMLHTTPRequest2</b> never calls <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, it is safe to return <b>E_NOTIMPL</b> if the application does not need to use <b>ISequentialStream::Read</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>

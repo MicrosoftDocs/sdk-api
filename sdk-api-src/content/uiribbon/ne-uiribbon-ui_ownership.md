@@ -57,18 +57,17 @@ Specifies values that identify the ownership conditions under which an image is 
 ### -field UI_OWNERSHIP_TRANSFER
 
 The handle to the bitmap (HBITMAP) is owned by the Ribbon framework 
-			through the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object.
+			through the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object.
 
 ### -field UI_OWNERSHIP_COPY
 
 A copy of the HBITMAP is created by the Ribbon framework through 
-			the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object. The host application still owns the HBITMAP.
+			the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object. The host application still owns the HBITMAP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiimagefrombitmap-createimage">IUIImageFromBitmap::CreateImage</a>
-
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiimagefrombitmap-createimage">IUIImageFromBitmap::CreateImage</a>

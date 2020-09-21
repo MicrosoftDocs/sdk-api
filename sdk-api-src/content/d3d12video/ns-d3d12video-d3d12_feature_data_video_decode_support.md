@@ -64,7 +64,7 @@ The decode height of the source stream
 
 ### -field DecodeFormat
 
-The [DXGI\_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) to use as the decode format.  This format is the output format if no decoder conversion is specified.
+The [DXGI\_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) to use as the decode format.  This format is the output format if no decoder conversion is specified.
 
 ### -field FrameRate
 
@@ -90,4 +90,3 @@ A member of the [D3D12\_VIDEO\_DECODE\_TIER](ne-d3d12video-d3d12_video_decode_ti
 ## -remarks
 
 ## -see-also
-

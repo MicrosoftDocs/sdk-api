@@ -56,9 +56,9 @@ Starts a User Access Logging (UAL) session.
 
 ### -param Data [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
+A pointer to an <a href="/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
 
-Only the <b>RoleGuid</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure is required. All other members can be null.
+Only the <b>RoleGuid</b> property of the <a href="/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure is required. All other members can be null.
 
 ## -returns
 
@@ -66,9 +66,8 @@ If the function succeeds, it returns <b>S_OK</b>. If it fails, it returns an err
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
+<a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>
-
+<a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>

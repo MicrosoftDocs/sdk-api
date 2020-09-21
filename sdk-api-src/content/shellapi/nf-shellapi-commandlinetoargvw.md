@@ -78,17 +78,17 @@ A pointer to an array of <b>LPWSTR</b> values, similar to <i>argv</i>.
 
                     
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The address returned by <b>CommandLineToArgvW</b> is the address of the first element in an array of <b>LPWSTR</b> values; the number of pointers in this array is indicated by <i>pNumArgs</i>. Each pointer to a <b>null</b>-terminated Unicode string represents an individual argument found on the command line.
 
-<b>CommandLineToArgvW</b> allocates a block of contiguous memory for pointers to the argument strings, and for the argument strings themselves; the calling application must free the memory used by the argument list when it is no longer needed. To free the memory, use a single call to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+<b>CommandLineToArgvW</b> allocates a block of contiguous memory for pointers to the argument strings, and for the argument strings themselves; the calling application must free the memory used by the argument list when it is no longer needed. To free the memory, use a single call to the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="https://docs.microsoft.com/previous-versions/88w63h9k(v=vs.85)">Argument Definitions</a> and <a href="https://docs.microsoft.com/previous-versions/17w5ykft(v=vs.85)">Parsing C++ Command-Line Arguments</a>.
+For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="/previous-versions/88w63h9k(v=vs.85)">Argument Definitions</a> and <a href="/previous-versions/17w5ykft(v=vs.85)">Parsing C++ Command-Line Arguments</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
+The <a href="/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
 
 This function accepts command lines that contain a program name; the program name can be enclosed in quotation marks or not.
 
@@ -141,4 +141,3 @@ int __cdecl main()
    return(1);
 }
 ```
-

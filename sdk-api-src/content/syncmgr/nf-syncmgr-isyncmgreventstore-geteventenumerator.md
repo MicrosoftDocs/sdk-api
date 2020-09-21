@@ -56,9 +56,9 @@ Gets an enumerator for a handler's events.
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> instance that can be used to access the handler's events.
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> instance that can be used to access the handler's events.
 
 ## -returns
 
@@ -87,4 +87,3 @@ STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
 }
 
 ```
-

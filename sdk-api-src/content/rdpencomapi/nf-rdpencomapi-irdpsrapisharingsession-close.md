@@ -55,7 +55,7 @@ Disconnects all  attendees from the session and stops listening to incoming conn
 
 When the attendees are disconnected, no attendee disconnect event occurs on the sharer side because it is the sharer that calls this method.  The sharer is already aware that the attendees will be disconnected.
 
-A closed session cannot be reopened by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method.
+A closed session cannot be reopened by calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method.
 
 ## -parameters
 
@@ -65,9 +65,8 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>

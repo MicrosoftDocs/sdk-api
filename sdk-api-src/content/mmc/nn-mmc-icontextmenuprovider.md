@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,18 +70,18 @@ The <b>IContextMenuProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814824(v=vs.85)">AddItem</a>
+<a href="/previous-versions/windows/desktop/legacy/aa814824(v=vs.85)">AddItem</a>
 </td>
 <td align="left" width="63%">
 Adds one item to the context menu.
 
-(Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback</a>.)
+(Inherited from <a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback</a>.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addprimaryextensionitems">AddPrimaryExtensionItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addprimaryextensionitems">AddPrimaryExtensionItems</a>
 </td>
 <td align="left" width="63%">
 Enables a specified snap-in to extend the context menu.
@@ -90,7 +90,7 @@ Enables a specified snap-in to extend the context menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addthirdpartyextensionitems">AddThirdPartyExtensionItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addthirdpartyextensionitems">AddThirdPartyExtensionItems</a>
 </td>
 <td align="left" width="63%">
 Enables all snap-ins that have registered as third-party context menu extensions for this node type to extend the context menu.
@@ -99,7 +99,7 @@ Enables all snap-ins that have registered as third-party context menu extensions
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">EmptyMenuList</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">EmptyMenuList</a>
 </td>
 <td align="left" width="63%">
 Clears the context menu.
@@ -108,7 +108,7 @@ Clears the context menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">ShowContextMenu</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">ShowContextMenu</a>
 </td>
 <td align="left" width="63%">
 Displays the context menu.
@@ -116,4 +116,3 @@ Displays the context menu.
 </td>
 </tr>
 </table>
-

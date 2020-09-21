@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains information about a device. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
+Contains information about a device. This structure is used by the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
 
 ## -struct-fields
 
@@ -453,5 +453,4 @@ The values in the <b>STORAGE_DEVICE_NUMBER</b> structure are guaranteed to remai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>

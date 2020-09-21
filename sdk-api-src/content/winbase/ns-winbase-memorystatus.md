@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about the current state of both physical and virtual memory. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function stores information in a 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function stores information in a 
 <b>MEMORYSTATUS</b> structure.
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Contains information about the current state of both physical and virtual memory
 
 The size of the 
 <b>MEMORYSTATUS</b> data structure, in bytes. You do not need to set this member before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function; the function sets it.
+<a href="/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function; the function sets it.
 
 ### -field dwMemoryLoad
 
@@ -84,7 +84,7 @@ The current size of the committed memory limit, in bytes. This is physical memor
 
 ### -field dwAvailPageFile
 
-The maximum amount of memory the current process can commit, in bytes. This value should be smaller than the system-wide available commit. To calculate this value, call <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a> and subtract the value of <b>CommitTotal</b> from <b>CommitLimit</b>.
+The maximum amount of memory the current process can commit, in bytes. This value should be smaller than the system-wide available commit. To calculate this value, call <a href="/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a> and subtract the value of <b>CommitTotal</b> from <b>CommitLimit</b>.
 
 ### -field dwTotalVirtual
 
@@ -100,26 +100,25 @@ The amount of unreserved and uncommitted memory currently in the user-mode porti
 
 On computers with more than 4 GB of memory, the 
 <b>MEMORYSTATUS</b> structure can return incorrect information, reporting a value of –1 to indicate an overflow. If your application is at risk for this behavior, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead of the 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function.
 
 
 #### Examples
 
 For an example, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a> function.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalmemorystatus">GlobalMemoryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>

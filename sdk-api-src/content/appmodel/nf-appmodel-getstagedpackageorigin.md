@@ -67,9 +67,9 @@ The full name of the package.
 
 ### -param origin [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>*</b>
+Type: <b><a href="/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
+A pointer to a variable that receives a <a href="/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The <i>packageFullName</i> parameter isn't valid.
 </td>
 </tr>
 </table>
-

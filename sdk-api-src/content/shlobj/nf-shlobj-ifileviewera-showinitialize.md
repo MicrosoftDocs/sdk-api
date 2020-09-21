@@ -54,9 +54,8 @@ A pointer to an [IFileViewerSite](nn-shlobj-ifileviewersite.md) interface. A fil
 
 ## -returns
 
-The Shell calls this method before the [Show](nf-shlobj-ifileviewera-show.md) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+The Shell calls this method before the [Show](nf-shlobj-ifileviewera-show.md) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -remarks
 
 ## -see-also
-

@@ -363,13 +363,12 @@ In multi-session writing, the next writable address is useful for setting up a c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>

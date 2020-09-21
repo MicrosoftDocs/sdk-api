@@ -116,9 +116,8 @@ The <i>pfNullSOurceOrigin</i> parameter is an invalid pointer.
 
 ## -remarks
 
-The values of all the parameters should be set to 0 if <b>GetTimeSeekResult</b> is invoked before <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a> has been invoked. For information about the syntax for the TimeSeekRange.DLNA.ORG header, please refer to the <a href="http://www.dlna.org/guidelines/">DLNA web site</a>.
+The values of all the parameters should be set to 0 if <b>GetTimeSeekResult</b> is invoked before <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a> has been invoked. For information about the syntax for the TimeSeekRange.DLNA.ORG header, please refer to the <a href="http://www.dlna.org/guidelines/">DLNA web site</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

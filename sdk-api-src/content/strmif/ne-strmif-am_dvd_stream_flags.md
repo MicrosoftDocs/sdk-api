@@ -70,9 +70,8 @@ DVD subpicture stream.
 
 ## -see-also
 
-[AM_DVD_RENDERSTATUS Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus)
+[AM_DVD_RENDERSTATUS Structure](/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

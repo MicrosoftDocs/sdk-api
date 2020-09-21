@@ -57,7 +57,7 @@ The <b>GetAllGPRMs</b> method retrieves the current contents of all general para
 
 ### -param pRegisterArray [out]
 
-Pointer to an array of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/gprmarray">GPRMARRAY</a> that receives all 16 current GPRM values.
+Pointer to an array of type <a href="/windows/desktop/DirectShow/gprmarray">GPRMARRAY</a> that receives all 16 current GPRM values.
 
 ## -returns
 
@@ -96,18 +96,17 @@ Invalid argument.
 
 GPRMs are 16-bit registers that each disc can use in unique ways for temporary data storage. 
 
-<div class="alert"><b>Note</b>  A player application using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
+<div class="alert"><b>Note</b>  A player application using the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

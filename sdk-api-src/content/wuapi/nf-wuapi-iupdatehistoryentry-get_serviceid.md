@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the service identifier of an update service that is not a Windows update. This property is meaningful only if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection">ServerSelection</a> property returns <b>ssOthers</b>.
+Gets the service identifier of an update service that is not a Windows update. This property is meaningful only if the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection">ServerSelection</a> property returns <b>ssOthers</b>.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>

@@ -56,7 +56,7 @@ Animates the value of the visual's opacity property.
 
 ### -param animation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
+Type: <b><a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
 
 The animation that will be used to control the value of the opacity property.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual3">IDCompositionVisual3</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual3">IDCompositionVisual3</a>

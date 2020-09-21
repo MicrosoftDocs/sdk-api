@@ -63,16 +63,16 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-An application calls this function after calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a> function. 
+An application calls this function after calling the <a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/using-mouse-input">Drawing Lines with the Mouse</a>.
+For an example, see <a href="/windows/desktop/inputdev/using-mouse-input">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -82,11 +82,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcapture">GetCapture</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcapture">GetCapture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -94,9 +94,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-capturechanged">WM_CAPTURECHANGED</a>
-
+<a href="/windows/desktop/inputdev/wm-capturechanged">WM_CAPTURECHANGED</a>

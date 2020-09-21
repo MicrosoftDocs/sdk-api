@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <code>XMBYTE2</code> from XMBYTE2 <code>int8_t</code> arguments.
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a> from XMBYTE2
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a> from XMBYTE2
   <code>int8_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
@@ -90,9 +90,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>

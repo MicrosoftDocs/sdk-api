@@ -80,7 +80,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The format converter does not necessarily guarantee symmetricality with respect to conversion; that is, a converter may be able to convert FROM a particular format without actually being able to convert TO a particular format. In order to test symmetricality, use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>.
+The format converter does not necessarily guarantee symmetricality with respect to conversion; that is, a converter may be able to convert FROM a particular format without actually being able to convert TO a particular format. In order to test symmetricality, use <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>.
 
 To determine the number of pixel formats a coverter can handle, set <i>cFormats</i> to <code>0</code> and <i>pPixelFormatGUIDs</i> to <code>NULL</code>. The converter will fill <i>pcActual</i> with the number of formats supported by that converter.
-

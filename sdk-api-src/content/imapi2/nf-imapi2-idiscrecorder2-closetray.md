@@ -340,14 +340,13 @@ Value: 0xC0AA0210
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  Some drives, such as those with slot-loading mechanisms, do not support this method. To determine if the device supports this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">IDiscRecorder2::get_DeviceCanLoadMedia</a> property.</div>
+<div class="alert"><b>Note</b>  Some drives, such as those with slot-loading mechanisms, do not support this method. To determine if the device supports this method, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">IDiscRecorder2::get_DeviceCanLoadMedia</a> property.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>

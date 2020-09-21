@@ -73,24 +73,23 @@ The maximum number of threads that can enter this barrier. After the maximum num
 The number of times an individual thread should spin while waiting for other threads to arrive at the 
       barrier. If this parameter is -1, the thread spins 2000 times. If the thread exceeds 
       <i>lSpinCount</i>, the thread blocks unless it called 
-      <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a> with 
+      <a href="/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a> with 
       <b>SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY</b>.
 
 ## -returns
 
 <b>TRUE </b>if the barrier was successfully initialized. If the barrier was not 
       successfully initialized, this function returns <b>FALSE</b>. Use 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>
-
+<a href="/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>

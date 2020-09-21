@@ -74,16 +74,15 @@ The size of the buffer, in bytes. When the function returns, this parameter cont
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, use <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 If the error value is ERROR_INSUFFICIENT_BUFFER, the <i>ReturnedLength</i> parameter contains the required buffer size.
 
 ## -remarks
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
-
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>

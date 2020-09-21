@@ -57,15 +57,15 @@ The <b>BCryptProcessMultiOperations</b> function processes a sequence of operati
 
 ### -param hObject [in, out]
 
-A handle to a multi-object state, such as one created by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
+A handle to a multi-object state, such as one created by the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
 
 ### -param operationType [in]
 
-A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
+A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
 
 ### -param pOperations [in]
 
-A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
+A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
 
 ### -param cbOperations [in]
 
@@ -83,9 +83,8 @@ The relative order of two operations that operate on different elements of the a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>

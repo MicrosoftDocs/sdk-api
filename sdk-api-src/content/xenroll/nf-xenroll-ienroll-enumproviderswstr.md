@@ -52,8 +52,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumProvidersWStr</b> method retrieves the names of the available <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+The <b>enumProvidersWStr</b> method retrieves the names of the available <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Specifies the ordinal position of the CSP whose name will be retrieved. Specify 
 
 ### -param dwFlags [in]
 
-Specifies flags that are passed through to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. Not currently used; specify zero.
+Specifies flags that are passed through to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. Not currently used; specify zero.
 
 ### -param pbstrProvName [out]
 
@@ -72,17 +72,16 @@ A pointer to a <b>LPWSTR</b> variable that receives the name of a CSP with the s
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The value ERROR_NO_MORE_ITEMS is returned when there are no more CSPs with the property type indicated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
 
 ## -remarks
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry is used.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry is used.
 
 The <b>enumProvidersWStr</b> method  calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

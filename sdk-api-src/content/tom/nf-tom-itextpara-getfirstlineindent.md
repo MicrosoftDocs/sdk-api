@@ -64,7 +64,7 @@ The first-line indentation amount in floating-point points.
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetFirstLineIndent</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetFirstLineIndent</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,10 +108,10 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 ## -remarks
 
-To set the first line indentation amount, call the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setindents">ITextPara::SetIndents</a> method.
+To set the first line indentation amount, call the <a href="/windows/desktop/api/tom/nf-tom-itextpara-setindents">ITextPara::SetIndents</a> method.
 
 To get and set the indent for all other lines of the paragraph (that is, the left
-				indent), use <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getleftindent">ITextPara::GetLeftIndent</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setindents">ITextPara::SetIndents</a>.
+				indent), use <a href="/windows/desktop/api/tom/nf-tom-itextpara-getleftindent">ITextPara::GetLeftIndent</a> and <a href="/windows/desktop/api/tom/nf-tom-itextpara-setindents">ITextPara::SetIndents</a>.
 
 ## -see-also
 
@@ -119,11 +119,11 @@ To get and set the indent for all other lines of the paragraph (that is, the lef
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getleftindent">GetLeftIndent</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getleftindent">GetLeftIndent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -131,9 +131,8 @@ To get and set the indent for all other lines of the paragraph (that is, the lef
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setindents">SetIndents</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setindents">SetIndents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -50,44 +50,44 @@ api_name:
 
 ## -description
 
-The <b>CERTENROLL_PROPERTYID</b> enumeration type contains predefined object identifiers for external properties that can be associated with a certificate in the certificate store. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a> interface.
+The <b>CERTENROLL_PROPERTYID</b> enumeration type contains predefined object identifiers for external properties that can be associated with a certificate in the certificate store. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a> interface.
 
-The descriptions for each of the supported values identify the property data type so that you know how to create the value before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializedecode">InitializeDecode</a> method. The following interfaces, derived from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>, have been defined to simplify initialization and retrieval of the most common properties:<ul>
+The descriptions for each of the supported values identify the property data type so that you know how to create the value before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializedecode">InitializeDecode</a> method. The following interfaces, derived from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>, have been defined to simplify initialization and retrieval of the most common properties:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchivedkeyhash">ICertPropertyArchivedKeyHash</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchivedkeyhash">ICertPropertyArchivedKeyHash</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrequestoriginator">ICertPropertyRequestOriginator</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrequestoriginator">ICertPropertyRequestOriginator</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a>
 </li>
 </ul>
 
@@ -105,31 +105,31 @@ The handle of the private key associated with the certificate.
 
 ### -field XCN_CERT_KEY_PROV_INFO_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Data type: pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
-The structure contains information about a CSP key container or a Cryptography API: Next Generation (CNG) key. This is used to acquire a handle to the private key. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a> interface to initialize and retrieve this property.
+The structure contains information about a CSP key container or a Cryptography API: Next Generation (CNG) key. This is used to acquire a handle to the private key. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_SHA1_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a SHA-1 hash value of the certificate. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member points to a byte array that contains a SHA-1 hash value of the certificate. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_MD5_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains an MD5 hash value of the certificate.
 
 ### -field XCN_CERT_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains a hash of the certificate created by using the default hashing algorithm. The default algorithm is currently SHA-1.
 
 ### -field XCN_CERT_KEY_CONTEXT_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
+Data type: pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 The structure contains the information necessary to retrieve a key, including the CSP or key service provider (KSP) handle and a value that indicates whether the key is used for signing or encryption.
 
@@ -137,7 +137,7 @@ The structure contains the information necessary to retrieve a key, including th
 
 Data type: pointer to a <b>DWORD</b>.
 
-The <b>DWORD</b> contains a value that identifies whether the key is used for signing or for encryption and whether the key is associated with a CNG KSP. This is the same as the value specified in the <i>dwKeySpec</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure. This value can be a bitwise-<b>OR</b> combination of the following values:<ul>
+The <b>DWORD</b> contains a value that identifies whether the key is used for signing or for encryption and whether the key is associated with a CNG KSP. This is the same as the value specified in the <i>dwKeySpec</i> parameter of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure. This value can be a bitwise-<b>OR</b> combination of the following values:<ul>
 <li>AT_KEYEXCHANGE</li>
 <li>AT_SIGNATURE</li>
 <li>CERT_NCRYPT_KEY_SPEC</li>
@@ -153,9 +153,9 @@ Not supported.
 
 ### -field XCN_CERT_ENHKEY_USAGE_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>EnhancedKeyUsage</b> extension in a <b>CERT_ENHKEY_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>EnhancedKeyUsage</b> extension in a <b>CERT_ENHKEY_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct _CTL_USAGE 
 {
@@ -166,9 +166,9 @@ CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE;</code></pre>
 
 ### -field XCN_CERT_CTL_USAGE_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded certificate trust list (CTL) usage identifier in a <b>CTL_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded certificate trust list (CTL) usage identifier in a <b>CTL_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct _CTL_USAGE 
 {
@@ -179,27 +179,27 @@ CTL_USAGE;</code></pre>
 
 ### -field XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>AlternativeNames</b> extension in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ALTERNATE_NAME</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>AlternativeNames</b> extension in a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ALTERNATE_NAME</b>.
 
 ### -field XCN_CERT_FRIENDLY_NAME_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains the display name for the certificate. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains the display name for the certificate. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_PVK_FILE_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains the name of the private key file.
 
 ### -field XCN_CERT_DESCRIPTION_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains a description of the certificate. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains a description of the certificate. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_ACCESS_STATE_PROP_ID
 
@@ -210,11 +210,11 @@ The <b>DWORD</b> can contain a value that is a bitwise-<b>OR</b> combination of 
 <li>CERT_ACCESS_STATE_SYSTEM_STORE_FLAG  (0x2)</li>
 <li>CERT_ACCESS_STATE_LM_SYSTEM_STORE_FLAG (0x4)</li>
 <li>CERT_ACCESS_STATE_GP_SYSTEM_STORE_FLAG (0x8)</li>
-</ul>This is a read-only property and cannot be associated with an existing certificate by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method. You can retrieve it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property after initializing the property value by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializefromcertificate">InitializeFromCertificate</a> method.
+</ul>This is a read-only property and cannot be associated with an existing certificate by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method. You can retrieve it by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property after initializing the property value by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializefromcertificate">InitializeFromCertificate</a> method.
 
 ### -field XCN_CERT_SIGNATURE_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains a hash of the certificate signature.
 
@@ -232,49 +232,49 @@ Not supported.
 
 ### -field XCN_CERT_ARCHIVED_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that identifies whether a certificate is archived. A certificate is typically archived when it has been replaced by a newer certificate. Subsequent enumeration of the certificate store usually skips the archived certificates. To indicate that the certificate is not archived, you can set <i>pbData</i> to <b>NULL</b> and <i>cbData</i> to zero (0). To indicate that the certificate is archived, you can set <i>pbData</i> to something other than <b>NULL</b> such as the address of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure. We recommend, however, that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a> interface to set this property.
+The <i>pbData</i> structure member points to a byte array that identifies whether a certificate is archived. A certificate is typically archived when it has been replaced by a newer certificate. Subsequent enumeration of the certificate store usually skips the archived certificates. To indicate that the certificate is not archived, you can set <i>pbData</i> to <b>NULL</b> and <i>cbData</i> to zero (0). To indicate that the certificate is archived, you can set <i>pbData</i> to something other than <b>NULL</b> such as the address of the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure. We recommend, however, that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a> interface to set this property.
 
 ### -field XCN_CERT_KEY_IDENTIFIER_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains the hash of the certificate subject public key. Typically, this is a 20-byte SHA-1 hash. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a> interface.
+The <i>pbData</i> structure member points to a byte array that contains the hash of the certificate subject public key. Typically, this is a 20-byte SHA-1 hash. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsubjectkeyidentifier">IX509ExtensionSubjectKeyIdentifier</a> interface.
 
 ### -field XCN_CERT_AUTO_ENROLL_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains the name or object identifier used for auto-enrollment. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member contains a pointer to a null-terminated Unicode string that contains the name or object identifier used for auto-enrollment. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_PUBKEY_ALG_PARA_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to the DER-encoded public key algorithm parameters. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedparameters">EncodedParameters</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> interface.
+The <i>pbData</i> structure member points to the DER-encoded public key algorithm parameters. For more information, see the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedparameters">EncodedParameters</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> interface.
 
 ### -field XCN_CERT_CROSS_CERT_DIST_POINTS_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_CROSS_CERT_DIST_POINTS</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_CROSS_CERT_DIST_POINTS</b>.
 
 ### -field XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains an MD5 hash of the public key associated with the private key used to sign the certificate.
 
 ### -field XCN_CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains an MD5 hash of the public key contained in the certificate.
 
 ### -field XCN_CERT_ENROLLMENT_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains the following information (in the order listed) about a pending request. Each Unicode string is null-terminated, and the length includes the terminating null character.<ul>
 <li>Request ID length (4 bytes)</li>
@@ -285,43 +285,43 @@ The <i>pbData</i> structure member points to a byte array that contains the foll
 <li>CA name string</li>
 <li>Display name length (4 bytes)</li>
 <li>Display name string</li>
-</ul>We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a> interface to initialize and retrieve this property.
+</ul>We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_DATE_STAMP_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>  structure.
+Data type: pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>  structure.
 
 The structure contains the time that the certificate was added to the certificate store.
 
 ### -field XCN_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains an MD5 hash of the CA signing certificate serial number.
 
 ### -field XCN_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a byte array that contains an MD5 hash of the subject name.
 
 ### -field XCN_CERT_EXTENDED_ERROR_INFO_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a null-terminated Unicode string that contains information about an error.
 
 ### -field XCN_CERT_RENEWAL_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a SHA-1 hash of the certificate that is being renewed. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member points to a byte array that contains a SHA-1 hash of the certificate that is being renewed. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_ARCHIVED_KEY_HASH_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a hash of the archived private key. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchivedkeyhash">ICertPropertyArchivedKeyHash</a> interface to initialize and retrieve this property value.
+The <i>pbData</i> structure member points to a byte array that contains a hash of the archived private key. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchivedkeyhash">ICertPropertyArchivedKeyHash</a> interface to initialize and retrieve this property value.
 
 ### -field XCN_CERT_AUTO_ENROLL_RETRY_PROP_ID
 
@@ -337,9 +337,9 @@ Not supported.
 
 ### -field XCN_CERT_BACKED_UP_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a <b>VARIANT_BOOL</b> followed by a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. To specify that the certificate is not backed up, set the first <code>sizeof(VARIANT_BOOL)</code> bytes in the array to zero (0). Otherwise, specify a value that is not zero. To specify the time at which the certificate was backed up, set the next <code>sizeof(FILETIME)</code> bytes to the date and time. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a> interface to set this property value. This property is not currently used.
+The <i>pbData</i> structure member points to a byte array that contains a <b>VARIANT_BOOL</b> followed by a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. To specify that the certificate is not backed up, set the first <code>sizeof(VARIANT_BOOL)</code> bytes in the array to zero (0). Otherwise, specify a value that is not zero. To specify the time at which the certificate was backed up, set the next <code>sizeof(FILETIME)</code> bytes to the date and time. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a> interface to set this property value. This property is not currently used.
 
 ### -field XCN_CERT_OCSP_RESPONSE_PROP_ID
 
@@ -347,9 +347,9 @@ Not supported.
 
 ### -field XCN_CERT_REQUEST_ORIGINATOR_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a null-terminated Unicode string that contains the name of the computer that originated an auto-enrollment certificate request. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrequestoriginator">ICertPropertyRequestOriginator</a> interface to initialize and retrieve this property.
+The <i>pbData</i> structure member points to a null-terminated Unicode string that contains the name of the computer that originated an auto-enrollment certificate request. We recommend that you use the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrequestoriginator">ICertPropertyRequestOriginator</a> interface to initialize and retrieve this property.
 
 ### -field XCN_CERT_SOURCE_LOCATION_PROP_ID
 
@@ -399,7 +399,7 @@ Contains information about a certificate enrollment policy (CEP) server and a ce
 <li>The CEP ID.</li>
 <li>The request ID string.</li>
 </ul>
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>.
+For more information, see <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>.
 
 ### -field XCN_CERT_SIGN_HASH_CNG_ALG_PROP_ID
 
@@ -495,15 +495,14 @@ The maximum number for a user-defined property ID.
 
 ### -field XCN_CERT_STORE_LOCALIZED_NAME_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
+Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
 The <i>pbData</i> structure member points to a null-terminated Unicode string that contains the localized name of the certificate store.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

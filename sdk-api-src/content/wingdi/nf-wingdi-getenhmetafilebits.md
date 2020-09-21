@@ -80,29 +80,28 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-After the enhanced-metafile bits are retrieved, they can be used to create a memory-based metafile by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a> function.
+After the enhanced-metafile bits are retrieved, they can be used to create a memory-based metafile by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a> function.
 
-The <b>GetEnhMetaFileBits</b> function does not invalidate the enhanced-metafile handle. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to delete the handle when it is no longer needed.
+The <b>GetEnhMetaFileBits</b> function does not invalidate the enhanced-metafile handle. The application must call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to delete the handle when it is no longer needed.
 
-The metafile contents retrieved by this function are in the enhanced format. To retrieve the metafile contents in the Windows format, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a> function.
+The metafile contents retrieved by this function are in the enhanced format. To retrieve the metafile contents in the Windows format, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getwinmetafilebits">GetWinMetaFileBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setenhmetafilebits">SetEnhMetaFileBits</a>

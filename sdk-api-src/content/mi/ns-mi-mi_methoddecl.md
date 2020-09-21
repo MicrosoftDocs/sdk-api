@@ -128,21 +128,20 @@ The extrinsic function that implements this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792321(v=vs.85)">MI_MethodDecl_Invoke</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792321(v=vs.85)">MI_MethodDecl_Invoke</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>

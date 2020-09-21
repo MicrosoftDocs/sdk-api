@@ -57,7 +57,7 @@ The <code>InvokeAtPresentationTime</code> method queues a method to be invoked a
 
 ### -param pCmd [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand</a> interface pointer.
 
 ### -param time [in]
 
@@ -99,13 +99,12 @@ Returns an <b>HRESULT</b> value.
 
 Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i>dispidMember</i> parameter.
 
-For a code example, see <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-iqueuecommand-invokeatstreamtime">IQueueCommand::InvokeAtStreamTime</a>.
+For a code example, see <a href="/windows/desktop/api/control/nf-control-iqueuecommand-invokeatstreamtime">IQueueCommand::InvokeAtStreamTime</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>

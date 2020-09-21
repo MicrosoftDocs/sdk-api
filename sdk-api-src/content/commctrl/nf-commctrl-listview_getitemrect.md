@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemrect">LVM_GETITEMRECT</a> message explicitly.
+Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemrect">LVM_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -124,4 +124,3 @@ Returns the union of the LVIR_ICON and LVIR_LABEL rectangles, but excludes colum
 </td>
 </tr>
 </table>
-

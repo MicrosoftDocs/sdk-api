@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>RegisterManageableLogClient</b> function registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications  queued for retrieval by using <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-readlognotification">ReadLogNotification</a>.
+The <b>RegisterManageableLogClient</b> function registers a client with the log manager. A client can specify whether to receive notifications by using callbacks, or have the notifications  queued for retrieval by using <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-readlognotification">ReadLogNotification</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The handle to the log to register. Only one registration per unique opening of t
 
 ### -param pCallbacks [in]
 
-Specifies the callbacks that the client is registering for.  Valid callbacks are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>. Specify zero to queue notifications instead.
+Specifies the callbacks that the client is registering for.  Valid callbacks are enumerated by <a href="/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>. Specify zero to queue notifications instead.
 
 ## -returns
 
@@ -68,24 +68,23 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-A client can deregister either by closing the log handle, or by calling <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-deregistermanageablelogclient">DeregisterManageableLogClient</a>.
+A client can deregister either by closing the log handle, or by calling <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-deregistermanageablelogclient">DeregisterManageableLogClient</a>.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
+For an example that uses this function, see <a href="/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-deregistermanageablelogclient">DeregisterManageableLogClient</a>
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-deregistermanageablelogclient">DeregisterManageableLogClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>
-
+<a href="/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>

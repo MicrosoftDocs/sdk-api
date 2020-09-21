@@ -50,33 +50,33 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_stroke_style_properties">D2D1_STROKE_STYLE_PROPERTIES</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_stroke_style_properties">D2D1_STROKE_STYLE_PROPERTIES</a> structure.
 
 ## -parameters
 
 ### -param startCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
-The shape at the beginning of a stroke. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
+The shape at the beginning of a stroke. The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
 
 ### -param endCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
-The shape at the end of a stroke. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
+The shape at the end of a stroke. The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
 
 ### -param dashCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
-The shape  at either end of each dash segment. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
+The shape  at either end of each dash segment. The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE_FLAT</a>.
 
 ### -param lineJoin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a></b>
 
-A value that describes how segments are joined. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN_MITER</a>.
+A value that describes how segments are joined. The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN_MITER</a>.
 
 ### -param miterLimit
 
@@ -88,11 +88,11 @@ The default value is 10.0f.
 
 ### -param dashStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE</a></b>
 
 A value that specifies whether the stroke has a dash pattern and, if so, the dash style. 
 
-The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE_SOLID</a>.
+The default value is <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE_SOLID</a>.
 
 ### -param dashOffset
 
@@ -104,7 +104,6 @@ The default value is 0.0f.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_stroke_style_properties">D2D1_STROKE_STYLE_PROPERTIES</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_stroke_style_properties">D2D1_STROKE_STYLE_PROPERTIES</a></b>
 
 The new stroke style.
-

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Converts an array of run <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
+Converts an array of run <a href="/windows/desktop/Intl/uniscribe-glossary">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
 
 ## -parameters
 
@@ -79,11 +79,11 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
 This function handles only data that pertains to a single line of text.
 
-The run embedding levels are defined in the Unicode bidirectional algorithm. They describe the direction of a run, the direction of any runs in which it is embedded, and the direction of the paragraph. No other input is required for the call to this function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode">Unicode</a>.
+The run embedding levels are defined in the Unicode bidirectional algorithm. They describe the direction of a run, the direction of any runs in which it is embedded, and the direction of the paragraph. No other input is required for the call to this function. For more information, see <a href="/windows/desktop/Intl/unicode">Unicode</a>.
 
 The following table lists the predefined embedding levels. The application can add levels as needed.
 
@@ -120,13 +120,12 @@ The application can call this function setting either <i>piLogicalToVisual</i> o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

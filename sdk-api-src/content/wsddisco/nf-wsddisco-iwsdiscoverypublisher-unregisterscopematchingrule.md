@@ -56,7 +56,7 @@ Removes support for a custom scope matching rule.
 
 ### -param pScopeMatchingRule [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdscopematchingrule">IWSDScopeMatchingRule</a> object that represents a custom scope matching rule.
+Pointer to an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdscopematchingrule">IWSDScopeMatchingRule</a> object that represents a custom scope matching rule.
 
 ## -returns
 
@@ -97,5 +97,4 @@ The method completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

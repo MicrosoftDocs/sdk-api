@@ -52,13 +52,13 @@ api_name:
 
 Notifies the system that the application is about to end an operation
 
-Every call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record of file access patterns is discarded after 10 seconds.
+Every call to <a href="/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record of file access patterns is discarded after 10 seconds.
 
 ## -parameters
 
 ### -param OperationEndParams [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
+An <a href="/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
 ## -returns
 
@@ -66,7 +66,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-op
 
 ## -remarks
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
+The version of the <a href="/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
 The  <b>OperationEnd</b> function is safe to call on any thread.
 
@@ -76,21 +76,20 @@ The  <b>OperationEnd</b> function is safe to call on any thread.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
+<a href="/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
+<a href="/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>

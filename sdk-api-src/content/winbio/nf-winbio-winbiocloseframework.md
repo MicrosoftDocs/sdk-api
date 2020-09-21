@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Closes a framework handle previously opened with <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
+Closes a framework handle previously opened with <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 ## -remarks
 
 This function never blocks.
-

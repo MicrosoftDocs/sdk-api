@@ -60,7 +60,7 @@ Indicates whether a filter should be used on data sent to the voice pointed to b
 
 ### -field pOutputVoice
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
+A pointer to an <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a> that will be the target of the send. The <b>pOutputVoice</b> member cannot be NULL.
 
 ## -remarks
 
@@ -69,29 +69,28 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--change-voice-volume">How to: Change Voice Volume</a>
+<a href="/windows/desktop/xaudio2/how-to--change-voice-volume">How to: Change Voice Volume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-submix-voices">How to: Use Submix Voices</a>
+<a href="/windows/desktop/xaudio2/how-to--use-submix-voices">How to: Use Submix Voices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">IXAudio2::CreateSubmixVoice</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">IXAudio2Voice::SetOutputVoices</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">IXAudio2Voice::SetOutputVoices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio Structures</a>
+<a href="/windows/desktop/xaudio2/structures">XAudio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a>
-
+<a href="/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a>

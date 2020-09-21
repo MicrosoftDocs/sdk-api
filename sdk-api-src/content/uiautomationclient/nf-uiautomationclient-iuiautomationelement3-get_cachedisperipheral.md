@@ -82,9 +82,8 @@ The appearance of peripheral UI often triggers one of these events, if the perip
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement3</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement3</a>
 
 
 
 <b>Reference</b>
-

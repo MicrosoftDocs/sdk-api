@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TSPI_lineOpen</b> function opens the line device whose device identifier is given, returning the service provider's handle for the device. The service provider must retain the TAPI handle for the device for use in subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure.
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure.
 
 ## -parameters
 
@@ -63,12 +63,12 @@ Identifies the line device to be opened.
 ### -param htLine
 
 The TAPI handle for the line device to be used in subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure to identify the device.
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure to identify the device.
 
 ### -param lphdLine
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVLINE</a> where the service provider fills in its handle for the line device.
+<a href="/windows/desktop/Tapi/hdrvline">HDRVLINE</a> where the service provider fills in its handle for the line device.
 
 ### -param dwTSPIVersion
 
@@ -77,7 +77,7 @@ The TSPI version.
 ### -param lpfnEventProc
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure supplied by TAPI that the service provider calls to report subsequent events on the line.
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure supplied by TAPI that the service provider calls to report subsequent events on the line.
 
 ## -returns
 
@@ -88,40 +88,39 @@ LINEERR_ALLOCATED, LINEERR_OPERATIONUNAVAIL, LINEERR_NODRIVER, LINEERR_OPERATION
 ## -remarks
 
 The service provider should reserve any non-sharable resources that are required to manage the line. However, any actions that can be postponed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> should be. It is a design assumption in TAPI that 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> is an "inexpensive" operation. For example, if the line is opened in monitor mode only, it should not be necessary for a COMM-port-based service provider to open the COMM port.
+<a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> should be. It is a design assumption in TAPI that 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> is an "inexpensive" operation. For example, if the line is opened in monitor mode only, it should not be necessary for a COMM-port-based service provider to open the COMM port.
 
 This procedure does not correspond directly to any procedure at the TAPI level, at which the functions of enabling device-specific extensions, selecting line characteristics, and setting media type detection are included in the functionality defined by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>. At the TSPI level, these additional capabilities are separated out into 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>. At the TSPI level, these additional capabilities are separated out into 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>, 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725220(v=vs.85)">LINE_CLOSE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725220(v=vs.85)">LINE_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclose">TSPI_lineClose</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineclose">TSPI_lineClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a>

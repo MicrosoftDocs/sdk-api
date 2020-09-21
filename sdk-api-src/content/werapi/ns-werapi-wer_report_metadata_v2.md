@@ -106,5 +106,4 @@ The cab identity value assigned by WER. Use this value to find the corresponding
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstorequeryreportmetadatav2">WerStoreQueryReportMetadataV2</a>
-
+<a href="/windows/desktop/api/werapi/nf-werapi-werstorequeryreportmetadatav2">WerStoreQueryReportMetadataV2</a>

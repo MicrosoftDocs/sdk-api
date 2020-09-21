@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfContextOwnerServices</b> interface is implemented by the manager and used by a text service or application acting as context owners. The interface provides notification changes to sinks and other services to context owners that do not implement the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> interfaces. Clients obtain this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext::QueryInterface</a> method.
+The <b>ITfContextOwnerServices</b> interface is implemented by the manager and used by a text service or application acting as context owners. The interface provides notification changes to sinks and other services to context owners that do not implement the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> or <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> interfaces. Clients obtain this interface by calling the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext::QueryInterface</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextOwnerServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextOwnerServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfContextOwnerServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-createrange">CreateRange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-createrange">CreateRange</a>
 </td>
 <td align="left" width="63%">
 Creates a new range based upon a specified character position.
@@ -78,7 +78,7 @@ Creates a new range based upon a specified character position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-forceloadproperty">ForceLoadProperty</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-forceloadproperty">ForceLoadProperty</a>
 </td>
 <td align="left" width="63%">
 Forces a property load.
@@ -87,7 +87,7 @@ Forces a property load.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onattributechange">OnAttributeChange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onattributechange">OnAttributeChange</a>
 </td>
 <td align="left" width="63%">
 Called by a context owner to generate notifications that a support attribute value changed.
@@ -96,7 +96,7 @@ Called by a context owner to generate notifications that a support attribute val
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onlayoutchange">OnLayoutChange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onlayoutchange">OnLayoutChange</a>
 </td>
 <td align="left" width="63%">
 Called by the context owner when the on-screen representation of the text stream is updated during a composition.
@@ -105,7 +105,7 @@ Called by the context owner when the on-screen representation of the text stream
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onstatuschange">OnStatusChange</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-onstatuschange">OnStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called by the context owner when the dwDynamicFlags member of the TS_STATUS structure returned by the ITfContextOwner::GetStatus method changes.
@@ -114,7 +114,7 @@ Called by the context owner when the dwDynamicFlags member of the TS_STATUS stru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">Serialize</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Obtains a property from a range of text and writes the property data into a stream object.
@@ -123,7 +123,7 @@ Obtains a property from a range of text and writes the property data into a stre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">Unserialize</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">Unserialize</a>
 </td>
 <td align="left" width="63%">
 Applies previously serialized property data to a property object.
@@ -131,4 +131,3 @@ Applies previously serialized property data to a property object.
 </td>
 </tr>
 </table>
-

@@ -62,17 +62,17 @@ Handle to the open phone device to be monitored.
 ### -param lpdwPhoneStates
 
 Pointer to a <b>DWORD</b> holding zero, one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonestate--constants">PHONESTATE_ Constants</a>. These flags specify the set of phone status changes and events for which the application can receive notification messages. Monitoring can be individually enabled and disabled.
+<a href="/windows/desktop/Tapi/phonestate--constants">PHONESTATE_ Constants</a>. These flags specify the set of phone status changes and events for which the application can receive notification messages. Monitoring can be individually enabled and disabled.
 
 ### -param lpdwButtonModes
 
 Pointer to a <b>DWORD</b> containing flags that specify the set of phone-button modes for which the application can receive notification messages. This parameter uses zero, one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonmode--constants">PHONEBUTTONMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonebuttonmode--constants">PHONEBUTTONMODE_ Constants</a>.
 
 ### -param lpdwButtonStates
 
 Pointer to a <b>DWORD</b> that contains flags specifying the set of phone button state changes for which the application can receive notification messages. This parameter uses zero, one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonstate--constants">PHONEBUTTONSTATE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonebuttonstate--constants">PHONEBUTTONSTATE_ Constants</a>.
 
 ## -returns
 
@@ -88,29 +88,28 @@ An application can use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-close">PHONE_CLOSE</a>
+<a href="/windows/desktop/Tapi/phone-close">PHONE_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
+<a href="/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonesetstatusmessages">phoneSetStatusMessages</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonesetstatusmessages">phoneSetStatusMessages</a>

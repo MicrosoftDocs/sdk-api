@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes the file or directory handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a>. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
+Closes the file or directory handle returned by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a>. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Closes the file or directory handle returned by <a href="https://docs.microsoft.
 The file or directory handle to be closed.
 
 ## -returns
-

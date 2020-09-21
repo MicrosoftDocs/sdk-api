@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioWrite</b> function writes a specified number of bytes to a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioWrite</b> function writes a specified number of bytes to a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ## -parameters
 
@@ -76,4 +76,3 @@ Returns the number of bytes actually written. If there is an error writing to th
 ## -remarks
 
 The current file position is incremented by the number of bytes written.
-

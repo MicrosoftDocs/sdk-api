@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendTaskPad</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendTaskPad</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendTaskPad</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendTaskPad</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,17 +73,17 @@ The <b>IExtendTaskPad</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-enumtasks">EnumTasks</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-enumtasks">EnumTasks</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to get a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a> interface of the object that contains the snap-in's tasks.
+<a href="/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a> interface of the object that contains the snap-in's tasks.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">GetBackground</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">GetBackground</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to get the taskpad's background image.
@@ -92,7 +92,7 @@ Enables MMC to get the taskpad's background image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getdescriptivetext">GetDescriptiveText</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getdescriptivetext">GetDescriptiveText</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to get the taskpad's descriptive text, which is displayed beneath the title.
@@ -101,16 +101,16 @@ Enables MMC to get the taskpad's descriptive text, which is displayed beneath th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getlistpadinfo">GetListPadInfo</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getlistpadinfo">GetListPadInfo</a>
 </td>
 <td align="left" width="63%">
-Used for list-view taskpads only. Enables MMC to get the title text for the list control, text for an optional button, and the command ID passed to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when the button is clicked.
+Used for list-view taskpads only. Enables MMC to get the title text for the list control, text for an optional button, and the command ID passed to <a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when the button is clicked.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-gettitle">GetTitle</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-gettitle">GetTitle</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to get the taskpad's title text.
@@ -119,13 +119,12 @@ Enables MMC to get the taskpad's title text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">TaskNotify</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">TaskNotify</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to notify the snap-in when a task is clicked. If the taskpad is a list-view taskpad, MMC also calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">TaskNotify</a> when a list-view button is clicked.
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">TaskNotify</a> when a list-view button is clicked.
 
 </td>
 </tr>
 </table>
-

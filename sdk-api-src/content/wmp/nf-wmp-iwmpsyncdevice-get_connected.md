@@ -114,13 +114,12 @@ Windows Media Player is currently busy initializing devices. Please try again la
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumerating-devices">Enumerating Devices</a>
+<a href="/windows/desktop/WMP/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-
+<a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>

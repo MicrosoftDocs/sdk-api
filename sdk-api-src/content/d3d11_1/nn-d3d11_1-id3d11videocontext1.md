@@ -54,7 +54,7 @@ Provides the video functionality of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoContext1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>. <b>ID3D11VideoContext1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoContext1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>. <b>ID3D11VideoContext1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D11VideoContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-checkcryptosessionstatus">CheckCryptoSessionStatus</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-checkcryptosessionstatus">CheckCryptoSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Checks the status of a crypto session.
@@ -78,7 +78,7 @@ Checks the status of a crypto session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderenabledownsampling">DecoderEnableDownsampling</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderenabledownsampling">DecoderEnableDownsampling</a>
 </td>
 <td align="left" width="63%">
 Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.  
@@ -87,7 +87,7 @@ Indicates that decoder downsampling will be used and that the driver should allo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">DecoderUpdateDownsampling</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">DecoderUpdateDownsampling</a>
 </td>
 <td align="left" width="63%">
 Updates the decoder downsampling parameters.
@@ -96,7 +96,7 @@ Updates the decoder downsampling parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-getdatafornewhardwarekey">GetDataForNewHardwareKey</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-getdatafornewhardwarekey">GetDataForNewHardwareKey</a>
 </td>
 <td align="left" width="63%">
 Allows the driver to return IHV specific information used when initializing the new hardware key.
@@ -105,7 +105,7 @@ Allows the driver to return IHV specific information used when initializing the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-submitdecoderbuffers1">SubmitDecoderBuffers1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-submitdecoderbuffers1">SubmitDecoderBuffers1</a>
 </td>
 <td align="left" width="63%">
 Submits one or more buffers for decoding.
@@ -114,16 +114,16 @@ Submits one or more buffers for decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetbehaviorhints">VideoProcessorGetBehaviorHints</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetbehaviorhints">VideoProcessorGetBehaviorHints</a>
 </td>
 <td align="left" width="63%">
-Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
+Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputcolorspace1">VideoProcessorGetOutputColorSpace1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputcolorspace1">VideoProcessorGetOutputColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Gets the color space information for the video processor output surface.
@@ -132,16 +132,16 @@ Gets the color space information for the video processor output surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputshaderusage">VideoProcessorGetOutputShaderUsage</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetoutputshaderusage">VideoProcessorGetOutputShaderUsage</a>
 </td>
 <td align="left" width="63%">
-Gets a value indicating whether the output surface from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders.
+Gets a value indicating whether the output surface from a call to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreamcolorspace1">VideoProcessorGetStreamColorSpace1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreamcolorspace1">VideoProcessorGetStreamColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Gets the color space information for the video processor input stream.
@@ -150,7 +150,7 @@ Gets the color space information for the video processor input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreammirror">VideoProcessorGetStreamMirror</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorgetstreammirror">VideoProcessorGetStreamMirror</a>
 </td>
 <td align="left" width="63%">
 Gets values that indicate whether the video processor input stream is  being flipped vertically or horizontally.
@@ -159,7 +159,7 @@ Gets values that indicate whether the video processor input stream is  being fli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1">VideoProcessorSetOutputColorSpace1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1">VideoProcessorSetOutputColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Sets the color space information for the video processor output surface.
@@ -168,16 +168,16 @@ Sets the color space information for the video processor output surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputshaderusage">VideoProcessorSetOutputShaderUsage</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputshaderusage">VideoProcessorSetOutputShaderUsage</a>
 </td>
 <td align="left" width="63%">
-Sets a value indicating whether the output surface from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders.
+Sets a value indicating whether the output surface from a call to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreamcolorspace1">VideoProcessorSetStreamColorSpace1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreamcolorspace1">VideoProcessorSetStreamColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Sets the color space information for the video processor input stream.
@@ -186,7 +186,7 @@ Sets the color space information for the video processor input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreammirror">VideoProcessorSetStreamMirror</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetstreammirror">VideoProcessorSetStreamMirror</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the video processor input stream should be flipped vertically or horizontally.
@@ -197,17 +197,16 @@ Specifies whether the video processor input stream should be flipped vertically 
 
 ## -remarks
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>  interface pointer.
+To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with an <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>  interface pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

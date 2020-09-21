@@ -56,7 +56,7 @@ Returns the value of an option from the parsed packet.
 
 ### -param hHandle [in]
 
-A handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpparseinitialize">WdsBpParseInitialize</a> function.
+A handle returned by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpparseinitialize">WdsBpParseInitialize</a> function.
 
 ### -param uOption [in]
 
@@ -77,4 +77,3 @@ If the buffer is large enough for the value, this parameter receives the number 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

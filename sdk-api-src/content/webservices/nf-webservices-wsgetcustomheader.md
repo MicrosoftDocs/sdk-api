@@ -59,11 +59,11 @@ Finds an application-defined header of the message and deserializes it.
 The message containing the header.
                 
 
-The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
 ### -param customHeaderDescription [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
 
 ### -param repeatingOption [in]
 
@@ -71,12 +71,12 @@ Whether the header may appear more than once in
                     the message.
                 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_REPEATING_HEADER</a> is used, then
+If <a href="/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_REPEATING_HEADER</a> is used, then
                     the header index indicates which of the headers
                     with the specified headerName to return.
                 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> is used, then
+If <a href="/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> is used, then
                     the headerIndex must be zero.
 
 ### -param headerIndex [in]
@@ -87,21 +87,21 @@ The zero-based index of the header within
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
 
 ### -param heap [in, optional]
 
 The heap to store the deserialized header data in.
                     If this is <b>NULL</b>, then the message heap will be used
-                    as required by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+                    as required by the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param headerAttributes
 
@@ -132,7 +132,7 @@ The header does not exist, and is required.
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> was specified, and there are 
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> was specified, and there are 
                     multiple instances of the type of header present in the message.
                 
 
@@ -195,4 +195,3 @@ This function may return other errors not listed above.
 This API operates on headers targeted at the ultimate receiver.  
                 Headers targeted with a role/actor other than ultimate receiver are 
                 ignored by this API.
-

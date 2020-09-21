@@ -84,13 +84,12 @@ The job's sender information can be retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-availableoperations">AvailableOperations</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-availableoperations">AvailableOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-availableoperations-vb">IFaxJobStatus::get_AvailableOperations</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-availableoperations-vb">IFaxJobStatus::get_AvailableOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-availableoperations-vb">IFaxOutgoingJob::get_AvailableOperations</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-availableoperations-vb">IFaxOutgoingJob::get_AvailableOperations</a>

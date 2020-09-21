@@ -81,11 +81,10 @@ When this function returns, contains a pointer to the node for the cell
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
 ## -remarks
 
 Row 0, column 0 is the first item in a grid.
-

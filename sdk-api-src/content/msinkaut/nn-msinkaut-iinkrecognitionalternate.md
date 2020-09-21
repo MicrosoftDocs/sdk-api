@@ -55,7 +55,7 @@ Represents the possible word matches for segments of ink that are compared to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognitionAlternate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognitionAlternate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognitionAlternate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognitionAlternate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IInkRecognitionAlternate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues">AlternatesWithConstantPropertyValues</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues">AlternatesWithConstantPropertyValues</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of alternates, which are a division of the alternate on which this method is called.
@@ -80,16 +80,16 @@ Retrieves a collection of alternates, which are a division of the alternate on w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue">GetPropertyValue</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue">GetPropertyValue</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of a specified property of the alternate. Use this to obtain property values for <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">recogition properties</a> that have no corresponding helper property, such as the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a> properties.
+Retrieves the value of a specified property of the alternate. Use this to obtain property values for <a href="/windows/desktop/tablet/recognitionproperty-constants">recogition properties</a> that have no corresponding helper property, such as the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence</a> and <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a> properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges">GetStrokesFromStrokeRanges</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges">GetStrokesFromStrokeRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves the smallest collection of <i>stroke</i> that contains a known input collection of strokes and for which the recognizer can provide alternates.
@@ -98,7 +98,7 @@ Retrieves the smallest collection of <i>stroke</i> that contains a known input c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange">GetStrokesFromTextRange</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange">GetStrokesFromTextRange</a>
 </td>
 <td align="left" width="63%">
 REtrieves the strokes collection that corresponds to the smallest set of that contains a specified character range within the alternate.
@@ -107,10 +107,10 @@ REtrieves the strokes collection that corresponds to the smallest set of that co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes">GetTextRangeFromStrokes</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes">GetTextRangeFromStrokes</a>
 </td>
 <td align="left" width="63%">
-Retrieves the smallest range of recognized text for which the recognizer can return an alternate that contains a known <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+Retrieves the smallest range of recognized text for which the recognizer can return an alternate that contains a known <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Retrieves the smallest range of recognized text for which the recognizer can ret
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_ascender">Ascender</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_ascender">Ascender</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Gets the ascender line for an <b>IInkRecognitionAlternate</b> object that repres
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Gets the baseline for an <b>IInkRecognitionAlternate</b> object that represents 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence">Confidence</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence">Confidence</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Gets the level of confidence that a recognizer has in the recognition of an <b>I
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Gets the collection of alternates where the current alternate is split into a co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_descender">Descender</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_descender">Descender</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Gets the descender line for an <b>IInkRecognitionAlternate</b> object that repre
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a>
 
 
 </td>
@@ -196,7 +196,7 @@ Gets the <b>IInkRecognitionAlternate</b> collection in which each alternate in t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a>
 
 
 </td>
@@ -208,7 +208,7 @@ Gets the line number that the recognition alternate corresponds to in the recogn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Gets the midline for an <b>IInkRecognitionAlternate</b> object that represents a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string">String</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string">String</a>
 
 
 </td>
@@ -232,12 +232,12 @@ Gets the result string of the alternate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes">Strokes</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes">Strokes</a>
 
 
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that was used by the recognizer to generate the <b>IInkRecognitionAlternate</b> object.
+Gets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that was used by the recognizer to generate the <b>IInkRecognitionAlternate</b> object.
 
 </td>
 </tr>
@@ -245,15 +245,15 @@ Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
 ## -remarks
 
-A recognition segment is a basic ink fragment or unit that the recognizer uses internally to produce a recognition result for a known <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The segments are usually determined by spacing and are broken down into the smallest possible ink fragments.
+A recognition segment is a basic ink fragment or unit that the recognizer uses internally to produce a recognition result for a known <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The segments are usually determined by spacing and are broken down into the smallest possible ink fragments.
 
 Sometimes the ink may have ambiguous distinctions between segments. These segments are compared to a recognizer's dictionary to determine possible matches (alternates). When the segments are compared, the recognizer creates a list of possible alternates and assigns a confidence level to each one, picking a top choice.
 
 For instance, consider the phrase "how are you". This phrase is probably broken into three segments (depending on the spacing between segments), one for each word.
 
-When each segment is recognized, a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">RecognitionResult</a> is created. Each result then returns a list of alternates to choose from. For instance, the segment "how" may have alternates like "how", "now", "new", and so on, with "how" being the top alternate. By default, the top alternate is returned for each segment. You can choose to return alternates other than the top alternate.
+When each segment is recognized, a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">RecognitionResult</a> is created. Each result then returns a list of alternates to choose from. For instance, the segment "how" may have alternates like "how", "now", "new", and so on, with "how" being the top alternate. By default, the top alternate is returned for each segment. You can choose to return alternates other than the top alternate.
 
-You can also return alternates that are based on the properties of the alternates, such as the confidence level of the recognition result, the line number on which the alternates appear, and so on. See the <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object for a list of the recognition properties.
+You can also return alternates that are based on the properties of the alternates, such as the confidence level of the recognition result, the line number on which the alternates appear, and so on. See the <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object for a list of the recognition properties.
 
 Alternates of alternates can also be returned.
 
@@ -263,13 +263,12 @@ If you define a class that implements this interface, the new class will not int
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>
-
+<a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>

@@ -56,11 +56,10 @@ Gets the group header image list that has been set for an existing list-view con
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ## -remarks
 
-To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getimagelist">LVM_GETIMAGELIST</a> message explicitly.
-
+To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="/windows/desktop/Controls/lvm-getimagelist">LVM_GETIMAGELIST</a> message explicitly.

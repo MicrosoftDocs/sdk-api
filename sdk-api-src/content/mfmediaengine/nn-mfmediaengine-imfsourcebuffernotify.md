@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides functionality for raising events associated with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
+Provides functionality for raising events associated with <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSourceBufferNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has been aborted.
@@ -78,7 +78,7 @@ Used to indicate that the source buffer has been aborted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that an error has occurred with the  source buffer.
@@ -87,7 +87,7 @@ Used to indicate that an error has occurred with the  source buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer is updating.
@@ -96,7 +96,7 @@ Used to indicate that the source buffer is updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has finished updating.
@@ -105,7 +105,7 @@ Used to indicate that the source buffer has finished updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has started updating.
@@ -116,5 +116,4 @@ Used to indicate that the source buffer has started updating.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

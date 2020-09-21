@@ -59,7 +59,7 @@ Renders an XML fragment based on the rendering context that you specify.
 
 ### -param Context [in]
 
-A handle to the rendering context that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function returns. This parameter must be set to <b>NULL</b> if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark.
+A handle to the rendering context that the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function returns. This parameter must be set to <b>NULL</b> if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark.
 
 ### -param Fragment [in]
 
@@ -67,7 +67,7 @@ A handle to an event or to a bookmark. Set this parameter to a bookmark handle i
 
 ### -param Flags [in]
 
-A flag that identifies what to render. For example, the entire event or specific properties of the event. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_flags">EVT_RENDER_FLAGS</a> enumeration.
+A flag that identifies what to render. For example, the entire event or specific properties of the event. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_render_flags">EVT_RENDER_FLAGS</a> enumeration.
 
 ### -param BufferSize [in]
 
@@ -75,7 +75,7 @@ The size of the <i>Buffer</i> buffer, in bytes.
 
 ### -param Buffer [in]
 
-A caller-allocated buffer that will receive the rendered output. The contents is a <b>null</b>-terminated Unicode string if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark. Otherwise, if <i>Flags</i> is set to EvtRenderEventValues, the buffer contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> structures; one for each property specified by the rendering context. The <i>PropertyCount</i> parameter contains the number of elements in the array.
+A caller-allocated buffer that will receive the rendered output. The contents is a <b>null</b>-terminated Unicode string if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark. Otherwise, if <i>Flags</i> is set to EvtRenderEventValues, the buffer contains an array of <a href="/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> structures; one for each property specified by the rendering context. The <i>PropertyCount</i> parameter contains the number of elements in the array.
 
  You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
@@ -114,7 +114,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+The function failed. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -122,20 +122,19 @@ The function failed. Call the <a href="https://docs.microsoft.com/windows/deskto
 
 ## -remarks
 
- There is a one-to-one relationship between the array of XPath expressions that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function and  the array the values returned in the buffer.
+ There is a one-to-one relationship between the array of XPath expressions that you specified when you called the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function and  the array the values returned in the buffer.
 
-When an EVT_HANDLE from this function is used in the <b>EvtRender</b> function, the list of values that is returned by that function consists of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> structures, each corresponding to exactly one of the XPATH expressions in the original <i>ValuePaths</i> parameter array in order of appearance.  Each such <b>EVT_VARIANT</b> structure contains the value that is identified by its corresponding XPATH expression for the event that is being rendered.  If no value is found, the <b>EVT_VARIANT</b> structure contains <b>NULL</b>.  If multiple values are present, the <b>EVT_VARIANT</b> structure will contain the first value encountered.
+When an EVT_HANDLE from this function is used in the <b>EvtRender</b> function, the list of values that is returned by that function consists of an array of <a href="/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> structures, each corresponding to exactly one of the XPATH expressions in the original <i>ValuePaths</i> parameter array in order of appearance.  Each such <b>EVT_VARIANT</b> structure contains the value that is identified by its corresponding XPATH expression for the event that is being rendered.  If no value is found, the <b>EVT_VARIANT</b> structure contains <b>NULL</b>.  If multiple values are present, the <b>EVT_VARIANT</b> structure will contain the first value encountered.
 
 Be careful when comparing floating-point numbers in XPath queries. Any string representation of a floating-point number is approximated, so the value displayed in XML might not match the number stored with the event. Floating-point numbers should be compared as being less than or greater than a constant.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/rendering-events">Rendering Events</a> and <a href="https://docs.microsoft.com/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/rendering-events">Rendering Events</a> and <a href="/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>

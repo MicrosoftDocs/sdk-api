@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) displays video.
+Controls how the <a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) displays video.
 
-The EVR presenter implements this interface. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is GUID MR_VIDEO_RENDER_SERVICE. Call <b>GetService</b> on any of the following objects:
+The EVR presenter implements this interface. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is GUID MR_VIDEO_RENDER_SERVICE. Call <b>GetService</b> on any of the following objects:
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>, if the topology contains an instance of the EVR.
+<li>The <a href="/windows/desktop/medfound/media-session">Media Session</a>, if the topology contains an instance of the EVR.
             </li>
 <li>The EVR media sink.
             </li>
@@ -67,7 +67,7 @@ The EVR presenter implements this interface. To get a pointer to the interface, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDisplayControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDisplayControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDisplayControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IMFVideoDisplayControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getaspectratiomode">GetAspectRatioMode</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getaspectratiomode">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Queries how the EVR handles the aspect ratio of the source video.
@@ -92,7 +92,7 @@ Queries how the EVR handles the aspect ratio of the source video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getbordercolor">GetBorderColor</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getbordercolor">GetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the border color for the video.
@@ -102,7 +102,7 @@ Retrieves the border color for the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">GetCurrentImage</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getcurrentimage">GetCurrentImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the current image being displayed by the video renderer.
@@ -112,7 +112,7 @@ Retrieves a copy of the current image being displayed by the video renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">GetFullscreen</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">GetFullscreen</a>
 </td>
 <td align="left" width="63%">
 Queries whether the EVR is currently in full-screen mode.
@@ -122,7 +122,7 @@ Queries whether the EVR is currently in full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getidealvideosize">GetIdealVideoSize</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getidealvideosize">GetIdealVideoSize</a>
 </td>
 <td align="left" width="63%">
 Gets the range of sizes that the EVR can display without significantly degrading performance or image quality.
@@ -132,7 +132,7 @@ Gets the range of sizes that the EVR can display without significantly degrading
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getnativevideosize">GetNativeVideoSize</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getnativevideosize">GetNativeVideoSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
@@ -142,7 +142,7 @@ Gets the size and aspect ratio of the video, prior to any stretching by the vide
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getrenderingprefs">GetRenderingPrefs</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getrenderingprefs">GetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Gets various video rendering settings.
@@ -152,7 +152,7 @@ Gets various video rendering settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getvideoposition">GetVideoPosition</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getvideoposition">GetVideoPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the source and destination rectangles for the video.
@@ -162,7 +162,7 @@ Gets the source and destination rectangles for the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getvideowindow">GetVideoWindow</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getvideowindow">GetVideoWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the clipping window for the video.
@@ -172,7 +172,7 @@ Gets the clipping window for the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo">RepaintVideo</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo">RepaintVideo</a>
 </td>
 <td align="left" width="63%">
 Gets the current video frame.
@@ -182,7 +182,7 @@ Gets the current video frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setaspectratiomode">SetAspectRatioMode</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setaspectratiomode">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Specifies how the EVR handles the aspect ratio of the source video.
@@ -192,7 +192,7 @@ Specifies how the EVR handles the aspect ratio of the source video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setbordercolor">SetBorderColor</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setbordercolor">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Sets the border color for the video.
@@ -202,7 +202,7 @@ Sets the border color for the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setfullscreen">SetFullscreen</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setfullscreen">SetFullscreen</a>
 </td>
 <td align="left" width="63%">
 Sets or unsets full-screen rendering mode.
@@ -212,7 +212,7 @@ Sets or unsets full-screen rendering mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">SetRenderingPrefs</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">SetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets various preferences related to video rendering.
@@ -222,7 +222,7 @@ Sets various preferences related to video rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition">SetVideoPosition</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition">SetVideoPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the source and destination rectangles for the video.
@@ -232,7 +232,7 @@ Sets the source and destination rectangles for the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow">SetVideoWindow</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow">SetVideoWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the clipping window for the video.
@@ -244,17 +244,16 @@ Sets the clipping window for the video.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-unprotected-media-files">How to Play Media Files with Media Foundation</a>
+<a href="/windows/desktop/medfound/how-to-play-unprotected-media-files">How to Play Media Files with Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

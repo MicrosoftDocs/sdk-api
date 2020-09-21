@@ -79,13 +79,12 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluslinecaps/nl-gdipluslinecaps-adjustablearrowcap">AdjustableArrowCap</a>
+<a href="/windows/desktop/api/gdipluslinecaps/nl-gdipluslinecaps-adjustablearrowcap">AdjustableArrowCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-getmiddleinset">AdjustableArrowCap::GetMiddleInset</a>
+<a href="/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-getmiddleinset">AdjustableArrowCap::GetMiddleInset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setmiddleinset">AdjustableArrowCap::SetMiddleInset</a>
-
+<a href="/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setmiddleinset">AdjustableArrowCap::SetMiddleInset</a>

@@ -56,7 +56,7 @@ Creates a new resource manager (RM) object, and associates the RM with a transac
 
 ### -param lpResourceManagerAttributes [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 ### -param ResourceManagerId [in]
 
@@ -95,14 +95,14 @@ A description for this RM.
 
 If the function succeeds, the return value is a handle to the RM.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 The following list identifies the  possible error codes:
 
 ## -remarks
 
-Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
+Immediately after calling this function, you must call <a href="/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
 
 An RM is an endpoint for TM notifications regarding transactions that the RM has enlisted in.
 
@@ -112,17 +112,16 @@ You can create a volatile RM on a durable TM, but you cannot create a durable RM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-openresourcemanager">OpenResourceManager</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-openresourcemanager">OpenResourceManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a>
-
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a>

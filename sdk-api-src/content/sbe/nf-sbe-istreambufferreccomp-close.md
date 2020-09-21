@@ -78,9 +78,8 @@ Success
 
 ## -remarks
 
-This method is called automatically when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object is released.
+This method is called automatically when the <a href="/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object is released.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>

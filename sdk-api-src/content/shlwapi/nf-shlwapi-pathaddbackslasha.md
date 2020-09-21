@@ -59,7 +59,7 @@ api_name:
 Adds a backslash to the end of a string to create the correct syntax for a path. If the source path already has a trailing backslash, no backslash will be added.
 
             
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a> or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 
@@ -79,4 +79,3 @@ A pointer that, when this function returns successfully, points to the new strin
 
 > [!NOTE]
 > The shlwapi.h header defines PathAddBackslash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

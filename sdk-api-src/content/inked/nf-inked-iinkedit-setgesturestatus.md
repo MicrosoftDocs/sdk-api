@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-Modifies the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a known application gesture.
+Modifies the interest of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a known application gesture.
 
 ## -parameters
 
 ### -param Gesture [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture</a> object that you want the status of.
+The <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture</a> object that you want the status of.
 
 ### -param Listen [in]
 
-<b>VARIANT_TRUE</b> to indicate that the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control uses the application gesture; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> to indicate that the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control uses the application gesture; otherwise, <b>VARIANT_FALSE</b>.
 
 ## -returns
 
@@ -153,19 +153,19 @@ Cannot allocate memory operation.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture is not supported by the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control and returns an error. Passing invalid gesture identifiers does not return an error.
+The <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture is not supported by the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control and returns an error. Passing invalid gesture identifiers does not return an error.
 
-This method should only be called if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
+This method should only be called if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
-To get the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a known gesture, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus</a> method.
+To get the interest of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a known gesture, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture Event</a>
+<a href="/windows/desktop/tablet/inkedit-gesture">Gesture Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus Method [InkEdit Control]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus Method [InkEdit Control]</a>
 
 
 
@@ -173,9 +173,8 @@ To get the interest of the <a href="https://docs.microsoft.com/windows/desktop/t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

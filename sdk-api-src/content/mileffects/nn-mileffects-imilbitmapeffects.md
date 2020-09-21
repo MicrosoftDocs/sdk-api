@@ -54,7 +54,7 @@ Exposes methods that define an enumeration of effects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffects</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffects</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffects</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffects</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ Retrieves a new enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-get_count">Count</a>
+<a href="/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-get_count">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the enumeration.
@@ -87,7 +87,7 @@ Retrieves the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-item">Item</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-item">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect at the given index.
@@ -96,7 +96,7 @@ Retrieves the effect at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-get_parent">Parent</a>
+<a href="/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-get_parent">Parent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent effect group of enumeration.
@@ -104,4 +104,3 @@ Retrieves the parent effect group of enumeration.
 </td>
 </tr>
 </table>
-

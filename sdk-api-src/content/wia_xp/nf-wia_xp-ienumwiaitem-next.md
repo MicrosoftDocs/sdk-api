@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IEnumWiaItem::Next</b> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
+The <b>IEnumWiaItem::Next</b> method fills an array of pointers to <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
 
 ## -parameters
 
@@ -63,9 +63,9 @@ Specifies the number of array elements in the array indicated by the <i>ppIWiaIt
 
 ### -param ppIWiaItem [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
 
-Receives the address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface pointers. <b>IEnumWiaItem::Next</b> fills this array with interface pointers.
+Receives the address of an array of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface pointers. <b>IEnumWiaItem::Next</b> fills this array with interface pointers.
 
 ### -param pceltFetched [in, out]
 
@@ -81,11 +81,10 @@ If the method succeeds, the method returns S_OK. When the enumeration is complet
 
 ## -remarks
 
-The Windows Image Acquisition (WIA) run-time system represents WIA hardware devices as a hierarchical tree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. Applications use the <b>IEnumWiaItem::Next</b> method to obtain an <b>IWiaItem</b> interface pointer for each item in the current folder of a hardware device's <b>IWiaItem</b> object tree. 
+The Windows Image Acquisition (WIA) run-time system represents WIA hardware devices as a hierarchical tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. Applications use the <b>IEnumWiaItem::Next</b> method to obtain an <b>IWiaItem</b> interface pointer for each item in the current folder of a hardware device's <b>IWiaItem</b> object tree. 
 
-To obtain the list of pointers, the application passes an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface pointers that it allocates. It also passes the number of array elements in the <i>celt</i> parameter. The <b>IEnumWiaItem::Next</b> method fills the array with pointers to <b>IWiaItem</b> interfaces. 
+To obtain the list of pointers, the application passes an array of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface pointers that it allocates. It also passes the number of array elements in the <i>celt</i> parameter. The <b>IEnumWiaItem::Next</b> method fills the array with pointers to <b>IWiaItem</b> interfaces. 
 
-Until the enumeration process completes, the <b>IEnumWiaItem::Next</b> method returns S_OK. Each time it does, it sets the value pointed to by <i>pceltFetched</i> to the number of items it inserted into the array. When <b>IEnumWiaItem::Next</b> finishes the process of enumerating <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects, it returns S_FALSE and sets the memory location pointed to by <i>pceltFetched</i> to zero.
+Until the enumeration process completes, the <b>IEnumWiaItem::Next</b> method returns S_OK. Each time it does, it sets the value pointed to by <i>pceltFetched</i> to the number of items it inserted into the array. When <b>IEnumWiaItem::Next</b> finishes the process of enumerating <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects, it returns S_FALSE and sets the memory location pointed to by <i>pceltFetched</i> to zero.
 
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
-
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The CLSID of the object implementing <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>.
+The CLSID of the object implementing <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>

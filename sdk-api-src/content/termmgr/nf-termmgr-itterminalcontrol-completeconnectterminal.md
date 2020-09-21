@@ -80,9 +80,8 @@ Method succeeded.
 ## -remarks
 
 This method always returns S_OK. If an MSP cannot connect the terminal, the error return must occur during the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-connectterminal">ITTerminalControl::ConnectTerminal</a>.
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-connectterminal">ITTerminalControl::ConnectTerminal</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>

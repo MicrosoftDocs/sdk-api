@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setcursel">LB_SETCURSEL</a> message explicitly.
+Sets the currently selected item in a single-selection list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-setcursel">LB_SETCURSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The zero-based index of the item to select, or –1 to clear the selection.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setcursel">LB_SETCURSEL</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-setcursel">LB_SETCURSEL</a>.

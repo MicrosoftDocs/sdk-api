@@ -59,29 +59,28 @@ The <b>PEVENT_RECORD_CALLBACK</b> type defines a pointer to this callback functi
 ### -param EventRecord [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure that contains the event information.
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure that contains the event information.
 
 ## -remarks
 
 To specify the function that ETW calls to deliver events, set the 
 <b>EventRecordCallback</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure (you pass this structure to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function). You must also set the <b>ProcessTraceMode</b> member to PROCESS_TRACE_MODE_EVENT_RECORD.
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure (you pass this structure to the 
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function). You must also set the <b>ProcessTraceMode</b> member to PROCESS_TRACE_MODE_EVENT_RECORD.
 
 This callback receives all events that the session generates from the time you call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function. Call the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function to begin receiving the events.
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function. Call the <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function to begin receiving the events.
 
-For information on parsing the event data, see <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>.
+For information on parsing the event data, see <a href="/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
+<a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

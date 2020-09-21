@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SecurityUserData</b> structure contains information about the user of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a>. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetuserinfofn">SpGetUserInfo</a> function.
+The <b>SecurityUserData</b> structure contains information about the user of a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="/windows/desktop/SecGloss/a-gly">authentication package</a>. This structure is used by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetuserinfofn">SpGetUserInfo</a> function.
 
 ## -struct-fields
 
@@ -73,5 +73,4 @@ The name of the server that logged the user on.
 
 ### -field pSid
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user.
-
+The <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user.

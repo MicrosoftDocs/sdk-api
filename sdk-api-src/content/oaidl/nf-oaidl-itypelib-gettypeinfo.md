@@ -60,7 +60,7 @@ The index of the interface to be returned.
 
 ### -param ppTInfo [out]
 
-If successful, returns a pointer to the pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
+If successful, returns a pointer to the pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
 
 ## -returns
 
@@ -90,7 +90,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <i>index</i> parameter is outside the range of  to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfocount">GetTypeInfoCount</a> - 1.
+The <i>index</i> parameter is outside the range of  to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfocount">GetTypeInfoCount</a> - 1.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>.
+For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>.
 
 
 #### Examples
@@ -152,5 +152,4 @@ if (FAILED(hr)) {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

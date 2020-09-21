@@ -90,5 +90,4 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
-
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>

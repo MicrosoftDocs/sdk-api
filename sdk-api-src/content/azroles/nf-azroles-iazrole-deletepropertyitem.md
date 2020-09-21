@@ -70,7 +70,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deleteappmember">DeleteAppMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deleteappmember">DeleteAppMember</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletemember">DeleteMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletemember">DeleteMember</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletemembername">DeleteMemberName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletemembername">DeleteMemberName</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deleteoperation">DeleteOperation</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deleteoperation">DeleteOperation</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletetask">DeleteTask</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletetask">DeleteTask</a> method
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Entity to remove from the list  specified by the <i>lPropId</i> parameter.
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
+If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
 
 ### -param varReserved [in, optional]
 
@@ -131,4 +131,3 @@ Reserved for future use.
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

@@ -54,7 +54,7 @@ The <b>IWMPClosedCaption</b> interface provides a way to include captions with a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPClosedCaption</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPClosedCaption</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPClosedCaption</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPClosedCaption</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPClosedCaption</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">get_captioningId</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">get_captioningId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the frame or control displaying the captioning.
@@ -78,7 +78,7 @@ Retrieves the name of the frame or control displaying the captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samifilename">get_SAMIFileName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samifilename">get_SAMIFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file containing the information needed for closed captioning.
@@ -87,7 +87,7 @@ Retrieves the name of the file containing the information needed for closed capt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samilang">get_SAMILang</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samilang">get_SAMILang</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language displayed for closed captioning.
@@ -96,7 +96,7 @@ Retrieves the language displayed for closed captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle">get_SAMIStyle</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle">get_SAMIStyle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the closed captioning style.
@@ -105,7 +105,7 @@ Retrieves the closed captioning style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_captioningid">put_captioningId</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_captioningid">put_captioningId</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the frame or control displaying the captioning.
@@ -114,7 +114,7 @@ Specifies the name of the frame or control displaying the captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samifilename">put_SAMIFileName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samifilename">put_SAMIFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the file containing the information needed for closed captioning.
@@ -123,7 +123,7 @@ Specifies the name of the file containing the information needed for closed capt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang">put_SAMILang</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang">put_SAMILang</a>
 </td>
 <td align="left" width="63%">
 Specifies the language displayed for closed captioning.
@@ -132,7 +132,7 @@ Specifies the language displayed for closed captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samistyle">put_SAMIStyle</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samistyle">put_SAMIStyle</a>
 </td>
 <td align="left" width="63%">
 Specifies the closed captioning style.
@@ -150,19 +150,18 @@ Retrieve a pointer to an <b>IWMPClosedCaption</b> interface with the following m
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_closedcaption">get_closedCaption</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_closedcaption">get_closedCaption</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption2">IWMPClosedCaption2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption2">IWMPClosedCaption2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

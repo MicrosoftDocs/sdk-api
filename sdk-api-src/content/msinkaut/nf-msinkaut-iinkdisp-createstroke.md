@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object from an array of packet data input values.
+Creates an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object from an array of packet data input values.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-m
 
 Specifies the array of packet data. The data is an array of Int32 values which, taken in order, form the array of points (x0, y0), (x1, y1), which is passed into the method within a Variant.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param PacketDescription [in]
 
@@ -141,7 +141,7 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes">CreateStrokes Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes">CreateStrokes Method</a>
 
 
 
@@ -149,5 +149,4 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

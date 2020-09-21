@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Clones an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object.
+Clones an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A pointer to the class to be cloned.
 
 ### -param newClass
 
-A pointer to a pointer to the newly created class. When you have finished using this class, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
+A pointer to a pointer to the newly created class. When you have finished using this class, delete it by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
 
 ## -returns
 
@@ -69,4 +69,3 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 ## -remarks
 
 <b>MI_Class_Clone</b> may not create a whole new class; instead, it may refer to the original class.  Each class can be closed independent of the other, but not all of the memory is freed until all references to the class are deleted.
-

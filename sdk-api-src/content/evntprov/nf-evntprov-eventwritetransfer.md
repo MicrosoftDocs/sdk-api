@@ -62,36 +62,36 @@ Links events together when tracing events in an end-to-end scenario.
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 ### -param EventDescriptor [in]
 
 Metadata that identifies the event to write. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ### -param ActivityId [in, optional]
 
 GUID that uniquely identifies this activity. If <b>NULL</b>, ETW gets the identifier 
       from the thread local storage. For details on getting this identifier, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
 
 ### -param RelatedActivityId [in, optional]
 
 Activity identifier from the previous component. Use this parameter to link your component's events to the 
       previous component's events. To get the activity identifier that was set for the previous component, see the 
       descriptions for the <i>ControlCode</i> parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function.
 
 ### -param UserDataCount [in]
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
+Number of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
       in <i>UserData</i>. The maximum number is 128.
 
 ### -param UserData [in, optional]
 
 The event data to write. Allocate a block of memory that contains one or more 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
       parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must 
       be in the order specified in the manifest.
 
@@ -178,7 +178,7 @@ The real-time playback file is full. Events are not logged to the session until 
 ## -remarks
 
 Beginning with Windows 7 and Windows Server 2008 R2, use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to write transfer events in an end-to-end 
+    <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to write transfer events in an end-to-end 
     scenario.
 
 Use this function when several components want to relate their events in an end-to-end tracing scenario. For 
@@ -192,25 +192,24 @@ If each component defined their own activity identifier, the components can make
      the events:
 
 <ul>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
+<li>Call the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function using the EVENT_ACTIVITY_CTRL_GET_SET_ID control code. The function uses your identifier to set the activity identifier in the thread local storage and returns the activity identifier for the previous component, if set. </li>
-<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
+<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
 <li>Set the <i>ActivityId</i> of this function to <b>NULL</b> to use the activity identifier that you set in thread local storage.</li>
 </ul>
 Event data written with this function requires a manifest. Since the manifest is embedded in the provider, the provider must be available for a consumer  to consume the data written by the provider.
 
 ETW decides based on the event descriptor if the event is written to a session (for details, see 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
+    <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>

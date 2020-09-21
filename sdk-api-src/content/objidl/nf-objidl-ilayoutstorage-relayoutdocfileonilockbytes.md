@@ -58,7 +58,7 @@ The <b>ReLayoutDocfileOnILockBytes</b> method is not implemented.   If called, i
 
 ### -param pILockBytes [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface on the underlying byte-array object where the compound file is to be rewritten.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface on the underlying byte-array object where the compound file is to be rewritten.
 
 ## -returns
 
@@ -85,4 +85,3 @@ This method is not implemented.
 ## -remarks
 
 If implemented, it would rewrite the compound file in the byte-array object specified by the caller.  It would return <b>S_OK</b> for success or one of the <b>STG_E_*</b> error codes for failure.
-

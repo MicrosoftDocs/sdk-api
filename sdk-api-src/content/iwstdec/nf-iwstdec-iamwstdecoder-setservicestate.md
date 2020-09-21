@@ -57,7 +57,7 @@ Applications use the <code>SetServiceState</code> method to assign the service s
 
 ### -param State [in]
 
-Specifies a member of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_state">AM_WST_STATE</a> enumeration to assign the service state.
+Specifies a member of an <a href="/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_state">AM_WST_STATE</a> enumeration to assign the service state.
 
 <table>
 <tr>
@@ -82,9 +82,8 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <code>HRESUL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
-
+<a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines a verb that an object supports. The <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a> method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>.
+Defines a verb that an object supports. The <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a> method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's <a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>.
 
 ## -struct-fields
 
@@ -68,17 +68,16 @@ Pointer to a string that contains the verb's name.
 
 ### -field fuFlags
 
-In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
+In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="/windows/desktop/menurc/u">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
 
 ### -field grfAttribs
 
-Combination of the verb attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleverbattrib">OLEVERBATTRIB</a> enumeration.
+Combination of the verb attributes in the <a href="/windows/desktop/api/oleidl/ne-oleidl-oleverbattrib">OLEVERBATTRIB</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>

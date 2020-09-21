@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>GetSecurityInfo</b> function retrieves a copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for an object specified by a handle.
+The <b>GetSecurityInfo</b> function retrieves a copy of the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for an object specified by a handle.
 
 ## -parameters
 
@@ -65,13 +65,13 @@ A handle to the object from which to retrieve security information.
 
 ### -param ObjectType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration value that indicates the type of object.
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration value that indicates the type of object.
 
 ### -param SecurityInfo [in]
 
 A set of 
 bit flags that indicate the type of security information to retrieve. This parameter can be a combination of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 ### -param ppsidOwner [out, optional]
 
@@ -79,7 +79,7 @@ A pointer to a variable that receives a pointer to the owner SID in the security
 
 ### -param ppsidGroup [out, optional]
 
-A pointer to a variable that receives a pointer to the primary group SID in the returned <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The returned pointer is valid only if you set the GROUP_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the group SID.
+A pointer to a variable that receives a pointer to the primary group SID in the returned <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>. The returned pointer is valid only if you set the GROUP_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the group SID.
 
 ### -param ppDacl [out, optional]
 
@@ -92,7 +92,7 @@ A pointer to a variable that receives a pointer to the SACL in the returned secu
 ### -param ppSecurityDescriptor [out, optional]
 
 A pointer to a variable that receives a pointer to the security descriptor of the object. When you have finished using the pointer,  free the returned buffer by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 This parameter is required if any one of the <i>ppsidOwner</i>, <i>ppsidGroup</i>, <i>ppDacl</i>, or <i>ppSacl</i> parameters is not <b>NULL</b>.
 
@@ -108,7 +108,7 @@ If the <i>ppsidOwner</i>, <i>ppsidGroup</i>, <i>ppDacl</i>, and <i>ppSacl</i> pa
 
 To read the owner, group, or DACL from the object's security descriptor, the calling process must have been granted READ_CONTROL access when the handle was opened. To get READ_CONTROL access, the caller must be the owner of the object or the object's DACL must grant the access.
 
-To read the SACL from the security descriptor, the calling process must have been granted ACCESS_SYSTEM_SECURITY access when the handle was opened. The proper way to get this access is to enable the SE_SECURITY_NAME privilege in the caller's current token, open the handle for ACCESS_SYSTEM_SECURITY access, and then disable the privilege. For information about the security implications of enabling  privileges, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+To read the SACL from the security descriptor, the calling process must have been granted ACCESS_SYSTEM_SECURITY access when the handle was opened. The proper way to get this access is to enable the SE_SECURITY_NAME privilege in the caller's current token, open the handle for ACCESS_SYSTEM_SECURITY access, and then disable the privilege. For information about the security implications of enabling  privileges, see <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 You can use the <b>GetSecurityInfo</b> function with the following types of objects:
 
@@ -130,55 +130,54 @@ This function does not handle race conditions. If your thread calls this functio
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/finding-the-owner-of-a-file-object-in-c--">Finding the Owner of a File Object</a>.
+     <a href="/windows/desktop/SecAuthZ/finding-the-owner-of-a-file-object-in-c--">Finding the Owner of a File Object</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Privilege Constants</a>
+<a href="/windows/desktop/SecAuthZ/authorization-constants">Privilege Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
-
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>

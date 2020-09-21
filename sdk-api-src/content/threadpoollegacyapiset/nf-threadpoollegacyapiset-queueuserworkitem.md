@@ -55,19 +55,19 @@ api_name:
 ## -description
 
 Queues a work item to a worker thread in the 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
+<a href="/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
 
 ## -parameters
 
 ### -param Function [in]
 
 A pointer to the application-defined callback function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread in the thread pool. This value represents the starting address of the thread. This callback function must not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
 
 The return value of the callback function is not used.
 
 For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
+<a href="/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
 ### -param Context [in, optional]
 
@@ -121,7 +121,7 @@ I/O worker threads were removed starting with WindowsÂ Vista and Windows ServerÂ
 The callback function is queued to a thread that never terminates. It does not guarantee that the same thread is used each time. This flag should be used only for short tasks or it could affect other timer operations. 
 
 
-This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
+This flag must be set if the thread calls functions that use APCs. For more information, see <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 Note that currently no worker thread is truly persistent, although worker threads do not terminate if there are any pending I/O requests.
 
@@ -158,7 +158,7 @@ Callback functions will use the current access token, whether it is a process or
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -171,17 +171,16 @@ By default, the thread pool has a maximum of 512 threads per process. To raise t
 Use this macro in the call to <b>QueueUserWorkItem</b> to specify the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit, up to (2&lt;&lt;16)-1 threads. However, the size of the queue is limited by the size of the kernel nonpaged pool. Note that your application can improve its performance by keeping the number of worker threads low.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>

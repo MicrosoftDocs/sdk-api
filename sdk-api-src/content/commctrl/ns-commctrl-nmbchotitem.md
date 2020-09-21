@@ -60,13 +60,13 @@ Contains information about the movement of the mouse over a button control.
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The action of the mouse. This parameter can be one of the following values combined with HICF_MOUSE. 
 
@@ -99,11 +99,11 @@ The mouse is leaving the button.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/bcn-hotitemchange">BCN_HOTITEMCHANGE</a>
+<a href="/windows/desktop/Controls/bcn-hotitemchange">BCN_HOTITEMCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/buttons">Buttons</a>
+<a href="/windows/desktop/Controls/buttons">Buttons</a>
 
 
 
@@ -111,9 +111,8 @@ The mouse is leaving the button.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>
 
 
 
 <b>Reference</b>
-

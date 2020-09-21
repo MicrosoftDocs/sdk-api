@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">working directory</a> for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
+This method sets the <a href="/windows/desktop/TaskSchd/w">working directory</a> for the <a href="/windows/desktop/TaskSchd/t">task</a>.
 
 ## -parameters
 
@@ -117,15 +117,14 @@ After setting the working directory of a task, be sure to call <b>IPersistFile::
 
 #### Examples
 
-For an example of how to set the working directory of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-working-directory">C/C++ Code Example: Setting Working Directory</a>.
+For an example of how to set the working directory of a task, see <a href="/windows/desktop/TaskSchd/c-c-code-example-setting-working-directory">C/C++ Code Example: Setting Working Directory</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-getworkingdirectory">GetWorkingDirectory</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-getworkingdirectory">GetWorkingDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

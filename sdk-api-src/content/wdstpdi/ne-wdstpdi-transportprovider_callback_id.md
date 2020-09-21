@@ -54,59 +54,58 @@ api_name:
 
 ## -description
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportserverregistercallback">WdsTransportServerRegisterCallback</a> function.
+This structure is used by the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportserverregistercallback">WdsTransportServerRegisterCallback</a> function.
 
 ## -enum-fields
 
 ### -field WDS_TRANSPORTPROVIDER_CREATE_INSTANCE
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercreateinstance">WdsTransportProviderCreateInstance</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercreateinstance">WdsTransportProviderCreateInstance</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_COMPARE_CONTENT
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercomparecontent">WdsTransportProviderCompareContent</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercomparecontent">WdsTransportProviderCompareContent</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_OPEN_CONTENT
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_USER_ACCESS_CHECK
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideruseraccesscheck">WdsTransportProviderUserAccessCheck</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideruseraccesscheck">WdsTransportProviderUserAccessCheck</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_GET_CONTENT_SIZE
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidergetcontentsize">WdsTransportProviderGetContentSize</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidergetcontentsize">WdsTransportProviderGetContentSize</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_READ_CONTENT
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderreadcontent">WdsTransportProviderReadContent</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderreadcontent">WdsTransportProviderReadContent</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_CLOSE_CONTENT
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderclosecontent">WdsTransportProviderCloseContent</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderclosecontent">WdsTransportProviderCloseContent</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_CLOSE_INSTANCE
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercloseinstance">WdsTransportProviderCloseInstance</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercloseinstance">WdsTransportProviderCloseInstance</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_SHUTDOWN
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidershutdown">WdsTransportProviderShutdown</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidershutdown">WdsTransportProviderShutdown</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_DUMP_STATE
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderdumpstate">WdsTransportProviderDumpState</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderdumpstate">WdsTransportProviderDumpState</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_REFRESH_SETTINGS
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderrefreshsettings">WdsTransportProviderRefreshSettings</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderrefreshsettings">WdsTransportProviderRefreshSettings</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_GET_CONTENT_METADATA
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidergetcontentmetadata">WdsTransportProviderGetContentMetadata</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidergetcontentmetadata">WdsTransportProviderGetContentMetadata</a> callback.
 
 ### -field WDS_TRANSPORTPROVIDER_MAX_CALLBACKS
 
 Used for validation checking.
-

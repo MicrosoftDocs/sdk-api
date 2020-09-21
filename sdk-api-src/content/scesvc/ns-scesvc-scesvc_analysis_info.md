@@ -58,8 +58,8 @@ The <b>SCESVC_ANALYSIS_INFO</b> structure contains the analysis information. It 
 <a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structure that contains lines of analysis information, and it also contains a counter that indicates the number of lines.
 
 A pointer to this structure is returned by calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a> when analysis information is specified.
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> and 
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a> when analysis information is specified.
 
 ## -struct-fields
 
@@ -74,11 +74,11 @@ Pointer to an array of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a>
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a>
 
 
 
@@ -86,5 +86,4 @@ Pointer to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
-
+<a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>

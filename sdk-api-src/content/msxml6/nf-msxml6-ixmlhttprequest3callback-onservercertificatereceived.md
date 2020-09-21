@@ -68,7 +68,7 @@ The number of elements in the <i>rgServerCertChain</i> parameter.
 
 ### -param rgServerCertificateChain [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a> structures that represent the server certificate chain.
+An array of <a href="/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a> structures that represent the server certificate chain.
 
 ## -returns
 
@@ -81,21 +81,20 @@ Returns <b>S_OK</b> on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a>
+<a href="/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>
-
+<a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>

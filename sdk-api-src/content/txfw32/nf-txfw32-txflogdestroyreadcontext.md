@@ -54,10 +54,10 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Closes a read context created by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a> function.
+    <a href="/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a> function.
 
 ## -parameters
 
@@ -70,9 +70,8 @@ A pointer to the context.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a>
-
+<a href="/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a>

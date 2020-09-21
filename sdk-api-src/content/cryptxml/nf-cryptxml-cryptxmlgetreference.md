@@ -60,11 +60,10 @@ The handle of the <b>Reference</b> element to retrieve.
 
 ### -param ppStruct [out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure that contains the returned <b>Reference</b> element.
+A pointer to a pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure that contains the returned <b>Reference</b> element.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

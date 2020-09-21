@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the globally unique identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object.
+Gets the globally unique identifier (GUID) of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object.
 
 
 
@@ -63,10 +63,9 @@ This property is read-only.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  When using managed code, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
+<div class="alert"><b>Note</b>  When using managed code, use the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> is available for 
+Determines whether a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> is available for 
     use. The <b>PIS_ALIVE_ROUTINE</b> type defines a pointer to this function.
 
 ## -parameters
@@ -95,20 +95,19 @@ The resource is not functioning properly.
 ## -remarks
 
 For effective implementation strategies of the <i>IsAlive</i> 
-     entry-point function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-isalive">Implementing IsAlive</a>.
+     entry-point function, see <a href="/previous-versions/windows/desktop/mscs/implementing-isalive">Implementing IsAlive</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

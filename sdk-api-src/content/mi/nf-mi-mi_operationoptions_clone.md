@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a copy of a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+Creates a copy of a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ## -parameters
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure to be cloned.
+<a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure to be cloned.
 
 ### -param newOperationOptions [out]
 
-Returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> clone. When it is no longer needed, the clone needs to be deleted using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a> function.
+Returned <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> clone. When it is no longer needed, the clone needs to be deleted using the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a> function.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a>

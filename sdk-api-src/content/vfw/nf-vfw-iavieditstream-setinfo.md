@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>SetInfo</b> method changes the characteristics of a stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a> function.
+The <b>SetInfo</b> method changes the characteristics of a stream. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a> function.
 
 ## -parameters
 
 ### -param lpInfo
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure containing the new stream characteristics.
+Pointer to an <a href="/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure containing the new stream characteristics.
 
 ### -param cbInfo
 
@@ -86,13 +86,12 @@ HRESULT SetInfo(AVISTREAMINFO *lpInfo, LONG cbInfo);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a>

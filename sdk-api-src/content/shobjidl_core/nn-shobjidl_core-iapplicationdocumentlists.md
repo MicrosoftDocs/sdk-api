@@ -54,7 +54,7 @@ Exposes methods that allow an application to retrieve the contents of the <b>Rec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDocumentLists</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDocumentLists</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDocumentLists</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDocumentLists</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IApplicationDocumentLists</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">GetList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">GetList</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents the collection of destinations listed in the <b>Recent</b> or <b>Frequent</b> category in a Jump List.
@@ -78,7 +78,7 @@ Retrieves an object that represents the collection of destinations listed in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid">SetAppID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid">SetAppID</a>
 </td>
 <td align="left" width="63%">
 Specifies a unique AppUserModelID for the application whose destination lists are being retrieved. This method is optional.
@@ -93,7 +93,7 @@ Specifies a unique AppUserModelID for the application whose destination lists ar
 An implementation of this interface is provided in Windows as CLSID_ApplicationDocumentLists. This interface is not implemented by third parties.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-An application calls the methods of this interface when it wants to retrieve a Jump List's <b>Recent</b> or <b>Frequent</b> list. These lists are generated through calls to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>, either explicitly or by the system when a file is opened through Windows Explorer or the common file dialog is used to open, save, or create a file.
+An application calls the methods of this interface when it wants to retrieve a Jump List's <b>Recent</b> or <b>Frequent</b> list. These lists are generated through calls to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>, either explicitly or by the system when a file is opened through Windows Explorer or the common file dialog is used to open, save, or create a file.
 
 
 
@@ -101,5 +101,4 @@ An application calls the methods of this interface when it wants to retrieve a J
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

@@ -50,6 +50,5 @@ api_name:
 
 ## -description
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-cachedbitmap(constcachedbitmap_)">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
+A <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-cachedbitmap(constcachedbitmap_)">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
 			<b>Graphics::DrawCachedBitmap</b> method.
-

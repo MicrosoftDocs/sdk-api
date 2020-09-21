@@ -56,7 +56,7 @@ Obtains the active view for the context.
 
 ### -param ppView [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface pointer that receives a reference to the active view.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface pointer that receives a reference to the active view.
 
 ## -returns
 
@@ -116,4 +116,3 @@ An unspecified error occurred.
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfContextView interface](nn-msctf-itfcontextview.md)
-

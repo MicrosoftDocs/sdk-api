@@ -59,7 +59,7 @@ The <b>mmioSendMessage</b> function sends a message to the I/O procedure associa
 
 ### -param hmmio
 
-File handle for a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+File handle for a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ### -param uMsg
 
@@ -80,4 +80,3 @@ Returns a value that corresponds to the message. If the I/O procedure does not r
 ## -remarks
 
 Use this function to send custom user-defined messages. Do not use it to send the MMIOM_OPEN, MMIOM_CLOSE, MMIOM_READ, MMIOM_WRITE, MMIOM_WRITEFLUSH, or MMIOM_SEEK messages. Define custom messages to be greater than or equal to the MMIOM_USER constant.
-

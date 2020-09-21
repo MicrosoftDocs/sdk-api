@@ -52,13 +52,13 @@ api_name:
 
 Defines a property condition that the file management job uses to determine if the file is expired.
 
-To create this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">IFsrmFileManagementJob::CreatePropertyCondition</a>   method.
+To create this interface, call the <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">IFsrmFileManagementJob::CreatePropertyCondition</a>   method.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">IFsrmFileManagementJob.PropertyConditions</a> property contains a collection of these interfaces.
+The <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">IFsrmFileManagementJob.PropertyConditions</a> property contains a collection of these interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IFsrmPropertyCondition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-delete">Delete</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes this property condition from the collection of property conditions specified for the file management job.
@@ -92,7 +92,7 @@ Removes this property condition from the collection of property conditions speci
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-[Name](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_name)
+[Name](./nf-fsrmreports-ifsrmpropertycondition-get_name.md)
 
 
 </td>
@@ -108,7 +108,7 @@ The name of the classification property whose value you want to compare to the p
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-type">Type</a>
+<a href="/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-type">Type</a>
 
 
 </td>
@@ -124,7 +124,7 @@ The comparison operator used to determine whether property condition is met.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-[Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)
+[Value](./nf-fsrmreports-ifsrmpropertycondition-get_value.md)
 
 
 </td>
@@ -141,5 +141,4 @@ The property condition's value.
 
 ## -remarks
 
-The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value) property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
-
+The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](./nf-fsrmreports-ifsrmpropertycondition-get_value.md) property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.

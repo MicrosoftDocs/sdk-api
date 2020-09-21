@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDRAWSUGGEST</b> structure contains compression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a> message to suggest an appropriate input format.
+The <b>ICDRAWSUGGEST</b> structure contains compression parameters used with the <a href="/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a> message to suggest an appropriate input format.
 
 ## -struct-fields
 
@@ -84,7 +84,7 @@ Handle to a decompressor that supports the format of data described in <b>lpbiIn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a>
+<a href="/windows/desktop/Multimedia/icm-draw-suggestformat">ICM_DRAW_SUGGESTFORMAT</a>
 
 
 
@@ -92,5 +92,4 @@ Video Compression Manager
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

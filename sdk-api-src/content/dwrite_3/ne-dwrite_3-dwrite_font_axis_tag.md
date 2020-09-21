@@ -79,6 +79,5 @@ DWRITE_MAKE_FONT_AXIS_TAG('c', 's', 't', 'm');
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_RANGE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
-[DWRITE_FONT_AXIS_VALUE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value)
-
+[DWRITE_FONT_AXIS_RANGE structure](./ns-dwrite_3-dwrite_font_axis_range.md)
+[DWRITE_FONT_AXIS_VALUE structure](./ns-dwrite_3-dwrite_font_axis_value.md)

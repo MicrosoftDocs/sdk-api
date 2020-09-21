@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Commits or discards changes made prior to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>.
+Commits or discards changes made prior to a call to <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Commits or discards changes made prior to a call to <a href="https://docs.micros
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, and used by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>, referencing the file to be updated.
+A module handle returned by the <a href="/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, and used by <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>, referencing the file to be updated.
 
 ### -param fDiscard [in]
 
@@ -76,18 +76,18 @@ Returns <b>TRUE</b> if the function succeeds; <b>FALSE</b> otherwise. If the fun
 
 <i>fDiscard</i> is <b>TRUE</b>, then no resource updates are made to the file; otherwise all 
 
-successful resource updates are made to the file. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+successful resource updates are made to the file. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Before you call this function, make sure all file handles other than the one returned by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> are closed.
+Before you call this function, make sure all file handles other than the one returned by <a href="/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> are closed.
 
-This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
+This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-resources">Updating Resources</a>.
+For an example, see <a href="/windows/desktop/menurc/using-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -99,7 +99,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
 
 
 
@@ -111,9 +111,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>

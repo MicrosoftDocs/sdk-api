@@ -59,9 +59,8 @@ A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dn
 
 ### -param pDnsRecord
 
-A pointer to a [DNS_RECORD](/windows/win32/api/windns/ns-windns-dns_recordw) structure that contains a list of records describing a discovered service on the network. If not `nullptr`, then you are responsible for freeing the returned RR sets using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
+A pointer to a [DNS_RECORD](./ns-windns-dns_recordw.md) structure that contains a list of records describing a discovered service on the network. If not `nullptr`, then you are responsible for freeing the returned RR sets using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
 ## -remarks
 
 ## -see-also
-

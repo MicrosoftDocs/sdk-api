@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds extension pages to the wizard by filling an array with handles to <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Adds extension pages to the wizard by filling an array with handles to <a href="
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> handles that represent the wizard dialog pages. Handles to <b>PROPSHEETPAGE</b> structures for the extension pages are added to this array.
+A pointer to an array of <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> handles that represent the wizard dialog pages. Handles to <b>PROPSHEETPAGE</b> structures for the extension pages are added to this array.
 
 ### -param cPages [in]
 
@@ -93,5 +93,4 @@ g_iwe->AddPages(&hpages[2], ARRAYSIZE(hpages)-2, &nPages);
 ```
 
 
-Do not confuse wizard pages, which are <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.
-
+Do not confuse wizard pages, which are <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.

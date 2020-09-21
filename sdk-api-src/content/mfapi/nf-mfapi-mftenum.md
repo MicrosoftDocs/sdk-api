@@ -53,13 +53,13 @@ api_name:
 Enumerates Media Foundation transforms (MFTs) in the registry.
         
 
-Starting in Windows 7, applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function instead.
+Starting in Windows 7, applications should use the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function instead.
 
 ## -parameters
 
 ### -param guidCategory [in]
 
-GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
+GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 ### -param Flags [in]
 
@@ -82,14 +82,14 @@ This parameter can be <b>NULL</b>.
 
 Reserved. Set to <b>NULL</b>.
 
-<div class="alert"><b>Note</b>  Windows Vista and Windows Server 2008: This parameter can specify a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store. The <b>MFTEnum</b> function matches the attributes in this object against the attributes stored in the registry. (Registry attributes are specified in the <i>pAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a> function.) Only MFTs with matching attributes are returned in the enumeration results.</div>
+<div class="alert"><b>Note</b>  Windows Vista and Windows Server 2008: This parameter can specify a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store. The <b>MFTEnum</b> function matches the attributes in this object against the attributes stored in the registry. (Registry attributes are specified in the <i>pAttributes</i> parameter of the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a> function.) Only MFTs with matching attributes are returned in the enumeration results.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  Windows 7 and later: This parameter is ignored.</div>
 <div> </div>
 
 ### -param ppclsidMFT [out]
 
-Receives a pointer to an array of CLSIDs. To create an MFT from this list, call <b>CoCreateInstance</b> with one of the CLSIDs. To get information about a particular MFT from its CLSID, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to an array of CLSIDs. To create an MFT from this list, call <b>CoCreateInstance</b> with one of the CLSIDs. To get information about a particular MFT from its CLSID, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>. The caller must free the memory for the array by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pcMFTs [out]
 
@@ -211,25 +211,24 @@ HRESULT FindEncoder(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/adding-a-decoder-to-a-topology">Adding a Decoder to a Topology</a>
+<a href="/windows/desktop/medfound/adding-a-decoder-to-a-topology">Adding a Decoder to a Topology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/registering-and-enumerating-mfts">Registering and Enumerating MFTs</a>
-
+<a href="/windows/desktop/medfound/registering-and-enumerating-mfts">Registering and Enumerating MFTs</a>

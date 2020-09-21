@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the element id.
+The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the element id.
 
 ## -parameters
 
 ### -param dwUIELementId [in]
 
-[in] The element id to get the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
+[in] The element id to get the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 ### -param ppElement [out]
 
-[out] A pointer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
+[out] A pointer to receive <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 ## -returns
 
@@ -105,4 +105,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

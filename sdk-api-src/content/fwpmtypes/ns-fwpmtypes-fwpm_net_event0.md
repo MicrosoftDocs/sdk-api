@@ -53,17 +53,17 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT0</b> structure contains information about all event types.
-[FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1) is available. For Windows 8, [FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2) is available.</div><div> </div>
+[FWPM_NET_EVENT1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1) is available. For Windows 8, [FWPM_NET_EVENT2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field header
 
-A [FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) structure that contains information common to all events.
+A [FWPM_NET_EVENT_HEADER0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) structure that contains information common to all events.
 
 ### -field type
 
-A [FWPM_NET_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) value that specifies the type of event.
+A [FWPM_NET_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) value that specifies the type of event.
 
 ### -field ikeMmFailure
 
@@ -85,7 +85,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
 
 ### -field classifyDrop
 
-Address of an [FWPM_NET_EVENT_CLASSIFY_DROP0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0) structure that contains information about  a drop event.
+Address of an [FWPM_NET_EVENT_CLASSIFY_DROP0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0) structure that contains information about  a drop event.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 
@@ -106,5 +106,4 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

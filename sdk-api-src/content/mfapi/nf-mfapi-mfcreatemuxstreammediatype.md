@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> describing the media types  of multiplexed substreams.
+Creates an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> describing the media types  of multiplexed substreams.
 
 ## -parameters
 
 ### -param pMediaTypesToMux [in]
 
-The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> for each multiplexed substream.
+The collection containing the  <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> for each multiplexed substream.
 
 ### -param ppMuxMediaType [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> containing the media types for the multiplexed substreams.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> containing the media types for the multiplexed substreams.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The <i>pMediaTypesToMux</i> parameter in null.
 </td>
 </tr>
 </table>
-

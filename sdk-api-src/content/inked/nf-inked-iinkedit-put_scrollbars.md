@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the type of scroll bars, if any, to display in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Gets or sets the type of scroll bars, if any, to display in the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 This property is read/write.
 
@@ -63,15 +63,15 @@ This property is read/write.
 
 ## -remarks
 
-For an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control with setting rtfHorizontal, rtfVertical, or rtfBoth, you must set the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_multiline">MultiLine</a> property to <b>TRUE</b>.
+For an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control with setting rtfHorizontal, rtfVertical, or rtfBoth, you must set the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_multiline">MultiLine</a> property to <b>TRUE</b>.
 
 
 
-At run time, the Windows operating environment automatically implements a standard keyboard interface to allow navigation in <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> controls with the arrow keys (UP ARROW, DOWN ARROW, LEFT ARROW, and RIGHT ARROW), the HOME and END keys, and so on.
+At run time, the Windows operating environment automatically implements a standard keyboard interface to allow navigation in <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> controls with the arrow keys (UP ARROW, DOWN ARROW, LEFT ARROW, and RIGHT ARROW), the HOME and END keys, and so on.
 
 
 
-Scroll bars are displayed only if the contents of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control extend beyond the control's borders. If <b>ScrollBars</b> is set to <b>FALSE</b>, the control won't have scroll bars, regardless of its contents.
+Scroll bars are displayed only if the contents of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control extend beyond the control's borders. If <b>ScrollBars</b> is set to <b>FALSE</b>, the control won't have scroll bars, regardless of its contents.
 
 ## -see-also
 
@@ -79,5 +79,4 @@ Scroll bars are displayed only if the contents of the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

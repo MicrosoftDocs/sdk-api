@@ -56,9 +56,8 @@ A value from the [MF_MEDIAKEY_STATUS](ne-mfidl-mf_mediakey_status) enumeration s
 
 ## -remarks
 
-This structure is used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses) method.
+This structure is used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md) method.
 
 **MFMediaKeyStatus** is based on the Encrypted Media Extension specification's [MediaKeyStatusMap](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysession-sessionid).
 
 ## -see-also
-

@@ -73,9 +73,8 @@ Return S_OK or an error code.
 
 ## -remarks
 
-This event corresponds to the STREAMBUFFER_EC_TIMEHOLE event in the Stream Buffer Engine. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>.
+This event corresponds to the STREAMBUFFER_EC_TIMEHOLE event in the Stream Buffer Engine. See <a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>

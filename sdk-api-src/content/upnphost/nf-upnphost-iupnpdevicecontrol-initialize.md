@@ -62,9 +62,9 @@ Specifies the full XML device description, as published by the device host. The 
 ### -param bstrDeviceIdentifier [in]
 
 Identifies the device to initialize. This is the same identifier returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a>. It is also used to retrieve the UDN of the device using 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">IUPnPRegistrar::GetUniqueDeviceName</a>.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a> or 
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a>. It is also used to retrieve the UDN of the device using 
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">IUPnPRegistrar::GetUniqueDeviceName</a>.
 
 ### -param bstrInitString [in]
 
@@ -77,28 +77,27 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 ## -remarks
 
 This method is invoked immediately after the device control object is instantiated. It must be invoked before 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">IUPnPDeviceControl::GetServiceObject</a> is invoked.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">IUPnPDeviceControl::GetServiceObject</a> is invoked.
 
 The difference between a running device and a non-running device is when the 
 <b>Initialize</b> method is invoked.
 
 For running devices, 
 <b>Initialize</b> is invoked when 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a> is invoked, and the initialization is completed before <b>IUPnPRegistrar::RegisterRunningDevice</b> returns.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPRegistrar::RegisterRunningDevice</a> is invoked, and the initialization is completed before <b>IUPnPRegistrar::RegisterRunningDevice</b> returns.
 
 For non-running devices, 
 <b>Initialize</b> is not necessarily invoked when 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a> is invoked. 
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a> is invoked. 
 <b>Initialize</b> is invoked when the first control or event request arrives.
 
 The <i>bstrDeviceIdentifier</i> can also be used to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">IUPnPRegistrar::GetUniqueDeviceName</a>.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename">IUPnPRegistrar::GetUniqueDeviceName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">GetServiceObject</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">GetServiceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a>

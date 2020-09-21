@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object.
+The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object.
 
 ## -parameters
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
+A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
 
 ### -param InformationClass [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object. The following table shows the possible values.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/poli
 </dl>
 </td>
 <td width="60%">
-The information is for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
+The information is for <a href="/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Pointer to a buffer that receives the requested information.
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the <a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -122,5 +122,4 @@ The policy database is
 
 ## -remarks
 
-The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.
-
+The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.

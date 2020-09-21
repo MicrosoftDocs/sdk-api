@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>MSV1_0_SUPPLEMENTAL_CREDENTIAL</b> structure is used to pass <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> into MSV1_0 from <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> or custom <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a>.
+The <b>MSV1_0_SUPPLEMENTAL_CREDENTIAL</b> structure is used to pass <a href="/windows/desktop/SecGloss/c-gly">credentials</a> into MSV1_0 from <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> or custom <a href="/windows/desktop/SecGloss/a-gly">authentication package</a>.
 
 ## -struct-fields
 
@@ -105,9 +105,8 @@ Version information is included and is stored in the <b>Version</b> member.
 
 ### -field LmPassword
 
-Contains the  LM password. The size of this array is defined by the constant <b>MSV1_0_OWF_PASSWORD_LENGTH</b>. When you have finished using the password, remove the sensitive information from memory by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>. For more information on protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+Contains the  LM password. The size of this array is defined by the constant <b>MSV1_0_OWF_PASSWORD_LENGTH</b>. When you have finished using the password, remove the sensitive information from memory by calling <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>. For more information on protecting the password, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -field NtPassword
 
-A string that contains the Windows password. The size of this array is defined by the constant <b>MSV1_0_OWF_PASSWORD_LENGTH</b>. When you have finished using the password, remove the sensitive information from memory by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>.
-
+A string that contains the Windows password. The size of this array is defined by the constant <b>MSV1_0_OWF_PASSWORD_LENGTH</b>. When you have finished using the password, remove the sensitive information from memory by calling <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>.

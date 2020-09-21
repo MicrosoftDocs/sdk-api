@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Copies the current node from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-reader">XML reader</a> to the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-writer">XML writer</a>.
+Copies the current node from the specified <a href="/windows/desktop/wsw/xml-reader">XML reader</a> to the specified <a href="/windows/desktop/wsw/xml-writer">XML writer</a>.
 
 ## -parameters
 
 ### -param writer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> to which to copy the XML node.
+Pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> to which to copy the XML node.
 
 ### -param reader [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>   from which to copy the XML node.
+Pointer to the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>   from which to copy the XML node.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -118,7 +118,6 @@ If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
 
 If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
-      For information on node types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE</a> enumeration.
+      For information on node types, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE</a> enumeration.
 
 The reader will be positioned on the node following the node copied.
-

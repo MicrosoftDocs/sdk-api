@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Helper routine for creating a service endpoint (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>) from policy templates.
+Helper routine for creating a service endpoint (<a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>) from policy templates.
 
 ## -parameters
 
 ### -param channelType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
 
 ### -param properties [in]
 
@@ -72,19 +72,19 @@ The URL address on which the endpoint is  to listen.
 
 ### -param contract [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
 
 ### -param authorizationCallback [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_security_callback">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
+A <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_security_callback">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
 
 ### -param heap [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which memory for the  service endpoint is allocated on successful return.
+The <a href="/windows/desktop/wsw/heap">heap</a> from which memory for the  service endpoint is allocated on successful return.
 
 ### -param templateType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
 
 ### -param templateValue [in]
 
@@ -106,11 +106,11 @@ The size of the template description.
 
 ### -param serviceEndpoint [out]
 
-On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
+On   success, a pointer that receives the address of the  <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -118,5 +118,4 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 ## -remarks
 
-<b>WsCreateServiceEndpointFromTemplate</b> creates the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure from the specified input policy templates and additional user input.
-
+<b>WsCreateServiceEndpointFromTemplate</b> creates the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure from the specified input policy templates and additional user input.

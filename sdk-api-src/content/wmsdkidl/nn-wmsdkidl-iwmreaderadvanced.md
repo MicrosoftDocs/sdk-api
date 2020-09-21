@@ -54,7 +54,7 @@ A call to <b>QueryInterface</b> from a reader object exposes the advanced functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderAdvanced</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderAdvanced</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMReaderAdvanced</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-delivertime">DeliverTime</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-delivertime">DeliverTime</a>
 </td>
 <td align="left" width="63%">
 Provides the reader with a clock time. This is used only when the application is providing the clock.
@@ -78,7 +78,7 @@ Provides the reader with a clock time. This is used only when the application is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getallocateforoutput">GetAllocateForOutput</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getallocateforoutput">GetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the reader is configured to use the <b>IWMReaderCallbackAdvanced</b> interface to allocate buffers for a particular output.
@@ -87,7 +87,7 @@ Ascertains whether the reader is configured to use the <b>IWMReaderCallbackAdvan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getallocateforstream">GetAllocateForStream</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getallocateforstream">GetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the reader is configured to use the <b>IWMReaderCallbackAdvanced</b> interface to allocate buffers for a particular stream.
@@ -96,7 +96,7 @@ Ascertains whether the reader is configured to use the <b>IWMReaderCallbackAdvan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmanualstreamselection">GetManualStreamSelection</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmanualstreamselection">GetManualStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether manual stream selection has been specified.
@@ -105,7 +105,7 @@ Ascertains whether manual stream selection has been specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxoutputsamplesize">GetMaxOutputSampleSize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxoutputsamplesize">GetMaxOutputSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum buffer size to be allocated for output samples for a specified media stream.
@@ -114,7 +114,7 @@ Retrieves the maximum buffer size to be allocated for output samples for a speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">GetMaxStreamSampleSize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">GetMaxStreamSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum buffer size to be allocated for stream samples for a specified media stream.
@@ -123,7 +123,7 @@ Retrieves the maximum buffer size to be allocated for stream samples for a speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceiveselectioncallbacks">GetReceiveSelectionCallbacks</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceiveselectioncallbacks">GetReceiveSelectionCallbacks</a>
 </td>
 <td align="left" width="63%">
 Retrieves a flag that indicates whether receiving stream selection notifications has been specified.
@@ -132,7 +132,7 @@ Retrieves a flag that indicates whether receiving stream selection notifications
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceivestreamsamples">GetReceiveStreamSamples</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceivestreamsamples">GetReceiveStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the reader is configured to deliver stream samples (compressed samples).
@@ -141,7 +141,7 @@ Ascertains whether the reader is configured to deliver stream samples (compresse
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics">GetStatistics</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current reader statistics.
@@ -150,7 +150,7 @@ Retrieves the current reader statistics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">GetStreamSelected</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">GetStreamSelected</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether a particular stream is currently selected. This can be used only when manual stream selection is specified.
@@ -159,7 +159,7 @@ Ascertains whether a particular stream is currently selected. This can be used o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getuserprovidedclock">GetUserProvidedClock</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getuserprovidedclock">GetUserProvidedClock</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether a user-provided clock has been specified.
@@ -168,7 +168,7 @@ Ascertains whether a user-provided clock has been specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-notifylatedelivery">NotifyLateDelivery</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-notifylatedelivery">NotifyLateDelivery</a>
 </td>
 <td align="left" width="63%">
 Used to notify the reader that it is delivering data to the application too slowly.
@@ -177,7 +177,7 @@ Used to notify the reader that it is delivering data to the application too slow
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforoutput">SetAllocateForOutput</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforoutput">SetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to allocate buffers from the user-supplied callback, or internally, for output samples.
@@ -186,7 +186,7 @@ Specifies whether to allocate buffers from the user-supplied callback, or intern
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforstream">SetAllocateForStream</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforstream">SetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to allocate buffers from the user-supplied callback, or internally, for stream samples.
@@ -195,7 +195,7 @@ Specifies whether to allocate buffers from the user-supplied callback, or intern
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setclientinfo">SetClientInfo</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setclientinfo">SetClientInfo</a>
 </td>
 <td align="left" width="63%">
 Sets client-side information used for logging.
@@ -204,7 +204,7 @@ Sets client-side information used for logging.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection">SetManualStreamSelection</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection">SetManualStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Specifies whether stream selection is to be controlled manually.
@@ -213,7 +213,7 @@ Specifies whether stream selection is to be controlled manually.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceiveselectioncallbacks">SetReceiveSelectionCallbacks</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceiveselectioncallbacks">SetReceiveSelectionCallbacks</a>
 </td>
 <td align="left" width="63%">
 Specifies a flag indicating whether receiving selection callbacks is to be activated.
@@ -222,7 +222,7 @@ Specifies a flag indicating whether receiving selection callbacks is to be activ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">SetReceiveStreamSamples</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">SetReceiveStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the reader must deliver compressed stream samples to the callback.
@@ -231,7 +231,7 @@ Specifies whether the reader must deliver compressed stream samples to the callb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected">SetStreamsSelected</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected">SetStreamsSelected</a>
 </td>
 <td align="left" width="63%">
 Enables the selected state of a stream to be changed.
@@ -240,7 +240,7 @@ Enables the selected state of a stream to be changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setuserprovidedclock">SetUserProvidedClock</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setuserprovidedclock">SetUserProvidedClock</a>
 </td>
 <td align="left" width="63%">
 Specifies that a clock provided by the application is to be used.
@@ -249,49 +249,48 @@ Specifies that a clock provided by the application is to be used.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced6">IWMReaderAdvanced6 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced6">IWMReaderAdvanced6 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
+<a href="/windows/desktop/wmformat/reader-object">Reader Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
-
+<a href="/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface and sets the root key to the appropriate ProgID.
+Initializes the <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface and sets the root key to the appropriate ProgID.
 
 ## -parameters
 
@@ -122,9 +122,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method initializes the interface, and is also called each time you need to specify a new root key. You can use <i>pwszAssoc</i> to specify a string, such as a file name extension or its associated ProgID, that identifies the root key. You can also specify the root key's HKEY value. <b>Init</b> will then use this information to locate the root key in the registry. Subsequent calls to the other <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> methods will use it as their starting point and search for the information in the root key's subkeys.
+This method initializes the interface, and is also called each time you need to specify a new root key. You can use <i>pwszAssoc</i> to specify a string, such as a file name extension or its associated ProgID, that identifies the root key. You can also specify the root key's HKEY value. <b>Init</b> will then use this information to locate the root key in the registry. Subsequent calls to the other <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> methods will use it as their starting point and search for the information in the root key's subkeys.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>
-
+<a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>

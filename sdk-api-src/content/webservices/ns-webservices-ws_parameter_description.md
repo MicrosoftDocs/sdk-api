@@ -63,12 +63,11 @@ The type of the parameter.
 ### -field inputMessageIndex
 
 A value between 0 and MAX_SHORT - 1 that represents the index of the field 
-                    in the input <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is MAX_USHORT if it has not present in the input
+                    in the input <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is MAX_USHORT if it has not present in the input
                     WS_MESSAGE.
 
 ### -field outputMessageIndex
 
 A value between 0 and MAX_SHORT - 1 that represents the index of the field 
-                    in the output <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is MAX_USHORT if it has not present in the output
+                    in the output <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is MAX_USHORT if it has not present in the output
                     WS_MESSAGE.
-

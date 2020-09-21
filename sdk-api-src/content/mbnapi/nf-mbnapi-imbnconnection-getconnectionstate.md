@@ -59,11 +59,11 @@ Gets the current connection state of the device.
 
 ### -param ConnectionState [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state">MBN_ACTIVATION_STATE</a> structure  that contains the state of the connection.
+A pointer to an <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state">MBN_ACTIVATION_STATE</a> structure  that contains the state of the connection.
 
 ### -param ProfileName [out, retval]
 
-A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
+A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href="/windows/win32/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -returns
 
@@ -94,7 +94,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The activation state not available.  The Mobile Broadband service is probing the device for the information.  The calling application can be notified when the activation state is available by registering for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange">OnConnectStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>.
+The activation state not available.  The Mobile Broadband service is probing the device for the information.  The calling application can be notified when the activation state is available by registering for the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange">OnConnectStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>.
 
 </td>
 </tr>
@@ -139,5 +139,4 @@ This method can return S_OK when <i>ProfileName</i> is <b>NULL</b>. Make sure th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>

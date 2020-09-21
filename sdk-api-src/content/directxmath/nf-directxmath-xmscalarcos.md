@@ -71,11 +71,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-scalar">DirectXMath Library Scalar Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-scalar">DirectXMath Library Scalar Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmscalaracos">XMScalarACos</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmscalaracos">XMScalarACos</a>
 
 
 
@@ -83,5 +83,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmscalarcosest">XMScalarCosEst</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmscalarcosest">XMScalarCosEst</a>

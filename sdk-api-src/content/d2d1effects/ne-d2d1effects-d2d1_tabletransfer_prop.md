@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/table-transfer">Table transfer effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/table-transfer">Table transfer effect</a>.
 
 ## -enum-fields
 
@@ -143,4 +143,3 @@ The type is BOOL.
 The default is FALSE.
 
 ### -field D2D1_TABLETRANSFER_PROP_FORCE_DWORD
-

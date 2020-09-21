@@ -68,7 +68,7 @@ To receive hardware performance counter data, set this parameter to a bitmask th
 
 ### -param PerformanceDataHandle [out]
 
-An opaque handle that you use when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a> functions.
+An opaque handle that you use when calling the <a href="/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a> and <a href="/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a> functions.
 
 ## -returns
 
@@ -76,19 +76,18 @@ An opaque handle that you use when calling the <a href="https://docs.microsoft.c
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a> function before exiting the thread.
+You must call the <a href="/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a> function before exiting the thread.
 
 To profile hardware performance counters, you need a driver to configure the counters. The performance counters are configured globally for the system, so every thread has access to the same hardware counter data. The counters must be configured before you enable profiling. For information on configuring hardware performance counters, see the <b>KeSetHardwareCounterConfiguration</b> function in the Windows Driver Kit (WDK).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-querythreadprofiling">QueryThreadProfiling</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-querythreadprofiling">QueryThreadProfiling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a>

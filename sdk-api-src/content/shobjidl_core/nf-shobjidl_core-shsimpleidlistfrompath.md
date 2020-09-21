@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Deprecated. Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure when passed a path.
+Deprecated. Returns a pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure when passed a path.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A pointer to a null-terminated string that contains the path to be converted to 
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure if successful, or <b>NULL</b> otherwise.
+Returns a pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure if successful, or <b>NULL</b> otherwise.
 
 ## -remarks
 
@@ -79,8 +79,7 @@ An alternative to this function is as follows:
                 
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a> to obtain <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> for the desktop folder.</li>
-<li>Get the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>'s bind context (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> and the path.</li>
+<li>Call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a> to obtain <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> for the desktop folder.</li>
+<li>Get the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>'s bind context (<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).</li>
+<li>Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> with the <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> and the path.</li>
 </ol>
-

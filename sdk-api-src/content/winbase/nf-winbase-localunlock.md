@@ -58,60 +58,59 @@ api_name:
 ## -description
 
 Decrements the lock count associated with a memory object that was allocated with <b>LMEM_MOVEABLE</b>. This function has no effect on memory objects allocated with <b>LMEM_FIXED</b>.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param hMem [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
 ## -returns
 
-If the memory object is still locked after decrementing the lock count, the return value is nonzero. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>NO_ERROR</b>.
+If the memory object is still locked after decrementing the lock count, the return value is nonzero. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>NO_ERROR</b>.
 
 If the function fails, the return value is zero and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value other than <b>NO_ERROR</b>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value other than <b>NO_ERROR</b>.
 
 ## -remarks
 
 The internal data structures for each memory object include a lock count that is initially zero. For movable memory objects, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function increments the count by one, and 
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function increments the count by one, and 
 <b>LocalUnlock</b> decrements the count by one. For each call that a process makes to 
 <b>LocalLock</b> for an object, it must eventually call 
 <b>LocalUnlock</b>. Locked memory will not be moved or discarded unless the memory object is reallocated by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. The memory block of a locked memory object remains locked until its lock count is decremented to zero, at which time it can be moved or discarded.
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. The memory block of a locked memory object remains locked until its lock count is decremented to zero, at which time it can be moved or discarded.
 
 If the memory object is already unlocked, 
-<b>LocalUnlock</b> returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> reports <b>ERROR_NOT_LOCKED</b>. Memory objects allocated with <b>LMEM_FIXED</b> always have a lock count of zero and cause the <b>ERROR_NOT_LOCKED</b> error.
+<b>LocalUnlock</b> returns <b>FALSE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> reports <b>ERROR_NOT_LOCKED</b>. Memory objects allocated with <b>LMEM_FIXED</b> always have a lock count of zero and cause the <b>ERROR_NOT_LOCKED</b> error.
 
 A process should not rely on the return value to determine the number of times it must subsequently call 
 <b>LocalUnlock</b> for the memory block.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localflags">LocalFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

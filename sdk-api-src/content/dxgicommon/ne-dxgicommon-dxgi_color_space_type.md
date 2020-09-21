@@ -842,7 +842,7 @@ A custom color definition is used.
 
 ## -remarks
 
-This enum is used within DXGI in  the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport">CheckColorSpaceSupport</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport">CheckOverlayColorSpaceSupport</a> methods. It is also referenced in D3D11 video methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1">ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1</a>, and D2D methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">ID2D1DeviceContext2::CreateImageSourceFromDxgi</a>.
+This enum is used within DXGI in  the <a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport">CheckColorSpaceSupport</a>, <a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> and <a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport">CheckOverlayColorSpaceSupport</a> methods. It is also referenced in D3D11 video methods such as <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1">ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1</a>, and D2D methods such as <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">ID2D1DeviceContext2::CreateImageSourceFromDxgi</a>.
 
 The following color parameters are defined:
 
@@ -961,7 +961,7 @@ Indicates which integer range corresponds to the floating point [0..1] range of 
 </table>
  
 
-For more information on siting, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideochromasubsampling">MFVideoChromaSubsampling</a> enum.
+For more information on siting, refer to the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mfvideochromasubsampling">MFVideoChromaSubsampling</a> enum.
 
 <h3><a id="Primaries"></a><a id="primaries"></a><a id="PRIMARIES"></a>Primaries</h3>
 
@@ -1022,5 +1022,4 @@ Subsampling and the layout of the color channels are inferred from the surface f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

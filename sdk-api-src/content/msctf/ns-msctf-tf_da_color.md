@@ -60,7 +60,7 @@ Specifies the color type as defined in the <a href="/windows/win32/api/msctf/ne-
 
 ### -field nIndex
 
-Specifies the color as a system color index as defined in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>. This member is used only if <b>type</b> is equal to TF_CT_SYSCOLOR.
+Specifies the color as a system color index as defined in <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>. This member is used only if <b>type</b> is equal to TF_CT_SYSCOLOR.
 
 ### -field cr
 
@@ -68,10 +68,9 @@ Specifies the color as an RGB value. This member is used only if <b>type</b> is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE
       </a>
-

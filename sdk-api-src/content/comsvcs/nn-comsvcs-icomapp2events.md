@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if a COM+ server application is loaded, shut down, or paused. The subscriber is also notified if the application is marked for recycling. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a COM+ server application is loaded, shut down, or paused. The subscriber is also notified if the application is marked for recycling. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComApp2Events</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComApp2Events</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComApp2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComApp2Events</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComApp2Events</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappactivation2">OnAppActivation2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappactivation2">OnAppActivation2</a>
 </td>
 <td align="left" width="63%">
 Generated when the server application process is loaded.
@@ -78,7 +78,7 @@ Generated when the server application process is loaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappforceshutdown2">OnAppForceShutdown2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappforceshutdown2">OnAppForceShutdown2</a>
 </td>
 <td align="left" width="63%">
 Generated when the server application is forced to shut down.
@@ -87,7 +87,7 @@ Generated when the server application is forced to shut down.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapppaused2">OnAppPaused2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapppaused2">OnAppPaused2</a>
 </td>
 <td align="left" width="63%">
 Generated when the server application is paused or resumed to its initial state.
@@ -96,7 +96,7 @@ Generated when the server application is paused or resumed to its initial state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapprecycle2">OnAppRecycle2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapprecycle2">OnAppRecycle2</a>
 </td>
 <td align="left" width="63%">
 Generated when the server application process is marked for recycling termination.
@@ -105,7 +105,7 @@ Generated when the server application process is marked for recycling terminatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappshutdown2">OnAppShutdown2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappshutdown2">OnAppShutdown2</a>
 </td>
 <td align="left" width="63%">
 Generated when the server application shuts down.
@@ -116,9 +116,8 @@ Generated when the server application shuts down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
-
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

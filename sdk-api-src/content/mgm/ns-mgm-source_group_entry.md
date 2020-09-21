@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>SOURCE_GROUP_ENTRY</b> structure describes the entry returned by the group enumeration function 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>.
 
 ## -struct-fields
 
@@ -98,17 +98,16 @@ Specify zero for this parameter if zero was specified for <b>dwGroupAddr</b> (a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
+<a href="/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>ROOT_INFO_LUID</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) for Cryptographic Smart Card Root Information. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure includes a <b>ROOT_INFO_LUID</b> structure.
+The <b>ROOT_INFO_LUID</b> structure contains a <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) for Cryptographic Smart Card Root Information. The <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure includes a <b>ROOT_INFO_LUID</b> structure.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ High-order bits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>

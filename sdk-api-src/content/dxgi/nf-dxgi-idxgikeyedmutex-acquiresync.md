@@ -57,14 +57,14 @@ Using a key, acquires exclusive rendering access to a shared resource.
 
 ### -param Key
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 A value that indicates which device to give access to. This method will succeed when the device that currently owns the surface calls 
-          the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> method using the same value. This value can be any UINT64 value.
+          the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> method using the same value. This value can be any UINT64 value.
 
 ### -param dwMilliseconds
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The time-out interval, in milliseconds. This method will return if the interval elapses, and the keyed mutex has not been released  using the specified <i>Key</i>. 
           If this value is set to zero, the <b>AcquireSync</b> method will test to see if the keyed mutex has been released and returns immediately. 
@@ -78,7 +78,7 @@ Return S_OK if successful.
 
 If the owning device attempted to create another keyed mutex on the same shared resource, <b>AcquireSync</b> returns E_FAIL.
 
-<b>AcquireSync</b> can also return the following <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a> constants. Therefore, you should explicitly check for these constants. If you only use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro on the return value to determine if  <b>AcquireSync</b> succeeded, you will not catch these constants.
+<b>AcquireSync</b> can also return the following <a href="/windows/desktop/WinProg/windows-data-types">DWORD</a> constants. Therefore, you should explicitly check for these constants. If you only use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro on the return value to determine if  <b>AcquireSync</b> succeeded, you will not catch these constants.
 
 <ul>
 <li>WAIT_ABANDONED - The shared surface and keyed mutex are no longer in a consistent state. 
@@ -91,12 +91,12 @@ If the owning device attempted to create another keyed mutex on the same shared 
 The <b>AcquireSync</b> method creates a lock to a surface that is shared between multiple devices, allowing only one device to render to a surface at a time.  
       This method uses a key to determine which device currently has exclusive access to the surface.
 
-When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_misc_flag">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
-      you must call the <b>AcquireSync</b> method before rendering to the surface.  You must call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method when you are done 
+When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_resource_misc_flag">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
+      you must call the <b>AcquireSync</b> method before rendering to the surface.  You must call the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method when you are done 
       rendering to a surface.
 
-To acquire a reference to the keyed mutex object of a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
-      the <b>UUID</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
+To acquire a reference to the keyed mutex object of a shared resource, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the resource and pass in 
+      the <b>UUID</b> of the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface.  For more information about acquiring this reference, see the following code example.
 
 The <b>AcquireSync</b> method uses the key as follows, depending on the state of the surface:
 
@@ -105,13 +105,13 @@ The <b>AcquireSync</b> method uses the key as follows, depending on the state of
         For an unowned device, only a key of 0 will succeed. Calling the <b>AcquireSync</b> method for any other key will stall the 
         calling CPU thread.</li>
 <li>If the surface is owned by a device when you call the <b>AcquireSync</b> method, the CPU thread that called 
-        the <b>AcquireSync</b> method will stall until the owning device calls the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method 
+        the <b>AcquireSync</b> method will stall until the owning device calls the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method 
         using the same Key.</li>
 <li>If the surface is unowned when you call the <b>AcquireSync</b> method (for example, the last owning device has already called 
-        the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method), the <b>AcquireSync</b> method will succeed if you specify the same key 
+        the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method), the <b>AcquireSync</b> method will succeed if you specify the same key 
         that was specified when the <b>ReleaseSync</b> method was last called. Calling the <b>AcquireSync</b> 
           method using  any other key will cause a stall.</li>
-<li>When the owning device calls the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method with a particular key, and more than one device is waiting after 
+<li>When the owning device calls the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">ReleaseSync</a> method with a particular key, and more than one device is waiting after 
         calling the  <b>AcquireSync</b> method using the same key, any one of the waiting devices could be woken up first. 
         The order in which devices are woken up is undefined.</li>
 <li>A keyed mutex does not support recursive calls to the <b>AcquireSync</b> method.</li>
@@ -148,13 +148,12 @@ pDXGIKeyedMutex->ReleaseSync(1);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a>
-
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a>

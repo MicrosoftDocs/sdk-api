@@ -168,7 +168,7 @@ AssocQueryString(ASSOCF_OPEN_BYEXENAME,
 ```
 
 
-Here, <i>pszExecutableName</i> is a pointer to a <b>null</b>-terminated string that specifies the name of the executable file, <i>pszPath</i> is a pointer to the <b>null</b>-terminated string buffer that receives the path to the executable file, and <i>pcchOut</i> is a pointer to a <b>DWORD</b> that specifies the number of characters in the <i>pszPath</i> buffer. When the function returns, <i>pcchOut</i> is set to the number of characters actually placed in the buffer. See <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringa">AssocQueryString</a> for more information.
+Here, <i>pszExecutableName</i> is a pointer to a <b>null</b>-terminated string that specifies the name of the executable file, <i>pszPath</i> is a pointer to the <b>null</b>-terminated string buffer that receives the path to the executable file, and <i>pcchOut</i> is a pointer to a <b>DWORD</b> that specifies the number of characters in the <i>pszPath</i> buffer. When the function returns, <i>pcchOut</i> is set to the number of characters actually placed in the buffer. See <a href="/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringa">AssocQueryString</a> for more information.
 
 When <b>FindExecutable</b> returns, the <i>lpResult</i> parameter may contain the path to the Dynamic Data Exchange (DDE) server started if a server does not respond to a request to initiate a DDE conversation with the DDE client application.
 
@@ -181,5 +181,4 @@ When <b>FindExecutable</b> returns, the <i>lpResult</i> parameter may contain th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>

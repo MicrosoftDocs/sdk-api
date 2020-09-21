@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Do not use. Contains the input information to pass to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopen">WABOpen</a>.
+Do not use. Contains the input information to pass to <a href="/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopen">WABOpen</a>.
 
 ## -struct-fields
 
@@ -100,4 +100,3 @@ Invokes WAB in an Identity-aware session using Identity-Manager based profiles. 
 Type: <b>GUID</b>
 
 Value of type <b>GUID</b> that specifies the GUID that identifies the calling application's property sheet extensions. The GUID can be used to determine whether the extension property sheets are displayed or not. Available only on Internet Explorer 5 or later.
-

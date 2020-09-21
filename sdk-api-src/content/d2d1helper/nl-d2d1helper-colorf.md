@@ -54,5 +54,4 @@ Defines a set of constants that represents known colors and provides convenience
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>
-
+<a href="/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>

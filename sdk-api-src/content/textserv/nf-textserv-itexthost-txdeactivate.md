@@ -56,17 +56,17 @@ Notifies the text host that the control is now inactive.
 
 ### -param lNewState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-New state of the control. Typically it is the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">ITextHost::TxActivate</a>.
+New state of the control. Typically it is the value returned by <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">ITextHost::TxActivate</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+Return the following COM error code if the method fails. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Unspecified error.
 
 ## -remarks
 
-No matter how many times this method is called, only one call to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">ITextHost::TxActivate</a> is necessary to activate the control.
+No matter how many times this method is called, only one call to <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">ITextHost::TxActivate</a> is necessary to activate the control.
 
 ## -see-also
 
@@ -96,7 +96,7 @@ No matter how many times this method is called, only one call to <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -104,9 +104,8 @@ No matter how many times this method is called, only one call to <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">TxActivate</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txactivate">TxActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

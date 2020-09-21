@@ -58,7 +58,7 @@ api_name:
 
 ### -field length
 
-The size, in characters, of the string within the range 0 to <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxStringLength</a>.
+The size, in characters, of the string within the range 0 to <a href="/windows/desktop/NAP/nap-type-constants">maxStringLength</a>.
 
 <div class="alert"><b>Note</b>  <b>length</b> does not include the null terminator.</div>
 <div> </div>
@@ -69,9 +69,8 @@ A pointer to a null-terminated wide character string of size <b>length</b> + 1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

@@ -56,25 +56,25 @@ Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the s
 
 ### -param pSizeX [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the x-dimension of the thread-group grid. The maximum size is 1024.
 
 ### -param pSizeY [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the y-dimension of the thread-group grid. The maximum size is 1024.
 
 ### -param pSizeZ [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to the size, in threads, of the z-dimension of the thread-group grid. The maximum size is 64.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
             
@@ -86,9 +86,8 @@ Returns the total size, in threads, of the thread-group grid by calculating the 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
         
 
-When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch">ID3D12GraphicsCommandList::Dispatch</a> call to issue multiple thread groups.
+When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch">ID3D12GraphicsCommandList::Dispatch</a> call to issue multiple thread groups.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
-
+<a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>

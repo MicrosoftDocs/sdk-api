@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>DOMAIN_CONTROLLER_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to receive  data about a domain controller.
+The <b>DOMAIN_CONTROLLER_INFO</b> structure is used with the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to receive  data about a domain controller.
 
 ## -struct-fields
 
@@ -221,7 +221,7 @@ Pointer to a null-terminated string that specifies the name of the site where th
 
 ### -field ClientSiteName
 
-Pointer to a null-terminated string that specifies the name of the site that the computer belongs to. The computer is specified in the <i>ComputerName</i> parameter passed to <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>. This member may be <b>NULL</b> if the site that contains the computer cannot be found; for example, if the DS administrator has not associated the subnet that the computer is in with a valid site.
+Pointer to a null-terminated string that specifies the name of the site that the computer belongs to. The computer is specified in the <i>ComputerName</i> parameter passed to <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>. This member may be <b>NULL</b> if the site that contains the computer cannot be found; for example, if the DS administrator has not associated the subnet that the computer is in with a valid site.
 
 
 ##### - DomainControllerAddressType.DS_INET_ADDRESS
@@ -310,14 +310,13 @@ The domain controller hosts a writable directory service (or SAM).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
+<a href="/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dsgetdc.h header defines DOMAIN_CONTROLLER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

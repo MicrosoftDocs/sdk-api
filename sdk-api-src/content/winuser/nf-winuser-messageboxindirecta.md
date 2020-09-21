@@ -63,7 +63,7 @@ Creates, displays, and operates a message box. The message box contains applicat
 
 Type: <b>const LPMSGBOXPARAMS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a> structure that contains information used to display the message box.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a> structure that contains information used to display the message box.
 
 ## -returns
 
@@ -192,7 +192,7 @@ The <b>Yes</b> button was selected.
 
 ## -remarks
 
-When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
+When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
 
 If you create a message box while a dialog box is present, use a handle to the dialog box as the <i>hWnd</i> parameter. The <i>hWnd</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -209,21 +209,20 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msgboxparamsa">MSGBOXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
 
 
 
 <b>Reference</b>
-

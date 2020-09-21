@@ -54,7 +54,7 @@ Not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellRunDll</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellRunDll</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellRunDll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellRunDll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellRunDll</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ishellrundll-run">Run</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ishellrundll-run">Run</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -77,4 +77,3 @@ Not currently supported.
 </td>
 </tr>
 </table>
-

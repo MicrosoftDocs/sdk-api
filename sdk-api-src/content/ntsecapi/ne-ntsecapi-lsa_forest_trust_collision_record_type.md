@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_COLLISION_RECORD_TYPE</b> enumeration defines the types of collision that can occur between <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust records.
+The <b>LSA_FOREST_TRUST_COLLISION_RECORD_TYPE</b> enumeration defines the types of collision that can occur between <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust records.
 
 ## -enum-fields
 
 ### -field CollisionTdo
 
-Collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects. This indicates a collision with a namespace element of another forest.
+Collision between <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects. This indicates a collision with a namespace element of another forest.
 
 ### -field CollisionXref
 
@@ -64,9 +64,8 @@ Collision between cross-references. This indicates a collision with a domain in 
 
 ### -field CollisionOther
 
-Collision that is not a collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
+Collision that is not a collision between <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
 
 ## -remarks
 
 This enumeration is used by the <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
-

@@ -56,7 +56,7 @@ Creates a new shared property with the specified index. If a shared property wit
 
 ### -param Index [in]
 
-The numeric index within the <a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedpropertygroup">SharedPropertyGroup</a> object by which the new property is referenced. You can use this index later to retrieve the shared property with the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method.
+The numeric index within the <a href="/windows/desktop/cossdk/sharedpropertygroup">SharedPropertyGroup</a> object by which the new property is referenced. You can use this index later to retrieve the shared property with the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method.
 
 ### -param fExists [out]
 
@@ -76,15 +76,14 @@ When you create a shared property, its value is set to the default, which is a V
 
 
 
-If you create a <a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a> object with the <b>CreatePropertyByPosition</b> method, you can access that property only by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method. You cannot assign a string name to the same property and then access it by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method. Accessing a property by position is faster than accessing a property by using a string name because it requires less overhead.
+If you create a <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a> object with the <b>CreatePropertyByPosition</b> method, you can access that property only by using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method. You cannot assign a string name to the same property and then access it by using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method. Accessing a property by position is faster than accessing a property by using a string name because it requires less overhead.
 
-The same shared property group can contain some <a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a> objects that are identified by position and others that are identified by name.
+The same shared property group can contain some <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a> objects that are identified by position and others that are identified by name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>

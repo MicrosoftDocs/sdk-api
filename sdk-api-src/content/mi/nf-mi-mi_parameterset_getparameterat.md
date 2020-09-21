@@ -56,7 +56,7 @@ Gets a method's parameter information at the specified index.
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
 
 ### -param index
 
@@ -81,4 +81,3 @@ Returned qualifier set of the parameter.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

@@ -53,7 +53,7 @@ api_name:
 The 
 <b>lineGenerateTone</b> function generates the specified inband tone over the specified call. Invoking this function with a zero for <i>dwToneMode</i> aborts the tone generation currently in progress on the specified call. Invoking 
 <b>lineGenerateTone</b> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a> while tone generation is in progress aborts the current tone generation or digit generation and initiates the generation of the newly specified tone or digits.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a> while tone generation is in progress aborts the current tone generation or digit generation and initiates the generation of the newly specified tone or digits.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Handle to the call on which a tone is to be generated. The application must be a
 ### -param dwToneMode
 
 Defines the tone to be generated. Tones can be either standard or custom. A custom tone is composed of a set of arbitrary frequencies. A small number of standard tones are predefined. The duration of the tone is specified with <i>dwDuration</i> for both standard and custom tones. The <i>dwToneMode</i> parameter can only have one bit set. If no bits are set (the value 0 is passed), tone generation is canceled. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a>.
 
 ### -param dwDuration
 
@@ -90,8 +90,8 @@ Number of entries in the <i>lpTones</i> array. This parameter is ignored if <i>d
 ### -param lpTones
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for standard 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a> tones such as LINETONEMODE_BUSY. If <i>lpTones</i> is a multifrequency tone, the various tones are played simultaneously.
+<a href="/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for standard 
+<a href="/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a> tones such as LINETONEMODE_BUSY. If <i>lpTones</i> is a multifrequency tone, the various tones are played simultaneously.
 
 ## -returns
 
@@ -105,27 +105,26 @@ The
 <b>lineGenerateTone</b> function is considered to have completed successfully when the tone generation has been successfully initiated, not when the generation of the tone is finished. The function allows the inband generation of several predefined tones, such as ringback, busy tones, and beep. It also allows for the fabrication of custom tones by specifying their component frequencies, cadence, and volume. Because these tones are generated as inband tones, the call would typically have to be in the <i>connected</i> state for tone generation to be effective. When the generation of the tone is complete, or when tone generation is canceled, a LINE_GENERATE message is sent to the application.
 
 Only one inband generation request (tone generation or digit generation) is allowed to be in progress per call across all applications that are owners of the call. This implies that if tone generation is currently in progress on a call, invoking 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a> cancels the tone generation.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a> cancels the tone generation.
 
 If the LINEERR_INVALPOINTER error value is returned, the specified <i>lpTones</i> parameter is invalid or the value specified by the <i>dwNumTones</i> parameter is too large.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-generate">LINE_GENERATE</a>
+<a href="/windows/desktop/Tapi/line-generate">LINE_GENERATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a>

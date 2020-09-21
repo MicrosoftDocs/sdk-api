@@ -57,7 +57,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 The 
     <b>FSCTL_TXFS_SAVEPOINT_INFORMATION</b> structure 
@@ -138,5 +138,4 @@ If <b>ActionCode</b> is <b>TXFS_SAVEPOINT_CLEAR</b> or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information">FSCTL_TXFS_SAVEPOINT_INFORMATION</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information">FSCTL_TXFS_SAVEPOINT_INFORMATION</a>

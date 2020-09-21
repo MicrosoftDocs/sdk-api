@@ -65,7 +65,7 @@ Receives the volume number for this root directory.
 
 ### -param pSide [out]
 
-Pointer to a variable of type [DVD_DISC_SIDE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_disc_side) that receives the current disc side.
+Pointer to a variable of type [DVD_DISC_SIDE](/windows/desktop/api/strmif/ne-strmif-dvd_disc_side) that receives the current disc side.
 
 ### -param pulNumOfTitles [out]
 
@@ -110,13 +110,12 @@ Some discs can be distributed as part of multidisc set. "Volume" in this context
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

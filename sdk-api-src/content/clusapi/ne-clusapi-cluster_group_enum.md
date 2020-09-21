@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Describes the type of cluster object being enumerated by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> and 
     <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a> functions.
 
 ## -enum-fields
@@ -73,11 +73,11 @@ All the resources in the group and all the nodes in the preferred owners list of
 
 The <b>CLUSTER_GROUP_ENUM_ALL</b> enumeration value is not a valid value for the 
      <i>lpdwType</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> function.
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a>
 
 
 
@@ -85,5 +85,4 @@ The <b>CLUSTER_GROUP_ENUM_ALL</b> enumeration value is not a valid value for the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

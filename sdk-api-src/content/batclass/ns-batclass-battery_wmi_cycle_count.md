@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines information about number of charge cycles of a battery for use with the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
+Defines information about number of charge cycles of a battery for use with the <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The number of charge/discharge cycles the battery has experienced, or zero if th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>

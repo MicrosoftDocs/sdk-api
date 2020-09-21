@@ -64,7 +64,6 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-See **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)** for documentation on how a producer is defined.
+See **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description.md)** for documentation on how a producer is defined.
 
 ## -see-also
-

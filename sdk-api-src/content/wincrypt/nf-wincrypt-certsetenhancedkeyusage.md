@@ -50,34 +50,33 @@ api_name:
 
 ## -description
 
-The <b>CertSetEnhancedKeyUsage</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) property for the certificate. Use of this function replaces any EKUs associated with the certificate. To add a single EKU usage without changing existing usages, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier">CertAddEnhancedKeyUsageIdentifier</a>. To delete a single EKU usage, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremoveenhancedkeyusageidentifier">CertRemoveEnhancedKeyUsageIdentifier</a>.
+The <b>CertSetEnhancedKeyUsage</b> function sets the <a href="/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) property for the certificate. Use of this function replaces any EKUs associated with the certificate. To add a single EKU usage without changing existing usages, use 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier">CertAddEnhancedKeyUsageIdentifier</a>. To delete a single EKU usage, use 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certremoveenhancedkeyusageidentifier">CertRemoveEnhancedKeyUsageIdentifier</a>.
 
 ## -parameters
 
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the specified certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the specified certificate.
 
 ### -param pUsage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (equivalent to a 
-<b>CTL_USAGE</b> structure) that contains an array of EKU <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) to be set as extended properties of the certificate.
+Pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (equivalent to a 
+<b>CTL_USAGE</b> structure) that contains an array of EKU <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) to be set as extended properties of the certificate.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage">CertGetEnhancedKeyUsage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage">CertGetEnhancedKeyUsage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>

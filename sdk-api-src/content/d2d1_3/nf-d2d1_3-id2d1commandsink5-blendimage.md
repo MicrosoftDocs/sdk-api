@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Draws an image to the device context using the specified blend mode. 
-        Results are equivalent to using Direct2D's built-in <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
+        Results are equivalent to using Direct2D's built-in <a href="/windows/desktop/Direct2D/blend">Blend effect</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ The image to be drawn to the device context.
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend modes</a> for more info.
+The blend mode to be used. See <a href="/windows/desktop/Direct2D/blend">Blend modes</a> for more info.
 
 ### -param targetOffset [in, optional]
 
@@ -96,5 +96,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink5">ID2D1CommandSink5</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink5">ID2D1CommandSink5</a>

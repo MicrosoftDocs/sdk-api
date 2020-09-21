@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets a count of the items in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a> message explicitly.
+Gets a count of the items in a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndHD
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -67,4 +67,3 @@ The <b>Header_GetItemCount</b> macro is defined as follows.
 <pre class="syntax" xml:space="preserve"><code>#define Header_GetItemCount(hwndHD)   \
 
        (int)SendMessage((hwndHD), HDM_GETITEMCOUNT, 0, 0L)</code></pre>
-

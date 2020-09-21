@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object, or VPE capture handle.
+The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object, or VPE capture handle.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ Handle to be closed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

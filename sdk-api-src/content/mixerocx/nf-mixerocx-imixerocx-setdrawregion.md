@@ -102,9 +102,8 @@ Either <i>prcDrawCC</i> or <i>lprcClip</i> are <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
+<a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-
+<a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>

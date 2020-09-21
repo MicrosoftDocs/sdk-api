@@ -60,7 +60,7 @@ The <b>CERT_ECC_SIGNATURE</b> structure contains the r and s values for an Ellip
 
 ### -field r
 
-The r value of the ECDSA signature. This value is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> order.
+The r value of the ECDSA signature. This value is in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> order.
 
 ### -field s
 
@@ -69,4 +69,3 @@ The s value of the ECDSA signature. This value is in little-endian order.
 ## -remarks
 
 Before encoding, a leading zero byte will be inserted for the <b>r</b> and <b>s</b> members. After decoding, a leading zero byte will be removed from the <b>r</b> and <b>s</b> members if the leading zero is present.
-

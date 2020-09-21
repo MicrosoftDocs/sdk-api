@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>ICertRequest2</b> interface is one of two interfaces that  provide communications between a client or intermediary application and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a>.
+The <b>ICertRequest2</b> interface is one of two interfaces that  provide communications between a client or intermediary application and <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a>.
 
-Client and intermediary applications can call the  <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest2</a> methods to perform the following tasks:<ul>
+Client and intermediary applications can call the  <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest2</a> methods to perform the following tasks:<ul>
 <li>Submit certificate request.</li>
 <li>Retrieve the disposition, last status, and identifier of a request.</li>
 <li>Retrieve the certificate issued for the request.</li>
 <li>Retrieve pending certificates for previous requests.</li>
-<li>Retrieve the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate for the Certificate Services server.</li>
+<li>Retrieve the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate for the Certificate Services server.</li>
 <li>Retrieve the CA property value, display name, and any flags associated with the property.</li>
 <li>Retrieve the cached response data returned by the server.</li>
 <li>Retrieve error message text for an <b>HRESULT</b> error code.</li>
@@ -70,7 +70,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertRequest2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest2</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertRequest2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,97 +85,96 @@ The <b>ICertRequest2</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcacertificate">GetCACertificate</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getcacertificate">GetCACertificate</a>
 </td>
 <td align="left" width="63%">
-Returns the CA certificate for the Certificate Services server.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Returns the CA certificate for the Certificate Services server.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcaproperty">GetCAProperty</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcaproperty">GetCAProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value from the CA. This method's functionality is identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcapropertydisplayname">GetCAPropertyDisplayName</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcapropertydisplayname">GetCAPropertyDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name for a property. This method's functionality is identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcapropertydisplayname">ICertAdmin2::GetCAPropertyDisplayName</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcapropertydisplayname">ICertAdmin2::GetCAPropertyDisplayName</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcapropertyflags">GetCAPropertyFlags</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getcapropertyflags">GetCAPropertyFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property flags (denoting data type and indexed status) for a property. This method's functionality is identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcapropertyflags">ICertAdmin2::GetCAPropertyFlags</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcapropertyflags">ICertAdmin2::GetCAPropertyFlags</a>.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">GetCertificate</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">GetCertificate</a>
 </td>
 <td align="left" width="63%">
-Returns the certificate issued for the request.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Returns the certificate issued for the request.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getdispositionmessage">GetDispositionMessage</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getdispositionmessage">GetDispositionMessage</a>
 </td>
 <td align="left" width="63%">
-Gets a human-readable message giving the current disposition of the certificate request.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Gets a human-readable message giving the current disposition of the certificate request.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-geterrormessagetext">GetErrorMessageText</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-geterrormessagetext">GetErrorMessageText</a>
 </td>
 <td align="left" width="63%">
 Retrieves message text for a given <b>HRESULT</b> error code.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached response data returned by the server.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getissuedcertificate">GetIssuedCertificate</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getissuedcertificate">GetIssuedCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the disposition of a certificate request.</p> (Inherited from <b>ICertRequest2</b><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getlaststatus">GetLastStatus</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getlaststatus">GetLastStatus</a>
 </td>
 <td align="left" width="63%">
-Gets the last return code for this request.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Gets the last return code for this request.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getrequestid">GetRequestId</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getrequestid">GetRequestId</a>
 </td>
 <td align="left" width="63%">
-Gets the current internal request number for the request and subsequent certificate.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Gets the current internal request number for the request and subsequent certificate.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>
 </td>
 <td align="left" width="63%">
-Attempts to retrieve the certificate issued for an earlier request, that may have initially been made pending.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Attempts to retrieve the certificate issued for an earlier request, that may have initially been made pending.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">Submit</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">Submit</a>
 </td>
 <td align="left" width="63%">
-Submits a request to the Certificate Services server.</p> (Inherited from <b>ICertRequest2</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
+Submits a request to the Certificate Services server.</p> (Inherited from <b>ICertRequest2</b><a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a><b>CCertRequest</b>)</td>
 </tr>
 </table>
-

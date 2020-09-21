@@ -58,11 +58,10 @@ Zero-based index of the font.
 
 ## -returns
 
-Type: **[DWRITE_FONT_SOURCE_TYPE](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type)**
+Type: **[DWRITE_FONT_SOURCE_TYPE](./ne-dwrite_3-dwrite_font_source_type.md)**
 
 The font source type of the specified font.
 
 ## -remarks
 
 ## -see-also
-

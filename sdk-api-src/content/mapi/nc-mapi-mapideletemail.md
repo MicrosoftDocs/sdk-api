@@ -144,17 +144,16 @@ The call succeeded and the message was deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

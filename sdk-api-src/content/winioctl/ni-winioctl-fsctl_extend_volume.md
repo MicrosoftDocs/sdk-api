@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -114,5 +114,4 @@ Resilient File System (ReFS) | Yes
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_SHRINK_VOLUME](ni-winioctl-fsctl_shrink_volume.md)
 * [IOCTL_DISK_GROW_PARTITION](ni-winioctl-ioctl_disk_grow_partition.md)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
-
+* [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)

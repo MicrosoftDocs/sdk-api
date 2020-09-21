@@ -42,7 +42,6 @@ api_name:
 
 Provides axis information for a font resource, and is used to create specific font face instances.
 
-This interface extends [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown).
+This interface extends [IUnknown](../unknwn/nn-unknwn-iunknown.md).
 
 ## -see-also
-

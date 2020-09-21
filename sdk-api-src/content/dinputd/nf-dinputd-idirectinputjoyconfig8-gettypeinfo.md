@@ -56,11 +56,11 @@ The <b>IDirectInputJoyConfig8::GetTypeInfo </b>method obtains information about 
 
 ### -param arg1
 
-Points to the name of the type, previously obtained from a call to <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-enumtypes">IDirectInputJoyConfig8::EnumTypes</a>.
+Points to the name of the type, previously obtained from a call to <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-enumtypes">IDirectInputJoyConfig8::EnumTypes</a>.
 
 ### -param arg2
 
-Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure before calling this method.
+Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure before calling this method.
 
 ### -param arg3
 
@@ -124,4 +124,3 @@ The joystick type was not found.
 </td>
 </tr>
 </table>
-

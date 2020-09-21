@@ -57,9 +57,9 @@ Deprecated. Allows the derived class to specify a navigation record to be used i
 
 ### -param ptl [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>*</b>
+Type: <b><a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>*</b>
 
-A pointer to an existing <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a> object to be used for the new window.
+A pointer to an existing <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a> object to be used for the new window.
 
 ### -param dw [in]
 
@@ -72,4 +72,3 @@ The new browser window's ID.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

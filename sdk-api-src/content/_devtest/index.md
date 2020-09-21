@@ -16,5 +16,4 @@ Overview of the Driver Development Tools Reference technology.
 The Driver Development Tools Reference technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Driver Development Tools Reference](https://docs.microsoft.com/windows-hardware/drivers/devtest/)
-
+* [Driver Development Tools Reference](/windows-hardware/drivers/devtest/)

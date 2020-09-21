@@ -61,7 +61,7 @@ Reserved. This value should be set to 0.
 
 ### -field NonVendorOptions
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the set of non-vendor options.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the set of non-vendor options.
 
 ### -field NumVendorOptions
 
@@ -69,7 +69,7 @@ Specifies the number of vendor options listed in <b>VendorOptions</b>.
 
 ### -field Option
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains specific information describing the option.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains specific information describing the option.
 
 ### -field VendorName
 

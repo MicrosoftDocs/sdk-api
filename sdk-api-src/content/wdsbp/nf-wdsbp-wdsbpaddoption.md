@@ -56,7 +56,7 @@ Adds an option to the packet.
 
 ### -param hHandle [in]
 
-A handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
+A handle returned by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
 
 ### -param uOption [in]
 
@@ -73,4 +73,3 @@ A pointer to a location that contains the value for the option.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

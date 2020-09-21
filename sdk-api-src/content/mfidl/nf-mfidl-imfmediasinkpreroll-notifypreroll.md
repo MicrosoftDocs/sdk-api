@@ -57,7 +57,7 @@ Notifies the media sink that the presentation clock is about to start.
 
 ### -param hnsUpcomingStartTime [in]
 
-The upcoming start time for the presentation clock, in 100-nanosecond units. This time is the same value that will be given to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method when the presentation clock is started.
+The upcoming start time for the presentation clock, in 100-nanosecond units. This time is the same value that will be given to the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method when the presentation clock is started.
 
 ## -returns
 
@@ -65,20 +65,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-After this method is called, the media sink sends any number of <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> events to request samples, until is has enough preroll data. When it has enough preroll data, the media sink sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkprerolled">MEStreamSinkPrerolled</a> event. This event signals that the client can start the presentation clock.
+After this method is called, the media sink sends any number of <a href="/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> events to request samples, until is has enough preroll data. When it has enough preroll data, the media sink sends an <a href="/windows/desktop/medfound/mestreamsinkprerolled">MEStreamSinkPrerolled</a> event. This event signals that the client can start the presentation clock.
       
 
 During preroll, the media sink can prepare the samples that it receives, so that they are ready to be rendered. It does not actually render any samples until the clock starts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasinkpreroll">IMFMediaSinkPreroll</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasinkpreroll">IMFMediaSinkPreroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
+<a href="/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

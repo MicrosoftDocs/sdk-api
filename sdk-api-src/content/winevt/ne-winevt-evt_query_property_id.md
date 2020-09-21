@@ -70,5 +70,4 @@ This enumeration value marks the end of the enumeration values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetqueryinfo">EvtGetQueryInfo</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetqueryinfo">EvtGetQueryInfo</a>

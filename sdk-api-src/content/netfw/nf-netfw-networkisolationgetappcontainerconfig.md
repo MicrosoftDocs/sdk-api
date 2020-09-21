@@ -65,7 +65,7 @@ The number of app containers in the <b>appContainerSids</b> member.
 
 ### -param appContainerSids [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
 
 The security identifiers (SIDs) of app containers that are allowed to send loopback traffic. Used for debugging purposes.
 
@@ -159,4 +159,3 @@ Cleanup:
 }
 
 ```
-

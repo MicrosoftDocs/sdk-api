@@ -54,7 +54,7 @@ api_name:
 
 Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisunca">PathIsUNC</a> in that it also allows you to extract the name of the server from the path.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathisunca">PathIsUNC</a> in that it also allows you to extract the name of the server from the path.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ A pointer to a string that, when this function returns successfully, receives th
 ## -returns
 
 Returns <b>TRUE</b> if the string is a valid UNC path; otherwise, <b>FALSE</b>.
-

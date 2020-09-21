@@ -52,11 +52,11 @@ api_name:
 
 The <b>IWMProfile3</b> interface provides enhanced features for profiles. This includes the ability to create two new types of objects: bandwidth sharing objects and stream prioritization objects.
 
-An <b>IWMProfile3</b> interface is created for each profile object created. You can retrieve a pointer to an <b>IWMProfile3</b> interface by calling the <b>QueryInterface</b> method of any other interface of the profile. You can also access <b>IWMProfile3</b> from a reader or synchronous reader object by calling the <b>QueryInterface</b> method of an existing interface in the object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>.
+An <b>IWMProfile3</b> interface is created for each profile object created. You can retrieve a pointer to an <b>IWMProfile3</b> interface by calling the <b>QueryInterface</b> method of any other interface of the profile. You can also access <b>IWMProfile3</b> from a reader or synchronous reader object by calling the <b>QueryInterface</b> method of an existing interface in the object. For more information, see <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMProfile3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>. <b>IWMProfile3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMProfile3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>. <b>IWMProfile3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMProfile3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing">AddBandwidthSharing</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing">AddBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Adds an existing bandwidth sharing object to the profile.
@@ -80,7 +80,7 @@ Adds an existing bandwidth sharing object to the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing">CreateNewBandwidthSharing</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing">CreateNewBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Creates a new bandwidth sharing object.
@@ -89,7 +89,7 @@ Creates a new bandwidth sharing object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewstreamprioritization">CreateNewStreamPrioritization</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewstreamprioritization">CreateNewStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream prioritization object.
@@ -98,7 +98,7 @@ Creates a new stream prioritization object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing">GetBandwidthSharing</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing">GetBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Obtains a pointer to the <b>IWMBandwidthSharing</b> interface of an existing bandwidth sharing object.
@@ -107,7 +107,7 @@ Obtains a pointer to the <b>IWMBandwidthSharing</b> interface of an existing ban
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount">GetBandwidthSharingCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount">GetBandwidthSharingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bandwidth sharing objects that exist in the profile.
@@ -116,16 +116,16 @@ Retrieves the number of bandwidth sharing objects that exist in the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getexpectedpacketcount">GetExpectedPacketCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getexpectedpacketcount">GetExpectedPacketCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the expected number of <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packets</a> for a specified duration.
+Retrieves the expected number of <a href="/windows/desktop/wmformat/wmformat-glossary">packets</a> for a specified duration.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstorageformat">GetStorageFormat</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstorageformat">GetStorageFormat</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -135,7 +135,7 @@ Not implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization">GetStreamPrioritization</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization">GetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream prioritization object associated with the profile.
@@ -144,7 +144,7 @@ Retrieves the stream prioritization object associated with the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removebandwidthsharing">RemoveBandwidthSharing</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removebandwidthsharing">RemoveBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Removes a bandwidth sharing object from the profile.
@@ -153,7 +153,7 @@ Removes a bandwidth sharing object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization">RemoveStreamPrioritization</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization">RemoveStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Removes a stream prioritization object from the profile.
@@ -162,7 +162,7 @@ Removes a stream prioritization object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-setstorageformat">SetStorageFormat</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-setstorageformat">SetStorageFormat</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -172,7 +172,7 @@ Not implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-setstreamprioritization">SetStreamPrioritization</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-setstreamprioritization">SetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Assigns a stream prioritization object to the profile.
@@ -185,29 +185,28 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
+<a href="/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
-
+<a href="/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>

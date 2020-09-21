@@ -83,9 +83,8 @@ Method completed successfully.
 
 ## -remarks
 
-<b>Abort</b> waits for all pending callbacks set with <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a> to complete before returning to the caller.
+<b>Abort</b> waits for all pending callbacks set with <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a> to complete before returning to the caller.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

@@ -56,7 +56,7 @@ Specifies the subresource from a multisampled 2D texture that is accessible to a
 
 ### -field UnusedField_NothingToDefine
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Unused.
 
@@ -66,5 +66,4 @@ Because a multisampled 2D texture contains a single subtexture, there is nothing
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>

@@ -76,15 +76,14 @@ Returns zero if successful or an error otherwise. The return value AVIERR_READON
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamwrite">AVIStreamWrite</a> function to write the multimedia content of the stream. Use <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilewritedata">AVIFileWriteData</a> to write data that applies to an entire file.
+Use the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamwrite">AVIStreamWrite</a> function to write the multimedia content of the stream. Use <a href="/windows/desktop/api/vfw/nf-vfw-avifilewritedata">AVIFileWriteData</a> to write data that applies to an entire file.
 
-The argument <i>pavi</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
+The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

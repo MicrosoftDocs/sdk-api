@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the power-saving level of a video decoder. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoswpowerlevel-property">AVDecVideoSWPowerLevel</a> property.
+Specifies the power-saving level of a video decoder. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecvideoswpowerlevel-property">AVDecVideoSWPowerLevel</a> property.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ Optimize for video quality.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

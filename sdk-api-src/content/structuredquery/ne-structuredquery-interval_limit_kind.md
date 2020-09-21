@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-These values are returned by <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iinterval-getlimits">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
+These values are returned by <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iinterval-getlimits">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ This is typically used as a lower bound. The specified value is ignored because 
 ### -field ILK_POSITIVE_INFINITY
 
 This is typically used as an upper bound. The specified value is ignored because the range begins (or ends) at positive infinity. For example, an integer range that includes every value greater than or equal to 3 would have <b>ILK_EXPLICIT_INCLUDED</b> and 3 for the lower bound and <b>ILK_POSITIVE_INFINITY</b> for the upper bound.
-

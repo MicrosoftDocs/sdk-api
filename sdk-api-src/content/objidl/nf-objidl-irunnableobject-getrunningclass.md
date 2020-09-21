@@ -64,9 +64,8 @@ This method can return the standard return values E_INVALIDARG, E_UNEXPECTED, an
 
 ## -remarks
 
-If an embedded document was created by an application that is not available on the user's computer, the document, by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a>, may be able to display itself for editing by emulating a class that is supported on the user's machine. In this case, the CLSID returned by a call to <b>IRunnableObject::GetRunningClass</b> will be that of the class being emulated, rather than the document's native class.
+If an embedded document was created by an application that is not available on the user's computer, the document, by a call to <a href="/windows/desktop/api/objbase/nf-objbase-cotreatasclass">CoTreatAsClass</a>, may be able to display itself for editing by emulating a class that is supported on the user's machine. In this case, the CLSID returned by a call to <b>IRunnableObject::GetRunningClass</b> will be that of the class being emulated, rather than the document's native class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>

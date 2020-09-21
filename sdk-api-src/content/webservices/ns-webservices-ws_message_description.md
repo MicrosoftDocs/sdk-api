@@ -52,25 +52,24 @@ api_name:
 
 ## -description
 
-The schema for the input/output <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given operation description.
+The schema for the input/output <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> for a given operation description.
 
 ## -struct-fields
 
 ### -field action
 
-The action associated with the respective input/output <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
+The action associated with the respective input/output <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
                 
 
 If the message does not have an action, this field can be <b>NULL</b>.
 
 ### -field bodyElementDescription
 
-The description of the value within the body of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
+The description of the value within the body of the <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
                 
 
 If <b>NULL</b>, then the message body is assumed to be empty.
                 
 
 If non-<b>NULL</b>, this value is read or written as described in
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
-
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.

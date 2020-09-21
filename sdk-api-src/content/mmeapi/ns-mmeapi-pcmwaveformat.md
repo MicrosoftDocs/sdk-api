@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PCMWAVEFORMAT</b> structure describes the data format for PCM waveform-audio data. This structure has been superseded by the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+The <b>PCMWAVEFORMAT</b> structure describes the data format for PCM waveform-audio data. This structure has been superseded by the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -struct-fields
 
@@ -72,13 +72,12 @@ Number of bits per sample.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

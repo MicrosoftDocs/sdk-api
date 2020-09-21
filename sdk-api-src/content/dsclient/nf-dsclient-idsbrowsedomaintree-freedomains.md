@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>IDsBrowseDomainTree::FreeDomains</b> method frees the memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
+The <b>IDsBrowseDomainTree::FreeDomains</b> method frees the memory allocated by the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
 
 ## -parameters
 
 ### -param ppDomainTree [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> data structure.
+<a href="/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> data structure.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>

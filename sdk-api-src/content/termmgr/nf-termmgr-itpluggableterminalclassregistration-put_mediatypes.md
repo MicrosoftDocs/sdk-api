@@ -58,7 +58,7 @@ The
 ### -param nMediaTypes [in]
 
 Bitwise ORed list of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a> supported by the terminal.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media types</a> supported by the terminal.
 
 ## -returns
 
@@ -66,9 +66,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration</a>
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_mediatypes">get_MediaTypes</a>
-
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_mediatypes">get_MediaTypes</a>

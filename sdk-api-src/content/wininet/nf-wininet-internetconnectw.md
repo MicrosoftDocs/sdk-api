@@ -59,7 +59,7 @@ Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 ### -param hInternet [in]
 
 Handle returned by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>.
 
 ### -param lpszServerName [in]
 
@@ -208,7 +208,7 @@ HTTP service.
 
 Options specific to the service used. If  
 <i>dwService</i> is INTERNET_SERVICE_FTP, 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_PASSIVE</a> causes the application to use passive FTP semantics.
+<a href="/windows/desktop/WinInet/api-flags">INTERNET_FLAG_PASSIVE</a> causes the application to use passive FTP semantics.
 
 ### -param dwContext [in]
 
@@ -217,8 +217,8 @@ Pointer to a variable that contains an application-defined value that is used to
 ## -returns
 
 Returns a valid handle to the session if the connection is successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> to determine why access to the service was denied.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> to determine why access to the service was denied.
 
 ## -remarks
 
@@ -270,12 +270,12 @@ For maximum efficiency, applications using the HTTP protocols should try to mini
 <b>InternetConnect</b>; when the user makes a request to a previously accessed server, that session handle is still available.
 
 After the calling application has finished using the 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
 <b>InternetConnect</b>, it must be closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
 
 
-<b>Note</b>  When a request is sent asynchronous mode (the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the connection handle will not be called, however, the call will still be performed in asynchronous mode.  
+<b>Note</b>  When a request is sent asynchronous mode (the <i>dwFlags</i> parameter of <a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the connection handle will not be called, however, the call will still be performed in asynchronous mode.  
 
 
 
@@ -284,17 +284,17 @@ Examples of <b>InternetConnect</b> usage can be found in the following topics.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-authentication">Handling Authentication</a>
+<a href="/windows/desktop/WinInet/handling-authentication">Handling Authentication</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/asynchronous-example-application">Asynchronous Example Application</a>
+<a href="/windows/desktop/WinInet/asynchronous-example-application">Asynchronous Example Application</a>
 </li>
 </ul>
 
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -305,9 +305,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

@@ -57,9 +57,9 @@ Get the type of the resource.
 
 ### -param pResourceDimension [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_dimension">D3D11_RESOURCE_DIMENSION</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_dimension">D3D11_RESOURCE_DIMENSION</a>*</b>
 
-Pointer to the resource type (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_dimension">D3D11_RESOURCE_DIMENSION</a>).
+Pointer to the resource type (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_dimension">D3D11_RESOURCE_DIMENSION</a>).
 
 ## -remarks
 
@@ -68,5 +68,4 @@ Pointer to the resource type (see <a href="https://docs.microsoft.com/windows/de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>

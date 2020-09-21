@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains extended parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
+Contains extended parameters for the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -82,5 +82,4 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>

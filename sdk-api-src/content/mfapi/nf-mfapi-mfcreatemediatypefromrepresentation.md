@@ -75,7 +75,7 @@ Pointer to a buffer that contains the format representation to convert. The layo
 
 ### -param ppIMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -121,13 +121,13 @@ If the original format is a DirectShow audio media type, and the format type is 
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-am-format-type-attribute">MF_MT_AM_FORMAT_TYPE</a>
+<a href="/windows/desktop/medfound/mf-mt-am-format-type-attribute">MF_MT_AM_FORMAT_TYPE</a>
 </td>
 <td>Contains the format type GUID.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-user-data-attribute">MF_MT_USER_DATA</a>
+<a href="/windows/desktop/medfound/mf-mt-user-data-attribute">MF_MT_USER_DATA</a>
 </td>
 <td>Contains the format block.</td>
 </tr>
@@ -135,5 +135,4 @@ If the original format is a DirectShow audio media type, and the format type is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

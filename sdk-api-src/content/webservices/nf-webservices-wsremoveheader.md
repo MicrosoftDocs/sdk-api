@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes the standard <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> object from a message.
+Removes the standard <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> object from a message.
                 
                 The function is designed to handle types of headers that appear once in the
                 message and are targeted at the ultimate receiver.  Headers targeted
                 with a role other than ultimate receiver are ignored.
 
-For application-defined header types use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function.
+For application-defined header types use the <a href="/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ Indicates the type of header to be removed.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -121,4 +121,3 @@ This function may return other errors not listed above.
 
 If a header of the given type exists in the message it is removed.  If the header does not exist, no action is taken
                 and the function completes successfully.
-

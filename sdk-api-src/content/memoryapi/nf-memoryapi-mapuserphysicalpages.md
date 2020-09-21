@@ -58,10 +58,10 @@ api_name:
 
 Maps 
     previously allocated physical memory pages at a specified address in an 
-    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region.
+    <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region.
 
 To perform batch mapping and unmapping of multiple regions, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a> function.
 
 <b>64-bit Windows on Itanium-based systems:  </b>Due to the difference in page sizes, 
      <b>MapUserPhysicalPages</b> is not supported for 32-bit 
@@ -75,7 +75,7 @@ A pointer to the starting address of the region of memory to remap.
 
 The value of 
       <i>lpAddress</i> must be within the address range that the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function returns when the <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region is 
+      <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function returns when the <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region is 
       allocated.
 
 ### -param NumberOfPages [in]
@@ -88,7 +88,7 @@ The
 
 The total number of pages cannot extend from the 
       starting address beyond the end of the range that is specified in 
-      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>.
+      <a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>.
 
 ### -param PageArray [in]
 
@@ -104,7 +104,7 @@ Do not attempt to modify this buffer. It contains operating system data, and cor
        catastrophic. The information in the buffer is not useful to an application.
 
 If this parameter is <b>NULL</b>, the specified address range is unmapped.  Also, the specified physical pages are not 
-       freed, and you must call <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to 
+       freed, and you must call <a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to 
        free them.
 
 ## -returns
@@ -113,21 +113,21 @@ If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b> and no mapping is done—partial or otherwise. 
        To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The physical pages are unmapped but they are not freed. You must call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the 
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the 
     physical pages.
 
 Any number of physical memory pages can be specified, but the memory must  not extend outside the virtual 
-    address space that <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> allocates. Any 
+    address space that <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> allocates. Any 
     existing address maps are automatically overwritten with the new translations, and the old translations are 
     unmapped.
 
 You cannot map physical memory pages outside the range that is specified in 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>. You 
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>. You 
     can map multiple regions simultaneously, but they cannot overlap.
 
 Physical pages can be located at any physical address, but do not make assumptions about the contiguity of the 
@@ -135,40 +135,39 @@ Physical pages can be located at any physical address, but do not make assumptio
 
 To unmap the current address range, specify <b>NULL</b> as the physical memory page array parameter. Any 
     currently mapped pages are unmapped, but are not freed. You must call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the 
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the 
     physical pages.
 
 In a multiprocessor environment, this function maintains hardware translation buffer coherence. On return 
     from this function, all threads on all processors are guaranteed to see the correct mapping.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more 
-    information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
+    information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
     Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/awe-example">AWE Example</a>.
+For an example, see <a href="/windows/desktop/Memory/awe-example">AWE Example</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
+<a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
-
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

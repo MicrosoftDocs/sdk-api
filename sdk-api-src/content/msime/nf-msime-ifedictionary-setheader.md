@@ -52,13 +52,13 @@ api_name:
 
 Sets a dictionary header in a dictionary file.
 
-This method sets or modifies the dictionary header of this <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
+This method sets or modifies the dictionary header of this <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
 
 ## -parameters
 
 ### -param pshf [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header to set.
+The <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header to set.
 
 ## -returns
 
@@ -66,9 +66,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imesh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>

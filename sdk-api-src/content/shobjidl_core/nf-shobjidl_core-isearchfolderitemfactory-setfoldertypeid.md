@@ -56,7 +56,7 @@ Sets a search folder type ID, as specified.
 
 ### -param ftid [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a></b>
+Type: <b><a href="/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a></b>
 
 The FOLDERTYPEID, which is a <b>GUID</b> used to identify folder types within the system. The default is <b>FOLDERTYPID_Library</b>
 
@@ -65,4 +65,3 @@ The FOLDERTYPEID, which is a <b>GUID</b> used to identify folder types within th
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

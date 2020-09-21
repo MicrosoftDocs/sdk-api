@@ -59,7 +59,7 @@ Notification method signaling a device service state change event from the Mobil
 
 ### -param deviceService [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object for which the event notification was received.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object for which the event notification was received.
 
 ### -param eventID [in]
 
@@ -97,5 +97,4 @@ The <i>deviceServiceData</i> byte array contains the byte-by-byte copy of data r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>

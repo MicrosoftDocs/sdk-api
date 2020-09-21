@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getorigin">LVM_GETORIGIN</a> message explicitly.
+Gets the current view origin for a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getorigin">LVM_GETORIGIN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -64,5 +64,4 @@ A handle to the list-view control.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the view origin.
-
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the view origin.

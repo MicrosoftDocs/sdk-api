@@ -56,14 +56,14 @@ api_name:
 ## -description
 
 The <b>GetHGlobalFromStream</b> function retrieves the global memory handle to a stream that was created through a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> function.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> function.
 
 ## -parameters
 
 ### -param pstm [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream object previously created by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> function.
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream object previously created by a call to the 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a> function.
 
 ### -param phglobal [out]
 
@@ -75,15 +75,14 @@ This function returns HRESULT.
 
 ## -remarks
 
-The handle <b>GetHGlobalFromStream</b> returns may be different from the original handle due to intervening <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> calls.
+The handle <b>GetHGlobalFromStream</b> returns may be different from the original handle due to intervening <a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> calls.
 
 This function can be called only from within the same process from which the byte array was created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal">CreateStreamOnHGlobal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a>

@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Frees the memory specified by the 
-			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a> function to unpack the 
+			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a> function to unpack the 
 			<i>lParam</i> value.
 
 ## -parameters
@@ -93,7 +93,7 @@ This function frees the memory specified by the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -101,7 +101,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
 
 
 
@@ -109,9 +109,8 @@ This function frees the memory specified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
-
+<a href="/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>

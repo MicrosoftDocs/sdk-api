@@ -57,15 +57,15 @@ The <b>GetFixedPropertyAttributes</b> method retrieves the standard property att
 
 ### -param Format [in]
 
-A <b>REFGUID</b> that specifies the format of the objects of interest. For format <b>GUID</b> values, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/object-format-guids">Object Formats</a>.
+A <b>REFGUID</b> that specifies the format of the objects of interest. For format <b>GUID</b> values, see <a href="/windows/desktop/wpd_sdk/object-format-guids">Object Formats</a>.
 
 ### -param Key [in]
 
-A <b>REFPROPERTYKEY</b> that specifies the property that you want to know the attributes of. Properties defined by Windows Portable Devices are listed in <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/properties-and-attributes">Properties and Attributes</a>.
+A <b>REFPROPERTYKEY</b> that specifies the property that you want to know the attributes of. Properties defined by Windows Portable Devices are listed in <a href="/windows/desktop/wpd_sdk/properties-and-attributes">Properties and Attributes</a>.
 
 ### -param ppAttributes [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that holds the attributes and their values. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that holds the attributes and their values. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -99,9 +99,8 @@ Attributes describe properties. Example attributes are <b>WPD_PROPERTY_ATTRIBUTE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">IPortableDeviceProperties::GetPropertyAttributes</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">IPortableDeviceProperties::GetPropertyAttributes</a>

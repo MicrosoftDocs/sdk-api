@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>GetWindowsAccountDomainSid</b> function receives a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and returns a SID representing the domain of that SID.
+The <b>GetWindowsAccountDomainSid</b> function receives a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and returns a SID representing the domain of that SID.
 
 ## -parameters
 
@@ -77,5 +77,4 @@ A pointer to a <b>DWORD</b> that <b>GetWindowsAccountDomainSid</b> fills with th
 Returns <b>TRUE</b> if successful.
 
 Otherwise, returns <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

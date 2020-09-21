@@ -75,9 +75,8 @@ The  number of blocks available for sparing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info">FSCTL_QUERY_SPARING_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info">FSCTL_QUERY_SPARING_INFO</a>

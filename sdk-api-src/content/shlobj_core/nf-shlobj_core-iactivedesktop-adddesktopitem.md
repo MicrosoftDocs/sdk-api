@@ -58,7 +58,7 @@ Adds a desktop item.
 
 Type: <b>LPCCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that specifies the item to be added.
+A pointer to the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that specifies the item to be added.
 
 ### -param dwReserved
 
@@ -114,13 +114,12 @@ Desktop item has been added succesfully.
 
 ## -remarks
 
-The desktop item is added to the desktop, but it does not save it to the registry. The client application must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry.
+The desktop item is added to the desktop, but it does not save it to the registry. The client application must call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
-
+<a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>

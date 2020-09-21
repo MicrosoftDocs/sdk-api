@@ -64,15 +64,14 @@ This method returns S_OK to indicate that the size was retrieved successfully.
 
 ## -remarks
 
-This method returns the size needed to save an object. You can call this method to determine the size and set the necessary buffers before calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
+This method returns the size needed to save an object. You can call this method to determine the size and set the necessary buffers before calling the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The <b>GetSizeMax</b> implementation should return a conservative estimate of the necessary size because the caller might call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method with a non-growable stream.
+The <b>GetSizeMax</b> implementation should return a conservative estimate of the necessary size because the caller might call the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method with a non-growable stream.
 
 <h3><a id="URL_Moniker_Notes"></a><a id="url_moniker_notes"></a><a id="URL_MONIKER_NOTES"></a>URL Moniker Notes</h3>
-This method retrieves the maximum number of bytes in the stream that will be required by a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a>. This value is sizeof(ULONG)==4 plus sizeof(WCHAR)*n where n is the length of the full or partial URL string, including the NULL terminator.
+This method retrieves the maximum number of bytes in the stream that will be required by a subsequent call to <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a>. This value is sizeof(ULONG)==4 plus sizeof(WCHAR)*n where n is the length of the full or partial URL string, including the NULL terminator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>

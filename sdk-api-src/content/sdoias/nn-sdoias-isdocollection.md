@@ -55,7 +55,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISdoCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add">Add</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -79,7 +79,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get_count">get_Count</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of the number of items in the collection.
@@ -88,7 +88,7 @@ Retrieves a count of the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">get_NewEnum</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">get_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration interface for the collection.
@@ -97,7 +97,7 @@ Returns an enumeration interface for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique">IsNameUnique</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique">IsNameUnique</a>
 </td>
 <td align="left" width="63%">
 Tests whether an item name is unique in the collection.
@@ -106,7 +106,7 @@ Tests whether an item name is unique in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-item">Item</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-item">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the collection.
@@ -115,7 +115,7 @@ Retrieves an item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-reload">Reload</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-reload">Reload</a>
 </td>
 <td align="left" width="63%">
 Reloads all items in the collection from the underlying datastore.
@@ -124,7 +124,7 @@ Reloads all items in the collection from the underlying datastore.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-remove">Remove</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -133,7 +133,7 @@ Removes an item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-removeall">RemoveAll</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the collection.
@@ -145,22 +145,21 @@ Removes all items from the collection.
 ## -remarks
 
 To obtain a collection, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">ISdo::GetProperty</a>, specifying a collection's property. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection">Retrieving a Collection</a>.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">ISdo::GetProperty</a>, specifying a collection's property. For more information, see 
+<a href="/windows/desktop/Nps/sdo-retrieving-a-collection">Retrieving a Collection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-collections">Collections</a>
+<a href="/windows/desktop/Nps/sdo-collections">Collections</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
+<a href="/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>
-
+<a href="/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>

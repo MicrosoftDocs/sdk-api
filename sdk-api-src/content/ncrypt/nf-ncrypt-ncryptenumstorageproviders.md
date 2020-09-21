@@ -60,9 +60,9 @@ The address of a <b>DWORD</b> to receive the number of elements in the <i>ppProv
 
 ### -param ppProviderList [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncryptprovidername">NCryptProviderName</a> structure pointer to receive an array of the registered key storage provider names. The variable pointed to by the <i>pdwProviderCount</i> parameter receives the number of elements in this array.
+The address of an <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncryptprovidername">NCryptProviderName</a> structure pointer to receive an array of the registered key storage provider names. The variable pointed to by the <i>pdwProviderCount</i> parameter receives the number of elements in this array.
 
-When this memory is no longer needed, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
+When this memory is no longer needed, free it by passing this pointer to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 ### -param dwFlags [in]
 
@@ -147,9 +147,8 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a>

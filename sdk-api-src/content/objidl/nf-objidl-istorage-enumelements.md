@@ -69,7 +69,7 @@ Reserved for future use; must be zero.
 ### -param ppenum [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>* pointer variable that receives the interface pointer to the new enumerator object.
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>* pointer variable that receives the interface pointer to the new enumerator object.
 
 ## -returns
 
@@ -78,25 +78,24 @@ This method can return one of these values.
 ## -remarks
 
 The enumerator object returned by this method implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface, one of the standard enumerator interfaces that contain the <b>Next</b>, <b>Reset</b>, 
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface, one of the standard enumerator interfaces that contain the <b>Next</b>, <b>Reset</b>, 
 <b>Clone</b>, and <b>Skip</b> methods. 
 <b>IEnumSTATSTG</b> enumerates the data stored in an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures.
 
 The storage object must be open in read mode to allow the enumeration of its elements.
 
 The order in which the elements are enumerated and whether the enumerator is a snapshot or always reflects the current state of the storage object, and depends on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> implementation.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> implementation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>

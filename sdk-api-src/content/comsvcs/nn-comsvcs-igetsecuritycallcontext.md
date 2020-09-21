@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Retrieves a reference to an object created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
+Retrieves a reference to an object created from the <a href="/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetSecurityCallContext</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetSecurityCallContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IGetSecurityCallContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext">GetSecurityClassContext</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext">GetSecurityClassContext</a>
 </td>
 <td align="left" width="63%">
-Retrieves a reference to an object created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
+Retrieves a reference to an object created from the <a href="/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
 
 </td>
 </tr>
@@ -80,13 +80,12 @@ Retrieves a reference to an object created from the <a href="https://docs.micros
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a>
-
+<a href="/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a>

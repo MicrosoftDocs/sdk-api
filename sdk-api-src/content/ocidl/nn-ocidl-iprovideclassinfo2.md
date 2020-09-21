@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a> that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
+An extension to <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a> that makes is faster and easier to retrieve an object's outgoing interface IID for its default event set.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IProvideClassInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iprovideclassinfo2-getguid">GetGUID</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iprovideclassinfo2-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified GUID for the object.
@@ -77,4 +77,3 @@ Retrieves the specified GUID for the object.
 </td>
 </tr>
 </table>
-

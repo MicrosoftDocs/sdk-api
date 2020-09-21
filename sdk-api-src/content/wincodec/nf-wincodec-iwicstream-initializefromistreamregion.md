@@ -56,7 +56,7 @@ Initializes the stream as a substream of another stream.
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to the input stream.
 
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The stream functions with its own stream position, independent of the underlying stream but restricted to a region.  All seek positions are relative to the sub region.  It is allowed, though not recommended, to have multiple writable sub streams overlapping the same range.
-

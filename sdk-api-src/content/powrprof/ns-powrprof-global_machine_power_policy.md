@@ -56,15 +56,15 @@ api_name:
 
 Contains global computer power policy settings that apply to all power schemes for all 
    users. This structure is part of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure.
+   <a href="/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure.
 
 ## -struct-fields
 
 ### -field Revision
 
 The current structure revision level. Set this value by calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-getcurrentpowerpolicies">GetCurrentPowerPolicies</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-readglobalpwrpolicy">ReadGlobalPwrPolicy</a> before using a 
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-getcurrentpowerpolicies">GetCurrentPowerPolicies</a> or 
+      <a href="/windows/desktop/api/powrprof/nf-powrprof-readglobalpwrpolicy">ReadGlobalPwrPolicy</a> before using a 
       <b>GLOBAL_MACHINE_POWER_POLICY</b> structure 
       to set power policy.
 
@@ -72,7 +72,7 @@ The current structure revision level. Set this value by calling
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on AC power. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 
@@ -80,7 +80,7 @@ The maximum power state (highest Sx value) from which a lid-open event should wa
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on battery. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 
@@ -91,5 +91,4 @@ The resolution of change in the current battery capacity that should cause the s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
-
+<a href="/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>

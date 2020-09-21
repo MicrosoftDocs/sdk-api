@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a> structure.
 
 ## -parameters
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point of the arc.
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The x-radius and y-radius of the arc.
 
@@ -74,23 +74,22 @@ The number of degrees that the ellipse is rotated relative to the current coordi
 
 ### -param sweepDirection [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction">D2D1_SWEEP_DIRECTION</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction">D2D1_SWEEP_DIRECTION</a></b>
 
 A value that specifies whether the arc sweep is clockwise or counterclockwise.
 
 ### -param arcSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE</a></b>
 
 A value  that specifies whether the arc is larger than 180 degrees.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a></b>
 
 The new arc segment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>

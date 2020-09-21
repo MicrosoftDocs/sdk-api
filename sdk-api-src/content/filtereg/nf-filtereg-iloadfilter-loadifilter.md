@@ -60,11 +60,11 @@ Pointer to a comma-delimited null-terminated Unicode string buffer that specifie
 
 ### -param pFilteredSources [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a> structure that specifies parameters for a Shell data source for which a filter is loaded. This parameter cannot be null.
+Pointer to the <a href="/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a> structure that specifies parameters for a Shell data source for which a filter is loaded. This parameter cannot be null.
 
 ### -param pUnkOuter [in]
 
-If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate.
+If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate.
 
 ### -param fUseDefault [in]
 
@@ -84,7 +84,7 @@ Not implemented.
 
 ### -param ppIFilt [in, out]
 
-The address of a pointer to an implementation of an <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface that <b>LoadIFilter</b> selects.
+The address of a pointer to an implementation of an <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface that <b>LoadIFilter</b> selects.
 
 ## -returns
 
@@ -92,11 +92,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.
 
-<b>ILoadFilter</b> attempts to load a filter that can process a Shell data source of the type specified in the <i>pFilteredSources</i> parameter through the <i>pwcsPath</i> parameter.If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>false</b>, this method returns null in the <i>ppIFilt</i> parameter. If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>true</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface on the default <b>IFilter</b> is returned in the <i>ppIFilt</i> parameter.
+<b>ILoadFilter</b> attempts to load a filter that can process a Shell data source of the type specified in the <i>pFilteredSources</i> parameter through the <i>pwcsPath</i> parameter.If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>false</b>, this method returns null in the <i>ppIFilt</i> parameter. If an appropriate filter for the data source is not found, and <i>fUseDefault</i> is <b>true</b>, the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface on the default <b>IFilter</b> is returned in the <i>ppIFilt</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>
-
+<a href="/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>

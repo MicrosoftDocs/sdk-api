@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>PlayMetaFileRecord</b> function plays a Windows-format metafile record by executing the graphics device interface (GDI) function contained within that record.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a>.</div><div> </div>
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A handle to a device context.
 
 ### -param lpHandleTable [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles to GDI objects used when playing the metafile.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles to GDI objects used when playing the metafile.
 
 ### -param lpMR [in]
 
@@ -81,39 +81,38 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
+To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
 
-An application typically uses <b>PlayMetaFileRecord</b> in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function to process and play a Windows-format metafile one record at a time.
+An application typically uses <b>PlayMetaFileRecord</b> in conjunction with the <a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function to process and play a Windows-format metafile one record at a time.
 
-The <i>lpHandletable</i> and <i>nHandles</i> parameters must be identical to those passed to the <a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a> callback procedure by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
+The <i>lpHandletable</i> and <i>nHandles</i> parameters must be identical to those passed to the <a href="/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a> callback procedure by <a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
 
 If the <b>PlayMetaFileRecord</b> function does not recognize a record, it ignores the record and returns <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metarecord">METARECORD</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-metarecord">METARECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playmetafile">PlayMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playmetafile">PlayMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>

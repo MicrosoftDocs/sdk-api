@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-gettopindex">LB_GETTOPINDEX</a> message explicitly.
+Gets the index of the first visible item in a list box. You can use this macro or send the <a href="/windows/desktop/controls/lb-gettopindex">LB_GETTOPINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-

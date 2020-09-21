@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>Item</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object at the specified index in the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> collection.
+The <b>Item</b> property retrieves the <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object at the specified index in the <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> collection.
 
 This property is read-only.
 
 ## -parameters
-

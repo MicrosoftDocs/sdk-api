@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT_HEADER2</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
+[FWPM_NET_EVENT_HEADER0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -192,7 +192,7 @@ The <b>packageSid</b> member is set.
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
+Type: [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 The IP version being used.
 
@@ -200,7 +200,7 @@ The IP version being used.
 
 Type: <b>UINT8</b>
 
-The IP protocol specified as an IPPROTO value. See the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
+The IP protocol specified as an IPPROTO value. See the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
 
 ### -field localAddrV4
 
@@ -212,7 +212,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
+Type: [FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
 
 The IPv6 local address.
 
@@ -228,7 +228,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
+Type: [FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
 
 The IPv6 remote address.
 
@@ -254,7 +254,7 @@ The IPv6 scope ID.
 
 ### -field appId
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
+Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
 The application ID of the local application associated with the event.
 
@@ -266,7 +266,7 @@ The user ID corresponding to the traffic.
 
 ### -field addressFamily
 
-Type: [FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)</b>
+Type: [FWP_AF](../fwptypes/ne-fwptypes-fwp_af.md)</b>
 
 A superset of non-Internet protocols.
 
@@ -280,17 +280,16 @@ The security identifier (SID) representing the package identifier (also referred
 
 ## -see-also
 
-[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
+[FWP_AF](../fwptypes/ne-fwptypes-fwp_af.md)
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
+[FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
-
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)

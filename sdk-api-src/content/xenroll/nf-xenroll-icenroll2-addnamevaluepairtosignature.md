@@ -56,8 +56,8 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>addNameValuePairToSignature</b> method 
-			adds the authenticated name-value pair of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to the request. It is up to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to interpret the meaning of the name-value pair.
-		 This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a> interface.
+			adds the authenticated name-value pair of an <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to the request. It is up to the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to interpret the meaning of the name-value pair.
+		 This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a> interface.
 
 ## -parameters
 
@@ -113,4 +113,3 @@ if (bstrName )
 if (bstrValue )
     SysFreeString( bstrValue );
 ```
-

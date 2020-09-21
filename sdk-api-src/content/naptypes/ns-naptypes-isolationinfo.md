@@ -58,29 +58,28 @@ api_name:
 
 ### -field isolationState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> values that contains the isolation state of a machine.
+An <a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> values that contains the isolation state of a machine.
 
 ### -field probEndTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">ProbationTime</a> value that contains the time at which a machine should come out from probation.
+A <a href="/windows/desktop/NAP/nap-datatypes">ProbationTime</a> value that contains the time at which a machine should come out from probation.
 
 ### -field failureUrl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> value that contains a URL to navigate to in the event of failure.
+A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> value that contains a URL to navigate to in the event of failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
+<a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a>
+<a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

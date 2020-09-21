@@ -56,7 +56,7 @@ The <b>MediaCollectionAttributeStringRemoved</b> event occurs when an attribute 
 
 ### -param bstrAttribName [in]
 
-Specifies the name of the attribute. For information about the attributes supported by Windows Media Player, see the Windows Media Player <a href="https://docs.microsoft.com/windows/desktop/WMP/attribute-reference">Attribute Reference</a>.
+Specifies the name of the attribute. For information about the attributes supported by Windows Media Player, see the Windows Media Player <a href="/windows/desktop/WMP/attribute-reference">Attribute Reference</a>.
 
 ### -param bstrAttribVal [in]
 
@@ -70,5 +70,4 @@ When a media item is removed from the library, its metadata is removed from the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>

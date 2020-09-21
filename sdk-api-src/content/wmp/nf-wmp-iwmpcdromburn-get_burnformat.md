@@ -86,13 +86,12 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">IWMPCdromBurn::put_burnFormat</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">IWMPCdromBurn::put_burnFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpburnformat">WMPBurnFormat</a>
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmpburnformat">WMPBurnFormat</a>

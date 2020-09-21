@@ -56,7 +56,7 @@ api_name:
 
 ### -param pvMarshal [in, out]
 
-A pointer to the marshaling context  that  a successful call to  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> returns.
+A pointer to the marshaling context  that  a successful call to  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> returns.
 
 ### -param plsnBase [in]
 
@@ -70,7 +70,7 @@ This parameter is not implemented at this time, and must be zero.
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 If asynchronous operation is not used, this parameter can be <b>NULL</b>.
 
@@ -80,7 +80,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the possible error codes:
 
@@ -90,5 +90,4 @@ The following list identifies the possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/obtaining-the-next-lsn">Obtaining the Next LSN</a>
-
+<a href="/previous-versions/windows/desktop/clfs/obtaining-the-next-lsn">Obtaining the Next LSN</a>

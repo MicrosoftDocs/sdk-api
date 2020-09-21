@@ -80,11 +80,10 @@ If it fails, the method can return one of the following error values:
 
 Surfaces can be lost because the mode of the graphics adapter was changed or because an application received exclusive access to the graphics adapter and freed all surface memory currently allocated on the adapter. When a DirectDrawSurface object loses its surface memory, many methods return DDERR_SURFACELOST and perform no other function. The <b>IDirectDrawSurface7::Restore</b> method reallocates surface memory and reattaches it to the DirectDrawSurface object.
 
-A single call to <b>Restore</b> restores a DirectDrawSurface object's associated implicit surfaces (back buffers, and so on). An attempt to restore an implicitly created surface results in an error. <b>Restore</b> does not work across explicit attachments that were created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface">IDirectDrawSurface7::AddAttachedSurface</a> method—each of these surfaces must be restored individually.
+A single call to <b>Restore</b> restores a DirectDrawSurface object's associated implicit surfaces (back buffers, and so on). An attempt to restore an implicitly created surface results in an error. <b>Restore</b> does not work across explicit attachments that were created by using the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface">IDirectDrawSurface7::AddAttachedSurface</a> method—each of these surfaces must be restored individually.
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>Restore</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>Restore</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

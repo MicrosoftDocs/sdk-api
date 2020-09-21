@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves or sets the name of the HTML file that results from converting the file in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">IDataManager::RuleTargetFileName</a> property from XML to HTML.
+Retrieves or sets the name of the HTML file that results from converting the file in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">IDataManager::RuleTargetFileName</a> property from XML to HTML.
 
 This property is read/write.
 
@@ -64,5 +64,4 @@ For details, see the <b>plaCreateHtml</b> value of the <a href="/windows/win32/a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>

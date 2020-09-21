@@ -114,9 +114,8 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itilsconfig">ITILSConfig</a>
+<a href="/windows/desktop/api/rend/nn-rend-itilsconfig">ITILSConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itilsconfig-get_port">ITILSConfig::get_Port</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itilsconfig-get_port">ITILSConfig::get_Port</a>

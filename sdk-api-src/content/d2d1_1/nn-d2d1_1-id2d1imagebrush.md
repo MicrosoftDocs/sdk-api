@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents a brush based on an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>.
+Represents a brush based on an <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageBrush</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1ImageBrush</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageBrush</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1ImageBrush</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1ImageBrush</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getextendmodex">GetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getextendmodex">GetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode of the image brush on the x-axis.
@@ -78,7 +78,7 @@ Gets the extend mode of the image brush on the x-axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getextendmodey">GetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getextendmodey">GetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode of the image brush on the y-axis of the image.
@@ -87,7 +87,7 @@ Gets the extend mode of the image brush on the y-axis of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getimage">GetImage</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getimage">GetImage</a>
 </td>
 <td align="left" width="63%">
 Gets the image associated with the image brush.
@@ -96,7 +96,7 @@ Gets the image associated with the image brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getinterpolationmode">GetInterpolationMode</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getinterpolationmode">GetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Gets the interpolation mode of the image brush.
@@ -105,7 +105,7 @@ Gets the interpolation mode of the image brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getsourcerectangle">GetSourceRectangle</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-getsourcerectangle">GetSourceRectangle</a>
 </td>
 <td align="left" width="63%">
 Gets the rectangle that will be used as the bounds of the image when drawn as an image brush.
@@ -114,7 +114,7 @@ Gets the rectangle that will be used as the bounds of the image when drawn as an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setextendmodex">SetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setextendmodex">SetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Sets how the content inside the source rectangle in the image brush will be extended on the x-axis.
@@ -123,7 +123,7 @@ Sets how the content inside the source rectangle in the image brush will be exte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setextendmodey">SetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setextendmodey">SetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode on the y-axis.
@@ -132,7 +132,7 @@ Sets the extend mode on the y-axis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setimage">SetImage</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setimage">SetImage</a>
 </td>
 <td align="left" width="63%">
 Sets the image associated with the provided image brush.
@@ -141,7 +141,7 @@ Sets the image associated with the provided image brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setinterpolationmode">SetInterpolationMode</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setinterpolationmode">SetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the interpolation mode for the image brush.
@@ -150,7 +150,7 @@ Sets the interpolation mode for the image brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setsourcerectangle">SetSourceRectangle</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1imagebrush-setsourcerectangle">SetSourceRectangle</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle in the image brush.
@@ -161,5 +161,4 @@ Sets the source rectangle in the image brush.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>

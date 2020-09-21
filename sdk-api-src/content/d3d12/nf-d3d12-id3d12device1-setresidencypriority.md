@@ -64,13 +64,13 @@ Specifies the number of objects in the <i>ppObjects</i> and <i>pPriorities</i> a
 
 Type: <b>ID3D12Pageable*</b>
 
-Specifies an array, of length <i>NumObjects</i>, containing references to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a> objects.
+Specifies an array, of length <i>NumObjects</i>, containing references to <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a> objects.
 
 ### -param pPriorities [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a>*</b>
 
-Specifies an array, of length <i>NumObjects</i>, of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a> values for the list of objects.
+Specifies an array, of length <i>NumObjects</i>, of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a> values for the list of objects.
 
 ## -returns
 
@@ -80,9 +80,8 @@ This method returns an HRESULT success or error code.
 
 ## -remarks
 
-For more information, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/residency">Residency</a>.
+For more information, refer to <a href="/windows/desktop/direct3d12/residency">Residency</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>

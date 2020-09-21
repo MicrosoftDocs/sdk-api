@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Updates a list-view item. If the list-view control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-update">LVM_UPDATE</a> message explicitly.
+Updates a list-view item. If the list-view control has the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-update">LVM_UPDATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -65,4 +65,3 @@ A handle to the list-view control.
 Type: <b>int</b>
 
 The index of the item to update.
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>WAVEFORMAT</b> structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+The <b>WAVEFORMAT</b> structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -struct-fields
 
@@ -101,13 +101,12 @@ For formats that require additional information, this structure is included as a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

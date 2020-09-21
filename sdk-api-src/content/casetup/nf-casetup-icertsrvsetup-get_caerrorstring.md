@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
+The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

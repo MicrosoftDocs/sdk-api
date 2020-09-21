@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
+The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
 
 ## -struct-fields
 
@@ -133,4 +133,3 @@ To determine whether a response is valid, the cache service performs a bitwise <
 <td>0x8000</td>
 </tr>
 </table>
-

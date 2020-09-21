@@ -58,7 +58,7 @@ Contains data for the Set Protection Level command in Certified Output Protectio
 
 ### -field ProtType
 
-Identifies the protection mechanism. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/copp-protection-type-flags">COPP Protection Type Flags</a>.
+Identifies the protection mechanism. See <a href="/windows/desktop/DirectShow/copp-protection-type-flags">COPP Protection Type Flags</a>.
 
 ### -field ProtLevel
 
@@ -72,19 +72,19 @@ Specifies the protection level. The meaning of this value depends on the protect
 <tr>
 <td>ACP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level">COPP_ACP_Protection_Level</a>
+<a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level">COPP_ACP_Protection_Level</a>
 </td>
 </tr>
 <tr>
 <td>CGMS-A</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_cgmsa_protection_level">COPP_CGMSA_Protection_Level</a>
+<a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_cgmsa_protection_level">COPP_CGMSA_Protection_Level</a>
 </td>
 </tr>
 <tr>
 <td>HDCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_hdcp_protection_level">COPP_HDCP_Protection_Level</a>
+<a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_hdcp_protection_level">COPP_HDCP_Protection_Level</a>
 </td>
 </tr>
 </table>
@@ -99,9 +99,8 @@ Reserved. Must be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

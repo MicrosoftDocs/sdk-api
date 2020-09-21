@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>LdapQuery</b> property sets or retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Lightweight Directory Access Protocol</a> (LDAP) query used to define membership for an LDAP query application group.
+The <b>LdapQuery</b> property sets or retrieves the <a href="/windows/desktop/SecGloss/l-gly">Lightweight Directory Access Protocol</a> (LDAP) query used to define membership for an LDAP query application group.
 
 This property is read/write.
 
@@ -61,7 +61,6 @@ This property is read/write.
 
 ## -remarks
 
-This property is ignored unless the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property is AZ_GROUPTYPE_LDAP_QUERY. 
+This property is ignored unless the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property is AZ_GROUPTYPE_LDAP_QUERY. 
 
 The maximum length of this property is 4,096 characters.
-

@@ -56,7 +56,7 @@ Queries the DMR asynchronously to retrieve position information.
 
 ### -param value [out]
 
-Receives a reference to a  <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/getpositioninformationoperation">GetPositionInformationOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a  <a href="/windows/desktop/mediastreaming/getpositioninformationoperation">GetPositionInformationOperation</a> object that is used to get results from the asynchronous operation.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-
+<a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>

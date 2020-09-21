@@ -53,7 +53,7 @@ api_name:
 
 The <b>TransferContainerDataOnClearChannel</b> method transfers container file data to the content provider through the clear channel. The content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container.
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> except that the parameters passed to this method are not encrypted. Consequently this method is more efficient.
+This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> except that the parameters passed to this method are not encrypted. Consequently this method is more efficient.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ Contains the number of bytes in the buffer.
 
 ### -param pProgressCallback
 
-Progress callback on which the content provider can report progress of any steps that it might need to carry out. The step will be identified by the <i>EventId</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> methods.
+Progress callback on which the content provider can report progress of any steps that it might need to carry out. The step will be identified by the <i>EventId</i> parameter of <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> methods.
 
 ### -param pfuReadyFlags
 
@@ -88,7 +88,7 @@ Flag indicating which parts of the container file are ready to be read. This par
 </dl>
 </td>
 <td width="60%">
-Data of the object is available by calling the <a href="https://docs.microsoft.com/windows/desktop/WMDM/iscpsecureexchange3--getobjectdataonclearchannel">GetObjectDataOnClearChannel</a> method.
+Data of the object is available by calling the <a href="/windows/desktop/WMDM/iscpsecureexchange3--getobjectdataonclearchannel">GetObjectDataOnClearChannel</a> method.
 
 </td>
 </tr>
@@ -187,17 +187,16 @@ Windows Media Device Manager calls this method repeatedly, transferring data fro
 
 Object data is transferred from the content provider by calling the <b>GetObjectDataOnClearChannel</b> method. Windows Media Device Manager calls <b>GetObjectDataOnClearChannel</b> repeatedly until it returns zero in the third parameter, <i>pdwsize</i>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercompletefordevice">TransferCompleteForDevice</a> if a session is active) method is called by Windows Media Device Manager to signal the end of a data transfer.
+The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a> (or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercompletefordevice">TransferCompleteForDevice</a> if a session is active) method is called by Windows Media Device Manager to signal the end of a data transfer.
 
 Windows Media Device Manager passes the application-provided progress callback to the content provider in the <i>pProgressCallback</i> parameter. The content provider can use this parameter to provide progress notification for any steps that it needs to carry out. The step itself is identified by <i>EventId</i>, which is the first parameter of the methods of <b>IWMDMProgress3</b>. A specific content provider implementation will define <i>EventId</i> values for applications to use.
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> except that the parameters passed to this method are not encrypted. Consequently this method is more efficient.
+This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> except that the parameters passed to this method are not encrypted. Consequently this method is more efficient.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a>

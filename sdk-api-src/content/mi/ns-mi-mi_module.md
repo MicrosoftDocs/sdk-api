@@ -137,17 +137,16 @@ The module may implement a single 'dynamic provider' (one that provides CIM inst
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792322(v=vs.85)">MI_Module_Load</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792322(v=vs.85)">MI_Module_Load</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792323(v=vs.85)">MI_Module_Unload</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792323(v=vs.85)">MI_Module_Unload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_providerft">MI_ProviderFT</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_providerft">MI_ProviderFT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>

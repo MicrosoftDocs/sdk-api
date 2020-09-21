@@ -135,7 +135,7 @@ Hexadecimal only.
 </dl>
 </td>
 <td width="60%">
-Hexadecimal, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
+Hexadecimal, with <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Hexadecimal, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> CRL beginning and ending headers.
+Base64, with <a href="/windows/desktop/SecGloss/x-gly">X.509</a> CRL beginning and ending headers.
 
 </td>
 </tr>
@@ -273,5 +273,4 @@ With the exception of when <b>CRYPT_STRING_BINARY</b> encoding is used, all stri
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>

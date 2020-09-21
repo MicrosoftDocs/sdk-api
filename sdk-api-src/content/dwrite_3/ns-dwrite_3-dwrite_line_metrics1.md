@@ -45,9 +45,6 @@ api_name:
  - DWRITE_LINE_METRICS1
 ---
 
-# DWRITE_LINE_METRICS1 structure
-
-
 ## -description
 
 Contains information about a formatted line of text.
@@ -59,65 +56,13 @@ Contains information about a formatted line of text.
 Type: <b>FLOAT</b>
 
 White space before the content of the line. This is included in the line height and baseline distances.
-          If the line is formatted horizontally either with a uniform line spacing or with proportional
-          line spacing, this value represents the extra space above the content.
+If the line is formatted horizontally either with a uniform line spacing or with proportional
+line spacing, this value represents the extra space above the content.
 
 ### -field leadingAfter
 
 Type: <b>FLOAT</b>
 
 White space after the content of the line. This is included in the height of the line.
-          If the line is formatted horizontally either with a uniform line spacing or with proportional
-          line spacing, this value represents the extra space below the content.
-
-### -field DWRITE_LINE_METRICS
-
- 
-
-
-
-
-#### - baseline
-
-Type: <b>FLOAT</b>
-
-The distance from the top of the text line to its baseline.
-
-
-#### - height
-
-Type: <b>FLOAT</b>
-
-The height of the text line.
-
-
-#### - isTrimmed
-
-Type: <b>BOOL</b>
-
-The line is trimmed.
-
-
-#### - length
-
-Type: <b>UINT32</b>
-
-The number of text positions in the text line. 
-	  This includes any trailing whitespace and newline characters.
-
-
-#### - newlineLength
-
-Type: <b>UINT32</b>
-
-The number of characters in the newline sequence at the end of the text line. 
-	  If the count is zero, then the text line was either wrapped or it is the end of the text.
-
-
-#### - trailingWhitespaceLength
-
-Type: <b>UINT32</b>
-
-The number of whitespace positions at the end of the text line. 
-	  Newline sequences are considered whitespace.
-
+If the line is formatted horizontally either with a uniform line spacing or with proportional
+line spacing, this value represents the extra space below the content.

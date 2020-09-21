@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-selectstring">CB_SELECTSTRING</a> message explicitly.
+Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="/windows/desktop/Controls/cb-selectstring">CB_SELECTSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,11 +68,10 @@ The zero-based index of the item before the first item to be searched. When the 
 
 ### -param data
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The item data to find.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-selectstring">CB_SELECTSTRING</a>.
-
+For more information, see <a href="/windows/desktop/Controls/cb-selectstring">CB_SELECTSTRING</a>.

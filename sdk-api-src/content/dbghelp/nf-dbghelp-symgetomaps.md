@@ -57,7 +57,7 @@ Retrieves the omap tables within a loaded module.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param BaseOfDll [in]
 
@@ -65,7 +65,7 @@ The base address of the module.
 
 ### -param OmapTo [out]
 
-An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
+An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
 
 ### -param cOmapTo [out]
 
@@ -73,7 +73,7 @@ The number of entries in the <i>OmapTo</i> array.
 
 ### -param OmapFrom [out]
 
-An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
+An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
 
 ### -param cOmapFrom [out]
 
@@ -84,7 +84,7 @@ The number of entries in the <i>OmapFrom</i> array.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails (the omap is not found), the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -92,5 +92,4 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a>

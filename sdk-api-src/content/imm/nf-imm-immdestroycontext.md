@@ -64,21 +64,20 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-Any application that creates an input context by using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a> function must call this function to free the context before it terminates. However, before calling <b>ImmDestroyContext</b>, the application must remove the input context from any association with windows in the thread by using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a> function.
+Any application that creates an input context by using the <a href="/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a> function must call this function to free the context before it terminates. However, before calling <b>ImmDestroyContext</b>, the application must remove the input context from any association with windows in the thread by using the <a href="/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a>
+<a href="/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a>
+<a href="/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

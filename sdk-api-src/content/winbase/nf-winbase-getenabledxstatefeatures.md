@@ -77,21 +77,20 @@ An application should call this function to determine what features are present 
 
 
 
-<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
+<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
        Windows 7 with SP1 and Windows Server 2008 R2 with SP1 . Since there is no SDK for SP1, that means there are 
        no available headers and library files to work with. In this situation, a caller must declare the needed 
        functions from this documentation and get pointers to them using 
-       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
+       <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
        "Kernel32.dll", followed by calls to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
+       <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
+       <a href="/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
+<a href="/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
-
+<a href="/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>

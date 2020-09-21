@@ -56,7 +56,7 @@ Cancels a WDS transfer operation.
 
 ### -param hTransfer [in]
 
-A handle for the WDS transfer operation being canceled. This can be the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
+A handle for the WDS transfer operation being canceled. This can be the handle returned by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If the function succeeds, the return is <b>S_OK</b>.
 ## -remarks
 
 This function can be called from a callback function.
-

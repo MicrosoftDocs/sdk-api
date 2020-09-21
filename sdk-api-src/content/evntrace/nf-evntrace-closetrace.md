@@ -60,7 +60,7 @@ The <b>CloseTrace</b> function closes a trace.
 
 ### -param TraceHandle [in]
 
-Handle to the trace to close. The <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function 
+Handle to the trace to close. The <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function 
       returns this handle.
 
 ## -returns
@@ -68,7 +68,7 @@ Handle to the trace to close. The <a href="https://docs.microsoft.com/windows/de
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -98,7 +98,7 @@ One of the following is true:
 </dl>
 </td>
 <td width="60%">
-Prior to Windows Vista, you cannot close the trace until the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
+Prior to Windows Vista, you cannot close the trace until the <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Prior to Windows Vista, you cannot close the trace until the <a href="https://d
 </dl>
 </td>
 <td width="60%">
-The call was successful. The  <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
+The call was successful. The  <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The call was successful. The  <a href="https://docs.microsoft.com/windows/deskto
 Consumers call this function.
 
 If you are processing events from a log file, you call this function only after the 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
+     <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
      processing real-time events, you can call this function before 
      <b>ProcessTrace</b> returns. If you call this function before 
      <b>ProcessTrace</b> returns, the 
@@ -131,25 +131,24 @@ If you are processing events from a log file, you call this function only after 
      (<b>ProcessTrace</b> will not receive any new events after you 
      call the <b>CloseTrace</b> function). You can call the 
      <b>CloseTrace</b> function from your 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
+     <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
+     <a href="/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
+     <a href="/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
 
-<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
+<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
 
 
 #### Examples
 
 For an example that uses <b>CloseTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+     <a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

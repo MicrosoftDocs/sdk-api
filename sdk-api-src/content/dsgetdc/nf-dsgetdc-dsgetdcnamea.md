@@ -191,7 +191,7 @@ Requires that the returned domain controller be a global catalog server for the 
 <b>DsGetDcName</b> attempts to find a domain controller that is 
         a reliable time server. The Windows Time Service can be configured to declare one or more domain controllers 
         as a reliable time server. For more information, see the 
-        <a href="https://technet.microsoft.com/library/cc773061(v=ws.10).aspx">Windows Time Service</a> documentation. This 
+        <a href="/previous-versions/windows/it-pro/windows-server-2003/cc773061(v=ws.10)">Windows Time Service</a> documentation. This 
         flag is intended to be used only by the Windows Time Service.
 
 
@@ -286,8 +286,8 @@ Requires that the returned domain controller be currently running the Windows Ti
 When this flag is specified, <b>DsGetDcName</b> attempts to 
          find a domain controller in the same site as the caller. If no such domain controller is found,  it will find 
          a domain controller that can provide topology information and call 
-         <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindtoistga">DsBindToISTG</a> to obtain a bind handle, then call 
-         <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> over  UDP to determine the 
+         <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindtoistga">DsBindToISTG</a> to obtain a bind handle, then call 
+         <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> over  UDP to determine the 
          "next closest site," and finally cache the name of the site found. If no domain controller is found in that 
          site, then <b>DsGetDcName</b> falls back on the default method 
          of locating a domain controller.
@@ -328,10 +328,10 @@ Requires that the returned domain controller be currently running the Active Dir
 ### -param DomainControllerInfo [out]
 
 Pointer to a <b>PDOMAIN_CONTROLLER_INFO</b> value that receives a pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a> structure that contains 
+      <a href="/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a> structure that contains 
       data  about the domain controller selected. This structure is allocated by 
       <b>DsGetDcName</b>. The caller must free the structure using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function when it is no longer 
+      <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function when it is no longer 
       required.
 
 ## -returns
@@ -433,7 +433,7 @@ Note that if the <b>DS_BACKGROUND_ONLY</b> flag is specified,
       if it is expired.
 
 <h3><a id="ETW_Tracing_in_DsGetDcName"></a><a id="etw_tracing_in_dsgetdcname"></a><a id="ETW_TRACING_IN_DSGETDCNAME"></a>ETW Tracing in DsGetDcName</h3>
-To turn on <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/event-tracing">ETW Tracing</a> for 
+To turn on <a href="/windows-hardware/drivers/hid/event-tracing">ETW Tracing</a> for 
       <b>DsGetDcName</b>, create the following registry key:
 
 
@@ -630,19 +630,19 @@ Run the following command to stop the trace session:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
+<a href="/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea">DsValidateSubnetName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea">DsValidateSubnetName</a>
 
 
 
@@ -650,9 +650,8 @@ Run the following command to stop the trace session:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://technet.microsoft.com/library/cc773061(v=ws.10).aspx">Windows Time Service</a>
-
+<a href="/previous-versions/windows/it-pro/windows-server-2003/cc773061(v=ws.10)">Windows Time Service</a>

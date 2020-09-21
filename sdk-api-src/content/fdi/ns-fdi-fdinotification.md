@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>FDINOTIFICATION</b> structure to provide information to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>.
+The <b>FDINOTIFICATION</b> structure to provide information to <a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>.
 
 ## -struct-fields
 
@@ -287,5 +287,4 @@ FDI aborted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>

@@ -56,7 +56,7 @@ The <code>GetFormatRepresentation</code> method retrieves a string representatio
 
 ### -param nFormat [in]
 
-Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
+Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
 
 ### -param ppwstrFormatRep [out, optional]
 
@@ -108,17 +108,16 @@ nFormat is out of range
 
 ## -remarks
 
-The sAPO uses <a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter.
+The sAPO uses <a href="/previous-versions/windows/embedded/ms886939(v=msdn.10)">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms886939.aspx">CoTaskMemAlloc</a>
+<a href="/previous-versions/windows/embedded/ms886939(v=msdn.10)">CoTaskMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a>
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>

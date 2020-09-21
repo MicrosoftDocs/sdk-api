@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FloodFill</b> function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the <i>crFill</i> parameter.
-<div class="alert"><b>Note</b>  The <b>FloodFill</b> function is included only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a> function with FLOODFILLBORDER specified.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>FloodFill</b> function is included only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a> function with FLOODFILLBORDER specified.</div><div> </div>
 
 ## -parameters
 
@@ -71,7 +71,7 @@ The y-coordinate, in logical units, of the point where filling is to start.
 
 ### -param color [in]
 
-The color of the boundary or the area to be filled. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+The color of the boundary or the area to be filled. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
 
@@ -91,24 +91,23 @@ The following are reasons this function might fail:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF
+<a href="/windows/desktop/gdi/colorref">COLORREF
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB
       </a>
-

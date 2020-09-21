@@ -66,17 +66,16 @@ The number of status entries contained in the <b>m_rgStatusEntry</b> member. The
 
 ### -field m_rgStatusEntry
 
-A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structures, each  containing cloud backup provider status information  for one entry to be shown in the Windows Server Backup MMC snap-in.
+A pointer to one or more <a href="/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structures, each  containing cloud backup provider status information  for one entry to be shown in the Windows Server Backup MMC snap-in.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
+<a href="/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-updateobstatusinwindowsserverbackup">UpdateOBStatusInWindowsServerBackup</a>
+<a href="/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-updateobstatusinwindowsserverbackup">UpdateOBStatusInWindowsServerBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a>
-
+<a href="/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a>

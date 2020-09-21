@@ -54,7 +54,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionVisual3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual3-setdepthmode">SetDepthMode</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual3-setdepthmode">SetDepthMode</a>
 </td>
 <td align="left" width="63%">
 Sets the depth mode property associated with this visual.
@@ -78,7 +78,7 @@ Sets the depth mode property associated with this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt589907(v=vs.85)">SetOffsetZ</a>
+<a href="/previous-versions/windows/desktop/legacy/mt589907(v=vs.85)">SetOffsetZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the value of the visual's OffsetZ property.
 
@@ -86,7 +86,7 @@ Sets the depth mode property associated with this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/directcomp/idcompositionvisual3-setopacity-overloaded">SetOpacity</a>
+<a href="/windows/desktop/directcomp/idcompositionvisual3-setopacity-overloaded">SetOpacity</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the value of the visual's opacity property.
 
@@ -94,7 +94,7 @@ Sets the depth mode property associated with this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settransform">SetTransform</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-settransform">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Transform property of this visual. The Transform  property specifies a 3D transform used to modify the coordinate system of this visual.
   The property can specify either a  4-by-4 transform matrix or a transform object.
@@ -103,7 +103,7 @@ Sets the depth mode property associated with this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn904491(v=vs.85)">SetTransformMode</a>
+<a href="/previous-versions/windows/desktop/legacy/dn904491(v=vs.85)">SetTransformMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the transform style to be applied to a visual.
@@ -112,7 +112,7 @@ Specifies the transform style to be applied to a visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual3-setvisible">SetVisible</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual3-setvisible">SetVisible</a>
 </td>
 <td align="left" width="63%">
 Changes the value of the visual's Visible property.
@@ -125,5 +125,4 @@ Changes the value of the visual's Visible property.
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>

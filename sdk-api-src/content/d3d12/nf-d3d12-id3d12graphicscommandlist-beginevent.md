@@ -57,19 +57,19 @@ Not intended to be called directly.  Use the
 
 ### -param Metadata
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Internal.
 
 ### -param pData [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">void</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">void</a>*</b>
 
 Internal.
 
 ### -param Size
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Internal.
 
@@ -81,5 +81,4 @@ To mark the start of an instrumentation region at the current location within a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

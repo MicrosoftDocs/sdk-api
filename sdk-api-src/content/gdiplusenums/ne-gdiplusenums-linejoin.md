@@ -84,9 +84,8 @@ When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setlinejoin">Pen::SetLineJoin</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setlinejoin">Pen::SetLineJoin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setmiterlimit">Pen::SetMiterLimit</a>
-
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setmiterlimit">Pen::SetMiterLimit</a>

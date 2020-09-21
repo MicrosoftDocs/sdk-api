@@ -88,7 +88,6 @@ When this string is set, Explorer displays this string instead of the file name.
                 
                 
 
-Applications can get the display (localized) name with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN_NORMALDISPLAY</a> flag and the parsing (non-localized) name with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN_DESKTOPABSOLUTEPARSING</a> flag.
+Applications can get the display (localized) name with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> with the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN_NORMALDISPLAY</a> flag and the parsing (non-localized) name with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname">IShellItem::GetDisplayName</a> using the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN_DESKTOPABSOLUTEPARSING</a> flag.
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shremovelocalizedname">SHRemoveLocalizedName</a> makes the display name identical to the parsing name.
-
+Calling <a href="/windows/desktop/api/shellapi/nf-shellapi-shremovelocalizedname">SHRemoveLocalizedName</a> makes the display name identical to the parsing name.

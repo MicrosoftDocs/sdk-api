@@ -65,5 +65,4 @@ The angle of rotation as a double in radians.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/macros">Macros</a>
-
+<a href="/windows/desktop/wintouch/macros">Macros</a>

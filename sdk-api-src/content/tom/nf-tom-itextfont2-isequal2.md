@@ -56,7 +56,7 @@ Determines whether this text font object has the same properties as the specifie
 
 ### -param pFont [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>*</b>
 
 The text font object to compare against.
 
@@ -64,11 +64,11 @@ The text font object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-rich-edit-controls">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>.
+A <a href="/windows/desktop/Controls/about-rich-edit-controls">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -80,9 +80,8 @@ The <b>ITextFont::IsEqual2</b> method ignores entries for which either font obje
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-isequal">ITextFont::IsEqual</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-isequal">ITextFont::IsEqual</a>

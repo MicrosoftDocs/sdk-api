@@ -62,19 +62,19 @@ The <b>TraceSetInformation</b> function
 ### -param SessionHandle [in]
 
 A handle of the event tracing session that wants to capture the specified information. The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ### -param InformationClass [in]
 
 The information class to enable or disable. The information that the class captures is included in the 
       extended data section of the event. For a list of information classes that you can enable, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a> enumeration.
+      <a href="/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a> enumeration.
 
 ### -param TraceInformation [in]
 
 A pointer to information class specific data; the information class determines the contents of this 
       parameter. For example, for the <b>TraceStackTracingInfo</b> information class, this 
-      parameter is an array of <a href="https://docs.microsoft.com/windows/desktop/ETW/classic-event-id">CLASSIC_EVENT_ID</a> structures. 
+      parameter is an array of <a href="/windows/desktop/ETW/classic-event-id">CLASSIC_EVENT_ID</a> structures. 
       The structures specify the event GUIDs for which stack tracing is enabled. The array is limited to 256 
       elements.
 
@@ -135,7 +135,7 @@ The request is not supported.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Use
 
 ## -remarks
 
-Call this function after calling <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>.
+Call this function after calling <a href="/windows/desktop/ETW/starttrace">StartTrace</a>.
 
 If the <i>InformationClass</i> parameter is set to 
     <b>TraceStackTracingInfo</b>, calling this function enables stack tracing of the specified 
@@ -153,7 +153,7 @@ If the <i>InformationClass</i> parameter is set to
     0.
 
 The extended data section of the event will include the call stack. The 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/stackwalk-event">StackWalk_Event</a> MOF class defines the layout of the 
+    <a href="/windows/desktop/ETW/stackwalk-event">StackWalk_Event</a> MOF class defines the layout of the 
     extended data.
 
 Typically, on 64-bit computers, you cannot capture the kernel stack in certain contexts when page faults are 
@@ -171,9 +171,8 @@ You should consider the cost of setting this registry value before doing so.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a>
+<a href="/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracequeryinformation">TraceQueryInformation</a>
-
+<a href="/windows/desktop/ETW/tracequeryinformation">TraceQueryInformation</a>

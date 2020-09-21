@@ -56,7 +56,7 @@ Unregisters an existing namespace. This method is deprecated.
 
 ### -param SettingsID [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> interface value that identifies the namespace to be unregistered.
+An <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> interface value that identifies the namespace to be unregistered.
 
 ### -param RemoveSettings [in]
 
@@ -68,5 +68,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>

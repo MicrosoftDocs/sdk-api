@@ -72,5 +72,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicjpegscantype">WICJpegScanType</a>
-
+<a href="/windows/desktop/api/wincodec/ne-wincodec-wicjpegscantype">WICJpegScanType</a>

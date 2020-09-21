@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Specifies the data type of a property value in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 ## -enum-fields
 
@@ -94,10 +94,10 @@ Data is a null-terminated Unicode string with expanded references to environment
 
 ### -field CLUSPROP_FORMAT_SECURITY_DESCRIPTOR
 
-Data is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> in 
-          <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> 
+Data is a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> in 
+          <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> 
           format. For more information about self-relative security descriptors, see 
-          <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
+          <a href="/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
 
 ### -field CLUSPROP_FORMAT_LARGE_INTEGER
 
@@ -109,7 +109,7 @@ Data is a <b>WORD</b> value.
 
 ### -field CLUSPROP_FORMAT_FILETIME
 
-Data is a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
+Data is a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 ### -field CLUSPROP_FORMAT_VALUE_LIST
 
@@ -121,17 +121,16 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusproperty-format">Format Property of the ClusProperty Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusproperty-format">Format Property of the ClusProperty Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspropertyvalue-format">Format Property of the ClusPropertyValue Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluspropertyvalue-format">Format Property of the ClusPropertyValue Object</a>

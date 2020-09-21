@@ -19,5 +19,4 @@ To develop Microsoft HTML Help 1.4, you need these headers:
  * [infotech.h](../infotech/index.md)
 
 For programming guidance for this technology, see:
-* [Microsoft HTML Help 1.4](https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp)
-
+* [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp)

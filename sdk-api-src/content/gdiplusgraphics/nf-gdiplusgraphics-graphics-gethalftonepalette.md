@@ -69,12 +69,12 @@ The purpose of the <b>Graphics::GetHalftonePalette</b> method is to enable GDI+ 
 <li>Call <b>Graphics::GetHalftonePalette</b> to get a GDI+ halftone palette. </li>
 <li>Select the halftone palette into a device context. </li>
 <li>Realize the palette by calling the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function. </li>
+						<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function. </li>
 <li>Construct a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object from a handle to the device context. </li>
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object from a handle to the device context. </li>
 <li>Call the
-<a href="https://docs.microsoft.com/previous-versions/ms536028(v=vs.85)">Graphics::DrawImage</a> method of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. </li>
+<a href="/previous-versions/ms536028(v=vs.85)">Graphics::DrawImage</a> method of the 
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. </li>
 </ol>
 Be sure to delete the palette when you have finished using it. If you do not follow the preceding procedure, then on an 8-bits-per-pixel-display device, the default, 16-color process is used, which results in a lesser quality halftone.
 
@@ -107,17 +107,16 @@ VOID Example_GetHalftonePalette(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">GetPalette</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">GetPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette"> SetPalette</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette"> SetPalette</a>

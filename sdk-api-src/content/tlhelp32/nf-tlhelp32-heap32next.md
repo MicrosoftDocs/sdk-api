@@ -59,18 +59,18 @@ Retrieves information about the next block of a heap that has been allocated by 
 ### -param lphe [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a> structure.
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a> structure.
 
 ## -returns
 
 Returns <b>TRUE</b> if information about the next block in the heap has been copied to the buffer or <b>FALSE</b> otherwise. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_NO_MORE_FILES</b> when no more objects in the heap exist and <b>ERROR_INVALID_DATA</b> if the heap appears to be corrupt or is modified during the walk in such a way that 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_NO_MORE_FILES</b> when no more objects in the heap exist and <b>ERROR_INVALID_DATA</b> if the heap appears to be corrupt or is modified during the walk in such a way that 
 <b>Heap32Next</b> cannot continue.
 
 ## -remarks
 
 To retrieve information for the first block of a heap, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a> function.
 
 The <b>Heap32Next</b> function does not maintain a reference to the target process. If the target process dies, the system may create a new process using the same process identifier. Therefore, the caller should maintain a reference to the target process as long as it is using <b>Heap32Next</b>.
 
@@ -78,23 +78,22 @@ The <b>Heap32Next</b> function does not maintain a reference to the target proce
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
+<a href="/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a>
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
+<a href="/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

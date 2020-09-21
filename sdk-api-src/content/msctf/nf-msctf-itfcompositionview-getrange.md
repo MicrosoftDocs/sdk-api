@@ -56,7 +56,7 @@ Obtains a range object that contains the text covered by the composition.
 
 ### -param ppRange [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
 
 ## -returns
 
@@ -127,4 +127,3 @@ The composition has already terminated.
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfRange interface](nn-msctf-itfrange.md)
-

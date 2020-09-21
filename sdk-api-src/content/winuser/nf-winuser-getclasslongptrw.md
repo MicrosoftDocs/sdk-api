@@ -53,8 +53,8 @@ api_name:
 
 ## -description
 
-Retrieves the specified value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure associated with the specified window.
-<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetClassLongPtr</b>. When compiling for 32-bit Windows, <b>GetClassLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a> function.</div><div> </div>
+Retrieves the specified value from the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure associated with the specified window.
+<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetClassLongPtr</b>. When compiling for 32-bit Windows, <b>GetClassLongPtr</b> is defined as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -68,7 +68,7 @@ A handle to the window and, indirectly, the class to which the window belongs.
 
 Type: <b>int</b>
 
-The value to be retrieved. To retrieve a value from the extra class memory, specify the positive, zero-based byte offset of the value to be retrieved. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To retrieve any other value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure, specify one of the following values. 
+The value to be retrieved. To retrieve a value from the extra class memory, specify the positive, zero-based byte offset of the value to be retrieved. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To retrieve any other value from the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure, specify one of the following values. 
 
 <table>
 <tr>
@@ -83,7 +83,7 @@ The value to be retrieved. To retrieve a value from the extra class memory, spec
 </td>
 <td width="60%">
 Retrieves an 
-						<b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function returns.
+						<b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function returns.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Retrieves the size, in bytes, of the extra memory associated with the class.
 </dl>
 </td>
 <td width="60%">
-Retrieves the size, in bytes, of the extra window memory associated with each window in the class. For information on how to access this memory, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>.
+Retrieves the size, in bytes, of the extra window memory associated with each window in the class. For information on how to access this memory, see <a href="/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Retrieves the window-class style bits.
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. 
+Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. 
 
 </td>
 </tr>
@@ -205,12 +205,12 @@ Type: <b>ULONG_PTR</b>
 
 If the function succeeds, the return value is the requested value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
+				<b>cbClsExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
 
 
@@ -225,7 +225,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
 
 
 
@@ -233,17 +233,16 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslongptra">SetClassLongPtr</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra">SetClassLongPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

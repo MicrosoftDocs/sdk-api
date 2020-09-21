@@ -56,7 +56,7 @@ To obtain a pointer to an <b>IWMIStreamProps</b> interface, call <b>IStream::Que
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIStreamProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIStreamProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIStreamProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIStreamProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMIStreamProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmistreamprops-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmistreamprops-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named property from the <b>IStream</b>.
@@ -82,5 +82,4 @@ Retrieves a named property from the <b>IStream</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

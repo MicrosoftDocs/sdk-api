@@ -88,7 +88,7 @@ The index type.
 </dl>
 </td>
 <td width="60%">
-Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avisuperindex">AVISUPERINDEX</a> structure. The value of <b>bIndexSubType</b> must be zero.
+Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structure as an <a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avisuperindex">AVISUPERINDEX</a> structure. The value of <b>bIndexSubType</b> must be zero.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structur
 Each index entry points to a data chunk in the file. 
 
 <ul>
-<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure. Each index entry is an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex_entry">AVISTDINDEX_ENTRY</a> structure.</li>
+<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure. Each index entry is an <a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex_entry">AVISTDINDEX_ENTRY</a> structure.</li>
 <li>If <b>bIndexSubType</b> is <b>AVI_INDEX_SUB_2FIELD</b>, the index is a field index chunk.<div class="alert"><b>Note</b>  DirectShow does not support field indexes.</div>
 <div> </div>
 </li>
@@ -128,7 +128,7 @@ The number of valid entries in the <b>adwIndex</b> array.
 
 ### -field dwChunkId
 
-A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://docs.microsoft.com/previous-versions/ms779634(v=vs.85)">AVIOLDINDEX</a> structure.
+A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="/previous-versions/ms779634(v=vs.85)">AVIOLDINDEX</a> structure.
 
 ### -field dwReserved
 
@@ -146,9 +146,8 @@ and countries.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
+<a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

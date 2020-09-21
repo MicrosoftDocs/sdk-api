@@ -53,7 +53,7 @@ api_name:
 The 
 <i>PALLOCMEM</i> function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM. The 
 <i>PALLOCMEM</i> function is supplied as a parameter of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function, and allows the SBM to experiment with different memory-management schemes without requiring recompilation of LPMs.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function, and allows the SBM to experiment with different memory-management schemes without requiring recompilation of LPMs.
 
 ## -parameters
 
@@ -75,5 +75,4 @@ LPMs do not need to use this function to manage their local buffers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>

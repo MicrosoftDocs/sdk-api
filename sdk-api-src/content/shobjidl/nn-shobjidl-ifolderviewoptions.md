@@ -54,7 +54,7 @@ Exposes methods that allow control of folder view options specific to the Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFolderViewOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-getfolderviewoptions">GetFolderViewOptions</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-getfolderviewoptions">GetFolderViewOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current set of options for the view.
@@ -78,7 +78,7 @@ Retrieves the current set of options for the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-setfolderviewoptions">SetFolderViewOptions</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewoptions-setfolderviewoptions">SetFolderViewOptions</a>
 </td>
 <td align="left" width="63%">
 Sets specified options for the view.
@@ -100,4 +100,3 @@ By default, the Windows 7 item view does not support custom positioning, custom
 Use this interface to turn off animation and scroll tip view options new to Windows 7.
 
 Use this interface to retrieve the current view settings for all of those options.
-

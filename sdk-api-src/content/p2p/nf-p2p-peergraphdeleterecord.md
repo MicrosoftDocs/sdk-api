@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerGraphDeleteRecord</b> function marks a record as deleted within a peer graph.  The record is not  available on a local node to function calls, for example, calls   to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphGetRecord</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>.
+The <b>PeerGraphDeleteRecord</b> function marks a record as deleted within a peer graph.  The record is not  available on a local node to function calls, for example, calls   to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphGetRecord</a> and  <a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Pointer to a record ID to delete.
 
 Specify <b>TRUE</b> to remove a record from only  a local database without notifying the rest of  a peer graph about the change.  Specify FALSE to delete the record from an entire peer graph.
 
-<div class="alert"><b>Note</b>   Specifying <b>TRUE</b> does not prevent  a record from being added again during the next graph synchronization with a neighbor. Specifying <b>TRUE</b> is only effective if PEER_SECURITY_INTERFACE is specified in a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>, and only if  PEER_SECURITY_INTERFACE contains a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a> function that returns PEER_E_INVALID_RECORD when validating the record.</div>
+<div class="alert"><b>Note</b>   Specifying <b>TRUE</b> does not prevent  a record from being added again during the next graph synchronization with a neighbor. Specifying <b>TRUE</b> is only effective if PEER_SECURITY_INTERFACE is specified in a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>, and only if  PEER_SECURITY_INTERFACE contains a <a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a> function that returns PEER_E_INVALID_RECORD when validating the record.</div>
 <div> </div>
 
 ## -returns
@@ -118,7 +118,7 @@ The handle to a peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -137,11 +137,11 @@ The specified record cannot be found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphAddRecord</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphAddRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>
 
 
 
@@ -149,5 +149,4 @@ The specified record cannot be found.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>

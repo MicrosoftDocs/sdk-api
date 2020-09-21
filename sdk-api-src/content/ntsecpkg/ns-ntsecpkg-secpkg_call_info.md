@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>SECPKG_CALL_INFO</b> structure contains information about a currently executing call. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_call_info">GetCallInfo</a> function.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_call_info">GetCallInfo</a> function.
 
 ## -struct-fields
 
@@ -202,7 +202,7 @@ Call asks for network logon only and not any cached logons.
 </dl>
 </td>
 <td width="60%">
-Call of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> is from Winlogon.
+Call of <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> is from Winlogon.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -275,4 +275,3 @@ The buffer passed is marshaled by RPC.
 The call count.
 
 ### -field MechOid
-

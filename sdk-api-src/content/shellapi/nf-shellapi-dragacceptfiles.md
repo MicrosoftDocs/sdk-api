@@ -68,5 +68,4 @@ A value that indicates if the window identified by the <i>hWnd</i> parameter acc
 
 ## -remarks
 
-An application that calls <b>DragAcceptFiles</b> with the <i>fAccept</i> parameter set to <b>TRUE</b> has identified itself as able to process the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message from File Manager.
-
+An application that calls <b>DragAcceptFiles</b> with the <i>fAccept</i> parameter set to <b>TRUE</b> has identified itself as able to process the <a href="/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message from File Manager.

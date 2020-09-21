@@ -58,7 +58,7 @@ Initializes the symbol handler for a process.
 
 ### -param hProcess [in]
 
-A handle that identifies the caller. This value should be unique and nonzero, but need not be a process handle. However, if you do use a process handle, be sure to use the correct handle. If the application is a debugger, use the process handle for the process being debugged. Do not use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> when debugging another process, because calling functions like <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> can have unexpected results. 
+A handle that identifies the caller. This value should be unique and nonzero, but need not be a process handle. However, if you do use a process handle, be sure to use the correct handle. If the application is a debugger, use the process handle for the process being debugged. Do not use the handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> when debugging another process, because calling functions like <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> can have unexpected results. 
 
 
 
@@ -77,19 +77,19 @@ The path, or series of paths separated by a semicolon (;), that is used to searc
 <li>The _NT_SYMBOL_PATH environment variable</li>
 <li>The _NT_ALTERNATE_SYMBOL_PATH environment variable</li>
 </ul>
-Note that the search path can also be set using the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
+Note that the search path can also be set using the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
 
 ### -param fInvadeProcess [in]
 
 If this value is <b>TRUE</b>, enumerates the loaded modules for the process and effectively calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function for each module.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function for each module.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -98,16 +98,16 @@ The
 
 The  handle passed to 
 <b>SymInitialize</b> must be the same value passed to all other symbol handler functions called by the process. It is the  handle that the functions use to identify the caller and locate the correct symbol information. When you have finished using the symbol information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> function to deallocate all resources associated with the process for which symbols are loaded.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> function to deallocate all resources associated with the process for which symbols are loaded.
 
 The search for symbols files is performed recursively for all paths specified in the <i>UserSearchPath</i> parameter. Therefore, if you specify the root directory in a search, the whole drive is searched, which can take significant time. Note that the directory that contains the executable file for the process is not automatically part of the search path. To include this directory in the search path, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a> function, then add the path returned to <i>UserSearchPath</i>.
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a> function, then add the path returned to <i>UserSearchPath</i>.
 
-A process that calls <b>SymInitialize</b> should not call it again unless it calls <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> first. If the call to <b>SymInitialize</b> set <i>fInvadeProcess</i> to <b>TRUE</b> and you simply need to reload the module list, use the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symrefreshmodulelist">SymRefreshModuleList</a> function.
+A process that calls <b>SymInitialize</b> should not call it again unless it calls <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> first. If the call to <b>SymInitialize</b> set <i>fInvadeProcess</i> to <b>TRUE</b> and you simply need to reload the module list, use the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symrefreshmodulelist">SymRefreshModuleList</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, call 
 <b>SymInitialize</b> only when your process starts and 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> only when your process ends. It is not necessary for each thread in the process to call these functions.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a> only when your process ends. It is not necessary for each thread in the process to call these functions.
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
@@ -115,7 +115,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
+<a href="/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
 
 <div class="code"></div>
 
@@ -127,29 +127,28 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symrefreshmodulelist">SymRefreshModuleList</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symrefreshmodulelist">SymRefreshModuleList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the type of application that is described by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure.
+Specifies the type of application that is described by the <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure.
 
 ## -enum-fields
 
@@ -86,5 +86,4 @@ A system restart is required to complete the installation because a process cann
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>
-
+<a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>

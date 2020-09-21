@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_OID</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DER</a>-encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). CNG uses  hash OIDs in functions that sign or verify data in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #1</a> format.
+The <b>BCRYPT_OID</b> structure contains information about a <a href="/windows/desktop/SecGloss/d-gly">DER</a>-encoded <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). CNG uses  hash OIDs in functions that sign or verify data in <a href="/windows/desktop/SecGloss/p-gly">PKCS #1</a> format.
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ The address of a buffer that contains the OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a>
+<a href="/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid_list">BCRYPT_OID_LIST</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid_list">BCRYPT_OID_LIST</a>

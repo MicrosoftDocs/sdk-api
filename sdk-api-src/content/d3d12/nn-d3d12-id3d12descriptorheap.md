@@ -54,7 +54,7 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DescriptorHeap</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12DescriptorHeap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DescriptorHeap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12DescriptorHeap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12DescriptorHeap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart">GetCPUDescriptorHandleForHeapStart</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart">GetCPUDescriptorHandleForHeapStart</a>
 </td>
 <td align="left" width="63%">
 Gets the CPU descriptor handle that represents the start of the heap.
@@ -78,7 +78,7 @@ Gets the CPU descriptor handle that represents the start of the heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor heap description.
@@ -88,7 +88,7 @@ Gets the descriptor heap description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart">GetGPUDescriptorHandleForHeapStart</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart">GetGPUDescriptorHandleForHeapStart</a>
 </td>
 <td align="left" width="63%">
 Gets the GPU descriptor handle that represents the start of the heap.
@@ -99,17 +99,16 @@ Gets the GPU descriptor handle that represents the start of the heap.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
+<a href="/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
+<a href="/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>

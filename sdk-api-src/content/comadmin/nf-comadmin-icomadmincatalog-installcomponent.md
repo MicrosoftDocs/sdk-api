@@ -78,9 +78,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 <b>InstallComponent</b> provides full registration of components in the COM+ class registration database (RegDB) as configured components, including interface, method, type library, and proxy-stub information necessary for marshaling. 
 
-<b>InstallComponent</b> is the recommended way to install all components into COM+ applications instead of <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-importcomponent">ICOMAdminCatalog::ImportComponent</a>.
+<b>InstallComponent</b> is the recommended way to install all components into COM+ applications instead of <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-importcomponent">ICOMAdminCatalog::ImportComponent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

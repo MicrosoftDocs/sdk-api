@@ -66,5 +66,4 @@ Pointer to the child memory block.
 ## -remarks
 
 The child memory block is automatically freed when the parent memory
-block is freed. Both the parent and child memory blocks must have been previously allocated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
-
+block is freed. Both the parent and child memory blocks must have been previously allocated by calls to <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.

@@ -87,9 +87,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-geometric">Geometric Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-geometric">Geometric Vector Functions</a>
 
 
 
 <a href="https://msdn.microsoft.com/50ead4f3-99b5-4d53-b741-b3ee21c655e2">XMVectorBaryCentric</a>
-

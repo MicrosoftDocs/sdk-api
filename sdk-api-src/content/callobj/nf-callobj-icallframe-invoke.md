@@ -109,9 +109,8 @@ An unexpected error has occurred.
 
 ## -remarks
 
-Generally speaking, carrying out the invocation involves allocating a new stack frame, shallow-copying down the data in the original frame, then calling the appropriate method in the indicated object. The object invoked may then choose to modify [out] parameters, which are reachable from the copied frame, according to the appropriate semantics of the invocation. When the invocation returns from the object, the call frame automatically captures the return value from <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-setreturnvalue">ICallFrame::SetReturnValue</a>.
+Generally speaking, carrying out the invocation involves allocating a new stack frame, shallow-copying down the data in the original frame, then calling the appropriate method in the indicated object. The object invoked may then choose to modify [out] parameters, which are reachable from the copied frame, according to the appropriate semantics of the invocation. When the invocation returns from the object, the call frame automatically captures the return value from <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-setreturnvalue">ICallFrame::SetReturnValue</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

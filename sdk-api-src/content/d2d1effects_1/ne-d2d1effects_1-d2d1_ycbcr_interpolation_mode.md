@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the interpolation mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
+Specifies the interpolation mode for the <a href="/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
 
 ## -enum-fields
 
@@ -79,4 +79,3 @@ Uses anisotropic filtering to sample a pattern according to the transformed shap
 Uses a variable size high quality cubic kernel to perform a pre-downscale the image if downscaling is involved in the transform matrix. Then uses the cubic interpolation mode for the final output.
 
 ### -field D2D1_YCBCR_INTERPOLATION_MODE_FORCE_DWORD
-

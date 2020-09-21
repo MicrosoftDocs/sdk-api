@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the current data type of the union in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure.
+Specifies the current data type of the union in the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ The structure contains binary data.
 ### -field WSMAN_DATA_TYPE_DWORD
 
 The structure contains a DWORD integer.
-

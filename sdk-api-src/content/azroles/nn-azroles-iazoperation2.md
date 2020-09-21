@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IAzOperation2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> with a method that returns the role assignments associated with the operation.
-
+The <b>IAzOperation2</b> interface extends the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> with a method that returns the role assignments associated with the operation.

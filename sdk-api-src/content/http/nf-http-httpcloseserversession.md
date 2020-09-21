@@ -86,25 +86,24 @@ The application does not have permission to close the server session. Only the a
 
 ## -remarks
 
-Applications must call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a> before calling <b>HttpCloseServerSession</b> to close the all the URL Groups associated with the server session.
+Applications must call <a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a> before calling <b>HttpCloseServerSession</b> to close the all the URL Groups associated with the server session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>

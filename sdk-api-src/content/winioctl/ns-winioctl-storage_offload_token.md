@@ -56,7 +56,7 @@ api_name:
 Contains the token used to represent a portion of a file used in by offload read and write operations specified 
     by <b>DeviceDsmAction_OffloadRead</b> or <b>DeviceDsmAction_OffloadWrite</b> 
     actions for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 ## -struct-fields
@@ -106,4 +106,3 @@ Reserved.
 If the <b>TokenType</b> member is 
        <b>STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN</b> then the first two bytes are a 16-bit unsigned 
        integer that describes the range. Otherwise this is a vendor-specific format.
-

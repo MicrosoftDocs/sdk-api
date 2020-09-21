@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Called when the user navigates forward past the wizard extension pages. Gets the
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a handle variable of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> for the wizard page following the extension page.
+A pointer to a handle variable of type <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> for the wizard page following the extension page.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

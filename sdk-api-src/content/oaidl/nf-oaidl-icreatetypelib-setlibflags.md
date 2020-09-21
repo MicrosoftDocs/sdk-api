@@ -126,9 +126,8 @@ The state of the type library is not valid for this operation.
 
 ## -remarks
 
-Valid <i>uLibFlags</i> values are listed in <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-libflags">LIBFLAGS</a>.
+Valid <i>uLibFlags</i> values are listed in <a href="/windows/desktop/api/oaidl/ne-oaidl-libflags">LIBFLAGS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

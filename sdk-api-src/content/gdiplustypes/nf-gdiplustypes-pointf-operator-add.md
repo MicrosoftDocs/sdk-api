@@ -51,32 +51,32 @@ api_name:
 
 ## -description
 
-The <b>PointF::operator+</b> method adds the <b>X</b> and <b>Y</b> data members of two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects.
+The <b>PointF::operator+</b> method adds the <b>X</b> and <b>Y</b> data members of two <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects.
 
 ## -parameters
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object whose <b>X</b> and <b>Y</b> data members are added to the <b>X</b> and <b>Y</b> data members of this <b>PointF</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object whose <b>X</b> and <b>Y</b> data members are added to the <b>X</b> and <b>Y</b> data members of this <b>PointF</b> object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a></b>
 
-This method returns a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that is the sum of two <b>PointF</b> objects.
+This method returns a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that is the sum of two <b>PointF</b> objects.
 
 ## -remarks
 
-This method overloads the addition operator for <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects. If A, B, and C are <b>PointF</b> objects, the statement <b>C = A + B</b> is equivalent to <b>C = A.operator+(B)</b>.
+This method overloads the addition operator for <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects. If A, B, and C are <b>PointF</b> objects, the statement <b>C = A + B</b> is equivalent to <b>C = A.operator+(B)</b>.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects, then adds the two <b>PointF</b> objects and stores the result in a third <b>PointF</b> object.
+The following example creates two <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects, then adds the two <b>PointF</b> objects and stores the result in a third <b>PointF</b> object.
 
 
 ```cpp
@@ -89,17 +89,16 @@ PointF point3 = point1 + point2;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Equals</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Equals</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">operator-</a>
-
+<a href="/previous-versions/ms535009(v=vs.85)">operator-</a>

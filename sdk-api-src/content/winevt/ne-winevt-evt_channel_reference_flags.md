@@ -62,13 +62,12 @@ Specifies that the channel is imported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
+<a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-importchanneltype-complextype">ImportChannelType Complex Type</a>
-
+<a href="/windows/desktop/WES/eventmanifestschema-importchanneltype-complextype">ImportChannelType Complex Type</a>

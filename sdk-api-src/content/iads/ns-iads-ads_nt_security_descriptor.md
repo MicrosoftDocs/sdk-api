@@ -68,9 +68,8 @@ Pointer to the security descriptor, represented as a byte array.
 
 ## -remarks
 
-The <b>ADS_NT_SECURITY_DESCRIPTOR</b> structure is normally used as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure definition.
+The <b>ADS_NT_SECURITY_DESCRIPTOR</b> structure is normally used as a member of the <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure definition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

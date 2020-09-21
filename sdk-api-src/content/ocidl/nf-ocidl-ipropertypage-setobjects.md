@@ -52,7 +52,7 @@ api_name:
 
 Provides the property page with an array of pointers to objects associated with this property page.
 
-When the property page receives a call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">IPropertyPage::Apply</a>, it must send value changes to these objects through whatever interfaces are appropriate. The property page must query for those interfaces. This method can fail if the objects do not support the interfaces expected by the property page.
+When the property page receives a call to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">IPropertyPage::Apply</a>, it must send value changes to these objects through whatever interfaces are appropriate. The property page must query for those interfaces. This method can fail if the objects do not support the interfaces expected by the property page.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The number of pointers in the array pointed to by <i>ppUnk</i>. If this paramete
 
 ### -param ppUnk [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointers where each pointer identifies a unique object affected by the property sheet in which this (and possibly other) property pages are displayed. The property page must cache these pointers calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> for each pointer at that time. This array of pointers is the same one that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a> or <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to invoke the property sheet.
+A pointer to an array of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointers where each pointer identifies a unique object affected by the property sheet in which this (and possibly other) property pages are displayed. The property page must cache these pointers calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> for each pointer at that time. This array of pointers is the same one that was passed to <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a> or <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to invoke the property sheet.
 
 ## -returns
 
@@ -110,16 +110,15 @@ The address in <i>ppUnk</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -remarks
 
-The property page is required to keep the pointers returned by this method or others queried through them. If these specific <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers are held, the property page must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> through each when caching them, until the time when <b>SetObjects</b> is called with <i>cObjects</i> equal to 0. At that time, the property page must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through each pointer, releasing any objects that it held.
+The property page is required to keep the pointers returned by this method or others queried through them. If these specific <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers are held, the property page must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> through each when caching them, until the time when <b>SetObjects</b> is called with <i>cObjects</i> equal to 0. At that time, the property page must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through each pointer, releasing any objects that it held.
 
 
 
-The caller must provide the property page with these objects before calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a>, and should call <b>SetObjects</b> with zero as the parameter when deactivating the page or when releasing the object entirely. Each call to <b>SetObjects</b> with a non-<b>NULL</b><i>ppUnk</i> parameter must be matched with a later call to <b>SetObjects</b> with 0 in the <i>cObjects</i> parameter.
+The caller must provide the property page with these objects before calling <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a>, and should call <b>SetObjects</b> with zero as the parameter when deactivating the page or when releasing the object entirely. Each call to <b>SetObjects</b> with a non-<b>NULL</b><i>ppUnk</i> parameter must be matched with a later call to <b>SetObjects</b> with 0 in the <i>cObjects</i> parameter.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 E_NOTIMPL is not a valid return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>

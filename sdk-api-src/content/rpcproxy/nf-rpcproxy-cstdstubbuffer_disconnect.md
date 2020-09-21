@@ -52,11 +52,10 @@ api_name:
 
 <p class="CCE_Message">[CStdStubBuffer_Disconnect is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Disconnect</b> function implements  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
+The <b>CStdStubBuffer_Disconnect</b> function implements  the <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
 
 ## -parameters
 
 ### -param This [in]
 
 Pointer to the <b>IRpcStubBuffer</b> object.
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DOMAINDESC</b> structure contains data about an element in a domain tree obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> structure.
+The <b>DOMAINDESC</b> structure contains data about an element in a domain tree obtained with the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method. This structure is contained in the <a href="/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> structure.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Pointer to a Unicode string that contains the path of the domain. Reserved.
 
 ### -field pszNCName
 
-Pointer to a Unicode string that contains the fully qualified name of the domain in the form "DC=myDom, DC=Fabrikam, DC=com". This member is  blank if the <b>DBDTF_RETURNFQDN</b> flag is not set in the <i>dwFlags</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>.
+Pointer to a Unicode string that contains the fully qualified name of the domain in the form "DC=myDom, DC=Fabrikam, DC=com". This member is  blank if the <b>DBDTF_RETURNFQDN</b> flag is not set in the <i>dwFlags</i> parameter in <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>.
 
 ### -field pszTrustParent
 
@@ -80,7 +80,7 @@ Pointer to a Unicode string that contains the object class name of the domain.
 
 ### -field ulFlags
 
-Contains a set of flags that specify the attributes of the trust. For more information, and a list of possible values, see the <i>Flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>.
+Contains a set of flags that specify the attributes of the trust. For more information, and a list of possible values, see the <i>Flags</i> parameter of <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>.
 
 ### -field fDownLevel
 
@@ -96,21 +96,20 @@ Contains a pointer to a <b>DOMAINDESC</b> structure that represents the next sib
 
 ## -remarks
 
-For more information about how to access and use the information in this structure, see <a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>.
+For more information about how to access and use the information in this structure, see <a href="/windows/desktop/AD/domain-browser">Domain Browser</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>
+<a href="/windows/desktop/AD/domain-browser">Domain Browser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>
-
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>

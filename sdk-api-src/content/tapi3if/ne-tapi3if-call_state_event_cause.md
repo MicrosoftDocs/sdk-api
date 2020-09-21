@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>CALL_STATE_EVENT_CAUSE</b> enum is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a> method.
 
 ## -enum-fields
 
@@ -92,5 +92,4 @@ The call failed to connect for some other reason.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallstateevent-get_cause">ITCallStateEvent::get_Cause</a>

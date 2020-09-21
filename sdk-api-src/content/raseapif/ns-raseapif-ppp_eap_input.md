@@ -201,9 +201,9 @@ Specifies the identifier of the initial EAP packet sent by the DLL. This value i
 ### -field pUserAttributes
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
 <a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
+<a href="/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
 
 ### -field fAuthenticationComplete
 
@@ -215,7 +215,7 @@ Specifies the result of the authentication provider's authentication process. Su
 
 ### -field hTokenImpersonateUser
 
-Handle to an impersonation token for the user requesting authentication. This member is valid only on the client side. For more information on impersonation tokens, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>.
+Handle to an impersonation token for the user requesting authentication. This member is valid only on the client side. For more information on impersonation tokens, see <a href="/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>.
 
 ### -field fSuccessPacketReceived
 
@@ -233,7 +233,7 @@ Specifies whether information is available from the interactive user interface. 
 
 Pointer to data received from the authentication protocol's interactive user interface. This pointer is non-<b>NULL</b> if the <b>fDataReceivedFromInteractiveUI</b> member is <b>TRUE</b> and the interactive user interface did, in fact, return data. Otherwise, this pointer is <b>NULL</b>.
 
-If non-<b>NULL</b>, the authentication protocol should make a copy of the data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. To free the memory, RAS calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> function.
+If non-<b>NULL</b>, the authentication protocol should make a copy of the data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. To free the memory, RAS calls the <a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> function.
 
 ### -field dwSizeOfDataFromInteractiveUI
 
@@ -241,9 +241,9 @@ Specifies the size, in bytes, of the data pointed to by <b>pDataFromInteractiveU
 
 ### -field pConnectionData
 
-Pointer to connection data received from the authentication protocol's configuration user interface. This data is available only when the <b>PPP_EAP_INPUT</b> structure is passed in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. It is not available in calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
+Pointer to connection data received from the authentication protocol's configuration user interface. This data is available only when the <b>PPP_EAP_INPUT</b> structure is passed in <a href="/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. It is not available in calls to <a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
 
-The authentication protocol should make a copy of this data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. To free the memory, RAS calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> function. 
+The authentication protocol should make a copy of this data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. To free the memory, RAS calls the <a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> function. 
 
 If the authentication protocol's configuration user interface does not return any data, this member is <b>NULL</b>.
 
@@ -253,15 +253,15 @@ Specifies the size in bytes of the data pointed to by <b>pConnectionData</b>. If
 
 ### -field pUserData
 
-Pointer to user data received from the authentication protocol's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a> function on the client computer. If the authentication protocol does not implement <b>RasEapGetIdentity</b>, this member points to data from the registry for this user.
+Pointer to user data received from the authentication protocol's <a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a> function on the client computer. If the authentication protocol does not implement <b>RasEapGetIdentity</b>, this member points to data from the registry for this user.
 
-This data is available only when the <b>PPP_EAP_INPUT</b> structure is passed in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. It is not available in calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
+This data is available only when the <b>PPP_EAP_INPUT</b> structure is passed in <a href="/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. It is not available in calls to <a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
 
 The authentication protocol should make a copy of this data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. 
 
 
 
-If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a> function is not implemented or did not return any data, and no data exists for the user in the registry, this member is <b>NULL</b>.
+If the <a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a> function is not implemented or did not return any data, and no data exists for the user in the registry, this member is <b>NULL</b>.
 
 ### -field dwSizeOfUserData
 
@@ -278,8 +278,8 @@ This member is reserved.
 ## -remarks
 
 The <b>PPP_EAP_INPUT</b> structure is passed by RAS to the authentication protocol in calls to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> and 
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
 
 The <b>pwszIdentity</b> and <b>pwszPassword</b> members of the 
 <b>PPP_EAP_INPUT</b> structure are used by the 
@@ -291,7 +291,7 @@ If the authentication protocol is using an authentication provider, such as Radi
 <b>fAuthenticationComplete</b>
 <b>dwAuthResultCode</b>
 Note that the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures is passed only if <b>fAuthenticator</b> is <b>TRUE</b>. This array contains current session information such as port identifier and local IP address.
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures is passed only if <b>fAuthenticator</b> is <b>TRUE</b>. This array contains current session information such as port identifier and local IP address.
 
 ## -see-also
 
@@ -303,21 +303,20 @@ Note that the array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>
+<a href="/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>

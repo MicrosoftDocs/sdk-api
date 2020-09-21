@@ -57,13 +57,12 @@ Deprecated. Returns the index of a browser toolbar item based on Component Objec
 
 ### -param punkSrc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the browser toolbar item.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the browser toolbar item.
 
 ## -returns
 
 Type: <b>UINT</b>
 
 The index of the browser toolbar item.
-

@@ -199,7 +199,7 @@ The type library or DLL could not be loaded.
 
 ## -remarks
 
-The function <b>LoadRegTypeLib</b> defers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> to load the file.
+The function <b>LoadRegTypeLib</b> defers to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> to load the file.
 
 
 
@@ -226,4 +226,3 @@ If none of the registered type libraries exactly match the requested major versi
 
 </li>
 </ul>
-

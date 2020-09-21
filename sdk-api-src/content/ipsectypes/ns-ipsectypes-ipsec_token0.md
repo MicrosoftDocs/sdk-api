@@ -58,15 +58,15 @@ The <b>IPSEC_TOKEN0</b> structure contains various information about an IPsec-sp
 
 ### -field type
 
-An [IPSEC_TOKEN_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type) value that specifies the type of token.
+An [IPSEC_TOKEN_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type) value that specifies the type of token.
 
 ### -field principal
 
-An [IPSEC_TOKEN_PRINCIPAL](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal) value that specifies the token principal.
+An [IPSEC_TOKEN_PRINCIPAL](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal) value that specifies the token principal.
 
 ### -field mode
 
-An [IPSEC_TOKEN_MODE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode) value that indicates in which mode the token was obtained.
+An [IPSEC_TOKEN_MODE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode) value that indicates in which mode the token was obtained.
 
 ### -field token
 
@@ -74,5 +74,4 @@ Handle to the access token.  An <b>IPSEC_TOKEN_HANDLE</b> is of type <b>UINT64</
 
 ## -remarks
 
-<b>IPSEC_TOKEN0</b> is a specific implementation of IPSEC_TOKEN. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
+<b>IPSEC_TOKEN0</b> is a specific implementation of IPSEC_TOKEN. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.

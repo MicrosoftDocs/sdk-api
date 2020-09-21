@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Enables a transport application to query a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+Enables a transport application to query a <a href="/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Specifies the attribute of the context to be returned. This parameter can be one
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure.
 
 Returns a handle to the access token.
 
@@ -89,7 +89,7 @@ Returns a handle to the access token.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessionappdata">SecPkgContext_SessionAppData</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessionappdata">SecPkgContext_SessionAppData</a> structure.
 
 Returns or specifies application data for the session.
 
@@ -104,7 +104,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_authoritya">SecPkgContext_Authority</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_authoritya">SecPkgContext_Authority</a> structure.
 
 Queries the name of the authenticating authority.
 
@@ -117,7 +117,7 @@ Queries the name of the authenticating authority.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_clientspecifiedtarget">SecPkgContext_ClientSpecifiedTarget</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the initial target supplied by the client. 
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_clientspecifiedtarget">SecPkgContext_ClientSpecifiedTarget</a> structure that represents the <a href="/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the initial target supplied by the client. 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -130,7 +130,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
 
 Returns detailed information on the established connection.
 
@@ -145,13 +145,13 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials. 
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials. 
 
-If the client credential is user name and password, the buffer is a packed <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure.
+If the client credential is user name and password, the buffer is a packed <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure.
 
-If the client credential is user name and smart card PIN, the buffer is a packed 	<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure.
+If the client credential is user name and smart card PIN, the buffer is a packed 	<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure.
 
-If the client credential is an online identity credential, the buffer is a marshaled <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.
+If the client credential is an online identity credential, the buffer is a marshaled <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.
 
 This attribute is supported only on the CredSSP server.
 
@@ -166,7 +166,7 @@ This attribute is supported only on the CredSSP server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_dceinfo">SecPkgContext_DceInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_dceinfo">SecPkgContext_DceInfo</a> structure.
 
 Queries for authorization data used by DCE services.
 
@@ -179,7 +179,7 @@ Queries for authorization data used by DCE services.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings">SecPkgContext_Bindings</a> structure that specifies channel binding information.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings">SecPkgContext_Bindings</a> structure that specifies channel binding information.
 
 This attribute is supported only by the Schannel security package.
 
@@ -194,7 +194,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_eapkeyblock">SecPkgContext_EapKeyBlock</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_eapkeyblock">SecPkgContext_EapKeyBlock</a> structure.
 
 Queries for key data used by the EAP TLS protocol.
 
@@ -209,7 +209,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_flags">SecPkgContext_Flags</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_flags">SecPkgContext_Flags</a> structure.
 
 Returns information about the negotiated context flags.
 
@@ -222,7 +222,7 @@ Returns information about the negotiated context flags.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structure.
 
 Returns a list of certificate issuers that are accepted by the server.
 
@@ -237,7 +237,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_keyinfoa">SecPkgContext_KeyInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_keyinfoa">SecPkgContext_KeyInfo</a> structure.
 
 Queries information about the keys used in a security context.
 
@@ -250,7 +250,7 @@ Queries information about the keys used in a security context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure that specifies whether the token from the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure that specifies whether the token from the most recent call to the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
 
 This value is supported only by the Negotiate, Kerberos, and NTLM security packages.
 
@@ -265,7 +265,7 @@ This value is supported only by the Negotiate, Kerberos, and NTLM security packa
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lifespan">SecPkgContext_Lifespan</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lifespan">SecPkgContext_Lifespan</a> structure.
 
 Queries the life span of the context.
 
@@ -278,7 +278,7 @@ Queries the life span of the context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
 
 Finds a certificate context that contains a local end certificate.
 
@@ -305,7 +305,7 @@ Superseded by SECPKG_ATTR_LOCAL_CERT_CONTEXT.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_namesa">SecPkgContext_Names</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_namesa">SecPkgContext_Names</a> structure.
 
 Queries the name associated with the context.
 
@@ -318,7 +318,7 @@ Queries the name associated with the context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_nativenamesa">SecPkgContext_NativeNames</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_nativenamesa">SecPkgContext_NativeNames</a> structure.
 
 Returns the principal name (CNAME) from the outbound ticket.
 
@@ -331,7 +331,7 @@ Returns the principal name (CNAME) from the outbound ticket.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_negotiationinfoa">SecPkgContext_NegotiationInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_negotiationinfoa">SecPkgContext_NegotiationInfo</a> structure.
 
 Returns information about the security package to be used with the negotiation process and the current state of the negotiation for the use of that package.
 
@@ -344,7 +344,7 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
 
 Returns information on the SSP in use.
 
@@ -357,7 +357,7 @@ Returns information on the SSP in use.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_passwordexpiry">SecPkgContext_PasswordExpiry</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_passwordexpiry">SecPkgContext_PasswordExpiry</a> structure.
 
 Returns password expiration information.
 
@@ -370,7 +370,7 @@ Returns password expiration information.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
 
 Finds a certificate context that contains the end certificate supplied by the server.
 
@@ -397,7 +397,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <b>HCERTCONTEXT</b>.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sessionkey">SecPkgContext_SessionKey</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sessionkey">SecPkgContext_SessionKey</a> structure.
 
 Returns information about the session keys.
 
@@ -410,7 +410,7 @@ Returns information about the session keys.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessioninfo">SecPkgContext_SessionInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessioninfo">SecPkgContext_SessionInfo</a> structure.
 
 Returns information about the session.
 
@@ -427,7 +427,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure.
 
 Queries the sizes of the structures used in the per-message functions.
 
@@ -440,7 +440,7 @@ Queries the sizes of the structures used in the per-message functions.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_streamsizes">SecPkgContext_StreamSizes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_streamsizes">SecPkgContext_StreamSizes</a> structure.
 
 Queries the sizes of the various parts of a stream used in the per-message functions.
 
@@ -455,7 +455,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
 
 This value returns information about  the security attributes for the connection.
 
@@ -489,7 +489,7 @@ This value is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_targetinformation">SecPkgContext_TargetInformation</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_targetinformation">SecPkgContext_TargetInformation</a> structure.
 
 Returns information about the name of the remote server.
 
@@ -502,7 +502,7 @@ Returns information about the name of the remote server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings">SecPkgContext_Bindings</a> structure that specifies channel binding information.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings">SecPkgContext_Bindings</a> structure that specifies channel binding information.
 
 This value is supported only by the Schannel security package.
 
@@ -528,54 +528,53 @@ If the function fails, the return value is a nonzero error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_authoritya">SecPkgContext_Authority</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_authoritya">SecPkgContext_Authority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a>
+<a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_dceinfo">SecPkgContext_DceInfo</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_dceinfo">SecPkgContext_DceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a>
+<a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_keyinfoa">SecPkgContext_KeyInfo</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_keyinfoa">SecPkgContext_KeyInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lifespan">SecPkgContext_Lifespan</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lifespan">SecPkgContext_Lifespan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_namesa">SecPkgContext_Names</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_namesa">SecPkgContext_Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_streamsizes">SecPkgContext_StreamSizes</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_streamsizes">SecPkgContext_StreamSizes</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines QueryContextAttributesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

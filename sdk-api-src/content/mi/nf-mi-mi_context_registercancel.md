@@ -68,7 +68,7 @@ Data to be passed to the callback.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ If a provider calls this function multiple times on the same context, only the l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_cancellationreason">MI_CancellationReason</a>
+<a href="/windows/desktop/api/mi/ne-mi-mi_cancellationreason">MI_CancellationReason</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>

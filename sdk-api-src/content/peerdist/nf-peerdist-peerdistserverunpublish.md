@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PeerDistServerUnpublish</b> function removes a publication created via <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
+The <b>PeerDistServerUnpublish</b> function removes a publication created via <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param cbContentIdentifier
 
@@ -123,11 +123,10 @@ The service is unavailable.
 
 ## -remarks
 
-The <b>PeerDistServerUnpublish</b> function cancels all pending operations on unpublished content within the Peer Distribution session that is associated with the specified <i>hPeerDist</i>. The client is still required  to close previously opened handles on that content with a call to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientclosecontent">PeerDistClientCloseContent</a>.
+The <b>PeerDistServerUnpublish</b> function cancels all pending operations on unpublished content within the Peer Distribution session that is associated with the specified <i>hPeerDist</i>. The client is still required  to close previously opened handles on that content with a call to <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientclosecontent">PeerDistClientCloseContent</a>.
 
 A publication is accessible only to the User Account that originally published the content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>

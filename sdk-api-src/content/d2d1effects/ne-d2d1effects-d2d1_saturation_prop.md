@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/saturation">Saturation effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/saturation">Saturation effect</a>.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The type is FLOAT.
 The default is 0.5f.
 
 ### -field D2D1_SATURATION_PROP_FORCE_DWORD
-

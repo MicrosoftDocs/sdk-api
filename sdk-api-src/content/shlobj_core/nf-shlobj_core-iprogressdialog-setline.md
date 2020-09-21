@@ -58,7 +58,7 @@ Displays a message in the progress dialog.
 
 Type: <b>DWORD</b>
 
-The line number on which the text is to be displayed. Currently there are three lines—1, 2, and 3. If the <b>PROGDLG_AUTOTIME</b> flag was included in the <i>dwFlags</i> parameter when <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-startprogressdialog">IProgressDialog::StartProgressDialog</a> was called, only lines 1 and 2 can be used. The estimated time will be displayed on line 3.
+The line number on which the text is to be displayed. Currently there are three lines—1, 2, and 3. If the <b>PROGDLG_AUTOTIME</b> flag was included in the <i>dwFlags</i> parameter when <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-startprogressdialog">IProgressDialog::StartProgressDialog</a> was called, only lines 1 and 2 can be used. The estimated time will be displayed on line 3.
 
 ### -param pwzString [in]
 
@@ -70,7 +70,7 @@ A null-terminated Unicode string that contains the text.
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> to have path strings compacted if they are too large to fit on a line. The paths are compacted with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcompactpatha">PathCompactPath</a>.
+<b>TRUE</b> to have path strings compacted if they are too large to fit on a line. The paths are compacted with <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcompactpatha">PathCompactPath</a>.
 
 ### -param pvResevered
 
@@ -90,5 +90,4 @@ This function is typically used to display a message such as "Item XXX is now be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>

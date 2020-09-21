@@ -57,9 +57,9 @@ Issue a query.
 
 ### -param dwIssueFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Query flags specify the type of state change for the query. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dissue-begin">D3DISSUE_BEGIN</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dissue-end">D3DISSUE_END</a>.
+Query flags specify the type of state change for the query. See <a href="/windows/desktop/direct3d9/d3dissue-begin">D3DISSUE_BEGIN</a> and <a href="/windows/desktop/direct3d9/d3dissue-end">D3DISSUE_END</a>.
 
 ## -returns
 
@@ -69,9 +69,8 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-A signaled query means the query has completed, the data is available, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata">IDirect3DQuery9::GetData</a> will return S_OK.
+A signaled query means the query has completed, the data is available, and <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata">IDirect3DQuery9::GetData</a> will return S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>

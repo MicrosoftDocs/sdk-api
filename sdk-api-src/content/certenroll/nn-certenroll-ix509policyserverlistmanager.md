@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IX509PolicyServerListManager</b> interface defines the following methods and properties that enable you to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects.
+The <b>IX509PolicyServerListManager</b> interface defines the following methods and properties that enable you to manage a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerListManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerListManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerListManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerListManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,25 +70,25 @@ The <b>IX509PolicyServerListManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-add">Add</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object to the collection.
+Adds an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-clear">Clear</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects from the collection.
+Removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509PolicyServerListManager</b> object.
@@ -97,10 +97,10 @@ Initializes an <b>IX509PolicyServerListManager</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-remove">Remove</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object from the collection by index number.
+Removes an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get_count">Count</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get_count">Count</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects in the collection.
+Retrieves the number of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get_itembyindex">ItemByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverlistmanager-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -156,9 +156,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object from the collection by index number.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> object from the collection by index number.
 
 </td>
 </tr>
 </table>
-

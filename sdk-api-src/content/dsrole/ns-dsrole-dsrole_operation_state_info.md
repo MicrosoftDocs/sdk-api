@@ -54,23 +54,22 @@ api_name:
 
 ## -description
 
-The <b>DSROLE_OPERATION_STATE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain the operational state data for a computer.
+The <b>DSROLE_OPERATION_STATE_INFO</b> structure is used with the <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain the operational state data for a computer.
 
 ## -struct-fields
 
 ### -field OperationState
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a> values that indicates the computer operational state.
+Contains one of the <a href="/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a> values that indicates the computer operational state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a>
+<a href="/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
+<a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

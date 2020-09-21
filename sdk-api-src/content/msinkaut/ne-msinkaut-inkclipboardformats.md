@@ -60,7 +60,7 @@ Specifies the format of ink that is stored on the Clipboard.
 
 ### -field ICF_InkSerializedFormat
 
-Ink is encoded in ink serialized format (ISF). This is the most compact persistent representation of ink. Although it often contains only ink data, ISF is extensible. Applications can set custom attributes (identified by a globally unique identifier (GUID)) on an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, stroke, or point. This allows an application to store any kind of data or metadata that it requires as an attribute in an ISF stream.
+Ink is encoded in ink serialized format (ISF). This is the most compact persistent representation of ink. Although it often contains only ink data, ISF is extensible. Applications can set custom attributes (identified by a globally unique identifier (GUID)) on an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, stroke, or point. This allows an application to store any kind of data or metadata that it requires as an attribute in an ISF stream.
 
 ### -field ICF_SketchInk
 
@@ -84,7 +84,7 @@ The bitmap to use as the background. The bitmap device context must remain valid
 
 ### -field ICF_PasteMask
 
-The formats that can be used for pasting, including <a href="https://docs.microsoft.com/windows/desktop/tablet/sink-and-tink-objects">tInk</a>, sInk, and ISF.
+The formats that can be used for pasting, including <a href="/windows/desktop/tablet/sink-and-tink-objects">tInk</a>, sInk, and ISF.
 
 ### -field ICF_CopyMask
 
@@ -102,17 +102,16 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle">ClipboardCopyWithRectangle Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle">ClipboardCopyWithRectangle Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/sink-and-tink-objects">sInk and tInk Objects</a>
-
+<a href="/windows/desktop/tablet/sink-and-tink-objects">sInk and tInk Objects</a>

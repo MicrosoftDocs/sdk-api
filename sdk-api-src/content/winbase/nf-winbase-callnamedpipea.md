@@ -123,7 +123,7 @@ Waits indefinitely.
 </td>
 <td width="60%">
 Uses the default time-out specified in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 </td>
 </tr>
@@ -134,15 +134,15 @@ Uses the default time-out specified in a call to the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the message written to the pipe by the server process is longer than <i>nOutBufferSize</i>, 
-<b>CallNamedPipe</b> returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. The remainder of the message is discarded, because 
+<b>CallNamedPipe</b> returns <b>FALSE</b>, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. The remainder of the message is discarded, because 
 <b>CallNamedPipe</b> closes the handle to the pipe before returning.
 
 ## -remarks
 
-Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
+Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (or <a href="/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>, if <b>CreateFile</b> cannot open the pipe immediately), <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, and <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> functions. <b>CreateFile</b> is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of <b>FALSE</b>.
 
 <b>CallNamedPipe</b> fails if the pipe is a byte-type pipe.
 
@@ -152,35 +152,34 @@ Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="https://docs.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/transactions-on-named-pipes">Transactions on Named Pipes</a>.
+<a href="/windows/desktop/ipc/transactions-on-named-pipes">Transactions on Named Pipes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AuthzInitializeResourceManagerEx</b> function initializes an Authz resource manager and returns a handle to it. Use this function rather than <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeresourcemanager">AuthzInitializeResourceManager</a> when you want the resource manager to manage Central Access Policies (CAPs).
+The <b>AuthzInitializeResourceManagerEx</b> function initializes an Authz resource manager and returns a handle to it. Use this function rather than <a href="/windows/desktop/api/authz/nf-authz-authzinitializeresourcemanager">AuthzInitializeResourceManager</a> when you want the resource manager to manage Central Access Policies (CAPs).
 
 ## -parameters
 
@@ -111,31 +111,30 @@ The central access policy IDs are ignored. Do not evaluate central access polici
 
 ### -param pAuthzInitInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_init_info">AUTHZ_INIT_INFO</a> structure that contains the authorization resource manager initialization information.
+A pointer to a <a href="/windows/desktop/api/authz/ns-authz-authz_init_info">AUTHZ_INIT_INFO</a> structure that contains the authorization resource manager initialization information.
 
 ### -param phAuthzResourceManager [out]
 
-A pointer to the returned resource manager handle. When you have finished using the handle, free it by using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreeresourcemanager">AuthzFreeResourceManager</a> function.
+A pointer to the returned resource manager handle. When you have finished using the handle, free it by using the <a href="/windows/desktop/api/authz/nf-authz-authzfreeresourcemanager">AuthzFreeResourceManager</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
-If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is specified, then <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> ignore CAPID (Central Access Policie ID) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a> and will not evaluate CAPs.
+If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is specified, then <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> ignore CAPID (Central Access Policie ID) <a href="/windows/desktop/SecGloss/a-gly">access control entries</a><a href="/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a> and will not evaluate CAPs.
 
-If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is not specified and pfnGetCentralAccessPolicy is <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> will get CAPs from LSA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nf-ntlsa-lsagetappliedcapids">LsaGetAppliedCAPIDs</a>.
+If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is not specified and pfnGetCentralAccessPolicy is <b>NULL</b>, then <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> will get CAPs from LSA. For more information, see <a href="/windows/desktop/api/ntlsa/nf-ntlsa-lsagetappliedcapids">LsaGetAppliedCAPIDs</a>.
 
-If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is not specified and a central access policy callback is provided by the resource manager, then <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> will get CAPs from the resource manager by invoking the callback.
+If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is not specified and a central access policy callback is provided by the resource manager, then <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> will get CAPs from the resource manager by invoking the callback.
 
-The LSA and the central access policy callback can indicate that CAPs are not supported, in which case <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> ignore CAPID ACEs and will not evaluate CAPs.
+The LSA and the central access policy callback can indicate that CAPs are not supported, in which case <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> ignore CAPID ACEs and will not evaluate CAPs.
 
 The LSA and the central access policy callback may fail to return a CAP that corresponds to a particular CAPID, in which case <b>AuthzAccessCheck</b> and <b>AuthzCachedAccessCheck</b> use the same default CAP as the kernel AccessCheck.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nf-ntlsa-lsagetappliedcapids">LsaGetAppliedCAPIDs</a>
-
+<a href="/windows/desktop/api/ntlsa/nf-ntlsa-lsagetappliedcapids">LsaGetAppliedCAPIDs</a>

@@ -54,8 +54,8 @@ api_name:
 
 <span>This topic lists the 
 			GetRectangle methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> class. For a complete list of methods for the 
-			<b>LinearGradientBrush</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-lineargradientbrush-methods">LinearGradientBrush Methods</a>.
+			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> class. For a complete list of methods for the 
+			<b>LinearGradientBrush</b> class, see <a href="/windows/desktop/gdiplus/-gdiplus-class-lineargradientbrush-methods">LinearGradientBrush Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -64,23 +64,22 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535351(v=vs.85)">GetRectangle(Rect*)</a>
+<a href="/previous-versions/ms535351(v=vs.85)">GetRectangle(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms535351(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
+The <a href="/previous-versions/ms535351(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms535352(v=vs.85)">GetRectangle(RectF*)</a>
+<a href="/previous-versions/ms535352(v=vs.85)">GetRectangle(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms535352(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
+The <a href="/previous-versions/ms535352(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
 
 </td>
 </tr>
 </table>
 
 ## -parameters
-

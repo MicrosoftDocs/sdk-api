@@ -53,19 +53,19 @@ api_name:
 The custom-scripting DLL calls the 
 <i>RasReceiveBuffer</i> function to inform RAS that it is ready to receive data from the server over the specified port.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">PFNRASRECEIVEBUFFER</a> type defines a pointer to this callback function. <i>RasReceiveBuffer</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">PFNRASRECEIVEBUFFER</a> type defines a pointer to this callback function. <i>RasReceiveBuffer</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
 ### -param hPort
 
 Handle to the port on which to receive the data. This handle should be the handle passed in by RAS as the first parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
+<a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
 
 ### -param pBuffer
 
 Pointer to a buffer to receive the data from the port specified by the <i>hPort</i> parameter. Obtain this buffer using 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a> function.
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a> function.
 
 ### -param pdwSize
 
@@ -120,25 +120,24 @@ The handle specified by the <i>hPort</i> parameter is invalid.
 
 <i>RasReceiveBuffer</i> is an asynchronous function. 
 <i>RasReceiveBuffer</i> returns immediately even if the data is not yet available. The custom-scripting DLL must wait on the event object specified by the <i>hEvent</i> parameter. When the data is available, RAS signals this event. The custom-scripting DLL should then call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a> function to obtain the data. The custom-scripting DLL may pass the same buffer pointer in 
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a> function to obtain the data. The custom-scripting DLL may pass the same buffer pointer in 
 <b>RasRetrieveBuffer</b> that it passed in <b>RasReceiveBuffer</b>.
 
 RAS also signals the event object if, for some reason, the port is disconnected before the data is posted. In this case, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a> returns an error defined in Raserror.h, that indicates the cause of the failure.
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasretrievebuffer">RasRetrieveBuffer</a> returns an error defined in Raserror.h, that indicates the cause of the failure.
 
 The custom-scripting DLL calls 
 <i>RasReceiveBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
+<a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
+<a href="/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>
-
+<a href="/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>

@@ -99,7 +99,7 @@ The root cause corresponds to a leaf in the diagnostics tree. Root causes that a
 </dl>
 </td>
 <td width="60%">
-The root cause corresponds to a node with a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a> value of <b>DS_CONFIRMED</b>. Problems with confirmed low health are more likely to correspond to the problem the user is trying to diagnose. 
+The root cause corresponds to a node with a <a href="/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a> value of <b>DS_CONFIRMED</b>. Problems with confirmed low health are more likely to correspond to the problem the user is trying to diagnose. 
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ GUID of the network interface on which the problem occurred. If the problem is n
 
 ### -field pRepairs
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>*</b>
+Type: <b><a href="/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>*</b>
 
 The repairs that are available to try and fix the problem.
 
@@ -136,17 +136,16 @@ The number of repairs available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/copyrootcauseinfo">CopyRootCauseInfo</a>
+<a href="/windows/desktop/NDF/copyrootcauseinfo">CopyRootCauseInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a>
+<a href="/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/freerootcauseinfos">FreeRootCauseInfos</a>
+<a href="/windows/desktop/NDF/freerootcauseinfos">FreeRootCauseInfos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>
-
+<a href="/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>

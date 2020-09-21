@@ -96,7 +96,7 @@ The font object is attached to a range that was deleted.
 </table>
  
 
-For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
@@ -108,7 +108,7 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -116,9 +116,8 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setstyle">SetStyle</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setstyle">SetStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

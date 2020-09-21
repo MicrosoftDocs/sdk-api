@@ -55,7 +55,7 @@ api_name:
 ]
 
 
-The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> until you recieve the WMT_PROXIMITY_COMPLETED message.
+The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> until you recieve the WMT_PROXIMITY_COMPLETED message.
 
 ## -parameters
 
@@ -81,15 +81,15 @@ Specifies the number of additional ports that the method will attempt to use if 
 
 ### -param ppRegistrationResponseMsg [out]
 
-Address of a variable that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
+Address of a variable that receives the address of the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
 
 ### -param pCallback [in]
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface that will receive proximity detection status messages.
+Address of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface that will receive proximity detection status messages.
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
 
 ## -returns
 
@@ -117,11 +117,10 @@ The method succeeded.
 
 This method is asynchronous. When proximity detection is complete, a WMT_PROXIMITY_RESULT message is sent to the callback specified by <i>pCallback</i>. The completion message is accompanied by an <b>HRESULT</b> indicating success or failure.
 
-Regardless of whether the proximity detection completes, the listening thread runs for two minutes, then send the  WMT_PROXIMITY_COMPLETED message. Do not release the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> interface until you receive this message.
+Regardless of whether the proximity detection completes, the listening thread runs for two minutes, then send the  WMT_PROXIMITY_COMPLETED message. Do not release the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> interface until you receive this message.
 
 If this method returns a failure code, no messages are sent to the callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>

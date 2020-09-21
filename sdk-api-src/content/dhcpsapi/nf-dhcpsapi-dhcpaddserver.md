@@ -64,7 +64,7 @@ Pointer to an address containing the server's ID block. This field should be set
 
 ### -param NewServer [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCP_SERVER_INFO</a> structure containing information about the new DHCP server. The <b>DsLocation</b> and <b>DsLocType</b> members present in this structure are not valid in this implementation, and they should be set to null. The <b>Version</b> member of this structure should be set to 0.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCP_SERVER_INFO</a> structure containing information about the new DHCP server. The <b>DsLocation</b> and <b>DsLocType</b> members present in this structure are not valid in this implementation, and they should be set to null. The <b>Version</b> member of this structure should be set to 0.
 
 ### -param CallbackFn [in]
 
@@ -76,13 +76,12 @@ Pointer to a data block containing the formatted structure for callback informat
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCP_SERVER_INFO</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCP_SERVER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>

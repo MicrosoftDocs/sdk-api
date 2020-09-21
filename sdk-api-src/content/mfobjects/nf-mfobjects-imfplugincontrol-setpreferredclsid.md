@@ -56,11 +56,11 @@ Adds a class identifier (CLSID) to the preferred list or removes a CLSID from th
 
 ### -param pluginType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object.
+Member of the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object.
 
 ### -param selector [in]
 
-The key name for the CLSID. For more information about the format of key names, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>.
+The key name for the CLSID. For more information about the format of key names, see the Remarks section of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>.
 
 ### -param clsid [in]
 
@@ -76,5 +76,4 @@ The preferred list is global to the caller's process. Calling this method does n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>

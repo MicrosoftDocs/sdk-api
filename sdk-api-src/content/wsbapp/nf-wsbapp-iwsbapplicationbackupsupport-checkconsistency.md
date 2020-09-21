@@ -66,7 +66,7 @@ The name of the component or component set to be checked. This should match the 
 
 ### -param wszComponentLogicalPath [in, optional]
 
-The <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">logical path</a> of the component or 
+The <a href="/windows/desktop/VSS/logical-pathing-of-components">logical path</a> of the component or 
     component set to be checked. This should match the logical path in the metadata that the 
   <i>wszWriterMetadata</i> parameter points to.
 
@@ -89,10 +89,10 @@ A pointer to an array of volume <b>GUID</b> paths, one for each of the shadow co
 ### -param ppAsync [out, optional]
 
 A pointer to a variable that will receive an 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationasync">IWsbApplicationAsync</a> interface pointer that can be 
+    <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationasync">IWsbApplicationAsync</a> interface pointer that can be 
   used to retrieve the status of the consistency-check operation.  This pointer can be <b>NULL</b> 
   if a consistency check is not required. When the consistency-check operation is complete, the 
-  <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method must be called to free all 
+  <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method must be called to free all 
       resources held by the <b>IWsbApplicationAsync</b> object.
 
 ## -returns
@@ -110,5 +110,4 @@ The application should perform the consistency check as an asynchronous operatio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationbackupsupport">IWsbApplicationBackupSupport</a>
-
+<a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationbackupsupport">IWsbApplicationBackupSupport</a>

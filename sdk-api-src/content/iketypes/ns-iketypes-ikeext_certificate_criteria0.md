@@ -58,26 +58,26 @@ The <b>IKEEXT_CERTIFICATE_CRITERIA0</b> structure contains a set of criteria to 
 
 ### -field certData
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
+Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
 X509/ASN.1 encoded name of the root certificate. Should be empty when
    specifying Enterprise or trusted root store config.
 
 ### -field certHash
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
+Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
   16-character hexadecimal string that represents the ID, thumbprint or HASH of the end certificate.
 
 ### -field eku
 
-Type: [IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)*</b>
+Type: [IKEEXT_CERT_EKUS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)*</b>
 
 The specific extended key usage (EKU) object identifiers (OIDs) selected for the criteria on the end certificate.
 
 ### -field name
 
-Type: [IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)*</b>
+Type: [IKEEXT_CERT_NAME0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)*</b>
 
 The name/subject selected for the criteria on the end certificate.
 
@@ -93,13 +93,12 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 ## -see-also
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)
+[IKEEXT_CERT_EKUS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)
 
 
 
-[IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)
-
+[IKEEXT_CERT_NAME0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)

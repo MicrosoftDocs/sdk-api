@@ -55,7 +55,7 @@ An information-queue interface stores, retrieves, and filters debug messages. Th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11InfoQueue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11InfoQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11InfoQueue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11InfoQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D11InfoQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addapplicationmessage">AddApplicationMessage</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addapplicationmessage">AddApplicationMessage</a>
 </td>
 <td align="left" width="63%">
 Add a user-defined message to the message queue and send that message to debug output.
@@ -79,7 +79,7 @@ Add a user-defined message to the message queue and send that message to debug o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addmessage">AddMessage</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addmessage">AddMessage</a>
 </td>
 <td align="left" width="63%">
 Add a debug message to the message queue and send that message to debug output.
@@ -88,7 +88,7 @@ Add a debug message to the message queue and send that message to debug output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addretrievalfilterentries">AddRetrievalFilterEntries</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addretrievalfilterentries">AddRetrievalFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Add storage filters to the top of the retrieval-filter stack.
@@ -97,7 +97,7 @@ Add storage filters to the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addstoragefilterentries">AddStorageFilterEntries</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addstoragefilterentries">AddStorageFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Add storage filters to the top of the storage-filter stack.
@@ -106,7 +106,7 @@ Add storage filters to the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearretrievalfilter">ClearRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearretrievalfilter">ClearRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Remove a retrieval filter from the top of the retrieval-filter stack.
@@ -115,7 +115,7 @@ Remove a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearstoragefilter">ClearStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearstoragefilter">ClearStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Remove a storage filter from the top of the storage-filter stack.
@@ -124,7 +124,7 @@ Remove a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearstoredmessages">ClearStoredMessages</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-clearstoredmessages">ClearStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Clear all messages from the message queue.
@@ -133,7 +133,7 @@ Clear all messages from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakoncategory">GetBreakOnCategory</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakoncategory">GetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Get a message category to break on when a message with that category passes through the storage filter.
@@ -142,7 +142,7 @@ Get a message category to break on when a message with that category passes thro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakonid">GetBreakOnID</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakonid">GetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Get a message identifier to break on when a message with that identifier passes through the storage filter.
@@ -151,7 +151,7 @@ Get a message identifier to break on when a message with that identifier passes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakonseverity">GetBreakOnSeverity</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getbreakonseverity">GetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Get a message severity level to break on when a message with that severity level passes through the storage filter.
@@ -160,7 +160,7 @@ Get a message severity level to break on when a message with that severity level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmessage">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Get a message from the message queue.
@@ -169,7 +169,7 @@ Get a message from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmessagecountlimit">GetMessageCountLimit</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmessagecountlimit">GetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Get the maximum number of messages that can be added to the message queue.
@@ -178,7 +178,7 @@ Get the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmutedebugoutput">GetMuteDebugOutput</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmutedebugoutput">GetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Get a boolean that turns the debug output on or off.
@@ -187,7 +187,7 @@ Get a boolean that turns the debug output on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesallowedbystoragefilter">GetNumMessagesAllowedByStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesallowedbystoragefilter">GetNumMessagesAllowedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were allowed to pass through a storage filter.
@@ -196,7 +196,7 @@ Get the number of messages that were allowed to pass through a storage filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesdeniedbystoragefilter">GetNumMessagesDeniedByStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesdeniedbystoragefilter">GetNumMessagesDeniedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were denied passage through a storage filter.
@@ -205,7 +205,7 @@ Get the number of messages that were denied passage through a storage filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesdiscardedbymessagecountlimit">GetNumMessagesDiscardedByMessageCountLimit</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnummessagesdiscardedbymessagecountlimit">GetNumMessagesDiscardedByMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that were discarded due to the message count limit.
@@ -214,7 +214,7 @@ Get the number of messages that were discarded due to the message count limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnumstoredmessages">GetNumStoredMessages</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnumstoredmessages">GetNumStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages currently stored in the message queue.
@@ -223,7 +223,7 @@ Get the number of messages currently stored in the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnumstoredmessagesallowedbyretrievalfilter">GetNumStoredMessagesAllowedByRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getnumstoredmessagesallowedbyretrievalfilter">GetNumStoredMessagesAllowedByRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Get the number of messages that are able to pass through a retrieval filter.
@@ -232,7 +232,7 @@ Get the number of messages that are able to pass through a retrieval filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getretrievalfilter">GetRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getretrievalfilter">GetRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Get the retrieval filter at the top of the retrieval-filter stack.
@@ -241,7 +241,7 @@ Get the retrieval filter at the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getretrievalfilterstacksize">GetRetrievalFilterStackSize</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getretrievalfilterstacksize">GetRetrievalFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Get the size of the retrieval-filter stack in bytes.
@@ -250,7 +250,7 @@ Get the size of the retrieval-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getstoragefilter">GetStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getstoragefilter">GetStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Get the storage filter at the top of the storage-filter stack.
@@ -259,7 +259,7 @@ Get the storage filter at the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getstoragefilterstacksize">GetStorageFilterStackSize</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getstoragefilterstacksize">GetStorageFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Get the size of the storage-filter stack in bytes.
@@ -268,7 +268,7 @@ Get the size of the storage-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-popretrievalfilter">PopRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-popretrievalfilter">PopRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pop a retrieval filter from the top of the retrieval-filter stack.
@@ -277,7 +277,7 @@ Pop a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-popstoragefilter">PopStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-popstoragefilter">PopStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pop a storage filter from the top of the storage-filter stack.
@@ -286,7 +286,7 @@ Pop a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushcopyofretrievalfilter">PushCopyOfRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushcopyofretrievalfilter">PushCopyOfRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
@@ -295,7 +295,7 @@ Push a copy of retrieval filter currently on the top of the retrieval-filter sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushcopyofstoragefilter">PushCopyOfStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushcopyofstoragefilter">PushCopyOfStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
@@ -304,7 +304,7 @@ Push a copy of storage filter currently on the top of the storage-filter stack o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushemptyretrievalfilter">PushEmptyRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushemptyretrievalfilter">PushEmptyRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push an empty retrieval filter onto the retrieval-filter stack.
@@ -313,7 +313,7 @@ Push an empty retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushemptystoragefilter">PushEmptyStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushemptystoragefilter">PushEmptyStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push an empty storage filter onto the storage-filter stack.
@@ -322,7 +322,7 @@ Push an empty storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushretrievalfilter">PushRetrievalFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushretrievalfilter">PushRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Push a retrieval filter onto the retrieval-filter stack.
@@ -331,7 +331,7 @@ Push a retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushstoragefilter">PushStorageFilter</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-pushstoragefilter">PushStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Push a storage filter onto the storage-filter stack.
@@ -340,7 +340,7 @@ Push a storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakoncategory">SetBreakOnCategory</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakoncategory">SetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Set a message category to break on when a message with that category passes through the storage filter.
@@ -349,7 +349,7 @@ Set a message category to break on when a message with that category passes thro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakonid">SetBreakOnID</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakonid">SetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Set a message identifier to break on when a message with that identifier passes through the storage filter.
@@ -358,7 +358,7 @@ Set a message identifier to break on when a message with that identifier passes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakonseverity">SetBreakOnSeverity</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setbreakonseverity">SetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Set a message severity level to break on when a message with that severity level passes through the storage filter.
@@ -367,7 +367,7 @@ Set a message severity level to break on when a message with that severity level
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setmessagecountlimit">SetMessageCountLimit</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setmessagecountlimit">SetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Set the maximum number of messages that can be added to the message queue.
@@ -376,7 +376,7 @@ Set the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setmutedebugoutput">SetMuteDebugOutput</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-setmutedebugoutput">SetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Set a boolean that turns the debug output on or off.
@@ -387,7 +387,7 @@ Set a boolean that turns the debug output on or off.
 
 ## -remarks
 
-To get this interface, turn on debug layer and use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.
+To get this interface, turn on debug layer and use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> from the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.
           
 
 <b>Windows Phone 8:
@@ -395,9 +395,8 @@ To get this interface, turn on debug layer and use <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>

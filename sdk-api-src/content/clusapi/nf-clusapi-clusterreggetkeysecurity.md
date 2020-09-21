@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a copy of the security descriptor protecting the specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+Returns a copy of the security descriptor protecting the specified  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Handle to a cluster database key.
 
 ### -param RequestedInformation [in]
 
-A  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
+A  <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
 
 ### -param pSecurityDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
+Pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
 
 ### -param lpcbSecurityDescriptor [in, out]
 
@@ -75,9 +75,8 @@ On input, pointer to a count of the number of bytes in the buffer pointed to by 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>

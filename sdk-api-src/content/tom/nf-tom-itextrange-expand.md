@@ -58,7 +58,7 @@ Expands this range so that any partial units it contains are completely containe
 
 Type: <b>long</b>
 
-Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
+Unit to include, if it is partially within the range. The default value is <code>tomWord</code>. For a list of the other <i>Unit</i> values, see the discussion under <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param pDelta
 
@@ -70,7 +70,7 @@ The count of characters added to the range. The value can be null.
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -119,5 +119,4 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

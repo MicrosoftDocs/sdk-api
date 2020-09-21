@@ -58,9 +58,8 @@ Represents a comment.  (For example, &lt;!--The message follows--&gt;)
 
 ### -field node
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
 
 ### -field value
 
 The textual content of the comment.  In the example, it is the string "The message follows".
-

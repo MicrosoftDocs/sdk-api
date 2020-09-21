@@ -50,22 +50,21 @@ api_name:
 
 ## -description
 
-Sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message indicating that Windows needs to be restarted for changes to take effect. You can use this macro or send the <b>PSM_RESTARTWINDOWS</b> message explicitly.
+Sends a <a href="/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message indicating that Windows needs to be restarted for changes to take effect. You can use this macro or send the <b>PSM_RESTARTWINDOWS</b> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 ## -remarks
 
-An application should send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message only in response to the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-apply">PSN_APPLY</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code.
+An application should send the <a href="/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message only in response to the <a href="/windows/desktop/Controls/psn-apply">PSN_APPLY</a> or <a href="/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code.
 
-The <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message causes the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to return the ID_PSRESTARTWINDOWS value, but only if the user clicks the <b>OK</b> button to close the property sheet. It is the application's responsibility to restart Windows, which can be done by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
+The <a href="/windows/desktop/Controls/psm-restartwindows">PSM_RESTARTWINDOWS</a> message causes the <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to return the ID_PSRESTARTWINDOWS value, but only if the user clicks the <b>OK</b> button to close the property sheet. It is the application's responsibility to restart Windows, which can be done by using the <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-

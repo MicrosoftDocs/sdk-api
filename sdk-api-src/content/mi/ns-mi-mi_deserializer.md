@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Deserialization object as created from 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>. The 
+     <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>. The 
      object itself should not be manually used or changed as it is used internally.
 
 ## -struct-fields
@@ -65,4 +65,3 @@ Reserved for internal use.
 ### -field reserved2
 
 Reserved for internal use.
-

@@ -78,7 +78,7 @@ Your code should not perform lengthy operations synchronously when Windows Media
 
 Windows Media Player calls <b>allowPlay</b> before opening the digital media file. This gives the online store an opportunity to disallow playback of licensed content or to initiate download of a new license if the license has expired.
 
-Because the digital media file is not open when Windows Media Player calls <b>allowPlay</b>, calling certain methods on <i>pMedia</i> may not work. For instance, attempting to retrieve metadata using <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a> could fail.
+Because the digital media file is not open when Windows Media Player calls <b>allowPlay</b>, calling certain methods on <i>pMedia</i> may not work. For instance, attempting to retrieve metadata using <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a> could fail.
 
 The <b>allowPlay</b> method does not circumvent DRM. If the method returns <b>TRUE</b> and the license to play has not been renewed, Windows Media Player will not play the content.
 
@@ -86,5 +86,4 @@ The <b>allowPlay</b> method is not called when streaming protected content for w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
-
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>

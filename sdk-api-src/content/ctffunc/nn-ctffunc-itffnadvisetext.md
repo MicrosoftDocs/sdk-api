@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfFnAdviseText</b> interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
 
-The manager obtains this interface from the text service by calling the text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnAdviseText.
+The manager obtains this interface from the text service by calling the text service <a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnAdviseText.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnAdviseText</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnAdviseText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfFnAdviseText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-onlatticeupdate">OnLatticeUpdate</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-onlatticeupdate">OnLatticeUpdate</a>
 </td>
 <td align="left" width="63%">
 Called when a lattice element within a context changes.
@@ -80,7 +80,7 @@ Called when a lattice element within a context changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-ontextupdate">OnTextUpdate</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-ontextupdate">OnTextUpdate</a>
 </td>
 <td align="left" width="63%">
 Called when the text within a context changes.
@@ -91,10 +91,9 @@ Called when the text within a context changes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
+<a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

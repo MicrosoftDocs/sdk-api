@@ -73,13 +73,12 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 ## -remarks
 
 This method takes a timestamp using system time rather than from the touch hardware. To improve the experience in 
-    cases where performance is degrading you should use the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime">ProcessDownWithTime</a> method.
+    cases where performance is degrading you should use the <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime">ProcessDownWithTime</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
-
+<a href="/windows/desktop/wintouch/mtmethods">Methods</a>

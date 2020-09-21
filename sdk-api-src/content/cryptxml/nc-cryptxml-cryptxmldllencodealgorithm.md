@@ -52,17 +52,17 @@ api_name:
 
 The <b>CryptXmlDllEncodeAlgorithm</b> function encodes <b>SignatureMethod</b> or <b>DigestMethod</b> elements  for agile algorithms with default parameters.
 
-The <b>CryptXmlDllEncodeAlgorithm</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllEncodeAlgorithm</b> function is exposed through the exported <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 ## -parameters
 
 ### -param *pAlgInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
 ### -param dwCharset
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
+A <a href="/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
 
 ### -param *pvCallbackState [in, out]
 
@@ -70,11 +70,10 @@ A pointer to an argument that is passed to the callback function pointed to by t
 
 ### -param pfnWrite [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_write_callback">PFN_CRYPT_XML_WRITE_CALLBACK</a> callback function that receives the encoded XML.
+A <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_write_callback">PFN_CRYPT_XML_WRITE_CALLBACK</a> callback function that receives the encoded XML.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

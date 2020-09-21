@@ -70,9 +70,8 @@ An application-defined argument that is passed to
 
 ### -field pfnRead
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_data_provider_read">PFN_CRYPT_XML_DATA_PROVIDER_READ</a> callback function used to read data.
+A pointer to a <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_data_provider_read">PFN_CRYPT_XML_DATA_PROVIDER_READ</a> callback function used to read data.
 
 ### -field pfnClose
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_data_provider_close">PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</a> callback function used to release the data provider. When you have finished using the data provider, you must release it.
-
+A pointer to a <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_data_provider_close">PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</a> callback function used to release the data provider. When you have finished using the data provider, you must release it.

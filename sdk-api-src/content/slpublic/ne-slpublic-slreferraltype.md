@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents the types of information that can be queried with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetreferralinformation">SLGetReferralInformation</a> function.
+Represents the types of information that can be queried with the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetreferralinformation">SLGetReferralInformation</a> function.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Represents the types of information that can be queried with the <a href="https:
 ### -field SL_REFERRALTYPE_OVERRIDE_APPID
 
 ### -field SL_REFERRALTYPE_BEST_MATCH
-

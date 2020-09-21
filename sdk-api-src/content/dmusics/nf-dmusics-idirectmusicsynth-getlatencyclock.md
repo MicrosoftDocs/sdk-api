@@ -115,21 +115,20 @@ Indicates that the synth is not open or is not properly configured.
 
 ## -remarks
 
-This method returns the latency clock created by the wave sink (<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>) object, which handles the output audio stream. The latency clock returns the current render time whenever its <b>IReferenceClock::GetTime</b> method is called. This time is always relative to the time established by the master clock (installed in the synthesizer and wave sink through a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>). The latency time is used by the performance to identify the next available time to start playing a note. The latency should not exceed 450 milliseconds.
+This method returns the latency clock created by the wave sink (<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>) object, which handles the output audio stream. The latency clock returns the current render time whenever its <b>IReferenceClock::GetTime</b> method is called. This time is always relative to the time established by the master clock (installed in the synthesizer and wave sink through a call to <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a> and <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>). The latency time is used by the performance to identify the next available time to start playing a note. The latency should not exceed 450 milliseconds.
 
-For more information about latency clocks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/synthesizer-latency">Synthesizer Latency</a>. Also see the description of the <b>IDirectMusic</b> and <b>IReferenceClock</b> interfaces in the Windows SDK documentation.
+For more information about latency clocks, see <a href="/windows-hardware/drivers/audio/synthesizer-latency">Synthesizer Latency</a>. Also see the description of the <b>IDirectMusic</b> and <b>IReferenceClock</b> interfaces in the Windows SDK documentation.
 
-The <i>ppClock</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
+The <i>ppClock</i> parameter follows the <a href="/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
+<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>

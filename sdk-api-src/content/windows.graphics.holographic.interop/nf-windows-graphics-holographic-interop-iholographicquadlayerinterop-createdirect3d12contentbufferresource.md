@@ -44,19 +44,19 @@ dev_langs:
 
 The **CreateDirect3D12ContentBufferResource** method creates a Direct3D 12 resource for use as a back buffer for the corresponding [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) API object.
 
-The [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc) structure can contain any set of valid initial values. Any values that won't work with this quad layer object will be overridden in the struct indicated by *pTexture2DDesc*, which is not an optional parameter. The resource is created so that it is already committed to a heap.
+The [D3D12_RESOURCE_DESC](../d3d12/ns-d3d12-d3d12_resource_desc.md) structure can contain any set of valid initial values. Any values that won't work with this quad layer object will be overridden in the struct indicated by *pTexture2DDesc*, which is not an optional parameter. The resource is created so that it is already committed to a heap.
 
 ## -parameters
 
 ### -param pDevice
 
-Type: **[ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)\***
+Type: **[ID3D12Device](../d3d12/nn-d3d12-id3d12device.md)\***
 
 A Direct3D 12 device, which will be used to create the resource.
 
 ### -param pTexture2DDesc
 
-Type: **[D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc)\***
+Type: **[D3D12_RESOURCE_DESC](../d3d12/ns-d3d12-d3d12_resource_desc.md)\***
 
 The Direct3D 12 resource description. This parameter is not optional.
 
@@ -64,7 +64,7 @@ The Direct3D 12 resource description. This parameter is not optional.
 
 ### -param ppTexture2DResource
 
-Type: **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)\*\***
+Type: **[ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md)\*\***
 
 If successful, the Direct3D 12 2D texture resource for use as a content buffer. Otherwise, `nullptr`.
 
@@ -73,4 +73,3 @@ If successful, the Direct3D 12 2D texture resource for use as a content buffer. 
 **S_OK** if successful, otherwise returns an [HRESULT](/windows/win32/com/structure-of-com-error-codes) error code indicating the reason for failure. Also see [COM Error Codes (UI, Audio, DirectX, Codec)](/windows/win32/com/com-error-codes-10).
 
 ## -see-also
-

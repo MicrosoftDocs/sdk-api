@@ -69,5 +69,4 @@ Implementation-dependent information on the graph event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-
+<a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>

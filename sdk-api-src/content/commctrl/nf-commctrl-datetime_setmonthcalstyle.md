@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmcstyle">DTM_SETMCSTYLE</a> message explicitly.
+Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="/windows/desktop/Controls/dtm-setmcstyle">DTM_SETMCSTYLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP.
 
 ### -param dwStyle [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/month-calendar-control-styles">Month Calendar Control Styles</a>
-
+<a href="/windows/desktop/Controls/month-calendar-control-styles">Month Calendar Control Styles</a>

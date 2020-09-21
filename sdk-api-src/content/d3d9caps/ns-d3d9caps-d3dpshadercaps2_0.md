@@ -58,39 +58,38 @@ Pixel shader driver caps.
 
 ### -field Caps
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Instruction predication is supported if this value is nonzero. See <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/setp-comp---vs">setp_comp - vs</a>.
+Instruction predication is supported if this value is nonzero. See <a href="/windows/desktop/direct3dhlsl/setp-comp---vs">setp_comp - vs</a>.
 
 ### -field DynamicFlowControlDepth
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Either 0 or 24, which represents the depth of the dynamic flow control instruction nesting. See <b>D3DPSHADERCAPS2_0</b>.
 
 ### -field NumTemps
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The number of temporary registers supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 ### -field StaticFlowControlDepth
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The depth of nesting of the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/loop---vs">loop - vs</a>/<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/rep---vs">rep - vs</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/call---vs">call - vs</a>/<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/callnz-bool---vs">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
+The depth of nesting of the <a href="/windows/desktop/direct3dhlsl/loop---vs">loop - vs</a>/<a href="/windows/desktop/direct3dhlsl/rep---vs">rep - vs</a> and <a href="/windows/desktop/direct3dhlsl/call---vs">call - vs</a>/<a href="/windows/desktop/direct3dhlsl/callnz-bool---vs">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
 
 ### -field NumInstructionSlots
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The number of instruction slots supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>
+<a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
-
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>

@@ -57,7 +57,7 @@ The <code>Advise</code> method provides the Overlay Mixer with a pointer to the 
 
 ### -param pmdns [in]
 
-Specifies the client's <a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface.
+Specifies the client's <a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface.
 
 ## -returns
 
@@ -69,9 +69,8 @@ Call this method if you wish to receive callbacks from the Overlay Mixer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
+<a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-
+<a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>

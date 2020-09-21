@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> instead.]
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> instead.]
 
-Frees the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
+Frees the memory allocated by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
 
 ## -parameters
 
@@ -61,5 +61,4 @@ Frees the memory allocated by <a href="https://docs.microsoft.com/windows/deskto
 
 Type: <b>void*</b>
 
-A pointer to the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
-
+A pointer to the memory allocated by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.

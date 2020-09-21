@@ -56,26 +56,26 @@ api_name:
 
 ## -description
 
-Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getinfotip">LVN_GETINFOTIP</a> notification code.
+Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="/windows/desktop/Controls/lvn-getinfotip">LVN_GETINFOTIP</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information on this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information on this notification code.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Either zero or LVGIT_UNFOLDED. See Remarks.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a string buffer that receives any additional text information. If 
 					<b>dwFlags</b> is zero, this member will contain the existing item text. In this case, you should append any additional text onto the end of this string. The size of this buffer is specified by the 
@@ -102,7 +102,7 @@ One-based index of the subitem to which this structure refers. If this member is
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value associated with the item. This member is not currently used and will always be zero.
 
@@ -115,4 +115,3 @@ An item is said to be folded when the currently displayed text is truncated. If 
 
 > [!NOTE]
 > The commctrl.h header defines NMLVGETINFOTIP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

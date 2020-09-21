@@ -97,12 +97,12 @@ All node types support this method, but the object pointer is not used by every 
 <tr>
 <td>Transform node.</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> or <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
 </tr>
 <tr>
 <td>Output node</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> or <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</td>
 </tr>
 <tr>
 <td>Tee node.</td>
@@ -111,13 +111,12 @@ All node types support this method, but the object pointer is not used by every 
 </table>
  
 
-If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPropertyBag</b>, the method gets the object's CLSID and sets the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-transform-objectid-attribute">MF_TOPONODE_TRANSFORM_OBJECTID</a> attribute on the node.
+If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPropertyBag</b>, the method gets the object's CLSID and sets the <a href="/windows/desktop/medfound/mf-toponode-transform-objectid-attribute">MF_TOPONODE_TRANSFORM_OBJECTID</a> attribute on the node.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

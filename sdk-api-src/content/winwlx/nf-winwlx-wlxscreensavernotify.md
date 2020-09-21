@@ -52,15 +52,15 @@ api_name:
 
 <p class="CCE_Message">[The WlxScreenSaverNotify function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxScreenSaverNotify</b> function may be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
+The <b>WlxScreenSaverNotify</b> function may be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
 ### -param pWlxContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
+A pointer to the <a href="/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station. The GINA returns this context value when Winlogon calls 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 ### -param pSecure [in, out]
 
@@ -102,5 +102,4 @@ Before calling <b>WlxScreenSaverNotify</b>, Winlogon sets the desktop state so t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

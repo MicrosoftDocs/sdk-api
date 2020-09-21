@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the specified user name.
+Retrieves the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that is associated with the specified user name.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The size, in bytes, of the value in <i>lpbName</i>.
 
 ### -param pfnCallback [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a> function.
+A pointer to a <a href="/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a> function.
 
 <div class="alert"><b>Note</b>  If this parameter is <b>NULL</b>, no callback function is called.</div>
 <div> </div>
@@ -83,13 +83,13 @@ Request the cache to evaluate the embedded security descriptor. If <i>hToken</i>
 
 ### -param accessMask [in]
 
-The security descriptor data. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
+The security descriptor data. For more information, see <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
 
 ### -param ppContext [out]
 
-A pointer to a pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure that is associated with the user name.
+A pointer to a pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure that is associated with the user name.
 
-If the function returns <b>TRUE</b>, this parameter can return a <b>NULL</b> pointer. This occurs when the user passes a <b>NULL</b> FIO_CONTEXT to <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-associatecontextwithname">_AssociateContextWithName</a>.
+If the function returns <b>TRUE</b>, this parameter can return a <b>NULL</b> pointer. This occurs when the user passes a <b>NULL</b> FIO_CONTEXT to <a href="/windows/desktop/api/filehc/nf-filehc-associatecontextwithname">_AssociateContextWithName</a>.
 
 ## -returns
 
@@ -97,17 +97,16 @@ Returns <b>TRUE</b> if the name is found in the cache; otherwise, it returns <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-associatecontextwithname">AssociateContextWithName</a>
+<a href="/windows/desktop/api/filehc/nf-filehc-associatecontextwithname">AssociateContextWithName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a>
+<a href="/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

@@ -57,7 +57,7 @@ Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output.
 
 ### -param precision
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 Precision of the input lookup table data.
 
@@ -88,7 +88,7 @@ An array containing two values. The first value is the size in bytes from one ro
 
 ### -param lookupTable [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d">ID2D1LookupTable3D</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d">ID2D1LookupTable3D</a>**</b>
 
 Receives the new lookup table instance.
 
@@ -100,5 +100,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor_1/nn-d2d1effectauthor_1-id2d1effectcontext1">ID2D1EffectContext1</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor_1/nn-d2d1effectauthor_1-id2d1effectcontext1">ID2D1EffectContext1</a>

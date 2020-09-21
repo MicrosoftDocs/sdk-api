@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FreeReturnBuffer</b> function is used to free buffers allocated by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and returned to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. The package calls this function when the information in the returned buffer is no longer needed.
+The <b>FreeReturnBuffer</b> function is used to free buffers allocated by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and returned to the <a href="/windows/desktop/SecGloss/s-gly">security package</a>. The package calls this function when the information in the returned buffer is no longer needed.
 
 ## -parameters
 
@@ -61,14 +61,13 @@ Pointer to the buffer to free.
 ## -remarks
 
 A pointer to the <b>FreeReturnBuffer</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

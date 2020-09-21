@@ -57,7 +57,7 @@ The <b>IDvbSiParser</b> retrieves program specific information (PSI) and service
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSiParser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbSiParser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSiParser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbSiParser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDvbSiParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getbat">GetBAT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getbat">GetBAT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bouquet association table (BAT).
@@ -81,7 +81,7 @@ Retrieves the bouquet association table (BAT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getcat">GetCAT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getcat">GetCAT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the conditional access table (CAT).
@@ -90,7 +90,7 @@ Retrieves the conditional access table (CAT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getdit">GetDIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getdit">GetDIT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the discontinuity information table (DIT).
@@ -99,7 +99,7 @@ Retrieves the discontinuity information table (DIT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">GetEIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">GetEIT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event information table (EIT).
@@ -108,7 +108,7 @@ Retrieves the event information table (EIT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getnit">GetNIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getnit">GetNIT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network information table (NIT).
@@ -117,7 +117,7 @@ Retrieves the network information table (NIT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getpat">GetPAT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getpat">GetPAT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program association table (PAT).
@@ -126,7 +126,7 @@ Retrieves the program association table (PAT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getpmt">GetPMT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getpmt">GetPMT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the program map table (PMT) for a specified packet identifier (PID).
@@ -135,7 +135,7 @@ Retrieves the program map table (PMT) for a specified packet identifier (PID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getrst">GetRST</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getrst">GetRST</a>
 </td>
 <td align="left" width="63%">
 Retrieves the running status table (RST).
@@ -144,7 +144,7 @@ Retrieves the running status table (RST).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsdt">GetSDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsdt">GetSDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the service description table (SDT).
@@ -153,7 +153,7 @@ Retrieves the service description table (SDT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsit">GetSIT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsit">GetSIT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the selection information table (SIT).
@@ -162,7 +162,7 @@ Retrieves the selection information table (SIT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getst">GetST</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getst">GetST</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stuffing table (ST).
@@ -171,7 +171,7 @@ Retrieves the stuffing table (ST).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettdt">GetTDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettdt">GetTDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time and date table (TDT).
@@ -180,7 +180,7 @@ Retrieves the time and date table (TDT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettot">GetTOT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettot">GetTOT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time offset table (TOT).
@@ -189,7 +189,7 @@ Retrieves the time offset table (TOT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettsdt">GetTSDT</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettsdt">GetTSDT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport stream description table (TSDT).
@@ -198,7 +198,7 @@ Retrieves the transport stream description table (TSDT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes this object.
@@ -209,9 +209,8 @@ Initializes this object.
 
 ## -remarks
 
-To get a pointer to this interface, see the remarks for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>.
+To get a pointer to this interface, see the remarks for <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

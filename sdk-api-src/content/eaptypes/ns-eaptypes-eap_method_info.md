@@ -47,16 +47,15 @@ api_name:
  - EAP_METHOD_INFO
 ---
 
-# EAP_METHOD_INFO structure
-
-
 ## -description
 
- The <b>EAP_METHOD_INFO</b> structure contains  information about an EAP method.
+The <b>EAP_METHOD_INFO</b> structure contains  information about an EAP method.
 
 ## -struct-fields
 
 ### -field eaptype
+
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method.
 
 ### -field pwszAuthorName
 
@@ -74,31 +73,16 @@ Set of flags that describe specific properties of the EAP method. For flag descr
 
 Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about the inner method.
 
-### -field eapType
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method.
-
 ## -see-also
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
-
-
 [EAP Method Properties](/windows/win32/eaphost/eap-method-properties)
 
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_array">EAP_METHOD_INFO_ARRAY</a>
 
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_array_ex">EAP_METHOD_INFO_ARRAY_EX</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_array">EAP_METHOD_INFO_ARRAY</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_ex">EAP_METHOD_INFO_EX</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_array_ex">EAP_METHOD_INFO_ARRAY_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_ex">EAP_METHOD_INFO_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>

@@ -67,7 +67,7 @@ Sets a new NetBIOS or DNS name for the local computer. Name changes made by
 ### -param NameType [in]
 
 The type of name to be set. This parameter can be one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. 
+<a href="/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. 
 
 
 
@@ -108,7 +108,7 @@ Sets the NetBIOS name to the name specified in <i>lpBuffer</i>. The name cannot 
 
 
 Warning: Using this option to set the NetBIOS name breaks the convention of interdependent NetBIOS and DNS names. Applications that use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dnshostnametocomputernamea">DnsHostnameToComputerName</a> function to derive the NetBIOS name from the first label of the DNS name will fail if this convention is broken.
+<a href="/windows/desktop/api/winbase/nf-winbase-dnshostnametocomputernamea">DnsHostnameToComputerName</a> function to derive the NetBIOS name from the first label of the DNS name will fail if this convention is broken.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ The new name. The name cannot include control characters, leading or trailing sp
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -136,7 +136,7 @@ The process that calls the
 <b>SetComputerNameEx</b> function must have administrator privileges on the local computer.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -147,29 +147,28 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
+<a href="/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>
+<a href="/windows/desktop/SysInfo/computer-names">Computer Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dnshostnametocomputernamea">DnsHostnameToComputerName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-dnshostnametocomputernamea">DnsHostnameToComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

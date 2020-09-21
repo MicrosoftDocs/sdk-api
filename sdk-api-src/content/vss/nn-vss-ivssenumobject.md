@@ -55,17 +55,17 @@ The <b>IVssEnumObject</b> interface contains methods
     to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the 
+    <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumObject</b> when it is no longer needed. It 
     may also need to call <b>IUnknown::Release</b> to release 
     temporary objects (such as strings) returned during enumeration.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a> method 
+The <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a> method 
     returns an <b>IVssEnumObject</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IVssEnumObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-clone">Clone</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the specified list of enumerated objects.
@@ -89,7 +89,7 @@ Copies the specified list of enumerated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">Next</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next specified number of objects from the list of enumerated objects.
@@ -98,7 +98,7 @@ Returns the next specified number of objects from the list of enumerated objects
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-reset">Reset</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Clears the list of enumerated objects.
@@ -107,7 +107,7 @@ Clears the list of enumerated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-skip">Skip</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of objects in the list of enumerated objects.
@@ -115,4 +115,3 @@ Skips the specified number of objects in the list of enumerated objects.
 </td>
 </tr>
 </table>
-

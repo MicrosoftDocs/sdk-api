@@ -93,7 +93,7 @@ Indicates that the method is unable to allocate the channel groups.
 
 ## -remarks
 
-Even though <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a> tells the DirectMusic "port" how many channel groups to create, the application might later need to dynamically increase or reduce that number with a call to <code>SetNumChannelGroups</code>.
+Even though <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a> tells the DirectMusic "port" how many channel groups to create, the application might later need to dynamically increase or reduce that number with a call to <code>SetNumChannelGroups</code>.
 
 Each channel group supports a set of 16 MIDI channels. For example, if <i>dwChannelGroups</i> is set to three, the synthesizer creates 48 channels.
 
@@ -101,5 +101,4 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>

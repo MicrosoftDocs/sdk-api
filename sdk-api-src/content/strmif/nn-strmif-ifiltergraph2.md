@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IFilterGraph2</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interfaces, which contain methods for building filter graphs.
+The <code>IFilterGraph2</code> interface extends the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> and <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interfaces, which contain methods for building filter graphs.
 
 The Filter Graph Manager implements this interface. Applications can use it when building graphs, to take advantage of the additional methods it provides.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>. <b>IFilterGraph2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>. <b>IFilterGraph2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFilterGraph2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-addsourcefilterformoniker">AddSourceFilterForMoniker</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-addsourcefilterformoniker">AddSourceFilterForMoniker</a>
 </td>
 <td align="left" width="63%">
 Creates a source filter from a moniker and adds it to the graph.
@@ -81,7 +81,7 @@ Creates a source filter from a moniker and adds it to the graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-reconnectex">ReconnectEx</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-reconnectex">ReconnectEx</a>
 </td>
 <td align="left" width="63%">
 Breaks an existing pin connection and reconnects the same pins, using a specified media type.
@@ -90,7 +90,7 @@ Breaks an existing pin connection and reconnects the same pins, using a specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-renderex">RenderEx</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph2-renderex">RenderEx</a>
 </td>
 <td align="left" width="63%">
 Renders an output pin, with an option to use existing renderers only.
@@ -101,5 +101,4 @@ Renders an output pin, with an option to use existing renderers only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>

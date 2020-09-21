@@ -58,7 +58,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Represents a unique identifier within the context of the Resource Manager.
 
@@ -74,21 +74,20 @@ The high part of the identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a>
-
+<a href="/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a>

@@ -56,14 +56,14 @@ api_name:
 
 The 
 <b>QOCINFO</b> structure is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a> function and provides Quality of Connection information to the caller.
+<a href="/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a> function and provides Quality of Connection information to the caller.
 
 ## -struct-fields
 
 ### -field dwSize
 
 Upon calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>, the caller must specify the size of the <b>QOCINFO</b> structure being provided to the function using dwSize. The size should be specified in bytes. Upon return from <a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>, dwSize contains the size of the provided structure in bytes.
+<a href="/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>, the caller must specify the size of the <b>QOCINFO</b> structure being provided to the function using dwSize. The size should be specified in bytes. Upon return from <a href="/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>, dwSize contains the size of the provided structure in bytes.
 
 ### -field dwFlags
 
@@ -119,5 +119,4 @@ Speed of data sent to the destination in bytes per second.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>
-
+<a href="/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>

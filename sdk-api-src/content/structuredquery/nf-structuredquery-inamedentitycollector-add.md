@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds a single (potential) named entity to this <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentitycollector">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
+Adds a single (potential) named entity to this <a href="/windows/desktop/api/structuredquery/nn-structuredquery-inamedentitycollector">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ The end of the part of the token span that identifies the potential named entity
 
 ### -param pType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>*</b>
 
 The semantic type of the named entity.
 
@@ -124,7 +124,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
+When a query parser parses an input string into condition nodes, the parser invokes an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
 
         
 
@@ -135,8 +135,7 @@ When a query parser parses an input string into condition nodes, the parser invo
 <li>the level of certainty that the input really is that named entity</li>
 </ul>
  
-        If the named entity was used in the interpretation of the input string, the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
+        If the named entity was used in the interpretation of the input string, the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
           
 
 The following relationship must be maintained between the four first arguments: <i>beginSpan</i>  = <i>beginActual</i> &lt; <i>endActual</i> = <i>endSpan</i>.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Loads a floating-point scalar value into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Loads a floating-point scalar value into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Address of the scalar data to load. The data pointed to by this parameter must b
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> whose <b>x</b> member is loaded with the data from the
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> whose <b>x</b> member is loaded with the data from the
        <i>pSource</i> parameter. The other components of the returned vector will be initialized to 0.
 
 ## -remarks
@@ -71,5 +71,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

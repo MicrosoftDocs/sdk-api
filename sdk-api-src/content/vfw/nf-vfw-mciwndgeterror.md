@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetError</b> macro retrieves the last MCI error encountered. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a> message.
+The <b>MCIWndGetError</b> macro retrieves the last MCI error encountered. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a> message.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ If <i>lp</i> is a valid pointer, a null-terminated string corresponding to the e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a>

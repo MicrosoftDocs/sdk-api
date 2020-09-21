@@ -112,7 +112,7 @@ The <b>height</b> and <b>width</b>  members of the <a href="/windows/win32/api/x
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
@@ -121,4 +121,3 @@ The <b>height</b> and <b>width</b>  members of the <a href="/windows/win32/api/x
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
-

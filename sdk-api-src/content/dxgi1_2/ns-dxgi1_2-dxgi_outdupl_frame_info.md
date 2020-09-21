@@ -56,13 +56,13 @@ The <b>DXGI_OUTDUPL_FRAME_INFO</b> structure describes the current desktop image
 
 ### -field LastPresentTime
 
-The time stamp of the last update of the desktop image.  The operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
-        function to obtain the value. A zero value indicates that the desktop image was not updated since an application last called the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.
+The time stamp of the last update of the desktop image.  The operating system calls the <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
+        function to obtain the value. A zero value indicates that the desktop image was not updated since an application last called the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.
 
 ### -field LastMouseUpdateTime
 
-The time stamp of the last update to the mouse.  The operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
-        function to obtain the value. A zero value indicates that the position or shape of the mouse was not updated since an application last called the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.  The mouse position is always supplied for a mouse update. A new pointer shape is indicated by a non-zero value in the <b>PointerShapeBufferSize</b> member.
+The time stamp of the last update to the mouse.  The operating system calls the <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
+        function to obtain the value. A zero value indicates that the position or shape of the mouse was not updated since an application last called the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.  The mouse position is always supplied for a mouse update. A new pointer shape is indicated by a non-zero value in the <b>PointerShapeBufferSize</b> member.
 
 ### -field AccumulatedFrames
 
@@ -78,7 +78,7 @@ Specifies whether the desktop image might contain protected content that was alr
 
 ### -field PointerPosition
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_pointer_position">DXGI_OUTDUPL_POINTER_POSITION</a> structure that describes the most recent mouse position if the <b>LastMouseUpdateTime</b> member is a non-zero value; otherwise, this value is ignored. This value provides the coordinates of the location where the top-left-hand corner of the pointer shape is drawn; this value is not the desktop position of the hot spot.
+A <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_pointer_position">DXGI_OUTDUPL_POINTER_POSITION</a> structure that describes the most recent mouse position if the <b>LastMouseUpdateTime</b> member is a non-zero value; otherwise, this value is ignored. This value provides the coordinates of the location where the top-left-hand corner of the pointer shape is drawn; this value is not the desktop position of the hot spot.
 
 ### -field TotalMetadataBufferSize
 
@@ -96,16 +96,15 @@ If only the pointer was updated (that is, the desktop image was not updated), th
 
 An <b>AccumulatedFrames</b> value of one indicates that the application completed processing the last frame before a new desktop image was presented.  If the <b>AccumulatedFrames</b> value is greater than one, more desktop image updates have occurred while the application processed the last desktop update. In this situation, the operating system accumulated the update regions. For more information about desktop updates, see Desktop Update Data.
 
-A non-zero <b>TotalMetadataBufferSize</b> indicates the total size of the buffers that are required to store all the desktop update metadata.  An application cannot determine the size of each type of metadata.  The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects">IDXGIOutputDuplication::GetFrameDirtyRects</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects">IDXGIOutputDuplication::GetFrameMoveRects</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape">IDXGIOutputDuplication::GetFramePointerShape</a> method to obtain information about each type of metadata.
+A non-zero <b>TotalMetadataBufferSize</b> indicates the total size of the buffers that are required to store all the desktop update metadata.  An application cannot determine the size of each type of metadata.  The application must call the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects">IDXGIOutputDuplication::GetFrameDirtyRects</a>, <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects">IDXGIOutputDuplication::GetFrameMoveRects</a>, or <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape">IDXGIOutputDuplication::GetFramePointerShape</a> method to obtain information about each type of metadata.
 
 <div class="alert"><b>Note</b>  To correct visual effects, an application must process the move region data before it processes the dirty rectangles.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a>

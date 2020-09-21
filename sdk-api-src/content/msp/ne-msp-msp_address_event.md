@@ -54,7 +54,7 @@ api_name:
 
 The <b>MSP_ADDRESS_EVENT</b> constant is returned within the 
 <a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> struct by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
 <a href="/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a> is ME_ADDRESS_EVENT.
 
 ## -enum-fields
@@ -69,7 +69,7 @@ A terminal has been removed by PNP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
@@ -81,5 +81,4 @@ A terminal has been removed by PNP.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

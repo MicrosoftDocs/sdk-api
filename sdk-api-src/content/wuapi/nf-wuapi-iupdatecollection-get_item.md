@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets or sets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface in a collection.
+Gets or sets an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface in a collection.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

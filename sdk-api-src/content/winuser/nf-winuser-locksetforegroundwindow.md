@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function.
+The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The foreground process can call the <b>LockSetForegroundWindow</b> function to d
 
 Type: <b>UINT</b>
 
-Specifies whether to enable or disable calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>. This parameter can be one of the following values. 
+Specifies whether to enable or disable calls to <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>. This parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -74,7 +74,7 @@ Specifies whether to enable or disable calls to <a href="https://docs.microsoft.
 </dl>
 </td>
 <td width="60%">
-Disables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
+Disables calls to <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Disables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuse
 </dl>
 </td>
 <td width="60%">
-Enables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
+Enables calls to <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -97,17 +97,17 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The system automatically enables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
+The system automatically enables calls to <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
 
 This function is provided so applications can prevent other applications from making a foreground change that can interrupt its interaction with the user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a>
 
 
 
@@ -119,9 +119,8 @@ This function is provided so applications can prevent other applications from ma
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

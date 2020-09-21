@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the scroll bars of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appear on the screen.
+Specifies how the scroll bars of an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appear on the screen.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ Both horizontal and vertical scroll bars.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>

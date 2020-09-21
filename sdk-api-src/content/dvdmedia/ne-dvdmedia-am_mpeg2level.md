@@ -76,5 +76,4 @@ DVD MPEG-2 video decoders should support AM_MPEG2Level_Low or AM_MPEG2Level_Main
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

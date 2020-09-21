@@ -64,26 +64,26 @@ The node to add an event listener to.
 
 Type: <b>EVENTID</b>
 
-The identifier of the event to listen for. For a list of event IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
+The identifier of the event to listen for. For a list of event IDs, see <a href="/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
 ### -param pCallback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaeventcallback">UiaEventCallback</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaeventcallback">UiaEventCallback</a>*</b>
 
-The address of the application-defined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaeventcallback">UiaEventCallback</a> callback function that is called when the event is raised.
+The address of the application-defined <a href="/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaeventcallback">UiaEventCallback</a> callback function that is called when the event is raised.
 
 ### -param scope [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a>*</b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> enumerated type indicating the scope of events to be handled; that is, whether they are on the element itself, 
+A value from the <a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> enumerated type indicating the scope of events to be handled; that is, whether they are on the element itself, 
 				or on its ancestors and children.
 
 ### -param pProperties [in]
 
 Type: <b>PROPERTYID*</b>
 
-The address of an array that contains the identifiers of the properties to monitor for change events, when <i>eventId</i> is the EVENTID derived from AutomationPropertyChanged_Event_GUID; otherwise this parameter is <b>NULL</b>. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The address of an array that contains the identifiers of the properties to monitor for change events, when <i>eventId</i> is the EVENTID derived from AutomationPropertyChanged_Event_GUID; otherwise this parameter is <b>NULL</b>. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -param cProperties [in]
 
@@ -93,9 +93,9 @@ The count of elements in the <i>pProperties</i> array.
 
 ### -param pRequest [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a>*</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a> structure that defines the cache request in effect for nodes that are returned with events.
+The address of a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a> structure that defines the cache request in effect for nodes that are returned with events.
 
 ### -param phEvent [out]
 
@@ -107,11 +107,10 @@ When this function returns, contains
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a>
-
+<a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a>

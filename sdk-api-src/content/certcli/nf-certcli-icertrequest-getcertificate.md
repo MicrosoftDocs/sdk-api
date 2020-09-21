@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetCertificate</b> method returns the certificate issued for the request as an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate, or optionally packaged in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">Public Key Cryptography Standards</a> (PKCS) #7 message that contains the complete certificate chain for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
+The <b>GetCertificate</b> method returns the certificate issued for the request as an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate, or optionally packaged in a <a href="/windows/desktop/SecGloss/p-gly">Public Key Cryptography Standards</a> (PKCS) #7 message that contains the complete certificate chain for the <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
 
 ## -parameters
 
@@ -123,7 +123,7 @@ The following flags can be combined with the format flag.
 <td width="60%">
 Include complete certificate chain in the PKCS #7.
 
- If this flag is not specified, only the requested certificate, in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> format, is returned.
+ If this flag is not specified, only the requested certificate, in <a href="/windows/desktop/SecGloss/x-gly">X.509</a> format, is returned.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Include complete certificate chain in the PKCS #7.
 </dl>
 </td>
 <td width="60%">
-Include <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) in the PKCS #7.
+Include <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) in the PKCS #7.
 
 </td>
 </tr>
@@ -149,19 +149,19 @@ For example, to retrieve a binary certificate with complete certificate chain in
 
 A pointer to the <b>BSTR</b> that contains the certificate, in the specified format.
 
-When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 If the method sets *<i>pstrCertificate</i>  to the <b>BSTR</b> that contains the certificate for the request, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 An application would call this method to retrieve the certificate issued by means of an earlier call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">ICertRequest3::RetrievePending</a>.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a> or 
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">ICertRequest3::RetrievePending</a>.
 
 
 #### Examples
@@ -254,17 +254,16 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>AERT_Free</code> utility function releases (frees) memory that was locked by the <a href="https://docs.microsoft.com/windows/desktop/api/baseaudioprocessingobject/nf-baseaudioprocessingobject-aert_allocate">AERT_Allocate</a> function, for use by audio processing objects to process audio data.
+The <code>AERT_Free</code> utility function releases (frees) memory that was locked by the <a href="/windows/desktop/api/baseaudioprocessingobject/nf-baseaudioprocessingobject-aert_allocate">AERT_Allocate</a> function, for use by audio processing objects to process audio data.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/baseaudioprocessingobject/nf-baseaudioprocessingobject-aert_allocate">AERT_Allocate</a>
-
+<a href="/windows/desktop/api/baseaudioprocessingobject/nf-baseaudioprocessingobject-aert_allocate">AERT_Allocate</a>

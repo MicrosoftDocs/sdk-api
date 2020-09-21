@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfLMLattice</b> interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service). A client obtains this interface from the GUID_PROP_LMLATTICE property by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties</a>.
+The <b>ITfLMLattice</b> interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service). A client obtains this interface from the GUID_PROP_LMLATTICE property by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue</a>. For more information, see <a href="/windows/desktop/TSF/predefined-properties">Predefined Properties</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLMLattice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLMLattice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLMLattice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLMLattice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfLMLattice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements">EnumLatticeElements</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements">EnumLatticeElements</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains all lattice elements contained in the lattice property that start at or after a specific offset from the start of the frame.
@@ -78,7 +78,7 @@ Obtains an enumerator that contains all lattice elements contained in the lattic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itflmlattice-querytype">QueryType</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itflmlattice-querytype">QueryType</a>
 </td>
 <td align="left" width="63%">
 Determines if a specific lattice element type is supported by the lattice property.
@@ -89,15 +89,14 @@ Determines if a specific lattice element type is supported by the lattice proper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
+<a href="/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
-

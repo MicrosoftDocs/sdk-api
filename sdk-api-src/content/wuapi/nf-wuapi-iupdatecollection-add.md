@@ -56,7 +56,7 @@ Adds an item to the collection.
 
 ### -param value [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface to be added to the collection.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface to be added to the collection.
 
 ### -param retval [out]
 
@@ -99,5 +99,4 @@ The collection is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

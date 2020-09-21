@@ -64,19 +64,18 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 ## -remarks
 
-This value is useful when you are setting up the initial state of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
+This value is useful when you are setting up the initial state of the <a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
 
-This property is expressed in radians per millisecond if explicit timestamps are not specified by using calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime">ProcessMoveWithTime</a>, <b>ProcessMoveWithTime</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>. Otherwise, this function uses radians per user defined time units.
+This property is expressed in radians per millisecond if explicit timestamps are not specified by using calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime">ProcessMoveWithTime</a>, <b>ProcessMoveWithTime</b>, and <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>. Otherwise, this function uses radians per user defined time units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity">InitialAngularVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity">InitialAngularVelocity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
-
+<a href="/windows/desktop/wintouch/mtmethods">Methods</a>

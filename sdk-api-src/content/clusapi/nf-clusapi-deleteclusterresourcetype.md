@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a> from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE</b> type defines a pointer to this function.
+Removes a  <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a> from a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -67,15 +67,14 @@ Pointer to a null-terminated Unicode string containing the name of the resource 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The  <b>DeleteClusterResourceType</b> function only removes the resource type with the name pointed to by <i>lpszResourceTypeName</i> from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and then unregisters it with the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. The caller must delete the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> for the resource type from each  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> in the cluster.
+The  <b>DeleteClusterResourceType</b> function only removes the resource type with the name pointed to by <i>lpszResourceTypeName</i> from the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and then unregisters it with the  <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. The caller must delete the  <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> for the resource type from each  <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> in the cluster.
 
-The caller must also delete any  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> of this type before calling  <b>DeleteClusterResourceType</b> to delete the type. If any resources of the specified type still exist when  <b>DeleteClusterResourceType</b> is called, the function fails.
+The caller must also delete any  <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> of this type before calling  <b>DeleteClusterResourceType</b> to delete the type. If any resources of the specified type still exist when  <b>DeleteClusterResourceType</b> is called, the function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusterresourcetype">CreateClusterResourceType</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createclusterresourcetype">CreateClusterResourceType</a>

@@ -113,7 +113,7 @@ The number of registered entries exceeds the limit (<b>WER_MAX_REGISTERED_ENTRIE
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -125,13 +125,12 @@ This mechanism is intended for applications that hold large amounts of data in m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterexcludedmemoryblock">WerUnregisterExcludedMemoryBlock</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werunregisterexcludedmemoryblock">WerUnregisterExcludedMemoryBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

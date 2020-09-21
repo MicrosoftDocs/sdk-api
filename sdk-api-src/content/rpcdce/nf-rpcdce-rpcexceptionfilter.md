@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
+The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
 
 ## -parameters
 
@@ -194,17 +194,16 @@ RpcEndExcept
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/exception-handling">Exception Handling</a>
+<a href="/windows/desktop/Rpc/exception-handling">Exception Handling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
+<a href="/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a>
+<a href="/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a>
-
+<a href="/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a>

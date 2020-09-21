@@ -52,16 +52,16 @@ api_name:
 ## -description
 
 The <b>ICertPolicy</b> interface  provides communications between the Certificate Services server engine and the policy module.
-<div class="alert"><b>Note</b>  The policy module can communicate with the Certificate Services server engine by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface.</div><div> </div>The Certificate Services server engine calls the <b>ICertPolicy</b> methods to perform the following tasks:<ul>
+<div class="alert"><b>Note</b>  The policy module can communicate with the Certificate Services server engine by using the <a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface.</div><div> </div>The Certificate Services server engine calls the <b>ICertPolicy</b> methods to perform the following tasks:<ul>
 <li>Initialize the policy module.</li>
-<li>Notify the policy module that a new request has entered the system. The policy module can then use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface to indicate that the request is good and should be issued, is bad and should be denied, or should be held for later consideration.</li>
+<li>Notify the policy module that a new request has entered the system. The policy module can then use the methods of the <a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface to indicate that the request is good and should be issued, is bad and should be denied, or should be held for later consideration.</li>
 <li>Retrieve a description of the policy module and its functionality.</li>
 <li>Notify the policy module that the Certificate Services server is being terminated.</li>
 </ul>
 
 
 Policy modules should implement both <b>ICertPolicy</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>.
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>.
 
 <b>ICertPolicy</b> is defined in Certpol.h. When you create your program, however, use Certsrv.h as the include file.
 
@@ -69,7 +69,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPolicy</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertPolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPolicy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertPolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,40 +84,40 @@ The <b>ICertPolicy</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
-Returns a human-readable description of the policy module and its function.</p> (Inherited from <b>ICertPolicy</b><a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
+Returns a human-readable description of the policy module and its function.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-initialize">Initialize</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Called by the server engine to allow the policy module to perform initialization tasks.</p> (Inherited from <b>ICertPolicy</b><a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
+Called by the server engine to allow the policy module to perform initialization tasks.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
-Called by the server engine before the server is terminated.</p> (Inherited from <b>ICertPolicy</b><a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
+Called by the server engine before the server is terminated.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">VerifyRequest</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">VerifyRequest</a>
 </td>
 <td align="left" width="63%">
-Notifies the policy module that a new request has entered the system.</p> (Inherited from <b>ICertPolicy</b><a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
+Notifies the policy module that a new request has entered the system.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
 </tr>
 </table>
 
 ## -remarks
 
-Only a stand-alone <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> should use custom policy or exit modules; when running an enterprise certification authority, the use of Microsoft-provided policy and exit modules is strongly recommended.
+Only a stand-alone <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> should use custom policy or exit modules; when running an enterprise certification authority, the use of Microsoft-provided policy and exit modules is strongly recommended.
 
 Implementers of <b>ICertPolicy</b> should also implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertPolicy</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertPolicy</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
 
 <b>"</b><i>MyApp</i><b>.Policy"</b>
 
@@ -163,4 +163,3 @@ Implementers of <b>ICertPolicy</b> in Visual Basic Scripting Edition must name t
 <b>"</b><i>MyApp</i><b>"</b>
 
 Where <i>MyApp</i> is a specifier that identifies the application; further, the class implementing <b>ICertPolicy</b> must be named <b>"Policy"</b>.
-

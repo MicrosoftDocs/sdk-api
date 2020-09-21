@@ -58,7 +58,7 @@ The <b>ChangeView</b> method changes the view in Windows Media Player.
 
 ### -param bstrType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WMP/library-location-constants">library location constant</a> that specifies the type of the new library view. For example, the constant g_szGenreID specifies that the new view will show a particular genre.
+A <a href="/windows/desktop/WMP/library-location-constants">library location constant</a> that specifies the type of the new library view. For example, the constant g_szGenreID specifies that the new view will show a particular genre.
 
 ### -param bstrID [in]
 
@@ -96,5 +96,4 @@ This method must be called only in response to a user request, such as when the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

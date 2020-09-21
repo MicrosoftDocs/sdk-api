@@ -56,7 +56,7 @@ The <b>IWMPSubscriptionService</b> interface provides methods to augment digital
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMPSubscriptionService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn">allowCDBurn</a>
+<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn">allowCDBurn</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to copy content to a CD.
@@ -80,7 +80,7 @@ Manages permission for Windows Media Player to copy content to a CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer">allowPDATransfer</a>
+<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer">allowPDATransfer</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to copy content to a device.
@@ -89,7 +89,7 @@ Manages permission for Windows Media Player to copy content to a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay">allowPlay</a>
+<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay">allowPlay</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to play content.
@@ -98,7 +98,7 @@ Manages permission for Windows Media Player to play content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing">startBackgroundProcessing</a>
+<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing">startBackgroundProcessing</a>
 </td>
 <td align="left" width="63%">
 Initiates background processing tasks.
@@ -109,5 +109,4 @@ Initiates background processing tasks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>
-
+<a href="/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>

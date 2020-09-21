@@ -56,7 +56,7 @@ Creates an exact copy of the property store object.
 
 ### -param pPropStore [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives the new property store object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives the new property store object.
 
 ## -returns
 
@@ -97,6 +97,5 @@ This method creates a new property store object and initializes the new object s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
+<a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
       </a>
-

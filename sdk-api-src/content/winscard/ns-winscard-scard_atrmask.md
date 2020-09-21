@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>SCARD_ATRMASK</b> structure is used by 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsbyatra">SCardLocateCardsByATR</a> function to locate cards.
+the <a href="/windows/desktop/api/winscard/nf-winscard-scardlocatecardsbyatra">SCardLocateCardsByATR</a> function to locate cards.
 
 ## -struct-fields
 
@@ -70,4 +70,3 @@ An array of <b>BYTE</b> values for the ATR of the card with extra alignment byte
 ### -field rgbMask
 
 An array of <b>BYTE</b> values for the mask for the ATR with extra alignment bytes.
-

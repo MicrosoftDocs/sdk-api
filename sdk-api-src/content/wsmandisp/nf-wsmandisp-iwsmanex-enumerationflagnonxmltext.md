@@ -54,11 +54,11 @@ The
     <b>IWSManEx::EnumerationFlagNonXmlText</b> 
     method returns the value of the enumeration constant <b>WSManFlagNonXmlText</b> for 
     use in the <i>flags</i> parameter of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+    <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
 <b>WSManFlagNonXmlText</b> is a constant in the 
     <b>__WSManEnumFlags</b> enumeration. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
+    <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>

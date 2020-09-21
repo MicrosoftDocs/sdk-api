@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMDSPDevice2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
+The <b>IMDSPDevice2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDevice2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a>. <b>IMDSPDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a>. <b>IMDSPDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDSPDevice2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getcanonicalname">GetCanonicalName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getcanonicalname">GetCanonicalName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of a Plug and Play device. This method can return E_NOTIMPL.
@@ -78,7 +78,7 @@ Gets the name of a Plug and Play device. This method can return E_NOTIMPL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getformatsupport2">GetFormatSupport2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getformatsupport2">GetFormatSupport2</a>
 </td>
 <td align="left" width="63%">
 Gets the formats supported by a device, including audio and video formats, codecs, and MIME file formats.
@@ -87,7 +87,7 @@ Gets the formats supported by a device, including audio and video formats, codec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getspecifypropertypages">GetSpecifyPropertyPages</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getspecifypropertypages">GetSpecifyPropertyPages</a>
 </td>
 <td align="left" width="63%">
 Gets property pages of the portable device.
@@ -96,7 +96,7 @@ Gets property pages of the portable device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getstorage">GetStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getstorage">GetStorage</a>
 </td>
 <td align="left" width="63%">
 Returns a storage object from a storage name.
@@ -107,13 +107,12 @@ Returns a storage object from a storage name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice3">IMDSPDevice3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice3">IMDSPDevice3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

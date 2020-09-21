@@ -50,12 +50,11 @@ api_name:
 
 ## -description
 
-The <b>AdjustableArrowCap</b> class is a subclass of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>. This class builds a line cap that looks like an arrow.
+The <b>AdjustableArrowCap</b> class is a subclass of the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>. This class builds a line cap that looks like an arrow.
 
 ## -remarks
 
 A line cap is the shape on the end of a line. Use the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomstartcap">Pen::SetCustomStartCap</a> and 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomendcap">Pen::SetCustomEndCap</a> methods to associate an <b>AdjustableArrowCap</b> object with a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>object.
-
+				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomstartcap">Pen::SetCustomStartCap</a> and 
+				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomendcap">Pen::SetCustomEndCap</a> methods to associate an <b>AdjustableArrowCap</b> object with a 
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>object.

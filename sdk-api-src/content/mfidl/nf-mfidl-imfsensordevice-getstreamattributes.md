@@ -63,11 +63,11 @@ A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">M
 
 ### -param dwIndex [in]
 
-The 0-based index of the stream to be retrieved.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getstreamattributescount">GetStreamAttributesCount</a> - 1.
+The 0-based index of the stream to be retrieved.  The index must be between 0 and the value returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getstreamattributescount">GetStreamAttributesCount</a> - 1.
 
 ### -param ppAttributes [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing a copy internal attribute store of the stream.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing a copy internal attribute store of the stream.
 
 ## -returns
 
@@ -117,9 +117,8 @@ The sensor group has not been initialized.
 
 ## -remarks
 
-The object returned is a copy of the internal attribute store and so changes made to the returned attributes have no effect on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
+The object returned is a copy of the internal attribute store and so changes made to the returned attributes have no effect on the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>

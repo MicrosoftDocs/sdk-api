@@ -56,11 +56,11 @@ Called when the sample-grabber sink receives a new media sample.
 
 ### -param guidMajorMediaType [in]
 
-The major type GUID that specifies the format of the data. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
+The major type GUID that specifies the format of the data. For a list of possible values, see <a href="/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
 
 ### -param dwSampleFlags [in]
 
-Sample flags. The sample-grabber sink gets the value of this parameter by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleflags">IMFSample::GetSampleFlags</a> method of the media sample.
+Sample flags. The sample-grabber sink gets the value of this parameter by calling the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleflags">IMFSample::GetSampleFlags</a> method of the media sample.
 
 ### -param llSampleTime [in]
 
@@ -82,7 +82,7 @@ The size, in bytes, of the <i>pSampleBuffer</i> buffer.
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. Use this interface to get the attributes for this sample (if any). For a list of sample attributes, see <a href="https://docs.microsoft.com/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. Use this interface to get the attributes for this sample (if any). For a list of sample attributes, see <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
 
 ## -returns
 
@@ -94,5 +94,4 @@ If you use the sample-grabber sink in a playback topology, this method should re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback2">IMFSampleGrabberSinkCallback2</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback2">IMFSampleGrabberSinkCallback2</a>

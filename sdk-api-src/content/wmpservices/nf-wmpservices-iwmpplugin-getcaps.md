@@ -68,9 +68,8 @@ There are currently two possible [out] values that the plug-in may specify: zero
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps">WMPPlugin_Caps</a>
-
+<a href="/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps">WMPPlugin_Caps</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EnhMetaFileProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function. The <b>ENHMFENUMPROC</b> type defines a pointer to this callback function. <b>EnhMetaFileProc</b> is a placeholder for the application-defined function name.
+The <b>EnhMetaFileProc</b> function is an application-defined callback function used with the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function. The <b>ENHMFENUMPROC</b> type defines a pointer to this callback function. <b>EnhMetaFileProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ The <b>EnhMetaFileProc</b> function is an application-defined callback function 
 
 ### -param hDC [in]
 
-Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>.
+Handle to the device context passed to <a href="/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>.
 
 
 #### - lpData [in]
@@ -81,7 +81,7 @@ Pointer to one of the records in the metafile. This record should not be modifie
 
 #### - lpHTable [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
 
 
 #### - nObj [in]
@@ -94,25 +94,24 @@ This function must return a nonzero value to continue enumeration; to stop enume
 
 ## -remarks
 
-An application must register the callback function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
+An application must register the callback function by passing its address to the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

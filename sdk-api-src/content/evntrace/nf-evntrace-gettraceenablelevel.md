@@ -59,26 +59,26 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
+<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 ## -parameters
 
 ### -param TraceHandle [in]
 
 Handle to an event tracing session, obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
 
 ## -returns
 
 Returns the value the controller specified in the <i>EnableLevel</i> parameter when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function. 
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function. 
 						
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:<ul>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
+<li>Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to set the last error to <b>ERROR_SUCCESS</b>.</li>
 <li>Call the <b>GetTraceEnableLevel</b> function to retrieve the enable level.</li>
 <li>If the enable level value is 0, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the last known error.</li>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the last known error.</li>
 <li>If the last known error is <b>ERROR_SUCCESS</b>, the controller set the enable level to 0; otherwise, the <b>GetTraceEnableLevel</b> function failed with the last known error. </li>
 </ul>
 
@@ -91,15 +91,14 @@ Providers use this value to control the severity of events that it generates. Fo
 
 For an example that uses 
 <b>GetTraceEnableLevel</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+<a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
+<a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
-
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>

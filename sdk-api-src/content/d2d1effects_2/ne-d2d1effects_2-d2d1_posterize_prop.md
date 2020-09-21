@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/posterize-effect">Posterize effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/posterize-effect">Posterize effect</a>.
 
 ## -enum-fields
 
@@ -70,4 +70,3 @@ The D2D1_POSTERIZE_PROP_BLUE_VALUE_COUNT property is an integer value specifying
           For example, a value of 4 generates a table with 4 steps, [0.0, 0.33, 0.67, 1.0].  The allowed range for this property is 2 to 16.  The default value is 4.
 
 ### -field D2D1_POSTERIZE_PROP_FORCE_DWORD
-

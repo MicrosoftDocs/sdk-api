@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DSCLASSCREATIONINFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a> method to hold data about the class creation wizard objects for an object class.
+The <b>DSCLASSCREATIONINFO</b> structure is used with the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a> method to hold data about the class creation wizard objects for an object class.
 
 ## -struct-fields
 
@@ -90,9 +90,8 @@ Contains an array of the class identifiers of the  property page extensions. <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a>

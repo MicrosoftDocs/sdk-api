@@ -57,7 +57,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the information required when modifying log parameters and logging mode for a secondary 
    resource manager.
@@ -263,7 +263,7 @@ This flag is only valid for default RMs, not secondary RMs. If this flag is set,
 </td>
 <td width="60%">
 This flag is only valid for default RMs, not secondary RMs. If this flag is set, a previous call to 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a> is canceled with 
+        <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a> is canceled with 
         the <b>TXFS_RM_FLAG_RESET_RM_AT_NEXT_START</b> flag set.
 
 </td>
@@ -362,5 +362,4 @@ Full logging is used
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a>

@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxShutdown function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxShutdown</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>.
+The <b>WlxShutdown</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> from a <a href="/windows/desktop/SecGloss/r-gly">reader</a>.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>WlxShutdown</b> function must be implemented by a replacement <a href="ht
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 ### -param ShutdownType [in]
 
@@ -109,15 +109,14 @@ Shuts down and turns off the computer, if the hardware allows.
 ## -remarks
 
 Winlogon calls <b>WlxShutdown</b> after the user has logged off and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function has been called.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function has been called.
 
 Before calling <b>WlxShutdown</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a>

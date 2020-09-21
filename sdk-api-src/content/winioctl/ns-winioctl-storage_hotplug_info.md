@@ -93,12 +93,12 @@ The value of the <b>Size</b> member also identifies the version of this structur
 A hotplug device refers to a device whose <b>RemovalPolicy</b> value displayed in 
     the Device Manager is <b>ExpectSurpriseRemoval</b>. To query whether a particular device is a 
     hotplug device, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a> operation. 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a> operation. 
     To set the hotplug properties of a device, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> 
     operation.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> 
+The <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> 
     operation only sets the value of the <b>DeviceHotplug</b> member of this structure. If the 
     value of that member is set, the removal policy of the specified device is set to 
     <b>ExpectSurpriseRemoval</b> and all levels of caching are disabled. If the value of that 
@@ -107,9 +107,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>

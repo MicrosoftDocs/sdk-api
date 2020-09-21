@@ -44,13 +44,13 @@ api_name:
 
 ## -description
 
-Displays a file. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+Displays a file. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -parameters
 
 ### -param pvsi
 
-A pointer to an [FVSHOWINFO](https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-fvshowinfo) structure to contain information that the file viewer uses to display the file. A file viewer can return information to the Shell by modifying the members of the structure.
+A pointer to an [FVSHOWINFO](/windows/desktop/api/shlobj/ns-shlobj-fvshowinfo) structure to contain information that the file viewer uses to display the file. A file viewer can return information to the Shell by modifying the members of the structure.
 
 ## -returns
 
@@ -59,4 +59,3 @@ Returns S_OK if successful, or E_UNEXPECTED if the [ShowInitialize](nf-shlobj-if
 ## -remarks
 
 ## -see-also
-

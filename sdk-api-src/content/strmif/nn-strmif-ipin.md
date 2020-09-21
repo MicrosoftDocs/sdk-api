@@ -53,13 +53,13 @@ api_name:
 
 This interface is exposed by all input and output pins.
 
-The filter graph manager uses this interface to connect pins and perform flushing operations. Applications can use this interface to query the pin for information. Applications should never call <code>IPin</code> methods that change a pin's state, such as <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connect">Connect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">Disconnect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">BeginFlush</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">EndFlush</a>. To connect pins, an application must use the methods in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>.
+The filter graph manager uses this interface to connect pins and perform flushing operations. Applications can use this interface to query the pin for information. Applications should never call <code>IPin</code> methods that change a pin's state, such as <a href="/windows/desktop/api/strmif/nf-strmif-ipin-connect">Connect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">Disconnect</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">BeginFlush</a>, or <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endflush">EndFlush</a>. To connect pins, an application must use the methods in <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>.
 
-<b>Filter developers: </b>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin">CBasePin</a>, <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbaseinputpin">CBaseInputPin</a>, and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbaseoutputpin">CBaseOutputPin</a> classes implement this interface. Other base classes derive from these three classes.
+<b>Filter developers: </b>The <a href="/windows/desktop/DirectShow/cbasepin">CBasePin</a>, <a href="/windows/desktop/DirectShow/cbaseinputpin">CBaseInputPin</a>, and <a href="/windows/desktop/DirectShow/cbaseoutputpin">CBaseOutputPin</a> classes implement this interface. Other base classes derive from these three classes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IPin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">BeginFlush</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">BeginFlush</a>
 </td>
 <td align="left" width="63%">
 Begins a flush operation.
@@ -83,7 +83,7 @@ Begins a flush operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connect">Connect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects the pin to another pin.
@@ -92,7 +92,7 @@ Connects the pin to another pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectedto">ConnectedTo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-connectedto">ConnectedTo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pin connected to this pin.
@@ -101,7 +101,7 @@ Retrieves the pin connected to this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectionmediatype">ConnectionMediaType</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-connectionmediatype">ConnectionMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the media type for the current pin connection.
@@ -110,7 +110,7 @@ Gets the media type for the current pin connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Breaks the current pin connection.
@@ -119,7 +119,7 @@ Breaks the current pin connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">EndFlush</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-endflush">EndFlush</a>
 </td>
 <td align="left" width="63%">
 Ends a flush operation.
@@ -128,7 +128,7 @@ Ends a flush operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">EndOfStream</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">EndOfStream</a>
 </td>
 <td align="left" width="63%">
 Notifies the pin that no additional data is expected.
@@ -137,7 +137,7 @@ Notifies the pin that no additional data is expected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">EnumMediaTypes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">EnumMediaTypes</a>
 </td>
 <td align="left" width="63%">
 Enumerates the pin's preferred media types.
@@ -146,7 +146,7 @@ Enumerates the pin's preferred media types.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">NewSegment</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">NewSegment</a>
 </td>
 <td align="left" width="63%">
 Notifies the pin that media samples received after this call are grouped as a segment.
@@ -155,7 +155,7 @@ Notifies the pin that media samples received after this call are grouped as a se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a>
 </td>
 <td align="left" width="63%">
 Determines whether the pin accepts a specified media type.
@@ -164,7 +164,7 @@ Determines whether the pin accepts a specified media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">QueryDirection</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">QueryDirection</a>
 </td>
 <td align="left" width="63%">
 Gets the direction of the pin (input or output).
@@ -173,7 +173,7 @@ Gets the direction of the pin (input or output).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">QueryId</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryid">QueryId</a>
 </td>
 <td align="left" width="63%">
 Gets the pin identifier.
@@ -182,7 +182,7 @@ Gets the pin identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryinternalconnections">QueryInternalConnections</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryinternalconnections">QueryInternalConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pins that are connected internally to this pin (within the filter).
@@ -191,7 +191,7 @@ Retrieves the pins that are connected internally to this pin (within the filter)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-querypininfo">QueryPinInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-querypininfo">QueryPinInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about the pin, such as the name, the owning filter, and the direction.
@@ -200,7 +200,7 @@ Gets information about the pin, such as the name, the owning filter, and the dir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-receiveconnection">ReceiveConnection</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipin-receiveconnection">ReceiveConnection</a>
 </td>
 <td align="left" width="63%">
 Accepts a connection from another pin.
@@ -208,4 +208,3 @@ Accepts a connection from another pin.
 </td>
 </tr>
 </table>
-

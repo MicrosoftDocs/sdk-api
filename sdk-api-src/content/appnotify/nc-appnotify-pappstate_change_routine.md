@@ -61,5 +61,4 @@ Type: <b>BOOLEAN</b>
 
 Type: <b>PVOID</b>
 
-A pointer to data that the app can save when suspending and use upon resuming. This value is supplied by the <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> function. This is commonly a "this" pointer.
-
+A pointer to data that the app can save when suspending and use upon resuming. This value is supplied by the <a href="/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> function. This is commonly a "this" pointer.

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPEventSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPEventSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPEventSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPEventSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPEventSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">Advise</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Method that subscribes to a hosted service's events. The hosted device can then send events to the device host.
@@ -79,7 +79,7 @@ Method that subscribes to a hosted service's events. The hosted device can then 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Method that unsubscribes from a hosted service's events. The hosted device may no longer send events to the device host.
@@ -87,4 +87,3 @@ Method that unsubscribes from a hosted service's events. The hosted device may n
 </td>
 </tr>
 </table>
-

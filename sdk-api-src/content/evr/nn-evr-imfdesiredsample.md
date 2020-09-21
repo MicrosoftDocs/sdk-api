@@ -53,11 +53,11 @@ api_name:
 
 Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.
 
-The sample objects created by the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nc-evr-mfcreatevideosamplefromsurface">MFCreateVideoSampleFromSurface</a> function implement this interface. To retrieve a pointer to this interface, call <b>QueryInterface</b> on the sample.
+The sample objects created by the <a href="/windows/desktop/api/evr/nc-evr-mfcreatevideosamplefromsurface">MFCreateVideoSampleFromSurface</a> function implement this interface. To retrieve a pointer to this interface, call <b>QueryInterface</b> on the sample.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDesiredSample</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDesiredSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDesiredSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDesiredSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>IMFDesiredSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">Clear</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Clears the time stamps previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">SetDesiredSampleTimeAndDuration</a>.
+Clears the time stamps previously set by a call to <a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">SetDesiredSampleTimeAndDuration</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration">GetDesiredSampleTimeAndDuration</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration">GetDesiredSampleTimeAndDuration</a>
 </td>
 <td align="left" width="63%">
 Called by the mixer to get the time and duration of the sample requested by the presenter.
@@ -90,7 +90,7 @@ Called by the mixer to get the time and duration of the sample requested by the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">SetDesiredSampleTimeAndDuration</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">SetDesiredSampleTimeAndDuration</a>
 </td>
 <td align="left" width="63%">
 Called by the presenter to set the time and duration of the sample that it requests from the mixer.
@@ -101,9 +101,8 @@ Called by the presenter to set the time and duration of the sample that it reque
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
+<a href="/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

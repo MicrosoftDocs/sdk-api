@@ -58,13 +58,13 @@ Gets the category and subcategory strings for the function instance.
 
 ### -param ppszCoMemCategory [out]
 
-The null-terminated identifier string of the category. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
+The null-terminated identifier string of the category. See <a href="/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
-Be sure to free this buffer using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Be sure to free this buffer using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param ppszCoMemSubCategory [out]
 
-The null-terminated identifier string of the subcategory. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>.
+The null-terminated identifier string of the subcategory. See <a href="/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>.
 
 ## -returns
 
@@ -105,5 +105,4 @@ The category and subcategory of a function instance always refer to the provider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>

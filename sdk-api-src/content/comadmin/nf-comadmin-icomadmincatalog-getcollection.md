@@ -60,7 +60,7 @@ The name of the collection to be retrieved.
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the collection.
+The <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the collection.
 
 ## -returns
 
@@ -68,13 +68,12 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-This method retrieves a top-level collection, such as the <a href="https://docs.microsoft.com/windows/desktop/cossdk/applications">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="https://docs.microsoft.com/windows/desktop/cossdk/components">Components</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a> method available from the parent collection.
+This method retrieves a top-level collection, such as the <a href="/windows/desktop/cossdk/applications">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="/windows/desktop/cossdk/components">Components</a>, use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a> method available from the parent collection.
 
-The catalog collection retrieved by <b>GetCollection</b> does not contain data from the catalog for items contained within the collection. Use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a> method to read in data for items in the collection.
+The catalog collection retrieved by <b>GetCollection</b> does not contain data from the catalog for items contained within the collection. Use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a> method to read in data for items in the collection.
 
-For a complete list of collections in the COM+ catalog, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
+For a complete list of collections in the COM+ catalog, see <a href="/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

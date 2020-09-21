@@ -54,7 +54,7 @@ Provides a method for localizing keywords in a specified string.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISchemaLocalizerSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISchemaLocalizerSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISchemaLocalizerSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISchemaLocalizerSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISchemaLocalizerSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemalocalizersupport-localize">Localize</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemalocalizersupport-localize">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes keywords from an input string.
@@ -77,4 +77,3 @@ Localizes keywords from an input string.
 </td>
 </tr>
 </table>
-

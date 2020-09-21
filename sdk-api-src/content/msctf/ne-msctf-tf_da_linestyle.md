@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TF_DA_LINESTYLE</b> enumeration specify the underline style of a display attribute in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure.
+Elements of the <b>TF_DA_LINESTYLE</b> enumeration specify the underline style of a display attribute in the <a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure.
 
 ## -enum-fields
 
@@ -78,6 +78,5 @@ The text is underlined with a solid wavy line.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
-

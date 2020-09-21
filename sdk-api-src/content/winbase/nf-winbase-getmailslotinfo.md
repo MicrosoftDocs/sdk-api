@@ -60,12 +60,12 @@ Retrieves information about the specified mailslot.
 ### -param hMailslot [in]
 
 A handle to a mailslot. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
 
 ### -param lpMaxMessageSize [out, optional]
 
 The maximum message size, in bytes, allowed for this mailslot. This value can be greater than or equal to the value specified in the <i>cbMaxMsg</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function that created the mailslot. This parameter can be <b>NULL</b>.
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function that created the mailslot. This parameter can be <b>NULL</b>.
 
 ### -param lpNextSize [out, optional]
 
@@ -105,21 +105,20 @@ The amount of time, in milliseconds, a read operation can wait for a message to 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
+<a href="/windows/desktop/ipc/mailslot-functions">Mailslot Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots Overview</a>
+<a href="/windows/desktop/ipc/mailslots">Mailslots Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setmailslotinfo">SetMailslotInfo</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setmailslotinfo">SetMailslotInfo</a>

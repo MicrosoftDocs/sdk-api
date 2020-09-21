@@ -54,10 +54,10 @@ api_name:
 
 ## -description
 
-The <b>CERT_ALT_NAME_ENTRY</b> structure contains an alternative name in one of a variety of name forms. These names are bound by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to a certificate's public key.
+The <b>CERT_ALT_NAME_ENTRY</b> structure contains an alternative name in one of a variety of name forms. These names are bound by a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to a certificate's public key.
 
 A  structure can be <b>CERT_ALT_NAME_ENTRY</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ This can be one of the following values:
 
 ### -field DUMMYUNIONNAME.pOtherName
 
-A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing the name.
+A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> containing the name.
 
 ### -field DUMMYUNIONNAME.pwszRfc822Name
 
@@ -93,7 +93,7 @@ DNS name as an IA5 string.
 
 ### -field DUMMYUNIONNAME.DirectoryName
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains a directory name.
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains a directory name.
 
 ### -field DUMMYUNIONNAME.pwszURL
 
@@ -109,13 +109,12 @@ Object identifier (OID) of any registered object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>

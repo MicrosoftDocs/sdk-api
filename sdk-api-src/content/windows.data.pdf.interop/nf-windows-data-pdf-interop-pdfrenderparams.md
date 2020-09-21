@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Populates a <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a> stucture. A PDF_RENDER_PARAMS structure represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
+Populates a <a href="/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a> stucture. A PDF_RENDER_PARAMS structure represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 
 ## -parameters
 
@@ -77,4 +77,3 @@ False to use the system's high contrast display settings; otherwise true. The de
 ## -returns
 
 Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
-

@@ -60,5 +60,4 @@ Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>

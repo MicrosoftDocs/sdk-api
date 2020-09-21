@@ -45,37 +45,33 @@ api_name:
  - IDWriteFactory3.CreateFontFaceReference
 ---
 
-# IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
-
-
 ## -description
 
 Creates a reference to a font given a full path.
 
 ## -parameters
 
-### -param filePath [in]
+### -param filePath
 
-Type: <b>WCHAR</b>
+Type: [in] <b>WCHAR</b>
 
-Absolute file path. Subsequent operations on the constructed object may fail      
-          if the user provided filePath doesn't correspond to a valid file on the disk.
+Absolute file path. Subsequent operations on the constructed object may fail if the user provided filePath doesn't correspond to a valid file on the disk.
 
-### -param lastWriteTime [in, optional]
+### -param lastWriteTime
 
-Type: <b>FILETIME</b>
+Type: [in, optional] <b>FILETIME</b>
 
 Last modified time of the input file path. If the parameter is omitted,      
-          the function will access the font file to obtain its last write time, so the clients are encouraged to specify this value      
-          to avoid extra disk access. Subsequent operations on the constructed object may fail      
-          if the user provided lastWriteTime doesn't match the file on the disk.
+the function will access the font file to obtain its last write time, so the clients are encouraged to specify this value      
+to avoid extra disk access. Subsequent operations on the constructed object may fail      
+if the user provided lastWriteTime doesn't match the file on the disk.
 
 ### -param faceIndex
 
 Type: <b>UINT32</b>
 
 The zero based index of a font face in cases when the font files contain a collection of font faces.      
-          If the font files contain a single face, this value should be zero.
+If the font files contain a single face, this value should be zero.
 
 ### -param fontSimulations
 
@@ -83,9 +79,9 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations">D
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
-### -param fontFaceReference [out]
+### -param fontFaceReference
 
-Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>**</b>
 
 Contains newly created font face reference object, or nullptr in case of failure.
 
@@ -98,4 +94,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>
-

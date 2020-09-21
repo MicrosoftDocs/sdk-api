@@ -50,11 +50,10 @@ Called when the lifetime state of a lifetime-tracked object changes.
 
 ### -param NewState
 
-Type: **[D3D12_LIFETIME_STATE](/windows/win32/api/d3d12/ne-d3d12-d3d12_lifetime_state)**
+Type: **[D3D12_LIFETIME_STATE](./ne-d3d12-d3d12_lifetime_state.md)**
 
 The new state.
 
 ## -remarks
 
 ## -see-also
-

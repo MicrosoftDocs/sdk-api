@@ -64,9 +64,8 @@ A null-terminated string that represents the message to be sent to the client. T
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
 A provider calls this function  when a verbose message needs to be sent to the client.  A verbose message indicates any progress a provider may be making or useful information that a client may need while running an operation.  A client can optionally register to receive these messages via an asynchronous callback.  If a client does not register for these messages, the server will ignore the message.
-

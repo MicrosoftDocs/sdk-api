@@ -60,7 +60,7 @@ This property is read-only.
 ## -remarks
 
 If the item is an interface, the variant type is <b>VT_DISPATCH</b>. Call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
+    <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
     <b>pdispVal</b> member of the variant to get an interface to the specific object.
 
 If the item is an <b>HRESULT</b> value, the variant type is 
@@ -71,12 +71,11 @@ If the item is an <b>HRESULT</b> value, the variant type is
 #### Examples
 
 For examples, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a> and 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/classifying-files">Classifying Files</a>.
+     <a href="/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a> and 
+     <a href="/previous-versions/windows/desktop/fsrm/classifying-files">Classifying Files</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>

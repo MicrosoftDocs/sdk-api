@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Retrieves properties specified by a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> from 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and returns them in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The 
+Retrieves properties specified by a  <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> from 
+    the <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and returns them in a 
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The 
     <b>PRESUTIL_GET_PROPERTIES</b> type defines a pointer to this function.
 
 ## -parameters
@@ -63,7 +63,7 @@ Pointer to the cluster database key that identifies the location of the properti
 
 ### -param pPropertyTable [in]
 
-Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures that describe the properties to retrieve.
+Pointer to an array of  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures that describe the properties to retrieve.
 
 ### -param pOutPropertyList [out]
 
@@ -86,7 +86,7 @@ Pointer to the number of bytes that is required if <i>pOutPropertyList</i> is to
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -130,5 +130,4 @@ There was an error allocating memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetprivateproperties">ResUtilGetPrivateProperties</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetprivateproperties">ResUtilGetPrivateProperties</a>

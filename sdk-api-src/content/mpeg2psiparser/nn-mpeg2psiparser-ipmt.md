@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IPMT</b> interface enables the client to get information from a program map table (PMT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getpmt">IAtscPsipParser::GetPMT</a> method returns a pointer to this interface.
+The <b>IPMT</b> interface enables the client to get information from a program map table (PMT). The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getpmt">IAtscPsipParser::GetPMT</a> method returns a pointer to this interface.
 
 The PMT may contain one or more table-wide descriptors. In addition, each record in the PMT may have one or more descriptors. To get the table-wide descriptors, use the <b>GetTableDescriptorByIndex</b> or <b>GetTableDescriptorByTag</b> method. To get the record descriptors, use the <b>GetRecordDescriptorByIndex</b> or <b>GetRecordDescriptorByTag</b> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPMT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPMT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPMT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPMT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IPMT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-convertnexttocurrent">ConvertNextToCurrent</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-convertnexttocurrent">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -80,7 +80,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountofrecords">GetCountOfRecords</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the PMT.
@@ -89,7 +89,7 @@ Returns the number of records in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of table-wide descriptors in the PMT.
@@ -98,7 +98,7 @@ Returns the number of table-wide descriptors in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getnexttable">GetNextTable</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getnexttable">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -107,7 +107,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getpcrpid">GetPcrPid</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getpcrpid">GetPcrPid</a>
 </td>
 <td align="left" width="63%">
 Returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
@@ -116,7 +116,7 @@ Returns the packet identifier (PID) of the packets that contain the Program Cloc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getprogramnumber">GetProgramNumber</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getprogramnumber">GetProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the program number for the PMT.
@@ -125,7 +125,7 @@ Returns the program number for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the PMT.
@@ -134,7 +134,7 @@ Returns the number of descriptors for a record in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecorddescriptorbyindex">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecorddescriptorbyindex">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a descriptor for a specified record in the PMT.
@@ -143,7 +143,7 @@ Retrieves a descriptor for a specified record in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the PMT for a descriptor with a specified descriptor tag.
@@ -152,7 +152,7 @@ Searches a record in the PMT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordelementarypid">GetRecordElementaryPid</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordelementarypid">GetRecordElementaryPid</a>
 </td>
 <td align="left" width="63%">
 Returns the PID for a given elementary stream in the program.
@@ -161,7 +161,7 @@ Returns the PID for a given elementary stream in the program.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordstreamtype">GetRecordStreamType</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getrecordstreamtype">GetRecordStreamType</a>
 </td>
 <td align="left" width="63%">
 Returns the stream type for a given elementary stream in the program.
@@ -170,7 +170,7 @@ Returns the stream type for a given elementary stream in the program.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-gettabledescriptorbyindex">GetTableDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-gettabledescriptorbyindex">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table-wide descriptor for the PMT.
@@ -179,7 +179,7 @@ Retrieves a table-wide descriptor for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the PMT for a table-wide descriptor with the specified descriptor tag.
@@ -188,7 +188,7 @@ Searches the PMT for a table-wide descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getversionnumber">GetVersionNumber</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the PMT.
@@ -197,7 +197,7 @@ Returns the version number for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-initialize">Initialize</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -206,7 +206,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-querympeinfo">QueryMPEInfo</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-querympeinfo">QueryMPEInfo</a>
 </td>
 <td align="left" width="63%">
 Returns the Multi-Protocol Encapsulation (MPE) information in the PMT, if any.
@@ -215,7 +215,7 @@ Returns the Multi-Protocol Encapsulation (MPE) information in the PMT, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-queryservicegatewayinfo">QueryServiceGatewayInfo</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-queryservicegatewayinfo">QueryServiceGatewayInfo</a>
 </td>
 <td align="left" width="63%">
 Returns the DSM-CC service gateway information in the PMT, if any.
@@ -224,7 +224,7 @@ Returns the DSM-CC service gateway information in the PMT, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerfornexttable">RegisterForNextTable</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerfornexttable">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -233,7 +233,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerforwhencurrent">RegisterForWhenCurrent</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-registerforwhencurrent">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.
@@ -244,5 +244,4 @@ Registers the client to be notified when the table becomes current.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

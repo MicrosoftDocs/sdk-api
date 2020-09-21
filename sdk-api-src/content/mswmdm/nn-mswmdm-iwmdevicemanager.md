@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDeviceManager</b> interface is the top level Windows Media Device Manager interface for applications. This is the first interface accessed by an application, and is used to acquire the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface used to enumerate the connected devices. This interface is obtained by calling <b>QueryInterface</b> on the authenticated <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate</a> interface. If the device supports it, use <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2</a> interface, which offers superior device enumeration capabilities.
+The <b>IWMDeviceManager</b> interface is the top level Windows Media Device Manager interface for applications. This is the first interface accessed by an application, and is used to acquire the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface used to enumerate the connected devices. This interface is obtained by calling <b>QueryInterface</b> on the authenticated <a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate</a> interface. If the device supports it, use <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2</a> interface, which offers superior device enumeration capabilities.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDeviceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDeviceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDeviceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">EnumDevices</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">EnumDevices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IWMDMEnumDevice</b> interface that can be used to enumerate portable devices connected to the computer.
@@ -78,7 +78,7 @@ Retrieves a pointer to the <b>IWMDMEnumDevice</b> interface that can be used to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getdevicecount">GetDeviceCount</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getdevicecount">GetDeviceCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of portable devices that are currently connected to the computer.
@@ -87,7 +87,7 @@ Retrieves the number of portable devices that are currently connected to the com
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getrevision">GetRevision</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getrevision">GetRevision</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version number of Windows Media Device Manager currently in use.
@@ -98,9 +98,8 @@ Retrieves the version number of Windows Media Device Manager currently in use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

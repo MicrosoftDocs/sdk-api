@@ -57,7 +57,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains a list of files locked by a transacted writer.
 
@@ -81,9 +81,8 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transaction_locked_files">FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transaction_locked_files">FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
 
 
 
 <a href="/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
-

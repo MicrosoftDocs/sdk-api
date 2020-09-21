@@ -101,7 +101,7 @@ One or more parameters are invalid.
 
 ## -remarks
 
-This method is provided as a convenience to the application developer. Associating the focus for a window with a document manager causes the TSF manager to automatically call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus</a> with the associated document manager when the associated window receives the focus.
+This method is provided as a convenience to the application developer. Associating the focus for a window with a document manager causes the TSF manager to automatically call <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus</a> with the associated document manager when the associated window receives the focus.
 
 This method can only associate a single window with a single document manager. If the implementation associates multiple document managers with a single window, or the opposite, the implementation must call <b>ITfThreadMgr::SetFocus</b> to set the focus to the proper document manager.
 
@@ -134,15 +134,14 @@ if(m_pPrevDocMgr)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
-

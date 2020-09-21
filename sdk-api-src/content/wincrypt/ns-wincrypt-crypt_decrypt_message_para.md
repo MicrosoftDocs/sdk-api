@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field dwMsgAndCertEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -81,14 +81,14 @@ Number of elements in the <b>rghCertStore</b> array.
 
 ### -field rghCertStore
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> handles. 
+Array of <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> handles. 
 
 
 
 
-These certificate store handles are used to obtain the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> to use for decrypting a message. For more information, see the decryption functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>. An encrypted message can have one or more recipients. The recipients are identified by a unique certificate identifier, often the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate issuer and serial number. The certificate stores are searched to find a certificate context corresponding to the unique identifier.
+These certificate store handles are used to obtain the <a href="/windows/desktop/SecGloss/c-gly">certificate context</a> to use for decrypting a message. For more information, see the decryption functions 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>, and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>. An encrypted message can have one or more recipients. The recipients are identified by a unique certificate identifier, often the <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate issuer and serial number. The certificate stores are searched to find a certificate context corresponding to the unique identifier.
 
 Recipients can also be identified by their KeyId. Both Key Agreement (Diffie-Hellman) and Key Transport (RSA) recipients are supported.
 
@@ -97,13 +97,12 @@ Only certificate contexts in the store with one of the following properties, CER
 ### -field dwFlags
 
 The CRYPT_MESSAGE_SILENT_KEYSET_FLAG can be set to suppress any UI by the CSP. For more information about the CRYPT_SILENT flag, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>

@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>RESULTFINDINFO</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">IResultOwnerData::FindItem</a> method to support keyboard navigation in virtual lists in the result pane.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">IResultOwnerData::FindItem</a> method to support keyboard navigation in virtual lists in the result pane.
 
 ## -struct-fields
 
@@ -84,5 +84,4 @@ Continue search at beginning of list if no match is found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">IResultOwnerData::FindItem</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">IResultOwnerData::FindItem</a>

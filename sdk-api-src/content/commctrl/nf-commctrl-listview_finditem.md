@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Searches for a list-view item with the specified characteristics. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-finditem">LVM_FINDITEM</a> message explicitly.
+Searches for a list-view item with the specified characteristics. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-finditem">LVM_FINDITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -70,5 +70,4 @@ The index of the item after which to begin the search, or -1 to start from the b
 
 Type: <b>const LPLVFINDINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information about what to search for.
-
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information about what to search for.

@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-This function ensures that the current Reader <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> is an <b>End element</b>and advances the reader to the next <b>node</b>.
+This function ensures that the current Reader <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> is an <b>End element</b>and advances the reader to the next <b>node</b>.
       
         If the Reader is not positioned on an <b>End element</b> when the function is called it will skip whitespace attempting to find one.
         If after skipping whitespace it is not positioned on an <b>End element</b> it returns a <b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> that is reads the <b>End element</b>.
-                  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
+                  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -102,5 +102,4 @@ A quota was exceeded.
 
 ## -remarks
 
-This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
-
+This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.

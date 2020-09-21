@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a> by using the newer <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a> structure.
+Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a> by using the newer <a href="/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a> structure.
 
 ## -parameters
 
@@ -295,7 +295,7 @@ Question-mark icon.
 
 Type: <b>PICONINFOEX</b>
 
-When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a> structure. The function fills in the structure's members.
+When this method returns, contains a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a> structure. The function fills in the structure's members.
 
 ## -returns
 
@@ -305,7 +305,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
@@ -323,45 +323,44 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
 
 
 
 <b>Reference</b>
-

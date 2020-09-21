@@ -56,7 +56,7 @@ The <b>EngClearEvent</b> function sets a specified event object to the nonsignal
 
 ### -param pEvent [in]
 
-Pointer to the event object returned by a previous call to either <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
+Pointer to the event object returned by a previous call to either <a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> or <a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 ## -returns
 
@@ -64,9 +64,8 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>

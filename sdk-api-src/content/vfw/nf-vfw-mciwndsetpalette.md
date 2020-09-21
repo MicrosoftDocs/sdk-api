@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetPalette</b> macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setpalette">MCIWNDM_SETPALETTE</a> message.
+The <b>MCIWndSetPalette</b> macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setpalette">MCIWNDM_SETPALETTE</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param hpal
 
 Palette handle.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Writes a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to a writer.
+Writes a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to a writer.
 
 ## -parameters
 
@@ -112,5 +112,4 @@ A quota was exceeded.
 
 ## -remarks
 
-The function will copy the entire contents of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to the writer at the current position.
-
+The function will copy the entire contents of the <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to the writer at the current position.

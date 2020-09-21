@@ -57,7 +57,7 @@ The
 
 The 
 <b>IconIdentifier</b> enumeration defines the types of icons that can appear in error messages displayed by the snap-in when 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">using the MMC message OCX control</a>.
+<a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">using the MMC message OCX control</a>.
 
 ## -enum-fields
 
@@ -91,9 +91,8 @@ Used internally by MMC.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-imessageview">IMessageView</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>

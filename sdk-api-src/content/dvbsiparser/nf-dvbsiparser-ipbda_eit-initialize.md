@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes an object that gets data from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.  This method is called internally by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-geteit">IPBDASiParser::GetEIT</a> method, so applications typically should not call it.
+Initializes an object that gets data from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.  This method is called internally by the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-geteit">IPBDASiParser::GetEIT</a> method, so applications typically should not call it.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>

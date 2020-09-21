@@ -64,19 +64,18 @@ Returns S_OK if successful.
 
 ## -remarks
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a> interface to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a> interface to be removed.
 
 Note that by removing the trace provider from the collection, you are also removing the provider from the trace data collector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-add">ITraceDataProviderCollection::Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-add">ITraceDataProviderCollection::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-clear">ITraceDataProviderCollection::Clear</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-clear">ITraceDataProviderCollection::Clear</a>

@@ -66,37 +66,37 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete">CreatePartnershipComplete</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete">CreatePartnershipComplete</a>
 </td>
 <td>Occurs when an asynchronous call to <b>IWMPSyncDevice::createPartnership</b> completes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-deviceconnect">DeviceConnect</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-deviceconnect">DeviceConnect</a>
 </td>
 <td>Occurs when the user connects a device to the computer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicedisconnect">DeviceDisconnect</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicedisconnect">DeviceDisconnect</a>
 </td>
 <td>Occurs when the user disconnects a device from the computer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicestatuschange">DeviceStatusChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicestatuschange">DeviceStatusChange</a>
 </td>
 <td>Occurs when the partnership status of a device changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncerror">DeviceSyncError</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncerror">DeviceSyncError</a>
 </td>
 <td>Occurs when a synchronization error happens.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncstatechange">DeviceSyncStateChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncstatechange">DeviceSyncStateChange</a>
 </td>
 <td>Occurs when the synchronization state of a device changes.</td>
 </tr>
@@ -104,25 +104,24 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
+<a href="/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership">IWMPSyncDevice::createPartnership</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership">IWMPSyncDevice::createPartnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
-
+<a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <span>This topic lists the constructors of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> class. For a complete class listing, see <b>FontFamilyClass</b>. 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> class. For a complete class listing, see <b>FontFamilyClass</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -59,23 +59,22 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms536182(v=vs.85)">FontFamily()</a>
+<a href="/previous-versions/ms536182(v=vs.85)">FontFamily()</a>
 </td>
 <td align="left" width="63%">
-Creates an empty <a href="https://docs.microsoft.com/previous-versions/ms536182(v=vs.85)">FontFamily::FontFamily</a> object.
+Creates an empty <a href="/previous-versions/ms536182(v=vs.85)">FontFamily::FontFamily</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms536183(v=vs.85)">FontFamily(WCHAR*,FontCollection*)</a>
+<a href="/previous-versions/ms536183(v=vs.85)">FontFamily(WCHAR*,FontCollection*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions/ms536183(v=vs.85)">FontFamily::FontFamily</a> object based on a specified font family.
+Creates a <a href="/previous-versions/ms536183(v=vs.85)">FontFamily::FontFamily</a> object based on a specified font family.
 
 </td>
 </tr>
 </table>
 
 ## -parameters
-

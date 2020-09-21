@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRSCALEVIEWPORTEXTEX</b> and <b>EMRSCALEWINDOWEXTEX</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-scaleviewportextex">ScaleViewportExtEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-scalewindowextex">ScaleWindowExtEx</a> enhanced metafile records.
+The <b>EMRSCALEVIEWPORTEXTEX</b> and <b>EMRSCALEWINDOWEXTEX</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-scaleviewportextex">ScaleViewportExtEx</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-scalewindowextex">ScaleWindowExtEx</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -80,9 +80,8 @@ Vertical divisor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

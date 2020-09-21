@@ -76,7 +76,7 @@ Pointer to device specific out-of-band data to be provided with this API call.  
           displayed to continue the authentication process.
 If not <b>NULL</b>, no UI is displayed.
 
-<div class="alert"><b>Note</b>  If a callback is registered using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a>, then a UI will not be displayed.</div>
+<div class="alert"><b>Note</b>  If a callback is registered using <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a>, then a UI will not be displayed.</div>
 <div> </div>
 
 ### -param authenticationRequirement [in]
@@ -131,7 +131,7 @@ The device in pbtdi is already been marked as authenticated.
 
 The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
 
-For all other types of  authentication, the caller should register an authentication callback using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponseex">BluetoothSendAuthenticationResponseEx</a>.
+For all other types of  authentication, the caller should register an authentication callback using <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponseex">BluetoothSendAuthenticationResponseEx</a>.
 
 
 #### Examples
@@ -178,5 +178,4 @@ HRESULT WINAPI AuthenticateService(){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedevice">BluetoothAuthenticateDevice</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedevice">BluetoothAuthenticateDevice</a>

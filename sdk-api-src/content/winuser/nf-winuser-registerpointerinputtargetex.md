@@ -53,9 +53,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>RegisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.]
+<p class="CCE_Message">[<b>RegisterPointerInputTargetEx</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.]
 
-<b>RegisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.
+<b>RegisterPointerInputTargetEx</b> may be altered or unavailable. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>.
 
 ## -parameters
 
@@ -77,5 +77,4 @@ Not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/point-specular">Point-specular lighting effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/point-specular">Point-specular lighting effect</a>.
 
 ## -enum-fields
 
@@ -92,21 +92,21 @@ The default value is 1.0f.
 
 ### -field D2D1_POINTSPECULAR_PROP_COLOR
 
-The color of the incoming light. This property is exposed as a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> – (R, G, B) and used to compute LR, LG, LB.
+The color of the incoming light. This property is exposed as a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> – (R, G, B) and used to compute LR, LG, LB.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {1.0f, 1.0f, 1.0f}.
 
 ### -field D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH
 
 The size of an element in the Sobel kernel used to generate the surface normal in the X and Y directions. This property maps to the dx and dy values in the Sobel gradient. 
-            This property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>(Kernel Unit Length X, Kernel Unit Length Y) and is defined in (DIPs/Kernel Unit). 
+            This property is a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>(Kernel Unit Length X, Kernel Unit Length Y) and is defined in (DIPs/Kernel Unit). 
             The effect uses bilinear interpolation to scale the bitmap to match size of kernel elements.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
+The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is {1.0f, 1.0f}.
 
@@ -115,9 +115,8 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_scale_mode">D2D1_POINTSPECULAR_SCALE_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_scale_mode">D2D1_POINTSPECULAR_SCALE_MODE</a>.
 
 The default value is D2D1_POINTSPECULAR_SCALE_MODE_LINEAR.
 
 ### -field D2D1_POINTSPECULAR_PROP_FORCE_DWORD
-

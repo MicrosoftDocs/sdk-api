@@ -51,7 +51,6 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> object.
+Creates an <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> object.
 
 ## -parameters
-

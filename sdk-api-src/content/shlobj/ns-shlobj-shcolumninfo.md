@@ -52,28 +52,28 @@ api_name:
 
 ## -description
 
-Contains information about the properties of a column. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>.
+Contains information about the properties of a column. It is used by <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>.
 
 ## -struct-fields
 
 ### -field scid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a></b>
+Type: <b><a href="/windows/desktop/shell/objects">SHCOLUMNID</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that uniquely identifies the column.
+A <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure that uniquely identifies the column.
 
 ### -field vt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
-The native <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARIANT</a> type of the column's data.
+The native <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARIANT</a> type of the column's data.
 
 ### -field fmt
 
 Type: <b>DWORD</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
 
 ### -field cChars
 
@@ -149,5 +149,4 @@ A null-terminated Unicode string with the column's description. It must contain 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>
-
+<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>

@@ -68,5 +68,4 @@ The return value is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineonsamplecallback2">IMFCaptureEngineOnSampleCallback2</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineonsamplecallback2">IMFCaptureEngineOnSampleCallback2</a>

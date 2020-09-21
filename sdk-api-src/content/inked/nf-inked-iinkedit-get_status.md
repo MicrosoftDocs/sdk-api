@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
+Gets a value that specifies whether the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
 
 
 
@@ -71,9 +71,8 @@ This property is available at run time only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkeditstatus">InkEditStatus Enumeration</a>
-
+<a href="/windows/desktop/api/inked/ne-inked-inkeditstatus">InkEditStatus Enumeration</a>

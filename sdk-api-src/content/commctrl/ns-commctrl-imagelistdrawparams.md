@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains information about an image list draw operation and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">IImageList::Draw</a> function.
+Contains information about an image list draw operation and is used with the <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">IImageList::Draw</a> function.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size of this structure, in bytes.
 
@@ -78,7 +78,7 @@ The zero-based index of the image to be drawn.
 
 ### -field hdcDst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle to the destination device context.
 
@@ -98,13 +98,13 @@ The y-coordinate that specifies where the image is drawn.
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
 
 ### -field cy
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
 
 ### -field xBitmap
 
@@ -120,7 +120,7 @@ The y-coordinate that specifies the upper-left corner of the drawing operation i
 
 ### -field rgbBk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The image background color. This parameter can be an application-defined RGB value or one of the following values. 
 
@@ -153,9 +153,9 @@ No background color. The image is drawn transparently.
 
 ### -field rgbFg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The image foreground color. This member is used only if <b>fStyle</b> includes the <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">ILD_BLEND25</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">ILD_BLEND50</a> flag. This parameter can be an application-defined RGB value or one of the following values:  
+The image foreground color. This member is used only if <b>fStyle</b> includes the <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_BLEND25</a> or <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_BLEND50</a> flag. This parameter can be an application-defined RGB value or one of the following values:  
 
 <table>
 <tr>
@@ -186,15 +186,15 @@ No blend color. The image is blended with the color of the destination device co
 
 ### -field fStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">image list drawing flags</a>.
+A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="/windows/desktop/Controls/imagelistdrawflags">image list drawing flags</a>.
 
 ### -field dwRop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A value specifying a raster operation code. These codes define how the color data for the source rectangle will be combined with the color data for the destination rectangle to achieve the final color. This member is ignored if	<b>fStyle</b> does not include the <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">ILD_ROP</a> flag. Some common raster operation codes include: 
+A value specifying a raster operation code. These codes define how the color data for the source rectangle will be combined with the color data for the destination rectangle to achieve the final color. This member is ignored if	<b>fStyle</b> does not include the <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_ROP</a> flag. Some common raster operation codes include: 
 
 <table>
 <tr>
@@ -355,31 +355,30 @@ Fills the destination rectangle using the color associated with index one in the
 
 ### -field fState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A flag that specifies the drawing state. This member can contain one or more <a href="https://docs.microsoft.com/windows/desktop/Controls/imageliststateflags">image list state flags</a>. You must use comctl32.dll version 6 to use this member. See the Remarks.
+A flag that specifies the drawing state. This member can contain one or more <a href="/windows/desktop/Controls/imageliststateflags">image list state flags</a>. You must use comctl32.dll version 6 to use this member. See the Remarks.
 
 ### -field Frame
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Used with the <b>alpha blending</b> effect.
 
-When used with <a href="https://docs.microsoft.com/windows/desktop/Controls/imageliststateflags">ILS_ALPHA</a>, this member holds the value for the alpha channel. This value can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque. 
+When used with <a href="/windows/desktop/Controls/imageliststateflags">ILS_ALPHA</a>, this member holds the value for the alpha channel. This value can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque. 
 
 You must use comctl32.dll version 6 to use this member. See the Remarks.
 
 ### -field crEffect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A color used for the <b>glow</b> and <b>shadow</b> effects. You must use comctl32.dll version 6 to use this member. See the Remarks.
 
 ## -remarks
 
-An overlay image is an image that is drawn on top of the primary image specified in the <b>i</b> member of this structure. To specify an overlay image, use the bitwise <b>OR</b> operator to combine <b>fStyle</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro, passing the one-based index of the overlay image in the macro. This image must have been previously specified as an overlay image using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> API. 
+An overlay image is an image that is drawn on top of the primary image specified in the <b>i</b> member of this structure. To specify an overlay image, use the bitwise <b>OR</b> operator to combine <b>fStyle</b> with the <a href="/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro, passing the one-based index of the overlay image in the macro. This image must have been previously specified as an overlay image using the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> API. 
 
-To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">ILD_OVERLAYMASK</a> value. 
+To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_OVERLAYMASK</a> value. 
 
-Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

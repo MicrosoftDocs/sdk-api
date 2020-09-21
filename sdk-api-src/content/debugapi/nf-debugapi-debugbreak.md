@@ -59,7 +59,7 @@ api_name:
 Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.
 
 To cause a breakpoint exception in another process, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-debugbreakprocess">DebugBreakProcess</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-debugbreakprocess">DebugBreakProcess</a> function.
 
 ## -parameters
 
@@ -71,23 +71,22 @@ If the process is not being debugged, the function uses the search logic of a st
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-an-exception-handler">Using an Exception Handler</a>.
+<a href="/windows/desktop/Debug/using-an-exception-handler">Using an Exception Handler</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
+<a href="/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
+<a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-debugbreakprocess">DebugBreakProcess</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-debugbreakprocess">DebugBreakProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
-
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>

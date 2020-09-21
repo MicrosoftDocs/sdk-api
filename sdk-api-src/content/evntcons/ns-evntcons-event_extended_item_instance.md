@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_EXTENDED_ITEM_INSTANCE</b> structure defines the relationship between events if <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> was used to log related events.
+The <b>EVENT_EXTENDED_ITEM_INSTANCE</b> structure defines the relationship between events if <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> was used to log related events.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ A GUID that uniquely identifies the provider that logged the event referenced by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
-
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>

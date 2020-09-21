@@ -53,12 +53,12 @@ api_name:
 
 The <code>IAMAudioInputMixer</code> interface controls audio capture properties, such as panning and loudness; and enables or disables specific audio inputs, such as the line in or the microphone.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture</a> filter exposes this interface on each input pin, as well as on the filter itself. The input pins on the Audio Capture Filter represent physical hardware connections; they are not connected to other DirectShow filters. The pin name indicates the input type; for example, "Line In" or "Microphone." Use the <code>IAMAudioInputMixer</code> interface as follows:
+The <a href="/windows/desktop/DirectShow/audio-capture-filter">Audio Capture</a> filter exposes this interface on each input pin, as well as on the filter itself. The input pins on the Audio Capture Filter represent physical hardware connections; they are not connected to other DirectShow filters. The pin name indicates the input type; for example, "Line In" or "Microphone." Use the <code>IAMAudioInputMixer</code> interface as follows:
 
 <ul>
 <li>To control the settings on a particular input, use the interface on the pin.</li>
 <li>To set the overall properties when multiple inputs are enabled, use the interface on the filter.</li>
-<li>To enable or disable an input, call that pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a> method.</li>
+<li>To enable or disable an input, call that pin's <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a> method.</li>
 </ul>
 Some methods on this interface might fail, depening on the capabilities of the underlying hardware.
 
@@ -66,7 +66,7 @@ Some methods on this interface might fail, depening on the capabilities of the u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAudioInputMixer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAudioInputMixer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAudioInputMixer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAudioInputMixer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IAMAudioInputMixer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bass">get_Bass</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bass">get_Bass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bass equalization.
@@ -90,7 +90,7 @@ Retrieves the bass equalization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bassrange">get_BassRange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bassrange">get_BassRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bass range.
@@ -99,7 +99,7 @@ Retrieves the bass range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_enable">get_Enable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_enable">get_Enable</a>
 </td>
 <td align="left" width="63%">
 Queries whether an input is enabled.
@@ -108,7 +108,7 @@ Queries whether an input is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_loudness">get_Loudness</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_loudness">get_Loudness</a>
 </td>
 <td align="left" width="63%">
 Retrieves the loudness control setting.
@@ -117,7 +117,7 @@ Retrieves the loudness control setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mixlevel">get_MixLevel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mixlevel">get_MixLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording level.
@@ -126,7 +126,7 @@ Retrieves the recording level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mono">get_Mono</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mono">get_Mono</a>
 </td>
 <td align="left" width="63%">
 Queries whether all the channels of an input are combined into a mono signal.
@@ -135,7 +135,7 @@ Queries whether all the channels of an input are combined into a mono signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_pan">get_Pan</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_pan">get_Pan</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pan level.
@@ -144,7 +144,7 @@ Retrieves the pan level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treble">get_Treble</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treble">get_Treble</a>
 </td>
 <td align="left" width="63%">
 Retrieves the treble equalization.
@@ -153,7 +153,7 @@ Retrieves the treble equalization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treblerange">get_TrebleRange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treblerange">get_TrebleRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the treble range.
@@ -162,7 +162,7 @@ Retrieves the treble range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_bass">put_Bass</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_bass">put_Bass</a>
 </td>
 <td align="left" width="63%">
 Sets the bass equalization.
@@ -171,7 +171,7 @@ Sets the bass equalization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">put_Enable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">put_Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables an input.
@@ -180,7 +180,7 @@ Enables or disables an input.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_loudness">put_Loudness</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_loudness">put_Loudness</a>
 </td>
 <td align="left" width="63%">
 Sets the loudness control.
@@ -189,7 +189,7 @@ Sets the loudness control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mixlevel">put_MixLevel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mixlevel">put_MixLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the recording level.
@@ -198,7 +198,7 @@ Sets the recording level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mono">put_Mono</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mono">put_Mono</a>
 </td>
 <td align="left" width="63%">
 Combines all channels of an input into a mono signal.
@@ -207,7 +207,7 @@ Combines all channels of an input into a mono signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_pan">put_Pan</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_pan">put_Pan</a>
 </td>
 <td align="left" width="63%">
 Sets the pan level.
@@ -216,7 +216,7 @@ Sets the pan level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">put_Treble</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_treble">put_Treble</a>
 </td>
 <td align="left" width="63%">
 Sets the treble equalization.
@@ -227,5 +227,4 @@ Sets the treble equalization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

@@ -91,7 +91,7 @@ Specifies the number of bytes to allocate.
 
 ### -param tag [in]
 
-Specifies a 4-byte <a href="https://docs.microsoft.com/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies a 4-byte <a href="/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 ## -remarks
 
@@ -99,5 +99,4 @@ When the memory is no longer needed, it should be freed by a call to the <b>EngF
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>

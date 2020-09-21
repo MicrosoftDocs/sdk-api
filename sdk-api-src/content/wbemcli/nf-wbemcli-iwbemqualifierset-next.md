@@ -54,8 +54,8 @@ api_name:
 ## -description
 
 The <b>IWbemQualifierSet::Next</b> method retrieves the next qualifier in an enumeration that started with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>. This method is called repeatedly to enumerate all the qualifiers until <b>WBEM_S_NO_MORE_DATA</b> returns. To terminate the enumeration early, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration">IWbemQualifierSet::EndEnumeration</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>. This method is called repeatedly to enumerate all the qualifiers until <b>WBEM_S_NO_MORE_DATA</b> returns. To terminate the enumeration early, call 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration">IWbemQualifierSet::EndEnumeration</a>.
 
 The order of the qualifiers returned during the enumeration is not defined.
 
@@ -78,7 +78,7 @@ This parameter receives the value for the qualifier. <b>VariantInit</b> is calle
 ### -param plFlavor [out]
 
 If not <b>NULL</b>, the value pointed to is set to the qualifier flavor. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 ## -returns
 
@@ -86,13 +86,12 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration">IWbemQualifierSet::EndEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration">IWbemQualifierSet::EndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
-
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>

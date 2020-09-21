@@ -56,7 +56,7 @@ Retrieves the value of the consistent flag. Retrieving this value before deactiv
 
 ### -param ptxVote [out]
 
-The consistent flag. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. This parameter is set to TxCommit if the consistent flag is true; it is set to TxAbort if the consistent flag is false.
+The consistent flag. For a list of values, see the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. This parameter is set to TxCommit if the consistent flag is true; it is set to TxAbort if the consistent flag is false.
 
 ## -returns
 
@@ -97,9 +97,8 @@ If the method fails, you may be able to determine that a transaction is not pres
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
+<a href="/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>

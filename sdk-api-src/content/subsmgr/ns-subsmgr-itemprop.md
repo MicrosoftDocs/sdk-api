@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>ITEMPROP</b> and <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> are supported only on Windows XP and Windows Server 2003, and should no longer be used.]
+<p class="CCE_Message">[<b>ITEMPROP</b> and <a href="/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> are supported only on Windows XP and Windows Server 2003, and should no longer be used.]
 
-Stores information about properties in the <a href="https://docs.microsoft.com/windows/desktop/properties/windows-properties-system">Windows Property System</a>, and is used by the <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface.
+Stores information about properties in the <a href="/windows/desktop/properties/windows-properties-system">Windows Property System</a>, and is used by the <a href="/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ Stores information about properties in the <a href="https://docs.microsoft.com/w
 
 #### - bstrIndexProp
 
-The name of a property in the <a href="https://docs.microsoft.com/windows/desktop/properties/windows-properties-system">Windows Property System</a>. For example, the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> property.
+The name of a property in the <a href="/windows/desktop/properties/windows-properties-system">Windows Property System</a>. For example, the <a href="/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> property.
 
 
 #### - bstrName
@@ -96,13 +96,12 @@ For internal use only.
 
 #### - vt
 
-The type of the property value. For example, the type of the string property <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> is <b>VT_BSTR</b>.
+The type of the property value. For example, the type of the string property <a href="/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> is <b>VT_BSTR</b>.
 
 ## -remarks
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface and the following APIs: the <a href="https://docs.microsoft.com/windows/desktop/search/-search-isearchprotocolui">ISearchProtocolUI</a>, <a href="https://docs.microsoft.com/windows/desktop/search/-search-iitempreviewerext">IItemPreviewerExt</a> and <a href="https://docs.microsoft.com/windows/desktop/search/-search-isearchitem">ISearchItem</a> interfaces, the <a href="https://docs.microsoft.com/windows/desktop/search/-search-linkinfo">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://docs.microsoft.com/windows/desktop/search/-search-linktype">LINKTYPE</a> enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface and the following APIs: the <a href="/windows/desktop/search/-search-isearchprotocolui">ISearchProtocolUI</a>, <a href="/windows/desktop/search/-search-iitempreviewerext">IItemPreviewerExt</a> and <a href="/windows/desktop/search/-search-isearchitem">ISearchItem</a> interfaces, the <a href="/windows/desktop/search/-search-linkinfo">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="/windows/desktop/search/-search-linktype">LINKTYPE</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a>
-
+<a href="/windows/desktop/search/iitempropertybag">IItemPropertyBag</a>

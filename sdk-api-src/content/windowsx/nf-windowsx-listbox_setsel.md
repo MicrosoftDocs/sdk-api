@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setsel">LB_SETSEL</a> message explicitly.
+Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-setsel">LB_SETSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param fSelect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to select the item, or <b>FALSE</b> to deselect it.
 
@@ -71,4 +71,3 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Type: <b>int</b>
 
 The zero-based index of the item.
-

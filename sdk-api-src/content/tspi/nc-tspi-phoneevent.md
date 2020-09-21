@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <i>Phone_Event</i> a callback function implemented by TAPI and supplied to the service provider as a parameter to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneopen">TSPI_phoneOpen</a>. The service provider calls this function to report events that occur on the phone.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phoneopen">TSPI_phoneOpen</a>. The service provider calls this function to report events that occur on the phone.
 
 The <b>PHONEEVENT</b> type defines a pointer to this callback function. <i>Phone_Event</i> is a placeholder for the application-defined function name.
 
@@ -82,17 +82,16 @@ A parameter for the message.
 The call state when calling this function can be any state.
 
 The service provider passes the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/htapiphone">HTAPIPHONE</a> value supplied to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneopen">TSPI_phoneOpen</a> as the <i>htPhone</i> parameter. It includes the message identifier and parameters specific to the event.
+<a href="/windows/desktop/Tapi/htapiphone">HTAPIPHONE</a> value supplied to 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phoneopen">TSPI_phoneOpen</a> as the <i>htPhone</i> parameter. It includes the message identifier and parameters specific to the event.
 
 The sets of messages that can be passed to this procedure differ slightly from the messages to the corresponding callback at the TAPI level. In particular, completion of asynchronously executing requests is reported through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a> callback instead of this one.
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a> callback instead of this one.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>

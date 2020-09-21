@@ -56,7 +56,7 @@ Sets the turbulence noise mode.
 
 ### -param noise [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/turbulence">D2D1_TURBULENCE_NOISE</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/turbulence">D2D1_TURBULENCE_NOISE</a></b>
 
 The turbulence noise mode. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionturbulenceeffect">IDCompositionTurbulenceEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionturbulenceeffect">IDCompositionTurbulenceEffect</a>

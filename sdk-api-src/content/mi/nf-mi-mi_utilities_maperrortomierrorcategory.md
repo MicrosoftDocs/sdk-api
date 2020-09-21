@@ -82,9 +82,8 @@ Error code to map.
 
 ## -returns
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a> structure that indicates the category of error.
+An <a href="/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a> structure that indicates the category of error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a>
-
+<a href="/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a>

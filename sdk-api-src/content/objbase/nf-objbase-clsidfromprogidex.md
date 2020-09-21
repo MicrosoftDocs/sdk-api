@@ -52,7 +52,7 @@ api_name:
 
 Triggers automatic installation if the COMClassStore policy is enabled.
 
-This is analogous to the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> when neither CLSCTX_ENABLE_CODE_DOWNLOAD nor CLSCTX_NO_CODE_DOWNLOAD are specified.
+This is analogous to the behavior of <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> when neither CLSCTX_ENABLE_CODE_DOWNLOAD nor CLSCTX_NO_CODE_DOWNLOAD are specified.
 
 ## -parameters
 
@@ -129,5 +129,4 @@ If either of the following registry values are enabled (meaning set to 1), autom
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid">ProgIDFromCLSID</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid">ProgIDFromCLSID</a>

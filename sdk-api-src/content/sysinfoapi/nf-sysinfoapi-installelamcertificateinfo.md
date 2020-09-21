@@ -59,7 +59,7 @@ api_name:
 Installs the certificate information specified in the resource file, which is linked into the ELAM 
     driver at build time. This API is used by anti-malware vendors to launch the anti-malware software's user-mode 
     service as protected. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Services/protecting-anti-malware-services-">Protecting Anti-Malware Services</a>.
+    <a href="/windows/desktop/Services/protecting-anti-malware-services-">Protecting Anti-Malware Services</a>.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ A handle to an ELAM driver file which contains the resource file with the certif
 If the function succeeds, the return value is TRUE.
 
 If the function fails, the return value is FALSE. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ Anti-malware vendors can use this API to register their anti-malware user-mode s
     only and must not be shareable for write access.
 
 For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Services/protecting-anti-malware-services-">Protecting Anti-Malware Services</a>.
+    <a href="/windows/desktop/Services/protecting-anti-malware-services-">Protecting Anti-Malware Services</a>.
 
 
 #### Examples
@@ -108,4 +108,3 @@ if (InstallElamCertificateInfo(FileHandle) == FALSE)
     goto exitFunc;
 }
 ```
-

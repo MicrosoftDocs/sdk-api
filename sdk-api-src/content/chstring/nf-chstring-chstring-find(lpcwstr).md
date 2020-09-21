@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method searches a string for the first match of a substring.
+The <a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method searches a string for the first match of a substring.
 
 ## -parameters
 
@@ -69,11 +69,11 @@ A substring that the method searches for.
 
 ## -returns
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
+If the <a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
+The <a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
 
 
 #### Examples
@@ -89,13 +89,12 @@ assert( s.Find( L"de" ) == 3 );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">CHString::ReverseFind</a>
-
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">CHString::ReverseFind</a>

@@ -106,15 +106,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The enclave that calls <b>EnclaveUnsealData</b> must meet the criteria that correspond to the value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a> that was specified by the enclave that sealed the data by calling <a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>.
+The enclave that calls <b>EnclaveUnsealData</b> must meet the criteria that correspond to the value of the <a href="/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a> that was specified by the enclave that sealed the data by calling <a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>.
 
 <b>EnclaveUnsealData</b> must be called from within an enclave, and is only supported within enclaves that have the  <b>ENCLAVE_TYPE_VBS</b> enclave type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
+<a href="/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>
-
+<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>

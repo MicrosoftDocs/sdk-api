@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AddConditionalAce</b> function adds a conditional  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). A conditional ACE specifies a logical condition that is evaluated during access checks.
+The <b>AddConditionalAce</b> function adds a conditional  <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the specified <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). A conditional ACE specifies a logical condition that is evaluated during access checks.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Specifies the revision level of the ACL being modified. This value can be ACL_RE
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ This can be one of the following values.
 </td>
 <td width="60%">
 Access-allowed callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ Access-allowed callback ACE that uses the
 </td>
 <td width="60%">
 Access-denied callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Access-denied callback ACE that uses the
 </td>
 <td width="60%">
 System audit callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ The size, in bytes, of the ACL. If the buffer specified by the <i>pACL</i> param
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -218,4 +218,3 @@ The new ACE does not fit into the <i>pAcl</i> buffer.
 </td>
 </tr>
 </table>
-

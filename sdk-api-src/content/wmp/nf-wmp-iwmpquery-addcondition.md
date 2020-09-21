@@ -90,11 +90,11 @@ The method succeeded.
 
 ## -remarks
 
-Conditions contained in a compound query are organized into condition groups. Multiple conditions within a condition group are always concatenated by using AND logic. Condition groups are always concatenated to each other by using OR logic. To start a new condition group, call <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpquery-beginnextgroup">IWMPQuery::beginNextGroup</a>.
+Conditions contained in a compound query are organized into condition groups. Multiple conditions within a condition group are always concatenated by using AND logic. Condition groups are always concatenated to each other by using OR logic. To start a new condition group, call <a href="/windows/desktop/api/wmp/nf-wmp-iwmpquery-beginnextgroup">IWMPQuery::beginNextGroup</a>.
 
 Compound queries using <b>IWMPQuery</b> are not case sensitive.
 
-A list of values for the <i>bstrAttribute</i> parameter can be found in the <a href="https://docs.microsoft.com/windows/desktop/WMP/alphabetical-attribute-reference">Alphabetical Attribute Reference</a> section.
+A list of values for the <i>bstrAttribute</i> parameter can be found in the <a href="/windows/desktop/WMP/alphabetical-attribute-reference">Alphabetical Attribute Reference</a> section.
 
 The following table lists the supported values for <i>bstrOperator</i>.
 
@@ -152,21 +152,20 @@ The following table lists the supported values for <i>bstrOperator</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/alphabetical-attribute-reference">Alphabetical Attribute Reference</a>
+<a href="/windows/desktop/WMP/alphabetical-attribute-reference">Alphabetical Attribute Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">IWMPMediaCollection2::createQuery</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">IWMPMediaCollection2::createQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery">IWMPMediaCollection2::getPlaylistByQuery</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery">IWMPMediaCollection2::getPlaylistByQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>

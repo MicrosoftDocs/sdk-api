@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setpadding">TCM_SETPADDING</a> message explicitly.
+Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setpadding">TCM_SETPADDING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -71,4 +71,3 @@ Amount of horizontal padding, in pixels.
 Type: <b>int</b>
 
 Amount of vertical padding, in pixels.
-

@@ -66,5 +66,4 @@ Indicates that the table is not yet applicable, and will be the next valid table
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>

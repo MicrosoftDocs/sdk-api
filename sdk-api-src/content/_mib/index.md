@@ -21,5 +21,4 @@ To develop Management Information Base, you need these headers:
  * [udpmib.h](../udpmib/index.md)
 
 For programming guidance for this technology, see:
-* [Management Information Base](https://docs.microsoft.com/previous-versions/windows/desktop/mib)
-
+* [Management Information Base](/previous-versions/windows/desktop/mib)

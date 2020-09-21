@@ -62,7 +62,7 @@ If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case,
 
 ### -param pvProp [out]
 
-Pointer to a <b>VARIANT</b> that receives the requested attribute value. The variant type of this data will depend on the value returned in <i>lnADsType</i>. For more information and  a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>.
+Pointer to a <b>VARIANT</b> that receives the requested attribute value. The variant type of this data will depend on the value returned in <i>lnADsType</i>. For more information and  a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>.
 
 ## -returns
 
@@ -70,7 +70,7 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -78,9 +78,8 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>

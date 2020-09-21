@@ -69,7 +69,7 @@ The <b>IForgottenKnowledge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iforgottenknowledge-forgettoversion">ForgetToVersion</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iforgottenknowledge-forgettoversion">ForgetToVersion</a>
 </td>
 <td align="left" width="63%">
 Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.
@@ -89,5 +89,4 @@ The forgotten knowledge tracks the maximum version of tombstones that have been 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

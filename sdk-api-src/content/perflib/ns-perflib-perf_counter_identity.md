@@ -92,5 +92,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perflibrequest">ControlCallback</a>
-
+<a href="/windows/desktop/api/perflib/nc-perflib-perflibrequest">ControlCallback</a>

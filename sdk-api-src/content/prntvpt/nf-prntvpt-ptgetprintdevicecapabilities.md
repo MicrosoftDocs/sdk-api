@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the device printer's capabilities formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
+Retrieves the device printer's capabilities formatted in compliance with the XML <a href="/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 ## -parameters
 
 ### -param hProvider [in]
 
-A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
+A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param pPrintTicket [in, optional]
 
@@ -76,5 +76,4 @@ If the operation succeeds, the return value is S_OK. Otherwise, returns an error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
-
+<a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>

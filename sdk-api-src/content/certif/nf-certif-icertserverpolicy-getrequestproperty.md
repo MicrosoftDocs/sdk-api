@@ -60,7 +60,7 @@ The <b>GetRequestProperty</b> method retrieves a specific property from a reques
 Specifies the name of the property to retrieve. This parameter can be set to a name property or  a request property.
 
 Name properties include  a stock set of certificate properties that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
 
 Request properties are unique to requests and include the following possible values.
 
@@ -187,7 +187,7 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data.
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ A pointer to the <b>VARIANT</b> that contains the request property type.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pvarPropertyValue</i> parameter contains the  request property.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property.
@@ -210,7 +210,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
 
 Requests  hold all the associated states for the request and the eventual granted certificate that is not a part of the certificate. Thus, data such as revocation times and disposition data are kept in the request data object.
 
@@ -272,13 +272,12 @@ if ( NULL != bstrPropName )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
-
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>

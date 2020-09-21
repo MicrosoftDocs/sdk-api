@@ -230,9 +230,8 @@ The following illustration represents a single box from the previous illustratio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>

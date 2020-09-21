@@ -54,7 +54,7 @@ Defines methods for setting an encoder's properties such as thumbnails, frames, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICBitmapEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-commit">Commit</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits all changes for the image and closes the stream.
@@ -78,16 +78,16 @@ Commits all changes for the image and closes the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-createnewframe">CreateNewFrame</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-createnewframe">CreateNewFrame</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> instance.
+Creates a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> instance.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getcontainerformat">GetContainerFormat</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getcontainerformat">GetContainerFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the encoder's container format.
@@ -96,16 +96,16 @@ Retrieves the encoder's container format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo">GetEncoderInfo</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo">GetEncoderInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a> for the encoder.
+Retrieves an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a> for the encoder.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getmetadataquerywriter">GetMetadataQueryWriter</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getmetadataquerywriter">GetMetadataQueryWriter</a>
 </td>
 <td align="left" width="63%">
 Retrieves a metadata query writer for the encoder.
@@ -114,25 +114,25 @@ Retrieves a metadata query writer for the encoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-initialize">Initialize</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes the encoder with an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> which tells the encoder where to encode the bits.
+Initializes the encoder with an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> which tells the encoder where to encode the bits.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setcolorcontexts">SetColorContexts</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setcolorcontexts">SetColorContexts</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects for the encoder.
+Sets the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects for the encoder.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">SetPalette</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">SetPalette</a>
 </td>
 <td align="left" width="63%">
 Sets the global palette for the image.
@@ -141,7 +141,7 @@ Sets the global palette for the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpreview">SetPreview</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpreview">SetPreview</a>
 </td>
 <td align="left" width="63%">
 Sets the global preview for the image.
@@ -150,7 +150,7 @@ Sets the global preview for the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail">SetThumbnail</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail">SetThumbnail</a>
 </td>
 <td align="left" width="63%">
 Sets the global thumbnail for the image.
@@ -200,13 +200,13 @@ There are a number of concrete implemenations of this interface representing eac
 </table>
  
 
-Additionally this interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>.
+Additionally this interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>.
 
 CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
+<a href="/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
 
 
 
@@ -214,7 +214,7 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
+<a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
@@ -222,9 +222,8 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
+<a href="/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>

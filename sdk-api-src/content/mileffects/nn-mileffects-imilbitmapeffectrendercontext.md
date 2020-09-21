@@ -54,7 +54,7 @@ Exposes methods that define a <b>IMILBitmapEffectRenderContext</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectRenderContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectRenderContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IMILBitmapEffectRenderContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getfinaltransform">GetFinalTransform</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getfinaltransform">GetFinalTransform</a>
 </td>
 <td align="left" width="63%">
-Gets the final <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a> transform.
+Gets the final <a href="/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a> transform.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getoutputdpi">GetOutputDPI</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getoutputdpi">GetOutputDPI</a>
 </td>
 <td align="left" width="63%">
 Gets the output dpi.
@@ -87,7 +87,7 @@ Gets the output dpi.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getoutputpixelformat">GetOutputPixelFormat</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-getoutputpixelformat">GetOutputPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the output pixel format GUID.
@@ -96,16 +96,16 @@ Gets the output pixel format GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setinitialtransform">SetInitialTransform</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setinitialtransform">SetInitialTransform</a>
 </td>
 <td align="left" width="63%">
-Gets the initial <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a> transform.
+Gets the initial <a href="/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrixf">MILMatrixF</a> transform.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setoutputdpi">SetOutputDPI</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setoutputdpi">SetOutputDPI</a>
 </td>
 <td align="left" width="63%">
 Sets the output dpi.
@@ -114,7 +114,7 @@ Sets the output dpi.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setoutputpixelformat">SetOutputPixelFormat</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setoutputpixelformat">SetOutputPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the output pixel format.
@@ -123,7 +123,7 @@ Sets the output pixel format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setregionofinterest">SetRegionOfInterest</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setregionofinterest">SetRegionOfInterest</a>
 </td>
 <td align="left" width="63%">
 Sets the region of interest for the effect.
@@ -132,7 +132,7 @@ Sets the region of interest for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setusesoftwarerenderer">SetUseSoftwareRenderer</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontext-setusesoftwarerenderer">SetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Sets a value to indicate whether to use software rendering.
@@ -140,4 +140,3 @@ Sets a value to indicate whether to use software rendering.
 </td>
 </tr>
 </table>
-

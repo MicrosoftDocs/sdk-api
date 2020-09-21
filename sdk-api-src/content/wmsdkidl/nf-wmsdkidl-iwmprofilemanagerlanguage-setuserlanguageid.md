@@ -100,17 +100,16 @@ English – United States (0x0409) is the default language. This method will als
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage">IWMProfileManagerLanguage Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage">IWMProfileManagerLanguage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-getuserlanguageid">IWMProfileManagerLanguage::GetUserLanguageID</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-getuserlanguageid">IWMProfileManagerLanguage::GetUserLanguageID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/localized-system-profiles">Localized System Profiles</a>
+<a href="/windows/desktop/wmformat/localized-system-profiles">Localized System Profiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/working-with-localized-system-profiles">Working with Localized System Profiles</a>
-
+<a href="/windows/desktop/wmformat/working-with-localized-system-profiles">Working with Localized System Profiles</a>

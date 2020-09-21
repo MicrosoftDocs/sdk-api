@@ -56,11 +56,10 @@ This method is not implemented.
 
 ### -param pDataObject [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 This method is not implemented.
-

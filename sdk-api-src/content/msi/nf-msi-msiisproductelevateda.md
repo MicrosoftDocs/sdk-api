@@ -54,10 +54,10 @@ api_name:
 
 The <b>MsiIsProductElevated</b> function returns whether or not the product is managed. Only applications that require elevated privileges for installation and being installed through advertisement are considered managed, which means that an application installed per-machine is always considered managed. 
 
-An application that is installed  per-user is only considered managed if it is advertised by a local system process that is impersonating the user. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/advertising-a-per-user-application-to-be-installed-with-elevated-privileges">Advertising a Per-User Application to be Installed with Elevated Privileges</a>.
+An application that is installed  per-user is only considered managed if it is advertised by a local system process that is impersonating the user. For more information, see <a href="/windows/desktop/Msi/advertising-a-per-user-application-to-be-installed-with-elevated-privileges">Advertising a Per-User Application to be Installed with Elevated Privileges</a>.
      
 
-<b>MsiIsProductElevated</b> verifies that the local system owns the product registry data. The function does not refer to account policies such as <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>.
+<b>MsiIsProductElevated</b> verifies that the local system owns the product registry data. The function does not refer to account policies such as <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>.
 
 ## -parameters
 
@@ -143,14 +143,13 @@ The function is not available for a specific platform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
+<a href="/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installing-a-package-with-elevated-privileges-for-a-non-admin">Installing a Package with Elevated Privileges for a Non-Admin</a>
+<a href="/windows/desktop/Msi/installing-a-package-with-elevated-privileges-for-a-non-admin">Installing a Package with Elevated Privileges for a Non-Admin</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msi.h header defines MsiIsProductElevated as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

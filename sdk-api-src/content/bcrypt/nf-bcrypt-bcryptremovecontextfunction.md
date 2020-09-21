@@ -253,5 +253,4 @@ The specified context or function could not be found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction">BCryptAddContextFunction</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction">BCryptAddContextFunction</a>

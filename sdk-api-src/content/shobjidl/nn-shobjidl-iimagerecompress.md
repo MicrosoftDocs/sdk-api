@@ -54,7 +54,7 @@ Exposes a method that recompress images.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageRecompress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImageRecompress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageRecompress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImageRecompress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,11 +69,11 @@ The <b>IImageRecompress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iimagerecompress-recompressimage">RecompressImage</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iimagerecompress-recompressimage">RecompressImage</a>
 </td>
 <td align="left" width="63%">
 Recompresses an image. Implemented in an
-		<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
+		<a href="/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
 		accepts x and y dimensions with a designation of quality. The method
 		creates a stream containing the new image that has been recompressed
 		to the	specified size.
@@ -87,9 +87,8 @@ Recompresses an image. Implemented in an
 Implement <b>IImageRecompress</b> if you are implementing
 			an image object that may need recompressing. The
 			<b>IImageRecompress</b> interface is implemented in the
-			<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a> object.
+			<a href="/windows/desktop/shell/known-folders">ImageRecompress</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a>
-
+<a href="/windows/desktop/shell/known-folders">ImageRecompress</a>

@@ -53,23 +53,22 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string lengths supported by members of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
+The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string lengths supported by members of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 ## -enum-fields
 
 ### -field MBN_ACCESSSTRING_LEN
 
-Maximum string length of the <b>accessString</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>accessString</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 ### -field MBN_USERNAME_LEN
 
-Maximum string length of the <b>userName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>userName</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 ### -field MBN_PASSWORD_LEN
 
-Maximum string length of the <b>password</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>password</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 ### -field MBN_CONTEXT_ID_APPEND
 
  The device will find the appropriate index to store a context into.
-

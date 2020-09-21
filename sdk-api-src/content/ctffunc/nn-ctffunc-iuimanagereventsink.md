@@ -52,12 +52,12 @@ api_name:
 
 The <b>IUIManagerEventSink</b> interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance. This enables the app to rearrange its UI layout to avoid having the app's UI elements overlapped by the IME UI.
 
-Call the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with <b>IID_IUIManagerEventSink</b> to install this sink.
+Call the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with <b>IID_IUIManagerEventSink</b> to install this sink.
 <div class="alert"><b>Note</b>  This interface may not be supported for all IMEs. There may be differences in support between IME on the Desktop and IME in the new Windows UI on Windows 8.1.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIManagerEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIManagerEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIManagerEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIManagerEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IUIManagerEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosed">OnWindowClosed</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosed">OnWindowClosed</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF after closing the IME
@@ -82,7 +82,7 @@ UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosing">OnWindowClosing</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosing">OnWindowClosing</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF before closing the IME
@@ -92,7 +92,7 @@ UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopened">OnWindowOpened</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopened">OnWindowOpened</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF after opening an IME
@@ -102,7 +102,7 @@ UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopening">OnWindowOpening</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopening">OnWindowOpening</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF before opening an IME
@@ -112,7 +112,7 @@ UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdated">OnWindowUpdated</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdated">OnWindowUpdated</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF after resizing and/or relocating the opened IME
@@ -122,7 +122,7 @@ UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdating">OnWindowUpdating</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdating">OnWindowUpdating</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF before resizing and/or relocating the opened IME
@@ -131,4 +131,3 @@ UI.
 </td>
 </tr>
 </table>
-

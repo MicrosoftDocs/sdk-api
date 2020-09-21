@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that will be returned from GDI in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>.
+The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that will be returned from GDI in subsequent calls to <a href="/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>.
 
 ## -parameters
 
 ### -param pstro
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure whose data form is to be defined.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure whose data form is to be defined.
 
 ## -returns
 
@@ -64,19 +64,18 @@ None
 
 ## -remarks
 
-This function also restarts the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array.
+This function also restarts the enumeration of the <a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array.
 
 This function should be called by the driver prior to calling <b>STROBJ_bEnum</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>

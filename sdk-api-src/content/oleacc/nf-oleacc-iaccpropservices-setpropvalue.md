@@ -55,11 +55,11 @@ Use <b>SetPropValue</b> to identify the accessible element to be annotated, spec
 If server developers know the <b>HWND</b> of the accessible element they want to annotate, they can use one of the following methods:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">IAccPropServices::SetHwndPropStr</a>,</li>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">IAccPropServices::SetHwndPropStr</a>,</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">IAccPropServices::SetHwndProp</a>, or</li>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">IAccPropServices::SetHwndProp</a>, or</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">IAccPropServices::SetHwndPropServer</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">IAccPropServices::SetHwndPropServer</a>
 </li>
 </ul>
 
@@ -67,13 +67,13 @@ If server developers know the <b>HWND</b> of the accessible element they want to
 
 ### -param pIDString [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 Identifies the accessible element that is to be annotated.
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of the string identified by the <i>pIDString</i> parameter.
 
@@ -91,7 +91,7 @@ Specifies a new value for the property.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -102,4 +102,3 @@ May return other error codes under exceptional error conditions such as low memo
 ## -remarks
 
 See the support section for a list of supported properties and their expected types. Note that currently some properties are supported only when a callback is used and cannot be specified directly using this method.
-

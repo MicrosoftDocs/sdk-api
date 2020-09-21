@@ -56,19 +56,19 @@ Retrieves the index of the item at the specified point in a list box.
 
 ### -param hLB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list box to check.
 
 ### -param pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates to check.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates to check.
 
 ### -param bAutoScroll
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A scroll flag. If this parameter is <b>TRUE</b> and the point is directly above or below the list box, the function scrolls the list box by one line and returns -1. Otherwise, the function does not scroll the list box.
 
@@ -80,8 +80,7 @@ Returns the item identifier if the point is over a list item, or -1 otherwise.
 
 ## -remarks
 
-The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="https://docs.microsoft.com/windows/desktop/Controls/dl-dragging">DL_DRAGGING</a> notification codes or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages are processed. 
+The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="/windows/desktop/Controls/dl-dragging">DL_DRAGGING</a> notification codes or <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages are processed. 
 
 If the specified point is outside the client area of the list box and 
 				<i>bAutoScroll</i> is <b>TRUE</b>, the function scrolls the list box instead of returning an item identifier.
-

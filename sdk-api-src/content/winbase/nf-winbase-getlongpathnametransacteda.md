@@ -60,15 +60,15 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Converts the specified path to its long form as a transacted operation.
 
 To perform this operation without a transaction, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getlongpathnamea">GetLongPathName</a> function.
 
 For more information about file and path names, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ The path to be converted.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> (260) 
        characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and 
        prepend "\\?\" to the path. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+      <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 The path must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
@@ -98,7 +98,7 @@ The size of the buffer <i>lpszLongPath</i> points to, in
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
+      <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
 
@@ -111,7 +111,7 @@ If the <i>lpBuffer</i> buffer is too small to contain the path, the return value
 
 If the function fails for any other reason, such as if the file does not exist, the return value is zero. To 
        get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -125,7 +125,7 @@ If a long path is not found, this function returns the name specified in the
 
 If the return value is greater than the value specified in <i>cchBuffer</i>, you can call 
     the function again with a buffer that is large enough to hold the path. For an example of this case, see the 
-    Example Code section for <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>.
+    Example Code section for <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>.
 
 <div class="alert"><b>Note</b>  Although the return value in this case is a length that includes the terminating null character, the return 
      value on success does not include the terminating null character in the count.</div>
@@ -136,8 +136,8 @@ It is possible to have access to a file or directory but not have access to some
     unable to query the parent directory of a path component to determine the long name for that component. This check 
     can be skipped for directory components that have file extensions longer than 3 characters, or total lengths 
     longer than 12 characters. For more information, see the 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Short vs. Long Names</a> section of 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/FileIO/naming-a-file">Short vs. Long Names</a> section of 
+    <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -210,21 +210,20 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfullpathnametransacteda">GetFullPathNameTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getfullpathnametransacteda">GetFullPathNameTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
+<a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

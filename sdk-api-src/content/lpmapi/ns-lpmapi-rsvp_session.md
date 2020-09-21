@@ -57,21 +57,20 @@ The
 
 ### -field sess_header
 
-RSVP Object Header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
+RSVP Object Header, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field sess_u
 
 #### sess_ipv4
 
-Session information, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a> structure.
+Session information, in the form of a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a> structure.
 
 ### -field sess_ipv4
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>

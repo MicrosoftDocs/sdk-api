@@ -60,7 +60,7 @@ The class identifier (CLSID) of the MFT.
 
 ### -param guidCategory [in]
 
-A GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
+A GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 ### -param pszName [in]
 
@@ -94,17 +94,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The primary purpose of this function is to make an MFT available for automatic topology resolution without making the MFT available to other processes or applications.
 
-After you call this function, the MFT can be enumerated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function with the <b>MFT_ENUM_FLAG_LOCALMFT</b> flag. The MFT can be enumerated from within the same process, but is not visible to other processes.
+After you call this function, the MFT can be enumerated by calling the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function with the <b>MFT_ENUM_FLAG_LOCALMFT</b> flag. The MFT can be enumerated from within the same process, but is not visible to other processes.
 
-To unregister the MFT from the current process, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftunregisterlocalbyclsid">MFTUnregisterLocalByCLSID</a>.
+To unregister the MFT from the current process, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mftunregisterlocalbyclsid">MFTUnregisterLocalByCLSID</a>.
 
-If you need to register an MFT in the Protected Media Path (PMP) process, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imflocalmftregistration">IMFLocalMFTRegistration</a> interface.
+If you need to register an MFT in the Protected Media Path (PMP) process, use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imflocalmftregistration">IMFLocalMFTRegistration</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
