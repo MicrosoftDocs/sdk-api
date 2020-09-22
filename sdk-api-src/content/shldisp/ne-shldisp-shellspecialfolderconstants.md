@@ -204,14 +204,16 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfPROGRAMFILESx86
 
-0x30 (48). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 6.0</a>. Program Files folder. A typical path is C:\Program Files, or C:\Program Files (X86) on a 64-bit computer.
+Do not use this field. Use the value 0x2a (42) in your code instead to specify the Program Files (x86) folder. A typical path is C:\Program Files, or C:\Program Files (x86) on a 64-bit computer. 
+
+**Note:**  In the shldisp.h header, the **ssfPROGRAMFILESx86** field is erroneously assigned to the value 0x30 (48). This value specifies the folder for the Administrative Tools folder instead of the Program Files folder.
 
 ## -remarks
 
 The values in this enumeration are equivalent to their corresponding <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values, used in C++ applications. They supersede the use of environment variables for this purpose. Note that not all <b>CSIDL</b> or <b>KNOWNFOLDERID</b> values have an equivalent value in <b>ShellSpecialFolderConstants</b>.
 
-<div class="alert"><b>Note</b>   Where a constant identifies a file system folder, a commonly used path on Windows Vista systems is given as an example. However, there is no guarantee that this path will be used on any particular system, including Windows Vista systems.</div>
-<div> </div>
+> [!NOTE]
+> Where a constant identifies a file system folder, a commonly used path is given as an example. However, there is no guarantee that this path will be used on any particular system.
 
 ## -see-also
 
