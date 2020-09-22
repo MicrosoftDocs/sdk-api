@@ -47,9 +47,6 @@ api_name:
  - HTTP_RESPONSE_INFO_TYPE
 ---
 
-# HTTP_RESPONSE_INFO_TYPE enumeration
-
-
 ## -description
 
 The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
@@ -70,13 +67,11 @@ Reserved for future use.
 
 ### -field HttpResponseInfoTypeQoSProperty
 
+Pointer to an <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
+
 ### -field HttpResponseInfoTypeChannelBind
 
 Pointer to an <a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
-
-### -field HttpResponseInfoTypeQosProperty
-
-Pointer to an <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 
 ## -see-also
 

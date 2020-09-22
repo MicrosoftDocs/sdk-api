@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(constCachedBitmap&)
 title: CachedBitmap::CachedBitmap(const CachedBitmap &) (gdiplusheaders.h)
-description: Creates a CachedBitmap::CachedBitmap object based on a Bitmap object and a Graphics object.
+description: Copy constructor for **CachedBitmap**.
 helpviewer_keywords: ["CachedBitmap","CachedBitmap class [GDI+]","CachedBitmap constructor","CachedBitmap constructor [GDI+]","CachedBitmap constructor [GDI+]","CachedBitmap class","CachedBitmap.CachedBitmap","CachedBitmap.CachedBitmap(const CachedBitmap &)","CachedBitmap::CachedBitmap","CachedBitmap::CachedBitmap(const CachedBitmap &)","_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_","gdiplus._gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_"]
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_.htm
 tech.root: gdiplus
@@ -48,25 +48,15 @@ api_name:
 
 # CachedBitmap::CachedBitmap(const CachedBitmap &)
 
-
 ## -description
 
-Creates a <b>CachedBitmap::CachedBitmap</b> object based on a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object and a <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The cached bitmap takes the pixel data from the <b>Bitmap</b> object and stores it in a format that is optimized for the display device associated with the <b>Graphics</b> object.
+Copy constructor for **CachedBitmap**.
 
 ## -parameters
 
-#### - bitmap [in]
+### -param arg1
 
-Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>*</b>
-
-Pointer to a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object that contains the pixel data to be optimized. 
-
-
-#### - graphics [in]
-
-Type: <b><a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
-
-Pointer to a <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that is associated with a display device for which the image will be optimized.
+The object to copy into this object.
 
 ## -remarks
 
@@ -74,7 +64,7 @@ You can display a cached bitmap by passing the address of a <b>CachedBitmap::Cac
 				<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcachedbitmap">DrawCachedBitmap</a> method of a <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. Use the <b>Graphics</b> object that was passed to the <b>CachedBitmap::CachedBitmap</b> constructor or another <b>Graphics</b> object that represents the same device.
 
 
-#### Examples
+## Examples
 
 
 

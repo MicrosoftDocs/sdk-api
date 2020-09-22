@@ -45,9 +45,6 @@ api_name:
  - IGPMStarterGPOBackup.GenerateReportToFile
 ---
 
-# IGPMStarterGPOBackup::GenerateReportToFile
-
-
 ## -description
 
 The <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereporttofile">GenerateReportToFile</a> gets the report for the backup Starter GPO and saves it to a file at a specified path.
@@ -68,10 +65,6 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-i
 
 <div class="alert"><b>Note</b>  The value of the <b>Result</b> property is indeterminate and should not be relied upon.</div>
 <div> </div>
-
-#### - TargetFile [in]
-
-Binary string that contains the path to the file where the report is being saved.
 
 ## -returns
 

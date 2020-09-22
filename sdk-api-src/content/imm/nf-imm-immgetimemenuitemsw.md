@@ -47,20 +47,17 @@ api_name:
  - ImmGetImeMenuItemsW
 ---
 
-# ImmGetImeMenuItemsW function
-
-
 ## -description
 
 Retrieves the menu items that are registered in the IME menu of a specified input context.
 
 ## -parameters
 
-### -param HIMC [in]
+### -param Arg1 [in]
 
 Handle to the input context for the specified menu items.
 
-### -param DWORD [in]
+### -param Arg2 [in]
 
 Flag specifying menu information options. The following value is defined.
 
@@ -81,20 +78,7 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 </tr>
 </table>
 
-### -param lpImeParentMenu [out, optional]
-
-Pointer to an <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
-
-### -param lpImeMenu [out, optional]
-
-Pointer to an array of <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
-
-### -param dwSize [in]
-
-Size of the buffer to receive the <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure.
-
-
-#### - dwType [in]
+### -param Arg3 [in]
 
 Type of menu to retrieve. This parameter can have one or more of the following values.
 
@@ -174,6 +158,18 @@ Retrieve the menu items that control menu items related to IME input tools provi
 </td>
 </tr>
 </table>
+
+### -param lpImeParentMenu [out, optional]
+
+Pointer to an <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
+
+### -param lpImeMenu [out, optional]
+
+Pointer to an array of <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
+
+### -param dwSize [in]
+
+Size of the buffer to receive the <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure.
 
 ## -returns
 

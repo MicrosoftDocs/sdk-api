@@ -45,40 +45,29 @@ api_name:
  - IPSEC_KEY_MANAGER_DICTATE_KEY0
 ---
 
-# IPSEC_KEY_MANAGER_DICTATE_KEY0 callback function
-
-
 ## -description
 
 The <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> function is used by the Trusted Intermediary Agent (TIA) to dictate keys for the SA being negotiated.
 
 ## -parameters
 
-### -param *inboundSaDetails
-
-### -param *outboundSaDetails
-
-### -param *keyingModuleGenKey
-
-#### - generateRandomKey [out]
-
-Type: <b>BOOL*</b>
-
-True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
-
-
-#### - inboundSa [in, out]
+### -param inboundSaDetails
 
 Type: [IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
 
 Information about the inbound SA.
 
-
-#### - outboundSa [in, out]
+### -param outboundSaDetails
 
 Type: [IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
 
 Information about the outbound SA.
+
+### -param keyingModuleGenKey
+
+Type: <b>BOOL*</b>
+
+True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
 
 ## -returns
 
@@ -145,4 +134,4 @@ Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0
 
 
 
-<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
+<a href="/windows/desktop/FWP/fwp-functions">WFP functions</a>

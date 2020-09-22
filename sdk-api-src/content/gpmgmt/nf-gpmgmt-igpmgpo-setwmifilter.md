@@ -46,9 +46,6 @@ api_name:
  - GPMGPO.SetWMIFilter
 ---
 
-# IGPMGPO::SetWMIFilter
-
-
 ## -description
 
 Links the 
@@ -59,11 +56,6 @@ Links the
 ### -param pIGPMWMIFilter [in]
 
 Pointer to the WMI filter to associate with the current GPO. Passing <b>NULL</b> in this parameter unlinks any existing WMI filters.
-
-
-#### - objGPMWMIFilter [in]
-
-<b>GPMWMIFilter</b> object to associate with the current GPO. Passing <b>NULL</b> in this parameter unlinks any existing WMI filters.
 
 ## -returns
 

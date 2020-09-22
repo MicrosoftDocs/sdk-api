@@ -46,9 +46,6 @@ api_name:
  - Metafile.ConvertToEmfPlus
 ---
 
-# Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR)
-
-
 ## -description
 
 The <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inconstwchar_inoutint_inemftype_inconstwchar)">Metafile::ConvertToEmfPlus</a> method converts this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object to the EMF+ format.
@@ -82,13 +79,6 @@ Optional. Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusen
 Type: <b>const WCHAR*</b>
 
 Optional. Pointer to a null-terminated wide-character string that is stored in the header of the converted metafile. The default value is <b>NULL</b>.
-
-
-#### - conversionSuccess [out]
-
-Type: <b>BOOL*</b>
-
-Optional. Pointer to a <b>BOOL</b> that receives <b>TRUE</b> if all the metafile records were converted successfully; <b>FALSE</b> otherwise. Pass <b>NULL</b> if you do not want to receive this information. The default value is <b>NULL</b>.
 
 ## -returns
 

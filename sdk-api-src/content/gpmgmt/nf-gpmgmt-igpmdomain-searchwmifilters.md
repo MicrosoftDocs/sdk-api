@@ -46,9 +46,6 @@ api_name:
  - GPMDomain.SearchWMIFilters
 ---
 
-# IGPMDomain::SearchWMIFilters
-
-
 ## -description
 
 Executes a search for 
@@ -59,18 +56,12 @@ Executes a search for
 
 ### -param pIGPMSearchCriteria [in]
 
-This parameter should be <b>NULL</b>, or it should point to an empty <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>  interface because no search criteria are allowed for WMI filters.
+This parameter should be <b>NULL</b>, or it should point to an empty <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a> interface, because no search criteria are allowed for Windows Management Instrumentation (WMI) filters.
 
 ### -param ppIGPMWMIFilterCollection [out]
 
 Address of a pointer to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMWMIFilterCollection</a> interface that represents the WMI filters found by the search.
-
-
-#### - objGPMSearchCriteria [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search. The <b>GPMSearchCriteria</b> object should be empty because no search criteria are allowed for Windows Management Instrumentation (WMI) filters.
 
 ## -returns
 

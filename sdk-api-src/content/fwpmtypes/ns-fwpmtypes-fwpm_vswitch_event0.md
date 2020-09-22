@@ -47,9 +47,6 @@ api_name:
  - FWPM_VSWITCH_EVENT0
 ---
 
-# FWPM_VSWITCH_EVENT0 structure
-
-
 ## -description
 
 The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch event.
@@ -60,96 +57,61 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
 
 Type: [FWPM_VSWITCH_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)</b>
 
- The type of vSwitch event.
+The type of vSwitch event.
 
 ### -field vSwitchId
 
 Type: <b>wchar_t*</b>
 
- GUID which identifies a vSwitch.
+GUID that identifies a vSwitch.
 
 ### -field positionInfo
 
+Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ADD_TO_FILTER_ENGINE_NOT_IN_REQUIRED_POSITION</b>.
+
 ### -field positionInfo.numvSwitchFilterExtensions
+
+<b>Type: <b>ULONG</b>
+
+The number of vSwitch filter extensions.
 
 ### -field positionInfo.vSwitchFilterExtensions
 
-### -field reorderInfo
-
-### -field reorderInfo.inRequiredPosition
-
-### -field reorderInfo.numvSwitchFilterExtensions
-
-### -field reorderInfo.vSwitchFilterExtensions
-
- 
-
-
-
-
-#### - ( unnamed union )
-
-switch_is(eventType), switch_type(FWPM_VSWITCH_EVENT_TYPE)
-
-
-
-#### positionInfo
-
- Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ADD_TO_FILTER_ENGINE_NOT_IN_REQUIRED_POSITION</b>.
-
-
-
-##### numvSwitchFilterExtensions
-
-<b>Type: <b>ULONG</b>
-</b>
-The number of vSwitch filter extensions.
-
-
-
-##### vSwitchFilterExtensions
-
 <b>Type: <b>LPWSTR*</b>
-</b>
+
 size_is(numvSwitchFilterExtensions)
 
 Array of strings identifying other vSwitch extensions.
 
+### -field reorderInfo
 
+Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER</b>.
 
-#### reorderInfo
-
- Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER</b>.
-
-
-
-##### inRequiredPosition
+### -field reorderInfo.inRequiredPosition
 
 <b>Type: <b>BOOL</b>
-</b>
+
 True if the filter engine is in the required position to correctly enforce committed filters; otherwise, false.
 
-
-
-##### numvSwitchFilterExtensions
+### -field reorderInfo.numvSwitchFilterExtensions
 
 <b>Type: <b>ULONG</b>
-</b>
+
 The number of vSwitch filter extensions.
 
-
-
-##### vSwitchFilterExtensions
+### -field reorderInfo.vSwitchFilterExtensions
 
 <b>Type: <b>LPWSTR*</b>
-</b>
+
 size_is(numvSwitchFilterExtensions)
 
 Array of strings identifying other vSwitch extensions.
 
 ## -remarks
 
-<b>FWPM_VSWITCH_EVENT0</b> is a specific implementation of FWPM_VSWITCH_EVENT. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+For the unnamed union, switch_is(eventType), switch_type(FWPM_VSWITCH_EVENT_TYPE).
+
+<b>FWPM_VSWITCH_EVENT0</b> is a specific implementation of FWPM_VSWITCH_EVENT. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.
 
 ## -see-also
 

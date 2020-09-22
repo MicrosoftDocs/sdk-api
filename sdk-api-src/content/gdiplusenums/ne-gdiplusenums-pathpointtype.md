@@ -46,9 +46,6 @@ api_name:
  - PathPointType
 ---
 
-# PathPointType enumeration
-
-
 ## -description
 
 The <b>PathPointType</b> enumeration indicates point types and flags for the data points in a path. Bits 0 through 2 indicate the type of a point, and bits 3 through 7 hold a set of flags that specify attributes of a point. This enumeration is used by the <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>, <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>, and <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a> classes.
@@ -73,6 +70,8 @@ Masks all bits except for the three low-order bits, which indicate the point typ
 
 ### -field PathPointTypeDashMode
 
+Not used.
+
 ### -field PathPointTypePathMarker
 
 Specifies that the point is a marker.
@@ -84,11 +83,6 @@ Specifies that the point is the last point in a closed subpath (figure).
 ### -field PathPointTypeBezier3
 
 Indicates that the point is an endpoint or control point of a cubic Bézier spline. 
-
-
-#### - PathPointTypePathDashMode
-
-Not used.
 
 ## -remarks
 

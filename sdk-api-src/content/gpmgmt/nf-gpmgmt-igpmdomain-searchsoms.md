@@ -46,9 +46,6 @@ api_name:
  - GPMDomain.SearchSOMs
 ---
 
-# IGPMDomain::SearchSOMs
-
-
 ## -description
 
 Executes a search for 
@@ -59,25 +56,12 @@ Executes a search for
 
 ### -param pIGPMSearchCriteria [in]
 
-Criteria to apply to the search. The valid criteria for the search include the following values.
-
-
-
-#### somLinks
-
-Pointer to an <b>IDispatch</b> or <b>IUnknown</b> interface to query the 
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.   The valid criteria include the <b>opContains</b> search operator.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 ### -param ppIGPMSOMCollection [out]
 
 Address of a pointer to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a> interface that represents the scopes of management (SOMs) found by the search.
-
-
-#### - objGPMSearchCriteria
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 ## -returns
 

@@ -46,9 +46,6 @@ api_name:
  - GPMDomain.RestoreGPO
 ---
 
-# IGPMDomain::RestoreGPO
-
-
 ## -description
 
 Restores a Group Policy object (GPO) from a 
@@ -80,12 +77,6 @@ Address of a pointer to the
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface that represents the result of the restore operation. That interface contains pointers to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface and an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a> interface.
-
-
-#### - objGPMBackup [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object that corresponds to the GPO to restore.
 
 ## -returns
 

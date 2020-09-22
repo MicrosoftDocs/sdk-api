@@ -46,9 +46,6 @@ api_name:
  - AdjustableArrowCap.AdjustableArrowCap
 ---
 
-# AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL)
-
-
 ## -description
 
 Creates an adjustable arrow line cap with the specified height and width. The arrow line cap can be filled or nonfilled. The middle inset defaults to zero.

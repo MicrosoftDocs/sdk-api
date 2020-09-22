@@ -46,9 +46,6 @@ api_name:
  - CustomLineCap.CustomLineCap
 ---
 
-# CustomLineCap::CustomLineCap(GpCustomLineCap,Status)
-
-
 ## -description
 
 Creates a <b>CustomLineCap::CustomLineCap</b> object.
@@ -57,42 +54,14 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 
 ### -param nativeCap
 
-TBD
-
-### -param status
-
-TBD
-
-
-
-
-#### - baseCap [in]
-
 Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
 Optional. Element of the 
 					<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
 
+### -param status
 
-#### - baseInset [in]
-
-Type: <b>REAL</b>
-
-Optional. The default value is 0. 
-
-
-#### - fillPath [in]
-
-Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a path. 
-
-
-#### - strokePath [in]
-
-Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a path.
+TBD
 
 ## -remarks
 

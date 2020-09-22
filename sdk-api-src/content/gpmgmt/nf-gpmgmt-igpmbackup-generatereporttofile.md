@@ -45,9 +45,6 @@ api_name:
  - IGPMBackup.GenerateReportToFile
 ---
 
-# IGPMBackup::GenerateReportToFile
-
-
 ## -description
 
 The <b>GenerateReportToFile</b> method gets the report for the backup Group Policy object (GPO) and then saves the report to a file in a specified path.
@@ -68,10 +65,6 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-i
 
 <div class="alert"><b>Note</b>  The value of the <b>Result</b> property is indeterminate and should not be relied upon.</div>
 <div> </div>
-
-#### - TargetFile [in]
-
-Binary string that contains the path of the file in which the report is being saved.
 
 ## -returns
 

@@ -46,9 +46,6 @@ api_name:
  - GraphicsPathIterator.GraphicsPathIterator
 ---
 
-# GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath)
-
-
 ## -description
 
 Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.

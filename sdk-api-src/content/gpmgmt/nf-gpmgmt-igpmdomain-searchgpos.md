@@ -46,9 +46,6 @@ api_name:
  - GPMDomain.SearchGPOs
 ---
 
-# IGPMDomain::SearchGPOs
-
-
 ## -description
 
 Executes a search for 
@@ -59,64 +56,13 @@ Executes a search for
 
 ### -param pIGPMSearchCriteria [in]
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 Pointer to the criteria to apply to the search.
-
-
-
-#### gpoDisplayName
-
-Pointer to a  friendly Group Policy object (GPO) display name search. The search property value is the friendly GPO display name. Valid criteria include the <b>opEquals</b>, 
-<b>opContains</b>, and <b>opNotContains</b> search operators.
-
-
-
-#### gpoPermissions
-
-Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface. For script programmers, this is a reference to a <b>GPMPermission</b> object. Valid criteria include the <b>opContains</b> and <b>opNotContains</b> search operators.
-
-
-
-#### gpoEffectivePermissions
-
-Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a> interface. Valid criteria includes opContains or opNotContains search operator.
-
-
-
-#### gpoWMIFilter
-
-Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface. Valid criteria includes opEquals or opNotEquals search operator.
-
-
-
-#### gpoID
-
-Pointer to a string containing a GUID that represents the group policy object's ID. Valid criteria includes opEquals or opNotEquals search operator.
-
-
-
-#### gpoComputerExtensions
-
-Pointer to a string containing a GUID that represents the client-side extension's ID. Valid criteria includes opContains or opNotContains search operator.
-
-
-
-#### gpoUserExtensions
-
-Pointer to a string containing a GUID that represents the user extension's ID.
- Valid criteria includes opContains or opNotContains search operator.
 
 ### -param ppIGPMGPOCollection [out]
 
 Address of a pointer to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a> interface representing the GPOs found by the search.
-
-
-#### - objGPMSearchCriteria
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 ## -returns
 

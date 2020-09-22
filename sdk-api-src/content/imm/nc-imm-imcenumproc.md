@@ -45,9 +45,6 @@ api_name:
  - EnumInputContext
 ---
 
-# IMCENUMPROC callback function
-
-
 ## -description
 
 An application-defined callback function that processes input contexts provided by the <a href="/windows/desktop/api/imm/nf-imm-immenuminputcontext">ImmEnumInputContext</a> function. The IMCENUMPROC type defines a pointer to this callback function. <b>EnumInputContext</b> is a placeholder for the application-defined function name.
@@ -56,14 +53,9 @@ An application-defined callback function that processes input contexts provided 
 
 ### -param Arg1
 
-### -param Arg2
-
-#### - hIMC [in]
-
 Handle to the input context.
 
-
-#### - lParam [in]
+### -param Arg2
 
 Application-supplied data.
 

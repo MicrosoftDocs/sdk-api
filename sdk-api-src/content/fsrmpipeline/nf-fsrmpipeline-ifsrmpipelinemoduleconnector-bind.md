@@ -46,9 +46,6 @@ api_name:
  - FsrmPipelineModuleConnector.Bind
 ---
 
-# IFsrmPipelineModuleConnector::Bind
-
-
 ## -description
 
 Binds the pipeline module implementation to the FSRM communication channel.
@@ -62,11 +59,6 @@ An <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-
 ### -param moduleImplementation [in]
 
 An <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a> interface to the module's implementation.
-
-
-#### - rules [in]
-
-An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a> interface that contains a collection of rules.
 
 ## -returns
 

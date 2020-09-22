@@ -45,9 +45,6 @@ api_name:
  - IGPMRSOP.GenerateReportToFile
 ---
 
-# IGPMRSOP::GenerateReportToFile
-
-
 ## -description
 
 The <b>GenerateReportToFile</b> method generates a report on the RSoP data and saves it to a file at a specified path.
@@ -70,13 +67,6 @@ Binary string that contains the path to the file where the report is being saved
 Pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface. The <b>Status</b> property contains a reference to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>.
 
 <div class="alert"><b>Note</b>  The value of the <b>Result</b> property of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface is indeterminate and should not be relied upon.</div>
-<div> </div>
-
-#### - TargetFile [in]
-
-Binary string that contains the path to the file where the report is being saved.
-
-<div class="alert"><b>Note</b>  If the path to the file is not specified, then the report will be created in the "%windir%\system32\" directory.</div>
 <div> </div>
 
 ## -returns

@@ -46,9 +46,6 @@ api_name:
  - GPMBackupDir.GetBackup
 ---
 
-# IGPMBackupDir::GetBackup
-
-
 ## -description
 
 Retrieves the <b>GPMBackup</b> object that has the specified backup ID (GUID). The backup ID is the ID of the backed-up GPO, not the ID of the GPO.

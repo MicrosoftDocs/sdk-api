@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(constCustomLineCap&)
 title: CustomLineCap::CustomLineCap(const CustomLineCap &) (gdiplusheaders.h)
-description: Creates a CustomLineCap::CustomLineCap object.
+description: Copy constructor for **CustomLineCap**.
 helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap constructor","CustomLineCap constructor [GDI+]","CustomLineCap constructor [GDI+]","CustomLineCap class","CustomLineCap.CustomLineCap","CustomLineCap.CustomLineCap(const CustomLineCap &)","CustomLineCap::CustomLineCap","CustomLineCap::CustomLineCap(const CustomLineCap &)","_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_","gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_.htm
 tech.root: gdiplus
@@ -46,42 +46,15 @@ api_name:
  - CustomLineCap.CustomLineCap
 ---
 
-# CustomLineCap::CustomLineCap(const CustomLineCap &)
-
-
 ## -description
 
-Creates a <b>CustomLineCap::CustomLineCap</b> object.
+Copy constructor for **CustomLineCap**.
 
 ## -parameters
 
-#### - baseCap [in]
+### -param arg1
 
-Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
-
-Optional. Element of the 
-					<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
-
-
-#### - baseInset [in]
-
-Type: <b>REAL</b>
-
-Optional. The default value is 0. 
-
-
-#### - fillPath [in]
-
-Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a path. 
-
-
-#### - strokePath [in]
-
-Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a path.
+The object to copy into this object.
 
 ## -remarks
 

@@ -49,9 +49,6 @@ api_name:
  - HTTP_PROPERTY_FLAGS
 ---
 
-# HTTP_PROPERTY_FLAGS structure
-
-
 ## -description
 
 The <b>HTTP_PROPERTY_FLAGS</b> structure is used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.
@@ -61,8 +58,6 @@ When the configuration structure is used to query property configurations, this 
 ## -struct-fields
 
 ### -field Present
-
-### -field Present:1
 
 The <b>Present</b> flag enables or disables a property, or determines whether the property is present on the configuration object.
 

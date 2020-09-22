@@ -45,25 +45,15 @@ api_name:
  - IADsUser.SetPassword
 ---
 
-# IADsUser::SetPassword
-
-
 ## -description
 
-   The <b>IADsUser::SetPassword</b> method sets the user password to a specified value. For the LDAP provider, the user account must have been created and stored in the underlying directory using  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> before <b>IADsUser::SetPassword</b> is called.
+The <b>IADsUser::SetPassword</b> method sets the user password to a specified value. For the LDAP provider, the user account must have been created and stored in the underlying directory using  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> before <b>IADsUser::SetPassword</b> is called.
 
 The WinNT provider, however, enables you to set the password on a newly created user object prior to calling <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>. This ensures that you create  passwords that comply with the system password policy before you create the user account.
 
 ## -parameters
 
 ### -param NewPassword
-
-TBD
-
-
-
-
-#### - bstrNewPassword [in]
 
 A <b>BSTR</b> that contains the new password.
 

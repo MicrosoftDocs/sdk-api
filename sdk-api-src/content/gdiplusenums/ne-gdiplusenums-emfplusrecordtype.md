@@ -46,9 +46,6 @@ api_name:
  - EmfPlusRecordType
 ---
 
-# EmfPlusRecordType enumeration
-
-
 ## -description
 
 The <b>EmfPlusRecordType</b> enumeration identifies metafile record types used in Windows Metafile Format (WMF), Enhanced Metafile (EMF), and EMF+ files. The elements of the <b>EmfPlusRecordType</b> enumeration come in three groups.
@@ -67,412 +64,616 @@ Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of th
 ## -enum-fields
 
 ### -field WmfRecordTypeSetBkColor
+TBD
 
 ### -field WmfRecordTypeSetBkMode
+TBD
 
 ### -field WmfRecordTypeSetMapMode
+TBD
 
 ### -field WmfRecordTypeSetROP2
+TBD
 
 ### -field WmfRecordTypeSetRelAbs
+TBD
 
 ### -field WmfRecordTypeSetPolyFillMode
+TBD
 
 ### -field WmfRecordTypeSetStretchBltMode
+TBD
 
 ### -field WmfRecordTypeSetTextCharExtra
+TBD
 
 ### -field WmfRecordTypeSetTextColor
+TBD
 
 ### -field WmfRecordTypeSetTextJustification
+TBD
 
 ### -field WmfRecordTypeSetWindowOrg
+TBD
 
 ### -field WmfRecordTypeSetWindowExt
+TBD
 
 ### -field WmfRecordTypeSetViewportOrg
+TBD
 
 ### -field WmfRecordTypeSetViewportExt
+TBD
 
 ### -field WmfRecordTypeOffsetWindowOrg
+TBD
 
 ### -field WmfRecordTypeScaleWindowExt
+TBD
 
 ### -field WmfRecordTypeOffsetViewportOrg
+TBD
 
 ### -field WmfRecordTypeScaleViewportExt
+TBD
 
 ### -field WmfRecordTypeLineTo
+TBD
 
 ### -field WmfRecordTypeMoveTo
+TBD
 
 ### -field WmfRecordTypeExcludeClipRect
+TBD
 
 ### -field WmfRecordTypeIntersectClipRect
+TBD
 
 ### -field WmfRecordTypeArc
+TBD
 
 ### -field WmfRecordTypeEllipse
+TBD
 
 ### -field WmfRecordTypeFloodFill
+TBD
 
 ### -field WmfRecordTypePie
+TBD
 
 ### -field WmfRecordTypeRectangle
+TBD
 
 ### -field WmfRecordTypeRoundRect
+TBD
 
 ### -field WmfRecordTypePatBlt
+TBD
 
 ### -field WmfRecordTypeSaveDC
+TBD
 
 ### -field WmfRecordTypeSetPixel
+TBD
 
 ### -field WmfRecordTypeOffsetClipRgn
+TBD
 
 ### -field WmfRecordTypeTextOut
+TBD
 
 ### -field WmfRecordTypeBitBlt
+TBD
 
 ### -field WmfRecordTypeStretchBlt
+TBD
 
 ### -field WmfRecordTypePolygon
+TBD
 
 ### -field WmfRecordTypePolyline
+TBD
 
 ### -field WmfRecordTypeEscape
+TBD
 
 ### -field WmfRecordTypeRestoreDC
+TBD
 
 ### -field WmfRecordTypeFillRegion
+TBD
 
 ### -field WmfRecordTypeFrameRegion
+TBD
 
 ### -field WmfRecordTypeInvertRegion
+TBD
 
 ### -field WmfRecordTypePaintRegion
+TBD
 
 ### -field WmfRecordTypeSelectClipRegion
+TBD
 
 ### -field WmfRecordTypeSelectObject
+TBD
 
 ### -field WmfRecordTypeSetTextAlign
+TBD
 
 ### -field WmfRecordTypeDrawText
+TBD
 
 ### -field WmfRecordTypeChord
+TBD
 
 ### -field WmfRecordTypeSetMapperFlags
+TBD
 
 ### -field WmfRecordTypeExtTextOut
+TBD
 
 ### -field WmfRecordTypeSetDIBToDev
+TBD
 
 ### -field WmfRecordTypeSelectPalette
+TBD
 
 ### -field WmfRecordTypeRealizePalette
+TBD
 
 ### -field WmfRecordTypeAnimatePalette
+TBD
 
 ### -field WmfRecordTypeSetPalEntries
+TBD
 
 ### -field WmfRecordTypePolyPolygon
+TBD
 
 ### -field WmfRecordTypeResizePalette
+TBD
 
 ### -field WmfRecordTypeDIBBitBlt
+TBD
 
 ### -field WmfRecordTypeDIBStretchBlt
+TBD
 
 ### -field WmfRecordTypeDIBCreatePatternBrush
+TBD
 
 ### -field WmfRecordTypeStretchDIB
+TBD
 
 ### -field WmfRecordTypeExtFloodFill
+TBD
 
 ### -field WmfRecordTypeSetLayout
+TBD
 
 ### -field WmfRecordTypeResetDC
+TBD
 
 ### -field WmfRecordTypeStartDoc
+TBD
 
 ### -field WmfRecordTypeStartPage
+TBD
 
 ### -field WmfRecordTypeEndPage
+TBD
 
 ### -field WmfRecordTypeAbortDoc
+TBD
 
 ### -field WmfRecordTypeEndDoc
+TBD
 
 ### -field WmfRecordTypeDeleteObject
+TBD
 
 ### -field WmfRecordTypeCreatePalette
+TBD
 
 ### -field WmfRecordTypeCreateBrush
+TBD
 
 ### -field WmfRecordTypeCreatePatternBrush
+TBD
 
 ### -field WmfRecordTypeCreatePenIndirect
+TBD
 
 ### -field WmfRecordTypeCreateFontIndirect
+TBD
 
 ### -field WmfRecordTypeCreateBrushIndirect
+TBD
 
 ### -field WmfRecordTypeCreateBitmapIndirect
+TBD
 
 ### -field WmfRecordTypeCreateBitmap
+TBD
 
 ### -field WmfRecordTypeCreateRegion
+TBD
 
 ### -field EmfRecordTypeHeader
+TBD
 
 ### -field EmfRecordTypePolyBezier
+TBD
 
 ### -field EmfRecordTypePolygon
+TBD
 
 ### -field EmfRecordTypePolyline
+TBD
 
 ### -field EmfRecordTypePolyBezierTo
+TBD
 
 ### -field EmfRecordTypePolyLineTo
+TBD
 
 ### -field EmfRecordTypePolyPolyline
+TBD
 
 ### -field EmfRecordTypePolyPolygon
+TBD
 
 ### -field EmfRecordTypeSetWindowExtEx
+TBD
 
 ### -field EmfRecordTypeSetWindowOrgEx
+TBD
 
 ### -field EmfRecordTypeSetViewportExtEx
+TBD
 
 ### -field EmfRecordTypeSetViewportOrgEx
+TBD
 
 ### -field EmfRecordTypeSetBrushOrgEx
+TBD
 
 ### -field EmfRecordTypeEOF
+TBD
 
 ### -field EmfRecordTypeSetPixelV
+TBD
 
 ### -field EmfRecordTypeSetMapperFlags
+TBD
 
 ### -field EmfRecordTypeSetMapMode
+TBD
 
 ### -field EmfRecordTypeSetBkMode
+TBD
 
 ### -field EmfRecordTypeSetPolyFillMode
+TBD
 
 ### -field EmfRecordTypeSetROP2
+TBD
 
 ### -field EmfRecordTypeSetStretchBltMode
+TBD
 
 ### -field EmfRecordTypeSetTextAlign
+TBD
 
 ### -field EmfRecordTypeSetColorAdjustment
+TBD
 
 ### -field EmfRecordTypeSetTextColor
+TBD
 
 ### -field EmfRecordTypeSetBkColor
+TBD
 
 ### -field EmfRecordTypeOffsetClipRgn
+TBD
 
 ### -field EmfRecordTypeMoveToEx
+TBD
 
 ### -field EmfRecordTypeSetMetaRgn
+TBD
 
 ### -field EmfRecordTypeExcludeClipRect
+TBD
 
 ### -field EmfRecordTypeIntersectClipRect
+TBD
 
 ### -field EmfRecordTypeScaleViewportExtEx
+TBD
 
 ### -field EmfRecordTypeScaleWindowExtEx
+TBD
 
 ### -field EmfRecordTypeSaveDC
+TBD
 
 ### -field EmfRecordTypeRestoreDC
+TBD
 
 ### -field EmfRecordTypeSetWorldTransform
+TBD
 
 ### -field EmfRecordTypeModifyWorldTransform
+TBD
 
 ### -field EmfRecordTypeSelectObject
+TBD
 
 ### -field EmfRecordTypeCreatePen
+TBD
 
 ### -field EmfRecordTypeCreateBrushIndirect
+TBD
 
 ### -field EmfRecordTypeDeleteObject
+TBD
 
 ### -field EmfRecordTypeAngleArc
+TBD
 
 ### -field EmfRecordTypeEllipse
+TBD
 
 ### -field EmfRecordTypeRectangle
+TBD
 
 ### -field EmfRecordTypeRoundRect
+TBD
 
 ### -field EmfRecordTypeArc
+TBD
 
 ### -field EmfRecordTypeChord
+TBD
 
 ### -field EmfRecordTypePie
+TBD
 
 ### -field EmfRecordTypeSelectPalette
+TBD
 
 ### -field EmfRecordTypeCreatePalette
+TBD
 
 ### -field EmfRecordTypeSetPaletteEntries
+TBD
 
 ### -field EmfRecordTypeResizePalette
+TBD
 
 ### -field EmfRecordTypeRealizePalette
+TBD
 
 ### -field EmfRecordTypeExtFloodFill
+TBD
 
 ### -field EmfRecordTypeLineTo
+TBD
 
 ### -field EmfRecordTypeArcTo
+TBD
 
 ### -field EmfRecordTypePolyDraw
+TBD
 
 ### -field EmfRecordTypeSetArcDirection
+TBD
 
 ### -field EmfRecordTypeSetMiterLimit
+TBD
 
 ### -field EmfRecordTypeBeginPath
+TBD
 
 ### -field EmfRecordTypeEndPath
+TBD
 
 ### -field EmfRecordTypeCloseFigure
+TBD
 
 ### -field EmfRecordTypeFillPath
+TBD
 
 ### -field EmfRecordTypeStrokeAndFillPath
+TBD
 
 ### -field EmfRecordTypeStrokePath
+TBD
 
 ### -field EmfRecordTypeFlattenPath
+TBD
 
 ### -field EmfRecordTypeWidenPath
+TBD
 
 ### -field EmfRecordTypeSelectClipPath
+TBD
 
 ### -field EmfRecordTypeAbortPath
+TBD
 
 ### -field EmfRecordTypeReserved_069
+TBD
 
 ### -field EmfRecordTypeGdiComment
+TBD
 
 ### -field EmfRecordTypeFillRgn
+TBD
 
 ### -field EmfRecordTypeFrameRgn
+TBD
 
 ### -field EmfRecordTypeInvertRgn
+TBD
 
 ### -field EmfRecordTypePaintRgn
+TBD
 
 ### -field EmfRecordTypeExtSelectClipRgn
+TBD
 
 ### -field EmfRecordTypeBitBlt
+TBD
 
 ### -field EmfRecordTypeStretchBlt
+TBD
 
 ### -field EmfRecordTypeMaskBlt
+TBD
 
 ### -field EmfRecordTypePlgBlt
+TBD
 
 ### -field EmfRecordTypeSetDIBitsToDevice
+TBD
 
 ### -field EmfRecordTypeStretchDIBits
+TBD
 
 ### -field EmfRecordTypeExtCreateFontIndirect
+TBD
 
 ### -field EmfRecordTypeExtTextOutA
+TBD
 
 ### -field EmfRecordTypeExtTextOutW
+TBD
 
 ### -field EmfRecordTypePolyBezier16
+TBD
 
 ### -field EmfRecordTypePolygon16
+TBD
 
 ### -field EmfRecordTypePolyline16
+TBD
 
 ### -field EmfRecordTypePolyBezierTo16
+TBD
 
 ### -field EmfRecordTypePolylineTo16
+TBD
 
 ### -field EmfRecordTypePolyPolyline16
+TBD
 
 ### -field EmfRecordTypePolyPolygon16
+TBD
 
 ### -field EmfRecordTypePolyDraw16
+TBD
 
 ### -field EmfRecordTypeCreateMonoBrush
+TBD
 
 ### -field EmfRecordTypeCreateDIBPatternBrushPt
+TBD
 
 ### -field EmfRecordTypeExtCreatePen
+TBD
 
 ### -field EmfRecordTypePolyTextOutA
+TBD
 
 ### -field EmfRecordTypePolyTextOutW
+TBD
 
 ### -field EmfRecordTypeSetICMMode
+TBD
 
 ### -field EmfRecordTypeCreateColorSpace
+TBD
 
 ### -field EmfRecordTypeSetColorSpace
+TBD
 
 ### -field EmfRecordTypeDeleteColorSpace
+TBD
 
 ### -field EmfRecordTypeGLSRecord
+TBD
 
 ### -field EmfRecordTypeGLSBoundedRecord
+TBD
 
 ### -field EmfRecordTypePixelFormat
+TBD
 
 ### -field EmfRecordTypeDrawEscape
+TBD
 
 ### -field EmfRecordTypeExtEscape
+TBD
 
 ### -field EmfRecordTypeStartDoc
+TBD
 
 ### -field EmfRecordTypeSmallTextOut
+TBD
 
 ### -field EmfRecordTypeForceUFIMapping
+TBD
 
 ### -field EmfRecordTypeNamedEscape
+TBD
 
 ### -field EmfRecordTypeColorCorrectPalette
+TBD
 
 ### -field EmfRecordTypeSetICMProfileA
+TBD
 
 ### -field EmfRecordTypeSetICMProfileW
+TBD
 
 ### -field EmfRecordTypeAlphaBlend
+TBD
 
 ### -field EmfRecordTypeSetLayout
+TBD
 
 ### -field EmfRecordTypeTransparentBlt
+TBD
 
 ### -field EmfRecordTypeReserved_117
+TBD
 
 ### -field EmfRecordTypeGradientFill
+TBD
 
 ### -field EmfRecordTypeSetLinkedUFIs
+TBD
 
 ### -field EmfRecordTypeSetTextJustification
+TBD
 
 ### -field EmfRecordTypeColorMatchToTargetW
+TBD
 
 ### -field EmfRecordTypeCreateColorSpaceW
+TBD
 
 ### -field EmfRecordTypeMax
+TBD
 
 ### -field EmfRecordTypeMin
+TBD
 
 ### -field EmfPlusRecordTypeInvalid
+TBD
 
 ### -field EmfPlusRecordTypeHeader
 
@@ -503,6 +704,7 @@ Identifies a section in a multiple-format block. Multiple-format records allow t
 Identifies the end of a multiple-format block.
 
 ### -field EmfPlusRecordTypeObject
+TBD
 
 ### -field EmfPlusRecordTypeClear
 
@@ -689,17 +891,22 @@ Identifies the end of a multiple-format block.
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
 
 ### -field EmfPlusRecordTypeStrokeFillPath
+TBD
 
 ### -field EmfPlusRecordTypeSerializableObject
+TBD
 
 ### -field EmfPlusRecordTypeSetTSGraphics
+TBD
 
 ### -field EmfPlusRecordTypeSetTSClip
+TBD
 
 ### -field EmfPlusRecordTotal
+TBD
 
 ### -field EmfPlusRecordTypeMax
+TBD
 
 ### -field EmfPlusRecordTypeMin
-
-#### - EmfPlusRecordTypeSetGammaValue
+TBD

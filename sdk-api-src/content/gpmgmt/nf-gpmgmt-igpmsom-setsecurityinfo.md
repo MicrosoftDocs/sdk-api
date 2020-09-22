@@ -46,9 +46,6 @@ api_name:
  - GPMSOM.SetSecurityInfo
 ---
 
-# IGPMSOM::SetSecurityInfo
-
-
 ## -description
 
 Sets the list of permissions for the scope of management (SOM) to that of the specified object.
@@ -59,12 +56,6 @@ Sets the list of permissions for the scope of management (SOM) to that of the sp
 
 Pointer to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a> interface.
-
-
-#### - objGPMSecurityInfo
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> object to set.
 
 ## -returns
 

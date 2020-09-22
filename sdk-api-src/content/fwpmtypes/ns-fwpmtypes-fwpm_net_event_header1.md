@@ -47,13 +47,11 @@ api_name:
  - FWPM_NET_EVENT_HEADER1
 ---
 
-# FWPM_NET_EVENT_HEADER1 structure
-
-
 ## -description
 
 The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all events. Reserved.
-[FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) is available. </div><div> </div>
+
+[FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) is available.
 
 ## -struct-fields
 
@@ -63,7 +61,7 @@ A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
 
 ### -field flags
 
-Flags indicating which of the following members are set.  Unused fields must be zero-initialized.
+Flags indicating which of the following members are set. Unused fields must be zero-initialized.
 
 <table>
 <tr>
@@ -226,95 +224,48 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
 
 ### -field reserved2
 
+A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a> structure.
+
 ### -field reserved3
+
+A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a> structure.
 
 ### -field reserved4
 
-### -field reserved5
-
-### -field reserved6
-
-### -field reserved7
-
-### -field reserved8
-
-### -field reserved9
-
-### -field reserved10
-
- 
-
-
-
-
-#### - ( unnamed struct )
-
-Specifies details related to Ethernet traffic.
-
-Available when <b>addressFamily</b> is <b>FWP_AF_ETHER</b>.
-
-
-
-#### reserved2
-
-A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a>  structure.
-
-
-
-#### reserved3
-
-A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a>  structure.
-
-
-
-#### reserved4
-
 A <a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type">DL_ADDRESS_TYPE</a> enumeration.
 
-
-
-#### reserved5
+### -field reserved5
 
 A <a href="/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ether_encap_method_">FWP_ETHER_ENCAP_METHOD</a> enumeration.
 
-
-
-#### reserved6
+### -field reserved6
 
 Indicates which protocol is encapsulated in the frame data.
 
-
-
-#### reserved7
+### -field reserved7
 
 The SNAP (IEEE 802.2) DSAP, SSAP, and Control fields marshaled into a 32-bit value.
 
-
-
-#### reserved8
+### -field reserved8
 
 The SNAP (IEEE 802.2) Organizationally Unique Identifier (OUI) marshaled into a 32-bit value.
 
-
-
-#### reserved9
+### -field reserved9
 
 The VLAN (802.1p/q) VID, CFI, and Priority bits marshaled into a 16-bit value.
 
-
-
-#### reserved10
+### -field reserved10
 
 The interface LUID corresponding to the network interface with which this packet is associated.
 
 ## -remarks
+
+The unnamed struct specifies details related to Ethernet traffic. It's available when <b>addressFamily</b> is <b>FWP_AF_ETHER</b>.
 
 This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
 
 ## -see-also
 
 [FWPM_NET_EVENT_HEADER0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)
-
-
 
 [FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)

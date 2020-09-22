@@ -45,9 +45,6 @@ api_name:
  - FNREAD
 ---
 
-# FNREAD macro
-
-
 ## -description
 
 The <b>FNREAD</b> macro provides the declaration for the application-defined callback function to read data from a file in an FDI context.
@@ -58,23 +55,11 @@ The <b>FNREAD</b> macro provides the declaration for the application-defined cal
 
 An application-defined value used to identify the open file.
 
-
-#### - cb
-
-The maximum number of bytes to be read.
-
-
-#### - pv [out]
-
-Pointer to the buffer that receives the data read from a file.
-
 ## -remarks
 
 The function accepts parameters similar to<a href="https://msdn.microsoft.com/library/wyssk1bs(VS.80).aspx"> _read</a>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNREAD(fnFileRead)
@@ -88,7 +73,6 @@ FNREAD(fnFileRead)
              
     return dwBytesRead;
 }
-
 ```
 
 ## -see-also

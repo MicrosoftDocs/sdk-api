@@ -46,9 +46,6 @@ api_name:
  - GPMSecurityInfo.Add
 ---
 
-# IGPMSecurityInfo::Add
-
-
 ## -description
 
 Adds the permission specified in a 
@@ -60,11 +57,6 @@ Adds the permission specified in a
 ### -param pPerm [in]
 
 Pointer to the <b>GPMPermission</b> object to add to the collection.
-
-
-#### - objGPMPermission
-
-<b>GPMPermission</b> object to add.
 
 ## -returns
 

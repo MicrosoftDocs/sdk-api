@@ -46,9 +46,6 @@ api_name:
  - GPMBackupDirEx.SearchBackups
 ---
 
-# IGPMBackupDirEx::SearchBackups
-
-
 ## -description
 
 Executes a search for  a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object or an <b>IGPMStarterGPOBackup</b> interface according to the specified criteria, and returns a 
@@ -60,42 +57,10 @@ Executes a search for  a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 Pointer to the criteria to be applied to the search.
 
-
-
-#### gpoDomain
-
-Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
-
-
-
-#### gpoID
-
-Pointer to the criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b> or
-<b>opNotEquals</b>  operators are valid search criteria.
-
-
-
-#### gpoDisplayName
-
-Pointer to the criteria for a search for   a GPO display name. The search property value is the GPO display name. The <b>opEquals</b>, 
-<b>opContains</b>, or <b>opNotContains</b> operators are valid search criteria.
-
-
-
-#### backupMostRecent
-
-Pointer to the criteria for a search for the most recent backup. The search property value is <b>TRUE</b>. The   <b>opEquals</b>  operator is the valid criteria.
-
 ### -param pvarBackupCollection [out]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a> or <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a> interface that represent the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> or <b>IGPMStarterGPOBackup</b> objects that are found by the search.
-
-
-#### - objGPMSearchCriteria [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 ## -returns
 

@@ -46,9 +46,6 @@ api_name:
  - GPMSecurityInfo.Remove
 ---
 
-# IGPMSecurityInfo::Remove
-
-
 ## -description
 
 Removes the permission specified in a given 
@@ -60,11 +57,6 @@ Removes the permission specified in a given
 ### -param pPerm [in]
 
 Pointer to the <b>GPMPermission</b> object to remove from the collection.
-
-
-#### - objGPMPermission
-
-<b>GPMPermission</b> object to remove.
 
 ## -returns
 

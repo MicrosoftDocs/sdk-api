@@ -46,9 +46,6 @@ api_name:
  - GPMGPO.SetSecurityInfo
 ---
 
-# IGPMGPO::SetSecurityInfo
-
-
 ## -description
 
 Sets the list of permissions for the group policy object (GPO), such as who is granted permission to edit it. The method replaces the existing list of permissions.
@@ -58,12 +55,6 @@ Sets the list of permissions for the group policy object (GPO), such as who is g
 ### -param pSecurityInfo [in]
 
 Pointer to the security information to apply to the GPO.
-
-
-#### - objGPMSecurityInfo
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> object to apply to the GPO.
 
 ## -returns
 
@@ -81,7 +72,5 @@ For more information about policy-related permissions, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-
-
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>

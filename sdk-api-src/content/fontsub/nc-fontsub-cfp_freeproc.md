@@ -45,18 +45,13 @@ api_name:
  - CFP_FREEPROC
 ---
 
-# CFP_FREEPROC callback function
-
-
 ## -description
 
 Client-provided callback function, used by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to free memory.
 
 ## -parameters
 
-### -param *
-
-#### - memblock [in]
+### -param Arg1
 
 Previously allocated memory block to be freed.
 

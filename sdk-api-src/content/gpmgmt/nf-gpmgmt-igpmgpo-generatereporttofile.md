@@ -45,9 +45,6 @@ api_name:
  - IGPMGPO.GenerateReportToFile
 ---
 
-# IGPMGPO::GenerateReportToFile
-
-
 ## -description
 
 Gets the report for a GPO and then saves the report to a file in a specified path.
@@ -68,10 +65,6 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-i
 
 <div class="alert"><b>Note</b>  The value of the <b>Result</b> property of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface is indeterminate and should not be relied upon.</div>
 <div> </div>
-
-#### - TargetFile [in]
-
-Binary string that contains the path of the file in which the report is being saved.
 
 ## -returns
 

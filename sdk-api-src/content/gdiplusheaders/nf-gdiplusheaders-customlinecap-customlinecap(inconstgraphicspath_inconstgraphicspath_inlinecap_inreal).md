@@ -46,9 +46,6 @@ api_name:
  - CustomLineCap.CustomLineCap
 ---
 
-# CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)
-
-
 ## -description
 
 Creates a <b>CustomLineCap::CustomLineCap</b> object.

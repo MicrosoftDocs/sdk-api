@@ -45,9 +45,6 @@ api_name:
  - IGPMDomain2.RestoreStarterGPO
 ---
 
-# IGPMDomain2::RestoreStarterGPO
-
-
 ## -description
 
 Restores the Starter Group Policy object (GPO) from a 
@@ -75,12 +72,6 @@ Address of a pointer to the
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface that represents the result of the restore operation. That interface contains pointers to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMstarterGPO</a> interface and to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a> interface.
-
-
-#### - objGPMStarterGPOBackup [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">GPMStarterGPOBackup</a> object that corresponds to the Starter GPO to restore.
 
 ## -returns
 

@@ -46,9 +46,6 @@ api_name:
  - GPMGPO.Import
 ---
 
-# IGPMGPO::Import
-
-
 ## -description
 
 Imports the policy settings from the specified 
@@ -61,13 +58,9 @@ Imports the policy settings from the specified
 Specifies the options to use for security principal and path mapping. The following options are defined. For more information, see 
 <a href="/previous-versions/windows/desktop/gpmc/copying-and-importing-gpos-across-domains">Copying and Importing GPOs Across Domains</a>.
 
-
-
 #### 0
 
 Map the Security principal and UNC path from the migration table if specified. If there is no entry corresponding to Security principal or UNCPath, keep the setting containing that Security principal or UNC Path as it is. Do not copy security on the GPO and Software Installation Package objects. This is the default value for this parameter.
-
-
 
 #### GPM_MIGRATIONTABLE_ONLY
 
@@ -97,17 +90,6 @@ Address of a pointer to the
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface representing the result of the import operation. That interface contains a pointer to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a> interface and an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface.
-
-
-#### - MigrationTable [in, optional]
-
-Path of a file that contains the migration table to use for mapping.
-
-
-#### - gpmBackup [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object from which settings should be imported.
 
 ## -returns
 

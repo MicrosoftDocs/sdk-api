@@ -45,9 +45,6 @@ api_name:
  - FNFDINOTIFY
 ---
 
-# FNFDINOTIFY macro
-
-
 ## -description
 
 The <b>FNFDINOTIFY</b> macro provides the declaration for the application-defined callback notification function to update the application on the status of the decoder.
@@ -196,12 +193,6 @@ Enumeration status.
 </tr>
 </table>
  
-
-
-#### - pfdin
-
-Pointer to an <a href="/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a> structure that contains notification information.
-
 ## -see-also
 
 <a href="/windows/desktop/api/fdi/nf-fdi-fdicopy">FDICopy</a>

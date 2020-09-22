@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(constSolidBrush&)
 title: SolidBrush::SolidBrush(const SolidBrush &) (gdiplusbrush.h)
-description: Creates a SolidBrush object based on a color.
+description: Copy constructor for **SolidBrush**.
 helpviewer_keywords: ["SolidBrush","SolidBrush class [GDI+]","SolidBrush constructor","SolidBrush constructor [GDI+]","SolidBrush constructor [GDI+]","SolidBrush class","SolidBrush.SolidBrush","SolidBrush.SolidBrush(const SolidBrush &)","SolidBrush::SolidBrush","SolidBrush::SolidBrush(const SolidBrush &)","_gdiplus_CLASS_SolidBrush_SolidBrush_color_","gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_"]
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 tech.root: gdiplus
@@ -46,33 +46,22 @@ api_name:
  - SolidBrush.SolidBrush
 ---
 
-# SolidBrush::SolidBrush(const SolidBrush &)
-
-
 ## -description
 
-Creates a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object based on a color.
+Copy constructor for **SolidBrush**.
 
 ## -parameters
 
-#### - color [in, ref]
+### -param arg1
 
-Type: <b>const <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
-
-Reference to a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the initial color of this solid brush.
+The **SolidBrush** object to copy into this object.
 
 ## -see-also
 
 <a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
-
-
 <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
-
-
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
-
-
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>

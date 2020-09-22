@@ -47,9 +47,6 @@ api_name:
  - ImmRegisterWordW
 ---
 
-# ImmRegisterWordW function
-
-
 ## -description
 
 Registers a string with the dictionary of the IME associated with the specified input locale.

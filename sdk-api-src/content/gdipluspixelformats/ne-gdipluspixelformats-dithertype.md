@@ -46,9 +46,6 @@ api_name:
  - DitherType
 ---
 
-# DitherType enumeration
-
-
 ## -description
 
 The <b>DitherType</b> enumeration identifies the available algorithms for dithering when a bitmap is converted. 
@@ -99,9 +96,7 @@ Dithering is performed based on the palette specified by the <i>palette</i> para
 
 ### -field DitherTypeMax
 
-#### - DitherTypeOrdered91x91
-
-Dithering is performed using the colors in one of the standard fixed palettes.
+TBD
 
 ## -remarks
 

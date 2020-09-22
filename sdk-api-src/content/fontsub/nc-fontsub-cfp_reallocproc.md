@@ -45,25 +45,17 @@ api_name:
  - CFP_REALLOCPROC
 ---
 
-# CFP_REALLOCPROC callback function
-
-
 ## -description
 
 Client-provided callback function, used by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to reallocate memory when the size of an allocated buffer needs to change.
 
 ## -parameters
 
-### -param *
-
 ### -param Arg1
-
-#### - memblock [in]
 
 Pointer to previously allocated memory block.
 
-
-#### - size [in]
+### -param Arg2
 
 New size in bytes.
 

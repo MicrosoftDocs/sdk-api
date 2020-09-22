@@ -46,9 +46,6 @@ api_name:
  - GPMMigrationTable.Add
 ---
 
-# IGPMMigrationTable::Add
-
-
 ## -description
 
 Adds entries from the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> and <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> interfaces. The method updates any entries that are already present in the migration table.
@@ -59,13 +56,9 @@ Adds entries from the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-
 
 This parameter must be one of the following values.
 
-
-
 #### 0
 
 Do not take security principals from the DACLs in the backup GPO or the live GPO.
-
-
 
 #### GPM_PROCESS_SECURITY
 
@@ -74,11 +67,6 @@ Copy all the entries from the DACLs and settings.
 ### -param var [in]
 
 Dispatch pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> or <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> interface.
-
-
-#### - gpm [in]
-
-The <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> or <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> interface.
 
 ## -returns
 

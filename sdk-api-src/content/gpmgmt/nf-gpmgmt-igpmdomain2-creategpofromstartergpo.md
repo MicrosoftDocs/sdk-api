@@ -45,9 +45,6 @@ api_name:
  - IGPMDomain2.CreateGPOFromStarterGPO
 ---
 
-# IGPMDomain2::CreateGPOFromStarterGPO
-
-
 ## -description
 
 Creates and retrieves a 
@@ -62,11 +59,6 @@ A pointer to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-
 ### -param ppnewGPO [out]
 
 Address of a pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object that represents the new GPO.
-
-
-#### - objGPMStarterGPO [in]
-
-A reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new GPO will be created.
 
 ## -returns
 

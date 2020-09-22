@@ -45,9 +45,6 @@ api_name:
  - CFP_ALLOCPROC
 ---
 
-# CFP_ALLOCPROC callback function
-
-
 ## -description
 
 Client-provided callback function, used by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to allocate memory.
@@ -55,8 +52,6 @@ Client-provided callback function, used by <a href="/windows/desktop/api/fontsub
 ## -parameters
 
 ### -param Arg1
-
-#### - size [in]
 
 Number of bytes to allocate.
 

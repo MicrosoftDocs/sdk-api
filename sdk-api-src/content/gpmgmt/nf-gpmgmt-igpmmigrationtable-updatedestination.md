@@ -46,9 +46,6 @@ api_name:
  - GPMigrationTable.UpdateDestination
 ---
 
-# IGPMMigrationTable::UpdateDestination
-
-
 ## -description
 
 Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
@@ -66,11 +63,6 @@ A pointer to a <b>VARIANT</b> structure.  You can  use the DestinationOptions: o
 ### -param ppEntry [out]
 
 The updated entry.
-
-
-#### - destination [in, optional]
-
-This parameter specifies the destination  as a string or as a destination option. Passing a string for the destination implicitly sets the entry's <a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a> equal to the DestinationOptionSet property of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">GPMConstants</a> object.  The destination can also be specified by passing the DestinationSameAsSource, DestinationNone, or DestinationByRelativeName properties of the GPMConstants object.
 
 ## -returns
 

@@ -46,9 +46,6 @@ api_name:
  - GPMSitesContainer.SearchSites
 ---
 
-# IGPMSitesContainer::SearchSites
-
-
 ## -description
 
 Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
@@ -59,8 +56,6 @@ Retrieves a collection of scope of management (SOM) objects based on the specifi
 
 Pointer to criteria to supply to the search. Valid criteria for the search include the following.
 
-
-
 #### somLinks
 
 Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
@@ -70,12 +65,6 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idi
 
 Address of a pointer to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a> interface.
-
-
-#### - objGPMSearchCriteria
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object to supply to the search.
 
 ## -returns
 

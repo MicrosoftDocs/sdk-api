@@ -46,9 +46,6 @@ api_name:
  - GPMWMIFilter.SetSecurityInfo
 ---
 
-# IGPMWMIFilter::SetSecurityInfo
-
-
 ## -description
 
 Sets the list of permissions for the current WMI filter to that specified by the object.
@@ -59,12 +56,6 @@ Sets the list of permissions for the current WMI filter to that specified by the
 
 Pointer to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a> interface.  This parameter is required.
-
-
-#### - objGPMSecurityInfo [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> object to set. This parameter is required.
 
 ## -returns
 

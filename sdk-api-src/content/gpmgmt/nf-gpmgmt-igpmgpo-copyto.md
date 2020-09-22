@@ -46,9 +46,6 @@ api_name:
  - GPMGPO.CopyTo
 ---
 
-# IGPMGPO::CopyTo
-
-
 ## -description
 
 Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of 
@@ -66,22 +63,16 @@ Specifies the options to use for security principal and path mapping. For more i
       <a href="/previous-versions/windows/desktop/gpmc/copying-and-importing-gpos-across-domains">Copying and Importing GPOs Across Domains</a>. 
       The following options are defined.
 
-
-
 #### 0
 
 Map the security principal and the Universal Naming Convention (UNC) path from the migration table if 
         specified. If there is no entry corresponding to Security principal or UNCPath, keep the setting that contains the Security principal or UNC Path as it is. Do not copy security on the GPO and Software Installation Package objects. This is the default value of this parameter.
-
-
 
 #### GPM_MIGRATIONTABLE_ONLY
 
 Map the security principals and the UNC paths by using the information specified in the migration table 
         only. If a setting is found that cannot be mapped through the migration table, the method fails and returns an 
         error code.
-
-
 
 #### GPM_PROCESS_SECURITY
 
@@ -115,22 +106,6 @@ Address of a pointer to the
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a> interface that represents the result of the copy operation. That interface contains pointers to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface and to an 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a> interface.
-
-
-#### - MigrationTable [in, optional]
-
-Path of a file that contains the migration table to use for mapping.
-
-
-#### - NewGpoName [in, optional]
-
-Display name to be put on the copied GPO.
-
-
-#### - gpmDomain [in]
-
-
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">GPMDomain</a> object of the domain to which the GPO is copied.
 
 ## -returns
 
