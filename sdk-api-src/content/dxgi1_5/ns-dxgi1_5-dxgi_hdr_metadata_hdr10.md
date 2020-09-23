@@ -72,11 +72,11 @@ The chromaticity coordinates of the white point in the CIE1931 color space. Inde
 
 ### -field MaxMasteringLuminance
 
-The maximum number of nits of the display used to master the content. Values are normalized to 10,000.
+The maximum number of nits of the display used to master the content. Values are in whole nits.
 
 ### -field MinMasteringLuminance
 
-The minimum number of nits of the display used to master the content. Values are normalized to 10,000.
+The minimum number of nits of the display used to master the content. Values are 1/10000th of a nit (0.0001 nit).
 
 ### -field MaxContentLightLevel
 
