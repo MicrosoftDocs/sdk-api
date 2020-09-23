@@ -45,9 +45,6 @@ api_name:
  - NetAccessGetInfo
 ---
 
-# NetAccessGetInfo function
-
-
 ## -description
 
 <p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
@@ -60,7 +57,7 @@ The <b>NetAccessGetInfo</b> function retrieves the access control list (ACL) for
 
 ### -param servername
 
-TBD
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param resource
 
@@ -102,17 +99,6 @@ Pointer to the buffer that receives the access information structure. The format
 ### -param bufptr
 
 Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - pcbTotalAvail
-
-Pointer to an unsigned short integer that receives the total number of entries available. The count is valid only if the 
-<b>NetAccessGetInfo</b> function returns <b>NERR_Success</b>, <b>NERR_BufTooSmall</b>, or <b>ERROR_MORE_DATA</b>.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ## -returns
 

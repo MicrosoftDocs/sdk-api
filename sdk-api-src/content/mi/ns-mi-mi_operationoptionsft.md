@@ -47,18 +47,11 @@ api_name:
  - MI_OperationOptionsFT
 ---
 
-# MI_OperationOptionsFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.  Use the functions with the name prefix "MI_OperationOptions_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Clone
 
@@ -103,3 +96,11 @@ Sets a custom number option value. See <a href="/previous-versions/windows/deskt
 ### -field SetString
 
 Sets a custom string option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_setstring">MI_OperationOptions_SetString</a>.
+
+### -field SetInterval
+
+TBD
+
+### -field GetInterval
+
+TBD

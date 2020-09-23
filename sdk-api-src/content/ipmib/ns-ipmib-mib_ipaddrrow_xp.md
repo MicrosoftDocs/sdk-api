@@ -50,9 +50,6 @@ api_name:
  - MIB_IPADDRROW
 ---
 
-# MIB_IPADDRROW_XP structure
-
-
 ## -description
 
 The 
@@ -174,8 +171,7 @@ The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddr
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IPADDRROW</b> structure is defined in the <i>Ipmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-#### Examples
+## Examples
 
 To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure and then prints out the <b>MIB_IPADDRROW</b> structures in this table, see the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function.
 
@@ -184,7 +180,5 @@ To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipm
 ## -see-also
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
-
-
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>

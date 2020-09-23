@@ -47,9 +47,6 @@ api_name:
  - FaceRectInfo
 ---
 
-# FaceRectInfo structure
-
-
 ## -description
 
 The <b>FaceRectInfo</b> structure describes the blob format for the <b>MF_CAPTURE_METADATA_FACEROIS</b> attribute.
@@ -61,8 +58,6 @@ The <b>FaceRectInfo</b> structure describes the blob format for the <b>MF_CAPTUR
 Relative coordinates on the frame that face detection is running (Q31 format).
 
 ### -field confidenceLevel
-
-### -field ConfidenceLevel
 
 Confidence level of the region being a face (0 - 100).
 

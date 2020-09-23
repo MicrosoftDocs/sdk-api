@@ -50,9 +50,6 @@ api_name:
  - MIB_IPMCAST_OIF_STATS
 ---
 
-# MIB_IPMCAST_OIF_STATS_LH structure
-
-
 ## -description
 
 The 
@@ -72,12 +69,11 @@ Type: <b>DWORD</b>
 
 Specifies the address of the next hop that corresponds to <b>dwOutIfIndex</b>. The <b>dwOutIfIndex</b> and <b>dwIfNextHopIPAddr</b> members uniquely identify a next hop on point-to-multipoint interfaces, where one interface connects to multiple networks. Examples of point-to-multipoint interfaces include non-broadcast multiple-access (NBMA) interfaces, and the internal interface on which all dial-up clients connect. 
 
-
-
-
 For Ethernet and other broadcast interfaces, specify zero. Also specify zero for point-to-point interfaces, which are identified by only <b>dwOutIfIndex</b>.
 
 ### -field dwDialContext
+
+TBD
 
 ### -field ulTtlTooLow
 
@@ -102,13 +98,6 @@ Specifies the number of packets that were forwarded out this interface.
 Type: <b>ULONG</b>
 
 Specifies the number of packets that were discarded on this interface.
-
-
-#### - pvDialContext
-
-Type: <b>PVOID</b>
-
-Reserved. This member should be <b>NULL</b>.
 
 ## -remarks
 

@@ -49,17 +49,17 @@ api_name:
  - IP_ADAPTER_UNICAST_ADDRESS
 ---
 
-# IP_ADAPTER_UNICAST_ADDRESS_XP structure
-
-
 ## -description
 
-The 
-<b>IP_ADAPTER_UNICAST_ADDRESS</b> structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
+The <b>IP_ADAPTER_UNICAST_ADDRESS</b> structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 
 ## -struct-fields
 
 ### -field Alignment
+
+Type: <b>ULONGLONG</b>
+
+Reserved. Used by the compiler to align the structure.
 
 ### -field Length
 
@@ -72,13 +72,8 @@ The length, in bytes, of this structure.
 Type: <b>DWORD</b>
 
 A set of flags for this IP address. 
-								
-							
-
 
 The following table shows possible values. These constants are defined in the <i>Iptypes.h</i> header file. 
-
-
 
 <table>
 <tr>
@@ -156,17 +151,6 @@ Type: <b>ULONG</b>
 
 The lease lifetime, in seconds, that the IP address is valid.
 
-
-#### - OnLinkPrefixLength
-
-Type: <b>UINT8</b>
-
-The length, in bits, of the prefix or network part of the IP address. For a unicast IPv4 address, any value greater than 32 is an illegal value. For a unicast IPv6 address, any value greater than 128 is an illegal value. 
-A value of 255 is commonly used to represent an illegal value. 
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
 ## -remarks
 
 The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstUnicastAddress</b> member of the <b>IP_ADAPTER_ADDRESSES</b>structure is a pointer to a linked list of <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures. 
@@ -185,32 +169,18 @@ The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRES
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
-
-
 <a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper
 		  Start Page</a>
-
-
 
 <a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper
 		  Structures</a>
 
-
-
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
-
-
 
 <a href="/windows/desktop/api/nldef/ne-nldef-nl_dad_state">IP_DAD_STATE</a>
 
-
-
 <a href="/windows/desktop/api/nldef/ne-nldef-nl_prefix_origin">IP_PREFIX_ORIGIN</a>
 
-
-
 <a href="/windows/desktop/api/nldef/ne-nldef-nl_suffix_origin">IP_SUFFIX_ORIGIN</a>
-
-
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>

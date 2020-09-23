@@ -47,9 +47,6 @@ api_name:
  - MI_SessionCallbacks
 ---
 
-# MI_SessionCallbacks structure
-
-
 ## -description
 
 A container for callback function pointers that handle logging and error messages.
@@ -70,7 +67,6 @@ The CIM extension callback for receiving logging from the session creation. All 
 
 ## -remarks
 
-This is the structure that holds all callback function pointers.  Fill in the ones 
-you want to receive.  All callbacks are CIM extensions for tracking
+This is the structure that holds all callback function pointers. Fill in the ones 
+you want to receive. All callbacks are CIM extensions for tracking
 logging and error messages.
-

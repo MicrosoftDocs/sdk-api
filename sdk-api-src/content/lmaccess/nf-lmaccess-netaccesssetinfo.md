@@ -45,22 +45,19 @@ api_name:
  - NetAccessSetInfo
 ---
 
-# NetAccessSetInfo function
-
-
 ## -description
 
 <p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
 
 Not supported.
 
- The <b>NetAccessSetInfo</b> function changes the access control list (ACL) for a resource.
+The <b>NetAccessSetInfo</b> function changes the access control list (ACL) for a resource.
 
 ## -parameters
 
 ### -param servername
 
-TBD
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param resource
 
@@ -96,23 +93,6 @@ Pointer to the buffer that contains the access information structure. The format
 
 TBD
 
-
-
-
-#### - cbBuffer
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - sParmNum
-
-This parameter must be equal to <b>PARMNUM_ALL</b>.
-
 ## -returns
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
@@ -126,4 +106,4 @@ This function requires Admin privilege to successfully execute on a computer tha
 
 ## -see-also
 
-<a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization functions</a>

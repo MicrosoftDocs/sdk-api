@@ -45,9 +45,6 @@ api_name:
  - JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 ---
 
-# JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure
-
-
 ## -description
 
 Contains information used to control the I/O rate for a job. This structure is used by the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject">SetIoRateControlInformationJobObject</a> and <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a> functions.
@@ -61,6 +58,10 @@ The maximum limit for the I/O rate in I/O operations per second (IOPS). Set to 0
 When you set both <b>MaxIops</b> and <b>MaxBandwith</b>, the operating system enforces the first limit that the I/O rate reaches.
 
 ### -field MaxBandwidth
+
+The maximum limit for the I/O rate in bytes per second. Set to 0 to specify no limit.
+
+When you set both <b>MaxBandwith</b> and <b>MaxIops</b>, the operating system enforces the first limit that the I/O rate reaches.
 
 ### -field ReservationIops
 
@@ -110,14 +111,6 @@ Turns on control of the I/O rate for the job when this structure is passed to th
 </td>
 </tr>
 </table>
- 
-
-
-#### - MaxBandwith
-
-The maximum limit for the I/O rate in bytes per second. Set to 0 to specify no limit.
-
-When you set both <b>MaxBandwith</b> and <b>MaxIops</b>, the operating system enforces the first limit that the I/O rate reaches.
 
 ## -remarks
 

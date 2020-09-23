@@ -49,9 +49,6 @@ api_name:
  - DFS_SUPPORTED_NAMESPACE_VERSION_INFO
 ---
 
-# DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure
-
-
 ## -description
 
 Contains version information for a DFS namespace.
@@ -64,11 +61,11 @@ The major version of the domain-based DFS namespace.
 
 ### -field DomainDfsMinorVersion
 
+The minor version of the domain-based DFS namespace.
+
 ### -field DomainDfsCapabilities
 
 Specifies a set of flags that describe specific capabilities of a domain-based DFS namespace.
-
-
 
 #### DFS_NAMESPACE_CAPABILITY_ABDE (0x0000000000000001)
 
@@ -86,29 +83,16 @@ The minor version of the stand-alone DFS namespace.
 
 Specifies a set of flags that describe specific capabilities of a stand-alone DFS namespace.
 
-
-
 #### DFS_NAMESPACE_CAPABILITY_ABDE (0x0000000000000001)
 
 The DFS namespace supports associating a security descriptor with a DFS link for ABDE purposes.
-
-
-#### - NamespaceMinorVersion
-
-The minor version of the domain-based DFS namespace.
 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin">DFS_NAMESPACE_VERSION_ORIGIN</a>
 
-
-
 <a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System Functions</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddroottarget">NetDfsAddRootTarget</a>
-
-
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion">NetDfsGetSupportedNamespaceVersion</a>

@@ -46,9 +46,6 @@ api_name:
  - CInstance.GetWBEMINT64
 ---
 
-# CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &)
-
-
 ## -description
 
 <p class="CCE_Message">[The <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
@@ -65,14 +62,7 @@ The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
 
 Name of the 64-bit integer property retrieved.
 
-### -param i64Value
-
-TBD
-
-
-
-
-#### - wbemint64 [ref]
+### -param i64Value [ref]
 
 Buffer to receive the 64-bit integer value.
 

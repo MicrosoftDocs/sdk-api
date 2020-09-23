@@ -47,9 +47,6 @@ api_name:
  - MI_FilterFT
 ---
 
-# MI_FilterFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> 
@@ -57,10 +54,6 @@ A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_filter
     structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Evaluate
 

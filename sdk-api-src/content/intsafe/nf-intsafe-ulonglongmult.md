@@ -45,47 +45,21 @@ api_name:
  - SizeTMult
 ---
 
-# ULongLongMult function
-
-
 ## -description
 
 Multiplies one value of type <b>size_t</b> by another.
 
 ## -parameters
 
-### -param ullMultiplicand
-
-TBD
-
-### -param ullMultiplier
-
-TBD
-
-### -param pullResult
-
-TBD
-
-
-
-
-#### - Multiplicand [in]
-
-Type: <b>size_t</b>
+### -param ullMultiplicand [in]
 
 The value to be multiplied by <i>cbMultiplier</i>.
 
-
-#### - Multiplier [in]
-
-Type: <b>size_t</b>
+### -param ullMultiplier [in]
 
 The value by which to multiply <i>cbMultiplicand</i>.
 
-
-#### - pResult [out]
-
-Type: <b>size_t*</b>
+### -param pullResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -98,4 +72,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-

@@ -47,9 +47,6 @@ api_name:
  - MI_InstanceFT
 ---
 
-# MI_InstanceFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> 
@@ -57,10 +54,6 @@ A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_instan
     these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field AddElement
 

@@ -47,9 +47,6 @@ api_name:
  - MI_PropertySetFT
 ---
 
-# MI_PropertySetFT structure
-
-
 ## -description
 
 A support structure used in the 
@@ -57,10 +54,6 @@ A support structure used in the
      name prefix "MI_PropertySet_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field AddElement
 
@@ -101,3 +94,4 @@ Gets the element of a property set at the specified index. See
 
 Gets the number of elements in the specified property set. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_getelementcount">MI_PropertySet_GetElementCount</a>.
+       

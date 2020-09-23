@@ -53,9 +53,6 @@ api_name:
  - FreeResource
 ---
 
-# FreeResource function
-
-
 ## -description
 
 <p class="CCE_Message">[This  function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>. If used on 32 or 64-bit Windows systems, this function will return <b>FALSE</b>.]
@@ -64,14 +61,7 @@ Decrements (decreases by one) the reference count of a loaded resource. When the
 
 ## -parameters
 
-### -param hResData
-
-TBD
-
-
-
-
-#### - hglbResource [in]
+### -param hResData [in]
 
 Type: <b>HGLOBAL</b>
 

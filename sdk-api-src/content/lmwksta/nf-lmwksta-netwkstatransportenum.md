@@ -50,8 +50,7 @@ api_name:
 
 ## -description
 
-The 
-				<b>NetWkstaTransportEnum</b> function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
+The <b>NetWkstaTransportEnum</b> function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
 
 ## -parameters
 
@@ -62,8 +61,6 @@ A pointer to a string that specifies the DNS or NetBIOS name of the remote serve
 ### -param level [in]
 
 The level of information requested for the data. This parameter can be the following value. 
-
-
 
 <table>
 <tr>
@@ -103,11 +100,6 @@ A pointer to a value that receives the count of elements actually enumerated.
 A pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint.
 
 ### -param resume_handle [in, out]
-
-A pointer to a value that contains a resume handle which is used to continue an existing workstation transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If the <i>resumehandle</i> parameter is a <b>NULL</b> pointer, no resume handle is stored.
-
-
-#### - resumehandle [in, out]
 
 A pointer to a value that contains a resume handle which is used to continue an existing workstation transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If the <i>resumehandle</i> parameter is a <b>NULL</b> pointer, no resume handle is stored.
 

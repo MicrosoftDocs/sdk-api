@@ -45,13 +45,9 @@ api_name:
  - NetServerTransportEnum
 ---
 
-# NetServerTransportEnum function
-
-
 ## -description
 
-The 
-				<b>NetServerTransportEnum</b> function supplies information about transport protocols that are managed by the server.
+The <b>NetServerTransportEnum</b> function supplies information about transport protocols that are managed by the server.
 
 ## -parameters
 
@@ -62,8 +58,6 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 ### -param level [in]
 
 Specifies the information level of the data. This parameter can be one of the following values. 
-
-
 
 <table>
 <tr>
@@ -114,11 +108,6 @@ Pointer to a value that receives the count of elements actually enumerated.
 Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint.
 
 ### -param resume_handle [in, out]
-
-Pointer to a value that contains a resume handle which is used to continue an existing server transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, no resume handle is stored.
-
-
-#### - resumehandle [in, out]
 
 Pointer to a value that contains a resume handle which is used to continue an existing server transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, no resume handle is stored.
 
@@ -183,16 +172,12 @@ The supplied buffer is too small.
 
 Only Authenticated Users can successfully call this function.<b>Windows XP/2000:  </b>No special group membership is required to successfully execute this function.
 
-
-
-
-#### Examples
+## Examples
 
 The following code sample demonstrates how to retrieve information about transport protocols that are managed by the server, using a call to the 
 <b>NetServerTransportEnum</b> function. The sample calls 
 <b>NetServerTransportEnum</b>, specifying information level 0 (
 <a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>). The sample prints the name of each transport protocol and the total number enumerated. Finally, the code sample frees the memory allocated for the information buffer.
-
 
 ```cpp
 #ifndef UNICODE
@@ -302,7 +287,6 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
 ```
 
 ## -see-also
@@ -310,19 +294,11 @@ int wmain(int argc, wchar_t *argv[])
 <a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
-
-
 <a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
-
-
 <a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
 
-
-
 <a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
-
-
 
 <a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>

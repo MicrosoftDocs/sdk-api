@@ -47,13 +47,10 @@ api_name:
  - IPSEC_TUNNEL_ENDPOINTS1
 ---
 
-# IPSEC_TUNNEL_ENDPOINTS1 structure
-
-
 ## -description
 
 The <b>IPSEC_TUNNEL_ENDPOINTS1</b> structure is used to store end points of a tunnel mode SA.
-[IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2) is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2) is available.
 
 ## -struct-fields
 
@@ -63,32 +60,9 @@ An [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) va
 
 ### -field localV4Address
 
-### -field localV6Address
-
-### -field remoteV4Address
-
-### -field remoteV6Address
-
-### -field localIfLuid
-
-Optional LUID of the local interface corresponding to the local address specified above.
-
-
-#### - ( unnamed union )
-
-switch_type(FWP_IP_VERSION), switch_is(ipVersion)
-
-Tagged union containing the local tunnel end point address.
-
-
-
-#### localV4Address
-
 case(FWP_IP_VERSION_V4)
 
-
-
-#### localV6Address
+### -field localV6Address
 
 case(FWP_IP_VERSION_V6)
 
@@ -96,22 +70,24 @@ switch_type(FWP_IP_VERSION), switch_is(ipVersion)
 
 Tagged union containing the remote tunnel end point address.
 
-
-
-#### remoteV4Address
+### -field remoteV4Address
 
 case(FWP_IP_VERSION_V4)
 
-
-
-#### remoteV6Address
+### -field remoteV6Address
 
 case(FWP_IP_VERSION_V6)
+
+### -field localIfLuid
+
+Optional LUID of the local interface corresponding to the local address specified above.
+
+## -remarks
+
+For the unnamed union containing the local tunnel end point address, switch_type(FWP_IP_VERSION), switch_is(ipVersion).
 
 ## -see-also
 
 [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
-
-
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

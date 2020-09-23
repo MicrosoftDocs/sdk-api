@@ -47,9 +47,6 @@ api_name:
  - MI_InstanceExFT
 ---
 
-# MI_InstanceExFT structure
-
-
 ## -description
 
 Extends the <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> 
@@ -60,10 +57,6 @@ Extends the <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT<
 ### -field parent
 
 Parent <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table.
-
-### -field MI_Result
-
-TBD
 
 ### -field Normalize
 

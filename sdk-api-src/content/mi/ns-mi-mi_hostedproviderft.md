@@ -47,9 +47,6 @@ api_name:
  - MI_HostedProviderFT
 ---
 
-# MI_HostedProviderFT structure
-
-
 ## -description
 
 A support structure used in the 
@@ -57,10 +54,6 @@ A support structure used in the
      the name prefix "MI_HostedProvider_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Close
 

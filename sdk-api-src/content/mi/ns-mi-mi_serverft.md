@@ -47,19 +47,12 @@ api_name:
  - MI_ServerFT
 ---
 
-# MI_ServerFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_server">MI_Server</a> 
      structure. Use the functions with the name prefix "MI_Server_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field GetSystemName
 

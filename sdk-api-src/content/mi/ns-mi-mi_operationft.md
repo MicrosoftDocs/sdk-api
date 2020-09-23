@@ -47,9 +47,6 @@ api_name:
  - MI_OperationFT
 ---
 
-# MI_OperationFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_operation">MI_Operation</a> 
@@ -57,10 +54,6 @@ A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_operat
      structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Cancel
 

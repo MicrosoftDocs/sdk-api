@@ -47,25 +47,21 @@ api_name:
  - ImmSetConversionStatus
 ---
 
-# ImmSetConversionStatus function
-
-
 ## -description
 
 Sets the current conversion status.
 
 ## -parameters
 
-### -param HIMC [in]
+### -param Arg1 [in]
 
 Handle to the input context.
 
-### -param DWORD [in]
+### -param Arg2 [in]
 
 Conversion mode values. For more information, see <a href="/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
 
-
-#### - fdwSentence [in]
+### -param Arg3 [in]
 
 Sentence mode values. For more information, see <a href="/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
 

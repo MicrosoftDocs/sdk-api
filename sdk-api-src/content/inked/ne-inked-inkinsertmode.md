@@ -45,36 +45,24 @@ api_name:
  - InkInsertMode
 ---
 
-# InkInsertMode enumeration
-
-
 ## -description
 
-Specifies how ink is inserted onto the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Specifies how ink is inserted onto the <a href="/windows/win32/tablet/inkedit-control-reference">InkEdit</a> control.
 
 ## -enum-fields
 
 ### -field IEM_InsertText
 
-### -field IEM_InsertInk
+Default. Drawn ink is inserted as text.
 
-#### - IEM_InsertAsInk
+### -field IEM_InsertInk
 
 Drawn ink is inserted as ink.
 
-
-#### - IEM_InsertAsText
-
-Default. Drawn ink is inserted as text.
-
 ## -see-also
 
-<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/win32/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
-
-
-<a href="/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages (Win32 Only)</a>
-
-
+<a href="/windows/win32/tablet/inkedit-messages--win32-only-">InkEdit Messages (Win32 Only)</a>
 
 <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode">InkInsertMode Property</a>

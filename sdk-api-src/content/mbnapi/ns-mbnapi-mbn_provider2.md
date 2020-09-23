@@ -45,9 +45,6 @@ api_name:
  - MBN_PROVIDER2
 ---
 
-# MBN_PROVIDER2 structure
-
-
 ## -description
 
 > [!IMPORTANT]
@@ -67,15 +64,11 @@ Contains a <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MB
 
 ### -field signalStrength
 
+Contains the signal quality received by the device as defined by <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
+
 ### -field signalError
 
-### -field SignalError
-
 Contains the signal error rate as defined by <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror">GetSignalError</a>.
-
-### -field SignalStrength
-
-Contains the signal quality received by the device as defined by <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
 
 ## -see-also
 

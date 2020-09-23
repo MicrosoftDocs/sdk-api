@@ -50,9 +50,6 @@ api_name:
  - MIB_IPADDRROW
 ---
 
-# MIB_IPADDRROW_W2K structure
-
-
 ## -description
 
 The 
@@ -100,79 +97,10 @@ This member is reserved.
 
 ### -field unused2
 
- 
-
-
-
-
-#### - wType
-
 Type: <b>unsigned short</b>
 
-The address type or state. This member can be a  combination of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPADDR_PRIMARY"></a><a id="mib_ipaddr_primary"></a><dl>
-<dt><b>MIB_IPADDR_PRIMARY</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-Primary IP address
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPADDR_DYNAMIC"></a><a id="mib_ipaddr_dynamic"></a><dl>
-<dt><b>MIB_IPADDR_DYNAMIC</b></dt>
-<dt>0x0004</dt>
-</dl>
-</td>
-<td width="60%">
-Dynamic IP address
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPADDR_DISCONNECTED"></a><a id="mib_ipaddr_disconnected"></a><dl>
-<dt><b>MIB_IPADDR_DISCONNECTED</b></dt>
-<dt>0x0008</dt>
-</dl>
-</td>
-<td width="60%">
-Address is on disconnected interface
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPADDR_DELETED"></a><a id="mib_ipaddr_deleted"></a><dl>
-<dt><b>MIB_IPADDR_DELETED</b></dt>
-<dt>0x0040</dt>
-</dl>
-</td>
-<td width="60%">
-Address is being deleted
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPADDR_TRANSIENT"></a><a id="mib_ipaddr_transient"></a><dl>
-<dt><b>MIB_IPADDR_TRANSIENT</b></dt>
-<dt>0x0080</dt>
-</dl>
-</td>
-<td width="60%">
-Transient address
-
-</td>
-</tr>
-</table>
-
+This member is reserved.
+ 
 ## -remarks
 
 On Windows XP and later, the <b>dwIndex</b> member of the <b>MIB_IPADDRROW</b> structure has a data type of <b>IF_INDEX</b>. The <b>wType</b> member is only available  on Windows XP and later. On Windows 2000 and earlier, this member is defined as <b>Unused2</b>.
@@ -181,17 +109,12 @@ The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddr
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IPADDRROW</b> structure is defined in the <i>Ipmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-#### Examples
+## Examples
 
 To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure and then prints out the <b>MIB_IPADDRROW</b> structures in this table, see the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function.
-
-<div class="code"></div>
 
 ## -see-also
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
-
-
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>

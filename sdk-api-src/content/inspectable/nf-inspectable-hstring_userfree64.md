@@ -49,7 +49,6 @@ api_name:
 
 # HSTRING_UserFree64 function
 
-
 ## -description
 
 Frees resources on the server side when called by RPC stub files.

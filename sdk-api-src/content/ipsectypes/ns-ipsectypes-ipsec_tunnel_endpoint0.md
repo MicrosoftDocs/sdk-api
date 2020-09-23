@@ -47,9 +47,6 @@ api_name:
  - IPSEC_TUNNEL_ENDPOINT0
 ---
 
-# IPSEC_TUNNEL_ENDPOINT0 structure
-
-
 ## -description
 
 The <b>IPSEC_TUNNEL_ENDPOINT0</b> structure is used to store address information for an end point of a tunnel mode SA.
@@ -64,36 +61,19 @@ Specifies the IP version. In tunnel mode, this is the version of the outer heade
 
 ### -field v4Address
 
-### -field v6Address
-
- 
-
-
-
-
-#### - ( unnamed union )
-
-switch_type(FWP_IP_VERSION), switch_is(ipVersion)
-
-Tagged union containing the tunnel end point address.
-
-
-
-#### v4Address
-
 <b>Type: <b>UINT32</b>
-</b>
+
 case(FWP_IP_VERSION_V4)
 
-
-
-#### v6Address
+### -field v6Address
 
 <b>Type: <b>UINT8[16]</b>
-</b>
+
 case(FWP_IP_VERSION_V6)
 
 ## -remarks
+
+For the unnamed union containing the tunnel end point address, switch_type(FWP_IP_VERSION), switch_is(ipVersion).
 
 <b>IPSEC_TUNNEL_ENDPOINT0</b> is a specific implementation of IPSEC_TUNNEL_ENDPOINT. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
@@ -101,10 +81,6 @@ case(FWP_IP_VERSION_V6)
 
 [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
-
-
 [IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
-
-
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API structures</a>

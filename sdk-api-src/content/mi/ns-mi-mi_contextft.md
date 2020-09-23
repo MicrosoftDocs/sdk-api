@@ -47,9 +47,6 @@ api_name:
  - MI_ContextFT
 ---
 
-# MI_ContextFT structure
-
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a> 
@@ -57,10 +54,6 @@ A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_contex
      structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Canceled
 
@@ -152,7 +145,6 @@ Providers call this function to post an instance to the server in response to a 
 Providers call this function to post a return code to the server in response to a request. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_postresult">MI_Context_PostResult</a>.
 
-
 #### - PostTerminatingError
 
 Posts a return code and an error message to the server in response to a request.
@@ -219,3 +211,4 @@ Sends a progress message to the client. See
 
 Sends streamed parameter data to the requestor. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writestreamparameter">MI_Context_WriteStreamParameter</a>.
+       

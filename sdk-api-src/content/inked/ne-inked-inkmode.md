@@ -45,9 +45,6 @@ api_name:
  - InkMode
 ---
 
-# InkMode enumeration
-
-
 ## -description
 
 Specifies the collection mode for drawn ink-whether ink collection is disabled, ink is collected, or ink and gestures are collected.
@@ -56,21 +53,13 @@ Specifies the collection mode for drawn ink-whether ink collection is disabled, 
 
 ### -field IEM_Disabled
 
-### -field IEM_Ink
-
-### -field IEM_InkAndGesture
-
-#### - IM_Disabled
-
 Ink collection is disabled. No strokes are created when in this mode.
 
-
-#### - IM_Ink
+### -field IEM_Ink
 
 Ink only is collected, creating a stroke.
 
-
-#### - IM_InkAndGesture
+### -field IEM_InkAndGesture
 
 Default. Ink is collected and single-stroke gestures are accepted.
 
@@ -78,10 +67,6 @@ Default. Ink is collected and single-stroke gestures are accepted.
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
-
-
 <a href="/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
-
-
 
 <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode">InkEdit::InkMode Property</a>

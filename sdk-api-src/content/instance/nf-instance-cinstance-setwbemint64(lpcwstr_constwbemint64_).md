@@ -46,9 +46,6 @@ api_name:
  - CInstance.SetWBEMINT64
 ---
 
-# CInstance::SetWBEMINT64
-
-
 ## -description
 
 <p class="CCE_Message">[The <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 

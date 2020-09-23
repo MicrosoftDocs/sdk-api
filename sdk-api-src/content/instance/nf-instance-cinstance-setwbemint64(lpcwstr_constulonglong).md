@@ -46,9 +46,6 @@ api_name:
  - CInstance.SetWBEMINT64
 ---
 
-# CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG)
-
-
 ## -description
 
 <p class="CCE_Message">[The <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
@@ -65,14 +62,7 @@ The <b>SetWBEMINT64(LPCWSTR, const LONGLONG&amp;)</b> method sets a 64-bit integ
 
 Name of the 64-bit integer property that is set.
 
-### -param i64Value
-
-TBD
-
-
-
-
-#### - wbemint64 [ref]
+### -param i64Value [ref]
 
 Value assigned to the 64-bit integer property.
 

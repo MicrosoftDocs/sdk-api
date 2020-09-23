@@ -49,13 +49,9 @@ api_name:
  - USE_INFO_3
 ---
 
-# USE_INFO_3 structure
-
-
 ## -description
 
-The
-				<b>USE_INFO_3</b> structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
+The <b>USE_INFO_3</b> structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
 
 ## -struct-fields
 
@@ -64,13 +60,6 @@ The
 <a href="/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure that contains
 
 ### -field ui3_flags
-
- 
-
-
-
-
-#### - flags
 
 A set of bit flags that describe connection behavior and credential handling.
 
@@ -129,4 +118,4 @@ No explicit credentials are supplied in the call to <a href="/windows/desktop/ap
 
 
 
-<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>
+<a href="/windows/desktop/NetMgmt/use-functions">Use functions</a>

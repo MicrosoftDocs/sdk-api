@@ -49,9 +49,6 @@ api_name:
  - NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 ---
 
-# NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure
-
-
 ## -description
 
 A client application passes the  <b>NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</b> structure to the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function when the application requests a password change validation.
@@ -76,23 +73,12 @@ Specifies a <a href="/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_pass
 
 ### -field PasswordMatch
 
- 
-
-
-
-
-#### - PasswordMatched
-
 BOOLEAN value that indicates the result of the application's attempt to validate the old password supplied by the user. If this parameter is <b>FALSE</b>, the password was not validated.
 
 ## -see-also
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
 
-
-
 <a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
-
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

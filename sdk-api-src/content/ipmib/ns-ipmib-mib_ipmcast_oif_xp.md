@@ -50,9 +50,6 @@ api_name:
  - MIB_IPMCAST_OIF
 ---
 
-# MIB_IPMCAST_OIF_XP structure
-
-
 ## -description
 
 The 
@@ -74,14 +71,7 @@ Reserved. This member should be zero.
 
 ### -field dwReserved1
 
- 
-
-
-
-
-#### - pvReserved
-
-Reserved. This member should be <b>NULL</b>.
+Reserved. This member should be zero.
 
 ## -remarks
 

@@ -47,9 +47,6 @@ api_name:
  - MI_QualifierSetFT
 ---
 
-# MI_QualifierSetFT structure
-
-
 ## -description
 
 A support structure used in the 
@@ -57,10 +54,6 @@ A support structure used in the
      name prefix "MI_QualifierSet_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field GetQualifier
 

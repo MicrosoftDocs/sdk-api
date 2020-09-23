@@ -49,18 +49,15 @@ api_name:
  - MAGCOLOREFFECT
 ---
 
-# MAGCOLOREFFECT structure
-
-
 ## -description
 
 Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.
 
 ## -struct-fields
 
-### -field transform [5] [5]
+### -field transform
 
-Type: <b>float</b>
+Type: <b>float [5] [5]</b>
 
 The color transformation matrix.
 
@@ -73,10 +70,4 @@ The values in the matrix are for red, blue, green, alpha, and color translation.
 
 <a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetcoloreffect">MagGetColorEffect</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetcoloreffect">MagSetColorEffect</a>
-
-
-
-<b>Reference</b>

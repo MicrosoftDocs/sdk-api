@@ -45,13 +45,9 @@ api_name:
  - CBGETRSVPOBJECTS
 ---
 
-# CBGETRSVPOBJECTS callback function
-
-
 ## -description
 
-The 
-<i>cbGetRsvpObjects</i> function is a callback function for LPMs to asynchronously return results for 
+The <i>cbGetRsvpObjects</i> function is a callback function for LPMs to asynchronously return results for 
 <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a> requests. LPMs call the 
 <i>cbGetRsvpObjects</i> function to asynchronously return policy data objects to the PCM for an 
 <i>LPM_GetRsvpObjects</i> request. An LPM should only use the 
@@ -74,9 +70,6 @@ Unique handle that distinguishes this request from all other requests, provided 
 
 Error value, used by the PCM to determine whether the policy data objects returned with this function should be used. Any value other than LPM_OK will result in the PCM ignoring the contents of *<i>RsvpObjects</i>. 
 
-
-
-
 Note that if an LPM is returning an error, it should free buffers allocated during the 
 <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a> request processing; these buffers should have been allocated using the <b>MemoryAllocator</b> function, supplied within the 
 <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function as its <i>FreeMemory</i> parameter.
@@ -87,24 +80,9 @@ If no policy data objects are being returned, <i>LpmError</i> must be set to LPM
 
 Number of policy data objects being returned. If no policy data objects are being returned, the <i>LpmError</i> parameter must be set to LPM_OK, the <i>RsvpObjectsCount</i> parameter must be set to zero, and the *<i>RsvpObjects</i> parameter must be set to null.
 
-
-#### - **ppRsvpObjects [in]
-
-Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the 
-<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
-
-
-
-
-If no policy data objects are being returned, <i>LpmError</i> must be set to LPM_OK, <i>RsvpObjectsCount</i> must be set to zero, and *<i>RsvpObjects</i> must be set to null.
-
 ### -param ppRsvpObjects [in]
 
-Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the 
-<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
-
-
-
+Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
 
 If no policy data objects are being returned, <i>LpmError</i> must be set to LPM_OK, <i>RsvpObjectsCount</i> must be set to zero, and *<i>RsvpObjects</i> must be set to null.
 

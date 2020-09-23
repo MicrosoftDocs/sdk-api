@@ -55,9 +55,6 @@ api_name:
  - EnumResourceNamesExW
 ---
 
-# EnumResourceNamesExW function
-
-
 ## -description
 
 Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways.
@@ -74,7 +71,9 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 ### -param lpType
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/8d27f79a-8165-4565-a975-f25b2344efdc">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpEnumFunc [in]
 
@@ -140,15 +139,6 @@ Type: <b>LANGID</b>
 
 The localization language used to filter the search in the MUI module. This parameter is used only when the <b>RESOURCE_ENUM_MUI</b> flag is set in <i>dwFlags</i>. If zero is specified, then all .mui files that match current language preferences are included in the search, following the usual Resource Loader strategy (see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>). If a nonzero <i>LangId</i> is specified, then the only .mui file searched will be the one matching the specified <i>LangId</i>.
 
-
-#### - lpszType [in]
-
-Type: <b>LPCTSTR</b>
-
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/8d27f79a-8165-4565-a975-f25b2344efdc">Resource Types</a>. For more information, see 
-
-the Remarks section below.
-
 ## -returns
 
 Type: <b>BOOL</b>
@@ -177,15 +167,9 @@ If <i>LangId</i> is nonzero, then only the .mui file corresponding to that Langu
 
 The enumeration never includes duplicates: if resources for a particular language are contained in both the LN file and in an .mui file, the name will only be enumerated once.
 
-
-#### Examples
+## Examples
 
 For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Creating a Resource List</a>.
-
-<div class="code"></div>
-
-
-
 
 > [!NOTE]
 > The libloaderapi.h header defines EnumResourceNamesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

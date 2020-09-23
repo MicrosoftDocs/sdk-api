@@ -45,9 +45,6 @@ api_name:
  - IITWordWheel.Lookup
 ---
 
-# IITWordWheel::Lookup(LPCVOID,BOOL,LONG)
-
-
 ## -description
 
 Looks up an entry and returns contents in a buffer.
@@ -60,7 +57,7 @@ Entry to look up.
 
 ### -param fExactMatch [out]
 
-Buffer to return entry.
+Whether an exact match is expected.
 
 ### -param plEntry [in]
 
@@ -84,8 +81,6 @@ This method can return one of these values.
 <td width="60%">
 The word wheel entry was successfully returned.
 
-
-
 </td>
 </tr>
 <tr>
@@ -96,8 +91,6 @@ The word wheel entry was successfully returned.
 </td>
 <td width="60%">
 Entry number is out of range.
-
-
 
 </td>
 </tr>

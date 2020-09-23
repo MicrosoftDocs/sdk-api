@@ -47,9 +47,6 @@ api_name:
  - TARGET_INFORMATION_CLASS
 ---
 
-# TARGET_INFORMATION_CLASS enumeration
-
-
 ## -description
 
 The <b>TARGET_INFORMATION_CLASS</b> enumeration specifies information about the indicated target device that the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a> function retrieves.
@@ -65,6 +62,8 @@ A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsi
 A <b>null</b>-terminated string that contains the alias of the target device.
 
 ### -field DiscoveryMechanisms
+
+A list of <b>null</b>-terminated strings that describe the discovery mechanisms that located the indicated target. The list is terminated by a double <b>null</b>.
 
 ### -field PortalGroups
 
@@ -96,11 +95,6 @@ The flags associated with the target. The following table lists the flags that c
 ### -field LoginOptions
 
 A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
-
-
-#### - DiscoveryMechanism
-
-A list of <b>null</b>-terminated strings that describe the discovery mechanisms that located the indicated target. The list is terminated by a double <b>null</b>.
 
 ## -see-also
 

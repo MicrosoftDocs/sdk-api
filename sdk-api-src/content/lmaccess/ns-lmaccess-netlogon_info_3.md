@@ -49,9 +49,6 @@ api_name:
  - NETLOGON_INFO_3
 ---
 
-# NETLOGON_INFO_3 structure
-
-
 ## -description
 
 The <b>NETLOGON_INFO_3</b> structure defines a level-3 control query response from a domain controller.
@@ -59,33 +56,6 @@ The <b>NETLOGON_INFO_3</b> structure defines a level-3 control query response fr
 ## -struct-fields
 
 ### -field netlog3_flags
-
-### -field netlog3_logon_attempts
-
-The number of logon attempts made for the domain.
-
-### -field netlog3_reserved1
-
-Reserved value.
-
-### -field netlog3_reserved2
-
-Reserved value.
-
-### -field netlog3_reserved3
-
-Reserved value.
-
-### -field netlog3_reserved4
-
-Reserved value.
-
-### -field netlog3_reserved5
-
-Reserved value.
-
-
-#### - netlog1_flags
 
 An integer value that contains one or more of the following control query responses from the DC.
 
@@ -172,6 +142,30 @@ Last update to the DNS records on the DC failed.
 </td>
 </tr>
 </table>
+
+### -field netlog3_logon_attempts
+
+The number of logon attempts made for the domain.
+
+### -field netlog3_reserved1
+
+Reserved value.
+
+### -field netlog3_reserved2
+
+Reserved value.
+
+### -field netlog3_reserved3
+
+Reserved value.
+
+### -field netlog3_reserved4
+
+Reserved value.
+
+### -field netlog3_reserved5
+
+Reserved value.
 
 ## -see-also
 

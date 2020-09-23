@@ -49,16 +49,11 @@ api_name:
 
 # MI_DestinationOptionsFT structure
 
-
 ## -description
 
 A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure.  Use the functions with the name prefix "MI_DestinationOptions_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field AddCredentials
 
@@ -111,3 +106,11 @@ Sets a custom numeric option value. See <a href="/previous-versions/windows/desk
 ### -field SetString
 
 Sets a custom string option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_setstring">MI_DestinationOptions_SetString</a>.
+
+### -field SetInterval
+
+TBD
+
+### -field GetInterval
+
+TBD

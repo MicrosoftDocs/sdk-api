@@ -47,37 +47,22 @@ api_name:
  - MI_ApplicationFT
 ---
 
-# MI_ApplicationFT structure
-
-
 ## -description
 
-A support structure used in the 
-     <a href="/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a> structure. Use the functions with the 
-     name prefix "MI_Application_" to manipulate these structures.
+A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a> structure. Use the functions with the name prefix "MI_Application_" to manipulate these structures.
 
 ## -struct-fields
-
-### -field MI_Result
-
-TBD
 
 ### -field Close
 
 Deinitializes the management infrastructure. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a>.
 
-### -field NewDeserializer
+### -field NewSession
 
-Creates a deserializer that can be used to re-create the 
-       <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> or 
-       <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>. See 
-       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.
-
-### -field NewDestinationOptions
-
-Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object. 
-       See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
+Creates a session that allows a group of operations that go to the same destination to be grouped so they 
+       can share connections. See 
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 ### -field NewHostedProvider
 
@@ -89,10 +74,20 @@ Creates a new hosted Provider. See
 Creates an instance. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newinstance">MI_Application_NewInstance</a>.
 
+### -field NewDestinationOptions
+
+Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object. 
+       See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
+
 ### -field NewOperationOptions
 
 Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> object. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newoperationoptions">MI_Application_NewOperationOptions</a>.
+
+### -field NewSubscriptionDeliveryOptions
+
+See 
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a>.
 
 ### -field NewSerializer
 
@@ -101,13 +96,17 @@ Creates a serializer allowing a <a href="/windows/desktop/api/mi/ns-mi-mi_instan
        disk or transported over a transport. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
 
-### -field NewSession
+### -field NewDeserializer
 
-Creates a session that allows a group of operations that go to the same destination to be grouped so they 
-       can share connections. See 
-       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
+Creates a deserializer that can be used to re-create the 
+       <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> or 
+       <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>. See 
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.
 
-### -field NewSubscriptionDeliveryOptions
+### -field NewInstanceFromClass
 
-See 
-       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a>.
+TBD
+
+### -field NewClass
+
+TBD
